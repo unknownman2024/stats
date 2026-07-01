@@ -78,6 +78,13 @@ IGNORED_PATHS = [
     "/favicon.ico", "/robots.txt",
 ]
 
+# Merge specific sections into a single canonical name
+# (keys are lowercased, stripped; values are the merged section name)
+SECTION_MAP = {
+    "live-boxoffice": "box-office",
+    "daily-advance": "advance-bookings",
+}
+
 # =============================================================================
 # Logging
 # =============================================================================
@@ -126,6 +133,11 @@ class DailyStats:
 # =============================================================================
 
 def sanitize_filename(name: str) -> str:
+    """
+    Sanitize a string to be used as a filename.
+    - lowercase, spaces→hyphens, strip invalid chars, collapse hyphens, trim
+    - if >80 chars, use SHA1 hash
+    """
     s = name.lower().strip()
     s = s.replace(" ", "-")
     s = re.sub(r"[^a-z0-9\-_]", "", s)
@@ -136,16 +148,32 @@ def sanitize_filename(name: str) -> str:
     return s + ".json" if s else "index.json"
 
 def extract_slug_and_section(path: str) -> Tuple[str, str]:
+    """
+    Extract section (first path segment) and slug (remaining path).
+    Applies SECTION_MAP to merge specific sections.
+    """
     path = path.split("?")[0]
     path = path.rstrip("/")
     if not path or path == "/":
         return "index", "index"
+
     parts = path.split("/")
-    section = parts[1] if len(parts) > 1 else "index"
-    slug = "/".join(parts[2:]) if len(parts) > 2 else "index"
+    raw_section = parts[1] if len(parts) > 1 else "index"
+
+    # Normalise and map if needed
+    normalised = raw_section.lower().strip()
+    mapped_section = SECTION_MAP.get(normalised, normalised)
+
+    # Slug: everything after the first segment
+    if len(parts) > 2:
+        slug = "/".join(parts[2:])
+    else:
+        slug = "index"
     if not slug:
         slug = "index"
-    section_safe = sanitize_filename(section).replace(".json", "")
+
+    # Sanitise the mapped section name for use as filename base
+    section_safe = sanitize_filename(mapped_section).replace(".json", "")
     return section_safe, slug
 
 def is_ignored_path(path: str) -> bool:
@@ -409,7 +437,7 @@ def write_section_files(
         file_data = {
             "generated": generated,
             "property": property_id,
-            "section": section_name,
+            "section": section_name,   # mapped section name
             "range": range_name,
             "count": len(section_data.pages),
             "totalViews": section_data.total_views,
