@@ -34,6 +34,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update GA4 stats [skip ci]"
+            git commit -m "Update GA4 stats"
             git push
           fi
