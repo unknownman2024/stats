@@ -6,6 +6,13 @@ A production-grade single-file script that exports Google Analytics 4 page stati
 into optimized JSON files for a website. Designed for hourly execution on GitHub Actions.
 
 Uses GA4_KEY_JSON environment variable (if present) or falls back to key.json file.
+
+Generates:
+- stats/all/          → section files for ALL available data (from 3650 days ago to today)
+- stats/today/        → section files for today's data
+- stats/yesterday/    → section files for yesterday's data
+- summary.json        → daily breakdown for ALL available days (from the same start date)
+- index.json          → metadata of sections from the all-time data
 """
 
 import hashlib
@@ -18,7 +25,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, asdict
 from datetime import datetime, timezone
-from typing import Dict, List, Tuple, Any, Optional
+from typing import Dict, List, Tuple, Any
 
 # Google Analytics Data API
 from google.analytics.data_v1beta import BetaAnalyticsDataClient
@@ -47,15 +54,18 @@ PROPERTY_ID = "538422281"
 KEY_FILE = "key.json"          # Fallback for local development
 OUTPUT_DIR = "stats"
 
-# Only three ranges: all time, today, yesterday
+# Start date for "all" data – wide enough to capture everything the property holds
+ALL_TIME_START = "3650daysAgo"   # ~10 years, but GA4 only returns retained data
+
+# Only three ranges: all time (from ALL_TIME_START), today, yesterday
 DATE_RANGES = [
-    ("all", "365daysAgo", "today"),
+    ("all", ALL_TIME_START, "today"),
     ("today", "today", "today"),
     ("yesterday", "yesterday", "yesterday"),
 ]
 
-# For daily breakdown in summary.json – last 30 days
-DAILY_START = "30daysAgo"
+# For daily breakdown in summary.json – use the same wide start
+DAILY_START = ALL_TIME_START
 DAILY_END = "today"
 
 PAGE_SIZE = 100000
@@ -105,7 +115,7 @@ class SectionData:
 
 @dataclass
 class DailyStats:
-    date: str
+    date: str           # YYYY-MM-DD
     views: int
     users: int
     sessions: int
@@ -445,7 +455,7 @@ def write_index(index_entries: Dict, generated: str, property_id: str) -> None:
     logger.info(f"✓ {filepath}")
 
 # =============================================================================
-# Main Orchestrator
+# Credentials Helper
 # =============================================================================
 
 def get_credentials() -> service_account.Credentials:
@@ -467,6 +477,10 @@ def get_credentials() -> service_account.Credentials:
                          "GA4_KEY_JSON environment variable not set.")
             sys.exit(1)
         return service_account.Credentials.from_service_account_file(KEY_FILE)
+
+# =============================================================================
+# Main Orchestrator
+# =============================================================================
 
 def export_ga4_data() -> None:
     start_time = time.time()
@@ -507,8 +521,8 @@ def export_ga4_data() -> None:
                 logger.error(f"Failed to process range '{range_name}': {e}")
                 sys.exit(1)
 
-    # ---- Fetch daily data for summary ----
-    logger.info("Fetching daily data for summary...")
+    # ---- Fetch daily data for summary (from ALL_TIME_START to today) ----
+    logger.info("Fetching daily data for summary (ALL days)...")
     try:
         daily_rows = fetcher.fetch_daily_range(DAILY_START, DAILY_END)
         daily_stats = process_daily_rows(daily_rows)
