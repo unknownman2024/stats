@@ -25,7 +25,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, asdict
 from datetime import datetime, timezone
-from typing import Dict, List, Tuple, Any
+from typing import Dict, List, Tuple, Any, Optional
 
 # Google Analytics Data API
 from google.analytics.data_v1beta import BetaAnalyticsDataClient
@@ -78,8 +78,9 @@ IGNORED_PATHS = [
     "/favicon.ico", "/robots.txt",
 ]
 
-# Merge specific sections into a single canonical name
-# (keys are lowercased, stripped; values are the merged section name)
+# Merge specific sections after processing.
+# Keys are the raw, lowercased, stripped first path segment.
+# Values are the target canonical section name (will be sanitised).
 SECTION_MAP = {
     "live-boxoffice": "box-office",
     "daily-advance": "advance-bookings",
@@ -147,10 +148,10 @@ def sanitize_filename(name: str) -> str:
         return hashlib.sha1(s.encode("utf-8")).hexdigest() + ".json"
     return s + ".json" if s else "index.json"
 
-def extract_slug_and_section(path: str) -> Tuple[str, str]:
+def extract_raw_slug_and_section(path: str) -> Tuple[str, str]:
     """
-    Extract section (first path segment) and slug (remaining path).
-    Applies SECTION_MAP to merge specific sections.
+    Extract raw section (first path segment) and slug (remaining path).
+    No mapping applied here – mapping is done later during merge.
     """
     path = path.split("?")[0]
     path = path.rstrip("/")
@@ -159,22 +160,11 @@ def extract_slug_and_section(path: str) -> Tuple[str, str]:
 
     parts = path.split("/")
     raw_section = parts[1] if len(parts) > 1 else "index"
-
-    # Normalise and map if needed
-    normalised = raw_section.lower().strip()
-    mapped_section = SECTION_MAP.get(normalised, normalised)
-
-    # Slug: everything after the first segment
-    if len(parts) > 2:
-        slug = "/".join(parts[2:])
-    else:
-        slug = "index"
+    slug = "/".join(parts[2:]) if len(parts) > 2 else "index"
     if not slug:
         slug = "index"
 
-    # Sanitise the mapped section name for use as filename base
-    section_safe = sanitize_filename(mapped_section).replace(".json", "")
-    return section_safe, slug
+    return raw_section, slug
 
 def is_ignored_path(path: str) -> bool:
     path_lower = path.lower()
@@ -194,6 +184,44 @@ def format_date_yyyymmdd(date_str: str) -> str:
     if len(date_str) == 8:
         return f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
     return date_str
+
+# =============================================================================
+# Section Merging
+# =============================================================================
+
+def merge_sections(
+    sections: Dict[str, SectionData],
+    raw_map: Dict[str, str]
+) -> Dict[str, SectionData]:
+    """
+    Merge sections according to SECTION_MAP.
+    sections: dict mapping sanitised section name -> SectionData
+    raw_map: dict mapping sanitised section name -> original raw section string
+    Returns a new dict with merged sections.
+    """
+    merged: Dict[str, SectionData] = {}
+
+    for sanitised_key, section_data in sections.items():
+        raw = raw_map.get(sanitised_key, sanitised_key)
+        normalized = raw.lower().strip()
+
+        if normalized in SECTION_MAP:
+            target_raw = SECTION_MAP[normalized]
+            target_key = sanitize_filename(target_raw).replace(".json", "")
+        else:
+            target_key = sanitised_key  # keep as is
+
+        if target_key not in merged:
+            merged[target_key] = SectionData(name=target_key, pages=[])
+        merged[target_key].pages.extend(section_data.pages)
+
+    # Recalculate totals for each merged section
+    for sec in merged.values():
+        sec.total_views = sum(p.views for p in sec.pages)
+        sec.total_users = sum(p.users for p in sec.pages)
+        sec.total_sessions = sum(p.sessions for p in sec.pages)
+
+    return merged
 
 # =============================================================================
 # GA4 Data Fetcher with Retry Logic
@@ -345,19 +373,27 @@ class GA4DataFetcher:
 # Data Processing
 # =============================================================================
 
-def process_rows(rows: List[Dict]) -> Tuple[Dict[str, SectionData], Dict]:
+def process_rows(rows: List[Dict]) -> Tuple[Dict[str, SectionData], Dict[str, str]]:
+    """
+    Group rows by section (sanitised), and also track raw section names.
+    Returns (sections_dict, raw_map).
+    """
     sections: Dict[str, SectionData] = {}
+    raw_map: Dict[str, str] = {}
     total_views = total_users = total_sessions = 0
     total_pages = 0
 
     for row in rows:
         path = row["path"]
-        section_name, slug = extract_slug_and_section(path)
+        raw_section, slug = extract_raw_slug_and_section(path)
 
-        if section_name not in sections:
-            sections[section_name] = SectionData(name=section_name, pages=[])
+        # Sanitise raw section to use as dictionary key
+        section_key = sanitize_filename(raw_section).replace(".json", "")
+        if section_key not in sections:
+            sections[section_key] = SectionData(name=section_key, pages=[])
+            raw_map[section_key] = raw_section
 
-        sections[section_name].pages.append(PageMetrics(
+        sections[section_key].pages.append(PageMetrics(
             slug=slug,
             views=row["views"],
             users=row["users"],
@@ -369,18 +405,13 @@ def process_rows(rows: List[Dict]) -> Tuple[Dict[str, SectionData], Dict]:
         total_sessions += row["sessions"]
         total_pages += 1
 
+    # Recalculate totals for each section
     for sec in sections.values():
         sec.total_views = sum(p.views for p in sec.pages)
         sec.total_users = sum(p.users for p in sec.pages)
         sec.total_sessions = sum(p.sessions for p in sec.pages)
 
-    range_totals = {
-        "views": total_views,
-        "users": total_users,
-        "sessions": total_sessions,
-        "pages": total_pages,
-    }
-    return sections, range_totals
+    return sections, raw_map
 
 def process_daily_rows(rows: List[Dict]) -> List[DailyStats]:
     daily_data: Dict[str, Dict] = {}
@@ -437,7 +468,7 @@ def write_section_files(
         file_data = {
             "generated": generated,
             "property": property_id,
-            "section": section_name,   # mapped section name
+            "section": section_name,
             "range": range_name,
             "count": len(section_data.pages),
             "totalViews": section_data.total_views,
@@ -539,9 +570,11 @@ def export_ga4_data() -> None:
             try:
                 rows = future.result()
                 logger.info(f"Range '{range_name}' done. Rows: {len(rows)}")
-                sections, _ = process_rows(rows)
+                sections, raw_map = process_rows(rows)
+                # Apply section merging after processing
+                merged_sections = merge_sections(sections, raw_map)
                 index_entries = write_section_files(
-                    sections, range_name, generated, PROPERTY_ID
+                    merged_sections, range_name, generated, PROPERTY_ID
                 )
                 if range_name == "all":
                     all_index_entries = index_entries
