@@ -13,6 +13,8 @@ Generates:
 - stats/yesterday/    → section files for yesterday's data
 - summary.json        → daily breakdown for ALL available days (from the same start date)
 - index.json          → metadata of sections from the all-time data
+
+NEW FEATURE: Pages with "_raw" or "-raw" in the path are ignored entirely.
 """
 
 import hashlib
@@ -85,6 +87,11 @@ SECTION_MAP = {
     "live-boxoffice": "box-office",
     "daily-advance": "advance-bookings",
 }
+
+# -----------------------------------------------------------------------------
+# NEW: Raw path indicators to exclude
+# -----------------------------------------------------------------------------
+RAW_INDICATORS = ["_raw", "-raw"]
 
 # =============================================================================
 # Logging
@@ -169,6 +176,14 @@ def extract_raw_slug_and_section(path: str) -> Tuple[str, str]:
 def is_ignored_path(path: str) -> bool:
     path_lower = path.lower()
     return any(path_lower.startswith(ignored.lower()) for ignored in IGNORED_PATHS)
+
+# -----------------------------------------------------------------------------
+# NEW: Check if path contains any raw indicator
+# -----------------------------------------------------------------------------
+def is_raw_path(path: str) -> bool:
+    """Return True if path contains '_raw' or '-raw' (case-insensitive)."""
+    lower = path.lower()
+    return any(ind in lower for ind in RAW_INDICATORS)
 
 def generate_timestamp() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
@@ -377,6 +392,7 @@ def process_rows(rows: List[Dict]) -> Tuple[Dict[str, SectionData], Dict[str, st
     """
     Group rows by section (sanitised), and also track raw section names.
     Returns (sections_dict, raw_map).
+    NEW: Rows whose path contains '_raw' or '-raw' are skipped.
     """
     sections: Dict[str, SectionData] = {}
     raw_map: Dict[str, str] = {}
@@ -385,6 +401,13 @@ def process_rows(rows: List[Dict]) -> Tuple[Dict[str, SectionData], Dict[str, st
 
     for row in rows:
         path = row["path"]
+
+        # -----------------------------------------------------------------
+        # NEW: Skip raw paths
+        # -----------------------------------------------------------------
+        if is_raw_path(path):
+            continue
+
         raw_section, slug = extract_raw_slug_and_section(path)
 
         # Sanitise raw section to use as dictionary key
@@ -414,8 +437,20 @@ def process_rows(rows: List[Dict]) -> Tuple[Dict[str, SectionData], Dict[str, st
     return sections, raw_map
 
 def process_daily_rows(rows: List[Dict]) -> List[DailyStats]:
+    """
+    Aggregate daily totals.
+    NEW: Rows whose path contains '_raw' or '-raw' are skipped.
+    """
     daily_data: Dict[str, Dict] = {}
     for row in rows:
+        path = row["path"]
+
+        # -----------------------------------------------------------------
+        # NEW: Skip raw paths
+        # -----------------------------------------------------------------
+        if is_raw_path(path):
+            continue
+
         date_str = row["date"]
         if date_str not in daily_data:
             daily_data[date_str] = {
@@ -427,7 +462,7 @@ def process_daily_rows(rows: List[Dict]) -> List[DailyStats]:
         daily_data[date_str]["views"] += row["views"]
         daily_data[date_str]["users"] += row["users"]
         daily_data[date_str]["sessions"] += row["sessions"]
-        daily_data[date_str]["pages_set"].add(row["path"])
+        daily_data[date_str]["pages_set"].add(path)
 
     daily_stats = []
     for date_str, data in sorted(daily_data.items()):
