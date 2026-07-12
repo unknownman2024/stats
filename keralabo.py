@@ -27,15 +27,14 @@ ATP = 150  # average ticket price (used only if gross missing)
 # Helpers
 # ------------------------------------------------------------
 def ist_now():
-    """Return current time in IST (UTC+5:30) as ISO string."""
+    """Return current time in IST (UTC+5:30) as ISO 8601 string with offset."""
     tz = timezone(timedelta(hours=5, minutes=30))
-    return datetime.now(tz).isoformat(tzinfo=tz)
+    return datetime.now(tz).isoformat()  # FIXED: removed tzinfo kwarg
 
 def normalize_movie_name(name):
     """Normalise a movie title for fuzzy matching."""
     if not name:
         return ""
-    # lower case, remove punctuation, collapse spaces
     s = name.lower()
     s = s.replace(",", " ").replace(".", " ").replace("'", " ")
     s = ''.join(c for c in s if c.isalnum() or c.isspace())
@@ -80,14 +79,12 @@ def group_similar_movies(titles, threshold=0.85):
     if not titles:
         return {}
 
-    # Normalise and create unique list
     unique = {}
     for t in titles:
         norm = normalize_movie_name(t)
         if norm:
             unique[t] = norm
 
-    # Build groups
     groups = []
     used = set()
     for title, norm in unique.items():
