@@ -1,6 +1,6 @@
 {
   "date": "2026-07-15",
-  "last_updated": "2026-07-12T19:12:28.587061+05:30",
+  "last_updated": "2026-07-12T20:28:49.829937+05:30",
   "movies": {
     "FRANCE vs SPAIN Semi Final 1": {
       "gross": 2550,
@@ -207,16 +207,50 @@
       ],
       "shows": 8,
       "tickets_sold": 0
+    },
+    "SECRET OF KALINGA": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "SECRET OF KALINGA",
+              "screen": "Cinema-3",
+              "showid": "22367",
+              "tickets_sold": 0,
+              "time": "06:30 PM",
+              "venue": "Davis Theatre"
+            }
+          ],
+          "shows": 1,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "SECRET OF KALINGA",
+          "screen": "Cinema-3",
+          "showid": "22367",
+          "tickets_sold": 0,
+          "time": "06:30 PM",
+          "venue": "Davis Theatre"
+        }
+      ],
+      "shows": 1,
+      "tickets_sold": 0
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "FRANCE vs SPAIN Semi Final 1"
-        ],
-        "canonical": "FRANCE vs SPAIN Semi Final 1"
-      },
       {
         "aliases": [
           "I Nobody",
@@ -227,9 +261,15 @@
       },
       {
         "aliases": [
-          "SECRET OF KALINGA"
+          "Argentina vs England Semi Final 2"
         ],
-        "canonical": "SECRET OF KALINGA"
+        "canonical": "Argentina vs England Semi Final 2"
+      },
+      {
+        "aliases": [
+          "FRANCE vs SPAIN Semi Final 1"
+        ],
+        "canonical": "FRANCE vs SPAIN Semi Final 1"
       },
       {
         "aliases": [
@@ -239,9 +279,9 @@
       },
       {
         "aliases": [
-          "Kireedam"
+          "Evil Dead Burn"
         ],
-        "canonical": "Kireedam"
+        "canonical": "Evil Dead Burn"
       },
       {
         "aliases": [
@@ -251,9 +291,9 @@
       },
       {
         "aliases": [
-          "Evil Dead Burn"
+          "SECRET OF KALINGA"
         ],
-        "canonical": "Evil Dead Burn"
+        "canonical": "SECRET OF KALINGA"
       }
     ]
   }

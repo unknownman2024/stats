@@ -1,6 +1,6 @@
 {
   "date": "2026-07-13",
-  "last_updated": "2026-07-12T19:12:28.586240+05:30",
+  "last_updated": "2026-07-12T20:28:49.828394+05:30",
   "movies": {
     "Balan: The Boy": {
       "gross": 0,
@@ -174,14 +174,24 @@
       "tickets_sold": 2
     },
     "I Nobody": {
-      "gross": 0,
+      "gross": 300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 300,
+              "movie": "I,Nobody",
+              "screen": "Aiswarya",
+              "showid": "7709",
+              "tickets_sold": 2,
+              "time": "02:15 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 300,
+          "shows": 1,
+          "tickets_sold": 2
         },
         "without_gross": {
           "breakdown": [
@@ -288,15 +298,6 @@
               "gross": 0,
               "movie": "I,Nobody",
               "screen": "Aiswarya",
-              "showid": "7709",
-              "tickets_sold": 0,
-              "time": "02:15 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "I,Nobody",
-              "screen": "Aiswarya",
               "showid": "7710",
               "tickets_sold": 0,
               "time": "05:30 PM",
@@ -312,11 +313,20 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 14,
+          "shows": 13,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 300,
+          "movie": "I,Nobody",
+          "screen": "Aiswarya",
+          "showid": "7709",
+          "tickets_sold": 2,
+          "time": "02:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 0,
           "movie": "I Nobody",
@@ -420,15 +430,6 @@
           "gross": 0,
           "movie": "I,Nobody",
           "screen": "Aiswarya",
-          "showid": "7709",
-          "tickets_sold": 0,
-          "time": "02:15 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "I,Nobody",
-          "screen": "Aiswarya",
           "showid": "7710",
           "tickets_sold": 0,
           "time": "05:30 PM",
@@ -445,17 +446,51 @@
         }
       ],
       "shows": 14,
+      "tickets_sold": 2
+    },
+    "SECRET OF KALINGA": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "SECRET OF KALINGA",
+              "screen": "Cinema-3",
+              "showid": "22365",
+              "tickets_sold": 0,
+              "time": "06:30 PM",
+              "venue": "Davis Theatre"
+            }
+          ],
+          "shows": 1,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "SECRET OF KALINGA",
+          "screen": "Cinema-3",
+          "showid": "22365",
+          "tickets_sold": 0,
+          "time": "06:30 PM",
+          "venue": "Davis Theatre"
+        }
+      ],
+      "shows": 1,
       "tickets_sold": 0
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "FRANCE vs SPAIN Semi Final 1"
-        ],
-        "canonical": "FRANCE vs SPAIN Semi Final 1"
-      },
       {
         "aliases": [
           "I Nobody",
@@ -466,9 +501,15 @@
       },
       {
         "aliases": [
-          "SECRET OF KALINGA"
+          "Argentina vs England Semi Final 2"
         ],
-        "canonical": "SECRET OF KALINGA"
+        "canonical": "Argentina vs England Semi Final 2"
+      },
+      {
+        "aliases": [
+          "FRANCE vs SPAIN Semi Final 1"
+        ],
+        "canonical": "FRANCE vs SPAIN Semi Final 1"
       },
       {
         "aliases": [
@@ -478,9 +519,9 @@
       },
       {
         "aliases": [
-          "Kireedam"
+          "Evil Dead Burn"
         ],
-        "canonical": "Kireedam"
+        "canonical": "Evil Dead Burn"
       },
       {
         "aliases": [
@@ -490,9 +531,9 @@
       },
       {
         "aliases": [
-          "Evil Dead Burn"
+          "SECRET OF KALINGA"
         ],
-        "canonical": "Evil Dead Burn"
+        "canonical": "SECRET OF KALINGA"
       }
     ]
   }
