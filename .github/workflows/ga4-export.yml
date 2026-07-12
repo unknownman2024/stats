@@ -1,39 +1,56 @@
-name: GA4 Export
+name: Update All Data (GA4 + Kerala BO)
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
-  workflow_dispatch:
+    # Run every hour
+    - cron: '0 * * * *'
+  workflow_dispatch:   # allow manual trigger
 
 jobs:
-  export:
+  update:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: pip
+          cache: 'pip'
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run exporter
+      # ------------------------------------------------------------
+      # 1. GA4 Export
+      # ------------------------------------------------------------
+      - name: Run GA4 exporter
         env:
           GA4_KEY_JSON: ${{ secrets.GA4_KEY_JSON }}
         run: python main.py
 
+      # ------------------------------------------------------------
+      # 2. Kerala BO Updater
+      # ------------------------------------------------------------
+      - name: Run Kerala BO updater
+        run: python keralabo.py
+
+      # ------------------------------------------------------------
+      # Commit and push all changes
+      # ------------------------------------------------------------
       - name: Commit and push updates
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add stats/
+          git add stats/ data/keralaspecial/
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update GA4 stats"
+            git commit -m "Auto-update: GA4 stats + Kerala box-office [$(date -u +'%Y-%m-%d %H:%M:%S UTC')]"
             git push
           fi
