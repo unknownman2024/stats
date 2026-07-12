@@ -29,7 +29,7 @@ ATP = 150  # average ticket price (used only if gross missing)
 def ist_now():
     """Return current time in IST (UTC+5:30) as ISO 8601 string with offset."""
     tz = timezone(timedelta(hours=5, minutes=30))
-    return datetime.now(tz).isoformat()  # FIXED: removed tzinfo kwarg
+    return datetime.now(tz).isoformat()
 
 def normalize_movie_name(name):
     """Normalise a movie title for fuzzy matching."""
@@ -211,13 +211,14 @@ def merge_date_data(existing_data, new_shows, movie_mapping):
             existing_data["movies"][canon] = {"show_breakdown": []}
         merge_show(existing_data["movies"][canon]["show_breakdown"], show)
 
-    # Recompute aggregates
+    # Recompute aggregates and breakdowns
     for movie, entry in existing_data["movies"].items():
         breakdown = entry["show_breakdown"]
         total_shows = len(breakdown)
         total_sold = sum(s.get("tickets_sold", 0) for s in breakdown)
         total_gross = sum(s.get("gross", 0) for s in breakdown)
 
+        # Filter shows with/without gross
         with_gross = [s for s in breakdown if s.get("gross", 0) > 0]
         without_gross = [s for s in breakdown if s.get("gross", 0) == 0]
 
@@ -230,13 +231,15 @@ def merge_date_data(existing_data, new_shows, movie_mapping):
                 "shows": len(with_gross),
                 "tickets_sold": sum(s["tickets_sold"] for s in with_gross),
                 "gross": sum(s["gross"] for s in with_gross),
+                "breakdown": with_gross,   # full show details
             },
             "without_gross": {
                 "shows": len(without_gross),
                 "tickets_sold": sum(s["tickets_sold"] for s in without_gross),
+                "breakdown": without_gross,  # full show details (gross is 0)
             }
         }
-        # Sort by sold descending
+        # Sort master breakdown by sold descending
         entry["show_breakdown"].sort(key=lambda x: x.get("tickets_sold", 0), reverse=True)
 
     # Store verification
