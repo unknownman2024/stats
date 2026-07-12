@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🎬 Kerala Box‑Office Dashboard</title>
+
+  <!-- Font Awesome (icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+  <style>
+    /* ----- RESET & BASE ----- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #faf8f6;
+      color: #1e1a16;
+      padding: 2rem 1.5rem;
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    /* ----- MAROON THEME (light white + maroonish) ----- */
+    :root {
+      --maroon: #8b1a2b;
+      --maroon-light: #a52a3a;
+      --maroon-soft: #f2e6e8;
+      --maroon-bg: #fcf8f6;
+      --shadow: 0 8px 30px rgba(139, 26, 43, 0.08);
+      --radius: 16px;
+      --transition: 0.25s ease;
+    }
+
+    h1, h2, h3 {
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+
+    /* ----- HEADER ----- */
+    .header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+      gap: 1rem;
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .header-left i {
+      font-size: 2.2rem;
+      color: var(--maroon);
+    }
+
+    .header-left h1 {
+      font-size: 1.9rem;
+      color: var(--maroon);
+    }
+
+    .header-left span {
+      font-weight: 400;
+      color: #6b5a52;
+      font-size: 0.95rem;
+      margin-left: 0.5rem;
+    }
+
+    .header-controls {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.8rem;
+    }
+
+    /* ----- DATE PICKER ----- */
+    .date-nav {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      background: white;
+      padding: 0.3rem 0.8rem 0.3rem 1rem;
+      border-radius: 40px;
+      box-shadow: var(--shadow);
+    }
+
+    .date-nav button {
+      background: none;
+      border: none;
+      font-size: 1.1rem;
+      color: var(--maroon);
+      cursor: pointer;
+      padding: 0.3rem 0.5rem;
+      border-radius: 30px;
+      transition: var(--transition);
+    }
+
+    .date-nav button:hover {
+      background: var(--maroon-soft);
+    }
+
+    .date-nav input[type="date"] {
+      border: none;
+      background: transparent;
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: #1e1a16;
+      padding: 0.4rem 0;
+      outline: none;
+      font-family: inherit;
+      width: 140px;
+      cursor: pointer;
+    }
+
+    .date-nav input[type="date"]::-webkit-calendar-picker-indicator {
+      opacity: 0.5;
+      cursor: pointer;
+    }
+
+    .date-label {
+      font-size: 0.85rem;
+      color: #6b5a52;
+      font-weight: 500;
+    }
+
+    /* ----- SEARCH ----- */
+    .search-box {
+      display: flex;
+      align-items: center;
+      background: white;
+      padding: 0.2rem 0.8rem 0.2rem 1.2rem;
+      border-radius: 40px;
+      box-shadow: var(--shadow);
+      min-width: 200px;
+    }
+
+    .search-box i {
+      color: #a08076;
+      font-size: 0.9rem;
+      margin-right: 0.6rem;
+    }
+
+    .search-box input {
+      border: none;
+      background: transparent;
+      padding: 0.6rem 0;
+      font-size: 0.9rem;
+      width: 100%;
+      outline: none;
+      font-family: inherit;
+      color: #1e1a16;
+    }
+
+    .search-box input::placeholder {
+      color: #bfb0a8;
+    }
+
+    /* ----- STATS ROW ----- */
+    .stats-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .stat-card {
+      background: white;
+      padding: 0.8rem 1.6rem 0.8rem 1.6rem;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      display: flex;
+      align-items: baseline;
+      gap: 0.4rem;
+      flex: 0 1 auto;
+    }
+
+    .stat-card .num {
+      font-size: 1.7rem;
+      font-weight: 700;
+      color: var(--maroon);
+    }
+
+    .stat-card .label {
+      font-size: 0.85rem;
+      color: #6b5a52;
+      font-weight: 500;
+    }
+
+    /* ----- MOVIE GRID ----- */
+    .movie-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    /* ----- MOVIE CARD ----- */
+    .movie-card {
+      background: white;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 1.2rem 1.4rem 1rem 1.4rem;
+      transition: var(--transition);
+      border-left: 5px solid var(--maroon);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .movie-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 36px rgba(139, 26, 43, 0.12);
+    }
+
+    .movie-card .movie-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #1e1a16;
+      margin-bottom: 0.3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .movie-card .movie-title small {
+      font-weight: 400;
+      font-size: 0.75rem;
+      color: #6b5a52;
+      background: var(--maroon-soft);
+      padding: 0.15rem 0.6rem;
+      border-radius: 20px;
+    }
+
+    .movie-card .movie-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem 1.5rem;
+      font-size: 0.85rem;
+      color: #3d322c;
+      margin: 0.5rem 0 0.7rem 0;
+      padding-bottom: 0.6rem;
+      border-bottom: 1px solid #f0e8e4;
+    }
+
+    .movie-card .movie-meta span {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    .movie-card .movie-meta i {
+      color: var(--maroon);
+      width: 1rem;
+      font-size: 0.8rem;
+    }
+
+    /* ----- SEAT TYPE BADGES ----- */
+    .seat-type-badge {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.15rem 0.6rem;
+      border-radius: 30px;
+      background: var(--maroon-soft);
+      color: var(--maroon);
+      margin-right: 0.3rem;
+    }
+
+    .seat-type-badge.gross {
+      background: #e6d9d4;
+      color: #5a2e24;
+    }
+
+    /* ----- SHOW BREAKDOWN (collapsible) ----- */
+    .show-breakdown-toggle {
+      background: none;
+      border: none;
+      color: var(--maroon);
+      font-weight: 600;
+      font-size: 0.8rem;
+      cursor: pointer;
+      padding: 0.4rem 0 0.2rem 0;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      transition: var(--transition);
+      border-top: 1px solid #f0e8e4;
+      margin-top: 0.5rem;
+      padding-top: 0.6rem;
+      width: 100%;
+      text-align: left;
+    }
+
+    .show-breakdown-toggle:hover {
+      color: #5a1a28;
+    }
+
+    .show-breakdown-toggle i {
+      transition: transform 0.3s ease;
+    }
+
+    .show-breakdown-toggle.open i {
+      transform: rotate(180deg);
+    }
+
+    .show-breakdown {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, opacity 0.3s ease;
+      opacity: 0;
+    }
+
+    .show-breakdown.open {
+      max-height: 2000px;
+      opacity: 1;
+    }
+
+    .show-breakdown .breakdown-section {
+      margin-top: 0.6rem;
+    }
+
+    .show-breakdown .breakdown-section h4 {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #6b5a52;
+      margin-bottom: 0.3rem;
+      font-weight: 600;
+    }
+
+    .show-breakdown .show-row {
+      display: grid;
+      grid-template-columns: 1fr auto auto auto;
+      gap: 0.4rem 0.8rem;
+      font-size: 0.75rem;
+      padding: 0.2rem 0;
+      border-bottom: 1px solid #f5efeb;
+      align-items: center;
+    }
+
+    .show-breakdown .show-row .venue {
+      font-weight: 500;
+      color: #1e1a16;
+    }
+
+    .show-breakdown .show-row .time {
+      color: #3d322c;
+    }
+
+    .show-breakdown .show-row .sold {
+      font-weight: 600;
+      color: var(--maroon);
+      text-align: right;
+    }
+
+    .show-breakdown .show-row .gross {
+      font-weight: 500;
+      color: #2d5a3a;
+      text-align: right;
+      font-size: 0.7rem;
+    }
+
+    .show-breakdown .show-row .screen {
+      color: #6b5a52;
+      font-size: 0.7rem;
+    }
+
+    .breakdown-empty {
+      font-size: 0.75rem;
+      color: #bfb0a8;
+      font-style: italic;
+      padding: 0.2rem 0;
+    }
+
+    /* ----- SORT CONTROLS ----- */
+    .sort-controls {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.6rem 1rem;
+      margin: 1.5rem 0 0.5rem 0;
+      padding: 0.6rem 1rem;
+      background: white;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .sort-controls label {
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: #3d322c;
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    .sort-controls select {
+      border: 1px solid #e0d6d0;
+      border-radius: 30px;
+      padding: 0.3rem 0.8rem;
+      font-size: 0.8rem;
+      background: white;
+      font-family: inherit;
+      color: #1e1a16;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .sort-controls select:focus {
+      border-color: var(--maroon);
+    }
+
+    .sort-controls .sort-dir-btn {
+      background: none;
+      border: none;
+      font-size: 1rem;
+      color: var(--maroon);
+      cursor: pointer;
+      padding: 0.2rem 0.4rem;
+      border-radius: 30px;
+      transition: var(--transition);
+    }
+
+    .sort-controls .sort-dir-btn:hover {
+      background: var(--maroon-soft);
+    }
+
+    /* ----- NO RESULTS ----- */
+    .no-results {
+      text-align: center;
+      padding: 3rem 1rem;
+      color: #6b5a52;
+    }
+
+    .no-results i {
+      font-size: 2.5rem;
+      color: #d0c0b8;
+      margin-bottom: 0.5rem;
+    }
+
+    /* ----- VERIFICATION (footer) ----- */
+    .verification {
+      margin-top: 3rem;
+      padding: 1rem 1.5rem;
+      background: white;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      font-size: 0.75rem;
+      color: #6b5a52;
+    }
+
+    .verification summary {
+      cursor: pointer;
+      font-weight: 600;
+      color: var(--maroon);
+    }
+
+    .verification .alias-group {
+      display: inline-block;
+      margin: 0.2rem 0.6rem 0.2rem 0;
+      background: var(--maroon-soft);
+      padding: 0.1rem 0.6rem;
+      border-radius: 20px;
+      font-size: 0.7rem;
+    }
+
+    .verification .alias-group strong {
+      color: var(--maroon);
+    }
+
+    /* ----- RESPONSIVE ----- */
+    @media (max-width: 640px) {
+      body { padding: 1rem; }
+      .header { flex-direction: column; align-items: stretch; }
+      .header-controls { flex-direction: column; align-items: stretch; }
+      .search-box { width: 100%; }
+      .date-nav { width: 100%; justify-content: space-between; }
+      .date-nav input[type="date"] { width: 100%; }
+      .stats-row .stat-card { flex: 1 1 100%; }
+      .movie-grid { grid-template-columns: 1fr; }
+      .show-breakdown .show-row {
+        grid-template-columns: 1fr auto auto;
+        gap: 0.2rem 0.6rem;
+      }
+      .show-breakdown .show-row .screen { display: none; }
+    }
+
+    /* ----- LOADING ----- */
+    .loading {
+      text-align: center;
+      padding: 4rem 1rem;
+      color: #6b5a52;
+    }
+    .loading i {
+      font-size: 2.5rem;
+      color: var(--maroon);
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      100% { transform: rotate(360deg); }
+    }
+
+    /* small utilities */
+    .text-muted { color: #6b5a52; }
+    .mt-1 { margin-top: 0.5rem; }
+    .mb-1 { margin-bottom: 0.5rem; }
+    .flex { display: flex; align-items: center; gap: 0.5rem; }
+    .gap-1 { gap: 0.5rem; }
+  </style>
+</head>
+<body>
+<div class="container" id="app">
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-left">
+      <i class="fas fa-film"></i>
+      <h1>Kerala BO <span>· live tracker</span></h1>
+    </div>
+    <div class="header-controls">
+      <!-- Date navigation -->
+      <div class="date-nav">
+        <button id="prevDay" title="Previous day"><i class="fas fa-chevron-left"></i></button>
+        <input type="date" id="datePicker" />
+        <button id="nextDay" title="Next day"><i class="fas fa-chevron-right"></i></button>
+        <button id="todayBtn" title="Today" style="font-size:0.75rem; font-weight:600; padding:0.2rem 0.8rem;">Today</button>
+      </div>
+      <!-- Search -->
+      <div class="search-box">
+        <i class="fas fa-search"></i>
+        <input type="text" id="searchInput" placeholder="Search movies, venues..." />
+      </div>
+    </div>
+  </header>
+
+  <!-- STATS ROW -->
+  <div class="stats-row" id="statsRow">
+    <div class="stat-card"><span class="num" id="statMovies">—</span><span class="label">Movies</span></div>
+    <div class="stat-card"><span class="num" id="statShows">—</span><span class="label">Shows</span></div>
+    <div class="stat-card"><span class="num" id="statSold">—</span><span class="label">Tickets sold</span></div>
+    <div class="stat-card"><span class="num" id="statGross">—</span><span class="label">Gross (₹)</span></div>
+  </div>
+
+  <!-- SORT CONTROLS -->
+  <div class="sort-controls">
+    <label><i class="fas fa-sort"></i> Sort by</label>
+    <select id="sortBy">
+      <option value="sold">Tickets sold</option>
+      <option value="gross">Gross</option>
+      <option value="shows">Number of shows</option>
+      <option value="name">Movie name</option>
+    </select>
+    <button class="sort-dir-btn" id="sortDirBtn" title="Toggle ascending/descending"><i class="fas fa-sort-amount-down"></i></button>
+    <span style="font-size:0.7rem; color:#bfb0a8; margin-left:auto;" id="resultCount"></span>
+  </div>
+
+  <!-- MOVIE GRID -->
+  <div id="movieGrid" class="movie-grid">
+    <div class="loading"><i class="fas fa-spinner"></i><br />Loading data…</div>
+  </div>
+
+  <!-- VERIFICATION (movie aliases) -->
+  <div class="verification" id="verificationBox" style="display:none;">
+    <details>
+      <summary><i class="fas fa-code-branch"></i> Verification &amp; merged movie keys</summary>
+      <div id="verificationContent"></div>
+    </details>
+  </div>
+</div>
+
+<script>
+  (function() {
+    'use strict';
+
+    // ----- DOM refs -----
+    const datePicker = document.getElementById('datePicker');
+    const prevBtn = document.getElementById('prevDay');
+    const nextBtn = document.getElementById('nextDay');
+    const todayBtn = document.getElementById('todayBtn');
+    const searchInput = document.getElementById('searchInput');
+    const movieGrid = document.getElementById('movieGrid');
+    const sortBy = document.getElementById('sortBy');
+    const sortDirBtn = document.getElementById('sortDirBtn');
+    const resultCount = document.getElementById('resultCount');
+
+    const statMovies = document.getElementById('statMovies');
+    const statShows = document.getElementById('statShows');
+    const statSold = document.getElementById('statSold');
+    const statGross = document.getElementById('statGross');
+    const verificationBox = document.getElementById('verificationBox');
+    const verificationContent = document.getElementById('verificationContent');
+
+    // ----- state -----
+    let currentDate = new Date(); // will be normalized
+    let rawData = null;           // full JSON from API
+    let movieList = [];           // array of movie objects after processing
+    let sortAsc = false;
+    let sortField = 'sold';
+
+    // ----- helpers -----
+    function formatDate(d) {
+      const y = d.getFullYear();
+      const m = String(d.getMonth() + 1).padStart(2, '0');
+      const day = String(d.getDate()).padStart(2, '0');
+      return `${y}-${m}-${day}`;
+    }
+
+    function parseDate(str) {
+      const parts = str.split('-').map(Number);
+      return new Date(parts[0], parts[1] - 1, parts[2]);
+    }
+
+    function isoDate(d) {
+      return d.toISOString().slice(0, 10);
+    }
+
+    function toDateInputValue(d) {
+      return isoDate(d);
+    }
+
+    function addDays(date, n) {
+      const d = new Date(date);
+      d.setDate(d.getDate() + n);
+      return d;
+    }
+
+    // ----- fetch data -----
+    async function fetchData(dateStr) {
+      const url = `https://bfilmystats.pages.dev/data/keralaspecial/${dateStr.slice(0,4)}/${dateStr.slice(5,7)}/${dateStr.slice(8,10)}.json`;
+      movieGrid.innerHTML = `<div class="loading"><i class="fas fa-spinner"></i><br />Loading ${dateStr}…</div>`;
+      try {
+        const resp = await fetch(url, { cache: 'no-store' });
+        if (!resp.ok) {
+          if (resp.status === 404) {
+            movieGrid.innerHTML = `<div class="no-results"><i class="fas fa-calendar-times"></i><br />No data for ${dateStr}</div>`;
+            clearStats();
+            verificationBox.style.display = 'none';
+            return null;
+          }
+          throw new Error(`HTTP ${resp.status}`);
+        }
+        const json = await resp.json();
+        return json;
+      } catch (err) {
+        console.warn('Fetch error:', err);
+        movieGrid.innerHTML = `<div class="no-results"><i class="fas fa-exclamation-triangle"></i><br />Could not load data for ${dateStr}</div>`;
+        clearStats();
+        verificationBox.style.display = 'none';
+        return null;
+      }
+    }
+
+    // ----- process data -----
+    function processData(json) {
+      if (!json || !json.movies) {
+        return { movies: [], verification: null };
+      }
+
+      const movies = [];
+      const verification = json.verification || null;
+
+      for (const [canonical, entry] of Object.entries(json.movies)) {
+        const breakdown = entry.show_breakdown || [];
+        const seats = entry.seats_type || {};
+        const withGross = seats.with_gross || { shows: 0, tickets_sold: 0, gross: 0, breakdown: [] };
+        const withoutGross = seats.without_gross || { shows: 0, tickets_sold: 0, breakdown: [] };
+
+        // Build a flat list for sorting/filtering
+        const allShows = [...(withGross.breakdown || []), ...(withoutGross.breakdown || [])];
+
+        movies.push({
+          canonical,
+          shows: entry.shows || 0,
+          tickets_sold: entry.tickets_sold || 0,
+          gross: entry.gross || 0,
+          occupancy: entry.occupancy || null,
+          seats_type: {
+            with_gross: {
+              shows: withGross.shows || 0,
+              tickets_sold: withGross.tickets_sold || 0,
+              gross: withGross.gross || 0,
+              breakdown: withGross.breakdown || [],
+            },
+            without_gross: {
+              shows: withoutGross.shows || 0,
+              tickets_sold: withoutGross.tickets_sold || 0,
+              breakdown: withoutGross.breakdown || [],
+            }
+          },
+          // For sorting/filtering we keep the full list
+          _allShows: allShows,
+        });
+      }
+
+      return { movies, verification };
+    }
+
+    // ----- render -----
+    function render(movies, verification, searchTerm) {
+      // filter
+      let filtered = movies;
+      if (searchTerm && searchTerm.trim()) {
+        const q = searchTerm.trim().toLowerCase();
+        filtered = movies.filter(m => {
+          const matchTitle = m.canonical.toLowerCase().includes(q);
+          const matchVenue = m._allShows.some(s => (s.venue || '').toLowerCase().includes(q));
+          return matchTitle || matchVenue;
+        });
+      }
+
+      // sort
+      const field = sortField;
+      const asc = sortAsc;
+      filtered.sort((a, b) => {
+        let va, vb;
+        if (field === 'name') {
+          va = a.canonical.toLowerCase();
+          vb = b.canonical.toLowerCase();
+          return asc ? va.localeCompare(vb) : vb.localeCompare(va);
+        }
+        if (field === 'shows') { va = a.shows; vb = b.shows; }
+        else if (field === 'sold') { va = a.tickets_sold; vb = b.tickets_sold; }
+        else if (field === 'gross') { va = a.gross; vb = b.gross; }
+        else { va = 0; vb = 0; }
+        return asc ? va - vb : vb - va;
+      });
+
+      // update stats
+      const totalMovies = filtered.length;
+      const totalShows = filtered.reduce((sum, m) => sum + m.shows, 0);
+      const totalSold = filtered.reduce((sum, m) => sum + m.tickets_sold, 0);
+      const totalGross = filtered.reduce((sum, m) => sum + m.gross, 0);
+
+      statMovies.textContent = totalMovies;
+      statShows.textContent = totalShows;
+      statSold.textContent = totalSold.toLocaleString();
+      statGross.textContent = '₹' + totalGross.toLocaleString();
+
+      resultCount.textContent = `${filtered.length} movie${filtered.length !== 1 ? 's' : ''}`;
+
+      // render cards
+      if (filtered.length === 0) {
+        movieGrid.innerHTML = `<div class="no-results"><i class="fas fa-film"></i><br />No movies match your criteria</div>`;
+      } else {
+        let html = '';
+        for (const m of filtered) {
+          const wg = m.seats_type.with_gross;
+          const wog = m.seats_type.without_gross;
+          const hasGrossShows = wg.shows > 0;
+          const hasNoGrossShows = wog.shows > 0;
+
+          html += `
+            <div class="movie-card">
+              <div class="movie-title">
+                ${m.canonical}
+                <small>${m.shows} show${m.shows !== 1 ? 's' : ''}</small>
+              </div>
+              <div class="movie-meta">
+                <span><i class="fas fa-ticket-alt"></i> ${m.tickets_sold.toLocaleString()} sold</span>
+                <span><i class="fas fa-coins"></i> ₹${m.gross.toLocaleString()}</span>
+                ${m.occupancy !== null ? `<span><i class="fas fa-percent"></i> ${m.occupancy}% occ</span>` : ''}
+              </div>
+              <div style="font-size:0.75rem; display:flex; flex-wrap:wrap; gap:0.3rem 0.8rem; margin-bottom:0.2rem;">
+                ${hasGrossShows ? `<span><span class="seat-type-badge gross">💰 with gross</span> ${wg.shows} shows · ${wg.tickets_sold} sold · ₹${wg.gross.toLocaleString()}</span>` : ''}
+                ${hasNoGrossShows ? `<span><span class="seat-type-badge">📊 without gross</span> ${wog.shows} shows · ${wog.tickets_sold} sold</span>` : ''}
+              </div>
+              <button class="show-breakdown-toggle" data-movie="${m.canonical}">
+                <i class="fas fa-chevron-down"></i> Show breakdown
+              </button>
+              <div class="show-breakdown" data-movie="${m.canonical}">
+                ${hasGrossShows ? `
+                  <div class="breakdown-section">
+                    <h4>💰 With gross</h4>
+                    ${wg.breakdown.map(s => `
+                      <div class="show-row">
+                        <span class="venue">${s.venue || '?'}</span>
+                        <span class="time">${s.time || '—'}</span>
+                        <span class="screen">${s.screen || ''}</span>
+                        <span class="sold">${s.tickets_sold}</span>
+                        <span class="gross">₹${(s.gross || 0).toLocaleString()}</span>
+                      </div>
+                    `).join('')}
+                  </div>
+                ` : ''}
+                ${hasNoGrossShows ? `
+                  <div class="breakdown-section">
+                    <h4>📊 Without gross</h4>
+                    ${wog.breakdown.map(s => `
+                      <div class="show-row">
+                        <span class="venue">${s.venue || '?'}</span>
+                        <span class="time">${s.time || '—'}</span>
+                        <span class="screen">${s.screen || ''}</span>
+                        <span class="sold">${s.tickets_sold}</span>
+                        <span class="gross">—</span>
+                      </div>
+                    `).join('')}
+                  </div>
+                ` : ''}
+                ${!hasGrossShows && !hasNoGrossShows ? `<div class="breakdown-empty">No shows</div>` : ''}
+              </div>
+            </div>
+          `;
+        }
+        movieGrid.innerHTML = html;
+
+        // attach toggle events
+        document.querySelectorAll('.show-breakdown-toggle').forEach(btn => {
+          btn.addEventListener('click', function(e) {
+            const movie = this.dataset.movie;
+            const target = document.querySelector(`.show-breakdown[data-movie="${movie}"]`);
+            if (target) {
+              target.classList.toggle('open');
+              this.classList.toggle('open');
+              this.innerHTML = target.classList.contains('open')
+                ? '<i class="fas fa-chevron-up"></i> Hide breakdown'
+                : '<i class="fas fa-chevron-down"></i> Show breakdown';
+            }
+          });
+        });
+      }
+
+      // verification
+      if (verification && verification.merged_movies && verification.merged_movies.length > 0) {
+        verificationBox.style.display = 'block';
+        let vHtml = '';
+        for (const item of verification.merged_movies) {
+          vHtml += `<span class="alias-group"><strong>${item.canonical}</strong> ⇢ ${item.aliases.join(', ')}</span>`;
+        }
+        verificationContent.innerHTML = vHtml || '<em>No aliases recorded.</em>';
+      } else {
+        verificationBox.style.display = 'none';
+      }
+    }
+
+    function clearStats() {
+      statMovies.textContent = '—';
+      statShows.textContent = '—';
+      statSold.textContent = '—';
+      statGross.textContent = '—';
+      resultCount.textContent = '';
+    }
+
+    // ----- main load -----
+    async function loadDate(dateObj) {
+      const dateStr = isoDate(dateObj);
+      datePicker.value = dateStr;
+      currentDate = dateObj;
+
+      const json = await fetchData(dateStr);
+      if (!json) {
+        movieList = [];
+        render([], null, searchInput.value);
+        return;
+      }
+
+      const { movies, verification } = processData(json);
+      movieList = movies;
+      render(movieList, verification, searchInput.value);
+    }
+
+    // ----- init -----
+    function init() {
+      // set today
+      const today = new Date();
+      // normalize to midnight
+      const norm = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+      datePicker.value = isoDate(norm);
+      currentDate = norm;
+
+      // event listeners
+      datePicker.addEventListener('change', function() {
+        const d = parseDate(this.value);
+        if (!isNaN(d)) loadDate(d);
+      });
+
+      prevBtn.addEventListener('click', function() {
+        const d = addDays(currentDate, -1);
+        loadDate(d);
+      });
+
+      nextBtn.addEventListener('click', function() {
+        const d = addDays(currentDate, 1);
+        loadDate(d);
+      });
+
+      todayBtn.addEventListener('click', function() {
+        const now = new Date();
+        const d = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+        loadDate(d);
+      });
+
+      searchInput.addEventListener('input', function() {
+        render(movieList, null, this.value);
+      });
+
+      sortBy.addEventListener('change', function() {
+        sortField = this.value;
+        render(movieList, null, searchInput.value);
+      });
+
+      sortDirBtn.addEventListener('click', function() {
+        sortAsc = !sortAsc;
+        this.innerHTML = sortAsc
+          ? '<i class="fas fa-sort-amount-up"></i>'
+          : '<i class="fas fa-sort-amount-down"></i>';
+        render(movieList, null, searchInput.value);
+      });
+
+      // initial load
+      loadDate(currentDate);
+    }
+
+    // kick off
+    document.addEventListener('DOMContentLoaded', init);
+  })();
+</script>
+</body>
+</html>
