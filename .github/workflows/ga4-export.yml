@@ -1,16 +1,16 @@
-name: Update All Data (GA4 + Kerala BO)
+name: Data Update (GA4 + Kerala BO)
 
 on:
   schedule:
-    # Run every hour
-    - cron: '0 * * * *'
-  workflow_dispatch:   # allow manual trigger
+    - cron: '0 */2 * * *'   # every 2 hours
+  workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -21,28 +21,24 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: 'pip'
+          cache: pip
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # ------------------------------------------------------------
-      # 1. GA4 Export
-      # ------------------------------------------------------------
+      # ---- GA4 exporter ----
       - name: Run GA4 exporter
         env:
           GA4_KEY_JSON: ${{ secrets.GA4_KEY_JSON }}
         run: python main.py
+        continue-on-error: true
 
-      # ------------------------------------------------------------
-      # 2. Kerala BO Updater
-      # ------------------------------------------------------------
+      # ---- Kerala BO updater ----
       - name: Run Kerala BO updater
         run: python keralabo.py
+        continue-on-error: true
 
-      # ------------------------------------------------------------
-      # Commit and push all changes
-      # ------------------------------------------------------------
+      # ---- Commit and push ----
       - name: Commit and push updates
         run: |
           git config --global user.name 'github-actions[bot]'
@@ -51,6 +47,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Auto-update: GA4 stats + Kerala box-office [$(date -u +'%Y-%m-%d %H:%M:%S UTC')]"
+            git commit -m "Auto-update data [$(date -u +'%Y-%m-%d %H:%M:%S UTC')]"
             git push
           fi
