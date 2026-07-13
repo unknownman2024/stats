@@ -1,6 +1,6 @@
 {
   "date": "2026-07-18",
-  "last_updated": "2026-07-13T18:57:59.267968+05:30",
+  "last_updated": "2026-07-13T22:09:00.883666+05:30",
   "movies": {
     "The Odyssey": {
       "gross": 0,
@@ -95,41 +95,117 @@
       ],
       "shows": 4,
       "tickets_sold": 0
+    },
+    "Varavu": {
+      "gross": 7200,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [
+            {
+              "gross": 3600,
+              "movie": "Varavu",
+              "screen": "SCREEN 1",
+              "showid": "3406",
+              "tickets_sold": 24,
+              "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 3600,
+              "movie": "Varavu",
+              "screen": "SCREEN 1",
+              "showid": "3407",
+              "tickets_sold": 24,
+              "time": "09:15 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "gross": 7200,
+          "shows": 2,
+          "tickets_sold": 48
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Varavu",
+              "screen": "SCREEN 1",
+              "showid": "3404",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Varavu",
+              "screen": "SCREEN 1",
+              "showid": "3405",
+              "tickets_sold": 0,
+              "time": "02:15 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "shows": 2,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 3600,
+          "movie": "Varavu",
+          "screen": "SCREEN 1",
+          "showid": "3406",
+          "tickets_sold": 24,
+          "time": "06:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 3600,
+          "movie": "Varavu",
+          "screen": "SCREEN 1",
+          "showid": "3407",
+          "tickets_sold": 24,
+          "time": "09:15 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Varavu",
+          "screen": "SCREEN 1",
+          "showid": "3404",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Varavu",
+          "screen": "SCREEN 1",
+          "showid": "3405",
+          "tickets_sold": 0,
+          "time": "02:15 PM",
+          "venue": "Fairyland Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 48
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "VARAVU"
+          "Argentina vs England Semi Final 2"
         ],
-        "canonical": "VARAVU"
+        "canonical": "Argentina vs England Semi Final 2"
       },
       {
         "aliases": [
-          "Evil Dead Burn"
+          "VARAVU",
+          "Varavu"
         ],
-        "canonical": "Evil Dead Burn"
-      },
-      {
-        "aliases": [
-          "Balan: The Boy"
-        ],
-        "canonical": "Balan: The Boy"
-      },
-      {
-        "aliases": [
-          "Idhayam Murali"
-        ],
-        "canonical": "Idhayam Murali"
-      },
-      {
-        "aliases": [
-          "I Nobody",
-          "I, Nobody",
-          "I,Nobody"
-        ],
-        "canonical": "I,Nobody"
+        "canonical": "Varavu"
       },
       {
         "aliases": [
@@ -139,27 +215,34 @@
       },
       {
         "aliases": [
+          "Evil Dead Burn"
+        ],
+        "canonical": "Evil Dead Burn"
+      },
+      {
+        "aliases": [
           "The Odyssey"
         ],
         "canonical": "The Odyssey"
       },
       {
         "aliases": [
-          "Argentina vs England Semi Final 2"
-        ],
-        "canonical": "Argentina vs England Semi Final 2"
-      },
-      {
-        "aliases": [
-          "Kireedam"
-        ],
-        "canonical": "Kireedam"
-      },
-      {
-        "aliases": [
           "FRANCE vs SPAIN Semi Final 1"
         ],
         "canonical": "FRANCE vs SPAIN Semi Final 1"
+      },
+      {
+        "aliases": [
+          "I, Nobody",
+          "I,Nobody"
+        ],
+        "canonical": "I,Nobody"
+      },
+      {
+        "aliases": [
+          "Balan: The Boy"
+        ],
+        "canonical": "Balan: The Boy"
       }
     ]
   }
