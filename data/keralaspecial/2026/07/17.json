@@ -1,22 +1,13 @@
 {
   "date": "2026-07-17",
-  "last_updated": "2026-07-14T00:17:11.775666+05:30",
+  "last_updated": "2026-07-14T01:50:03.468037+05:30",
   "movies": {
     "The Odyssey": {
-      "gross": 5100,
+      "gross": 5250,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
-            {
-              "gross": 1050,
-              "movie": "The Odyssey",
-              "screen": null,
-              "showid": "18831",
-              "tickets_sold": 7,
-              "time": "09:45 PM",
-              "venue": "Puthet Cinemas"
-            },
             {
               "gross": 1500,
               "movie": "The Odyssey",
@@ -36,6 +27,15 @@
               "venue": "Puthet Cinemas"
             },
             {
+              "gross": 1050,
+              "movie": "The Odyssey",
+              "screen": null,
+              "showid": "18831",
+              "tickets_sold": 7,
+              "time": "09:45 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
               "gross": 600,
               "movie": "The Odyssey",
               "screen": "Dolby Atmos",
@@ -45,11 +45,11 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 450,
+              "gross": 600,
               "movie": "The Odyssey",
               "screen": null,
               "showid": "18829",
-              "tickets_sold": 3,
+              "tickets_sold": 4,
               "time": "02:30 PM",
               "venue": "Puthet Cinemas"
             },
@@ -63,9 +63,9 @@
               "venue": "Girija Theatre"
             }
           ],
-          "gross": 5100,
+          "gross": 5250,
           "shows": 6,
-          "tickets_sold": 34
+          "tickets_sold": 35
         },
         "without_gross": {
           "breakdown": [
@@ -130,11 +130,11 @@
           "venue": "Girija Theatre"
         },
         {
-          "gross": 450,
+          "gross": 600,
           "movie": "The Odyssey",
           "screen": null,
           "showid": "18829",
-          "tickets_sold": 3,
+          "tickets_sold": 4,
           "time": "02:30 PM",
           "venue": "Puthet Cinemas"
         },
@@ -167,7 +167,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 34
+      "tickets_sold": 35
     },
     "VARAVU": {
       "gross": 7200,
@@ -364,6 +364,12 @@
     "merged_movies": [
       {
         "aliases": [
+          "Evil Dead Burn"
+        ],
+        "canonical": "Evil Dead Burn"
+      },
+      {
+        "aliases": [
           "Kireedam"
         ],
         "canonical": "Kireedam"
@@ -374,12 +380,6 @@
           "Varavu"
         ],
         "canonical": "VARAVU"
-      },
-      {
-        "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
       },
       {
         "aliases": [
@@ -396,15 +396,15 @@
       },
       {
         "aliases": [
-          "Idhayam Murali"
+          "The Odyssey"
         ],
-        "canonical": "Idhayam Murali"
+        "canonical": "The Odyssey"
       },
       {
         "aliases": [
-          "Evil Dead Burn"
+          "Idhayam Murali"
         ],
-        "canonical": "Evil Dead Burn"
+        "canonical": "Idhayam Murali"
       }
     ]
   }

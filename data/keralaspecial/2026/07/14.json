@@ -1,6 +1,6 @@
 {
   "date": "2026-07-14",
-  "last_updated": "2026-07-14T00:17:11.772324+05:30",
+  "last_updated": "2026-07-14T01:50:03.464652+05:30",
   "movies": {
     "Balan: The Boy": {
       "gross": 750,
@@ -9,21 +9,21 @@
         "with_gross": {
           "breakdown": [
             {
-              "gross": 300,
-              "movie": "Balan: The Boy",
-              "screen": "SARITHA",
-              "showid": "19546",
-              "tickets_sold": 2,
-              "time": "11:30 AM",
-              "venue": "SFC"
-            },
-            {
               "gross": 450,
               "movie": "Balan: The Boy",
               "screen": "SARITHA",
               "showid": "19547",
               "tickets_sold": 3,
               "time": "02:30 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 300,
+              "movie": "Balan: The Boy",
+              "screen": "SARITHA",
+              "showid": "19546",
+              "tickets_sold": 2,
+              "time": "11:30 AM",
               "venue": "SFC"
             }
           ],
@@ -158,15 +158,6 @@
         "with_gross": {
           "breakdown": [
             {
-              "gross": 150,
-              "movie": "Evil Dead Burn",
-              "screen": "SCREEN 4",
-              "showid": "3387",
-              "tickets_sold": 1,
-              "time": "09:30 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
               "gross": 900,
               "movie": "Evil Dead Burn",
               "screen": "SAAGARA",
@@ -183,6 +174,15 @@
               "tickets_sold": 2,
               "time": "09:00 PM",
               "venue": "Issacs"
+            },
+            {
+              "gross": 150,
+              "movie": "Evil Dead Burn",
+              "screen": "SCREEN 4",
+              "showid": "3387",
+              "tickets_sold": 1,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
             }
           ],
           "gross": 1350,
@@ -541,6 +541,42 @@
         "with_gross": {
           "breakdown": [
             {
+              "gross": 7500,
+              "movie": "I, Nobody",
+              "screen": "SAVITHA",
+              "showid": "19544",
+              "tickets_sold": 50,
+              "time": "05:30 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 600,
+              "movie": "I, Nobody",
+              "screen": "SAVITHA",
+              "showid": "19543",
+              "tickets_sold": 4,
+              "time": "02:15 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 600,
+              "movie": "I, Nobody",
+              "screen": "SAVITHA",
+              "showid": "19545",
+              "tickets_sold": 4,
+              "time": "08:45 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 450,
+              "movie": "I, Nobody",
+              "screen": "SAVITHA",
+              "showid": "19542",
+              "tickets_sold": 3,
+              "time": "11:00 AM",
+              "venue": "SFC"
+            },
+            {
               "gross": 300,
               "movie": "I,Nobody",
               "screen": "SCREEN 1",
@@ -575,42 +611,6 @@
               "tickets_sold": 2,
               "time": "11:00 AM",
               "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 450,
-              "movie": "I, Nobody",
-              "screen": "SAVITHA",
-              "showid": "19542",
-              "tickets_sold": 3,
-              "time": "11:00 AM",
-              "venue": "SFC"
-            },
-            {
-              "gross": 600,
-              "movie": "I, Nobody",
-              "screen": "SAVITHA",
-              "showid": "19543",
-              "tickets_sold": 4,
-              "time": "02:15 PM",
-              "venue": "SFC"
-            },
-            {
-              "gross": 7500,
-              "movie": "I, Nobody",
-              "screen": "SAVITHA",
-              "showid": "19544",
-              "tickets_sold": 50,
-              "time": "05:30 PM",
-              "venue": "SFC"
-            },
-            {
-              "gross": 600,
-              "movie": "I, Nobody",
-              "screen": "SAVITHA",
-              "showid": "19545",
-              "tickets_sold": 4,
-              "time": "08:45 PM",
-              "venue": "SFC"
             },
             {
               "gross": 150,
@@ -1276,6 +1276,12 @@
     "merged_movies": [
       {
         "aliases": [
+          "Evil Dead Burn"
+        ],
+        "canonical": "Evil Dead Burn"
+      },
+      {
+        "aliases": [
           "Kireedam"
         ],
         "canonical": "Kireedam"
@@ -1286,12 +1292,6 @@
           "Varavu"
         ],
         "canonical": "VARAVU"
-      },
-      {
-        "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
       },
       {
         "aliases": [
@@ -1308,15 +1308,15 @@
       },
       {
         "aliases": [
-          "Idhayam Murali"
+          "The Odyssey"
         ],
-        "canonical": "Idhayam Murali"
+        "canonical": "The Odyssey"
       },
       {
         "aliases": [
-          "Evil Dead Burn"
+          "Idhayam Murali"
         ],
-        "canonical": "Evil Dead Burn"
+        "canonical": "Idhayam Murali"
       }
     ]
   }
