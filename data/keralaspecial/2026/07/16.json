@@ -1,26 +1,26 @@
 {
   "date": "2026-07-16",
-  "last_updated": "2026-07-13T16:50:18.367760+05:30",
+  "last_updated": "2026-07-13T18:57:59.266475+05:30",
   "movies": {
     "Argentina vs England Semi Final 2": {
-      "gross": 1500,
+      "gross": 2250,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 1500,
+              "gross": 2250,
               "movie": "Argentina vs England Semi Final 2",
               "screen": "Cinema-2",
               "showid": "22369",
-              "tickets_sold": 10,
+              "tickets_sold": 15,
               "time": "12:30 AM",
               "venue": "Davis Theatre"
             }
           ],
-          "gross": 1500,
+          "gross": 2250,
           "shows": 1,
-          "tickets_sold": 10
+          "tickets_sold": 15
         },
         "without_gross": {
           "breakdown": [],
@@ -30,17 +30,17 @@
       },
       "show_breakdown": [
         {
-          "gross": 1500,
+          "gross": 2250,
           "movie": "Argentina vs England Semi Final 2",
           "screen": "Cinema-2",
           "showid": "22369",
-          "tickets_sold": 10,
+          "tickets_sold": 15,
           "time": "12:30 AM",
           "venue": "Davis Theatre"
         }
       ],
       "shows": 1,
-      "tickets_sold": 10
+      "tickets_sold": 15
     },
     "Evil Dead Burn": {
       "gross": 0,
@@ -175,21 +175,128 @@
       ],
       "shows": 1,
       "tickets_sold": 0
+    },
+    "VARAVU": {
+      "gross": 450,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [
+            {
+              "gross": 450,
+              "movie": "VARAVU",
+              "screen": "Aiswarya",
+              "showid": "7715",
+              "tickets_sold": 3,
+              "time": "08:30 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 450,
+          "shows": 1,
+          "tickets_sold": 3
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "VARAVU",
+              "screen": "Aiswarya",
+              "showid": "7712",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "VARAVU",
+              "screen": "Aiswarya",
+              "showid": "7713",
+              "tickets_sold": 0,
+              "time": "02:00 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "VARAVU",
+              "screen": "Aiswarya",
+              "showid": "7714",
+              "tickets_sold": 0,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "shows": 3,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 450,
+          "movie": "VARAVU",
+          "screen": "Aiswarya",
+          "showid": "7715",
+          "tickets_sold": 3,
+          "time": "08:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "VARAVU",
+          "screen": "Aiswarya",
+          "showid": "7712",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "VARAVU",
+          "screen": "Aiswarya",
+          "showid": "7713",
+          "tickets_sold": 0,
+          "time": "02:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "VARAVU",
+          "screen": "Aiswarya",
+          "showid": "7714",
+          "tickets_sold": 0,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 3
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "SECRET OF KALINGA"
+          "VARAVU"
         ],
-        "canonical": "SECRET OF KALINGA"
+        "canonical": "VARAVU"
+      },
+      {
+        "aliases": [
+          "Evil Dead Burn"
+        ],
+        "canonical": "Evil Dead Burn"
       },
       {
         "aliases": [
           "Balan: The Boy"
         ],
         "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
+          "Idhayam Murali"
+        ],
+        "canonical": "Idhayam Murali"
       },
       {
         "aliases": [
@@ -201,15 +308,15 @@
       },
       {
         "aliases": [
-          "Kireedam"
+          "SECRET OF KALINGA"
         ],
-        "canonical": "Kireedam"
+        "canonical": "SECRET OF KALINGA"
       },
       {
         "aliases": [
-          "Evil Dead Burn"
+          "The Odyssey"
         ],
-        "canonical": "Evil Dead Burn"
+        "canonical": "The Odyssey"
       },
       {
         "aliases": [
@@ -219,21 +326,15 @@
       },
       {
         "aliases": [
-          "Idhayam Murali"
+          "Kireedam"
         ],
-        "canonical": "Idhayam Murali"
+        "canonical": "Kireedam"
       },
       {
         "aliases": [
           "FRANCE vs SPAIN Semi Final 1"
         ],
         "canonical": "FRANCE vs SPAIN Semi Final 1"
-      },
-      {
-        "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
       }
     ]
   }
