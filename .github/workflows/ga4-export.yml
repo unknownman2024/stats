@@ -2,7 +2,7 @@ name: Data Update (GA4 + Kerala BO)
 
 on:
   schedule:
-    - cron: '0 */1 * * *'   # every 2 hours
+    - cron: '0 */1 * * *'   # every hour
   workflow_dispatch:
 
 jobs:
@@ -48,5 +48,8 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Auto-update data [$(date -u +'%Y-%m-%d %H:%M:%S UTC')]"
-            git push
+            # Fetch latest remote and force‑push with lease to avoid overwriting someone else's work
+            git fetch origin main
+            git rebase origin/main
+            git push --force-with-lease origin main
           fi
