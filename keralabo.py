@@ -104,6 +104,37 @@ def parse_date(date_str):
 
     return None
 
+def parse_theatre_date(updated_at, timestamp):
+    """
+    Parse the theatre's updated_at string (like "13-07-2026 04:51:pm") or
+    use the timestamp (Unix) to get a date string YYYY-MM-DD.
+    """
+    if updated_at:
+        # Try to parse "DD-MM-YYYY HH:MM:am/pm"
+        # Remove extra spaces, handle single digit day/month
+        s = updated_at.strip()
+        # Try with different separators
+        for fmt in ("%d-%m-%Y %I:%M:%S%p", "%d-%m-%Y %I:%M%p", "%d/%m/%Y %I:%M:%S%p", "%d/%m/%Y %I:%M%p"):
+            try:
+                dt = datetime.strptime(s, fmt)
+                return dt.strftime("%Y-%m-%d")
+            except ValueError:
+                continue
+        # If that fails, try generic parse
+        for fmt in ("%d-%m-%Y", "%d/%m/%Y"):
+            try:
+                dt = datetime.strptime(s.split()[0], fmt)
+                return dt.strftime("%Y-%m-%d")
+            except ValueError:
+                continue
+    if timestamp:
+        try:
+            dt = datetime.fromtimestamp(timestamp, tz=timezone.utc).astimezone(timezone(timedelta(hours=5, minutes=30)))
+            return dt.strftime("%Y-%m-%d")
+        except:
+            pass
+    return None
+
 # ------------------------------------------------------------
 # File I/O
 # ------------------------------------------------------------
@@ -266,6 +297,7 @@ def fetch_api():
 def extract_shows(api_data):
     """
     Extract shows from API response, group by parsed date.
+    If a show has null date, try to use the theatre's updated_at or timestamp.
     Returns dict: date_key (YYYY-MM-DD) -> list of show dicts.
     """
     shows_by_date = defaultdict(list)
@@ -273,12 +305,25 @@ def extract_shows(api_data):
         theatre_name = theatre.get("name")
         if not theatre_name:
             continue
+
+        # Get fallback date from theatre metadata
+        fallback_date = parse_theatre_date(
+            theatre.get("updated_at"),
+            theatre.get("timestamp")
+        )
+
         for show in theatre.get("data", []):
             raw_date = show.get("date")
             date_key = parse_date(raw_date)
+            # If date is missing or unparseable, use fallback
+            if not date_key and fallback_date:
+                date_key = fallback_date
+                logger.debug(f"Assigned fallback date {date_key} for show at {theatre_name}")
+
             if not date_key:
-                logger.warning(f"Skipping show with unparseable date: {raw_date}")
+                logger.warning(f"Skipping show with unparseable date: {raw_date} (theatre: {theatre_name})")
                 continue
+
             rec = {
                 "venue": theatre_name,
                 "movie": show.get("movie", "Unknown"),
@@ -289,6 +334,7 @@ def extract_shows(api_data):
                 "gross": int(show.get("gross", 0)),
             }
             shows_by_date[date_key].append(rec)
+
     return dict(shows_by_date)
 
 # ------------------------------------------------------------
