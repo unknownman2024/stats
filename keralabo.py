@@ -6,8 +6,11 @@ and stores per‑day statistics.
 """
 
 import os
+import sys
 import json
 import time
+import logging
+import re
 import difflib
 import requests
 from datetime import datetime, timezone, timedelta
@@ -24,13 +27,31 @@ DATA_ROOT = Path("data/keralaspecial")
 ATP = 150  # average ticket price (used only if gross missing)
 
 # ------------------------------------------------------------
-# Helpers
+# Logging
+# ------------------------------------------------------------
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S"
+)
+logger = logging.getLogger(__name__)
+
+# ------------------------------------------------------------
+# Time helpers
 # ------------------------------------------------------------
 def ist_now():
-    """Return current time in IST (UTC+5:30) as ISO 8601 string with offset."""
+    """Return current time in IST (UTC+5:30) as ISO 8601 string."""
     tz = timezone(timedelta(hours=5, minutes=30))
     return datetime.now(tz).isoformat()
 
+def ist_today_str():
+    """Return today's date in YYYY-MM-DD format in IST."""
+    tz = timezone(timedelta(hours=5, minutes=30))
+    return datetime.now(tz).strftime("%Y-%m-%d")
+
+# ------------------------------------------------------------
+# String normalisation
+# ------------------------------------------------------------
 def normalize_movie_name(name):
     """Normalise a movie title for fuzzy matching."""
     if not name:
@@ -40,18 +61,52 @@ def normalize_movie_name(name):
     s = ''.join(c for c in s if c.isalnum() or c.isspace())
     return ' '.join(s.split())
 
-def get_date_key(date_str):
-    """Extract YYYY-MM-DD from various date formats."""
+# ------------------------------------------------------------
+# Robust date parsing (handles suffixes like "-1")
+# ------------------------------------------------------------
+def parse_date(date_str):
+    """
+    Parse a date string into YYYY-MM-DD.
+    Supports:
+      - YYYY-MM-DD
+      - DD-MM-YYYY, DD/MM/YYYY, etc.
+      - YYYY-MM-DD-1  (extra dash + number suffix)
+    Returns None if parsing fails.
+    """
     if not date_str:
         return None
-    if len(date_str) >= 10:
+    raw = date_str.strip()
+
+    # If there's a suffix like "-1", remove the last dash+digits
+    # e.g., "2026-07-13-1" -> "2026-07-13"
+    match = re.match(r'^(.+)-(\d+)$', raw)
+    if match:
+        candidate = match.group(1)
+        # Try to parse the candidate as a date
+        if parse_date(candidate):  # recursive call
+            return parse_date(candidate)
+
+    # Try various formats
+    for fmt in ("%Y-%m-%d", "%d-%m-%Y", "%d/%m/%Y", "%Y/%m/%d", "%d.%m.%Y", "%Y.%m.%d"):
         try:
-            datetime.strptime(date_str[:10], "%Y-%m-%d")
-            return date_str[:10]
+            dt = datetime.strptime(raw, fmt)
+            return dt.strftime("%Y-%m-%d")
+        except ValueError:
+            continue
+
+    # If it starts with YYYY-MM-DD (e.g., "2026-07-13T...")
+    if len(raw) >= 10 and raw[4] == '-' and raw[7] == '-':
+        try:
+            dt = datetime.strptime(raw[:10], "%Y-%m-%d")
+            return dt.strftime("%Y-%m-%d")
         except ValueError:
             pass
+
     return None
 
+# ------------------------------------------------------------
+# File I/O
+# ------------------------------------------------------------
 def load_json(path):
     """Load JSON from file, return empty dict if not exists or invalid."""
     if not path.exists():
@@ -59,7 +114,8 @@ def load_json(path):
     try:
         with open(path, 'r', encoding='utf-8') as f:
             return json.load(f)
-    except (json.JSONDecodeError, IOError):
+    except (json.JSONDecodeError, IOError) as e:
+        logger.warning(f"Failed to load {path}: {e}")
         return {}
 
 def save_json(path, data):
@@ -69,7 +125,65 @@ def save_json(path, data):
         json.dump(data, f, indent=2, sort_keys=True)
 
 # ------------------------------------------------------------
-# Fuzzy group movies
+# Deduplication and merging
+# ------------------------------------------------------------
+def show_key(show):
+    """
+    Return a tuple uniquely identifying a show.
+    Uses (venue, showid) if showid exists, else (venue, time, movie, screen).
+    """
+    venue = show.get("venue", "")
+    showid = show.get("showid", "").strip()
+    if showid:
+        return (venue, showid)
+    else:
+        return (venue,
+                show.get("time", ""),
+                show.get("movie", ""),
+                show.get("screen", ""))
+
+def deduplicate_shows(shows):
+    """
+    Remove duplicate shows based on show_key, keeping the one with max tickets_sold.
+    If tickets_sold tie, keep the first encountered.
+    """
+    groups = defaultdict(list)
+    for s in shows:
+        groups[show_key(s)].append(s)
+
+    cleaned = []
+    for key, group in groups.items():
+        if len(group) == 1:
+            cleaned.append(group[0])
+        else:
+            # Keep the show with highest tickets_sold; if tie, keep first
+            best = max(group, key=lambda x: x.get("tickets_sold", 0))
+            cleaned.append(best)
+    return cleaned
+
+def merge_show(existing_shows, new_show):
+    """
+    Merge a single show into a list of existing shows.
+    If show_key matches, update only if tickets_sold increased.
+    Otherwise, append.
+    """
+    key = show_key(new_show)
+    for idx, s in enumerate(existing_shows):
+        if show_key(s) == key:
+            if new_show["tickets_sold"] > s["tickets_sold"]:
+                s["tickets_sold"] = new_show["tickets_sold"]
+                s["gross"] = new_show["gross"]
+                # Update optional fields if missing
+                if new_show.get("time") and not s.get("time"):
+                    s["time"] = new_show["time"]
+                if new_show.get("screen") and not s.get("screen"):
+                    s["screen"] = new_show["screen"]
+            return
+    # Not found → append
+    existing_shows.append(new_show)
+
+# ------------------------------------------------------------
+# Fuzzy grouping of movie titles
 # ------------------------------------------------------------
 def group_similar_movies(titles, threshold=0.85):
     """
@@ -103,12 +217,12 @@ def group_similar_movies(titles, threshold=0.85):
 
     mapping = {}
     for group in groups:
-        canonical = min(group, key=len)
+        canonical = min(group, key=len)  # pick shortest name as canonical
         mapping[canonical] = sorted(set(group))
     return mapping
 
 # ------------------------------------------------------------
-# Fetch API with exponential backoff
+# API fetching with retries
 # ------------------------------------------------------------
 def fetch_api():
     """
@@ -127,7 +241,7 @@ def fetch_api():
 
     params = {"t": int(datetime.now().timestamp())}
     headers = {
-        "User-Agent": "KeralaBO-Updater/1.0 (+https://github.com/your-repo)",
+        "User-Agent": "KeralaBO-Updater/1.0",
         "Accept": "application/json",
     }
 
@@ -141,25 +255,29 @@ def fetch_api():
             return resp.json()
         except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
             last_exception = e
-            print(f"Timeout ({timeout}s) – retrying...")
+            logger.warning(f"Timeout ({timeout}s) – retrying...")
             time.sleep(5)
 
     raise last_exception or RuntimeError("Failed to fetch API after multiple attempts")
 
 # ------------------------------------------------------------
-# Extract and merge
+# Extract shows from API response
 # ------------------------------------------------------------
 def extract_shows(api_data):
-    """Extract shows from API response, group by date."""
+    """
+    Extract shows from API response, group by parsed date.
+    Returns dict: date_key (YYYY-MM-DD) -> list of show dicts.
+    """
     shows_by_date = defaultdict(list)
     for theatre in api_data.get("theatres", []):
         theatre_name = theatre.get("name")
         if not theatre_name:
             continue
         for show in theatre.get("data", []):
-            date_str = show.get("date")
-            date_key = get_date_key(date_str)
+            raw_date = show.get("date")
+            date_key = parse_date(raw_date)
             if not date_key:
+                logger.warning(f"Skipping show with unparseable date: {raw_date}")
                 continue
             rec = {
                 "venue": theatre_name,
@@ -173,37 +291,27 @@ def extract_shows(api_data):
             shows_by_date[date_key].append(rec)
     return dict(shows_by_date)
 
-def merge_show(existing_shows, new_show):
-    """Merge a single show, only update if sold increases."""
-    existing = None
-    for idx, s in enumerate(existing_shows):
-        if s.get("venue") == new_show["venue"] and s.get("showid") == new_show["showid"]:
-            existing = s
-            break
-    if existing:
-        if new_show["tickets_sold"] > existing["tickets_sold"]:
-            existing["tickets_sold"] = new_show["tickets_sold"]
-            existing["gross"] = new_show["gross"]
-            if new_show.get("time") and not existing.get("time"):
-                existing["time"] = new_show["time"]
-            if new_show.get("screen") and not existing.get("screen"):
-                existing["screen"] = new_show["screen"]
-    else:
-        existing_shows.append(new_show)
-
+# ------------------------------------------------------------
+# Merge new shows into existing date data
+# ------------------------------------------------------------
 def merge_date_data(existing_data, new_shows, movie_mapping):
-    """Merge new shows for a single date into existing_data."""
+    """
+    Merge new_shows into existing_data (for one date).
+    Deduplicates after merging.
+    """
+    # Ensure structure
     if "movies" not in existing_data:
         existing_data["movies"] = {}
     if "verification" not in existing_data:
         existing_data["verification"] = {"merged_movies": []}
 
-    # Build inverse alias -> canonical
+    # Build alias -> canonical mapping
     alias_to_canon = {}
     for canon, aliases in movie_mapping.items():
         for alias in aliases:
             alias_to_canon[alias] = canon
 
+    # Merge shows into each movie's breakdown
     for show in new_shows:
         raw_movie = show["movie"]
         canon = alias_to_canon.get(raw_movie, raw_movie)
@@ -211,14 +319,17 @@ def merge_date_data(existing_data, new_shows, movie_mapping):
             existing_data["movies"][canon] = {"show_breakdown": []}
         merge_show(existing_data["movies"][canon]["show_breakdown"], show)
 
-    # Recompute aggregates and breakdowns
+    # Deduplicate each movie's breakdown
+    for movie, entry in existing_data["movies"].items():
+        entry["show_breakdown"] = deduplicate_shows(entry["show_breakdown"])
+
+    # Recompute aggregates
     for movie, entry in existing_data["movies"].items():
         breakdown = entry["show_breakdown"]
         total_shows = len(breakdown)
         total_sold = sum(s.get("tickets_sold", 0) for s in breakdown)
         total_gross = sum(s.get("gross", 0) for s in breakdown)
 
-        # Filter shows with/without gross
         with_gross = [s for s in breakdown if s.get("gross", 0) > 0]
         without_gross = [s for s in breakdown if s.get("gross", 0) == 0]
 
@@ -231,58 +342,65 @@ def merge_date_data(existing_data, new_shows, movie_mapping):
                 "shows": len(with_gross),
                 "tickets_sold": sum(s["tickets_sold"] for s in with_gross),
                 "gross": sum(s["gross"] for s in with_gross),
-                "breakdown": with_gross,   # full show details
+                "breakdown": with_gross,
             },
             "without_gross": {
                 "shows": len(without_gross),
                 "tickets_sold": sum(s["tickets_sold"] for s in without_gross),
-                "breakdown": without_gross,  # full show details (gross is 0)
+                "breakdown": without_gross,
             }
         }
         # Sort master breakdown by sold descending
         entry["show_breakdown"].sort(key=lambda x: x.get("tickets_sold", 0), reverse=True)
 
-    # Store verification
+    # Store verification info (optional)
     existing_data["verification"]["merged_movies"] = [
         {"canonical": c, "aliases": aliases} for c, aliases in movie_mapping.items()
     ]
 
     existing_data["last_updated"] = ist_now()
-    existing_data["date"] = existing_data.get("date", "")
+    # Preserve the date field (should match the file's date)
 
 # ------------------------------------------------------------
 # Main
 # ------------------------------------------------------------
 def main():
-    print("Fetching API data...")
-    api_data = fetch_api()
-    print("API fetch OK.")
+    logger.info("Starting Kerala BO updater")
+    try:
+        api_data = fetch_api()
+        logger.info("API fetch successful")
+    except Exception as e:
+        logger.error(f"Failed to fetch API: {e}")
+        sys.exit(1)
 
     shows_by_date = extract_shows(api_data)
     if not shows_by_date:
-        print("No shows found in API response.")
+        logger.warning("No shows found in API response")
         return
 
+    # Collect all movie titles for fuzzy grouping
     all_titles = set()
     for shows in shows_by_date.values():
         for s in shows:
             all_titles.add(s["movie"])
-    movie_groups = group_similar_movies(all_titles)
-    print(f"Found {len(movie_groups)} movie groups after fuzzy matching.")
+    movie_mapping = group_similar_movies(all_titles)
+    logger.info(f"Fuzzy grouped into {len(movie_mapping)} movie groups")
 
+    # Process each date
     for date_str, new_shows in shows_by_date.items():
         year, month, day = date_str.split("-")
         file_path = DATA_ROOT / year / month / f"{day}.json"
-        existing = load_json(file_path)
-        if "date" not in existing:
-            existing["date"] = date_str
-        elif existing["date"] != date_str:
-            existing["date"] = date_str
-        merge_date_data(existing, new_shows, movie_groups)
-        save_json(file_path, existing)
-        print(f"Updated {file_path}")
 
-    print("Done.")
+        existing = load_json(file_path)
+        # Ensure the date field is correct
+        if "date" not in existing or existing["date"] != date_str:
+            existing["date"] = date_str
+
+        merge_date_data(existing, new_shows, movie_mapping)
+        save_json(file_path, existing)
+        logger.info(f"Updated {file_path} ({len(new_shows)} shows)")
+
+    logger.info("Done")
 
 if __name__ == "__main__":
     main()
