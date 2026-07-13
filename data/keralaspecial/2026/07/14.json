@@ -1,6 +1,6 @@
 {
   "date": "2026-07-14",
-  "last_updated": "2026-07-13T08:28:23.872613+05:30",
+  "last_updated": "2026-07-13T12:25:26.553238+05:30",
   "movies": {
     "Evil Dead Burn": {
       "gross": 0,
@@ -263,14 +263,33 @@
       "tickets_sold": 0
     },
     "I,Nobody": {
-      "gross": 0,
+      "gross": 450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 150,
+              "movie": "I,Nobody",
+              "screen": "Aiswarya",
+              "showid": "7700",
+              "tickets_sold": 1,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "I,Nobody",
+              "screen": "Aiswarya",
+              "showid": "7703",
+              "tickets_sold": 2,
+              "time": "08:45 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 450,
+          "shows": 2,
+          "tickets_sold": 3
         },
         "without_gross": {
           "breakdown": [
@@ -314,15 +333,6 @@
               "gross": 0,
               "movie": "I,Nobody",
               "screen": "Aiswarya",
-              "showid": "7700",
-              "tickets_sold": 0,
-              "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "I,Nobody",
-              "screen": "Aiswarya",
               "showid": "7701",
               "tickets_sold": 0,
               "time": "02:15 PM",
@@ -336,22 +346,31 @@
               "tickets_sold": 0,
               "time": "05:30 PM",
               "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "I,Nobody",
-              "screen": "Aiswarya",
-              "showid": "7703",
-              "tickets_sold": 0,
-              "time": "08:45 PM",
-              "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 6,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 300,
+          "movie": "I,Nobody",
+          "screen": "Aiswarya",
+          "showid": "7703",
+          "tickets_sold": 2,
+          "time": "08:45 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 150,
+          "movie": "I,Nobody",
+          "screen": "Aiswarya",
+          "showid": "7700",
+          "tickets_sold": 1,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 0,
           "movie": "I,Nobody",
@@ -392,15 +411,6 @@
           "gross": 0,
           "movie": "I,Nobody",
           "screen": "Aiswarya",
-          "showid": "7700",
-          "tickets_sold": 0,
-          "time": "11:00 AM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "I,Nobody",
-          "screen": "Aiswarya",
           "showid": "7701",
           "tickets_sold": 0,
           "time": "02:15 PM",
@@ -414,19 +424,10 @@
           "tickets_sold": 0,
           "time": "05:30 PM",
           "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "I,Nobody",
-          "screen": "Aiswarya",
-          "showid": "7703",
-          "tickets_sold": 0,
-          "time": "08:45 PM",
-          "venue": "Aiswarya Cinemas"
         }
       ],
       "shows": 8,
-      "tickets_sold": 0
+      "tickets_sold": 3
     },
     "SECRET OF KALINGA": {
       "gross": 0,
@@ -473,17 +474,15 @@
     "merged_movies": [
       {
         "aliases": [
-          "Evil Dead Burn"
+          "Kireedam"
         ],
-        "canonical": "Evil Dead Burn"
+        "canonical": "Kireedam"
       },
       {
         "aliases": [
-          "I Nobody",
-          "I, Nobody",
-          "I,Nobody"
+          "Idhayam Murali"
         ],
-        "canonical": "I,Nobody"
+        "canonical": "Idhayam Murali"
       },
       {
         "aliases": [
@@ -499,9 +498,9 @@
       },
       {
         "aliases": [
-          "Kireedam"
+          "Argentina vs England Semi Final 2"
         ],
-        "canonical": "Kireedam"
+        "canonical": "Argentina vs England Semi Final 2"
       },
       {
         "aliases": [
@@ -511,15 +510,17 @@
       },
       {
         "aliases": [
-          "Argentina vs England Semi Final 2"
+          "I Nobody",
+          "I, Nobody",
+          "I,Nobody"
         ],
-        "canonical": "Argentina vs England Semi Final 2"
+        "canonical": "I,Nobody"
       },
       {
         "aliases": [
-          "Idhayam Murali"
+          "Evil Dead Burn"
         ],
-        "canonical": "Idhayam Murali"
+        "canonical": "Evil Dead Burn"
       }
     ]
   }
