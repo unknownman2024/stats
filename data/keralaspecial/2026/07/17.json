@@ -1,28 +1,28 @@
 {
   "date": "2026-07-17",
-  "last_updated": "2026-07-14T05:28:37.821578+05:30",
+  "last_updated": "2026-07-14T08:53:03.822442+05:30",
   "movies": {
     "The Odyssey": {
-      "gross": 5250,
+      "gross": 5550,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 1500,
+              "gross": 1650,
               "movie": "The Odyssey",
               "screen": null,
               "showid": "18830",
-              "tickets_sold": 10,
+              "tickets_sold": 11,
               "time": "06:15 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 1200,
+              "gross": 1350,
               "movie": "The Odyssey",
               "screen": null,
               "showid": "18828",
-              "tickets_sold": 8,
+              "tickets_sold": 9,
               "time": "11:00 AM",
               "venue": "Puthet Cinemas"
             },
@@ -63,9 +63,9 @@
               "venue": "Girija Theatre"
             }
           ],
-          "gross": 5250,
+          "gross": 5550,
           "shows": 6,
-          "tickets_sold": 35
+          "tickets_sold": 37
         },
         "without_gross": {
           "breakdown": [
@@ -94,20 +94,20 @@
       },
       "show_breakdown": [
         {
-          "gross": 1500,
+          "gross": 1650,
           "movie": "The Odyssey",
           "screen": null,
           "showid": "18830",
-          "tickets_sold": 10,
+          "tickets_sold": 11,
           "time": "06:15 PM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 1200,
+          "gross": 1350,
           "movie": "The Odyssey",
           "screen": null,
           "showid": "18828",
-          "tickets_sold": 8,
+          "tickets_sold": 9,
           "time": "11:00 AM",
           "venue": "Puthet Cinemas"
         },
@@ -167,7 +167,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 35
+      "tickets_sold": 37
     },
     "VARAVU": {
       "gross": 7200,
@@ -364,16 +364,9 @@
     "merged_movies": [
       {
         "aliases": [
-          "I, Nobody",
-          "I,Nobody"
+          "The Odyssey"
         ],
-        "canonical": "I,Nobody"
-      },
-      {
-        "aliases": [
-          "Evil Dead Burn"
-        ],
-        "canonical": "Evil Dead Burn"
+        "canonical": "The Odyssey"
       },
       {
         "aliases": [
@@ -396,15 +389,22 @@
       },
       {
         "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
-      },
-      {
-        "aliases": [
           "Balan: The Boy"
         ],
         "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
+          "I, Nobody",
+          "I,Nobody"
+        ],
+        "canonical": "I,Nobody"
+      },
+      {
+        "aliases": [
+          "Evil Dead Burn"
+        ],
+        "canonical": "Evil Dead Burn"
       }
     ]
   }
