@@ -1,6 +1,6 @@
 {
   "date": "2026-07-14",
-  "last_updated": "2026-07-14T21:07:51.014463+05:30",
+  "last_updated": "2026-07-14T22:50:09.240711+05:30",
   "movies": {
     "Balan: The Boy": {
       "gross": 2100,
@@ -176,6 +176,15 @@
               "venue": "SFC"
             },
             {
+              "gross": 900,
+              "movie": "Evil Dead Burn",
+              "screen": "SCREEN 4",
+              "showid": "3387",
+              "tickets_sold": 6,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
               "gross": 750,
               "movie": "Evil Dead Burn",
               "screen": "SCREEN 2",
@@ -227,15 +236,6 @@
               "showid": "3386",
               "tickets_sold": 2,
               "time": "06:00 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 900,
-              "movie": "Evil Dead Burn",
-              "screen": "SCREEN 4",
-              "showid": "3387",
-              "tickets_sold": 6,
-              "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
             },
             {
@@ -1032,6 +1032,15 @@
               "venue": "Sandhya"
             },
             {
+              "gross": 4050,
+              "movie": "I,Nobody",
+              "screen": "SCREEN 1",
+              "showid": "3347",
+              "tickets_sold": 27,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
               "gross": 2250,
               "movie": "I, Nobody",
               "screen": null,
@@ -1041,21 +1050,21 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 1950,
-              "movie": "I, Nobody",
-              "screen": "SCREEN 1",
-              "showid": "9579",
-              "tickets_sold": 13,
-              "time": "06:30 PM",
-              "venue": "Harihar"
-            },
-            {
               "gross": 2100,
               "movie": "I, Nobody",
               "screen": "SCREEN 3",
               "showid": "9581",
               "tickets_sold": 14,
               "time": "09:30 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 1950,
+              "movie": "I, Nobody",
+              "screen": "SCREEN 1",
+              "showid": "9579",
+              "tickets_sold": 13,
+              "time": "06:30 PM",
               "venue": "Harihar"
             },
             {
@@ -1075,15 +1084,6 @@
               "tickets_sold": 9,
               "time": "08:45 PM",
               "venue": "SFC"
-            },
-            {
-              "gross": 4050,
-              "movie": "I,Nobody",
-              "screen": "SCREEN 1",
-              "showid": "3347",
-              "tickets_sold": 27,
-              "time": "09:30 PM",
-              "venue": "Fairyland Cinemas"
             },
             {
               "gross": 900,
@@ -1864,29 +1864,9 @@
     "merged_movies": [
       {
         "aliases": [
-          "I, Nobody",
-          "I,Nobody"
+          "Evil Dead Burn"
         ],
-        "canonical": "I,Nobody"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Argentina vs England Semi Final 2"
-        ],
-        "canonical": "Argentina vs England Semi Final 2"
-      },
-      {
-        "aliases": [
-          "VARAVU",
-          "Varavu"
-        ],
-        "canonical": "Varavu"
+        "canonical": "Evil Dead Burn"
       },
       {
         "aliases": [
@@ -1902,21 +1882,41 @@
       },
       {
         "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "I, Nobody",
+          "I,Nobody"
+        ],
+        "canonical": "I,Nobody"
+      },
+      {
+        "aliases": [
+          "VARAVU",
+          "Varavu"
+        ],
+        "canonical": "Varavu"
+      },
+      {
+        "aliases": [
           "Balan: The Boy"
         ],
         "canonical": "Balan: The Boy"
       },
       {
         "aliases": [
-          "Evil Dead Burn"
-        ],
-        "canonical": "Evil Dead Burn"
-      },
-      {
-        "aliases": [
           "FRANCE vs SPAIN Semi Final 1"
         ],
         "canonical": "FRANCE vs SPAIN Semi Final 1"
+      },
+      {
+        "aliases": [
+          "Argentina vs England Semi Final 2"
+        ],
+        "canonical": "Argentina vs England Semi Final 2"
       }
     ]
   }
