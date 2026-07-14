@@ -1,28 +1,28 @@
 {
   "date": "2026-07-17",
-  "last_updated": "2026-07-14T08:53:03.822442+05:30",
+  "last_updated": "2026-07-14T11:47:10.075952+05:30",
   "movies": {
     "The Odyssey": {
-      "gross": 5550,
+      "gross": 6450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 1650,
+              "gross": 1950,
               "movie": "The Odyssey",
               "screen": null,
               "showid": "18830",
-              "tickets_sold": 11,
+              "tickets_sold": 13,
               "time": "06:15 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 1350,
+              "gross": 1800,
               "movie": "The Odyssey",
               "screen": null,
               "showid": "18828",
-              "tickets_sold": 9,
+              "tickets_sold": 12,
               "time": "11:00 AM",
               "venue": "Puthet Cinemas"
             },
@@ -61,11 +61,20 @@
               "tickets_sold": 2,
               "time": "11:30 AM",
               "venue": "Girija Theatre"
+            },
+            {
+              "gross": 150,
+              "movie": "The Odyssey",
+              "screen": "Dolby Atmos",
+              "showid": "5664",
+              "tickets_sold": 1,
+              "time": "10:00 PM",
+              "venue": "Girija Theatre"
             }
           ],
-          "gross": 5550,
-          "shows": 6,
-          "tickets_sold": 37
+          "gross": 6450,
+          "shows": 7,
+          "tickets_sold": 43
         },
         "without_gross": {
           "breakdown": [
@@ -77,37 +86,28 @@
               "tickets_sold": 0,
               "time": "03:00 PM",
               "venue": "Girija Theatre"
-            },
-            {
-              "gross": 0,
-              "movie": "The Odyssey",
-              "screen": "Dolby Atmos",
-              "showid": "5664",
-              "tickets_sold": 0,
-              "time": "10:00 PM",
-              "venue": "Girija Theatre"
             }
           ],
-          "shows": 2,
+          "shows": 1,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 1650,
+          "gross": 1950,
           "movie": "The Odyssey",
           "screen": null,
           "showid": "18830",
-          "tickets_sold": 11,
+          "tickets_sold": 13,
           "time": "06:15 PM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 1350,
+          "gross": 1800,
           "movie": "The Odyssey",
           "screen": null,
           "showid": "18828",
-          "tickets_sold": 9,
+          "tickets_sold": 12,
           "time": "11:00 AM",
           "venue": "Puthet Cinemas"
         },
@@ -148,6 +148,15 @@
           "venue": "Girija Theatre"
         },
         {
+          "gross": 150,
+          "movie": "The Odyssey",
+          "screen": "Dolby Atmos",
+          "showid": "5664",
+          "tickets_sold": 1,
+          "time": "10:00 PM",
+          "venue": "Girija Theatre"
+        },
+        {
           "gross": 0,
           "movie": "The Odyssey",
           "screen": "Dolby Atmos",
@@ -155,19 +164,10 @@
           "tickets_sold": 0,
           "time": "03:00 PM",
           "venue": "Girija Theatre"
-        },
-        {
-          "gross": 0,
-          "movie": "The Odyssey",
-          "screen": "Dolby Atmos",
-          "showid": "5664",
-          "tickets_sold": 0,
-          "time": "10:00 PM",
-          "venue": "Girija Theatre"
         }
       ],
       "shows": 8,
-      "tickets_sold": 37
+      "tickets_sold": 43
     },
     "VARAVU": {
       "gross": 7200,
@@ -364,9 +364,35 @@
     "merged_movies": [
       {
         "aliases": [
-          "The Odyssey"
+          "Balan: The Boy"
         ],
-        "canonical": "The Odyssey"
+        "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
+          "Evil Dead Burn"
+        ],
+        "canonical": "Evil Dead Burn"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "I Nobody",
+          "I, Nobody",
+          "I,Nobody"
+        ],
+        "canonical": "I Nobody"
+      },
+      {
+        "aliases": [
+          "Argentina vs England Semi Final 2"
+        ],
+        "canonical": "Argentina vs England Semi Final 2"
       },
       {
         "aliases": [
@@ -376,35 +402,34 @@
       },
       {
         "aliases": [
-          "Idhayam Murali"
+          "SECRET OF KALINGA"
         ],
-        "canonical": "Idhayam Murali"
+        "canonical": "SECRET OF KALINGA"
+      },
+      {
+        "aliases": [
+          "FRANCE vs SPAIN Semi Final 1"
+        ],
+        "canonical": "FRANCE vs SPAIN Semi Final 1"
       },
       {
         "aliases": [
           "VARAVU",
           "Varavu"
         ],
-        "canonical": "Varavu"
+        "canonical": "VARAVU"
       },
       {
         "aliases": [
-          "Balan: The Boy"
+          "The Odyssey"
         ],
-        "canonical": "Balan: The Boy"
+        "canonical": "The Odyssey"
       },
       {
         "aliases": [
-          "I, Nobody",
-          "I,Nobody"
+          "Idhayam Murali"
         ],
-        "canonical": "I,Nobody"
-      },
-      {
-        "aliases": [
-          "Evil Dead Burn"
-        ],
-        "canonical": "Evil Dead Burn"
+        "canonical": "Idhayam Murali"
       }
     ]
   }
