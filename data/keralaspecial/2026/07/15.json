@@ -1,6 +1,6 @@
 {
   "date": "2026-07-15",
-  "last_updated": "2026-07-15T00:58:10.298462+05:30",
+  "last_updated": "2026-07-15T02:35:17.035117+05:30",
   "movies": {
     "Balan: The Boy": {
       "gross": 0,
@@ -674,6 +674,24 @@
         "with_gross": {
           "breakdown": [
             {
+              "gross": 1500,
+              "movie": "I, Nobody",
+              "screen": "SAVITHA",
+              "showid": "19564",
+              "tickets_sold": 10,
+              "time": "05:30 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 1200,
+              "movie": "I, Nobody",
+              "screen": "SAVITHA",
+              "showid": "19565",
+              "tickets_sold": 8,
+              "time": "08:45 PM",
+              "venue": "SFC"
+            },
+            {
               "gross": 600,
               "movie": "I, Nobody",
               "screen": null,
@@ -699,24 +717,6 @@
               "tickets_sold": 2,
               "time": "02:30 PM",
               "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 1500,
-              "movie": "I, Nobody",
-              "screen": "SAVITHA",
-              "showid": "19564",
-              "tickets_sold": 10,
-              "time": "05:30 PM",
-              "venue": "SFC"
-            },
-            {
-              "gross": 1200,
-              "movie": "I, Nobody",
-              "screen": "SAVITHA",
-              "showid": "19565",
-              "tickets_sold": 8,
-              "time": "08:45 PM",
-              "venue": "SFC"
             }
           ],
           "gross": 3900,
@@ -1334,14 +1334,24 @@
       "tickets_sold": 0
     },
     "Unknown": {
-      "gross": 0,
+      "gross": 20550,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 20550,
+              "movie": "Unknown",
+              "screen": "Cinema-2",
+              "showid": "22379",
+              "tickets_sold": 137,
+              "time": "12:30 AM",
+              "venue": "Davis Theatre"
+            }
+          ],
+          "gross": 20550,
+          "shows": 1,
+          "tickets_sold": 137
         },
         "without_gross": {
           "breakdown": [
@@ -1370,6 +1380,15 @@
       },
       "show_breakdown": [
         {
+          "gross": 20550,
+          "movie": "Unknown",
+          "screen": "Cinema-2",
+          "showid": "22379",
+          "tickets_sold": 137,
+          "time": "12:30 AM",
+          "venue": "Davis Theatre"
+        },
+        {
           "gross": 0,
           "movie": "Unknown",
           "screen": "Dolby Atmos",
@@ -1388,18 +1407,12 @@
           "venue": "Girija Theatre"
         }
       ],
-      "shows": 2,
-      "tickets_sold": 0
+      "shows": 3,
+      "tickets_sold": 137
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "Argentina vs England Semi Final 2"
-        ],
-        "canonical": "Argentina vs England Semi Final 2"
-      },
       {
         "aliases": [
           "I, Nobody",
@@ -1409,10 +1422,34 @@
       },
       {
         "aliases": [
+          "Evil Dead Burn"
+        ],
+        "canonical": "Evil Dead Burn"
+      },
+      {
+        "aliases": [
           "VARAVU",
           "Varavu"
         ],
-        "canonical": "VARAVU"
+        "canonical": "Varavu"
+      },
+      {
+        "aliases": [
+          "Idhayam Murali"
+        ],
+        "canonical": "Idhayam Murali"
+      },
+      {
+        "aliases": [
+          "Balan: The Boy"
+        ],
+        "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
+          "Kireedam"
+        ],
+        "canonical": "Kireedam"
       },
       {
         "aliases": [
@@ -1428,27 +1465,9 @@
       },
       {
         "aliases": [
-          "Balan: The Boy"
+          "Argentina vs England Semi Final 2"
         ],
-        "canonical": "Balan: The Boy"
-      },
-      {
-        "aliases": [
-          "Evil Dead Burn"
-        ],
-        "canonical": "Evil Dead Burn"
-      },
-      {
-        "aliases": [
-          "Kireedam"
-        ],
-        "canonical": "Kireedam"
-      },
-      {
-        "aliases": [
-          "Idhayam Murali"
-        ],
-        "canonical": "Idhayam Murali"
+        "canonical": "Argentina vs England Semi Final 2"
       }
     ]
   }
