@@ -1,6 +1,6 @@
 {
   "date": "2026-07-16",
-  "last_updated": "2026-07-14T14:38:58.143500+05:30",
+  "last_updated": "2026-07-14T17:06:10.257222+05:30",
   "movies": {
     "Argentina vs England Semi Final 2": {
       "gross": 3750,
@@ -416,20 +416,11 @@
       "tickets_sold": 141
     },
     "Varavu": {
-      "gross": 23400,
+      "gross": 24900,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
-            {
-              "gross": 4200,
-              "movie": "Varavu",
-              "screen": "SCREEN 1",
-              "showid": "3398",
-              "tickets_sold": 28,
-              "time": "06:00 PM",
-              "venue": "Fairyland Cinemas"
-            },
             {
               "gross": 6150,
               "movie": "Varavu",
@@ -438,6 +429,15 @@
               "tickets_sold": 41,
               "time": "09:00 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 4200,
+              "movie": "Varavu",
+              "screen": "SCREEN 1",
+              "showid": "3398",
+              "tickets_sold": 28,
+              "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
             },
             {
               "gross": 3750,
@@ -449,13 +449,22 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 3150,
+              "gross": 3750,
               "movie": "VARAVU",
               "screen": "Aiswarya",
               "showid": "7715",
-              "tickets_sold": 21,
+              "tickets_sold": 25,
               "time": "08:30 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 2550,
+              "movie": "Varavu",
+              "screen": null,
+              "showid": "18842",
+              "tickets_sold": 17,
+              "time": "11:30 AM",
+              "venue": "Puthet Cinemas"
             },
             {
               "gross": 1650,
@@ -467,13 +476,13 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 2250,
-              "movie": "Varavu",
-              "screen": null,
-              "showid": "18842",
-              "tickets_sold": 15,
-              "time": "11:30 AM",
-              "venue": "Puthet Cinemas"
+              "gross": 750,
+              "movie": "VARAVU",
+              "screen": "Aiswarya",
+              "showid": "7712",
+              "tickets_sold": 5,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
             },
             {
               "gross": 600,
@@ -503,30 +512,21 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 750,
-              "movie": "VARAVU",
-              "screen": "Aiswarya",
-              "showid": "7712",
-              "tickets_sold": 5,
-              "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
-            }
-          ],
-          "gross": 23400,
-          "shows": 10,
-          "tickets_sold": 156
-        },
-        "without_gross": {
-          "breakdown": [
-            {
-              "gross": 0,
+              "gross": 600,
               "movie": "Varavu",
               "screen": "SCREEN 1",
               "showid": "3396",
-              "tickets_sold": 0,
+              "tickets_sold": 4,
               "time": "11:00 AM",
               "venue": "Fairyland Cinemas"
-            },
+            }
+          ],
+          "gross": 24900,
+          "shows": 11,
+          "tickets_sold": 166
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "VARAVU",
@@ -537,7 +537,7 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 2,
+          "shows": 1,
           "tickets_sold": 0
         }
       },
@@ -570,20 +570,20 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 3150,
+          "gross": 3750,
           "movie": "VARAVU",
           "screen": "Aiswarya",
           "showid": "7715",
-          "tickets_sold": 21,
+          "tickets_sold": 25,
           "time": "08:30 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 2250,
+          "gross": 2550,
           "movie": "Varavu",
           "screen": null,
           "showid": "18842",
-          "tickets_sold": 15,
+          "tickets_sold": 17,
           "time": "11:30 AM",
           "venue": "Puthet Cinemas"
         },
@@ -615,6 +615,15 @@
           "venue": "Aiswarya Cinemas"
         },
         {
+          "gross": 600,
+          "movie": "Varavu",
+          "screen": "SCREEN 1",
+          "showid": "3396",
+          "tickets_sold": 4,
+          "time": "11:00 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
           "gross": 450,
           "movie": "Varavu",
           "screen": null,
@@ -634,15 +643,6 @@
         },
         {
           "gross": 0,
-          "movie": "Varavu",
-          "screen": "SCREEN 1",
-          "showid": "3396",
-          "tickets_sold": 0,
-          "time": "11:00 AM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
           "movie": "VARAVU",
           "screen": "Aiswarya",
           "showid": "7713",
@@ -652,24 +652,18 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 156
+      "tickets_sold": 166
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
-      },
-      {
-        "aliases": [
           "I Nobody",
           "I, Nobody",
           "I,Nobody"
         ],
-        "canonical": "I Nobody"
+        "canonical": "I,Nobody"
       },
       {
         "aliases": [
@@ -679,9 +673,9 @@
       },
       {
         "aliases": [
-          "FRANCE vs SPAIN Semi Final 1"
+          "The Odyssey"
         ],
-        "canonical": "FRANCE vs SPAIN Semi Final 1"
+        "canonical": "The Odyssey"
       },
       {
         "aliases": [
@@ -691,21 +685,27 @@
       },
       {
         "aliases": [
-          "Kireedam"
-        ],
-        "canonical": "Kireedam"
-      },
-      {
-        "aliases": [
           "SECRET OF KALINGA"
         ],
         "canonical": "SECRET OF KALINGA"
       },
       {
         "aliases": [
-          "Idhayam Murali"
+          "Balan: The Boy"
         ],
-        "canonical": "Idhayam Murali"
+        "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
+          "FRANCE vs SPAIN Semi Final 1"
+        ],
+        "canonical": "FRANCE vs SPAIN Semi Final 1"
+      },
+      {
+        "aliases": [
+          "Kireedam"
+        ],
+        "canonical": "Kireedam"
       },
       {
         "aliases": [
@@ -713,12 +713,6 @@
           "Varavu"
         ],
         "canonical": "Varavu"
-      },
-      {
-        "aliases": [
-          "Balan: The Boy"
-        ],
-        "canonical": "Balan: The Boy"
       }
     ]
   }
