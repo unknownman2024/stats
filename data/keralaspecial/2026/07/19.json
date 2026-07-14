@@ -1,16 +1,26 @@
 {
   "date": "2026-07-19",
-  "last_updated": "2026-07-14T19:28:20.381327+05:30",
+  "last_updated": "2026-07-14T21:07:51.017893+05:30",
   "movies": {
     "The Odyssey": {
-      "gross": 0,
+      "gross": 300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 300,
+              "movie": "The Odyssey",
+              "screen": "Dolby Atmos",
+              "showid": "5670",
+              "tickets_sold": 2,
+              "time": "03:00 PM",
+              "venue": "Girija Theatre"
+            }
+          ],
+          "gross": 300,
+          "shows": 1,
+          "tickets_sold": 2
         },
         "without_gross": {
           "breakdown": [
@@ -21,15 +31,6 @@
               "showid": "5669",
               "tickets_sold": 0,
               "time": "11:30 AM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 0,
-              "movie": "The Odyssey",
-              "screen": "Dolby Atmos",
-              "showid": "5670",
-              "tickets_sold": 0,
-              "time": "03:00 PM",
               "venue": "Girija Theatre"
             },
             {
@@ -96,11 +97,20 @@
               "venue": "Girija Theatre"
             }
           ],
-          "shows": 9,
+          "shows": 8,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 300,
+          "movie": "The Odyssey",
+          "screen": "Dolby Atmos",
+          "showid": "5670",
+          "tickets_sold": 2,
+          "time": "03:00 PM",
+          "venue": "Girija Theatre"
+        },
         {
           "gross": 0,
           "movie": "The Odyssey",
@@ -108,15 +118,6 @@
           "showid": "5669",
           "tickets_sold": 0,
           "time": "11:30 AM",
-          "venue": "Girija Theatre"
-        },
-        {
-          "gross": 0,
-          "movie": "The Odyssey",
-          "screen": "Dolby Atmos",
-          "showid": "5670",
-          "tickets_sold": 0,
-          "time": "03:00 PM",
           "venue": "Girija Theatre"
         },
         {
@@ -184,7 +185,7 @@
         }
       ],
       "shows": 9,
-      "tickets_sold": 0
+      "tickets_sold": 2
     },
     "VARAVU": {
       "gross": 7200,
@@ -381,25 +382,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "FRANCE vs SPAIN Semi Final 1"
-        ],
-        "canonical": "FRANCE vs SPAIN Semi Final 1"
-      },
-      {
-        "aliases": [
-          "Evil Dead Burn"
-        ],
-        "canonical": "Evil Dead Burn"
-      },
-      {
-        "aliases": [
-          "SECRET OF KALINGA"
-        ],
-        "canonical": "SECRET OF KALINGA"
-      },
-      {
-        "aliases": [
-          "I Nobody",
           "I, Nobody",
           "I,Nobody"
         ],
@@ -407,21 +389,9 @@
       },
       {
         "aliases": [
-          "Balan: The Boy"
+          "Unknown"
         ],
-        "canonical": "Balan: The Boy"
-      },
-      {
-        "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
-      },
-      {
-        "aliases": [
-          "Kireedam"
-        ],
-        "canonical": "Kireedam"
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -438,9 +408,33 @@
       },
       {
         "aliases": [
-          "Unknown"
+          "The Odyssey"
         ],
-        "canonical": "Unknown"
+        "canonical": "The Odyssey"
+      },
+      {
+        "aliases": [
+          "SECRET OF KALINGA"
+        ],
+        "canonical": "SECRET OF KALINGA"
+      },
+      {
+        "aliases": [
+          "Balan: The Boy"
+        ],
+        "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
+          "Evil Dead Burn"
+        ],
+        "canonical": "Evil Dead Burn"
+      },
+      {
+        "aliases": [
+          "FRANCE vs SPAIN Semi Final 1"
+        ],
+        "canonical": "FRANCE vs SPAIN Semi Final 1"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "date": "2026-07-15",
-  "last_updated": "2026-07-14T19:28:20.376225+05:30",
+  "last_updated": "2026-07-14T21:07:51.010455+05:30",
   "movies": {
     "Balan: The Boy": {
       "gross": 0,
@@ -228,24 +228,24 @@
       "tickets_sold": 1
     },
     "FRANCE vs SPAIN Semi Final 1": {
-      "gross": 10050,
+      "gross": 14250,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 10050,
+              "gross": 14250,
               "movie": "FRANCE vs SPAIN Semi Final 1",
               "screen": "Cinema-2",
               "showid": "22362",
-              "tickets_sold": 67,
+              "tickets_sold": 95,
               "time": "12:30 AM",
               "venue": "Davis Theatre"
             }
           ],
-          "gross": 10050,
+          "gross": 14250,
           "shows": 1,
-          "tickets_sold": 67
+          "tickets_sold": 95
         },
         "without_gross": {
           "breakdown": [],
@@ -255,17 +255,17 @@
       },
       "show_breakdown": [
         {
-          "gross": 10050,
+          "gross": 14250,
           "movie": "FRANCE vs SPAIN Semi Final 1",
           "screen": "Cinema-2",
           "showid": "22362",
-          "tickets_sold": 67,
+          "tickets_sold": 95,
           "time": "12:30 AM",
           "venue": "Davis Theatre"
         }
       ],
       "shows": 1,
-      "tickets_sold": 67
+      "tickets_sold": 95
     },
     "I Nobody": {
       "gross": 0,
@@ -434,24 +434,33 @@
       "tickets_sold": 0
     },
     "I,Nobody": {
-      "gross": 300,
+      "gross": 900,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 300,
+              "gross": 600,
               "movie": "I, Nobody",
               "screen": null,
               "showid": "18851",
-              "tickets_sold": 2,
+              "tickets_sold": 4,
               "time": "11:00 AM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "I,Nobody",
+              "screen": "Aiswarya",
+              "showid": "7704",
+              "tickets_sold": 2,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 300,
-          "shows": 1,
-          "tickets_sold": 2
+          "gross": 900,
+          "shows": 2,
+          "tickets_sold": 6
         },
         "without_gross": {
           "breakdown": [
@@ -490,15 +499,6 @@
               "tickets_sold": 0,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "I,Nobody",
-              "screen": "Aiswarya",
-              "showid": "7704",
-              "tickets_sold": 0,
-              "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
             },
             {
               "gross": 0,
@@ -555,19 +555,28 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 11,
+          "shows": 10,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 300,
+          "gross": 600,
           "movie": "I, Nobody",
           "screen": null,
           "showid": "18851",
-          "tickets_sold": 2,
+          "tickets_sold": 4,
           "time": "11:00 AM",
           "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "I,Nobody",
+          "screen": "Aiswarya",
+          "showid": "7704",
+          "tickets_sold": 2,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 0,
@@ -604,15 +613,6 @@
           "tickets_sold": 0,
           "time": "09:30 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "I,Nobody",
-          "screen": "Aiswarya",
-          "showid": "7704",
-          "tickets_sold": 0,
-          "time": "11:00 AM",
-          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 0,
@@ -670,7 +670,7 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 2
+      "tickets_sold": 6
     },
     "SECRET OF KALINGA": {
       "gross": 0,
@@ -717,25 +717,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "FRANCE vs SPAIN Semi Final 1"
-        ],
-        "canonical": "FRANCE vs SPAIN Semi Final 1"
-      },
-      {
-        "aliases": [
-          "Evil Dead Burn"
-        ],
-        "canonical": "Evil Dead Burn"
-      },
-      {
-        "aliases": [
-          "SECRET OF KALINGA"
-        ],
-        "canonical": "SECRET OF KALINGA"
-      },
-      {
-        "aliases": [
-          "I Nobody",
           "I, Nobody",
           "I,Nobody"
         ],
@@ -743,21 +724,9 @@
       },
       {
         "aliases": [
-          "Balan: The Boy"
+          "Unknown"
         ],
-        "canonical": "Balan: The Boy"
-      },
-      {
-        "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
-      },
-      {
-        "aliases": [
-          "Kireedam"
-        ],
-        "canonical": "Kireedam"
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -774,9 +743,33 @@
       },
       {
         "aliases": [
-          "Unknown"
+          "The Odyssey"
         ],
-        "canonical": "Unknown"
+        "canonical": "The Odyssey"
+      },
+      {
+        "aliases": [
+          "SECRET OF KALINGA"
+        ],
+        "canonical": "SECRET OF KALINGA"
+      },
+      {
+        "aliases": [
+          "Balan: The Boy"
+        ],
+        "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
+          "Evil Dead Burn"
+        ],
+        "canonical": "Evil Dead Burn"
+      },
+      {
+        "aliases": [
+          "FRANCE vs SPAIN Semi Final 1"
+        ],
+        "canonical": "FRANCE vs SPAIN Semi Final 1"
       }
     ]
   }
