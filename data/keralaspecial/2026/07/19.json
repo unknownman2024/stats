@@ -1,6 +1,6 @@
 {
   "date": "2026-07-19",
-  "last_updated": "2026-07-15T22:10:32.304941+05:30",
+  "last_updated": "2026-07-15T23:42:53.047760+05:30",
   "movies": {
     "I,Nobody": {
       "gross": 0,
@@ -151,7 +151,7 @@
       "tickets_sold": 0
     },
     "The Odyssey": {
-      "gross": 300,
+      "gross": 750,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -164,11 +164,29 @@
               "tickets_sold": 2,
               "time": "03:00 PM",
               "venue": "Girija Theatre"
+            },
+            {
+              "gross": 300,
+              "movie": "The Odyssey",
+              "screen": "Screen-2",
+              "showid": "7724",
+              "tickets_sold": 2,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 150,
+              "movie": "The Odyssey",
+              "screen": null,
+              "showid": "18880",
+              "tickets_sold": 1,
+              "time": "02:30 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 300,
-          "shows": 1,
-          "tickets_sold": 2
+          "gross": 750,
+          "shows": 3,
+          "tickets_sold": 5
         },
         "without_gross": {
           "breakdown": [
@@ -198,15 +216,6 @@
               "tickets_sold": 0,
               "time": "10:00 PM",
               "venue": "Girija Theatre"
-            },
-            {
-              "gross": 0,
-              "movie": "The Odyssey",
-              "screen": "Screen-2",
-              "showid": "7724",
-              "tickets_sold": 0,
-              "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
             },
             {
               "gross": 0,
@@ -257,15 +266,6 @@
               "gross": 0,
               "movie": "The Odyssey",
               "screen": null,
-              "showid": "18880",
-              "tickets_sold": 0,
-              "time": "02:30 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "The Odyssey",
-              "screen": null,
               "showid": "18881",
               "tickets_sold": 0,
               "time": "06:15 PM",
@@ -281,7 +281,7 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 12,
+          "shows": 10,
           "tickets_sold": 0
         }
       },
@@ -294,6 +294,24 @@
           "tickets_sold": 2,
           "time": "03:00 PM",
           "venue": "Girija Theatre"
+        },
+        {
+          "gross": 300,
+          "movie": "The Odyssey",
+          "screen": "Screen-2",
+          "showid": "7724",
+          "tickets_sold": 2,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 150,
+          "movie": "The Odyssey",
+          "screen": null,
+          "showid": "18880",
+          "tickets_sold": 1,
+          "time": "02:30 PM",
+          "venue": "Puthet Cinemas"
         },
         {
           "gross": 0,
@@ -321,15 +339,6 @@
           "tickets_sold": 0,
           "time": "10:00 PM",
           "venue": "Girija Theatre"
-        },
-        {
-          "gross": 0,
-          "movie": "The Odyssey",
-          "screen": "Screen-2",
-          "showid": "7724",
-          "tickets_sold": 0,
-          "time": "11:00 AM",
-          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 0,
@@ -380,15 +389,6 @@
           "gross": 0,
           "movie": "The Odyssey",
           "screen": null,
-          "showid": "18880",
-          "tickets_sold": 0,
-          "time": "02:30 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "The Odyssey",
-          "screen": null,
           "showid": "18881",
           "tickets_sold": 0,
           "time": "06:15 PM",
@@ -405,7 +405,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 2
+      "tickets_sold": 5
     },
     "VARAVU": {
       "gross": 7200,
@@ -897,12 +897,6 @@
       },
       {
         "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
-      },
-      {
-        "aliases": [
           "VARAVU",
           "Varavu"
         ],
@@ -910,9 +904,9 @@
       },
       {
         "aliases": [
-          "Argentina vs England Semi Final 2"
+          "The Odyssey"
         ],
-        "canonical": "Argentina vs England Semi Final 2"
+        "canonical": "The Odyssey"
       },
       {
         "aliases": [
@@ -925,6 +919,12 @@
           "Balan: The Boy"
         ],
         "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
+          "Argentina vs England Semi Final 2"
+        ],
+        "canonical": "Argentina vs England Semi Final 2"
       }
     ]
   }
