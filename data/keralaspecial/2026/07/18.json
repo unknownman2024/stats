@@ -1,6 +1,6 @@
 {
   "date": "2026-07-18",
-  "last_updated": "2026-07-15T23:42:53.046061+05:30",
+  "last_updated": "2026-07-16T01:45:22.283666+05:30",
   "movies": {
     "I,Nobody": {
       "gross": 0,
@@ -151,36 +151,18 @@
       "tickets_sold": 0
     },
     "The Odyssey": {
-      "gross": 2850,
+      "gross": 3600,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 1050,
+              "gross": 1350,
               "movie": "The Odyssey",
               "screen": null,
               "showid": "18876",
-              "tickets_sold": 7,
+              "tickets_sold": 9,
               "time": "02:30 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 450,
-              "movie": "The Odyssey",
-              "screen": "Screen-2",
-              "showid": "7720",
-              "tickets_sold": 3,
-              "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 300,
-              "movie": "The Odyssey",
-              "screen": null,
-              "showid": "18877",
-              "tickets_sold": 2,
-              "time": "06:15 PM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -195,16 +177,43 @@
             {
               "gross": 450,
               "movie": "The Odyssey",
+              "screen": "Screen-2",
+              "showid": "7720",
+              "tickets_sold": 3,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 450,
+              "movie": "The Odyssey",
               "screen": null,
               "showid": "18875",
               "tickets_sold": 3,
               "time": "11:00 AM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "The Odyssey",
+              "screen": null,
+              "showid": "18877",
+              "tickets_sold": 2,
+              "time": "06:15 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 450,
+              "movie": "The Odyssey",
+              "screen": "Screen-2",
+              "showid": "7722",
+              "tickets_sold": 3,
+              "time": "07:00 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 2850,
-          "shows": 5,
-          "tickets_sold": 19
+          "gross": 3600,
+          "shows": 6,
+          "tickets_sold": 24
         },
         "without_gross": {
           "breakdown": [
@@ -257,15 +266,6 @@
               "gross": 0,
               "movie": "The Odyssey",
               "screen": "Screen-2",
-              "showid": "7722",
-              "tickets_sold": 0,
-              "time": "07:00 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "The Odyssey",
-              "screen": "Screen-2",
               "showid": "7723",
               "tickets_sold": 0,
               "time": "10:15 PM",
@@ -281,17 +281,17 @@
               "venue": "Girija Theatre"
             }
           ],
-          "shows": 8,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 1050,
+          "gross": 1350,
           "movie": "The Odyssey",
           "screen": null,
           "showid": "18876",
-          "tickets_sold": 7,
+          "tickets_sold": 9,
           "time": "02:30 PM",
           "venue": "Puthet Cinemas"
         },
@@ -321,6 +321,15 @@
           "tickets_sold": 3,
           "time": "11:00 AM",
           "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 450,
+          "movie": "The Odyssey",
+          "screen": "Screen-2",
+          "showid": "7722",
+          "tickets_sold": 3,
+          "time": "07:00 PM",
+          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 300,
@@ -380,15 +389,6 @@
           "gross": 0,
           "movie": "The Odyssey",
           "screen": "Screen-2",
-          "showid": "7722",
-          "tickets_sold": 0,
-          "time": "07:00 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "The Odyssey",
-          "screen": "Screen-2",
           "showid": "7723",
           "tickets_sold": 0,
           "time": "10:15 PM",
@@ -405,7 +405,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 19
+      "tickets_sold": 24
     },
     "VARAVU": {
       "gross": 7950,
@@ -890,13 +890,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "I, Nobody",
-          "I,Nobody"
-        ],
-        "canonical": "I,Nobody"
-      },
-      {
-        "aliases": [
           "VARAVU",
           "Varavu"
         ],
@@ -904,15 +897,10 @@
       },
       {
         "aliases": [
-          "The Odyssey"
+          "I, Nobody",
+          "I,Nobody"
         ],
-        "canonical": "The Odyssey"
-      },
-      {
-        "aliases": [
-          "Evil Dead Burn"
-        ],
-        "canonical": "Evil Dead Burn"
+        "canonical": "I,Nobody"
       },
       {
         "aliases": [
@@ -922,9 +910,15 @@
       },
       {
         "aliases": [
-          "Argentina vs England Semi Final 2"
+          "Evil Dead Burn"
         ],
-        "canonical": "Argentina vs England Semi Final 2"
+        "canonical": "Evil Dead Burn"
+      },
+      {
+        "aliases": [
+          "The Odyssey"
+        ],
+        "canonical": "The Odyssey"
       }
     ]
   }
