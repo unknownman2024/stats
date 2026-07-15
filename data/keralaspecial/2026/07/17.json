@@ -1,9 +1,9 @@
 {
   "date": "2026-07-17",
-  "last_updated": "2026-07-15T04:31:28.971396+05:30",
+  "last_updated": "2026-07-15T08:23:42.376836+05:30",
   "movies": {
     "The Odyssey": {
-      "gross": 30300,
+      "gross": 30450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -81,18 +81,18 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 150,
+              "gross": 300,
               "movie": "The Odyssey",
               "screen": "Screen-2",
               "showid": "7716",
-              "tickets_sold": 1,
+              "tickets_sold": 2,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 30300,
+          "gross": 30450,
           "shows": 9,
-          "tickets_sold": 202
+          "tickets_sold": 203
         },
         "without_gross": {
           "breakdown": [
@@ -202,11 +202,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 150,
+          "gross": 300,
           "movie": "The Odyssey",
           "screen": "Screen-2",
           "showid": "7716",
-          "tickets_sold": 1,
+          "tickets_sold": 2,
           "time": "11:00 AM",
           "venue": "Aiswarya Cinemas"
         },
@@ -239,7 +239,7 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 202
+      "tickets_sold": 203
     },
     "VARAVU": {
       "gross": 7200,
@@ -436,15 +436,15 @@
     "merged_movies": [
       {
         "aliases": [
-          "Idhayam Murali"
-        ],
-        "canonical": "Idhayam Murali"
-      },
-      {
-        "aliases": [
           "Unknown"
         ],
         "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Evil Dead Burn"
+        ],
+        "canonical": "Evil Dead Burn"
       },
       {
         "aliases": [
@@ -455,9 +455,10 @@
       },
       {
         "aliases": [
-          "The Odyssey"
+          "VARAVU",
+          "Varavu"
         ],
-        "canonical": "The Odyssey"
+        "canonical": "VARAVU"
       },
       {
         "aliases": [
@@ -467,16 +468,15 @@
       },
       {
         "aliases": [
-          "Kireedam"
+          "The Odyssey"
         ],
-        "canonical": "Kireedam"
+        "canonical": "The Odyssey"
       },
       {
         "aliases": [
-          "VARAVU",
-          "Varavu"
+          "Kireedam"
         ],
-        "canonical": "Varavu"
+        "canonical": "Kireedam"
       },
       {
         "aliases": [
@@ -486,9 +486,9 @@
       },
       {
         "aliases": [
-          "Evil Dead Burn"
+          "Idhayam Murali"
         ],
-        "canonical": "Evil Dead Burn"
+        "canonical": "Idhayam Murali"
       }
     ]
   }
