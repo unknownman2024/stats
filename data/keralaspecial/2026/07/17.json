@@ -1,6 +1,6 @@
 {
   "date": "2026-07-17",
-  "last_updated": "2026-07-15T17:50:46.631593+05:30",
+  "last_updated": "2026-07-15T20:27:29.760259+05:30",
   "movies": {
     "I,Nobody": {
       "gross": 0,
@@ -390,7 +390,7 @@
       "tickets_sold": 224
     },
     "VARAVU": {
-      "gross": 7200,
+      "gross": 10200,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -412,11 +412,20 @@
               "tickets_sold": 24,
               "time": "09:15 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 3000,
+              "movie": "Varavu",
+              "screen": null,
+              "showid": "18866",
+              "tickets_sold": 20,
+              "time": "09:00 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 7200,
-          "shows": 2,
-          "tickets_sold": 48
+          "gross": 10200,
+          "shows": 3,
+          "tickets_sold": 68
         },
         "without_gross": {
           "breakdown": [
@@ -473,9 +482,36 @@
               "tickets_sold": 0,
               "time": "08:30 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Varavu",
+              "screen": null,
+              "showid": "18863",
+              "tickets_sold": 0,
+              "time": "11:30 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Varavu",
+              "screen": null,
+              "showid": "18864",
+              "tickets_sold": 0,
+              "time": "02:45 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Varavu",
+              "screen": null,
+              "showid": "18865",
+              "tickets_sold": 0,
+              "time": "06:00 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 6,
+          "shows": 9,
           "tickets_sold": 0
         }
       },
@@ -497,6 +533,15 @@
           "tickets_sold": 24,
           "time": "09:15 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 3000,
+          "movie": "Varavu",
+          "screen": null,
+          "showid": "18866",
+          "tickets_sold": 20,
+          "time": "09:00 PM",
+          "venue": "Puthet Cinemas"
         },
         {
           "gross": 0,
@@ -551,10 +596,37 @@
           "tickets_sold": 0,
           "time": "08:30 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Varavu",
+          "screen": null,
+          "showid": "18863",
+          "tickets_sold": 0,
+          "time": "11:30 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Varavu",
+          "screen": null,
+          "showid": "18864",
+          "tickets_sold": 0,
+          "time": "02:45 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Varavu",
+          "screen": null,
+          "showid": "18865",
+          "tickets_sold": 0,
+          "time": "06:00 PM",
+          "venue": "Puthet Cinemas"
         }
       ],
-      "shows": 8,
-      "tickets_sold": 48
+      "shows": 12,
+      "tickets_sold": 68
     },
     "Varavu": {
       "gross": 10200,
@@ -800,31 +872,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "VARAVU",
-          "Varavu"
-        ],
-        "canonical": "Varavu"
-      },
-      {
-        "aliases": [
-          "Kireedam"
-        ],
-        "canonical": "Kireedam"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Argentina vs England Semi Final 2"
-        ],
-        "canonical": "Argentina vs England Semi Final 2"
-      },
-      {
-        "aliases": [
           "I, Nobody",
           "I,Nobody"
         ],
@@ -832,15 +879,10 @@
       },
       {
         "aliases": [
-          "SECRET OF KALINGA"
+          "VARAVU",
+          "Varavu"
         ],
-        "canonical": "SECRET OF KALINGA"
-      },
-      {
-        "aliases": [
-          "Evil Dead Burn"
-        ],
-        "canonical": "Evil Dead Burn"
+        "canonical": "VARAVU"
       },
       {
         "aliases": [
@@ -850,9 +892,21 @@
       },
       {
         "aliases": [
+          "Evil Dead Burn"
+        ],
+        "canonical": "Evil Dead Burn"
+      },
+      {
+        "aliases": [
           "Balan: The Boy"
         ],
         "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
+          "Argentina vs England Semi Final 2"
+        ],
+        "canonical": "Argentina vs England Semi Final 2"
       }
     ]
   }
