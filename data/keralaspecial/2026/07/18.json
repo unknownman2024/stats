@@ -1,6 +1,6 @@
 {
   "date": "2026-07-18",
-  "last_updated": "2026-07-15T16:26:13.576736+05:30",
+  "last_updated": "2026-07-15T17:50:46.633335+05:30",
   "movies": {
     "I,Nobody": {
       "gross": 0,
@@ -151,7 +151,7 @@
       "tickets_sold": 0
     },
     "The Odyssey": {
-      "gross": 300,
+      "gross": 600,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -164,11 +164,20 @@
               "tickets_sold": 2,
               "time": "02:30 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "The Odyssey",
+              "screen": null,
+              "showid": "18877",
+              "tickets_sold": 2,
+              "time": "06:15 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 300,
-          "shows": 1,
-          "tickets_sold": 2
+          "gross": 600,
+          "shows": 2,
+          "tickets_sold": 4
         },
         "without_gross": {
           "breakdown": [
@@ -266,22 +275,13 @@
               "gross": 0,
               "movie": "The Odyssey",
               "screen": null,
-              "showid": "18877",
-              "tickets_sold": 0,
-              "time": "06:15 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "The Odyssey",
-              "screen": null,
               "showid": "18878",
               "tickets_sold": 0,
               "time": "09:45 PM",
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 12,
+          "shows": 11,
           "tickets_sold": 0
         }
       },
@@ -293,6 +293,15 @@
           "showid": "18876",
           "tickets_sold": 2,
           "time": "02:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "The Odyssey",
+          "screen": null,
+          "showid": "18877",
+          "tickets_sold": 2,
+          "time": "06:15 PM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -389,15 +398,6 @@
           "gross": 0,
           "movie": "The Odyssey",
           "screen": null,
-          "showid": "18877",
-          "tickets_sold": 0,
-          "time": "06:15 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "The Odyssey",
-          "screen": null,
           "showid": "18878",
           "tickets_sold": 0,
           "time": "09:45 PM",
@@ -405,7 +405,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 2
+      "tickets_sold": 4
     },
     "VARAVU": {
       "gross": 7200,
@@ -575,7 +575,7 @@
       "tickets_sold": 48
     },
     "Varavu": {
-      "gross": 7200,
+      "gross": 7500,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -597,11 +597,20 @@
               "tickets_sold": 24,
               "time": "09:15 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "Varavu",
+              "screen": null,
+              "showid": "18867",
+              "tickets_sold": 2,
+              "time": "11:30 AM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 7200,
-          "shows": 2,
-          "tickets_sold": 48
+          "gross": 7500,
+          "shows": 3,
+          "tickets_sold": 50
         },
         "without_gross": {
           "breakdown": [
@@ -622,15 +631,6 @@
               "tickets_sold": 0,
               "time": "02:15 PM",
               "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Varavu",
-              "screen": null,
-              "showid": "18867",
-              "tickets_sold": 0,
-              "time": "11:30 AM",
-              "venue": "Puthet Cinemas"
             },
             {
               "gross": 0,
@@ -696,7 +696,7 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 10,
+          "shows": 9,
           "tickets_sold": 0
         }
       },
@@ -720,6 +720,15 @@
           "venue": "Fairyland Cinemas"
         },
         {
+          "gross": 300,
+          "movie": "Varavu",
+          "screen": null,
+          "showid": "18867",
+          "tickets_sold": 2,
+          "time": "11:30 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 0,
           "movie": "Varavu",
           "screen": "SCREEN 1",
@@ -736,15 +745,6 @@
           "tickets_sold": 0,
           "time": "02:15 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Varavu",
-          "screen": null,
-          "showid": "18867",
-          "tickets_sold": 0,
-          "time": "11:30 AM",
-          "venue": "Puthet Cinemas"
         },
         {
           "gross": 0,
@@ -811,23 +811,11 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 48
+      "tickets_sold": 50
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "Evil Dead Burn"
-        ],
-        "canonical": "Evil Dead Burn"
-      },
-      {
-        "aliases": [
-          "Kireedam"
-        ],
-        "canonical": "Kireedam"
-      },
       {
         "aliases": [
           "VARAVU",
@@ -837,9 +825,21 @@
       },
       {
         "aliases": [
+          "Kireedam"
+        ],
+        "canonical": "Kireedam"
+      },
+      {
+        "aliases": [
           "Unknown"
         ],
         "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Argentina vs England Semi Final 2"
+        ],
+        "canonical": "Argentina vs England Semi Final 2"
       },
       {
         "aliases": [
@@ -850,15 +850,15 @@
       },
       {
         "aliases": [
-          "Idhayam Murali"
+          "SECRET OF KALINGA"
         ],
-        "canonical": "Idhayam Murali"
+        "canonical": "SECRET OF KALINGA"
       },
       {
         "aliases": [
-          "Balan: The Boy"
+          "Evil Dead Burn"
         ],
-        "canonical": "Balan: The Boy"
+        "canonical": "Evil Dead Burn"
       },
       {
         "aliases": [
@@ -868,15 +868,9 @@
       },
       {
         "aliases": [
-          "SECRET OF KALINGA"
+          "Balan: The Boy"
         ],
-        "canonical": "SECRET OF KALINGA"
-      },
-      {
-        "aliases": [
-          "Argentina vs England Semi Final 2"
-        ],
-        "canonical": "Argentina vs England Semi Final 2"
+        "canonical": "Balan: The Boy"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "date": "2026-07-15",
-  "last_updated": "2026-07-15T16:26:13.571596+05:30",
+  "last_updated": "2026-07-15T17:50:46.627249+05:30",
   "movies": {
     "Balan: The Boy": {
       "gross": 2400,
@@ -134,7 +134,7 @@
       "tickets_sold": 16
     },
     "Evil Dead Burn": {
-      "gross": 4200,
+      "gross": 4650,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -185,6 +185,15 @@
               "venue": "SFC"
             },
             {
+              "gross": 750,
+              "movie": "Evil Dead Burn",
+              "screen": "SCREEN 4",
+              "showid": "3390",
+              "tickets_sold": 5,
+              "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
               "gross": 150,
               "movie": "Evil Dead Burn",
               "screen": "SCREEN 4",
@@ -192,20 +201,11 @@
               "tickets_sold": 1,
               "time": "02:30 PM",
               "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 300,
-              "movie": "Evil Dead Burn",
-              "screen": "SCREEN 4",
-              "showid": "3390",
-              "tickets_sold": 2,
-              "time": "06:00 PM",
-              "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 4200,
+          "gross": 4650,
           "shows": 7,
-          "tickets_sold": 28
+          "tickets_sold": 31
         },
         "without_gross": {
           "breakdown": [
@@ -315,6 +315,15 @@
           "venue": "SFC"
         },
         {
+          "gross": 750,
+          "movie": "Evil Dead Burn",
+          "screen": "SCREEN 4",
+          "showid": "3390",
+          "tickets_sold": 5,
+          "time": "06:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
           "gross": 600,
           "movie": "Evil Dead Burn",
           "screen": null,
@@ -349,15 +358,6 @@
           "tickets_sold": 3,
           "time": "08:30 PM",
           "venue": "SFC"
-        },
-        {
-          "gross": 300,
-          "movie": "Evil Dead Burn",
-          "screen": "SCREEN 4",
-          "showid": "3390",
-          "tickets_sold": 2,
-          "time": "06:00 PM",
-          "venue": "Fairyland Cinemas"
         },
         {
           "gross": 150,
@@ -460,7 +460,7 @@
         }
       ],
       "shows": 17,
-      "tickets_sold": 28
+      "tickets_sold": 31
     },
     "FRANCE vs SPAIN Semi Final 1": {
       "gross": 16950,
@@ -669,7 +669,7 @@
       "tickets_sold": 0
     },
     "I,Nobody": {
-      "gross": 23400,
+      "gross": 25350,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -711,15 +711,6 @@
               "venue": "SFC"
             },
             {
-              "gross": 1650,
-              "movie": "I, Nobody",
-              "screen": "SAVITHA",
-              "showid": "19565",
-              "tickets_sold": 11,
-              "time": "08:45 PM",
-              "venue": "SFC"
-            },
-            {
               "gross": 1800,
               "movie": "I, Nobody",
               "screen": "SCREEN 1",
@@ -727,6 +718,24 @@
               "tickets_sold": 12,
               "time": "06:30 PM",
               "venue": "Harihar"
+            },
+            {
+              "gross": 1800,
+              "movie": "I,Nobody",
+              "screen": "Aiswarya",
+              "showid": "7706",
+              "tickets_sold": 12,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 2100,
+              "movie": "I, Nobody",
+              "screen": "SAVITHA",
+              "showid": "19565",
+              "tickets_sold": 14,
+              "time": "08:45 PM",
+              "venue": "SFC"
             },
             {
               "gross": 1200,
@@ -819,30 +828,39 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 1800,
-              "movie": "I,Nobody",
-              "screen": "Aiswarya",
-              "showid": "7706",
-              "tickets_sold": 12,
-              "time": "05:30 PM",
-              "venue": "Aiswarya Cinemas"
-            }
-          ],
-          "gross": 23400,
-          "shows": 17,
-          "tickets_sold": 156
-        },
-        "without_gross": {
-          "breakdown": [
-            {
-              "gross": 0,
+              "gross": 150,
               "movie": "I,Nobody",
               "screen": "SCREEN 1",
               "showid": "3350",
-              "tickets_sold": 0,
+              "tickets_sold": 1,
               "time": "06:00 PM",
               "venue": "Fairyland Cinemas"
             },
+            {
+              "gross": 1050,
+              "movie": "I, Nobody",
+              "screen": null,
+              "showid": "18854",
+              "tickets_sold": 7,
+              "time": "09:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "I, Nobody",
+              "screen": "SCREEN 1",
+              "showid": "8620",
+              "tickets_sold": 2,
+              "time": "07:30 PM",
+              "venue": "Sandhya"
+            }
+          ],
+          "gross": 25350,
+          "shows": 20,
+          "tickets_sold": 169
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "I,Nobody",
@@ -851,15 +869,6 @@
               "tickets_sold": 0,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "I, Nobody",
-              "screen": null,
-              "showid": "18854",
-              "tickets_sold": 0,
-              "time": "09:30 PM",
-              "venue": "Puthet Cinemas"
             },
             {
               "gross": 0,
@@ -919,15 +928,6 @@
               "gross": 0,
               "movie": "I, Nobody",
               "screen": "SCREEN 1",
-              "showid": "8620",
-              "tickets_sold": 0,
-              "time": "07:30 PM",
-              "venue": "Sandhya"
-            },
-            {
-              "gross": 0,
-              "movie": "I, Nobody",
-              "screen": "SCREEN 1",
               "showid": "9039",
               "tickets_sold": 0,
               "time": "02:00 PM",
@@ -952,7 +952,7 @@
               "venue": "Jose"
             }
           ],
-          "shows": 13,
+          "shows": 10,
           "tickets_sold": 0
         }
       },
@@ -994,6 +994,15 @@
           "venue": "SFC"
         },
         {
+          "gross": 2100,
+          "movie": "I, Nobody",
+          "screen": "SAVITHA",
+          "showid": "19565",
+          "tickets_sold": 14,
+          "time": "08:45 PM",
+          "venue": "SFC"
+        },
+        {
           "gross": 1800,
           "movie": "I, Nobody",
           "screen": "SCREEN 1",
@@ -1012,15 +1021,6 @@
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 1650,
-          "movie": "I, Nobody",
-          "screen": "SAVITHA",
-          "showid": "19565",
-          "tickets_sold": 11,
-          "time": "08:45 PM",
-          "venue": "SFC"
-        },
-        {
           "gross": 1200,
           "movie": "I, Nobody",
           "screen": "SCREEN 3",
@@ -1037,6 +1037,15 @@
           "tickets_sold": 8,
           "time": "02:30 PM",
           "venue": "Harihar"
+        },
+        {
+          "gross": 1050,
+          "movie": "I, Nobody",
+          "screen": null,
+          "showid": "18854",
+          "tickets_sold": 7,
+          "time": "09:30 PM",
+          "venue": "Puthet Cinemas"
         },
         {
           "gross": 600,
@@ -1111,11 +1120,20 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 0,
+          "gross": 300,
+          "movie": "I, Nobody",
+          "screen": "SCREEN 1",
+          "showid": "8620",
+          "tickets_sold": 2,
+          "time": "07:30 PM",
+          "venue": "Sandhya"
+        },
+        {
+          "gross": 150,
           "movie": "I,Nobody",
           "screen": "SCREEN 1",
           "showid": "3350",
-          "tickets_sold": 0,
+          "tickets_sold": 1,
           "time": "06:00 PM",
           "venue": "Fairyland Cinemas"
         },
@@ -1127,15 +1145,6 @@
           "tickets_sold": 0,
           "time": "09:30 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "I, Nobody",
-          "screen": null,
-          "showid": "18854",
-          "tickets_sold": 0,
-          "time": "09:30 PM",
-          "venue": "Puthet Cinemas"
         },
         {
           "gross": 0,
@@ -1195,15 +1204,6 @@
           "gross": 0,
           "movie": "I, Nobody",
           "screen": "SCREEN 1",
-          "showid": "8620",
-          "tickets_sold": 0,
-          "time": "07:30 PM",
-          "venue": "Sandhya"
-        },
-        {
-          "gross": 0,
-          "movie": "I, Nobody",
-          "screen": "SCREEN 1",
           "showid": "9039",
           "tickets_sold": 0,
           "time": "02:00 PM",
@@ -1229,7 +1229,7 @@
         }
       ],
       "shows": 30,
-      "tickets_sold": 156
+      "tickets_sold": 169
     },
     "Idhayam Murali": {
       "gross": 300,
@@ -1291,14 +1291,24 @@
       "tickets_sold": 2
     },
     "Kireedam": {
-      "gross": 0,
+      "gross": 1050,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 1050,
+              "movie": "Kireedam",
+              "screen": "SAMUDRA",
+              "showid": "19573",
+              "tickets_sold": 7,
+              "time": "08:30 PM",
+              "venue": "SFC"
+            }
+          ],
+          "gross": 1050,
+          "shows": 1,
+          "tickets_sold": 7
         },
         "without_gross": {
           "breakdown": [
@@ -1310,22 +1320,22 @@
               "tickets_sold": 0,
               "time": "11:30 AM",
               "venue": "SFC"
-            },
-            {
-              "gross": 0,
-              "movie": "Kireedam",
-              "screen": "SAMUDRA",
-              "showid": "19573",
-              "tickets_sold": 0,
-              "time": "08:30 PM",
-              "venue": "SFC"
             }
           ],
-          "shows": 2,
+          "shows": 1,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1050,
+          "movie": "Kireedam",
+          "screen": "SAMUDRA",
+          "showid": "19573",
+          "tickets_sold": 7,
+          "time": "08:30 PM",
+          "venue": "SFC"
+        },
         {
           "gross": 0,
           "movie": "Kireedam",
@@ -1334,19 +1344,10 @@
           "tickets_sold": 0,
           "time": "11:30 AM",
           "venue": "SFC"
-        },
-        {
-          "gross": 0,
-          "movie": "Kireedam",
-          "screen": "SAMUDRA",
-          "showid": "19573",
-          "tickets_sold": 0,
-          "time": "08:30 PM",
-          "venue": "SFC"
         }
       ],
       "shows": 2,
-      "tickets_sold": 0
+      "tickets_sold": 7
     },
     "SECRET OF KALINGA": {
       "gross": 1500,
@@ -1489,9 +1490,10 @@
     "merged_movies": [
       {
         "aliases": [
-          "Evil Dead Burn"
+          "VARAVU",
+          "Varavu"
         ],
-        "canonical": "Evil Dead Burn"
+        "canonical": "Varavu"
       },
       {
         "aliases": [
@@ -1501,16 +1503,15 @@
       },
       {
         "aliases": [
-          "VARAVU",
-          "Varavu"
-        ],
-        "canonical": "Varavu"
-      },
-      {
-        "aliases": [
           "Unknown"
         ],
         "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Argentina vs England Semi Final 2"
+        ],
+        "canonical": "Argentina vs England Semi Final 2"
       },
       {
         "aliases": [
@@ -1521,15 +1522,15 @@
       },
       {
         "aliases": [
-          "Idhayam Murali"
+          "SECRET OF KALINGA"
         ],
-        "canonical": "Idhayam Murali"
+        "canonical": "SECRET OF KALINGA"
       },
       {
         "aliases": [
-          "Balan: The Boy"
+          "Evil Dead Burn"
         ],
-        "canonical": "Balan: The Boy"
+        "canonical": "Evil Dead Burn"
       },
       {
         "aliases": [
@@ -1539,15 +1540,9 @@
       },
       {
         "aliases": [
-          "SECRET OF KALINGA"
+          "Balan: The Boy"
         ],
-        "canonical": "SECRET OF KALINGA"
-      },
-      {
-        "aliases": [
-          "Argentina vs England Semi Final 2"
-        ],
-        "canonical": "Argentina vs England Semi Final 2"
+        "canonical": "Balan: The Boy"
       }
     ]
   }
