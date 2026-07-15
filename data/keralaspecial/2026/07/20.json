@@ -1,7 +1,101 @@
 {
   "date": "2026-07-20",
-  "last_updated": "2026-07-15T08:23:42.378615+05:30",
+  "last_updated": "2026-07-15T11:07:50.580197+05:30",
   "movies": {
+    "I,Nobody": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "I,Nobody",
+              "screen": "Athulya",
+              "showid": "7760",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "I,Nobody",
+              "screen": "Athulya",
+              "showid": "7761",
+              "tickets_sold": 0,
+              "time": "02:00 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "I,Nobody",
+              "screen": "Athulya",
+              "showid": "7762",
+              "tickets_sold": 0,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "I,Nobody",
+              "screen": "Athulya",
+              "showid": "7763",
+              "tickets_sold": 0,
+              "time": "08:30 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "shows": 4,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "I,Nobody",
+          "screen": "Athulya",
+          "showid": "7760",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "I,Nobody",
+          "screen": "Athulya",
+          "showid": "7761",
+          "tickets_sold": 0,
+          "time": "02:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "I,Nobody",
+          "screen": "Athulya",
+          "showid": "7762",
+          "tickets_sold": 0,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "I,Nobody",
+          "screen": "Athulya",
+          "showid": "7763",
+          "tickets_sold": 0,
+          "time": "08:30 PM",
+          "venue": "Aiswarya Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 0
+    },
     "VARAVU": {
       "gross": 0,
       "occupancy": null,
@@ -49,9 +143,45 @@
               "tickets_sold": 0,
               "time": "09:15 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "VARAVU",
+              "screen": "Aiswarya",
+              "showid": "7744",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "VARAVU",
+              "screen": "Aiswarya",
+              "showid": "7745",
+              "tickets_sold": 0,
+              "time": "02:00 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "VARAVU",
+              "screen": "Aiswarya",
+              "showid": "7746",
+              "tickets_sold": 0,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "VARAVU",
+              "screen": "Aiswarya",
+              "showid": "7747",
+              "tickets_sold": 0,
+              "time": "08:30 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 4,
+          "shows": 8,
           "tickets_sold": 0
         }
       },
@@ -91,9 +221,45 @@
           "tickets_sold": 0,
           "time": "09:15 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "VARAVU",
+          "screen": "Aiswarya",
+          "showid": "7744",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "VARAVU",
+          "screen": "Aiswarya",
+          "showid": "7745",
+          "tickets_sold": 0,
+          "time": "02:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "VARAVU",
+          "screen": "Aiswarya",
+          "showid": "7746",
+          "tickets_sold": 0,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "VARAVU",
+          "screen": "Aiswarya",
+          "showid": "7747",
+          "tickets_sold": 0,
+          "time": "08:30 PM",
+          "venue": "Aiswarya Cinemas"
         }
       ],
-      "shows": 4,
+      "shows": 8,
       "tickets_sold": 0
     },
     "Varavu": {
@@ -195,6 +361,44 @@
     "merged_movies": [
       {
         "aliases": [
+          "The Odyssey"
+        ],
+        "canonical": "The Odyssey"
+      },
+      {
+        "aliases": [
+          "VARAVU",
+          "Varavu"
+        ],
+        "canonical": "VARAVU"
+      },
+      {
+        "aliases": [
+          "I, Nobody",
+          "I,Nobody"
+        ],
+        "canonical": "I,Nobody"
+      },
+      {
+        "aliases": [
+          "Kireedam"
+        ],
+        "canonical": "Kireedam"
+      },
+      {
+        "aliases": [
+          "Balan: The Boy"
+        ],
+        "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
+          "Idhayam Murali"
+        ],
+        "canonical": "Idhayam Murali"
+      },
+      {
+        "aliases": [
           "Unknown"
         ],
         "canonical": "Unknown"
@@ -207,47 +411,9 @@
       },
       {
         "aliases": [
-          "I, Nobody",
-          "I,Nobody"
-        ],
-        "canonical": "I,Nobody"
-      },
-      {
-        "aliases": [
-          "VARAVU",
-          "Varavu"
-        ],
-        "canonical": "VARAVU"
-      },
-      {
-        "aliases": [
-          "Balan: The Boy"
-        ],
-        "canonical": "Balan: The Boy"
-      },
-      {
-        "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
-      },
-      {
-        "aliases": [
-          "Kireedam"
-        ],
-        "canonical": "Kireedam"
-      },
-      {
-        "aliases": [
           "Argentina vs England Semi Final 2"
         ],
         "canonical": "Argentina vs England Semi Final 2"
-      },
-      {
-        "aliases": [
-          "Idhayam Murali"
-        ],
-        "canonical": "Idhayam Murali"
       }
     ]
   }
