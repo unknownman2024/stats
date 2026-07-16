@@ -1,6 +1,6 @@
 {
   "date": "2026-07-19",
-  "last_updated": "2026-07-16T05:33:56.249740+05:30",
+  "last_updated": "2026-07-16T09:43:13.716189+05:30",
   "movies": {
     "I,Nobody": {
       "gross": 0,
@@ -151,20 +151,11 @@
       "tickets_sold": 0
     },
     "The Odyssey": {
-      "gross": 1050,
+      "gross": 1350,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
-            {
-              "gross": 300,
-              "movie": "The Odyssey",
-              "screen": "Dolby Atmos",
-              "showid": "5670",
-              "tickets_sold": 2,
-              "time": "03:00 PM",
-              "venue": "Girija Theatre"
-            },
             {
               "gross": 600,
               "movie": "The Odyssey",
@@ -175,18 +166,36 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 150,
+              "gross": 300,
+              "movie": "The Odyssey",
+              "screen": "Dolby Atmos",
+              "showid": "5670",
+              "tickets_sold": 2,
+              "time": "03:00 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 300,
               "movie": "The Odyssey",
               "screen": null,
               "showid": "18880",
-              "tickets_sold": 1,
+              "tickets_sold": 2,
               "time": "02:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 150,
+              "movie": "The Odyssey",
+              "screen": null,
+              "showid": "18881",
+              "tickets_sold": 1,
+              "time": "06:15 PM",
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 1050,
-          "shows": 3,
-          "tickets_sold": 7
+          "gross": 1350,
+          "shows": 4,
+          "tickets_sold": 9
         },
         "without_gross": {
           "breakdown": [
@@ -266,22 +275,13 @@
               "gross": 0,
               "movie": "The Odyssey",
               "screen": null,
-              "showid": "18881",
-              "tickets_sold": 0,
-              "time": "06:15 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "The Odyssey",
-              "screen": null,
               "showid": "18882",
               "tickets_sold": 0,
               "time": "09:45 PM",
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 10,
+          "shows": 9,
           "tickets_sold": 0
         }
       },
@@ -305,12 +305,21 @@
           "venue": "Girija Theatre"
         },
         {
-          "gross": 150,
+          "gross": 300,
           "movie": "The Odyssey",
           "screen": null,
           "showid": "18880",
-          "tickets_sold": 1,
+          "tickets_sold": 2,
           "time": "02:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 150,
+          "movie": "The Odyssey",
+          "screen": null,
+          "showid": "18881",
+          "tickets_sold": 1,
+          "time": "06:15 PM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -389,15 +398,6 @@
           "gross": 0,
           "movie": "The Odyssey",
           "screen": null,
-          "showid": "18881",
-          "tickets_sold": 0,
-          "time": "06:15 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "The Odyssey",
-          "screen": null,
           "showid": "18882",
           "tickets_sold": 0,
           "time": "09:45 PM",
@@ -405,20 +405,20 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 7
+      "tickets_sold": 9
     },
     "VARAVU": {
-      "gross": 7200,
+      "gross": 7500,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 3600,
+              "gross": 3900,
               "movie": "Varavu",
               "screen": "SCREEN 1",
               "showid": "3410",
-              "tickets_sold": 24,
+              "tickets_sold": 26,
               "time": "06:00 PM",
               "venue": "Fairyland Cinemas"
             },
@@ -432,9 +432,9 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 7200,
+          "gross": 7500,
           "shows": 2,
-          "tickets_sold": 48
+          "tickets_sold": 50
         },
         "without_gross": {
           "breakdown": [
@@ -535,11 +535,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 3600,
+          "gross": 3900,
           "movie": "Varavu",
           "screen": "SCREEN 1",
           "showid": "3410",
-          "tickets_sold": 24,
+          "tickets_sold": 26,
           "time": "06:00 PM",
           "venue": "Fairyland Cinemas"
         },
@@ -644,7 +644,7 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 48
+      "tickets_sold": 50
     },
     "Varavu": {
       "gross": 7200,
@@ -897,22 +897,16 @@
       },
       {
         "aliases": [
-          "Evil Dead Burn"
-        ],
-        "canonical": "Evil Dead Burn"
-      },
-      {
-        "aliases": [
-          "Argentina vs Spain FIFA WORLD CUP Final 2026"
-        ],
-        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
-      },
-      {
-        "aliases": [
           "I, Nobody",
           "I,Nobody"
         ],
         "canonical": "I,Nobody"
+      },
+      {
+        "aliases": [
+          "Evil Dead Burn"
+        ],
+        "canonical": "Evil Dead Burn"
       },
       {
         "aliases": [
@@ -925,6 +919,12 @@
           "Balan: The Boy"
         ],
         "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
+          "Argentina vs Spain FIFA WORLD CUP Final 2026"
+        ],
+        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
       }
     ]
   }
