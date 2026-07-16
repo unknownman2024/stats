@@ -1,6 +1,6 @@
 {
   "date": "2026-07-17",
-  "last_updated": "2026-07-16T09:43:13.713602+05:30",
+  "last_updated": "2026-07-16T10:57:40.487460+05:30",
   "movies": {
     "I,Nobody": {
       "gross": 0,
@@ -151,7 +151,7 @@
       "tickets_sold": 0
     },
     "The Odyssey": {
-      "gross": 37500,
+      "gross": 38100,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -211,11 +211,11 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 3300,
+              "gross": 3900,
               "movie": "The Odyssey",
               "screen": null,
               "showid": "18830",
-              "tickets_sold": 22,
+              "tickets_sold": 26,
               "time": "06:15 PM",
               "venue": "Puthet Cinemas"
             },
@@ -229,15 +229,6 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 450,
-              "movie": "The Odyssey",
-              "screen": "Screen-2",
-              "showid": "7717",
-              "tickets_sold": 3,
-              "time": "02:15 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
               "gross": 750,
               "movie": "The Odyssey",
               "screen": "Screen-2",
@@ -245,11 +236,20 @@
               "tickets_sold": 5,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 450,
+              "movie": "The Odyssey",
+              "screen": "Screen-2",
+              "showid": "7717",
+              "tickets_sold": 3,
+              "time": "02:15 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 37500,
+          "gross": 38100,
           "shows": 10,
-          "tickets_sold": 250
+          "tickets_sold": 254
         },
         "without_gross": {
           "breakdown": [
@@ -332,11 +332,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 3300,
+          "gross": 3900,
           "movie": "The Odyssey",
           "screen": null,
           "showid": "18830",
-          "tickets_sold": 22,
+          "tickets_sold": 26,
           "time": "06:15 PM",
           "venue": "Puthet Cinemas"
         },
@@ -387,10 +387,10 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 250
+      "tickets_sold": 254
     },
     "VARAVU": {
-      "gross": 10200,
+      "gross": 11250,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -421,11 +421,29 @@
               "tickets_sold": 20,
               "time": "09:00 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "VARAVU",
+              "screen": "Aiswarya",
+              "showid": "7733",
+              "tickets_sold": 2,
+              "time": "02:00 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 750,
+              "movie": "Varavu",
+              "screen": null,
+              "showid": "18864",
+              "tickets_sold": 5,
+              "time": "02:45 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 10200,
-          "shows": 3,
-          "tickets_sold": 68
+          "gross": 11250,
+          "shows": 5,
+          "tickets_sold": 75
         },
         "without_gross": {
           "breakdown": [
@@ -460,15 +478,6 @@
               "gross": 0,
               "movie": "VARAVU",
               "screen": "Aiswarya",
-              "showid": "7733",
-              "tickets_sold": 0,
-              "time": "02:00 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "VARAVU",
-              "screen": "Aiswarya",
               "showid": "7734",
               "tickets_sold": 0,
               "time": "05:30 PM",
@@ -496,22 +505,13 @@
               "gross": 0,
               "movie": "Varavu",
               "screen": null,
-              "showid": "18864",
-              "tickets_sold": 0,
-              "time": "02:45 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Varavu",
-              "screen": null,
               "showid": "18865",
               "tickets_sold": 0,
               "time": "06:00 PM",
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 9,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
@@ -544,6 +544,24 @@
           "venue": "Puthet Cinemas"
         },
         {
+          "gross": 750,
+          "movie": "Varavu",
+          "screen": null,
+          "showid": "18864",
+          "tickets_sold": 5,
+          "time": "02:45 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "VARAVU",
+          "screen": "Aiswarya",
+          "showid": "7733",
+          "tickets_sold": 2,
+          "time": "02:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
           "gross": 0,
           "movie": "Varavu",
           "screen": "SCREEN 1",
@@ -568,15 +586,6 @@
           "showid": "7732",
           "tickets_sold": 0,
           "time": "11:00 AM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "VARAVU",
-          "screen": "Aiswarya",
-          "showid": "7733",
-          "tickets_sold": 0,
-          "time": "02:00 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -610,15 +619,6 @@
           "gross": 0,
           "movie": "Varavu",
           "screen": null,
-          "showid": "18864",
-          "tickets_sold": 0,
-          "time": "02:45 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Varavu",
-          "screen": null,
           "showid": "18865",
           "tickets_sold": 0,
           "time": "06:00 PM",
@@ -626,7 +626,7 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 68
+      "tickets_sold": 75
     },
     "Varavu": {
       "gross": 10200,
@@ -872,10 +872,22 @@
     "merged_movies": [
       {
         "aliases": [
+          "Argentina vs Spain FIFA WORLD CUP Final 2026"
+        ],
+        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
+      },
+      {
+        "aliases": [
           "VARAVU",
           "Varavu"
         ],
         "canonical": "VARAVU"
+      },
+      {
+        "aliases": [
+          "Balan: The Boy"
+        ],
+        "canonical": "Balan: The Boy"
       },
       {
         "aliases": [
@@ -886,27 +898,15 @@
       },
       {
         "aliases": [
-          "Evil Dead Burn"
-        ],
-        "canonical": "Evil Dead Burn"
-      },
-      {
-        "aliases": [
           "The Odyssey"
         ],
         "canonical": "The Odyssey"
       },
       {
         "aliases": [
-          "Balan: The Boy"
+          "Evil Dead Burn"
         ],
-        "canonical": "Balan: The Boy"
-      },
-      {
-        "aliases": [
-          "Argentina vs Spain FIFA WORLD CUP Final 2026"
-        ],
-        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
+        "canonical": "Evil Dead Burn"
       }
     ]
   }
