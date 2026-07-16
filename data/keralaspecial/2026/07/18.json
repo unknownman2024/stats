@@ -1,6 +1,6 @@
 {
   "date": "2026-07-18",
-  "last_updated": "2026-07-16T15:46:47.089832+05:30",
+  "last_updated": "2026-07-16T17:54:09.777971+05:30",
   "movies": {
     "Anbe Diana": {
       "gross": 0,
@@ -263,20 +263,11 @@
       "tickets_sold": 0
     },
     "The Odyssey": {
-      "gross": 5700,
+      "gross": 6150,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
-            {
-              "gross": 1800,
-              "movie": "The Odyssey",
-              "screen": null,
-              "showid": "18876",
-              "tickets_sold": 12,
-              "time": "02:30 PM",
-              "venue": "Puthet Cinemas"
-            },
             {
               "gross": 2100,
               "movie": "The Odyssey",
@@ -284,6 +275,15 @@
               "showid": "18875",
               "tickets_sold": 14,
               "time": "11:00 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 2250,
+              "movie": "The Odyssey",
+              "screen": null,
+              "showid": "18876",
+              "tickets_sold": 15,
+              "time": "02:30 PM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -323,9 +323,9 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 5700,
+          "gross": 6150,
           "shows": 6,
-          "tickets_sold": 38
+          "tickets_sold": 41
         },
         "without_gross": {
           "breakdown": [
@@ -399,21 +399,21 @@
       },
       "show_breakdown": [
         {
+          "gross": 2250,
+          "movie": "The Odyssey",
+          "screen": null,
+          "showid": "18876",
+          "tickets_sold": 15,
+          "time": "02:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 2100,
           "movie": "The Odyssey",
           "screen": null,
           "showid": "18875",
           "tickets_sold": 14,
           "time": "11:00 AM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 1800,
-          "movie": "The Odyssey",
-          "screen": null,
-          "showid": "18876",
-          "tickets_sold": 12,
-          "time": "02:30 PM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -517,7 +517,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 38
+      "tickets_sold": 41
     },
     "VARAVU": {
       "gross": 9150,
@@ -544,15 +544,6 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 600,
-              "movie": "Varavu",
-              "screen": null,
-              "showid": "18867",
-              "tickets_sold": 4,
-              "time": "11:30 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 900,
               "movie": "VARAVU",
               "screen": "Aiswarya",
@@ -560,6 +551,15 @@
               "tickets_sold": 6,
               "time": "08:30 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 600,
+              "movie": "Varavu",
+              "screen": null,
+              "showid": "18867",
+              "tickets_sold": 4,
+              "time": "11:30 AM",
+              "venue": "Puthet Cinemas"
             }
           ],
           "gross": 9150,
@@ -1002,16 +1002,29 @@
     "merged_movies": [
       {
         "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
-      },
-      {
-        "aliases": [
           "VARAVU",
           "Varavu"
         ],
         "canonical": "VARAVU"
+      },
+      {
+        "aliases": [
+          "I, Nobody",
+          "I,Nobody"
+        ],
+        "canonical": "I,Nobody"
+      },
+      {
+        "aliases": [
+          "Argentina vs Spain FIFA WORLD CUP Final 2026"
+        ],
+        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
+      },
+      {
+        "aliases": [
+          "The Odyssey"
+        ],
+        "canonical": "The Odyssey"
       },
       {
         "aliases": [
@@ -1027,22 +1040,9 @@
       },
       {
         "aliases": [
-          "Argentina vs Spain FIFA WORLD CUP Final 2026"
-        ],
-        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
-      },
-      {
-        "aliases": [
           "Evil Dead Burn"
         ],
         "canonical": "Evil Dead Burn"
-      },
-      {
-        "aliases": [
-          "I, Nobody",
-          "I,Nobody"
-        ],
-        "canonical": "I,Nobody"
       }
     ]
   }

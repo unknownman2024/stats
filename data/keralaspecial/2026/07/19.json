@@ -1,6 +1,6 @@
 {
   "date": "2026-07-19",
-  "last_updated": "2026-07-16T15:46:47.091230+05:30",
+  "last_updated": "2026-07-16T17:54:09.779752+05:30",
   "movies": {
     "Anbe Diana": {
       "gross": 0,
@@ -263,7 +263,7 @@
       "tickets_sold": 0
     },
     "The Odyssey": {
-      "gross": 1800,
+      "gross": 2100,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -278,15 +278,6 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 300,
-              "movie": "The Odyssey",
-              "screen": "Dolby Atmos",
-              "showid": "5670",
-              "tickets_sold": 2,
-              "time": "03:00 PM",
-              "venue": "Girija Theatre"
-            },
-            {
               "gross": 600,
               "movie": "The Odyssey",
               "screen": null,
@@ -298,16 +289,34 @@
             {
               "gross": 300,
               "movie": "The Odyssey",
+              "screen": "Dolby Atmos",
+              "showid": "5670",
+              "tickets_sold": 2,
+              "time": "03:00 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 300,
+              "movie": "The Odyssey",
               "screen": null,
               "showid": "18881",
               "tickets_sold": 2,
               "time": "06:15 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "The Odyssey",
+              "screen": null,
+              "showid": "18879",
+              "tickets_sold": 2,
+              "time": "11:00 AM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 1800,
-          "shows": 4,
-          "tickets_sold": 12
+          "gross": 2100,
+          "shows": 5,
+          "tickets_sold": 14
         },
         "without_gross": {
           "breakdown": [
@@ -378,22 +387,13 @@
               "gross": 0,
               "movie": "The Odyssey",
               "screen": null,
-              "showid": "18879",
-              "tickets_sold": 0,
-              "time": "11:00 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "The Odyssey",
-              "screen": null,
               "showid": "18882",
               "tickets_sold": 0,
               "time": "09:45 PM",
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 9,
+          "shows": 8,
           "tickets_sold": 0
         }
       },
@@ -432,6 +432,15 @@
           "showid": "18881",
           "tickets_sold": 2,
           "time": "06:15 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "The Odyssey",
+          "screen": null,
+          "showid": "18879",
+          "tickets_sold": 2,
+          "time": "11:00 AM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -501,15 +510,6 @@
           "gross": 0,
           "movie": "The Odyssey",
           "screen": null,
-          "showid": "18879",
-          "tickets_sold": 0,
-          "time": "11:00 AM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "The Odyssey",
-          "screen": null,
           "showid": "18882",
           "tickets_sold": 0,
           "time": "09:45 PM",
@@ -517,7 +517,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 12
+      "tickets_sold": 14
     },
     "VARAVU": {
       "gross": 7500,
@@ -1002,16 +1002,29 @@
     "merged_movies": [
       {
         "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
-      },
-      {
-        "aliases": [
           "VARAVU",
           "Varavu"
         ],
         "canonical": "VARAVU"
+      },
+      {
+        "aliases": [
+          "I, Nobody",
+          "I,Nobody"
+        ],
+        "canonical": "I,Nobody"
+      },
+      {
+        "aliases": [
+          "Argentina vs Spain FIFA WORLD CUP Final 2026"
+        ],
+        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
+      },
+      {
+        "aliases": [
+          "The Odyssey"
+        ],
+        "canonical": "The Odyssey"
       },
       {
         "aliases": [
@@ -1027,22 +1040,9 @@
       },
       {
         "aliases": [
-          "Argentina vs Spain FIFA WORLD CUP Final 2026"
-        ],
-        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
-      },
-      {
-        "aliases": [
           "Evil Dead Burn"
         ],
         "canonical": "Evil Dead Burn"
-      },
-      {
-        "aliases": [
-          "I, Nobody",
-          "I,Nobody"
-        ],
-        "canonical": "I,Nobody"
       }
     ]
   }
