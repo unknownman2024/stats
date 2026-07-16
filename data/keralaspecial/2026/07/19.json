@@ -1,6 +1,6 @@
 {
   "date": "2026-07-19",
-  "last_updated": "2026-07-16T20:37:48.263510+05:30",
+  "last_updated": "2026-07-16T22:54:57.474465+05:30",
   "movies": {
     "Anbe Diana": {
       "gross": 0,
@@ -263,7 +263,7 @@
       "tickets_sold": 0
     },
     "The Odyssey": {
-      "gross": 2100,
+      "gross": 2400,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -312,11 +312,20 @@
               "tickets_sold": 2,
               "time": "11:00 AM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "The Odyssey",
+              "screen": "Screen-2",
+              "showid": "7726",
+              "tickets_sold": 2,
+              "time": "07:00 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 2100,
-          "shows": 5,
-          "tickets_sold": 14
+          "gross": 2400,
+          "shows": 6,
+          "tickets_sold": 16
         },
         "without_gross": {
           "breakdown": [
@@ -360,15 +369,6 @@
               "gross": 0,
               "movie": "The Odyssey",
               "screen": "Screen-2",
-              "showid": "7726",
-              "tickets_sold": 0,
-              "time": "07:00 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "The Odyssey",
-              "screen": "Screen-2",
               "showid": "7727",
               "tickets_sold": 0,
               "time": "10:15 PM",
@@ -393,7 +393,7 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
@@ -444,6 +444,15 @@
           "venue": "Puthet Cinemas"
         },
         {
+          "gross": 300,
+          "movie": "The Odyssey",
+          "screen": "Screen-2",
+          "showid": "7726",
+          "tickets_sold": 2,
+          "time": "07:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
           "gross": 0,
           "movie": "The Odyssey",
           "screen": "Dolby Atmos",
@@ -483,15 +492,6 @@
           "gross": 0,
           "movie": "The Odyssey",
           "screen": "Screen-2",
-          "showid": "7726",
-          "tickets_sold": 0,
-          "time": "07:00 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "The Odyssey",
-          "screen": "Screen-2",
           "showid": "7727",
           "tickets_sold": 0,
           "time": "10:15 PM",
@@ -517,7 +517,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 14
+      "tickets_sold": 16
     },
     "VARAVU": {
       "gross": 7500,
@@ -759,7 +759,7 @@
       "tickets_sold": 50
     },
     "Varavu": {
-      "gross": 7500,
+      "gross": 12000,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -781,11 +781,38 @@
               "tickets_sold": 24,
               "time": "09:15 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 1200,
+              "movie": "Varavu",
+              "screen": "Cinema-2",
+              "showid": "22396",
+              "tickets_sold": 8,
+              "time": "03:00 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 1800,
+              "movie": "Varavu",
+              "screen": "Cinema-2",
+              "showid": "22397",
+              "tickets_sold": 12,
+              "time": "06:30 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 1500,
+              "movie": "Varavu",
+              "screen": "Cinema-2",
+              "showid": "22398",
+              "tickets_sold": 10,
+              "time": "09:30 PM",
+              "venue": "Davis Theatre"
             }
           ],
-          "gross": 7500,
-          "shows": 2,
-          "tickets_sold": 50
+          "gross": 12000,
+          "shows": 5,
+          "tickets_sold": 80
         },
         "without_gross": {
           "breakdown": [
@@ -878,9 +905,18 @@
               "tickets_sold": 0,
               "time": "08:30 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Varavu",
+              "screen": "Cinema-2",
+              "showid": "22395",
+              "tickets_sold": 0,
+              "time": "12:00 PM",
+              "venue": "Davis Theatre"
             }
           ],
-          "shows": 10,
+          "shows": 11,
           "tickets_sold": 0
         }
       },
@@ -902,6 +938,33 @@
           "tickets_sold": 24,
           "time": "09:15 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 1800,
+          "movie": "Varavu",
+          "screen": "Cinema-2",
+          "showid": "22397",
+          "tickets_sold": 12,
+          "time": "06:30 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 1500,
+          "movie": "Varavu",
+          "screen": "Cinema-2",
+          "showid": "22398",
+          "tickets_sold": 10,
+          "time": "09:30 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 1200,
+          "movie": "Varavu",
+          "screen": "Cinema-2",
+          "showid": "22396",
+          "tickets_sold": 8,
+          "time": "03:00 PM",
+          "venue": "Davis Theatre"
         },
         {
           "gross": 0,
@@ -992,20 +1055,41 @@
           "tickets_sold": 0,
           "time": "08:30 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Varavu",
+          "screen": "Cinema-2",
+          "showid": "22395",
+          "tickets_sold": 0,
+          "time": "12:00 PM",
+          "venue": "Davis Theatre"
         }
       ],
-      "shows": 12,
-      "tickets_sold": 50
+      "shows": 16,
+      "tickets_sold": 80
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
+          "Anbe Diana"
+        ],
+        "canonical": "Anbe Diana"
+      },
+      {
+        "aliases": [
           "VARAVU",
           "Varavu"
         ],
         "canonical": "Varavu"
+      },
+      {
+        "aliases": [
+          "Balan: The Boy"
+        ],
+        "canonical": "Balan: The Boy"
       },
       {
         "aliases": [
@@ -1016,33 +1100,15 @@
       },
       {
         "aliases": [
-          "Anbe Diana"
+          "The Odyssey"
         ],
-        "canonical": "Anbe Diana"
-      },
-      {
-        "aliases": [
-          "Balan: The Boy"
-        ],
-        "canonical": "Balan: The Boy"
+        "canonical": "The Odyssey"
       },
       {
         "aliases": [
           "Argentina vs Spain FIFA WORLD CUP Final 2026"
         ],
         "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
-      },
-      {
-        "aliases": [
-          "Evil Dead Burn"
-        ],
-        "canonical": "Evil Dead Burn"
-      },
-      {
-        "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
       }
     ]
   }
