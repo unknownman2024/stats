@@ -1,6 +1,6 @@
 {
   "date": "2026-07-19",
-  "last_updated": "2026-07-16T03:36:51.993681+05:30",
+  "last_updated": "2026-07-16T05:33:56.249740+05:30",
   "movies": {
     "I,Nobody": {
       "gross": 0,
@@ -151,7 +151,7 @@
       "tickets_sold": 0
     },
     "The Odyssey": {
-      "gross": 750,
+      "gross": 1050,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -166,11 +166,11 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 300,
+              "gross": 600,
               "movie": "The Odyssey",
               "screen": "Screen-2",
               "showid": "7724",
-              "tickets_sold": 2,
+              "tickets_sold": 4,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
             },
@@ -184,9 +184,9 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 750,
+          "gross": 1050,
           "shows": 3,
-          "tickets_sold": 5
+          "tickets_sold": 7
         },
         "without_gross": {
           "breakdown": [
@@ -287,6 +287,15 @@
       },
       "show_breakdown": [
         {
+          "gross": 600,
+          "movie": "The Odyssey",
+          "screen": "Screen-2",
+          "showid": "7724",
+          "tickets_sold": 4,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
           "gross": 300,
           "movie": "The Odyssey",
           "screen": "Dolby Atmos",
@@ -294,15 +303,6 @@
           "tickets_sold": 2,
           "time": "03:00 PM",
           "venue": "Girija Theatre"
-        },
-        {
-          "gross": 300,
-          "movie": "The Odyssey",
-          "screen": "Screen-2",
-          "showid": "7724",
-          "tickets_sold": 2,
-          "time": "11:00 AM",
-          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 150,
@@ -405,7 +405,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 5
+      "tickets_sold": 7
     },
     "VARAVU": {
       "gross": 7200,
@@ -897,10 +897,9 @@
       },
       {
         "aliases": [
-          "I, Nobody",
-          "I,Nobody"
+          "Evil Dead Burn"
         ],
-        "canonical": "I,Nobody"
+        "canonical": "Evil Dead Burn"
       },
       {
         "aliases": [
@@ -910,15 +909,16 @@
       },
       {
         "aliases": [
-          "The Odyssey"
+          "I, Nobody",
+          "I,Nobody"
         ],
-        "canonical": "The Odyssey"
+        "canonical": "I,Nobody"
       },
       {
         "aliases": [
-          "Evil Dead Burn"
+          "The Odyssey"
         ],
-        "canonical": "Evil Dead Burn"
+        "canonical": "The Odyssey"
       },
       {
         "aliases": [
