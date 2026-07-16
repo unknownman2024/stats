@@ -1,26 +1,35 @@
 {
   "date": "2026-07-20",
-  "last_updated": "2026-07-16T10:57:40.486267+05:30",
+  "last_updated": "2026-07-16T12:56:15.662286+05:30",
   "movies": {
     "Argentina vs Spain FIFA WORLD CUP Final 2026": {
-      "gross": 4050,
+      "gross": 12750,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 4050,
+              "gross": 8550,
               "movie": "Argentina vs Spain FIFA WORLD CUP Final 2026",
               "screen": "Cinema-1",
               "showid": "22385",
-              "tickets_sold": 27,
+              "tickets_sold": 57,
+              "time": "12:30 AM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 4200,
+              "movie": "Argentina vs Spain FIFA WORLD CUP Final 2026",
+              "screen": "Cinema-2",
+              "showid": "22386",
+              "tickets_sold": 28,
               "time": "12:30 AM",
               "venue": "Davis Theatre"
             }
           ],
-          "gross": 4050,
-          "shows": 1,
-          "tickets_sold": 27
+          "gross": 12750,
+          "shows": 2,
+          "tickets_sold": 85
         },
         "without_gross": {
           "breakdown": [],
@@ -30,17 +39,26 @@
       },
       "show_breakdown": [
         {
-          "gross": 4050,
+          "gross": 8550,
           "movie": "Argentina vs Spain FIFA WORLD CUP Final 2026",
           "screen": "Cinema-1",
           "showid": "22385",
-          "tickets_sold": 27,
+          "tickets_sold": 57,
+          "time": "12:30 AM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 4200,
+          "movie": "Argentina vs Spain FIFA WORLD CUP Final 2026",
+          "screen": "Cinema-2",
+          "showid": "22386",
+          "tickets_sold": 28,
           "time": "12:30 AM",
           "venue": "Davis Theatre"
         }
       ],
-      "shows": 1,
-      "tickets_sold": 27
+      "shows": 2,
+      "tickets_sold": 85
     },
     "I,Nobody": {
       "gross": 0,
@@ -473,25 +491,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "Argentina vs Spain FIFA WORLD CUP Final 2026"
-        ],
-        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
-      },
-      {
-        "aliases": [
-          "VARAVU",
-          "Varavu"
-        ],
-        "canonical": "VARAVU"
-      },
-      {
-        "aliases": [
-          "Balan: The Boy"
-        ],
-        "canonical": "Balan: The Boy"
-      },
-      {
-        "aliases": [
           "I, Nobody",
           "I,Nobody"
         ],
@@ -505,9 +504,28 @@
       },
       {
         "aliases": [
+          "Argentina vs Spain FIFA WORLD CUP Final 2026"
+        ],
+        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
+      },
+      {
+        "aliases": [
+          "Balan: The Boy"
+        ],
+        "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
           "Evil Dead Burn"
         ],
         "canonical": "Evil Dead Burn"
+      },
+      {
+        "aliases": [
+          "VARAVU",
+          "Varavu"
+        ],
+        "canonical": "Varavu"
       }
     ]
   }

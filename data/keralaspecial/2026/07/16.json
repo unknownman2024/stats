@@ -1,6 +1,6 @@
 {
   "date": "2026-07-16",
-  "last_updated": "2026-07-16T10:57:40.483171+05:30",
+  "last_updated": "2026-07-16T12:56:15.659254+05:30",
   "movies": {
     "Argentina vs England Semi Final 2": {
       "gross": 31350,
@@ -174,7 +174,7 @@
       "tickets_sold": 15
     },
     "Evil Dead Burn": {
-      "gross": 1200,
+      "gross": 2100,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -205,11 +205,29 @@
               "tickets_sold": 2,
               "time": "05:30 PM",
               "venue": "SFC"
+            },
+            {
+              "gross": 150,
+              "movie": "Evil Dead Burn",
+              "screen": "SCREEN 4",
+              "showid": "3393",
+              "tickets_sold": 1,
+              "time": "02:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 750,
+              "movie": "Evil Dead Burn",
+              "screen": null,
+              "showid": "18862",
+              "tickets_sold": 5,
+              "time": "09:15 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 1200,
-          "shows": 3,
-          "tickets_sold": 8
+          "gross": 2100,
+          "shows": 5,
+          "tickets_sold": 14
         },
         "without_gross": {
           "breakdown": [
@@ -220,15 +238,6 @@
               "showid": "3392",
               "tickets_sold": 0,
               "time": "11:00 AM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Evil Dead Burn",
-              "screen": "SCREEN 4",
-              "showid": "3393",
-              "tickets_sold": 0,
-              "time": "02:30 PM",
               "venue": "Fairyland Cinemas"
             },
             {
@@ -256,15 +265,6 @@
               "showid": "18861",
               "tickets_sold": 0,
               "time": "12:15 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Evil Dead Burn",
-              "screen": null,
-              "showid": "18862",
-              "tickets_sold": 0,
-              "time": "09:15 PM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -313,11 +313,20 @@
               "venue": "SFC"
             }
           ],
-          "shows": 11,
+          "shows": 9,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 750,
+          "movie": "Evil Dead Burn",
+          "screen": null,
+          "showid": "18862",
+          "tickets_sold": 5,
+          "time": "09:15 PM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 600,
           "movie": "Evil Dead Burn",
@@ -346,21 +355,21 @@
           "venue": "SFC"
         },
         {
-          "gross": 0,
+          "gross": 150,
           "movie": "Evil Dead Burn",
           "screen": "SCREEN 4",
-          "showid": "3392",
-          "tickets_sold": 0,
-          "time": "11:00 AM",
+          "showid": "3393",
+          "tickets_sold": 1,
+          "time": "02:30 PM",
           "venue": "Fairyland Cinemas"
         },
         {
           "gross": 0,
           "movie": "Evil Dead Burn",
           "screen": "SCREEN 4",
-          "showid": "3393",
+          "showid": "3392",
           "tickets_sold": 0,
-          "time": "02:30 PM",
+          "time": "11:00 AM",
           "venue": "Fairyland Cinemas"
         },
         {
@@ -388,15 +397,6 @@
           "showid": "18861",
           "tickets_sold": 0,
           "time": "12:15 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Evil Dead Burn",
-          "screen": null,
-          "showid": "18862",
-          "tickets_sold": 0,
-          "time": "09:15 PM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -446,20 +446,20 @@
         }
       ],
       "shows": 14,
-      "tickets_sold": 8
+      "tickets_sold": 14
     },
     "I,Nobody": {
-      "gross": 3600,
+      "gross": 6150,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 1200,
+              "gross": 1950,
               "movie": "I, Nobody",
               "screen": "SAMUDRA",
               "showid": "19585",
-              "tickets_sold": 8,
+              "tickets_sold": 13,
               "time": "08:45 PM",
               "venue": "SFC"
             },
@@ -473,15 +473,6 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 450,
-              "movie": "I, Nobody",
-              "screen": null,
-              "showid": "18855",
-              "tickets_sold": 3,
-              "time": "11:00 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 750,
               "movie": "I, Nobody",
               "screen": "SAMUDRA",
@@ -489,6 +480,15 @@
               "tickets_sold": 5,
               "time": "11:30 AM",
               "venue": "SFC"
+            },
+            {
+              "gross": 450,
+              "movie": "I, Nobody",
+              "screen": null,
+              "showid": "18855",
+              "tickets_sold": 3,
+              "time": "11:00 AM",
+              "venue": "Puthet Cinemas"
             },
             {
               "gross": 150,
@@ -507,23 +507,50 @@
               "tickets_sold": 1,
               "time": "06:00 PM",
               "venue": "Jose"
-            }
-          ],
-          "gross": 3600,
-          "shows": 6,
-          "tickets_sold": 24
-        },
-        "without_gross": {
-          "breakdown": [
+            },
             {
-              "gross": 0,
+              "gross": 300,
               "movie": "I,Nobody",
               "screen": "SCREEN 2",
               "showid": "3424",
-              "tickets_sold": 0,
+              "tickets_sold": 2,
               "time": "02:15 PM",
               "venue": "Fairyland Cinemas"
             },
+            {
+              "gross": 150,
+              "movie": "I, Nobody",
+              "screen": null,
+              "showid": "18856",
+              "tickets_sold": 1,
+              "time": "02:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 1050,
+              "movie": "I, Nobody",
+              "screen": null,
+              "showid": "18857",
+              "tickets_sold": 7,
+              "time": "06:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "I, Nobody",
+              "screen": "SAMUDRA",
+              "showid": "19583",
+              "tickets_sold": 2,
+              "time": "02:30 PM",
+              "venue": "SFC"
+            }
+          ],
+          "gross": 6150,
+          "shows": 10,
+          "tickets_sold": 41
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "I,Nobody",
@@ -573,37 +600,10 @@
               "gross": 0,
               "movie": "I, Nobody",
               "screen": null,
-              "showid": "18856",
-              "tickets_sold": 0,
-              "time": "02:30 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "I, Nobody",
-              "screen": null,
-              "showid": "18857",
-              "tickets_sold": 0,
-              "time": "06:00 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "I, Nobody",
-              "screen": null,
               "showid": "18858",
               "tickets_sold": 0,
               "time": "09:30 PM",
               "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "I, Nobody",
-              "screen": "SAMUDRA",
-              "showid": "19583",
-              "tickets_sold": 0,
-              "time": "02:30 PM",
-              "venue": "SFC"
             },
             {
               "gross": 0,
@@ -678,19 +678,28 @@
               "venue": "Jose"
             }
           ],
-          "shows": 18,
+          "shows": 14,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 1200,
+          "gross": 1950,
           "movie": "I, Nobody",
           "screen": "SAMUDRA",
           "showid": "19585",
-          "tickets_sold": 8,
+          "tickets_sold": 13,
           "time": "08:45 PM",
           "venue": "SFC"
+        },
+        {
+          "gross": 1050,
+          "movie": "I, Nobody",
+          "screen": null,
+          "showid": "18857",
+          "tickets_sold": 7,
+          "time": "06:00 PM",
+          "venue": "Puthet Cinemas"
         },
         {
           "gross": 900,
@@ -720,6 +729,24 @@
           "venue": "Puthet Cinemas"
         },
         {
+          "gross": 300,
+          "movie": "I,Nobody",
+          "screen": "SCREEN 2",
+          "showid": "3424",
+          "tickets_sold": 2,
+          "time": "02:15 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "I, Nobody",
+          "screen": "SAMUDRA",
+          "showid": "19583",
+          "tickets_sold": 2,
+          "time": "02:30 PM",
+          "venue": "SFC"
+        },
+        {
           "gross": 150,
           "movie": "I, Nobody",
           "screen": "SCREEN 1",
@@ -738,13 +765,13 @@
           "venue": "Jose"
         },
         {
-          "gross": 0,
-          "movie": "I,Nobody",
-          "screen": "SCREEN 2",
-          "showid": "3424",
-          "tickets_sold": 0,
-          "time": "02:15 PM",
-          "venue": "Fairyland Cinemas"
+          "gross": 150,
+          "movie": "I, Nobody",
+          "screen": null,
+          "showid": "18856",
+          "tickets_sold": 1,
+          "time": "02:30 PM",
+          "venue": "Puthet Cinemas"
         },
         {
           "gross": 0,
@@ -795,37 +822,10 @@
           "gross": 0,
           "movie": "I, Nobody",
           "screen": null,
-          "showid": "18856",
-          "tickets_sold": 0,
-          "time": "02:30 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "I, Nobody",
-          "screen": null,
-          "showid": "18857",
-          "tickets_sold": 0,
-          "time": "06:00 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "I, Nobody",
-          "screen": null,
           "showid": "18858",
           "tickets_sold": 0,
           "time": "09:30 PM",
           "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "I, Nobody",
-          "screen": "SAMUDRA",
-          "showid": "19583",
-          "tickets_sold": 0,
-          "time": "02:30 PM",
-          "venue": "SFC"
         },
         {
           "gross": 0,
@@ -901,7 +901,7 @@
         }
       ],
       "shows": 24,
-      "tickets_sold": 24
+      "tickets_sold": 41
     },
     "SECRET OF KALINGA": {
       "gross": 0,
@@ -950,15 +950,6 @@
         "with_gross": {
           "breakdown": [
             {
-              "gross": 20550,
-              "movie": "Varavu",
-              "screen": null,
-              "showid": "18845",
-              "tickets_sold": 137,
-              "time": "09:00 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 21300,
               "movie": "Varavu",
               "screen": "SAVITHA",
@@ -966,6 +957,15 @@
               "tickets_sold": 142,
               "time": "08:30 PM",
               "venue": "SFC"
+            },
+            {
+              "gross": 20550,
+              "movie": "Varavu",
+              "screen": null,
+              "showid": "18845",
+              "tickets_sold": 137,
+              "time": "09:00 PM",
+              "venue": "Puthet Cinemas"
             },
             {
               "gross": 15900,
@@ -977,6 +977,24 @@
               "venue": "Puthet Cinemas"
             },
             {
+              "gross": 13800,
+              "movie": "Varavu",
+              "screen": "SCREEN 1",
+              "showid": "3396",
+              "tickets_sold": 92,
+              "time": "11:00 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 12450,
+              "movie": "Varavu",
+              "screen": "SAVITHA",
+              "showid": "19558",
+              "tickets_sold": 83,
+              "time": "11:30 AM",
+              "venue": "SFC"
+            },
+            {
               "gross": 12000,
               "movie": "Varavu",
               "screen": "SCREEN 1",
@@ -984,6 +1002,24 @@
               "tickets_sold": 80,
               "time": "06:00 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 11850,
+              "movie": "VARAVU",
+              "screen": "Aiswarya",
+              "showid": "7712",
+              "tickets_sold": 79,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 11550,
+              "movie": "Varavu",
+              "screen": null,
+              "showid": "18842",
+              "tickets_sold": 77,
+              "time": "11:30 AM",
+              "venue": "Puthet Cinemas"
             },
             {
               "gross": 10650,
@@ -995,13 +1031,13 @@
               "venue": "Harihar"
             },
             {
-              "gross": 11550,
+              "gross": 8250,
               "movie": "Varavu",
-              "screen": null,
-              "showid": "18842",
-              "tickets_sold": 77,
-              "time": "11:30 AM",
-              "venue": "Puthet Cinemas"
+              "screen": "SCREEN 1",
+              "showid": "9021",
+              "tickets_sold": 55,
+              "time": "08:30 PM",
+              "venue": "Jose"
             },
             {
               "gross": 7950,
@@ -1022,6 +1058,15 @@
               "venue": "Issacs"
             },
             {
+              "gross": 7500,
+              "movie": "Varavu",
+              "screen": "SCREEN 2",
+              "showid": "8627",
+              "tickets_sold": 50,
+              "time": "07:30 PM",
+              "venue": "Sandhya"
+            },
+            {
               "gross": 6750,
               "movie": "Varavu",
               "screen": "SCREEN 1",
@@ -1040,39 +1085,12 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 7500,
-              "movie": "Varavu",
-              "screen": "SCREEN 2",
-              "showid": "8627",
-              "tickets_sold": 50,
-              "time": "07:30 PM",
-              "venue": "Sandhya"
-            },
-            {
-              "gross": 8250,
-              "movie": "Varavu",
-              "screen": "SCREEN 1",
-              "showid": "9021",
-              "tickets_sold": 55,
-              "time": "08:30 PM",
-              "venue": "Jose"
-            },
-            {
               "gross": 6000,
               "movie": "Varavu",
               "screen": "SAVITHA",
               "showid": "19560",
               "tickets_sold": 40,
               "time": "05:30 PM",
-              "venue": "SFC"
-            },
-            {
-              "gross": 12450,
-              "movie": "Varavu",
-              "screen": "SAVITHA",
-              "showid": "19558",
-              "tickets_sold": 83,
-              "time": "11:30 AM",
               "venue": "SFC"
             },
             {
@@ -1085,22 +1103,22 @@
               "venue": "Jose"
             },
             {
-              "gross": 4350,
+              "gross": 5100,
               "movie": "Varavu",
               "screen": "SCREEN 1",
-              "showid": "9582",
-              "tickets_sold": 29,
-              "time": "11:30 AM",
+              "showid": "9583",
+              "tickets_sold": 34,
+              "time": "02:30 PM",
               "venue": "Harihar"
             },
             {
-              "gross": 13800,
+              "gross": 4950,
               "movie": "Varavu",
-              "screen": "SCREEN 1",
-              "showid": "3396",
-              "tickets_sold": 92,
-              "time": "11:00 AM",
-              "venue": "Fairyland Cinemas"
+              "screen": "SCREEN 2",
+              "showid": "6678",
+              "tickets_sold": 33,
+              "time": "11:15 AM",
+              "venue": "Issacs"
             },
             {
               "gross": 4650,
@@ -1112,6 +1130,24 @@
               "venue": "Aiswarya Cinemas"
             },
             {
+              "gross": 4350,
+              "movie": "Varavu",
+              "screen": "SCREEN 1",
+              "showid": "9582",
+              "tickets_sold": 29,
+              "time": "11:30 AM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 4350,
+              "movie": "Varavu",
+              "screen": null,
+              "showid": "18843",
+              "tickets_sold": 29,
+              "time": "02:45 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
               "gross": 3150,
               "movie": "Varavu",
               "screen": "SCREEN 2",
@@ -1119,6 +1155,15 @@
               "tickets_sold": 21,
               "time": "06:15 PM",
               "venue": "Issacs"
+            },
+            {
+              "gross": 3150,
+              "movie": "VARAVU",
+              "screen": "Aiswarya",
+              "showid": "7713",
+              "tickets_sold": 21,
+              "time": "02:00 PM",
+              "venue": "Aiswarya Cinemas"
             },
             {
               "gross": 3000,
@@ -1139,67 +1184,13 @@
               "venue": "Jose"
             },
             {
-              "gross": 4350,
-              "movie": "Varavu",
-              "screen": null,
-              "showid": "18843",
-              "tickets_sold": 29,
-              "time": "02:45 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 2400,
+              "gross": 3000,
               "movie": "Varavu",
               "screen": "SCREEN 2",
-              "showid": "8624",
-              "tickets_sold": 16,
-              "time": "10:30 AM",
+              "showid": "8625",
+              "tickets_sold": 20,
+              "time": "01:30 PM",
               "venue": "Sandhya"
-            },
-            {
-              "gross": 11850,
-              "movie": "VARAVU",
-              "screen": "Aiswarya",
-              "showid": "7712",
-              "tickets_sold": 79,
-              "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 2250,
-              "movie": "Varavu",
-              "screen": "Cinema-2",
-              "showid": "22384",
-              "tickets_sold": 15,
-              "time": "09:30 PM",
-              "venue": "Davis Theatre"
-            },
-            {
-              "gross": 3150,
-              "movie": "VARAVU",
-              "screen": "Aiswarya",
-              "showid": "7713",
-              "tickets_sold": 21,
-              "time": "02:00 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 5100,
-              "movie": "Varavu",
-              "screen": "SCREEN 1",
-              "showid": "9583",
-              "tickets_sold": 34,
-              "time": "02:30 PM",
-              "venue": "Harihar"
-            },
-            {
-              "gross": 2550,
-              "movie": "Varavu",
-              "screen": "SAVITHA",
-              "showid": "19559",
-              "tickets_sold": 17,
-              "time": "02:30 PM",
-              "venue": "SFC"
             },
             {
               "gross": 2700,
@@ -1211,13 +1202,31 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 3000,
+              "gross": 2550,
+              "movie": "Varavu",
+              "screen": "SAVITHA",
+              "showid": "19559",
+              "tickets_sold": 17,
+              "time": "02:30 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 2400,
               "movie": "Varavu",
               "screen": "SCREEN 2",
-              "showid": "8625",
-              "tickets_sold": 20,
-              "time": "01:30 PM",
+              "showid": "8624",
+              "tickets_sold": 16,
+              "time": "10:30 AM",
               "venue": "Sandhya"
+            },
+            {
+              "gross": 2250,
+              "movie": "Varavu",
+              "screen": "Cinema-2",
+              "showid": "22384",
+              "tickets_sold": 15,
+              "time": "09:30 PM",
+              "venue": "Davis Theatre"
             },
             {
               "gross": 1500,
@@ -1229,13 +1238,13 @@
               "venue": "Davis Theatre"
             },
             {
-              "gross": 4950,
+              "gross": 1350,
               "movie": "Varavu",
               "screen": "SCREEN 2",
-              "showid": "6678",
-              "tickets_sold": 33,
-              "time": "11:15 AM",
-              "venue": "Issacs"
+              "showid": "8626",
+              "tickets_sold": 9,
+              "time": "04:30 PM",
+              "venue": "Sandhya"
             },
             {
               "gross": 1050,
@@ -1254,15 +1263,6 @@
               "tickets_sold": 7,
               "time": "02:15 PM",
               "venue": "Issacs"
-            },
-            {
-              "gross": 1350,
-              "movie": "Varavu",
-              "screen": "SCREEN 2",
-              "showid": "8626",
-              "tickets_sold": 9,
-              "time": "04:30 PM",
-              "venue": "Sandhya"
             }
           ],
           "gross": 239700,
@@ -1615,53 +1615,53 @@
       "tickets_sold": 1598
     },
     "Varavu": {
-      "gross": 165000,
+      "gross": 228900,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 20400,
+              "gross": 21000,
               "movie": "Varavu",
               "screen": null,
               "showid": "18845",
-              "tickets_sold": 136,
+              "tickets_sold": 140,
               "time": "09:00 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 18000,
+              "gross": 23850,
               "movie": "Varavu",
               "screen": "SAVITHA",
               "showid": "19561",
-              "tickets_sold": 120,
+              "tickets_sold": 159,
               "time": "08:30 PM",
               "venue": "SFC"
             },
             {
-              "gross": 14550,
+              "gross": 17550,
               "movie": "Varavu",
               "screen": null,
               "showid": "18844",
-              "tickets_sold": 97,
+              "tickets_sold": 117,
               "time": "06:00 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 10050,
+              "gross": 11850,
               "movie": "Varavu",
               "screen": "SCREEN 1",
               "showid": "9585",
-              "tickets_sold": 67,
+              "tickets_sold": 79,
               "time": "09:30 PM",
               "venue": "Harihar"
             },
             {
-              "gross": 9300,
+              "gross": 13650,
               "movie": "Varavu",
               "screen": "SCREEN 1",
               "showid": "3398",
-              "tickets_sold": 62,
+              "tickets_sold": 91,
               "time": "06:00 PM",
               "venue": "Fairyland Cinemas"
             },
@@ -1675,65 +1675,65 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 6750,
+              "gross": 7350,
               "movie": "Varavu",
               "screen": "SCREEN 1",
               "showid": "3399",
-              "tickets_sold": 45,
+              "tickets_sold": 49,
               "time": "09:15 PM",
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 6750,
+              "gross": 8550,
               "movie": "Varavu",
               "screen": "SCREEN 2",
               "showid": "6681",
-              "tickets_sold": 45,
+              "tickets_sold": 57,
               "time": "09:15 PM",
               "venue": "Issacs"
             },
             {
-              "gross": 6300,
+              "gross": 9450,
               "movie": "Varavu",
               "screen": "SCREEN 1",
               "showid": "9584",
-              "tickets_sold": 42,
+              "tickets_sold": 63,
               "time": "06:30 PM",
               "venue": "Harihar"
             },
             {
-              "gross": 5700,
+              "gross": 9150,
               "movie": "Varavu",
               "screen": "SCREEN 1",
               "showid": "9021",
-              "tickets_sold": 38,
+              "tickets_sold": 61,
               "time": "08:30 PM",
               "venue": "Jose"
             },
             {
-              "gross": 5400,
+              "gross": 9900,
               "movie": "Varavu",
               "screen": "SCREEN 2",
               "showid": "8627",
-              "tickets_sold": 36,
+              "tickets_sold": 66,
               "time": "07:30 PM",
               "venue": "Sandhya"
             },
             {
-              "gross": 5250,
+              "gross": 6750,
               "movie": "Varavu",
               "screen": "SAVITHA",
               "showid": "19560",
-              "tickets_sold": 35,
+              "tickets_sold": 45,
               "time": "05:30 PM",
               "venue": "SFC"
             },
             {
-              "gross": 4950,
+              "gross": 6900,
               "movie": "VARAVU",
               "screen": "Aiswarya",
               "showid": "7715",
-              "tickets_sold": 33,
+              "tickets_sold": 46,
               "time": "08:30 PM",
               "venue": "Aiswarya Cinemas"
             },
@@ -1756,29 +1756,29 @@
               "venue": "SFC"
             },
             {
-              "gross": 3300,
+              "gross": 6750,
               "movie": "VARAVU",
               "screen": "Aiswarya",
               "showid": "7714",
-              "tickets_sold": 22,
+              "tickets_sold": 45,
               "time": "05:30 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 3000,
+              "gross": 3600,
               "movie": "Varavu",
               "screen": "SCREEN 2",
               "showid": "6680",
-              "tickets_sold": 20,
+              "tickets_sold": 24,
               "time": "06:15 PM",
               "venue": "Issacs"
             },
             {
-              "gross": 3000,
+              "gross": 3450,
               "movie": "Varavu",
               "screen": "SCREEN 1",
               "showid": "9020",
-              "tickets_sold": 20,
+              "tickets_sold": 23,
               "time": "05:30 PM",
               "venue": "Jose"
             },
@@ -1792,38 +1792,38 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 2700,
+              "gross": 4650,
               "movie": "Varavu",
               "screen": "SCREEN 1",
               "showid": "9019",
-              "tickets_sold": 18,
+              "tickets_sold": 31,
               "time": "02:00 PM",
               "venue": "Jose"
             },
             {
-              "gross": 2400,
+              "gross": 6750,
               "movie": "Varavu",
               "screen": null,
               "showid": "18843",
-              "tickets_sold": 16,
+              "tickets_sold": 45,
               "time": "02:45 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 1950,
+              "gross": 4950,
               "movie": "VARAVU",
               "screen": "Aiswarya",
               "showid": "7713",
-              "tickets_sold": 13,
+              "tickets_sold": 33,
               "time": "02:00 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 1950,
+              "gross": 6150,
               "movie": "Varavu",
               "screen": "SCREEN 1",
               "showid": "9583",
-              "tickets_sold": 13,
+              "tickets_sold": 41,
               "time": "02:30 PM",
               "venue": "Harihar"
             },
@@ -1837,29 +1837,29 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 1800,
+              "gross": 4050,
               "movie": "Varavu",
               "screen": "SCREEN 1",
               "showid": "3397",
-              "tickets_sold": 12,
+              "tickets_sold": 27,
               "time": "02:15 PM",
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 1800,
+              "gross": 2250,
               "movie": "Varavu",
               "screen": "Cinema-2",
               "showid": "22384",
-              "tickets_sold": 12,
+              "tickets_sold": 15,
               "time": "09:30 PM",
               "venue": "Davis Theatre"
             },
             {
-              "gross": 1800,
+              "gross": 6000,
               "movie": "Varavu",
               "screen": "SAVITHA",
               "showid": "19559",
-              "tickets_sold": 12,
+              "tickets_sold": 40,
               "time": "02:30 PM",
               "venue": "SFC"
             },
@@ -1873,20 +1873,20 @@
               "venue": "Sandhya"
             },
             {
-              "gross": 1200,
+              "gross": 1500,
               "movie": "Varavu",
               "screen": "Cinema-2",
               "showid": "22383",
-              "tickets_sold": 8,
+              "tickets_sold": 10,
               "time": "06:30 PM",
               "venue": "Davis Theatre"
             },
             {
-              "gross": 1200,
+              "gross": 5400,
               "movie": "Varavu",
               "screen": "SCREEN 2",
               "showid": "8625",
-              "tickets_sold": 8,
+              "tickets_sold": 36,
               "time": "01:30 PM",
               "venue": "Sandhya"
             },
@@ -1909,20 +1909,20 @@
               "venue": "Harihar"
             },
             {
-              "gross": 1050,
+              "gross": 1500,
               "movie": "Varavu",
               "screen": "SCREEN 2",
               "showid": "6679",
-              "tickets_sold": 7,
+              "tickets_sold": 10,
               "time": "02:15 PM",
               "venue": "Issacs"
             },
             {
-              "gross": 900,
+              "gross": 2400,
               "movie": "Varavu",
               "screen": "SCREEN 2",
               "showid": "8626",
-              "tickets_sold": 6,
+              "tickets_sold": 16,
               "time": "04:30 PM",
               "venue": "Sandhya"
             },
@@ -1936,9 +1936,9 @@
               "venue": "Issacs"
             }
           ],
-          "gross": 165000,
+          "gross": 228900,
           "shows": 35,
-          "tickets_sold": 1100
+          "tickets_sold": 1526
         },
         "without_gross": {
           "breakdown": [
@@ -1958,48 +1958,93 @@
       },
       "show_breakdown": [
         {
-          "gross": 20400,
-          "movie": "Varavu",
-          "screen": null,
-          "showid": "18845",
-          "tickets_sold": 136,
-          "time": "09:00 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 18000,
+          "gross": 23850,
           "movie": "Varavu",
           "screen": "SAVITHA",
           "showid": "19561",
-          "tickets_sold": 120,
+          "tickets_sold": 159,
           "time": "08:30 PM",
           "venue": "SFC"
         },
         {
-          "gross": 14550,
+          "gross": 21000,
+          "movie": "Varavu",
+          "screen": null,
+          "showid": "18845",
+          "tickets_sold": 140,
+          "time": "09:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 17550,
           "movie": "Varavu",
           "screen": null,
           "showid": "18844",
-          "tickets_sold": 97,
+          "tickets_sold": 117,
           "time": "06:00 PM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 10050,
+          "gross": 13650,
+          "movie": "Varavu",
+          "screen": "SCREEN 1",
+          "showid": "3398",
+          "tickets_sold": 91,
+          "time": "06:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 11850,
           "movie": "Varavu",
           "screen": "SCREEN 1",
           "showid": "9585",
-          "tickets_sold": 67,
+          "tickets_sold": 79,
           "time": "09:30 PM",
           "venue": "Harihar"
         },
         {
-          "gross": 9300,
+          "gross": 9900,
+          "movie": "Varavu",
+          "screen": "SCREEN 2",
+          "showid": "8627",
+          "tickets_sold": 66,
+          "time": "07:30 PM",
+          "venue": "Sandhya"
+        },
+        {
+          "gross": 9450,
           "movie": "Varavu",
           "screen": "SCREEN 1",
-          "showid": "3398",
-          "tickets_sold": 62,
-          "time": "06:00 PM",
+          "showid": "9584",
+          "tickets_sold": 63,
+          "time": "06:30 PM",
+          "venue": "Harihar"
+        },
+        {
+          "gross": 9150,
+          "movie": "Varavu",
+          "screen": "SCREEN 1",
+          "showid": "9021",
+          "tickets_sold": 61,
+          "time": "08:30 PM",
+          "venue": "Jose"
+        },
+        {
+          "gross": 8550,
+          "movie": "Varavu",
+          "screen": "SCREEN 2",
+          "showid": "6681",
+          "tickets_sold": 57,
+          "time": "09:15 PM",
+          "venue": "Issacs"
+        },
+        {
+          "gross": 7350,
+          "movie": "Varavu",
+          "screen": "SCREEN 1",
+          "showid": "3399",
+          "tickets_sold": 49,
+          "time": "09:15 PM",
           "venue": "Fairyland Cinemas"
         },
         {
@@ -2012,67 +2057,85 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 6750,
-          "movie": "Varavu",
-          "screen": "SCREEN 1",
-          "showid": "3399",
-          "tickets_sold": 45,
-          "time": "09:15 PM",
-          "venue": "Fairyland Cinemas"
+          "gross": 6900,
+          "movie": "VARAVU",
+          "screen": "Aiswarya",
+          "showid": "7715",
+          "tickets_sold": 46,
+          "time": "08:30 PM",
+          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 6750,
           "movie": "Varavu",
-          "screen": "SCREEN 2",
-          "showid": "6681",
+          "screen": "SAVITHA",
+          "showid": "19560",
           "tickets_sold": 45,
-          "time": "09:15 PM",
-          "venue": "Issacs"
+          "time": "05:30 PM",
+          "venue": "SFC"
         },
         {
-          "gross": 6300,
+          "gross": 6750,
+          "movie": "VARAVU",
+          "screen": "Aiswarya",
+          "showid": "7714",
+          "tickets_sold": 45,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 6750,
+          "movie": "Varavu",
+          "screen": null,
+          "showid": "18843",
+          "tickets_sold": 45,
+          "time": "02:45 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 6150,
           "movie": "Varavu",
           "screen": "SCREEN 1",
-          "showid": "9584",
-          "tickets_sold": 42,
-          "time": "06:30 PM",
+          "showid": "9583",
+          "tickets_sold": 41,
+          "time": "02:30 PM",
           "venue": "Harihar"
         },
         {
-          "gross": 5700,
+          "gross": 6000,
           "movie": "Varavu",
-          "screen": "SCREEN 1",
-          "showid": "9021",
-          "tickets_sold": 38,
-          "time": "08:30 PM",
-          "venue": "Jose"
+          "screen": "SAVITHA",
+          "showid": "19559",
+          "tickets_sold": 40,
+          "time": "02:30 PM",
+          "venue": "SFC"
         },
         {
           "gross": 5400,
           "movie": "Varavu",
           "screen": "SCREEN 2",
-          "showid": "8627",
+          "showid": "8625",
           "tickets_sold": 36,
-          "time": "07:30 PM",
+          "time": "01:30 PM",
           "venue": "Sandhya"
-        },
-        {
-          "gross": 5250,
-          "movie": "Varavu",
-          "screen": "SAVITHA",
-          "showid": "19560",
-          "tickets_sold": 35,
-          "time": "05:30 PM",
-          "venue": "SFC"
         },
         {
           "gross": 4950,
           "movie": "VARAVU",
           "screen": "Aiswarya",
-          "showid": "7715",
+          "showid": "7713",
           "tickets_sold": 33,
-          "time": "08:30 PM",
+          "time": "02:00 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 4650,
+          "movie": "Varavu",
+          "screen": "SCREEN 1",
+          "showid": "9019",
+          "tickets_sold": 31,
+          "time": "02:00 PM",
+          "venue": "Jose"
         },
         {
           "gross": 4350,
@@ -2084,6 +2147,15 @@
           "venue": "Jose"
         },
         {
+          "gross": 4050,
+          "movie": "Varavu",
+          "screen": "SCREEN 1",
+          "showid": "3397",
+          "tickets_sold": 27,
+          "time": "02:15 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
           "gross": 3600,
           "movie": "Varavu",
           "screen": "SAVITHA",
@@ -2093,29 +2165,20 @@
           "venue": "SFC"
         },
         {
-          "gross": 3300,
-          "movie": "VARAVU",
-          "screen": "Aiswarya",
-          "showid": "7714",
-          "tickets_sold": 22,
-          "time": "05:30 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 3000,
+          "gross": 3600,
           "movie": "Varavu",
           "screen": "SCREEN 2",
           "showid": "6680",
-          "tickets_sold": 20,
+          "tickets_sold": 24,
           "time": "06:15 PM",
           "venue": "Issacs"
         },
         {
-          "gross": 3000,
+          "gross": 3450,
           "movie": "Varavu",
           "screen": "SCREEN 1",
           "showid": "9020",
-          "tickets_sold": 20,
+          "tickets_sold": 23,
           "time": "05:30 PM",
           "venue": "Jose"
         },
@@ -2129,40 +2192,22 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 2700,
-          "movie": "Varavu",
-          "screen": "SCREEN 1",
-          "showid": "9019",
-          "tickets_sold": 18,
-          "time": "02:00 PM",
-          "venue": "Jose"
-        },
-        {
           "gross": 2400,
           "movie": "Varavu",
-          "screen": null,
-          "showid": "18843",
+          "screen": "SCREEN 2",
+          "showid": "8626",
           "tickets_sold": 16,
-          "time": "02:45 PM",
-          "venue": "Puthet Cinemas"
+          "time": "04:30 PM",
+          "venue": "Sandhya"
         },
         {
-          "gross": 1950,
-          "movie": "VARAVU",
-          "screen": "Aiswarya",
-          "showid": "7713",
-          "tickets_sold": 13,
-          "time": "02:00 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 1950,
+          "gross": 2250,
           "movie": "Varavu",
-          "screen": "SCREEN 1",
-          "showid": "9583",
-          "tickets_sold": 13,
-          "time": "02:30 PM",
-          "venue": "Harihar"
+          "screen": "Cinema-2",
+          "showid": "22384",
+          "tickets_sold": 15,
+          "time": "09:30 PM",
+          "venue": "Davis Theatre"
         },
         {
           "gross": 1800,
@@ -2174,31 +2219,22 @@
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 1800,
-          "movie": "Varavu",
-          "screen": "SCREEN 1",
-          "showid": "3397",
-          "tickets_sold": 12,
-          "time": "02:15 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 1800,
+          "gross": 1500,
           "movie": "Varavu",
           "screen": "Cinema-2",
-          "showid": "22384",
-          "tickets_sold": 12,
-          "time": "09:30 PM",
+          "showid": "22383",
+          "tickets_sold": 10,
+          "time": "06:30 PM",
           "venue": "Davis Theatre"
         },
         {
-          "gross": 1800,
+          "gross": 1500,
           "movie": "Varavu",
-          "screen": "SAVITHA",
-          "showid": "19559",
-          "tickets_sold": 12,
-          "time": "02:30 PM",
-          "venue": "SFC"
+          "screen": "SCREEN 2",
+          "showid": "6679",
+          "tickets_sold": 10,
+          "time": "02:15 PM",
+          "venue": "Issacs"
         },
         {
           "gross": 1350,
@@ -2207,24 +2243,6 @@
           "showid": "8624",
           "tickets_sold": 9,
           "time": "10:30 AM",
-          "venue": "Sandhya"
-        },
-        {
-          "gross": 1200,
-          "movie": "Varavu",
-          "screen": "Cinema-2",
-          "showid": "22383",
-          "tickets_sold": 8,
-          "time": "06:30 PM",
-          "venue": "Davis Theatre"
-        },
-        {
-          "gross": 1200,
-          "movie": "Varavu",
-          "screen": "SCREEN 2",
-          "showid": "8625",
-          "tickets_sold": 8,
-          "time": "01:30 PM",
           "venue": "Sandhya"
         },
         {
@@ -2246,24 +2264,6 @@
           "venue": "Harihar"
         },
         {
-          "gross": 1050,
-          "movie": "Varavu",
-          "screen": "SCREEN 2",
-          "showid": "6679",
-          "tickets_sold": 7,
-          "time": "02:15 PM",
-          "venue": "Issacs"
-        },
-        {
-          "gross": 900,
-          "movie": "Varavu",
-          "screen": "SCREEN 2",
-          "showid": "8626",
-          "tickets_sold": 6,
-          "time": "04:30 PM",
-          "venue": "Sandhya"
-        },
-        {
           "gross": 750,
           "movie": "Varavu",
           "screen": "SCREEN 2",
@@ -2283,30 +2283,11 @@
         }
       ],
       "shows": 36,
-      "tickets_sold": 1100
+      "tickets_sold": 1526
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "Argentina vs Spain FIFA WORLD CUP Final 2026"
-        ],
-        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
-      },
-      {
-        "aliases": [
-          "VARAVU",
-          "Varavu"
-        ],
-        "canonical": "VARAVU"
-      },
-      {
-        "aliases": [
-          "Balan: The Boy"
-        ],
-        "canonical": "Balan: The Boy"
-      },
       {
         "aliases": [
           "I, Nobody",
@@ -2322,9 +2303,28 @@
       },
       {
         "aliases": [
+          "Argentina vs Spain FIFA WORLD CUP Final 2026"
+        ],
+        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
+      },
+      {
+        "aliases": [
+          "Balan: The Boy"
+        ],
+        "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
           "Evil Dead Burn"
         ],
         "canonical": "Evil Dead Burn"
+      },
+      {
+        "aliases": [
+          "VARAVU",
+          "Varavu"
+        ],
+        "canonical": "Varavu"
       }
     ]
   }
