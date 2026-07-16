@@ -1,6 +1,6 @@
 {
   "date": "2026-07-17",
-  "last_updated": "2026-07-17T02:39:05.934670+05:30",
+  "last_updated": "2026-07-17T04:32:43.861947+05:30",
   "movies": {
     "Anbe Diana": {
       "gross": 0,
@@ -614,17 +614,17 @@
       "tickets_sold": 4
     },
     "The Odyssey": {
-      "gross": 110250,
+      "gross": 111000,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 11250,
+              "gross": 11400,
               "movie": "The Odyssey",
               "screen": "SAAGARA",
               "showid": "19581",
-              "tickets_sold": 75,
+              "tickets_sold": 76,
               "time": "08:15 PM",
               "venue": "SFC"
             },
@@ -665,11 +665,11 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 6900,
+              "gross": 7050,
               "movie": "The Odyssey",
               "screen": null,
               "showid": "18829",
-              "tickets_sold": 46,
+              "tickets_sold": 47,
               "time": "02:30 PM",
               "venue": "Puthet Cinemas"
             },
@@ -683,15 +683,6 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 6000,
-              "movie": "The Odyssey",
-              "screen": "SCREEN 1",
-              "showid": "8623",
-              "tickets_sold": 40,
-              "time": "07:30 PM",
-              "venue": "Sandhya"
-            },
-            {
               "gross": 6150,
               "movie": "The Odyssey",
               "screen": null,
@@ -699,6 +690,15 @@
               "tickets_sold": 41,
               "time": "06:15 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 6000,
+              "movie": "The Odyssey",
+              "screen": "SCREEN 1",
+              "showid": "8623",
+              "tickets_sold": 40,
+              "time": "07:30 PM",
+              "venue": "Sandhya"
             },
             {
               "gross": 5850,
@@ -773,11 +773,11 @@
               "venue": "Issacs"
             },
             {
-              "gross": 1650,
+              "gross": 2100,
               "movie": "The Odyssey",
               "screen": "SAAGARA",
               "showid": "19579",
-              "tickets_sold": 11,
+              "tickets_sold": 14,
               "time": "02:30 PM",
               "venue": "SFC"
             },
@@ -845,9 +845,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 110250,
+          "gross": 111000,
           "shows": 25,
-          "tickets_sold": 735
+          "tickets_sold": 740
         },
         "without_gross": {
           "breakdown": [
@@ -867,11 +867,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 11250,
+          "gross": 11400,
           "movie": "The Odyssey",
           "screen": "SAAGARA",
           "showid": "19581",
-          "tickets_sold": 75,
+          "tickets_sold": 76,
           "time": "08:15 PM",
           "venue": "SFC"
         },
@@ -903,6 +903,15 @@
           "venue": "Issacs"
         },
         {
+          "gross": 7050,
+          "movie": "The Odyssey",
+          "screen": null,
+          "showid": "18829",
+          "tickets_sold": 47,
+          "time": "02:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 6900,
           "movie": "The Odyssey",
           "screen": "Dolby Atmos",
@@ -910,15 +919,6 @@
           "tickets_sold": 46,
           "time": "10:00 PM",
           "venue": "Girija Theatre"
-        },
-        {
-          "gross": 6900,
-          "movie": "The Odyssey",
-          "screen": null,
-          "showid": "18829",
-          "tickets_sold": 46,
-          "time": "02:30 PM",
-          "venue": "Puthet Cinemas"
         },
         {
           "gross": 6450,
@@ -1002,6 +1002,15 @@
           "venue": "Harihar"
         },
         {
+          "gross": 2100,
+          "movie": "The Odyssey",
+          "screen": "SAAGARA",
+          "showid": "19579",
+          "tickets_sold": 14,
+          "time": "02:30 PM",
+          "venue": "SFC"
+        },
+        {
           "gross": 1950,
           "movie": "The Odyssey",
           "screen": "SCREEN 3",
@@ -1018,15 +1027,6 @@
           "tickets_sold": 12,
           "time": "02:30 PM",
           "venue": "Issacs"
-        },
-        {
-          "gross": 1650,
-          "movie": "The Odyssey",
-          "screen": "SAAGARA",
-          "showid": "19579",
-          "tickets_sold": 11,
-          "time": "02:30 PM",
-          "venue": "SFC"
         },
         {
           "gross": 1500,
@@ -1102,7 +1102,7 @@
         }
       ],
       "shows": 26,
-      "tickets_sold": 735
+      "tickets_sold": 740
     },
     "VARAVU": {
       "gross": 17100,
@@ -2037,15 +2037,22 @@
     "merged_movies": [
       {
         "aliases": [
-          "Balan: The Boy"
-        ],
-        "canonical": "Balan: The Boy"
-      },
-      {
-        "aliases": [
           "Varavu"
         ],
         "canonical": "Varavu"
+      },
+      {
+        "aliases": [
+          "I, Nobody",
+          "I,Nobody"
+        ],
+        "canonical": "I,Nobody"
+      },
+      {
+        "aliases": [
+          "Balan: The Boy"
+        ],
+        "canonical": "Balan: The Boy"
       },
       {
         "aliases": [
@@ -2055,10 +2062,9 @@
       },
       {
         "aliases": [
-          "I, Nobody",
-          "I,Nobody"
+          "Argentina vs Spain FIFA WORLD CUP Final 2026"
         ],
-        "canonical": "I,Nobody"
+        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
       },
       {
         "aliases": [
@@ -2071,12 +2077,6 @@
           "The Odyssey"
         ],
         "canonical": "The Odyssey"
-      },
-      {
-        "aliases": [
-          "Argentina vs Spain FIFA WORLD CUP Final 2026"
-        ],
-        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
       }
     ]
   }
