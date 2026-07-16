@@ -1,7 +1,119 @@
 {
   "date": "2026-07-19",
-  "last_updated": "2026-07-16T12:56:15.666650+05:30",
+  "last_updated": "2026-07-16T15:46:47.091230+05:30",
   "movies": {
+    "Anbe Diana": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Anbe Diana",
+              "screen": "Screen-1",
+              "showid": "7774",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Anbe Diana",
+              "screen": "Screen-1",
+              "showid": "7775",
+              "tickets_sold": 0,
+              "time": "01:45 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Anbe Diana",
+              "screen": "Screen-1",
+              "showid": "7776",
+              "tickets_sold": 0,
+              "time": "04:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Anbe Diana",
+              "screen": "Screen-1",
+              "showid": "7777",
+              "tickets_sold": 0,
+              "time": "07:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Anbe Diana",
+              "screen": "Screen-1",
+              "showid": "7778",
+              "tickets_sold": 0,
+              "time": "10:00 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "shows": 5,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Anbe Diana",
+          "screen": "Screen-1",
+          "showid": "7774",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Anbe Diana",
+          "screen": "Screen-1",
+          "showid": "7775",
+          "tickets_sold": 0,
+          "time": "01:45 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Anbe Diana",
+          "screen": "Screen-1",
+          "showid": "7776",
+          "tickets_sold": 0,
+          "time": "04:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Anbe Diana",
+          "screen": "Screen-1",
+          "showid": "7777",
+          "tickets_sold": 0,
+          "time": "07:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Anbe Diana",
+          "screen": "Screen-1",
+          "showid": "7778",
+          "tickets_sold": 0,
+          "time": "10:00 PM",
+          "venue": "Aiswarya Cinemas"
+        }
+      ],
+      "shows": 5,
+      "tickets_sold": 0
+    },
     "I,Nobody": {
       "gross": 0,
       "occupancy": null,
@@ -151,7 +263,7 @@
       "tickets_sold": 0
     },
     "The Odyssey": {
-      "gross": 1500,
+      "gross": 1800,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -175,11 +287,11 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 300,
+              "gross": 600,
               "movie": "The Odyssey",
               "screen": null,
               "showid": "18880",
-              "tickets_sold": 2,
+              "tickets_sold": 4,
               "time": "02:30 PM",
               "venue": "Puthet Cinemas"
             },
@@ -193,9 +305,9 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 1500,
+          "gross": 1800,
           "shows": 4,
-          "tickets_sold": 10
+          "tickets_sold": 12
         },
         "without_gross": {
           "breakdown": [
@@ -296,6 +408,15 @@
           "venue": "Aiswarya Cinemas"
         },
         {
+          "gross": 600,
+          "movie": "The Odyssey",
+          "screen": null,
+          "showid": "18880",
+          "tickets_sold": 4,
+          "time": "02:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 300,
           "movie": "The Odyssey",
           "screen": "Dolby Atmos",
@@ -303,15 +424,6 @@
           "tickets_sold": 2,
           "time": "03:00 PM",
           "venue": "Girija Theatre"
-        },
-        {
-          "gross": 300,
-          "movie": "The Odyssey",
-          "screen": null,
-          "showid": "18880",
-          "tickets_sold": 2,
-          "time": "02:30 PM",
-          "venue": "Puthet Cinemas"
         },
         {
           "gross": 300,
@@ -405,7 +517,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 10
+      "tickets_sold": 12
     },
     "VARAVU": {
       "gross": 7500,
@@ -890,22 +1002,22 @@
     "merged_movies": [
       {
         "aliases": [
-          "I, Nobody",
-          "I,Nobody"
-        ],
-        "canonical": "I,Nobody"
-      },
-      {
-        "aliases": [
           "The Odyssey"
         ],
         "canonical": "The Odyssey"
       },
       {
         "aliases": [
-          "Argentina vs Spain FIFA WORLD CUP Final 2026"
+          "VARAVU",
+          "Varavu"
         ],
-        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
+        "canonical": "VARAVU"
+      },
+      {
+        "aliases": [
+          "Anbe Diana"
+        ],
+        "canonical": "Anbe Diana"
       },
       {
         "aliases": [
@@ -915,16 +1027,22 @@
       },
       {
         "aliases": [
+          "Argentina vs Spain FIFA WORLD CUP Final 2026"
+        ],
+        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
+      },
+      {
+        "aliases": [
           "Evil Dead Burn"
         ],
         "canonical": "Evil Dead Burn"
       },
       {
         "aliases": [
-          "VARAVU",
-          "Varavu"
+          "I, Nobody",
+          "I,Nobody"
         ],
-        "canonical": "Varavu"
+        "canonical": "I,Nobody"
       }
     ]
   }

@@ -1,7 +1,119 @@
 {
   "date": "2026-07-18",
-  "last_updated": "2026-07-16T12:56:15.665020+05:30",
+  "last_updated": "2026-07-16T15:46:47.089832+05:30",
   "movies": {
+    "Anbe Diana": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Anbe Diana",
+              "screen": "Screen-1",
+              "showid": "7769",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Anbe Diana",
+              "screen": "Screen-1",
+              "showid": "7770",
+              "tickets_sold": 0,
+              "time": "01:45 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Anbe Diana",
+              "screen": "Screen-1",
+              "showid": "7771",
+              "tickets_sold": 0,
+              "time": "04:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Anbe Diana",
+              "screen": "Screen-1",
+              "showid": "7772",
+              "tickets_sold": 0,
+              "time": "07:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Anbe Diana",
+              "screen": "Screen-1",
+              "showid": "7773",
+              "tickets_sold": 0,
+              "time": "10:00 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "shows": 5,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Anbe Diana",
+          "screen": "Screen-1",
+          "showid": "7769",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Anbe Diana",
+          "screen": "Screen-1",
+          "showid": "7770",
+          "tickets_sold": 0,
+          "time": "01:45 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Anbe Diana",
+          "screen": "Screen-1",
+          "showid": "7771",
+          "tickets_sold": 0,
+          "time": "04:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Anbe Diana",
+          "screen": "Screen-1",
+          "showid": "7772",
+          "tickets_sold": 0,
+          "time": "07:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Anbe Diana",
+          "screen": "Screen-1",
+          "showid": "7773",
+          "tickets_sold": 0,
+          "time": "10:00 PM",
+          "venue": "Aiswarya Cinemas"
+        }
+      ],
+      "shows": 5,
+      "tickets_sold": 0
+    },
     "I,Nobody": {
       "gross": 0,
       "occupancy": null,
@@ -151,26 +263,26 @@
       "tickets_sold": 0
     },
     "The Odyssey": {
-      "gross": 4500,
+      "gross": 5700,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 1350,
+              "gross": 1800,
               "movie": "The Odyssey",
               "screen": null,
               "showid": "18876",
-              "tickets_sold": 9,
+              "tickets_sold": 12,
               "time": "02:30 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 1350,
+              "gross": 2100,
               "movie": "The Odyssey",
               "screen": null,
               "showid": "18875",
-              "tickets_sold": 9,
+              "tickets_sold": 14,
               "time": "11:00 AM",
               "venue": "Puthet Cinemas"
             },
@@ -211,9 +323,9 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 4500,
+          "gross": 5700,
           "shows": 6,
-          "tickets_sold": 30
+          "tickets_sold": 38
         },
         "without_gross": {
           "breakdown": [
@@ -287,21 +399,21 @@
       },
       "show_breakdown": [
         {
-          "gross": 1350,
-          "movie": "The Odyssey",
-          "screen": null,
-          "showid": "18876",
-          "tickets_sold": 9,
-          "time": "02:30 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 1350,
+          "gross": 2100,
           "movie": "The Odyssey",
           "screen": null,
           "showid": "18875",
-          "tickets_sold": 9,
+          "tickets_sold": 14,
           "time": "11:00 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 1800,
+          "movie": "The Odyssey",
+          "screen": null,
+          "showid": "18876",
+          "tickets_sold": 12,
+          "time": "02:30 PM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -405,10 +517,10 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 30
+      "tickets_sold": 38
     },
     "VARAVU": {
-      "gross": 8250,
+      "gross": 9150,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -439,11 +551,20 @@
               "tickets_sold": 4,
               "time": "11:30 AM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 900,
+              "movie": "VARAVU",
+              "screen": "Aiswarya",
+              "showid": "7739",
+              "tickets_sold": 6,
+              "time": "08:30 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 8250,
-          "shows": 3,
-          "tickets_sold": 55
+          "gross": 9150,
+          "shows": 4,
+          "tickets_sold": 61
         },
         "without_gross": {
           "breakdown": [
@@ -494,15 +615,6 @@
             },
             {
               "gross": 0,
-              "movie": "VARAVU",
-              "screen": "Aiswarya",
-              "showid": "7739",
-              "tickets_sold": 0,
-              "time": "08:30 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
               "movie": "Varavu",
               "screen": null,
               "showid": "18868",
@@ -529,7 +641,7 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 9,
+          "shows": 8,
           "tickets_sold": 0
         }
       },
@@ -551,6 +663,15 @@
           "tickets_sold": 24,
           "time": "06:00 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 900,
+          "movie": "VARAVU",
+          "screen": "Aiswarya",
+          "showid": "7739",
+          "tickets_sold": 6,
+          "time": "08:30 PM",
+          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 600,
@@ -608,15 +729,6 @@
         },
         {
           "gross": 0,
-          "movie": "VARAVU",
-          "screen": "Aiswarya",
-          "showid": "7739",
-          "tickets_sold": 0,
-          "time": "08:30 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
           "movie": "Varavu",
           "screen": null,
           "showid": "18868",
@@ -644,7 +756,7 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 55
+      "tickets_sold": 61
     },
     "Varavu": {
       "gross": 8250,
@@ -890,22 +1002,22 @@
     "merged_movies": [
       {
         "aliases": [
-          "I, Nobody",
-          "I,Nobody"
-        ],
-        "canonical": "I,Nobody"
-      },
-      {
-        "aliases": [
           "The Odyssey"
         ],
         "canonical": "The Odyssey"
       },
       {
         "aliases": [
-          "Argentina vs Spain FIFA WORLD CUP Final 2026"
+          "VARAVU",
+          "Varavu"
         ],
-        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
+        "canonical": "VARAVU"
+      },
+      {
+        "aliases": [
+          "Anbe Diana"
+        ],
+        "canonical": "Anbe Diana"
       },
       {
         "aliases": [
@@ -915,16 +1027,22 @@
       },
       {
         "aliases": [
+          "Argentina vs Spain FIFA WORLD CUP Final 2026"
+        ],
+        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
+      },
+      {
+        "aliases": [
           "Evil Dead Burn"
         ],
         "canonical": "Evil Dead Burn"
       },
       {
         "aliases": [
-          "VARAVU",
-          "Varavu"
+          "I, Nobody",
+          "I,Nobody"
         ],
-        "canonical": "Varavu"
+        "canonical": "I,Nobody"
       }
     ]
   }
