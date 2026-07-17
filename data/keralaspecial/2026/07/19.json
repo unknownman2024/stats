@@ -1,6 +1,6 @@
 {
   "date": "2026-07-19",
-  "last_updated": "2026-07-17T22:47:37.860276+05:30",
+  "last_updated": "2026-07-18T00:49:17.056710+05:30",
   "movies": {
     "Anbe Diana": {
       "gross": 0,
@@ -264,26 +264,26 @@
       "tickets_sold": 1
     },
     "The Odyssey": {
-      "gross": 12300,
+      "gross": 15150,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 4350,
+              "gross": 4950,
               "movie": "The Odyssey",
               "screen": null,
               "showid": "18880",
-              "tickets_sold": 29,
+              "tickets_sold": 33,
               "time": "02:30 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 4200,
+              "gross": 5100,
               "movie": "The Odyssey",
               "screen": null,
               "showid": "18879",
-              "tickets_sold": 28,
+              "tickets_sold": 34,
               "time": "11:00 AM",
               "venue": "Puthet Cinemas"
             },
@@ -297,20 +297,20 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 900,
+              "gross": 1350,
               "movie": "The Odyssey",
               "screen": "Screen-2",
               "showid": "7724",
-              "tickets_sold": 6,
+              "tickets_sold": 9,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 600,
+              "gross": 1500,
               "movie": "The Odyssey",
               "screen": "Screen-2",
               "showid": "7725",
-              "tickets_sold": 4,
+              "tickets_sold": 10,
               "time": "02:15 PM",
               "venue": "Aiswarya Cinemas"
             },
@@ -333,9 +333,9 @@
               "venue": "Girija Theatre"
             }
           ],
-          "gross": 12300,
+          "gross": 15150,
           "shows": 7,
-          "tickets_sold": 82
+          "tickets_sold": 101
         },
         "without_gross": {
           "breakdown": [
@@ -400,22 +400,31 @@
       },
       "show_breakdown": [
         {
-          "gross": 4350,
+          "gross": 5100,
+          "movie": "The Odyssey",
+          "screen": null,
+          "showid": "18879",
+          "tickets_sold": 34,
+          "time": "11:00 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 4950,
           "movie": "The Odyssey",
           "screen": null,
           "showid": "18880",
-          "tickets_sold": 29,
+          "tickets_sold": 33,
           "time": "02:30 PM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 4200,
+          "gross": 1500,
           "movie": "The Odyssey",
-          "screen": null,
-          "showid": "18879",
-          "tickets_sold": 28,
-          "time": "11:00 AM",
-          "venue": "Puthet Cinemas"
+          "screen": "Screen-2",
+          "showid": "7725",
+          "tickets_sold": 10,
+          "time": "02:15 PM",
+          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 1350,
@@ -427,21 +436,12 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 900,
+          "gross": 1350,
           "movie": "The Odyssey",
           "screen": "Screen-2",
           "showid": "7724",
-          "tickets_sold": 6,
+          "tickets_sold": 9,
           "time": "11:00 AM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 600,
-          "movie": "The Odyssey",
-          "screen": "Screen-2",
-          "showid": "7725",
-          "tickets_sold": 4,
-          "time": "02:15 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -518,7 +518,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 82
+      "tickets_sold": 101
     },
     "VARAVU": {
       "gross": 13200,
@@ -883,6 +883,15 @@
               "venue": "Davis Theatre"
             },
             {
+              "gross": 600,
+              "movie": "VARAVU",
+              "screen": "Aiswarya",
+              "showid": "7742",
+              "tickets_sold": 4,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
               "gross": 300,
               "movie": "Varavu",
               "screen": null,
@@ -898,15 +907,6 @@
               "showid": "7740",
               "tickets_sold": 2,
               "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 600,
-              "movie": "VARAVU",
-              "screen": "Aiswarya",
-              "showid": "7742",
-              "tickets_sold": 4,
-              "time": "05:30 PM",
               "venue": "Aiswarya Cinemas"
             }
           ],
@@ -1147,22 +1147,10 @@
     "merged_movies": [
       {
         "aliases": [
-          "Argentina vs Spain FIFA WORLD CUP Final 2026"
+          "VARAVU",
+          "Varavu"
         ],
-        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
-      },
-      {
-        "aliases": [
-          "Balan: The Boy"
-        ],
-        "canonical": "Balan: The Boy"
-      },
-      {
-        "aliases": [
-          "I, Nobody",
-          "I,Nobody"
-        ],
-        "canonical": "I,Nobody"
+        "canonical": "Varavu"
       },
       {
         "aliases": [
@@ -1178,10 +1166,28 @@
       },
       {
         "aliases": [
-          "VARAVU",
-          "Varavu"
+          "I, Nobody",
+          "I,Nobody"
         ],
-        "canonical": "Varavu"
+        "canonical": "I,Nobody"
+      },
+      {
+        "aliases": [
+          "Evil Dead Burn"
+        ],
+        "canonical": "Evil Dead Burn"
+      },
+      {
+        "aliases": [
+          "Argentina vs Spain FIFA WORLD CUP Final 2026"
+        ],
+        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
+      },
+      {
+        "aliases": [
+          "Balan: The Boy"
+        ],
+        "canonical": "Balan: The Boy"
       }
     ]
   }
