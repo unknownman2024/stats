@@ -1,6 +1,6 @@
 {
   "date": "2026-07-19",
-  "last_updated": "2026-07-17T04:32:43.866687+05:30",
+  "last_updated": "2026-07-17T08:48:06.149072+05:30",
   "movies": {
     "Anbe Diana": {
       "gross": 0,
@@ -520,7 +520,7 @@
       "tickets_sold": 16
     },
     "VARAVU": {
-      "gross": 7500,
+      "gross": 12000,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -542,11 +542,38 @@
               "tickets_sold": 24,
               "time": "09:15 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 1200,
+              "movie": "Varavu",
+              "screen": "Cinema-2",
+              "showid": "22396",
+              "tickets_sold": 8,
+              "time": "03:00 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 1800,
+              "movie": "Varavu",
+              "screen": "Cinema-2",
+              "showid": "22397",
+              "tickets_sold": 12,
+              "time": "06:30 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 1500,
+              "movie": "Varavu",
+              "screen": "Cinema-2",
+              "showid": "22398",
+              "tickets_sold": 10,
+              "time": "09:30 PM",
+              "venue": "Davis Theatre"
             }
           ],
-          "gross": 7500,
-          "shows": 2,
-          "tickets_sold": 50
+          "gross": 12000,
+          "shows": 5,
+          "tickets_sold": 80
         },
         "without_gross": {
           "breakdown": [
@@ -639,9 +666,18 @@
               "tickets_sold": 0,
               "time": "09:00 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Varavu",
+              "screen": "Cinema-2",
+              "showid": "22395",
+              "tickets_sold": 0,
+              "time": "12:00 PM",
+              "venue": "Davis Theatre"
             }
           ],
-          "shows": 10,
+          "shows": 11,
           "tickets_sold": 0
         }
       },
@@ -663,6 +699,33 @@
           "tickets_sold": 24,
           "time": "09:15 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 1800,
+          "movie": "Varavu",
+          "screen": "Cinema-2",
+          "showid": "22397",
+          "tickets_sold": 12,
+          "time": "06:30 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 1500,
+          "movie": "Varavu",
+          "screen": "Cinema-2",
+          "showid": "22398",
+          "tickets_sold": 10,
+          "time": "09:30 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 1200,
+          "movie": "Varavu",
+          "screen": "Cinema-2",
+          "showid": "22396",
+          "tickets_sold": 8,
+          "time": "03:00 PM",
+          "venue": "Davis Theatre"
         },
         {
           "gross": 0,
@@ -753,10 +816,19 @@
           "tickets_sold": 0,
           "time": "09:00 PM",
           "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Varavu",
+          "screen": "Cinema-2",
+          "showid": "22395",
+          "tickets_sold": 0,
+          "time": "12:00 PM",
+          "venue": "Davis Theatre"
         }
       ],
-      "shows": 12,
-      "tickets_sold": 50
+      "shows": 16,
+      "tickets_sold": 80
     },
     "Varavu": {
       "gross": 12000,
@@ -1074,9 +1146,28 @@
     "merged_movies": [
       {
         "aliases": [
+          "The Odyssey"
+        ],
+        "canonical": "The Odyssey"
+      },
+      {
+        "aliases": [
+          "Balan: The Boy"
+        ],
+        "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
+          "VARAVU",
           "Varavu"
         ],
-        "canonical": "Varavu"
+        "canonical": "VARAVU"
+      },
+      {
+        "aliases": [
+          "Anbe Diana"
+        ],
+        "canonical": "Anbe Diana"
       },
       {
         "aliases": [
@@ -1084,12 +1175,6 @@
           "I,Nobody"
         ],
         "canonical": "I,Nobody"
-      },
-      {
-        "aliases": [
-          "Balan: The Boy"
-        ],
-        "canonical": "Balan: The Boy"
       },
       {
         "aliases": [
@@ -1102,18 +1187,6 @@
           "Argentina vs Spain FIFA WORLD CUP Final 2026"
         ],
         "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
-      },
-      {
-        "aliases": [
-          "Anbe Diana"
-        ],
-        "canonical": "Anbe Diana"
-      },
-      {
-        "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
       }
     ]
   }
