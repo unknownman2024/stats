@@ -1,6 +1,6 @@
 {
   "date": "2026-07-19",
-  "last_updated": "2026-07-18T00:49:17.056710+05:30",
+  "last_updated": "2026-07-18T02:31:59.688956+05:30",
   "movies": {
     "Anbe Diana": {
       "gross": 0,
@@ -264,28 +264,37 @@
       "tickets_sold": 1
     },
     "The Odyssey": {
-      "gross": 15150,
+      "gross": 15600,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 4950,
+              "gross": 5250,
+              "movie": "The Odyssey",
+              "screen": null,
+              "showid": "18879",
+              "tickets_sold": 35,
+              "time": "11:00 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 5250,
               "movie": "The Odyssey",
               "screen": null,
               "showid": "18880",
-              "tickets_sold": 33,
+              "tickets_sold": 35,
               "time": "02:30 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 5100,
+              "gross": 1500,
               "movie": "The Odyssey",
-              "screen": null,
-              "showid": "18879",
-              "tickets_sold": 34,
-              "time": "11:00 AM",
-              "venue": "Puthet Cinemas"
+              "screen": "Screen-2",
+              "showid": "7725",
+              "tickets_sold": 10,
+              "time": "02:15 PM",
+              "venue": "Aiswarya Cinemas"
             },
             {
               "gross": 1350,
@@ -303,15 +312,6 @@
               "showid": "7724",
               "tickets_sold": 9,
               "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 1500,
-              "movie": "The Odyssey",
-              "screen": "Screen-2",
-              "showid": "7725",
-              "tickets_sold": 10,
-              "time": "02:15 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -333,9 +333,9 @@
               "venue": "Girija Theatre"
             }
           ],
-          "gross": 15150,
+          "gross": 15600,
           "shows": 7,
-          "tickets_sold": 101
+          "tickets_sold": 104
         },
         "without_gross": {
           "breakdown": [
@@ -400,20 +400,20 @@
       },
       "show_breakdown": [
         {
-          "gross": 5100,
+          "gross": 5250,
           "movie": "The Odyssey",
           "screen": null,
           "showid": "18879",
-          "tickets_sold": 34,
+          "tickets_sold": 35,
           "time": "11:00 AM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 4950,
+          "gross": 5250,
           "movie": "The Odyssey",
           "screen": null,
           "showid": "18880",
-          "tickets_sold": 33,
+          "tickets_sold": 35,
           "time": "02:30 PM",
           "venue": "Puthet Cinemas"
         },
@@ -518,7 +518,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 101
+      "tickets_sold": 104
     },
     "VARAVU": {
       "gross": 13200,
@@ -1154,15 +1154,27 @@
       },
       {
         "aliases": [
-          "Anbe Diana"
+          "Balan: The Boy"
         ],
-        "canonical": "Anbe Diana"
+        "canonical": "Balan: The Boy"
       },
       {
         "aliases": [
           "The Odyssey"
         ],
         "canonical": "The Odyssey"
+      },
+      {
+        "aliases": [
+          "Anbe Diana"
+        ],
+        "canonical": "Anbe Diana"
+      },
+      {
+        "aliases": [
+          "Argentina vs Spain FIFA WORLD CUP Final 2026"
+        ],
+        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
       },
       {
         "aliases": [
@@ -1176,18 +1188,6 @@
           "Evil Dead Burn"
         ],
         "canonical": "Evil Dead Burn"
-      },
-      {
-        "aliases": [
-          "Argentina vs Spain FIFA WORLD CUP Final 2026"
-        ],
-        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
-      },
-      {
-        "aliases": [
-          "Balan: The Boy"
-        ],
-        "canonical": "Balan: The Boy"
       }
     ]
   }
