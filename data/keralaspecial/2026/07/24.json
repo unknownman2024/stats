@@ -1,16 +1,26 @@
 {
   "date": "2026-07-24",
-  "last_updated": "2026-07-18T20:29:54.107100+05:30",
+  "last_updated": "2026-07-18T21:35:28.388656+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 0,
+      "gross": 450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 450,
+              "movie": "Jana Nayagan [T]",
+              "screen": "Dolby Atmos",
+              "showid": "5695",
+              "tickets_sold": 3,
+              "time": "06:30 PM",
+              "venue": "Girija Theatre"
+            }
+          ],
+          "gross": 450,
+          "shows": 1,
+          "tickets_sold": 3
         },
         "without_gross": {
           "breakdown": [
@@ -36,26 +46,71 @@
               "gross": 0,
               "movie": "Jana Nayagan [T]",
               "screen": "Dolby Atmos",
-              "showid": "5695",
-              "tickets_sold": 0,
-              "time": "06:30 PM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 0,
-              "movie": "Jana Nayagan [T]",
-              "screen": "Dolby Atmos",
               "showid": "5696",
               "tickets_sold": 0,
               "time": "09:45 PM",
               "venue": "Girija Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Jana Nayagan",
+              "screen": null,
+              "showid": "18915",
+              "tickets_sold": 0,
+              "time": "10:00 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Jana Nayagan",
+              "screen": null,
+              "showid": "18916",
+              "tickets_sold": 0,
+              "time": "01:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Jana Nayagan",
+              "screen": null,
+              "showid": "18917",
+              "tickets_sold": 0,
+              "time": "05:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Jana Nayagan",
+              "screen": null,
+              "showid": "18918",
+              "tickets_sold": 0,
+              "time": "08:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Jana Nayagan",
+              "screen": null,
+              "showid": "18919",
+              "tickets_sold": 0,
+              "time": "11:45 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 4,
+          "shows": 8,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 450,
+          "movie": "Jana Nayagan [T]",
+          "screen": "Dolby Atmos",
+          "showid": "5695",
+          "tickets_sold": 3,
+          "time": "06:30 PM",
+          "venue": "Girija Theatre"
+        },
         {
           "gross": 0,
           "movie": "Jana Nayagan [T]",
@@ -78,39 +133,89 @@
           "gross": 0,
           "movie": "Jana Nayagan [T]",
           "screen": "Dolby Atmos",
-          "showid": "5695",
-          "tickets_sold": 0,
-          "time": "06:30 PM",
-          "venue": "Girija Theatre"
-        },
-        {
-          "gross": 0,
-          "movie": "Jana Nayagan [T]",
-          "screen": "Dolby Atmos",
           "showid": "5696",
           "tickets_sold": 0,
           "time": "09:45 PM",
           "venue": "Girija Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Jana Nayagan",
+          "screen": null,
+          "showid": "18915",
+          "tickets_sold": 0,
+          "time": "10:00 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Jana Nayagan",
+          "screen": null,
+          "showid": "18916",
+          "tickets_sold": 0,
+          "time": "01:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Jana Nayagan",
+          "screen": null,
+          "showid": "18917",
+          "tickets_sold": 0,
+          "time": "05:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Jana Nayagan",
+          "screen": null,
+          "showid": "18918",
+          "tickets_sold": 0,
+          "time": "08:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Jana Nayagan",
+          "screen": null,
+          "showid": "18919",
+          "tickets_sold": 0,
+          "time": "11:45 PM",
+          "venue": "Puthet Cinemas"
         }
       ],
-      "shows": 4,
-      "tickets_sold": 0
+      "shows": 9,
+      "tickets_sold": 3
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "Balan: The Boy"
+          "I, Nobody",
+          "I,Nobody"
         ],
-        "canonical": "Balan: The Boy"
+        "canonical": "I,Nobody"
       },
       {
         "aliases": [
           "VARAVU",
           "Varavu"
         ],
-        "canonical": "Varavu"
+        "canonical": "VARAVU"
+      },
+      {
+        "aliases": [
+          "Jana Nayagan",
+          "Jana Nayagan [T]"
+        ],
+        "canonical": "Jana Nayagan"
+      },
+      {
+        "aliases": [
+          "The Odyssey"
+        ],
+        "canonical": "The Odyssey"
       },
       {
         "aliases": [
@@ -132,23 +237,9 @@
       },
       {
         "aliases": [
-          "The Odyssey"
+          "Balan: The Boy"
         ],
-        "canonical": "The Odyssey"
-      },
-      {
-        "aliases": [
-          "I, Nobody",
-          "I,Nobody"
-        ],
-        "canonical": "I,Nobody"
-      },
-      {
-        "aliases": [
-          "Jana Nayagan",
-          "Jana Nayagan [T]"
-        ],
-        "canonical": "Jana Nayagan"
+        "canonical": "Balan: The Boy"
       }
     ]
   }
