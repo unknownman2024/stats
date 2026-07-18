@@ -1,19 +1,19 @@
 {
   "date": "2026-07-20",
-  "last_updated": "2026-07-18T14:22:35.258644+05:30",
+  "last_updated": "2026-07-18T15:53:03.883606+05:30",
   "movies": {
     "Argentina vs Spain FIFA WORLD CUP Final 2026": {
-      "gross": 39750,
+      "gross": 43650,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 21300,
+              "gross": 21750,
               "movie": "Argentina vs Spain FIFA WORLD CUP Final 2026",
               "screen": "Cinema-1",
               "showid": "22385",
-              "tickets_sold": 142,
+              "tickets_sold": 145,
               "time": "12:30 AM",
               "venue": "Davis Theatre"
             },
@@ -25,11 +25,20 @@
               "tickets_sold": 123,
               "time": "12:30 AM",
               "venue": "Davis Theatre"
+            },
+            {
+              "gross": 3450,
+              "movie": "Argentina vs Spain FIFA WORLD CUP Final 2026",
+              "screen": "Cinema-3",
+              "showid": "22399",
+              "tickets_sold": 23,
+              "time": "12:30 AM",
+              "venue": "Davis Theatre"
             }
           ],
-          "gross": 39750,
-          "shows": 2,
-          "tickets_sold": 265
+          "gross": 43650,
+          "shows": 3,
+          "tickets_sold": 291
         },
         "without_gross": {
           "breakdown": [],
@@ -39,11 +48,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 21300,
+          "gross": 21750,
           "movie": "Argentina vs Spain FIFA WORLD CUP Final 2026",
           "screen": "Cinema-1",
           "showid": "22385",
-          "tickets_sold": 142,
+          "tickets_sold": 145,
           "time": "12:30 AM",
           "venue": "Davis Theatre"
         },
@@ -55,10 +64,19 @@
           "tickets_sold": 123,
           "time": "12:30 AM",
           "venue": "Davis Theatre"
+        },
+        {
+          "gross": 3450,
+          "movie": "Argentina vs Spain FIFA WORLD CUP Final 2026",
+          "screen": "Cinema-3",
+          "showid": "22399",
+          "tickets_sold": 23,
+          "time": "12:30 AM",
+          "venue": "Davis Theatre"
         }
       ],
-      "shows": 2,
-      "tickets_sold": 265
+      "shows": 3,
+      "tickets_sold": 291
     },
     "I,Nobody": {
       "gross": 0,
@@ -153,6 +171,101 @@
       ],
       "shows": 4,
       "tickets_sold": 0
+    },
+    "The Odyssey": {
+      "gross": 750,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [
+            {
+              "gross": 750,
+              "movie": "The Odyssey",
+              "screen": null,
+              "showid": "18896",
+              "tickets_sold": 5,
+              "time": "06:15 PM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "gross": 750,
+          "shows": 1,
+          "tickets_sold": 5
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "The Odyssey",
+              "screen": null,
+              "showid": "18894",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "The Odyssey",
+              "screen": null,
+              "showid": "18895",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "The Odyssey",
+              "screen": null,
+              "showid": "18897",
+              "tickets_sold": 0,
+              "time": "09:45 PM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "shows": 3,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 750,
+          "movie": "The Odyssey",
+          "screen": null,
+          "showid": "18896",
+          "tickets_sold": 5,
+          "time": "06:15 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "The Odyssey",
+          "screen": null,
+          "showid": "18894",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "The Odyssey",
+          "screen": null,
+          "showid": "18895",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "The Odyssey",
+          "screen": null,
+          "showid": "18897",
+          "tickets_sold": 0,
+          "time": "09:45 PM",
+          "venue": "Puthet Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 5
     },
     "VARAVU": {
       "gross": 0,
@@ -491,23 +604,17 @@
     "merged_movies": [
       {
         "aliases": [
-          "The Odyssey"
+          "I, Nobody",
+          "I,Nobody"
         ],
-        "canonical": "The Odyssey"
+        "canonical": "I,Nobody"
       },
       {
         "aliases": [
           "VARAVU",
           "Varavu"
         ],
-        "canonical": "VARAVU"
-      },
-      {
-        "aliases": [
-          "I, Nobody",
-          "I,Nobody"
-        ],
-        "canonical": "I,Nobody"
+        "canonical": "Varavu"
       },
       {
         "aliases": [
@@ -523,9 +630,21 @@
       },
       {
         "aliases": [
+          "Argentina vs Spain FIFA WORLD CUP Final 2026"
+        ],
+        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
+      },
+      {
+        "aliases": [
           "Balan: The Boy"
         ],
         "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
+          "The Odyssey"
+        ],
+        "canonical": "The Odyssey"
       },
       {
         "aliases": [
