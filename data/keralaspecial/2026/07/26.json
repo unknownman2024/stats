@@ -1,16 +1,35 @@
 {
   "date": "2026-07-26",
-  "last_updated": "2026-07-18T21:35:28.389861+05:30",
+  "last_updated": "2026-07-18T23:29:22.761081+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 0,
+      "gross": 750,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 150,
+              "movie": "Jana Nayagan",
+              "screen": null,
+              "showid": "18925",
+              "tickets_sold": 1,
+              "time": "10:00 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 600,
+              "movie": "Jana Nayagan",
+              "screen": null,
+              "showid": "18926",
+              "tickets_sold": 4,
+              "time": "01:30 PM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "gross": 750,
+          "shows": 2,
+          "tickets_sold": 5
         },
         "without_gross": {
           "breakdown": [
@@ -54,24 +73,6 @@
               "gross": 0,
               "movie": "Jana Nayagan",
               "screen": null,
-              "showid": "18925",
-              "tickets_sold": 0,
-              "time": "10:00 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Jana Nayagan",
-              "screen": null,
-              "showid": "18926",
-              "tickets_sold": 0,
-              "time": "01:30 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Jana Nayagan",
-              "screen": null,
               "showid": "18927",
               "tickets_sold": 0,
               "time": "05:00 PM",
@@ -96,11 +97,29 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 9,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 600,
+          "movie": "Jana Nayagan",
+          "screen": null,
+          "showid": "18926",
+          "tickets_sold": 4,
+          "time": "01:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 150,
+          "movie": "Jana Nayagan",
+          "screen": null,
+          "showid": "18925",
+          "tickets_sold": 1,
+          "time": "10:00 AM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Jana Nayagan [T]",
@@ -141,24 +160,6 @@
           "gross": 0,
           "movie": "Jana Nayagan",
           "screen": null,
-          "showid": "18925",
-          "tickets_sold": 0,
-          "time": "10:00 AM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Jana Nayagan",
-          "screen": null,
-          "showid": "18926",
-          "tickets_sold": 0,
-          "time": "01:30 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Jana Nayagan",
-          "screen": null,
           "showid": "18927",
           "tickets_sold": 0,
           "time": "05:00 PM",
@@ -184,7 +185,7 @@
         }
       ],
       "shows": 9,
-      "tickets_sold": 0
+      "tickets_sold": 5
     }
   },
   "verification": {
@@ -212,9 +213,21 @@
       },
       {
         "aliases": [
+          "Balan: The Boy"
+        ],
+        "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
           "The Odyssey"
         ],
         "canonical": "The Odyssey"
+      },
+      {
+        "aliases": [
+          "Argentina vs Spain FIFA WORLD CUP Final 2026"
+        ],
+        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
       },
       {
         "aliases": [
@@ -227,18 +240,6 @@
           "Unknown"
         ],
         "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Argentina vs Spain FIFA WORLD CUP Final 2026"
-        ],
-        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
-      },
-      {
-        "aliases": [
-          "Balan: The Boy"
-        ],
-        "canonical": "Balan: The Boy"
       }
     ]
   }

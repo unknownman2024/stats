@@ -1,9 +1,9 @@
 {
   "date": "2026-07-21",
-  "last_updated": "2026-07-18T21:35:28.386361+05:30",
+  "last_updated": "2026-07-18T23:29:22.757913+05:30",
   "movies": {
     "The Odyssey": {
-      "gross": 300,
+      "gross": 600,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -16,11 +16,20 @@
               "tickets_sold": 2,
               "time": "11:00 AM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "The Odyssey",
+              "screen": null,
+              "showid": "18900",
+              "tickets_sold": 2,
+              "time": "06:15 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 300,
-          "shows": 1,
-          "tickets_sold": 2
+          "gross": 600,
+          "shows": 2,
+          "tickets_sold": 4
         },
         "without_gross": {
           "breakdown": [
@@ -37,22 +46,13 @@
               "gross": 0,
               "movie": "The Odyssey",
               "screen": null,
-              "showid": "18900",
-              "tickets_sold": 0,
-              "time": "06:15 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "The Odyssey",
-              "screen": null,
               "showid": "18901",
               "tickets_sold": 0,
               "time": "09:45 PM",
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 3,
+          "shows": 2,
           "tickets_sold": 0
         }
       },
@@ -64,6 +64,15 @@
           "showid": "18898",
           "tickets_sold": 2,
           "time": "11:00 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "The Odyssey",
+          "screen": null,
+          "showid": "18900",
+          "tickets_sold": 2,
+          "time": "06:15 PM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -79,15 +88,6 @@
           "gross": 0,
           "movie": "The Odyssey",
           "screen": null,
-          "showid": "18900",
-          "tickets_sold": 0,
-          "time": "06:15 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "The Odyssey",
-          "screen": null,
           "showid": "18901",
           "tickets_sold": 0,
           "time": "09:45 PM",
@@ -95,7 +95,7 @@
         }
       ],
       "shows": 4,
-      "tickets_sold": 2
+      "tickets_sold": 4
     },
     "VARAVU": {
       "gross": 0,
@@ -311,9 +311,21 @@
       },
       {
         "aliases": [
+          "Balan: The Boy"
+        ],
+        "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
           "The Odyssey"
         ],
         "canonical": "The Odyssey"
+      },
+      {
+        "aliases": [
+          "Argentina vs Spain FIFA WORLD CUP Final 2026"
+        ],
+        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
       },
       {
         "aliases": [
@@ -326,18 +338,6 @@
           "Unknown"
         ],
         "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Argentina vs Spain FIFA WORLD CUP Final 2026"
-        ],
-        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
-      },
-      {
-        "aliases": [
-          "Balan: The Boy"
-        ],
-        "canonical": "Balan: The Boy"
       }
     ]
   }
