@@ -1,13 +1,22 @@
 {
   "date": "2026-07-26",
-  "last_updated": "2026-07-19T15:26:55.047156+05:30",
+  "last_updated": "2026-07-19T16:46:24.472341+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 2550,
+      "gross": 3450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
+            {
+              "gross": 1950,
+              "movie": "Jana Nayagan",
+              "screen": null,
+              "showid": "18927",
+              "tickets_sold": 13,
+              "time": "05:00 PM",
+              "venue": "Puthet Cinemas"
+            },
             {
               "gross": 600,
               "movie": "Jana Nayagan",
@@ -18,27 +27,18 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 300,
+              "gross": 900,
               "movie": "Jana Nayagan",
               "screen": null,
               "showid": "18925",
-              "tickets_sold": 2,
+              "tickets_sold": 6,
               "time": "10:00 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 1650,
-              "movie": "Jana Nayagan",
-              "screen": null,
-              "showid": "18927",
-              "tickets_sold": 11,
-              "time": "05:00 PM",
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 2550,
+          "gross": 3450,
           "shows": 3,
-          "tickets_sold": 17
+          "tickets_sold": 23
         },
         "without_gross": {
           "breakdown": [
@@ -103,12 +103,21 @@
       },
       "show_breakdown": [
         {
-          "gross": 1650,
+          "gross": 1950,
           "movie": "Jana Nayagan",
           "screen": null,
           "showid": "18927",
-          "tickets_sold": 11,
+          "tickets_sold": 13,
           "time": "05:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 900,
+          "movie": "Jana Nayagan",
+          "screen": null,
+          "showid": "18925",
+          "tickets_sold": 6,
+          "time": "10:00 AM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -118,15 +127,6 @@
           "showid": "18926",
           "tickets_sold": 4,
           "time": "01:30 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 300,
-          "movie": "Jana Nayagan",
-          "screen": null,
-          "showid": "18925",
-          "tickets_sold": 2,
-          "time": "10:00 AM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -185,16 +185,29 @@
         }
       ],
       "shows": 9,
-      "tickets_sold": 17
+      "tickets_sold": 23
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "Balan: The Boy"
+          "VARAVU",
+          "Varavu"
         ],
-        "canonical": "Balan: The Boy"
+        "canonical": "Varavu"
+      },
+      {
+        "aliases": [
+          "Evil Dead Burn"
+        ],
+        "canonical": "Evil Dead Burn"
+      },
+      {
+        "aliases": [
+          "Anbe Diana"
+        ],
+        "canonical": "Anbe Diana"
       },
       {
         "aliases": [
@@ -204,16 +217,15 @@
       },
       {
         "aliases": [
-          "I, Nobody",
-          "I,Nobody"
+          "Balan: The Boy"
         ],
-        "canonical": "I,Nobody"
+        "canonical": "Balan: The Boy"
       },
       {
         "aliases": [
-          "Evil Dead Burn"
+          "The Odyssey"
         ],
-        "canonical": "Evil Dead Burn"
+        "canonical": "The Odyssey"
       },
       {
         "aliases": [
@@ -224,28 +236,16 @@
       },
       {
         "aliases": [
-          "VARAVU",
-          "Varavu"
+          "I, Nobody",
+          "I,Nobody"
         ],
-        "canonical": "VARAVU"
+        "canonical": "I,Nobody"
       },
       {
         "aliases": [
           "Argentina vs Spain FIFA WORLD CUP Final 2026"
         ],
         "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
-      },
-      {
-        "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
-      },
-      {
-        "aliases": [
-          "Anbe Diana"
-        ],
-        "canonical": "Anbe Diana"
       }
     ]
   }
