@@ -1,6 +1,6 @@
 {
   "date": "2026-07-19",
-  "last_updated": "2026-07-19T20:31:59.764309+05:30",
+  "last_updated": "2026-07-19T22:34:24.278135+05:30",
   "movies": {
     "Anbe Diana": {
       "gross": 3000,
@@ -792,15 +792,6 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 3300,
-              "movie": "The Odyssey",
-              "screen": "SCREEN 3",
-              "showid": "9625",
-              "tickets_sold": 22,
-              "time": "11:20 AM",
-              "venue": "Harihar"
-            },
-            {
               "gross": 3900,
               "movie": "The Odyssey",
               "screen": "SCREEN 1",
@@ -808,6 +799,15 @@
               "tickets_sold": 26,
               "time": "09:30 PM",
               "venue": "Issacs"
+            },
+            {
+              "gross": 3300,
+              "movie": "The Odyssey",
+              "screen": "SCREEN 3",
+              "showid": "9625",
+              "tickets_sold": 22,
+              "time": "11:20 AM",
+              "venue": "Harihar"
             },
             {
               "gross": 2250,
@@ -1441,6 +1441,15 @@
               "venue": "Aiswarya Cinemas"
             },
             {
+              "gross": 4200,
+              "movie": "Varavu",
+              "screen": "Cinema-2",
+              "showid": "22398",
+              "tickets_sold": 28,
+              "time": "09:30 PM",
+              "venue": "Davis Theatre"
+            },
+            {
               "gross": 4050,
               "movie": "VARAVU",
               "screen": "Aiswarya",
@@ -1466,15 +1475,6 @@
               "tickets_sold": 25,
               "time": "08:30 PM",
               "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 4200,
-              "movie": "Varavu",
-              "screen": "Cinema-2",
-              "showid": "22398",
-              "tickets_sold": 28,
-              "time": "09:30 PM",
-              "venue": "Davis Theatre"
             },
             {
               "gross": 3150,
@@ -2655,9 +2655,15 @@
     "merged_movies": [
       {
         "aliases": [
-          "Anbe Diana"
+          "Unknown"
         ],
-        "canonical": "Anbe Diana"
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Balan: The Boy"
+        ],
+        "canonical": "Balan: The Boy"
       },
       {
         "aliases": [
@@ -2671,20 +2677,7 @@
           "VARAVU",
           "Varavu"
         ],
-        "canonical": "VARAVU"
-      },
-      {
-        "aliases": [
-          "Balan: The Boy"
-        ],
-        "canonical": "Balan: The Boy"
-      },
-      {
-        "aliases": [
-          "I, Nobody",
-          "I,Nobody"
-        ],
-        "canonical": "I,Nobody"
+        "canonical": "Varavu"
       },
       {
         "aliases": [
@@ -2694,9 +2687,9 @@
       },
       {
         "aliases": [
-          "Unknown"
+          "I, Nobody"
         ],
-        "canonical": "Unknown"
+        "canonical": "I, Nobody"
       }
     ]
   }
