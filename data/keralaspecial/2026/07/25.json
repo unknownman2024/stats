@@ -1,9 +1,9 @@
 {
   "date": "2026-07-25",
-  "last_updated": "2026-07-19T19:07:06.118828+05:30",
+  "last_updated": "2026-07-19T20:31:59.773752+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 2250,
+      "gross": 2550,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -43,23 +43,23 @@
               "tickets_sold": 1,
               "time": "01:30 PM",
               "venue": "Puthet Cinemas"
-            }
-          ],
-          "gross": 2250,
-          "shows": 4,
-          "tickets_sold": 15
-        },
-        "without_gross": {
-          "breakdown": [
+            },
             {
-              "gross": 0,
+              "gross": 300,
               "movie": "Jana Nayagan [T]",
               "screen": "Dolby Atmos",
               "showid": "5698",
-              "tickets_sold": 0,
+              "tickets_sold": 2,
               "time": "11:30 AM",
               "venue": "Girija Theatre"
-            },
+            }
+          ],
+          "gross": 2550,
+          "shows": 5,
+          "tickets_sold": 17
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "Jana Nayagan [T]",
@@ -97,7 +97,7 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 5,
+          "shows": 4,
           "tickets_sold": 0
         }
       },
@@ -130,6 +130,15 @@
           "venue": "Puthet Cinemas"
         },
         {
+          "gross": 300,
+          "movie": "Jana Nayagan [T]",
+          "screen": "Dolby Atmos",
+          "showid": "5698",
+          "tickets_sold": 2,
+          "time": "11:30 AM",
+          "venue": "Girija Theatre"
+        },
+        {
           "gross": 150,
           "movie": "Jana Nayagan",
           "screen": null,
@@ -137,15 +146,6 @@
           "tickets_sold": 1,
           "time": "01:30 PM",
           "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Jana Nayagan [T]",
-          "screen": "Dolby Atmos",
-          "showid": "5698",
-          "tickets_sold": 0,
-          "time": "11:30 AM",
-          "venue": "Girija Theatre"
         },
         {
           "gross": 0,
@@ -185,11 +185,17 @@
         }
       ],
       "shows": 9,
-      "tickets_sold": 15
+      "tickets_sold": 17
     }
   },
   "verification": {
     "merged_movies": [
+      {
+        "aliases": [
+          "Anbe Diana"
+        ],
+        "canonical": "Anbe Diana"
+      },
       {
         "aliases": [
           "Jana Nayagan",
@@ -202,13 +208,13 @@
           "VARAVU",
           "Varavu"
         ],
-        "canonical": "Varavu"
+        "canonical": "VARAVU"
       },
       {
         "aliases": [
-          "Unknown"
+          "Balan: The Boy"
         ],
-        "canonical": "Unknown"
+        "canonical": "Balan: The Boy"
       },
       {
         "aliases": [
@@ -225,15 +231,9 @@
       },
       {
         "aliases": [
-          "Balan: The Boy"
+          "Unknown"
         ],
-        "canonical": "Balan: The Boy"
-      },
-      {
-        "aliases": [
-          "Anbe Diana"
-        ],
-        "canonical": "Anbe Diana"
+        "canonical": "Unknown"
       }
     ]
   }
