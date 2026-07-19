@@ -1,9 +1,9 @@
 {
   "date": "2026-07-24",
-  "last_updated": "2026-07-19T22:34:24.284822+05:30",
+  "last_updated": "2026-07-20T00:44:05.241308+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 3450,
+      "gross": 3750,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -25,11 +25,20 @@
               "tickets_sold": 3,
               "time": "06:30 PM",
               "venue": "Girija Theatre"
+            },
+            {
+              "gross": 300,
+              "movie": "Jana Nayagan",
+              "screen": null,
+              "showid": "18917",
+              "tickets_sold": 2,
+              "time": "05:00 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 3450,
-          "shows": 2,
-          "tickets_sold": 23
+          "gross": 3750,
+          "shows": 3,
+          "tickets_sold": 25
         },
         "without_gross": {
           "breakdown": [
@@ -82,22 +91,13 @@
               "gross": 0,
               "movie": "Jana Nayagan",
               "screen": null,
-              "showid": "18917",
-              "tickets_sold": 0,
-              "time": "05:00 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Jana Nayagan",
-              "screen": null,
               "showid": "18919",
               "tickets_sold": 0,
               "time": "11:45 PM",
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 7,
+          "shows": 6,
           "tickets_sold": 0
         }
       },
@@ -119,6 +119,15 @@
           "tickets_sold": 3,
           "time": "06:30 PM",
           "venue": "Girija Theatre"
+        },
+        {
+          "gross": 300,
+          "movie": "Jana Nayagan",
+          "screen": null,
+          "showid": "18917",
+          "tickets_sold": 2,
+          "time": "05:00 PM",
+          "venue": "Puthet Cinemas"
         },
         {
           "gross": 0,
@@ -169,15 +178,6 @@
           "gross": 0,
           "movie": "Jana Nayagan",
           "screen": null,
-          "showid": "18917",
-          "tickets_sold": 0,
-          "time": "05:00 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Jana Nayagan",
-          "screen": null,
           "showid": "18919",
           "tickets_sold": 0,
           "time": "11:45 PM",
@@ -185,22 +185,16 @@
         }
       ],
       "shows": 9,
-      "tickets_sold": 23
+      "tickets_sold": 25
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "Unknown"
+          "Evil Dead Burn"
         ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Balan: The Boy"
-        ],
-        "canonical": "Balan: The Boy"
+        "canonical": "Evil Dead Burn"
       },
       {
         "aliases": [
@@ -211,10 +205,22 @@
       },
       {
         "aliases": [
+          "Balan: The Boy"
+        ],
+        "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
           "VARAVU",
           "Varavu"
         ],
-        "canonical": "Varavu"
+        "canonical": "VARAVU"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       },
       {
         "aliases": [
