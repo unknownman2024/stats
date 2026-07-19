@@ -1,13 +1,22 @@
 {
   "date": "2026-07-24",
-  "last_updated": "2026-07-19T13:00:33.114019+05:30",
+  "last_updated": "2026-07-19T15:26:55.045659+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 2100,
+      "gross": 2550,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
+            {
+              "gross": 2100,
+              "movie": "Jana Nayagan",
+              "screen": null,
+              "showid": "18918",
+              "tickets_sold": 14,
+              "time": "08:30 PM",
+              "venue": "Puthet Cinemas"
+            },
             {
               "gross": 450,
               "movie": "Jana Nayagan [T]",
@@ -16,20 +25,11 @@
               "tickets_sold": 3,
               "time": "06:30 PM",
               "venue": "Girija Theatre"
-            },
-            {
-              "gross": 1650,
-              "movie": "Jana Nayagan",
-              "screen": null,
-              "showid": "18918",
-              "tickets_sold": 11,
-              "time": "08:30 PM",
-              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 2100,
+          "gross": 2550,
           "shows": 2,
-          "tickets_sold": 14
+          "tickets_sold": 17
         },
         "without_gross": {
           "breakdown": [
@@ -103,11 +103,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 1650,
+          "gross": 2100,
           "movie": "Jana Nayagan",
           "screen": null,
           "showid": "18918",
-          "tickets_sold": 11,
+          "tickets_sold": 14,
           "time": "08:30 PM",
           "venue": "Puthet Cinemas"
         },
@@ -185,17 +185,55 @@
         }
       ],
       "shows": 9,
-      "tickets_sold": 14
+      "tickets_sold": 17
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
+          "Balan: The Boy"
+        ],
+        "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "I, Nobody",
+          "I,Nobody"
+        ],
+        "canonical": "I,Nobody"
+      },
+      {
+        "aliases": [
+          "Evil Dead Burn"
+        ],
+        "canonical": "Evil Dead Burn"
+      },
+      {
+        "aliases": [
           "Jana Nayagan",
           "Jana Nayagan [T]"
         ],
         "canonical": "Jana Nayagan"
+      },
+      {
+        "aliases": [
+          "VARAVU",
+          "Varavu"
+        ],
+        "canonical": "VARAVU"
+      },
+      {
+        "aliases": [
+          "Argentina vs Spain FIFA WORLD CUP Final 2026"
+        ],
+        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
       },
       {
         "aliases": [
@@ -208,44 +246,6 @@
           "Anbe Diana"
         ],
         "canonical": "Anbe Diana"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "VARAVU",
-          "Varavu"
-        ],
-        "canonical": "VARAVU"
-      },
-      {
-        "aliases": [
-          "Balan: The Boy"
-        ],
-        "canonical": "Balan: The Boy"
-      },
-      {
-        "aliases": [
-          "I, Nobody",
-          "I,Nobody"
-        ],
-        "canonical": "I,Nobody"
-      },
-      {
-        "aliases": [
-          "Argentina vs Spain FIFA WORLD CUP Final 2026"
-        ],
-        "canonical": "Argentina vs Spain FIFA WORLD CUP Final 2026"
-      },
-      {
-        "aliases": [
-          "Evil Dead Burn"
-        ],
-        "canonical": "Evil Dead Burn"
       }
     ]
   }
