@@ -1,9 +1,9 @@
 {
   "date": "2026-07-26",
-  "last_updated": "2026-07-20T19:50:16.062599+05:30",
+  "last_updated": "2026-07-20T22:06:52.933228+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 6300,
+      "gross": 7200,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -18,11 +18,11 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 1200,
+              "gross": 2100,
               "movie": "Jana Nayagan",
               "screen": "Aiswarya",
               "showid": "7813",
-              "tickets_sold": 8,
+              "tickets_sold": 14,
               "time": "10:45 AM",
               "venue": "Aiswarya Cinemas"
             },
@@ -54,9 +54,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 6300,
+          "gross": 7200,
           "shows": 5,
-          "tickets_sold": 42
+          "tickets_sold": 48
         },
         "without_gross": {
           "breakdown": [
@@ -148,11 +148,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 1200,
+          "gross": 2100,
           "movie": "Jana Nayagan",
           "screen": "Aiswarya",
           "showid": "7813",
-          "tickets_sold": 8,
+          "tickets_sold": 14,
           "time": "10:45 AM",
           "venue": "Aiswarya Cinemas"
         },
@@ -257,11 +257,25 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 42
+      "tickets_sold": 48
     }
   },
   "verification": {
     "merged_movies": [
+      {
+        "aliases": [
+          "Jana Nayagan",
+          "Jana Nayagan [T]"
+        ],
+        "canonical": "Jana Nayagan"
+      },
+      {
+        "aliases": [
+          "VARAVU",
+          "Varavu"
+        ],
+        "canonical": "Varavu"
+      },
       {
         "aliases": [
           "The Odyssey"
@@ -270,17 +284,9 @@
       },
       {
         "aliases": [
-          "VARAVU",
-          "Varavu"
+          "Unknown"
         ],
-        "canonical": "VARAVU"
-      },
-      {
-        "aliases": [
-          "Jana Nayagan",
-          "Jana Nayagan [T]"
-        ],
-        "canonical": "Jana Nayagan"
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -293,12 +299,6 @@
           "I, Nobody"
         ],
         "canonical": "I, Nobody"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
       }
     ]
   }
