@@ -1,21 +1,30 @@
 {
   "date": "2026-07-26",
-  "last_updated": "2026-07-20T13:40:59.494477+05:30",
+  "last_updated": "2026-07-20T17:20:39.487194+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 5400,
+      "gross": 5850,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 2700,
+              "gross": 3150,
               "movie": "Jana Nayagan",
               "screen": null,
               "showid": "18927",
-              "tickets_sold": 18,
+              "tickets_sold": 21,
               "time": "05:00 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 1200,
+              "movie": "Jana Nayagan",
+              "screen": "Aiswarya",
+              "showid": "7813",
+              "tickets_sold": 8,
+              "time": "10:45 AM",
+              "venue": "Aiswarya Cinemas"
             },
             {
               "gross": 900,
@@ -34,20 +43,11 @@
               "tickets_sold": 4,
               "time": "01:30 PM",
               "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 1200,
-              "movie": "Jana Nayagan",
-              "screen": "Aiswarya",
-              "showid": "7813",
-              "tickets_sold": 8,
-              "time": "10:45 AM",
-              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 5400,
+          "gross": 5850,
           "shows": 4,
-          "tickets_sold": 36
+          "tickets_sold": 39
         },
         "without_gross": {
           "breakdown": [
@@ -139,11 +139,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 2700,
+          "gross": 3150,
           "movie": "Jana Nayagan",
           "screen": null,
           "showid": "18927",
-          "tickets_sold": 18,
+          "tickets_sold": 21,
           "time": "05:00 PM",
           "venue": "Puthet Cinemas"
         },
@@ -257,11 +257,30 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 36
+      "tickets_sold": 39
     }
   },
   "verification": {
     "merged_movies": [
+      {
+        "aliases": [
+          "The Odyssey"
+        ],
+        "canonical": "The Odyssey"
+      },
+      {
+        "aliases": [
+          "VARAVU",
+          "Varavu"
+        ],
+        "canonical": "VARAVU"
+      },
+      {
+        "aliases": [
+          "Balan: The Boy"
+        ],
+        "canonical": "Balan: The Boy"
+      },
       {
         "aliases": [
           "Jana Nayagan",
@@ -271,40 +290,15 @@
       },
       {
         "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "VARAVU",
-          "Varavu"
-        ],
-        "canonical": "Varavu"
-      },
-      {
-        "aliases": [
           "I, Nobody"
         ],
         "canonical": "I, Nobody"
       },
       {
         "aliases": [
-          "Evil Dead Burn"
+          "Unknown"
         ],
-        "canonical": "Evil Dead Burn"
-      },
-      {
-        "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
-      },
-      {
-        "aliases": [
-          "Balan: The Boy"
-        ],
-        "canonical": "Balan: The Boy"
+        "canonical": "Unknown"
       }
     ]
   }

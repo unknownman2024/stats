@@ -1,31 +1,13 @@
 {
   "date": "2026-07-21",
-  "last_updated": "2026-07-20T13:40:59.491589+05:30",
+  "last_updated": "2026-07-20T17:20:39.484349+05:30",
   "movies": {
     "The Odyssey": {
-      "gross": 1200,
+      "gross": 2100,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
-            {
-              "gross": 300,
-              "movie": "The Odyssey",
-              "screen": null,
-              "showid": "18898",
-              "tickets_sold": 2,
-              "time": "11:00 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 300,
-              "movie": "The Odyssey",
-              "screen": null,
-              "showid": "18900",
-              "tickets_sold": 2,
-              "time": "06:15 PM",
-              "venue": "Puthet Cinemas"
-            },
             {
               "gross": 600,
               "movie": "The Odyssey",
@@ -34,11 +16,38 @@
               "tickets_sold": 4,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 600,
+              "movie": "The Odyssey",
+              "screen": null,
+              "showid": "18898",
+              "tickets_sold": 4,
+              "time": "11:00 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 600,
+              "movie": "The Odyssey",
+              "screen": null,
+              "showid": "18900",
+              "tickets_sold": 4,
+              "time": "06:15 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "The Odyssey",
+              "screen": "Dolby Atmos",
+              "showid": "5711",
+              "tickets_sold": 2,
+              "time": "11:30 AM",
+              "venue": "Girija Theatre"
             }
           ],
-          "gross": 1200,
-          "shows": 3,
-          "tickets_sold": 8
+          "gross": 2100,
+          "shows": 4,
+          "tickets_sold": 14
         },
         "without_gross": {
           "breakdown": [
@@ -91,15 +100,6 @@
               "gross": 0,
               "movie": "The Odyssey",
               "screen": "Dolby Atmos",
-              "showid": "5711",
-              "tickets_sold": 0,
-              "time": "11:30 AM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 0,
-              "movie": "The Odyssey",
-              "screen": "Dolby Atmos",
               "showid": "5712",
               "tickets_sold": 0,
               "time": "03:00 PM",
@@ -124,7 +124,7 @@
               "venue": "Girija Theatre"
             }
           ],
-          "shows": 9,
+          "shows": 8,
           "tickets_sold": 0
         }
       },
@@ -139,22 +139,31 @@
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 300,
+          "gross": 600,
           "movie": "The Odyssey",
           "screen": null,
           "showid": "18898",
-          "tickets_sold": 2,
+          "tickets_sold": 4,
           "time": "11:00 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 600,
+          "movie": "The Odyssey",
+          "screen": null,
+          "showid": "18900",
+          "tickets_sold": 4,
+          "time": "06:15 PM",
           "venue": "Puthet Cinemas"
         },
         {
           "gross": 300,
           "movie": "The Odyssey",
-          "screen": null,
-          "showid": "18900",
+          "screen": "Dolby Atmos",
+          "showid": "5711",
           "tickets_sold": 2,
-          "time": "06:15 PM",
-          "venue": "Puthet Cinemas"
+          "time": "11:30 AM",
+          "venue": "Girija Theatre"
         },
         {
           "gross": 0,
@@ -205,15 +214,6 @@
           "gross": 0,
           "movie": "The Odyssey",
           "screen": "Dolby Atmos",
-          "showid": "5711",
-          "tickets_sold": 0,
-          "time": "11:30 AM",
-          "venue": "Girija Theatre"
-        },
-        {
-          "gross": 0,
-          "movie": "The Odyssey",
-          "screen": "Dolby Atmos",
           "showid": "5712",
           "tickets_sold": 0,
           "time": "03:00 PM",
@@ -239,7 +239,7 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 8
+      "tickets_sold": 14
     },
     "VARAVU": {
       "gross": 0,
@@ -578,23 +578,29 @@
     "merged_movies": [
       {
         "aliases": [
-          "Jana Nayagan",
-          "Jana Nayagan [T]"
+          "The Odyssey"
         ],
-        "canonical": "Jana Nayagan"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
+        "canonical": "The Odyssey"
       },
       {
         "aliases": [
           "VARAVU",
           "Varavu"
         ],
-        "canonical": "Varavu"
+        "canonical": "VARAVU"
+      },
+      {
+        "aliases": [
+          "Balan: The Boy"
+        ],
+        "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
+          "Jana Nayagan",
+          "Jana Nayagan [T]"
+        ],
+        "canonical": "Jana Nayagan"
       },
       {
         "aliases": [
@@ -604,21 +610,9 @@
       },
       {
         "aliases": [
-          "Evil Dead Burn"
+          "Unknown"
         ],
-        "canonical": "Evil Dead Burn"
-      },
-      {
-        "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
-      },
-      {
-        "aliases": [
-          "Balan: The Boy"
-        ],
-        "canonical": "Balan: The Boy"
+        "canonical": "Unknown"
       }
     ]
   }

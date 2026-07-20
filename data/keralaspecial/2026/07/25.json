@@ -1,9 +1,9 @@
 {
   "date": "2026-07-25",
-  "last_updated": "2026-07-20T13:40:59.493899+05:30",
+  "last_updated": "2026-07-20T17:20:39.486625+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 4500,
+      "gross": 4950,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -16,6 +16,24 @@
               "tickets_sold": 8,
               "time": "06:30 PM",
               "venue": "Girija Theatre"
+            },
+            {
+              "gross": 900,
+              "movie": "Jana Nayagan",
+              "screen": null,
+              "showid": "18923",
+              "tickets_sold": 6,
+              "time": "08:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 1350,
+              "movie": "Jana Nayagan",
+              "screen": "Aiswarya",
+              "showid": "7812",
+              "tickets_sold": 9,
+              "time": "09:15 PM",
+              "venue": "Aiswarya Cinemas"
             },
             {
               "gross": 600,
@@ -61,29 +79,11 @@
               "tickets_sold": 1,
               "time": "10:00 AM",
               "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 900,
-              "movie": "Jana Nayagan",
-              "screen": null,
-              "showid": "18923",
-              "tickets_sold": 6,
-              "time": "08:30 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 900,
-              "movie": "Jana Nayagan",
-              "screen": "Aiswarya",
-              "showid": "7812",
-              "tickets_sold": 6,
-              "time": "09:15 PM",
-              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 4500,
+          "gross": 4950,
           "shows": 8,
-          "tickets_sold": 30
+          "tickets_sold": 33
         },
         "without_gross": {
           "breakdown": [
@@ -139,6 +139,15 @@
       },
       "show_breakdown": [
         {
+          "gross": 1350,
+          "movie": "Jana Nayagan",
+          "screen": "Aiswarya",
+          "showid": "7812",
+          "tickets_sold": 9,
+          "time": "09:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
           "gross": 1200,
           "movie": "Jana Nayagan [T]",
           "screen": "Dolby Atmos",
@@ -155,15 +164,6 @@
           "tickets_sold": 6,
           "time": "08:30 PM",
           "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 900,
-          "movie": "Jana Nayagan",
-          "screen": "Aiswarya",
-          "showid": "7812",
-          "tickets_sold": 6,
-          "time": "09:15 PM",
-          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 600,
@@ -257,11 +257,30 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 30
+      "tickets_sold": 33
     }
   },
   "verification": {
     "merged_movies": [
+      {
+        "aliases": [
+          "The Odyssey"
+        ],
+        "canonical": "The Odyssey"
+      },
+      {
+        "aliases": [
+          "VARAVU",
+          "Varavu"
+        ],
+        "canonical": "VARAVU"
+      },
+      {
+        "aliases": [
+          "Balan: The Boy"
+        ],
+        "canonical": "Balan: The Boy"
+      },
       {
         "aliases": [
           "Jana Nayagan",
@@ -271,40 +290,15 @@
       },
       {
         "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "VARAVU",
-          "Varavu"
-        ],
-        "canonical": "Varavu"
-      },
-      {
-        "aliases": [
           "I, Nobody"
         ],
         "canonical": "I, Nobody"
       },
       {
         "aliases": [
-          "Evil Dead Burn"
+          "Unknown"
         ],
-        "canonical": "Evil Dead Burn"
-      },
-      {
-        "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
-      },
-      {
-        "aliases": [
-          "Balan: The Boy"
-        ],
-        "canonical": "Balan: The Boy"
+        "canonical": "Unknown"
       }
     ]
   }
