@@ -1,9 +1,9 @@
 {
   "date": "2026-07-24",
-  "last_updated": "2026-07-21T01:56:51.749729+05:30",
+  "last_updated": "2026-07-21T03:35:18.228551+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 7050,
+      "gross": 7200,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -63,18 +63,18 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 150,
+              "gross": 300,
               "movie": "Jana Nayagan",
               "screen": "Aiswarya",
               "showid": "7807",
-              "tickets_sold": 1,
+              "tickets_sold": 2,
               "time": "05:45 PM",
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 7050,
+          "gross": 7200,
           "shows": 7,
-          "tickets_sold": 47
+          "tickets_sold": 48
         },
         "without_gross": {
           "breakdown": [
@@ -193,11 +193,11 @@
           "venue": "Girija Theatre"
         },
         {
-          "gross": 150,
+          "gross": 300,
           "movie": "Jana Nayagan",
           "screen": "Aiswarya",
           "showid": "7807",
-          "tickets_sold": 1,
+          "tickets_sold": 2,
           "time": "05:45 PM",
           "venue": "Aiswarya Cinemas"
         },
@@ -257,30 +257,11 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 47
+      "tickets_sold": 48
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "VARAVU",
-          "Varavu"
-        ],
-        "canonical": "Varavu"
-      },
-      {
-        "aliases": [
-          "Evil Dead Burn"
-        ],
-        "canonical": "Evil Dead Burn"
-      },
       {
         "aliases": [
           "Jana Nayagan",
@@ -290,9 +271,16 @@
       },
       {
         "aliases": [
-          "Balan: The Boy"
+          "VARAVU",
+          "Varavu"
         ],
-        "canonical": "Balan: The Boy"
+        "canonical": "VARAVU"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -305,6 +293,18 @@
           "I, Nobody"
         ],
         "canonical": "I, Nobody"
+      },
+      {
+        "aliases": [
+          "Evil Dead Burn"
+        ],
+        "canonical": "Evil Dead Burn"
+      },
+      {
+        "aliases": [
+          "Balan: The Boy"
+        ],
+        "canonical": "Balan: The Boy"
       }
     ]
   }
