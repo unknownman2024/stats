@@ -1,9 +1,9 @@
 {
   "date": "2026-07-26",
-  "last_updated": "2026-07-21T20:37:56.318416+05:30",
+  "last_updated": "2026-07-21T22:57:13.996664+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 12600,
+      "gross": 12750,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -27,11 +27,11 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 3000,
+              "gross": 3150,
               "movie": "Jana Nayagan",
               "screen": "Aiswarya",
               "showid": "7814",
-              "tickets_sold": 20,
+              "tickets_sold": 21,
               "time": "02:15 PM",
               "venue": "Aiswarya Cinemas"
             },
@@ -54,15 +54,6 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 150,
-              "movie": "Jana Nayagan [T]",
-              "screen": "Dolby Atmos",
-              "showid": "5704",
-              "tickets_sold": 1,
-              "time": "03:00 PM",
-              "venue": "Girija Theatre"
-            },
-            {
               "gross": 750,
               "movie": "Jana Nayagan",
               "screen": "Aiswarya",
@@ -70,11 +61,20 @@
               "tickets_sold": 5,
               "time": "09:15 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 150,
+              "movie": "Jana Nayagan [T]",
+              "screen": "Dolby Atmos",
+              "showid": "5704",
+              "tickets_sold": 1,
+              "time": "03:00 PM",
+              "venue": "Girija Theatre"
             }
           ],
-          "gross": 12600,
+          "gross": 12750,
           "shows": 7,
-          "tickets_sold": 84
+          "tickets_sold": 85
         },
         "without_gross": {
           "breakdown": [
@@ -157,11 +157,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 3000,
+          "gross": 3150,
           "movie": "Jana Nayagan",
           "screen": "Aiswarya",
           "showid": "7814",
-          "tickets_sold": 20,
+          "tickets_sold": 21,
           "time": "02:15 PM",
           "venue": "Aiswarya Cinemas"
         },
@@ -257,24 +257,11 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 84
+      "tickets_sold": 85
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "VARAVU",
-          "Varavu"
-        ],
-        "canonical": "VARAVU"
-      },
-      {
-        "aliases": [
-          "Balan: The Boy"
-        ],
-        "canonical": "Balan: The Boy"
-      },
       {
         "aliases": [
           "The Odyssey"
@@ -290,15 +277,28 @@
       },
       {
         "aliases": [
-          "Unknown"
+          "Balan: The Boy"
         ],
-        "canonical": "Unknown"
+        "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
+          "VARAVU",
+          "Varavu"
+        ],
+        "canonical": "VARAVU"
       },
       {
         "aliases": [
           "I, Nobody"
         ],
         "canonical": "I, Nobody"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       }
     ]
   }
