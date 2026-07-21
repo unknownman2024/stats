@@ -1,6 +1,6 @@
 {
   "date": "2026-07-22",
-  "last_updated": "2026-07-21T17:56:06.771684+05:30",
+  "last_updated": "2026-07-21T20:37:56.315658+05:30",
   "movies": {
     "Balan: The Boy": {
       "gross": 0,
@@ -119,7 +119,7 @@
       "tickets_sold": 0
     },
     "The Odyssey": {
-      "gross": 600,
+      "gross": 1200,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -132,11 +132,20 @@
               "tickets_sold": 4,
               "time": "06:15 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 600,
+              "movie": "The Odyssey",
+              "screen": null,
+              "showid": "18905",
+              "tickets_sold": 4,
+              "time": "09:45 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 600,
-          "shows": 1,
-          "tickets_sold": 4
+          "gross": 1200,
+          "shows": 2,
+          "tickets_sold": 8
         },
         "without_gross": {
           "breakdown": [
@@ -156,15 +165,6 @@
               "showid": "18903",
               "tickets_sold": 0,
               "time": "02:30 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "The Odyssey",
-              "screen": null,
-              "showid": "18905",
-              "tickets_sold": 0,
-              "time": "09:45 PM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -240,7 +240,7 @@
               "venue": "Girija Theatre"
             }
           ],
-          "shows": 11,
+          "shows": 10,
           "tickets_sold": 0
         }
       },
@@ -252,6 +252,15 @@
           "showid": "18904",
           "tickets_sold": 4,
           "time": "06:15 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 600,
+          "movie": "The Odyssey",
+          "screen": null,
+          "showid": "18905",
+          "tickets_sold": 4,
+          "time": "09:45 PM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -270,15 +279,6 @@
           "showid": "18903",
           "tickets_sold": 0,
           "time": "02:30 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "The Odyssey",
-          "screen": null,
-          "showid": "18905",
-          "tickets_sold": 0,
-          "time": "09:45 PM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -355,7 +355,7 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 4
+      "tickets_sold": 8
     },
     "VARAVU": {
       "gross": 0,
@@ -773,9 +773,15 @@
       },
       {
         "aliases": [
-          "Unknown"
+          "Balan: The Boy"
         ],
-        "canonical": "Unknown"
+        "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
+          "The Odyssey"
+        ],
+        "canonical": "The Odyssey"
       },
       {
         "aliases": [
@@ -786,21 +792,15 @@
       },
       {
         "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
           "I, Nobody"
         ],
         "canonical": "I, Nobody"
-      },
-      {
-        "aliases": [
-          "Balan: The Boy"
-        ],
-        "canonical": "Balan: The Boy"
-      },
-      {
-        "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
       }
     ]
   }
