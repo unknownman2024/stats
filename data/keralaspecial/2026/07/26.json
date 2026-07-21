@@ -1,9 +1,9 @@
 {
   "date": "2026-07-26",
-  "last_updated": "2026-07-21T09:48:36.655882+05:30",
+  "last_updated": "2026-07-21T13:05:51.098263+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 7800,
+      "gross": 9750,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -18,12 +18,21 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 2100,
+              "gross": 3600,
               "movie": "Jana Nayagan",
               "screen": "Aiswarya",
               "showid": "7813",
-              "tickets_sold": 14,
+              "tickets_sold": 24,
               "time": "10:45 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 1200,
+              "movie": "Jana Nayagan",
+              "screen": "Aiswarya",
+              "showid": "7814",
+              "tickets_sold": 8,
+              "time": "02:15 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -36,27 +45,27 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 1050,
-              "movie": "Jana Nayagan",
-              "screen": "Aiswarya",
-              "showid": "7814",
-              "tickets_sold": 7,
-              "time": "02:15 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 600,
+              "gross": 750,
               "movie": "Jana Nayagan",
               "screen": null,
               "showid": "18926",
-              "tickets_sold": 4,
+              "tickets_sold": 5,
               "time": "01:30 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 150,
+              "movie": "Jana Nayagan [T]",
+              "screen": "Dolby Atmos",
+              "showid": "5704",
+              "tickets_sold": 1,
+              "time": "03:00 PM",
+              "venue": "Girija Theatre"
             }
           ],
-          "gross": 7800,
-          "shows": 5,
-          "tickets_sold": 52
+          "gross": 9750,
+          "shows": 6,
+          "tickets_sold": 65
         },
         "without_gross": {
           "breakdown": [
@@ -67,15 +76,6 @@
               "showid": "5703",
               "tickets_sold": 0,
               "time": "11:30 AM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 0,
-              "movie": "Jana Nayagan [T]",
-              "screen": "Dolby Atmos",
-              "showid": "5704",
-              "tickets_sold": 0,
-              "time": "03:00 PM",
               "venue": "Girija Theatre"
             },
             {
@@ -133,11 +133,20 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 3600,
+          "movie": "Jana Nayagan",
+          "screen": "Aiswarya",
+          "showid": "7813",
+          "tickets_sold": 24,
+          "time": "10:45 AM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 3150,
           "movie": "Jana Nayagan",
@@ -148,20 +157,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 2100,
-          "movie": "Jana Nayagan",
-          "screen": "Aiswarya",
-          "showid": "7813",
-          "tickets_sold": 14,
-          "time": "10:45 AM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 1050,
+          "gross": 1200,
           "movie": "Jana Nayagan",
           "screen": "Aiswarya",
           "showid": "7814",
-          "tickets_sold": 7,
+          "tickets_sold": 8,
           "time": "02:15 PM",
           "venue": "Aiswarya Cinemas"
         },
@@ -175,13 +175,22 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 600,
+          "gross": 750,
           "movie": "Jana Nayagan",
           "screen": null,
           "showid": "18926",
-          "tickets_sold": 4,
+          "tickets_sold": 5,
           "time": "01:30 PM",
           "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 150,
+          "movie": "Jana Nayagan [T]",
+          "screen": "Dolby Atmos",
+          "showid": "5704",
+          "tickets_sold": 1,
+          "time": "03:00 PM",
+          "venue": "Girija Theatre"
         },
         {
           "gross": 0,
@@ -190,15 +199,6 @@
           "showid": "5703",
           "tickets_sold": 0,
           "time": "11:30 AM",
-          "venue": "Girija Theatre"
-        },
-        {
-          "gross": 0,
-          "movie": "Jana Nayagan [T]",
-          "screen": "Dolby Atmos",
-          "showid": "5704",
-          "tickets_sold": 0,
-          "time": "03:00 PM",
           "venue": "Girija Theatre"
         },
         {
@@ -257,35 +257,16 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 52
+      "tickets_sold": 65
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "Jana Nayagan",
-          "Jana Nayagan [T]"
-        ],
-        "canonical": "Jana Nayagan"
-      },
-      {
-        "aliases": [
           "I, Nobody"
         ],
         "canonical": "I, Nobody"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Balan: The Boy"
-        ],
-        "canonical": "Balan: The Boy"
       },
       {
         "aliases": [
@@ -295,16 +276,35 @@
       },
       {
         "aliases": [
+          "Balan: The Boy"
+        ],
+        "canonical": "Balan: The Boy"
+      },
+      {
+        "aliases": [
+          "Jana Nayagan",
+          "Jana Nayagan [T]"
+        ],
+        "canonical": "Jana Nayagan"
+      },
+      {
+        "aliases": [
           "VARAVU",
           "Varavu"
         ],
-        "canonical": "Varavu"
+        "canonical": "VARAVU"
       },
       {
         "aliases": [
           "Evil Dead Burn"
         ],
         "canonical": "Evil Dead Burn"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       }
     ]
   }
