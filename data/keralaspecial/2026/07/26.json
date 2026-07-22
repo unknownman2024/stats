@@ -1,22 +1,13 @@
 {
   "date": "2026-07-26",
-  "last_updated": "2026-07-22T19:39:06.213256+05:30",
+  "last_updated": "2026-07-22T21:54:18.070267+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 20250,
+      "gross": 20550,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
-            {
-              "gross": 5100,
-              "movie": "Jana Nayagan",
-              "screen": "Aiswarya",
-              "showid": "7814",
-              "tickets_sold": 34,
-              "time": "02:15 PM",
-              "venue": "Aiswarya Cinemas"
-            },
             {
               "gross": 6300,
               "movie": "Jana Nayagan",
@@ -24,6 +15,15 @@
               "showid": "7813",
               "tickets_sold": 42,
               "time": "10:45 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 5400,
+              "movie": "Jana Nayagan",
+              "screen": "Aiswarya",
+              "showid": "7814",
+              "tickets_sold": 36,
+              "time": "02:15 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -45,21 +45,21 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 900,
-              "movie": "Jana Nayagan",
-              "screen": null,
-              "showid": "18925",
-              "tickets_sold": 6,
-              "time": "10:00 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 1050,
               "movie": "Jana Nayagan",
               "screen": null,
               "showid": "18926",
               "tickets_sold": 7,
               "time": "01:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 900,
+              "movie": "Jana Nayagan",
+              "screen": null,
+              "showid": "18925",
+              "tickets_sold": 6,
+              "time": "10:00 AM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -90,9 +90,9 @@
               "venue": "Girija Theatre"
             }
           ],
-          "gross": 20250,
+          "gross": 20550,
           "shows": 9,
-          "tickets_sold": 135
+          "tickets_sold": 137
         },
         "without_gross": {
           "breakdown": [
@@ -148,11 +148,11 @@
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 5100,
+          "gross": 5400,
           "movie": "Jana Nayagan",
           "screen": "Aiswarya",
           "showid": "7814",
-          "tickets_sold": 34,
+          "tickets_sold": 36,
           "time": "02:15 PM",
           "venue": "Aiswarya Cinemas"
         },
@@ -257,23 +257,293 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 135
+      "tickets_sold": 137
+    },
+    "Maharaja Hostel": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Maharaja Hostel",
+              "screen": "SCREEN 2",
+              "showid": "3453",
+              "tickets_sold": 0,
+              "time": "11:15 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Maharaja Hostel",
+              "screen": "SCREEN 2",
+              "showid": "3454",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Maharaja Hostel",
+              "screen": "SCREEN 2",
+              "showid": "3455",
+              "tickets_sold": 0,
+              "time": "06:15 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Maharaja Hostel",
+              "screen": "SCREEN 2",
+              "showid": "3456",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "shows": 4,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Maharaja Hostel",
+          "screen": "SCREEN 2",
+          "showid": "3453",
+          "tickets_sold": 0,
+          "time": "11:15 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Maharaja Hostel",
+          "screen": "SCREEN 2",
+          "showid": "3454",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Maharaja Hostel",
+          "screen": "SCREEN 2",
+          "showid": "3455",
+          "tickets_sold": 0,
+          "time": "06:15 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Maharaja Hostel",
+          "screen": "SCREEN 2",
+          "showid": "3456",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Fairyland Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 0
+    },
+    "The Odyssey": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "The Odyssey",
+              "screen": "SCREEN 3",
+              "showid": "3489",
+              "tickets_sold": 0,
+              "time": "10:45 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "The Odyssey",
+              "screen": "SCREEN 3",
+              "showid": "3490",
+              "tickets_sold": 0,
+              "time": "02:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "The Odyssey",
+              "screen": "SCREEN 3",
+              "showid": "3491",
+              "tickets_sold": 0,
+              "time": "05:45 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "The Odyssey",
+              "screen": "SCREEN 3",
+              "showid": "3492",
+              "tickets_sold": 0,
+              "time": "09:00 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "shows": 4,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "The Odyssey",
+          "screen": "SCREEN 3",
+          "showid": "3489",
+          "tickets_sold": 0,
+          "time": "10:45 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "The Odyssey",
+          "screen": "SCREEN 3",
+          "showid": "3490",
+          "tickets_sold": 0,
+          "time": "02:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "The Odyssey",
+          "screen": "SCREEN 3",
+          "showid": "3491",
+          "tickets_sold": 0,
+          "time": "05:45 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "The Odyssey",
+          "screen": "SCREEN 3",
+          "showid": "3492",
+          "tickets_sold": 0,
+          "time": "09:00 PM",
+          "venue": "Fairyland Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 0
+    },
+    "Varavu": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Varavu",
+              "screen": "SCREEN 4",
+              "showid": "3475",
+              "tickets_sold": 0,
+              "time": "02:15 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Varavu",
+              "screen": "SCREEN 4",
+              "showid": "3476",
+              "tickets_sold": 0,
+              "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Varavu",
+              "screen": "SCREEN 4",
+              "showid": "3477",
+              "tickets_sold": 0,
+              "time": "09:15 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "shows": 3,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Varavu",
+          "screen": "SCREEN 4",
+          "showid": "3475",
+          "tickets_sold": 0,
+          "time": "02:15 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Varavu",
+          "screen": "SCREEN 4",
+          "showid": "3476",
+          "tickets_sold": 0,
+          "time": "06:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Varavu",
+          "screen": "SCREEN 4",
+          "showid": "3477",
+          "tickets_sold": 0,
+          "time": "09:15 PM",
+          "venue": "Fairyland Cinemas"
+        }
+      ],
+      "shows": 3,
+      "tickets_sold": 0
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "Balan: The Boy"
-        ],
-        "canonical": "Balan: The Boy"
-      },
-      {
-        "aliases": [
           "VARAVU",
           "Varavu"
         ],
         "canonical": "Varavu"
+      },
+      {
+        "aliases": [
+          "Maharaja Hostel"
+        ],
+        "canonical": "Maharaja Hostel"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -284,27 +554,9 @@
       },
       {
         "aliases": [
-          "Maharaja Hostel"
-        ],
-        "canonical": "Maharaja Hostel"
-      },
-      {
-        "aliases": [
           "The Odyssey"
         ],
         "canonical": "The Odyssey"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "I, Nobody"
-        ],
-        "canonical": "I, Nobody"
       }
     ]
   }
