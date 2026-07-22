@@ -1,9 +1,9 @@
 {
   "date": "2026-07-25",
-  "last_updated": "2026-07-22T08:49:25.162798+05:30",
+  "last_updated": "2026-07-22T12:05:07.511856+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 11850,
+      "gross": 13050,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -36,11 +36,11 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 1650,
+              "gross": 2100,
               "movie": "Jana Nayagan",
               "screen": "Aiswarya",
               "showid": "7810",
-              "tickets_sold": 11,
+              "tickets_sold": 14,
               "time": "02:15 PM",
               "venue": "Aiswarya Cinemas"
             },
@@ -88,11 +88,20 @@
               "tickets_sold": 4,
               "time": "05:00 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 750,
+              "movie": "Jana Nayagan",
+              "screen": "Aiswarya",
+              "showid": "7809",
+              "tickets_sold": 5,
+              "time": "10:45 AM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 11850,
-          "shows": 9,
-          "tickets_sold": 79
+          "gross": 13050,
+          "shows": 10,
+          "tickets_sold": 87
         },
         "without_gross": {
           "breakdown": [
@@ -118,22 +127,13 @@
               "gross": 0,
               "movie": "Jana Nayagan",
               "screen": "Aiswarya",
-              "showid": "7809",
-              "tickets_sold": 0,
-              "time": "10:45 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Jana Nayagan",
-              "screen": "Aiswarya",
               "showid": "7811",
               "tickets_sold": 0,
               "time": "05:45 PM",
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 4,
+          "shows": 3,
           "tickets_sold": 0
         }
       },
@@ -157,21 +157,21 @@
           "venue": "Puthet Cinemas"
         },
         {
+          "gross": 2100,
+          "movie": "Jana Nayagan",
+          "screen": "Aiswarya",
+          "showid": "7810",
+          "tickets_sold": 14,
+          "time": "02:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
           "gross": 1950,
           "movie": "Jana Nayagan",
           "screen": "Aiswarya",
           "showid": "7812",
           "tickets_sold": 13,
           "time": "09:15 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 1650,
-          "movie": "Jana Nayagan",
-          "screen": "Aiswarya",
-          "showid": "7810",
-          "tickets_sold": 11,
-          "time": "02:15 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -200,6 +200,15 @@
           "tickets_sold": 5,
           "time": "11:30 AM",
           "venue": "Girija Theatre"
+        },
+        {
+          "gross": 750,
+          "movie": "Jana Nayagan",
+          "screen": "Aiswarya",
+          "showid": "7809",
+          "tickets_sold": 5,
+          "time": "10:45 AM",
+          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 600,
@@ -241,15 +250,6 @@
           "gross": 0,
           "movie": "Jana Nayagan",
           "screen": "Aiswarya",
-          "showid": "7809",
-          "tickets_sold": 0,
-          "time": "10:45 AM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Jana Nayagan",
-          "screen": "Aiswarya",
           "showid": "7811",
           "tickets_sold": 0,
           "time": "05:45 PM",
@@ -257,11 +257,30 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 79
+      "tickets_sold": 87
     }
   },
   "verification": {
     "merged_movies": [
+      {
+        "aliases": [
+          "VARAVU",
+          "Varavu"
+        ],
+        "canonical": "Varavu"
+      },
+      {
+        "aliases": [
+          "Evil Dead Burn"
+        ],
+        "canonical": "Evil Dead Burn"
+      },
+      {
+        "aliases": [
+          "The Odyssey"
+        ],
+        "canonical": "The Odyssey"
+      },
       {
         "aliases": [
           "Jana Nayagan",
@@ -277,19 +296,6 @@
       },
       {
         "aliases": [
-          "VARAVU",
-          "Varavu"
-        ],
-        "canonical": "VARAVU"
-      },
-      {
-        "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
-      },
-      {
-        "aliases": [
           "Unknown"
         ],
         "canonical": "Unknown"
@@ -299,12 +305,6 @@
           "I, Nobody"
         ],
         "canonical": "I, Nobody"
-      },
-      {
-        "aliases": [
-          "Evil Dead Burn"
-        ],
-        "canonical": "Evil Dead Burn"
       }
     ]
   }
