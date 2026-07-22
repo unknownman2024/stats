@@ -1,9 +1,9 @@
 {
   "date": "2026-07-26",
-  "last_updated": "2026-07-22T21:54:18.070267+05:30",
+  "last_updated": "2026-07-22T23:42:59.773311+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 20550,
+      "gross": 21150,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -63,11 +63,11 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 750,
+              "gross": 1350,
               "movie": "Jana Nayagan",
               "screen": "Aiswarya",
               "showid": "7816",
-              "tickets_sold": 5,
+              "tickets_sold": 9,
               "time": "09:15 PM",
               "venue": "Aiswarya Cinemas"
             },
@@ -90,9 +90,9 @@
               "venue": "Girija Theatre"
             }
           ],
-          "gross": 20550,
+          "gross": 21150,
           "shows": 9,
-          "tickets_sold": 137
+          "tickets_sold": 141
         },
         "without_gross": {
           "breakdown": [
@@ -175,6 +175,15 @@
           "venue": "Girija Theatre"
         },
         {
+          "gross": 1350,
+          "movie": "Jana Nayagan",
+          "screen": "Aiswarya",
+          "showid": "7816",
+          "tickets_sold": 9,
+          "time": "09:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
           "gross": 1050,
           "movie": "Jana Nayagan",
           "screen": null,
@@ -191,15 +200,6 @@
           "tickets_sold": 6,
           "time": "10:00 AM",
           "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 750,
-          "movie": "Jana Nayagan",
-          "screen": "Aiswarya",
-          "showid": "7816",
-          "tickets_sold": 5,
-          "time": "09:15 PM",
-          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 600,
@@ -257,7 +257,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 137
+      "tickets_sold": 141
     },
     "Maharaja Hostel": {
       "gross": 0,
@@ -447,6 +447,82 @@
       "shows": 4,
       "tickets_sold": 0
     },
+    "VARAVU": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Varavu",
+              "screen": "SCREEN 4",
+              "showid": "3475",
+              "tickets_sold": 0,
+              "time": "02:15 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Varavu",
+              "screen": "SCREEN 4",
+              "showid": "3476",
+              "tickets_sold": 0,
+              "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Varavu",
+              "screen": "SCREEN 4",
+              "showid": "3477",
+              "tickets_sold": 0,
+              "time": "09:15 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "shows": 3,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Varavu",
+          "screen": "SCREEN 4",
+          "showid": "3475",
+          "tickets_sold": 0,
+          "time": "02:15 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Varavu",
+          "screen": "SCREEN 4",
+          "showid": "3476",
+          "tickets_sold": 0,
+          "time": "06:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Varavu",
+          "screen": "SCREEN 4",
+          "showid": "3477",
+          "tickets_sold": 0,
+          "time": "09:15 PM",
+          "venue": "Fairyland Cinemas"
+        }
+      ],
+      "shows": 3,
+      "tickets_sold": 0
+    },
     "Varavu": {
       "gross": 0,
       "occupancy": null,
@@ -528,16 +604,10 @@
     "merged_movies": [
       {
         "aliases": [
-          "VARAVU",
-          "Varavu"
+          "Jana Nayagan",
+          "Jana Nayagan [T]"
         ],
-        "canonical": "Varavu"
-      },
-      {
-        "aliases": [
-          "Maharaja Hostel"
-        ],
-        "canonical": "Maharaja Hostel"
+        "canonical": "Jana Nayagan"
       },
       {
         "aliases": [
@@ -547,16 +617,28 @@
       },
       {
         "aliases": [
-          "Jana Nayagan",
-          "Jana Nayagan [T]"
+          "Maharaja Hostel"
         ],
-        "canonical": "Jana Nayagan"
+        "canonical": "Maharaja Hostel"
+      },
+      {
+        "aliases": [
+          "Spider-Man: Brand New Day"
+        ],
+        "canonical": "Spider-Man: Brand New Day"
       },
       {
         "aliases": [
           "The Odyssey"
         ],
         "canonical": "The Odyssey"
+      },
+      {
+        "aliases": [
+          "VARAVU",
+          "Varavu"
+        ],
+        "canonical": "VARAVU"
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
   "date": "2026-07-27",
-  "last_updated": "2026-07-22T21:54:18.071259+05:30",
+  "last_updated": "2026-07-22T23:42:59.774517+05:30",
   "movies": {
     "Maharaja Hostel": {
       "gross": 0,
@@ -190,6 +190,82 @@
       "shows": 4,
       "tickets_sold": 0
     },
+    "VARAVU": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Varavu",
+              "screen": "SCREEN 4",
+              "showid": "3478",
+              "tickets_sold": 0,
+              "time": "02:15 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Varavu",
+              "screen": "SCREEN 4",
+              "showid": "3479",
+              "tickets_sold": 0,
+              "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Varavu",
+              "screen": "SCREEN 4",
+              "showid": "3480",
+              "tickets_sold": 0,
+              "time": "09:15 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "shows": 3,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Varavu",
+          "screen": "SCREEN 4",
+          "showid": "3478",
+          "tickets_sold": 0,
+          "time": "02:15 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Varavu",
+          "screen": "SCREEN 4",
+          "showid": "3479",
+          "tickets_sold": 0,
+          "time": "06:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Varavu",
+          "screen": "SCREEN 4",
+          "showid": "3480",
+          "tickets_sold": 0,
+          "time": "09:15 PM",
+          "venue": "Fairyland Cinemas"
+        }
+      ],
+      "shows": 3,
+      "tickets_sold": 0
+    },
     "Varavu": {
       "gross": 0,
       "occupancy": null,
@@ -271,16 +347,10 @@
     "merged_movies": [
       {
         "aliases": [
-          "VARAVU",
-          "Varavu"
+          "Jana Nayagan",
+          "Jana Nayagan [T]"
         ],
-        "canonical": "Varavu"
-      },
-      {
-        "aliases": [
-          "Maharaja Hostel"
-        ],
-        "canonical": "Maharaja Hostel"
+        "canonical": "Jana Nayagan"
       },
       {
         "aliases": [
@@ -290,16 +360,28 @@
       },
       {
         "aliases": [
-          "Jana Nayagan",
-          "Jana Nayagan [T]"
+          "Maharaja Hostel"
         ],
-        "canonical": "Jana Nayagan"
+        "canonical": "Maharaja Hostel"
+      },
+      {
+        "aliases": [
+          "Spider-Man: Brand New Day"
+        ],
+        "canonical": "Spider-Man: Brand New Day"
       },
       {
         "aliases": [
           "The Odyssey"
         ],
         "canonical": "The Odyssey"
+      },
+      {
+        "aliases": [
+          "VARAVU",
+          "Varavu"
+        ],
+        "canonical": "VARAVU"
       }
     ]
   }
