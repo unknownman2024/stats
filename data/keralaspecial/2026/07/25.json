@@ -1,31 +1,13 @@
 {
   "date": "2026-07-25",
-  "last_updated": "2026-07-22T15:00:56.705809+05:30",
+  "last_updated": "2026-07-22T17:22:05.737690+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 14550,
+      "gross": 14700,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
-            {
-              "gross": 2100,
-              "movie": "Jana Nayagan [T]",
-              "screen": "Dolby Atmos",
-              "showid": "5700",
-              "tickets_sold": 14,
-              "time": "06:30 PM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 2250,
-              "movie": "Jana Nayagan",
-              "screen": null,
-              "showid": "18923",
-              "tickets_sold": 15,
-              "time": "08:30 PM",
-              "venue": "Puthet Cinemas"
-            },
             {
               "gross": 2400,
               "movie": "Jana Nayagan",
@@ -43,6 +25,24 @@
               "tickets_sold": 16,
               "time": "09:15 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 2250,
+              "movie": "Jana Nayagan",
+              "screen": null,
+              "showid": "18923",
+              "tickets_sold": 15,
+              "time": "08:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 2250,
+              "movie": "Jana Nayagan [T]",
+              "screen": "Dolby Atmos",
+              "showid": "5700",
+              "tickets_sold": 15,
+              "time": "06:30 PM",
+              "venue": "Girija Theatre"
             },
             {
               "gross": 1050,
@@ -108,9 +108,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 14550,
+          "gross": 14700,
           "shows": 11,
-          "tickets_sold": 97
+          "tickets_sold": 98
         },
         "without_gross": {
           "breakdown": [
@@ -166,11 +166,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 2100,
+          "gross": 2250,
           "movie": "Jana Nayagan [T]",
           "screen": "Dolby Atmos",
           "showid": "5700",
-          "tickets_sold": 14,
+          "tickets_sold": 15,
           "time": "06:30 PM",
           "venue": "Girija Theatre"
         },
@@ -257,31 +257,11 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 97
+      "tickets_sold": 98
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "Jana Nayagan",
-          "Jana Nayagan [T]"
-        ],
-        "canonical": "Jana Nayagan"
-      },
-      {
-        "aliases": [
-          "VARAVU",
-          "Varavu"
-        ],
-        "canonical": "VARAVU"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
       {
         "aliases": [
           "Balan: The Boy"
@@ -296,15 +276,35 @@
       },
       {
         "aliases": [
-          "Evil Dead Burn"
+          "Maharaja Hostel"
         ],
-        "canonical": "Evil Dead Burn"
+        "canonical": "Maharaja Hostel"
+      },
+      {
+        "aliases": [
+          "VARAVU",
+          "Varavu"
+        ],
+        "canonical": "Varavu"
+      },
+      {
+        "aliases": [
+          "Jana Nayagan",
+          "Jana Nayagan [T]"
+        ],
+        "canonical": "Jana Nayagan"
       },
       {
         "aliases": [
           "I, Nobody"
         ],
         "canonical": "I, Nobody"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       }
     ]
   }
