@@ -1,9 +1,9 @@
 {
   "date": "2026-07-30",
-  "last_updated": "2026-07-23T01:45:02.697768+05:30",
+  "last_updated": "2026-07-23T03:39:30.377192+05:30",
   "movies": {
     "Spider-Man: Brand New Day": {
-      "gross": 3000,
+      "gross": 3150,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -18,15 +18,6 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 750,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": null,
-              "showid": "18966",
-              "tickets_sold": 5,
-              "time": "06:00 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 1050,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
@@ -36,18 +27,27 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 150,
+              "gross": 750,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "18966",
+              "tickets_sold": 5,
+              "time": "06:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 300,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
               "showid": "18965",
-              "tickets_sold": 1,
+              "tickets_sold": 2,
               "time": "02:30 PM",
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 3000,
+          "gross": 3150,
           "shows": 4,
-          "tickets_sold": 20
+          "tickets_sold": 21
         },
         "without_gross": {
           "breakdown": [
@@ -94,11 +94,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 150,
+          "gross": 300,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
           "showid": "18965",
-          "tickets_sold": 1,
+          "tickets_sold": 2,
           "time": "02:30 PM",
           "venue": "Puthet Cinemas"
         },
@@ -113,35 +113,18 @@
         }
       ],
       "shows": 5,
-      "tickets_sold": 20
+      "tickets_sold": 21
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "Maharaja Hostel"
+          "Jana Nayagan",
+          "Jana Nayagan [T]",
+          "Jana Nayakan"
         ],
-        "canonical": "Maharaja Hostel"
-      },
-      {
-        "aliases": [
-          "I, Nobody"
-        ],
-        "canonical": "I, Nobody"
-      },
-      {
-        "aliases": [
-          "VARAVU",
-          "Varavu"
-        ],
-        "canonical": "Varavu"
-      },
-      {
-        "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
+        "canonical": "Jana Nayagan"
       },
       {
         "aliases": [
@@ -151,22 +134,34 @@
       },
       {
         "aliases": [
-          "Jana Nayagan",
-          "Jana Nayakan"
+          "VARAVU",
+          "Varavu"
         ],
-        "canonical": "Jana Nayakan"
-      },
-      {
-        "aliases": [
-          "Jana Nayagan [T]"
-        ],
-        "canonical": "Jana Nayagan [T]"
+        "canonical": "VARAVU"
       },
       {
         "aliases": [
           "Spider-Man: Brand New Day"
         ],
         "canonical": "Spider-Man: Brand New Day"
+      },
+      {
+        "aliases": [
+          "I, Nobody"
+        ],
+        "canonical": "I, Nobody"
+      },
+      {
+        "aliases": [
+          "Maharaja Hostel"
+        ],
+        "canonical": "Maharaja Hostel"
+      },
+      {
+        "aliases": [
+          "The Odyssey"
+        ],
+        "canonical": "The Odyssey"
       }
     ]
   }
