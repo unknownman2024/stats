@@ -1,28 +1,28 @@
 {
   "date": "2026-07-26",
-  "last_updated": "2026-07-23T05:35:35.735167+05:30",
+  "last_updated": "2026-07-23T09:49:31.678713+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 22050,
+      "gross": 24600,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 6300,
+              "gross": 6900,
               "movie": "Jana Nayagan",
               "screen": "Aiswarya",
               "showid": "7813",
-              "tickets_sold": 42,
+              "tickets_sold": 46,
               "time": "10:45 AM",
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 5850,
+              "gross": 6450,
               "movie": "Jana Nayagan",
               "screen": "Aiswarya",
               "showid": "7814",
-              "tickets_sold": 39,
+              "tickets_sold": 43,
               "time": "02:15 PM",
               "venue": "Aiswarya Cinemas"
             },
@@ -54,20 +54,20 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 1050,
+              "gross": 1500,
               "movie": "Jana Nayagan",
               "screen": null,
               "showid": "18926",
-              "tickets_sold": 7,
+              "tickets_sold": 10,
               "time": "01:30 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 900,
+              "gross": 1350,
               "movie": "Jana Nayagan",
               "screen": null,
               "showid": "18925",
-              "tickets_sold": 6,
+              "tickets_sold": 9,
               "time": "10:00 AM",
               "venue": "Puthet Cinemas"
             },
@@ -97,23 +97,23 @@
               "tickets_sold": 1,
               "time": "11:30 AM",
               "venue": "Girija Theatre"
-            }
-          ],
-          "gross": 22050,
-          "shows": 10,
-          "tickets_sold": 147
-        },
-        "without_gross": {
-          "breakdown": [
+            },
             {
-              "gross": 0,
+              "gross": 450,
               "movie": "Jana Nayagan [T]",
               "screen": "Dolby Atmos",
               "showid": "5705",
-              "tickets_sold": 0,
+              "tickets_sold": 3,
               "time": "06:30 PM",
               "venue": "Girija Theatre"
-            },
+            }
+          ],
+          "gross": 24600,
+          "shows": 11,
+          "tickets_sold": 164
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "Jana Nayagan [T]",
@@ -133,26 +133,26 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 3,
+          "shows": 2,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 6300,
+          "gross": 6900,
           "movie": "Jana Nayagan",
           "screen": "Aiswarya",
           "showid": "7813",
-          "tickets_sold": 42,
+          "tickets_sold": 46,
           "time": "10:45 AM",
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 5850,
+          "gross": 6450,
           "movie": "Jana Nayagan",
           "screen": "Aiswarya",
           "showid": "7814",
-          "tickets_sold": 39,
+          "tickets_sold": 43,
           "time": "02:15 PM",
           "venue": "Aiswarya Cinemas"
         },
@@ -163,6 +163,15 @@
           "showid": "18927",
           "tickets_sold": 27,
           "time": "05:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 1500,
+          "movie": "Jana Nayagan",
+          "screen": null,
+          "showid": "18926",
+          "tickets_sold": 10,
+          "time": "01:30 PM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -184,20 +193,11 @@
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 1050,
-          "movie": "Jana Nayagan",
-          "screen": null,
-          "showid": "18926",
-          "tickets_sold": 7,
-          "time": "01:30 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 900,
+          "gross": 1350,
           "movie": "Jana Nayagan",
           "screen": null,
           "showid": "18925",
-          "tickets_sold": 6,
+          "tickets_sold": 9,
           "time": "10:00 AM",
           "venue": "Puthet Cinemas"
         },
@@ -220,21 +220,21 @@
           "venue": "Aiswarya Cinemas"
         },
         {
+          "gross": 450,
+          "movie": "Jana Nayagan [T]",
+          "screen": "Dolby Atmos",
+          "showid": "5705",
+          "tickets_sold": 3,
+          "time": "06:30 PM",
+          "venue": "Girija Theatre"
+        },
+        {
           "gross": 150,
           "movie": "Jana Nayagan [T]",
           "screen": "Dolby Atmos",
           "showid": "5703",
           "tickets_sold": 1,
           "time": "11:30 AM",
-          "venue": "Girija Theatre"
-        },
-        {
-          "gross": 0,
-          "movie": "Jana Nayagan [T]",
-          "screen": "Dolby Atmos",
-          "showid": "5705",
-          "tickets_sold": 0,
-          "time": "06:30 PM",
           "venue": "Girija Theatre"
         },
         {
@@ -257,7 +257,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 147
+      "tickets_sold": 164
     },
     "Jana Nayagan [T]": {
       "gross": 1500,
@@ -884,15 +884,10 @@
     "merged_movies": [
       {
         "aliases": [
-          "The Odyssey"
+          "Jana Nayagan",
+          "Jana Nayagan [T]"
         ],
-        "canonical": "The Odyssey"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
+        "canonical": "Jana Nayagan"
       },
       {
         "aliases": [
@@ -903,22 +898,9 @@
       },
       {
         "aliases": [
-          "I, Nobody"
+          "The Odyssey"
         ],
-        "canonical": "I, Nobody"
-      },
-      {
-        "aliases": [
-          "Maharaja Hostel"
-        ],
-        "canonical": "Maharaja Hostel"
-      },
-      {
-        "aliases": [
-          "Jana Nayagan",
-          "Jana Nayakan"
-        ],
-        "canonical": "Jana Nayakan"
+        "canonical": "The Odyssey"
       },
       {
         "aliases": [
@@ -928,9 +910,27 @@
       },
       {
         "aliases": [
-          "Jana Nayagan [T]"
+          "Maharaja Hostel"
         ],
-        "canonical": "Jana Nayagan [T]"
+        "canonical": "Maharaja Hostel"
+      },
+      {
+        "aliases": [
+          "I, Nobody"
+        ],
+        "canonical": "I, Nobody"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Jana Nayakan"
+        ],
+        "canonical": "Jana Nayakan"
       }
     ]
   }
