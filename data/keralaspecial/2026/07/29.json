@@ -1,28 +1,29 @@
 {
   "date": "2026-07-29",
-  "last_updated": "2026-07-23T15:59:33.190650+05:30",
+  "last_updated": "2026-07-23T17:57:17.541318+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 0,
+      "gross": 300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
-        },
-        "without_gross": {
           "breakdown": [
             {
-              "gross": 0,
+              "gross": 300,
               "movie": "Jana Nayagan",
               "screen": "Aiswarya",
               "showid": "7893",
-              "tickets_sold": 0,
+              "tickets_sold": 2,
               "time": "10:45 AM",
               "venue": "Aiswarya Cinemas"
-            },
+            }
+          ],
+          "gross": 300,
+          "shows": 1,
+          "tickets_sold": 2
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "Jana Nayagan",
@@ -51,17 +52,17 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 4,
+          "shows": 3,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 0,
+          "gross": 300,
           "movie": "Jana Nayagan",
           "screen": "Aiswarya",
           "showid": "7893",
-          "tickets_sold": 0,
+          "tickets_sold": 2,
           "time": "10:45 AM",
           "venue": "Aiswarya Cinemas"
         },
@@ -94,7 +95,7 @@
         }
       ],
       "shows": 4,
-      "tickets_sold": 0
+      "tickets_sold": 2
     },
     "Maharaja Hostel": {
       "gross": 0,
@@ -289,24 +290,29 @@
     "merged_movies": [
       {
         "aliases": [
-          "VARAVU",
-          "Varavu"
-        ],
-        "canonical": "Varavu"
-      },
-      {
-        "aliases": [
           "Jana Nayagan",
-          "Jana Nayagan [T]",
-          "Jana Nayakan"
+          "Jana Nayagan [T]"
         ],
         "canonical": "Jana Nayagan"
       },
       {
         "aliases": [
-          "Spider-Man: Brand New Day"
+          "VARAVU",
+          "Varavu"
         ],
-        "canonical": "Spider-Man: Brand New Day"
+        "canonical": "VARAVU"
+      },
+      {
+        "aliases": [
+          "Jana Nayakan"
+        ],
+        "canonical": "Jana Nayakan"
+      },
+      {
+        "aliases": [
+          "Maharaja Hostel"
+        ],
+        "canonical": "Maharaja Hostel"
       },
       {
         "aliases": [
@@ -317,9 +323,9 @@
       },
       {
         "aliases": [
-          "Maharaja Hostel"
+          "Spider-Man: Brand New Day"
         ],
-        "canonical": "Maharaja Hostel"
+        "canonical": "Spider-Man: Brand New Day"
       },
       {
         "aliases": [
