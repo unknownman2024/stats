@@ -1,9 +1,9 @@
 {
   "date": "2026-08-02",
-  "last_updated": "2026-07-23T17:57:17.538993+05:30",
+  "last_updated": "2026-07-23T20:44:25.216129+05:30",
   "movies": {
     "Spider-Man: Brand New Day": {
-      "gross": 300,
+      "gross": 600,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -16,11 +16,20 @@
               "tickets_sold": 2,
               "time": "02:30 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "18978",
+              "tickets_sold": 2,
+              "time": "06:00 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 300,
-          "shows": 1,
-          "tickets_sold": 2
+          "gross": 600,
+          "shows": 2,
+          "tickets_sold": 4
         },
         "without_gross": {
           "breakdown": [
@@ -31,15 +40,6 @@
               "showid": "18976",
               "tickets_sold": 0,
               "time": "11:00 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": null,
-              "showid": "18978",
-              "tickets_sold": 0,
-              "time": "06:00 PM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -88,7 +88,7 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 7,
+          "shows": 6,
           "tickets_sold": 0
         }
       },
@@ -103,21 +103,21 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 0,
+          "gross": 300,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
-          "showid": "18976",
-          "tickets_sold": 0,
-          "time": "11:00 AM",
+          "showid": "18978",
+          "tickets_sold": 2,
+          "time": "06:00 PM",
           "venue": "Puthet Cinemas"
         },
         {
           "gross": 0,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
-          "showid": "18978",
+          "showid": "18976",
           "tickets_sold": 0,
-          "time": "06:00 PM",
+          "time": "11:00 AM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -167,7 +167,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 2
+      "tickets_sold": 4
     }
   },
   "verification": {
@@ -184,13 +184,7 @@
           "VARAVU",
           "Varavu"
         ],
-        "canonical": "VARAVU"
-      },
-      {
-        "aliases": [
-          "Jana Nayakan"
-        ],
-        "canonical": "Jana Nayakan"
+        "canonical": "Varavu"
       },
       {
         "aliases": [
@@ -200,22 +194,28 @@
       },
       {
         "aliases": [
-          "LURK",
-          "Lurk"
+          "Jana Nayakan"
         ],
-        "canonical": "LURK"
+        "canonical": "Jana Nayakan"
       },
       {
         "aliases": [
-          "Spider-Man: Brand New Day"
+          "LURK",
+          "Lurk"
         ],
-        "canonical": "Spider-Man: Brand New Day"
+        "canonical": "Lurk"
       },
       {
         "aliases": [
           "The Odyssey"
         ],
         "canonical": "The Odyssey"
+      },
+      {
+        "aliases": [
+          "Spider-Man: Brand New Day"
+        ],
+        "canonical": "Spider-Man: Brand New Day"
       }
     ]
   }
