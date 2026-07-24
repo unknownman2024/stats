@@ -1,19 +1,28 @@
 {
   "date": "2026-08-02",
-  "last_updated": "2026-07-24T12:01:14.118265+05:30",
+  "last_updated": "2026-07-24T14:55:03.323731+05:30",
   "movies": {
     "Spider-Man: Brand New Day": {
-      "gross": 2700,
+      "gross": 3600,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 750,
+              "gross": 1200,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "Aiswarya",
+              "showid": "7906",
+              "tickets_sold": 8,
+              "time": "02:00 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 1650,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
               "showid": "18977",
-              "tickets_sold": 5,
+              "tickets_sold": 11,
               "time": "02:30 PM",
               "venue": "Puthet Cinemas"
             },
@@ -34,20 +43,11 @@
               "tickets_sold": 1,
               "time": "11:00 AM",
               "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 1200,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": "Aiswarya",
-              "showid": "7906",
-              "tickets_sold": 8,
-              "time": "02:00 PM",
-              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 2700,
+          "gross": 3600,
           "shows": 4,
-          "tickets_sold": 18
+          "tickets_sold": 24
         },
         "without_gross": {
           "breakdown": [
@@ -94,6 +94,15 @@
       },
       "show_breakdown": [
         {
+          "gross": 1650,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": null,
+          "showid": "18977",
+          "tickets_sold": 11,
+          "time": "02:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 1200,
           "movie": "Spider-Man: Brand New Day",
           "screen": "Aiswarya",
@@ -101,15 +110,6 @@
           "tickets_sold": 8,
           "time": "02:00 PM",
           "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 750,
-          "movie": "Spider-Man: Brand New Day",
-          "screen": null,
-          "showid": "18977",
-          "tickets_sold": 5,
-          "time": "02:30 PM",
-          "venue": "Puthet Cinemas"
         },
         {
           "gross": 600,
@@ -167,38 +167,11 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 18
+      "tickets_sold": 24
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "LURK",
-          "Lurk"
-        ],
-        "canonical": "Lurk"
-      },
-      {
-        "aliases": [
-          "VARAVU",
-          "Varavu"
-        ],
-        "canonical": "VARAVU"
-      },
-      {
-        "aliases": [
-          "Jana Nayagan",
-          "Jana Nayakan"
-        ],
-        "canonical": "Jana Nayakan"
-      },
-      {
-        "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
-      },
       {
         "aliases": [
           "SPIDER-MAN: BRAND NEW DAY 3D",
@@ -208,15 +181,43 @@
       },
       {
         "aliases": [
+          "Jana Nayagan",
+          "Jana Nayagan [T]",
+          "Jana Nayakan"
+        ],
+        "canonical": "Jana Nayagan"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "VARAVU",
+          "Varavu"
+        ],
+        "canonical": "Varavu"
+      },
+      {
+        "aliases": [
+          "LURK",
+          "Lurk"
+        ],
+        "canonical": "LURK"
+      },
+      {
+        "aliases": [
           "Maharaja Hostel"
         ],
         "canonical": "Maharaja Hostel"
       },
       {
         "aliases": [
-          "Jana Nayagan [T]"
+          "The Odyssey"
         ],
-        "canonical": "Jana Nayagan [T]"
+        "canonical": "The Odyssey"
       }
     ]
   }
