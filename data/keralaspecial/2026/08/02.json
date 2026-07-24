@@ -1,22 +1,13 @@
 {
   "date": "2026-08-02",
-  "last_updated": "2026-07-24T14:55:03.323731+05:30",
+  "last_updated": "2026-07-24T17:15:59.758438+05:30",
   "movies": {
     "Spider-Man: Brand New Day": {
-      "gross": 3600,
+      "gross": 4350,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
-            {
-              "gross": 1200,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": "Aiswarya",
-              "showid": "7906",
-              "tickets_sold": 8,
-              "time": "02:00 PM",
-              "venue": "Aiswarya Cinemas"
-            },
             {
               "gross": 1650,
               "movie": "Spider-Man: Brand New Day",
@@ -27,27 +18,36 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 600,
+              "gross": 1200,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "Aiswarya",
+              "showid": "7906",
+              "tickets_sold": 8,
+              "time": "02:00 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 1050,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
               "showid": "18978",
-              "tickets_sold": 4,
+              "tickets_sold": 7,
               "time": "06:00 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 150,
+              "gross": 450,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
               "showid": "18976",
-              "tickets_sold": 1,
+              "tickets_sold": 3,
               "time": "11:00 AM",
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 3600,
+          "gross": 4350,
           "shows": 4,
-          "tickets_sold": 24
+          "tickets_sold": 29
         },
         "without_gross": {
           "breakdown": [
@@ -112,20 +112,20 @@
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 600,
+          "gross": 1050,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
           "showid": "18978",
-          "tickets_sold": 4,
+          "tickets_sold": 7,
           "time": "06:00 PM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 150,
+          "gross": 450,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
           "showid": "18976",
-          "tickets_sold": 1,
+          "tickets_sold": 3,
           "time": "11:00 AM",
           "venue": "Puthet Cinemas"
         },
@@ -167,11 +167,24 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 24
+      "tickets_sold": 29
     }
   },
   "verification": {
     "merged_movies": [
+      {
+        "aliases": [
+          "The Odyssey"
+        ],
+        "canonical": "The Odyssey"
+      },
+      {
+        "aliases": [
+          "Jana Nayagan",
+          "Jana Nayagan [T]"
+        ],
+        "canonical": "Jana Nayagan"
+      },
       {
         "aliases": [
           "SPIDER-MAN: BRAND NEW DAY 3D",
@@ -181,31 +194,17 @@
       },
       {
         "aliases": [
-          "Jana Nayagan",
-          "Jana Nayagan [T]",
-          "Jana Nayakan"
+          "LURK",
+          "Lurk"
         ],
-        "canonical": "Jana Nayagan"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
+        "canonical": "Lurk"
       },
       {
         "aliases": [
           "VARAVU",
           "Varavu"
         ],
-        "canonical": "Varavu"
-      },
-      {
-        "aliases": [
-          "LURK",
-          "Lurk"
-        ],
-        "canonical": "LURK"
+        "canonical": "VARAVU"
       },
       {
         "aliases": [
@@ -215,9 +214,9 @@
       },
       {
         "aliases": [
-          "The Odyssey"
+          "Jana Nayakan"
         ],
-        "canonical": "The Odyssey"
+        "canonical": "Jana Nayakan"
       }
     ]
   }

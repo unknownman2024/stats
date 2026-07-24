@@ -1,9 +1,9 @@
 {
   "date": "2026-08-01",
-  "last_updated": "2026-07-24T14:55:03.323061+05:30",
+  "last_updated": "2026-07-24T17:15:59.757812+05:30",
   "movies": {
     "Spider-Man: Brand New Day": {
-      "gross": 17400,
+      "gross": 17550,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -27,6 +27,15 @@
               "venue": "Puthet Cinemas"
             },
             {
+              "gross": 2250,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "18975",
+              "tickets_sold": 15,
+              "time": "09:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
               "gross": 1350,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
@@ -34,20 +43,11 @@
               "tickets_sold": 9,
               "time": "06:00 PM",
               "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 2100,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": null,
-              "showid": "18975",
-              "tickets_sold": 14,
-              "time": "09:00 PM",
-              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 17400,
+          "gross": 17550,
           "shows": 4,
-          "tickets_sold": 116
+          "tickets_sold": 117
         },
         "without_gross": {
           "breakdown": [
@@ -112,11 +112,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 2100,
+          "gross": 2250,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
           "showid": "18975",
-          "tickets_sold": 14,
+          "tickets_sold": 15,
           "time": "09:00 PM",
           "venue": "Puthet Cinemas"
         },
@@ -167,11 +167,24 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 116
+      "tickets_sold": 117
     }
   },
   "verification": {
     "merged_movies": [
+      {
+        "aliases": [
+          "The Odyssey"
+        ],
+        "canonical": "The Odyssey"
+      },
+      {
+        "aliases": [
+          "Jana Nayagan",
+          "Jana Nayagan [T]"
+        ],
+        "canonical": "Jana Nayagan"
+      },
       {
         "aliases": [
           "SPIDER-MAN: BRAND NEW DAY 3D",
@@ -181,31 +194,17 @@
       },
       {
         "aliases": [
-          "Jana Nayagan",
-          "Jana Nayagan [T]",
-          "Jana Nayakan"
+          "LURK",
+          "Lurk"
         ],
-        "canonical": "Jana Nayagan"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
+        "canonical": "Lurk"
       },
       {
         "aliases": [
           "VARAVU",
           "Varavu"
         ],
-        "canonical": "Varavu"
-      },
-      {
-        "aliases": [
-          "LURK",
-          "Lurk"
-        ],
-        "canonical": "LURK"
+        "canonical": "VARAVU"
       },
       {
         "aliases": [
@@ -215,9 +214,9 @@
       },
       {
         "aliases": [
-          "The Odyssey"
+          "Jana Nayakan"
         ],
-        "canonical": "The Odyssey"
+        "canonical": "Jana Nayakan"
       }
     ]
   }
