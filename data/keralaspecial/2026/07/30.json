@@ -1,9 +1,9 @@
 {
   "date": "2026-07-30",
-  "last_updated": "2026-07-24T23:12:33.525080+05:30",
+  "last_updated": "2026-07-25T01:07:51.613781+05:30",
   "movies": {
     "Spider-Man: Brand New Day": {
-      "gross": 95850,
+      "gross": 96600,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -18,12 +18,21 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 19050,
+              "gross": 19500,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
               "showid": "18967",
-              "tickets_sold": 127,
+              "tickets_sold": 130,
               "time": "09:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 14850,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "18964",
+              "tickets_sold": 99,
+              "time": "11:00 AM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -33,15 +42,6 @@
               "showid": "18963",
               "tickets_sold": 92,
               "time": "08:00 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 14550,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": null,
-              "showid": "18964",
-              "tickets_sold": 97,
-              "time": "11:00 AM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -126,9 +126,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 95850,
+          "gross": 96600,
           "shows": 13,
-          "tickets_sold": 639
+          "tickets_sold": 644
         },
         "without_gross": {
           "breakdown": [],
@@ -137,6 +137,15 @@
         }
       },
       "show_breakdown": [
+        {
+          "gross": 19500,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": null,
+          "showid": "18967",
+          "tickets_sold": 130,
+          "time": "09:00 PM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 19200,
           "movie": "Spider-Man: Brand New Day",
@@ -147,20 +156,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 19050,
-          "movie": "Spider-Man: Brand New Day",
-          "screen": null,
-          "showid": "18967",
-          "tickets_sold": 127,
-          "time": "09:00 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 14550,
+          "gross": 14850,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
           "showid": "18964",
-          "tickets_sold": 97,
+          "tickets_sold": 99,
           "time": "11:00 AM",
           "venue": "Puthet Cinemas"
         },
@@ -256,36 +256,17 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 639
+      "tickets_sold": 644
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "Maharaja Hostel"
+          "VARAVU",
+          "Varavu"
         ],
-        "canonical": "Maharaja Hostel"
-      },
-      {
-        "aliases": [
-          "Jana Nayagan",
-          "Jana Nayagan [T]"
-        ],
-        "canonical": "Jana Nayagan"
-      },
-      {
-        "aliases": [
-          "LURK",
-          "Lurk"
-        ],
-        "canonical": "LURK"
-      },
-      {
-        "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
+        "canonical": "VARAVU"
       },
       {
         "aliases": [
@@ -296,10 +277,35 @@
       },
       {
         "aliases": [
-          "VARAVU",
-          "Varavu"
+          "Jana Nayagan",
+          "Jana Nayakan"
         ],
-        "canonical": "Varavu"
+        "canonical": "Jana Nayakan"
+      },
+      {
+        "aliases": [
+          "Maharaja Hostel"
+        ],
+        "canonical": "Maharaja Hostel"
+      },
+      {
+        "aliases": [
+          "LURK",
+          "Lurk"
+        ],
+        "canonical": "Lurk"
+      },
+      {
+        "aliases": [
+          "The Odyssey"
+        ],
+        "canonical": "The Odyssey"
+      },
+      {
+        "aliases": [
+          "Jana Nayagan [T]"
+        ],
+        "canonical": "Jana Nayagan [T]"
       }
     ]
   }
