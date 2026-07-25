@@ -1,19 +1,19 @@
 {
   "date": "2026-07-27",
-  "last_updated": "2026-07-25T20:39:09.788745+05:30",
+  "last_updated": "2026-07-25T22:35:58.737473+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 3300,
+      "gross": 4950,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 1800,
+              "gross": 1950,
               "movie": "Jana Nayagan",
               "screen": "Aiswarya",
               "showid": "7883",
-              "tickets_sold": 12,
+              "tickets_sold": 13,
               "time": "10:45 AM",
               "venue": "Aiswarya Cinemas"
             },
@@ -25,11 +25,20 @@
               "tickets_sold": 10,
               "time": "02:15 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 1500,
+              "movie": "Jana Nayagan",
+              "screen": "Cinema-2",
+              "showid": "22444",
+              "tickets_sold": 10,
+              "time": "09:30 PM",
+              "venue": "Davis Theatre"
             }
           ],
-          "gross": 3300,
-          "shows": 2,
-          "tickets_sold": 22
+          "gross": 4950,
+          "shows": 3,
+          "tickets_sold": 33
         },
         "without_gross": {
           "breakdown": [
@@ -86,19 +95,46 @@
               "tickets_sold": 0,
               "time": "09:45 PM",
               "venue": "Girija Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Jana Nayagan",
+              "screen": "Cinema-3",
+              "showid": "22438",
+              "tickets_sold": 0,
+              "time": "11:45 AM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Jana Nayagan",
+              "screen": "Cinema-3",
+              "showid": "22439",
+              "tickets_sold": 0,
+              "time": "03:00 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Jana Nayagan",
+              "screen": "Cinema-3",
+              "showid": "22440",
+              "tickets_sold": 0,
+              "time": "06:30 PM",
+              "venue": "Davis Theatre"
             }
           ],
-          "shows": 6,
+          "shows": 9,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 1800,
+          "gross": 1950,
           "movie": "Jana Nayagan",
           "screen": "Aiswarya",
           "showid": "7883",
-          "tickets_sold": 12,
+          "tickets_sold": 13,
           "time": "10:45 AM",
           "venue": "Aiswarya Cinemas"
         },
@@ -110,6 +146,15 @@
           "tickets_sold": 10,
           "time": "02:15 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 1500,
+          "movie": "Jana Nayagan",
+          "screen": "Cinema-2",
+          "showid": "22444",
+          "tickets_sold": 10,
+          "time": "09:30 PM",
+          "venue": "Davis Theatre"
         },
         {
           "gross": 0,
@@ -164,10 +209,37 @@
           "tickets_sold": 0,
           "time": "09:45 PM",
           "venue": "Girija Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Jana Nayagan",
+          "screen": "Cinema-3",
+          "showid": "22438",
+          "tickets_sold": 0,
+          "time": "11:45 AM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Jana Nayagan",
+          "screen": "Cinema-3",
+          "showid": "22439",
+          "tickets_sold": 0,
+          "time": "03:00 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Jana Nayagan",
+          "screen": "Cinema-3",
+          "showid": "22440",
+          "tickets_sold": 0,
+          "time": "06:30 PM",
+          "venue": "Davis Theatre"
         }
       ],
-      "shows": 8,
-      "tickets_sold": 22
+      "shows": 12,
+      "tickets_sold": 33
     },
     "Jana Nayagan [T]": {
       "gross": 0,
@@ -703,17 +775,15 @@
     "merged_movies": [
       {
         "aliases": [
-          "SPIDER-MAN: BRAND NEW DAY 3D",
-          "Spider-Man: Brand New Day",
-          "Spider-Man:Brand New Day"
+          "VARAVU",
+          "Varavu"
         ],
-        "canonical": "Spider-Man:Brand New Day"
+        "canonical": "VARAVU"
       },
       {
         "aliases": [
           "Jana Nayagan",
-          "Jana Nayagan [T]",
-          "Jana Nayakan"
+          "Jana Nayagan [T]"
         ],
         "canonical": "Jana Nayagan"
       },
@@ -725,16 +795,17 @@
       },
       {
         "aliases": [
-          "VARAVU",
-          "Varavu"
-        ],
-        "canonical": "VARAVU"
-      },
-      {
-        "aliases": [
           "LURK"
         ],
         "canonical": "LURK"
+      },
+      {
+        "aliases": [
+          "SPIDER-MAN: BRAND NEW DAY 3D",
+          "Spider-Man: Brand New Day",
+          "Spider-Man:Brand New Day"
+        ],
+        "canonical": "Spider-Man:Brand New Day"
       },
       {
         "aliases": [
