@@ -1,28 +1,29 @@
 {
   "date": "2026-07-28",
-  "last_updated": "2026-07-25T08:48:22.823174+05:30",
+  "last_updated": "2026-07-25T11:53:12.698209+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 0,
+      "gross": 450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
-        },
-        "without_gross": {
           "breakdown": [
             {
-              "gross": 0,
+              "gross": 450,
               "movie": "Jana Nayagan",
               "screen": "Aiswarya",
               "showid": "7888",
-              "tickets_sold": 0,
+              "tickets_sold": 3,
               "time": "10:45 AM",
               "venue": "Aiswarya Cinemas"
-            },
+            }
+          ],
+          "gross": 450,
+          "shows": 1,
+          "tickets_sold": 3
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "Jana Nayagan",
@@ -49,19 +50,55 @@
               "tickets_sold": 0,
               "time": "09:15 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Jana Nayagan [T]",
+              "screen": "Dolby Atmos",
+              "showid": "5723",
+              "tickets_sold": 0,
+              "time": "11:30 AM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Jana Nayagan [T]",
+              "screen": "Dolby Atmos",
+              "showid": "5724",
+              "tickets_sold": 0,
+              "time": "03:00 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Jana Nayagan [T]",
+              "screen": "Dolby Atmos",
+              "showid": "5725",
+              "tickets_sold": 0,
+              "time": "06:30 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Jana Nayagan [T]",
+              "screen": "Dolby Atmos",
+              "showid": "5726",
+              "tickets_sold": 0,
+              "time": "09:45 PM",
+              "venue": "Girija Theatre"
             }
           ],
-          "shows": 4,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 0,
+          "gross": 450,
           "movie": "Jana Nayagan",
           "screen": "Aiswarya",
           "showid": "7888",
-          "tickets_sold": 0,
+          "tickets_sold": 3,
           "time": "10:45 AM",
           "venue": "Aiswarya Cinemas"
         },
@@ -91,10 +128,46 @@
           "tickets_sold": 0,
           "time": "09:15 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Jana Nayagan [T]",
+          "screen": "Dolby Atmos",
+          "showid": "5723",
+          "tickets_sold": 0,
+          "time": "11:30 AM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Jana Nayagan [T]",
+          "screen": "Dolby Atmos",
+          "showid": "5724",
+          "tickets_sold": 0,
+          "time": "03:00 PM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Jana Nayagan [T]",
+          "screen": "Dolby Atmos",
+          "showid": "5725",
+          "tickets_sold": 0,
+          "time": "06:30 PM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Jana Nayagan [T]",
+          "screen": "Dolby Atmos",
+          "showid": "5726",
+          "tickets_sold": 0,
+          "time": "09:45 PM",
+          "venue": "Girija Theatre"
         }
       ],
-      "shows": 4,
-      "tickets_sold": 0
+      "shows": 8,
+      "tickets_sold": 3
     },
     "Jana Nayakan": {
       "gross": 0,
@@ -383,24 +456,10 @@
     "merged_movies": [
       {
         "aliases": [
-          "VARAVU",
-          "Varavu"
+          "LURK",
+          "Lurk"
         ],
-        "canonical": "VARAVU"
-      },
-      {
-        "aliases": [
-          "Jana Nayagan",
-          "Jana Nayakan"
-        ],
-        "canonical": "Jana Nayakan"
-      },
-      {
-        "aliases": [
-          "SPIDER-MAN: BRAND NEW DAY 3D",
-          "Spider-Man: Brand New Day"
-        ],
-        "canonical": "Spider-Man: Brand New Day"
+        "canonical": "Lurk"
       },
       {
         "aliases": [
@@ -416,16 +475,25 @@
       },
       {
         "aliases": [
-          "LURK",
-          "Lurk"
+          "Jana Nayagan",
+          "Jana Nayagan [T]",
+          "Jana Nayakan"
         ],
-        "canonical": "LURK"
+        "canonical": "Jana Nayagan"
       },
       {
         "aliases": [
-          "Jana Nayagan [T]"
+          "VARAVU",
+          "Varavu"
         ],
-        "canonical": "Jana Nayagan [T]"
+        "canonical": "VARAVU"
+      },
+      {
+        "aliases": [
+          "SPIDER-MAN: BRAND NEW DAY 3D",
+          "Spider-Man: Brand New Day"
+        ],
+        "canonical": "Spider-Man: Brand New Day"
       }
     ]
   }
