@@ -1,6 +1,6 @@
 {
   "date": "2026-07-27",
-  "last_updated": "2026-07-26T00:46:52.851724+05:30",
+  "last_updated": "2026-07-26T02:29:00.411719+05:30",
   "movies": {
     "Jana Nayagan": {
       "gross": 5250,
@@ -18,15 +18,6 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 1500,
-              "movie": "Jana Nayagan",
-              "screen": "Aiswarya",
-              "showid": "7884",
-              "tickets_sold": 10,
-              "time": "02:15 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
               "gross": 1800,
               "movie": "Jana Nayagan",
               "screen": "Cinema-2",
@@ -34,6 +25,15 @@
               "tickets_sold": 12,
               "time": "09:30 PM",
               "venue": "Davis Theatre"
+            },
+            {
+              "gross": 1500,
+              "movie": "Jana Nayagan",
+              "screen": "Aiswarya",
+              "showid": "7884",
+              "tickets_sold": 10,
+              "time": "02:15 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
           "gross": 5250,
@@ -775,36 +775,24 @@
     "merged_movies": [
       {
         "aliases": [
+          "The Odyssey"
+        ],
+        "canonical": "The Odyssey"
+      },
+      {
+        "aliases": [
           "Jana Nayagan",
-          "Jana Nayagan [T]"
-        ],
-        "canonical": "Jana Nayagan"
-      },
-      {
-        "aliases": [
-          "Maharaja Hostel"
-        ],
-        "canonical": "Maharaja Hostel"
-      },
-      {
-        "aliases": [
+          "Jana Nayagan [T]",
           "Jana Nayakan"
         ],
-        "canonical": "Jana Nayakan"
-      },
-      {
-        "aliases": [
-          "VARAVU",
-          "Varavu"
-        ],
-        "canonical": "Varavu"
+        "canonical": "Jana Nayagan"
       },
       {
         "aliases": [
           "LURK",
           "Lurk"
         ],
-        "canonical": "Lurk"
+        "canonical": "LURK"
       },
       {
         "aliases": [
@@ -816,9 +804,16 @@
       },
       {
         "aliases": [
-          "The Odyssey"
+          "VARAVU",
+          "Varavu"
         ],
-        "canonical": "The Odyssey"
+        "canonical": "VARAVU"
+      },
+      {
+        "aliases": [
+          "Maharaja Hostel"
+        ],
+        "canonical": "Maharaja Hostel"
       }
     ]
   }

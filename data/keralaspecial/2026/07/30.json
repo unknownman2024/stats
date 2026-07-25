@@ -1,6 +1,6 @@
 {
   "date": "2026-07-30",
-  "last_updated": "2026-07-26T00:46:52.854472+05:30",
+  "last_updated": "2026-07-26T02:29:00.414550+05:30",
   "movies": {
     "Spider-Man: Brand New Day": {
       "gross": 105750,
@@ -259,7 +259,7 @@
       "tickets_sold": 705
     },
     "Spider-Man:Brand New Day": {
-      "gross": 134100,
+      "gross": 134250,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -328,12 +328,21 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 6900,
+              "gross": 7050,
               "movie": "Spider-Man:Brand New Day",
               "screen": "SCREEN 3",
               "showid": "3519",
-              "tickets_sold": 46,
+              "tickets_sold": 47,
               "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 5550,
+              "movie": "Spider-Man:Brand New Day",
+              "screen": "SCREEN 3",
+              "showid": "3517",
+              "tickets_sold": 37,
+              "time": "11:00 AM",
               "venue": "Fairyland Cinemas"
             },
             {
@@ -344,15 +353,6 @@
               "tickets_sold": 29,
               "time": "08:30 PM",
               "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 5550,
-              "movie": "Spider-Man:Brand New Day",
-              "screen": "SCREEN 3",
-              "showid": "3517",
-              "tickets_sold": 37,
-              "time": "11:00 AM",
-              "venue": "Fairyland Cinemas"
             },
             {
               "gross": 2700,
@@ -418,9 +418,9 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 134100,
+          "gross": 134250,
           "shows": 17,
-          "tickets_sold": 894
+          "tickets_sold": 895
         },
         "without_gross": {
           "breakdown": [],
@@ -484,6 +484,15 @@
           "venue": "Fairyland Cinemas"
         },
         {
+          "gross": 7050,
+          "movie": "Spider-Man:Brand New Day",
+          "screen": "SCREEN 3",
+          "showid": "3519",
+          "tickets_sold": 47,
+          "time": "06:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
           "gross": 6900,
           "movie": "Spider-Man: Brand New Day",
           "screen": "Aiswarya",
@@ -491,15 +500,6 @@
           "tickets_sold": 46,
           "time": "11:00 AM",
           "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 6900,
-          "movie": "Spider-Man:Brand New Day",
-          "screen": "SCREEN 3",
-          "showid": "3519",
-          "tickets_sold": 46,
-          "time": "06:00 PM",
-          "venue": "Fairyland Cinemas"
         },
         {
           "gross": 5550,
@@ -584,43 +584,31 @@
         }
       ],
       "shows": 17,
-      "tickets_sold": 894
+      "tickets_sold": 895
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
+          "The Odyssey"
+        ],
+        "canonical": "The Odyssey"
+      },
+      {
+        "aliases": [
           "Jana Nayagan",
-          "Jana Nayagan [T]"
-        ],
-        "canonical": "Jana Nayagan"
-      },
-      {
-        "aliases": [
-          "Maharaja Hostel"
-        ],
-        "canonical": "Maharaja Hostel"
-      },
-      {
-        "aliases": [
+          "Jana Nayagan [T]",
           "Jana Nayakan"
         ],
-        "canonical": "Jana Nayakan"
-      },
-      {
-        "aliases": [
-          "VARAVU",
-          "Varavu"
-        ],
-        "canonical": "Varavu"
+        "canonical": "Jana Nayagan"
       },
       {
         "aliases": [
           "LURK",
           "Lurk"
         ],
-        "canonical": "Lurk"
+        "canonical": "LURK"
       },
       {
         "aliases": [
@@ -632,9 +620,16 @@
       },
       {
         "aliases": [
-          "The Odyssey"
+          "VARAVU",
+          "Varavu"
         ],
-        "canonical": "The Odyssey"
+        "canonical": "VARAVU"
+      },
+      {
+        "aliases": [
+          "Maharaja Hostel"
+        ],
+        "canonical": "Maharaja Hostel"
       }
     ]
   }
