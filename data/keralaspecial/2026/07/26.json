@@ -1,6 +1,6 @@
 {
   "date": "2026-07-26",
-  "last_updated": "2026-07-26T21:36:48.417861+05:30",
+  "last_updated": "2026-07-26T23:34:47.017212+05:30",
   "movies": {
     "Jana Nayagan": {
       "gross": 795300,
@@ -117,6 +117,15 @@
               "venue": "Puthet Cinemas"
             },
             {
+              "gross": 19200,
+              "movie": "Jana Nayagan",
+              "screen": "SCREEN 1",
+              "showid": "3516",
+              "tickets_sold": 128,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
               "gross": 19050,
               "movie": "Jana Nayagan",
               "screen": "Screen-1",
@@ -198,6 +207,15 @@
               "venue": "Sandhya"
             },
             {
+              "gross": 13650,
+              "movie": "Jana Nayakan",
+              "screen": "SCREEN 1",
+              "showid": "9689",
+              "tickets_sold": 91,
+              "time": "09:30 PM",
+              "venue": "Harihar"
+            },
+            {
               "gross": 11850,
               "movie": "Jana Nayagan",
               "screen": "SCREEN 2",
@@ -232,15 +250,6 @@
               "tickets_sold": 71,
               "time": "02:30 PM",
               "venue": "Issacs"
-            },
-            {
-              "gross": 19200,
-              "movie": "Jana Nayagan",
-              "screen": "SCREEN 1",
-              "showid": "3516",
-              "tickets_sold": 128,
-              "time": "09:30 PM",
-              "venue": "Fairyland Cinemas"
             },
             {
               "gross": 8850,
@@ -324,6 +333,15 @@
               "venue": "Puthet Cinemas"
             },
             {
+              "gross": 4650,
+              "movie": "Jana Nayagan",
+              "screen": "Screen-1",
+              "showid": "7838",
+              "tickets_sold": 31,
+              "time": "10:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
               "gross": 4350,
               "movie": "Jana Nayakan",
               "screen": "SCREEN 3",
@@ -385,24 +403,6 @@
               "tickets_sold": 18,
               "time": "11:45 AM",
               "venue": "Davis Theatre"
-            },
-            {
-              "gross": 13650,
-              "movie": "Jana Nayakan",
-              "screen": "SCREEN 1",
-              "showid": "9689",
-              "tickets_sold": 91,
-              "time": "09:30 PM",
-              "venue": "Harihar"
-            },
-            {
-              "gross": 4650,
-              "movie": "Jana Nayagan",
-              "screen": "Screen-1",
-              "showid": "7838",
-              "tickets_sold": 31,
-              "time": "10:15 PM",
-              "venue": "Aiswarya Cinemas"
             },
             {
               "gross": 2100,
@@ -2405,6 +2405,15 @@
               "venue": "Issacs"
             },
             {
+              "gross": 3300,
+              "movie": "The Odyssey",
+              "screen": "SCREEN 3",
+              "showid": "9725",
+              "tickets_sold": 22,
+              "time": "09:30 PM",
+              "venue": "Harihar"
+            },
+            {
               "gross": 2850,
               "movie": "The Odyssey",
               "screen": "SCREEN 2",
@@ -2447,15 +2456,6 @@
               "showid": "9724",
               "tickets_sold": 15,
               "time": "11:20 AM",
-              "venue": "Harihar"
-            },
-            {
-              "gross": 3300,
-              "movie": "The Odyssey",
-              "screen": "SCREEN 3",
-              "showid": "9725",
-              "tickets_sold": 22,
-              "time": "09:30 PM",
               "venue": "Harihar"
             },
             {
@@ -2752,20 +2752,20 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 5700,
-              "movie": "Unknown",
-              "screen": "Dolby Atmos",
-              "showid": "5719",
-              "tickets_sold": 38,
-              "time": null,
-              "venue": "Girija Theatre"
-            },
-            {
               "gross": 10200,
               "movie": "Unknown",
               "screen": "Dolby Atmos",
               "showid": "5706",
               "tickets_sold": 68,
+              "time": null,
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 5700,
+              "movie": "Unknown",
+              "screen": "Dolby Atmos",
+              "showid": "5719",
+              "tickets_sold": 38,
               "time": null,
               "venue": "Girija Theatre"
             }
@@ -3638,18 +3638,22 @@
     "merged_movies": [
       {
         "aliases": [
-          "VARAVU",
-          "Varavu"
+          "The Odyssey"
         ],
-        "canonical": "VARAVU"
+        "canonical": "The Odyssey"
       },
       {
         "aliases": [
           "Jana Nayagan",
-          "Jana Nayagan [T]",
-          "Jana Nayakan"
+          "Jana Nayagan [T]"
         ],
         "canonical": "Jana Nayagan"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -3660,27 +3664,10 @@
       },
       {
         "aliases": [
-          "Unknown"
+          "VARAVU",
+          "Varavu"
         ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Maharaja Hostel"
-        ],
-        "canonical": "Maharaja Hostel"
-      },
-      {
-        "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
-      },
-      {
-        "aliases": [
-          "LURK"
-        ],
-        "canonical": "LURK"
+        "canonical": "VARAVU"
       }
     ]
   }
