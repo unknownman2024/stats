@@ -1,9 +1,9 @@
 {
   "date": "2026-07-27",
-  "last_updated": "2026-07-26T15:35:56.214723+05:30",
+  "last_updated": "2026-07-26T17:39:11.244912+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 20850,
+      "gross": 23250,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -27,11 +27,11 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 4050,
+              "gross": 5250,
               "movie": "Jana Nayagan",
               "screen": "Aiswarya",
               "showid": "7883",
-              "tickets_sold": 27,
+              "tickets_sold": 35,
               "time": "10:45 AM",
               "venue": "Aiswarya Cinemas"
             },
@@ -54,6 +54,15 @@
               "venue": "Davis Theatre"
             },
             {
+              "gross": 750,
+              "movie": "Jana Nayagan",
+              "screen": null,
+              "showid": "19008",
+              "tickets_sold": 5,
+              "time": "08:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
               "gross": 300,
               "movie": "Jana Nayagan",
               "screen": "Aiswarya",
@@ -63,18 +72,27 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 750,
+              "gross": 600,
               "movie": "Jana Nayagan",
-              "screen": null,
-              "showid": "19008",
-              "tickets_sold": 5,
-              "time": "08:30 PM",
-              "venue": "Puthet Cinemas"
+              "screen": "Screen-1",
+              "showid": "7916",
+              "tickets_sold": 4,
+              "time": "01:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 600,
+              "movie": "Jana Nayagan",
+              "screen": "Screen-1",
+              "showid": "7917",
+              "tickets_sold": 4,
+              "time": "07:30 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 20850,
-          "shows": 7,
-          "tickets_sold": 139
+          "gross": 23250,
+          "shows": 9,
+          "tickets_sold": 155
         },
         "without_gross": {
           "breakdown": [
@@ -194,27 +212,9 @@
               "tickets_sold": 0,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Jana Nayagan",
-              "screen": "Screen-1",
-              "showid": "7916",
-              "tickets_sold": 0,
-              "time": "01:30 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Jana Nayagan",
-              "screen": "Screen-1",
-              "showid": "7917",
-              "tickets_sold": 0,
-              "time": "07:30 PM",
-              "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 15,
+          "shows": 13,
           "tickets_sold": 0
         }
       },
@@ -238,11 +238,11 @@
           "venue": "Girija Theatre"
         },
         {
-          "gross": 4050,
+          "gross": 5250,
           "movie": "Jana Nayagan",
           "screen": "Aiswarya",
           "showid": "7883",
-          "tickets_sold": 27,
+          "tickets_sold": 35,
           "time": "10:45 AM",
           "venue": "Aiswarya Cinemas"
         },
@@ -272,6 +272,24 @@
           "tickets_sold": 5,
           "time": "08:30 PM",
           "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 600,
+          "movie": "Jana Nayagan",
+          "screen": "Screen-1",
+          "showid": "7916",
+          "tickets_sold": 4,
+          "time": "01:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 600,
+          "movie": "Jana Nayagan",
+          "screen": "Screen-1",
+          "showid": "7917",
+          "tickets_sold": 4,
+          "time": "07:30 PM",
+          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 300,
@@ -398,28 +416,10 @@
           "tickets_sold": 0,
           "time": "09:30 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Jana Nayagan",
-          "screen": "Screen-1",
-          "showid": "7916",
-          "tickets_sold": 0,
-          "time": "01:30 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Jana Nayagan",
-          "screen": "Screen-1",
-          "showid": "7917",
-          "tickets_sold": 0,
-          "time": "07:30 PM",
-          "venue": "Aiswarya Cinemas"
         }
       ],
       "shows": 22,
-      "tickets_sold": 139
+      "tickets_sold": 155
     },
     "Jana Nayagan [T]": {
       "gross": 0,
@@ -849,7 +849,7 @@
       "tickets_sold": 0
     },
     "The Odyssey": {
-      "gross": 300,
+      "gross": 750,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -862,11 +862,20 @@
               "tickets_sold": 2,
               "time": "02:30 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 450,
+              "movie": "The Odyssey",
+              "screen": null,
+              "showid": "19009",
+              "tickets_sold": 3,
+              "time": "11:00 AM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 300,
-          "shows": 1,
-          "tickets_sold": 2
+          "gross": 750,
+          "shows": 2,
+          "tickets_sold": 5
         },
         "without_gross": {
           "breakdown": [
@@ -937,15 +946,6 @@
               "gross": 0,
               "movie": "The Odyssey",
               "screen": null,
-              "showid": "19009",
-              "tickets_sold": 0,
-              "time": "11:00 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "The Odyssey",
-              "screen": null,
               "showid": "19010",
               "tickets_sold": 0,
               "time": "02:30 PM",
@@ -961,11 +961,20 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 10,
+          "shows": 9,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 450,
+          "movie": "The Odyssey",
+          "screen": null,
+          "showid": "19009",
+          "tickets_sold": 3,
+          "time": "11:00 AM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 300,
           "movie": "The Odyssey",
@@ -1042,15 +1051,6 @@
           "gross": 0,
           "movie": "The Odyssey",
           "screen": null,
-          "showid": "19009",
-          "tickets_sold": 0,
-          "time": "11:00 AM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "The Odyssey",
-          "screen": null,
           "showid": "19010",
           "tickets_sold": 0,
           "time": "02:30 PM",
@@ -1067,7 +1067,7 @@
         }
       ],
       "shows": 11,
-      "tickets_sold": 2
+      "tickets_sold": 5
     },
     "VARAVU": {
       "gross": 300,
@@ -1273,14 +1273,24 @@
       "tickets_sold": 2
     },
     "Varavu": {
-      "gross": 0,
+      "gross": 300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 300,
+              "movie": "VARAVU",
+              "screen": "Athulya",
+              "showid": "7910",
+              "tickets_sold": 2,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 300,
+          "shows": 1,
+          "tickets_sold": 2
         },
         "without_gross": {
           "breakdown": [
@@ -1315,15 +1325,6 @@
               "gross": 0,
               "movie": "VARAVU",
               "screen": "Athulya",
-              "showid": "7910",
-              "tickets_sold": 0,
-              "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "VARAVU",
-              "screen": "Athulya",
               "showid": "7911",
               "tickets_sold": 0,
               "time": "02:15 PM",
@@ -1346,13 +1347,49 @@
               "tickets_sold": 0,
               "time": "08:45 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Varavu",
+              "screen": null,
+              "showid": "19011",
+              "tickets_sold": 0,
+              "time": "11:30 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Varavu",
+              "screen": null,
+              "showid": "19012",
+              "tickets_sold": 0,
+              "time": "02:45 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Varavu",
+              "screen": null,
+              "showid": "19013",
+              "tickets_sold": 0,
+              "time": "06:00 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 7,
+          "shows": 9,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 300,
+          "movie": "VARAVU",
+          "screen": "Athulya",
+          "showid": "7910",
+          "tickets_sold": 2,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Varavu",
@@ -1384,15 +1421,6 @@
           "gross": 0,
           "movie": "VARAVU",
           "screen": "Athulya",
-          "showid": "7910",
-          "tickets_sold": 0,
-          "time": "11:00 AM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "VARAVU",
-          "screen": "Athulya",
           "showid": "7911",
           "tickets_sold": 0,
           "time": "02:15 PM",
@@ -1415,35 +1443,53 @@
           "tickets_sold": 0,
           "time": "08:45 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Varavu",
+          "screen": null,
+          "showid": "19011",
+          "tickets_sold": 0,
+          "time": "11:30 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Varavu",
+          "screen": null,
+          "showid": "19012",
+          "tickets_sold": 0,
+          "time": "02:45 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Varavu",
+          "screen": null,
+          "showid": "19013",
+          "tickets_sold": 0,
+          "time": "06:00 PM",
+          "venue": "Puthet Cinemas"
         }
       ],
-      "shows": 7,
-      "tickets_sold": 0
+      "shows": 10,
+      "tickets_sold": 2
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "LURK",
-          "Lurk"
-        ],
-        "canonical": "Lurk"
-      },
-      {
-        "aliases": [
-          "Jana Nayagan",
-          "Jana Nayagan [T]",
-          "Jana Nayakan"
-        ],
-        "canonical": "Jana Nayagan"
-      },
-      {
-        "aliases": [
           "VARAVU",
           "Varavu"
         ],
-        "canonical": "VARAVU"
+        "canonical": "Varavu"
+      },
+      {
+        "aliases": [
+          "Maharaja Hostel"
+        ],
+        "canonical": "Maharaja Hostel"
       },
       {
         "aliases": [
@@ -1453,23 +1499,36 @@
       },
       {
         "aliases": [
-          "SPIDER-MAN: BRAND NEW DAY 3D",
-          "Spider-Man: Brand New Day",
-          "Spider-Man:Brand New Day"
-        ],
-        "canonical": "Spider-Man:Brand New Day"
-      },
-      {
-        "aliases": [
           "The Odyssey"
         ],
         "canonical": "The Odyssey"
       },
       {
         "aliases": [
-          "Maharaja Hostel"
+          "Jana Nayagan",
+          "Jana Nayagan [T]"
         ],
-        "canonical": "Maharaja Hostel"
+        "canonical": "Jana Nayagan"
+      },
+      {
+        "aliases": [
+          "LURK",
+          "Lurk"
+        ],
+        "canonical": "Lurk"
+      },
+      {
+        "aliases": [
+          "Jana Nayakan"
+        ],
+        "canonical": "Jana Nayakan"
+      },
+      {
+        "aliases": [
+          "Spider-Man: Brand New Day",
+          "Spider-Man:Brand New Day"
+        ],
+        "canonical": "Spider-Man:Brand New Day"
       }
     ]
   }
