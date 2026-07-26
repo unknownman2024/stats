@@ -1,6 +1,6 @@
 {
   "date": "2026-07-30",
-  "last_updated": "2026-07-26T03:33:45.855693+05:30",
+  "last_updated": "2026-07-26T05:34:30.964940+05:30",
   "movies": {
     "Spider-Man: Brand New Day": {
       "gross": 105750,
@@ -259,7 +259,7 @@
       "tickets_sold": 705
     },
     "Spider-Man:Brand New Day": {
-      "gross": 134250,
+      "gross": 134850,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -373,11 +373,11 @@
               "venue": "Davis Theatre"
             },
             {
-              "gross": 2400,
+              "gross": 3000,
               "movie": "Spider-Man: Brand New Day",
               "screen": "Aiswarya",
               "showid": "7868",
-              "tickets_sold": 16,
+              "tickets_sold": 20,
               "time": "05:30 PM",
               "venue": "Aiswarya Cinemas"
             },
@@ -418,9 +418,9 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 134250,
+          "gross": 134850,
           "shows": 17,
-          "tickets_sold": 895
+          "tickets_sold": 899
         },
         "without_gross": {
           "breakdown": [],
@@ -520,6 +520,15 @@
           "venue": "Aiswarya Cinemas"
         },
         {
+          "gross": 3000,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": "Aiswarya",
+          "showid": "7868",
+          "tickets_sold": 20,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
           "gross": 2700,
           "movie": "Spider-Man: Brand New Day",
           "screen": "Aiswarya",
@@ -536,15 +545,6 @@
           "tickets_sold": 17,
           "time": "09:30 PM",
           "venue": "Davis Theatre"
-        },
-        {
-          "gross": 2400,
-          "movie": "Spider-Man: Brand New Day",
-          "screen": "Aiswarya",
-          "showid": "7868",
-          "tickets_sold": 16,
-          "time": "05:30 PM",
-          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 1800,
@@ -584,30 +584,30 @@
         }
       ],
       "shows": 17,
-      "tickets_sold": 895
+      "tickets_sold": 899
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "The Odyssey"
+          "LURK",
+          "Lurk"
         ],
-        "canonical": "The Odyssey"
+        "canonical": "LURK"
+      },
+      {
+        "aliases": [
+          "VARAVU",
+          "Varavu"
+        ],
+        "canonical": "Varavu"
       },
       {
         "aliases": [
           "Maharaja Hostel"
         ],
         "canonical": "Maharaja Hostel"
-      },
-      {
-        "aliases": [
-          "Jana Nayagan",
-          "Jana Nayagan [T]",
-          "Jana Nayakan"
-        ],
-        "canonical": "Jana Nayagan"
       },
       {
         "aliases": [
@@ -619,17 +619,17 @@
       },
       {
         "aliases": [
-          "VARAVU",
-          "Varavu"
+          "Jana Nayagan",
+          "Jana Nayagan [T]",
+          "Jana Nayakan"
         ],
-        "canonical": "Varavu"
+        "canonical": "Jana Nayagan"
       },
       {
         "aliases": [
-          "LURK",
-          "Lurk"
+          "The Odyssey"
         ],
-        "canonical": "LURK"
+        "canonical": "The Odyssey"
       }
     ]
   }

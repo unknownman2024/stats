@@ -1,19 +1,19 @@
 {
   "date": "2026-07-26",
-  "last_updated": "2026-07-26T03:33:45.848652+05:30",
+  "last_updated": "2026-07-26T05:34:30.957825+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 390900,
+      "gross": 391050,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 49350,
+              "gross": 49500,
               "movie": "Jana Nayagan",
               "screen": "Aiswarya",
               "showid": "7813",
-              "tickets_sold": 329,
+              "tickets_sold": 330,
               "time": "10:45 AM",
               "venue": "Aiswarya Cinemas"
             },
@@ -234,15 +234,6 @@
               "venue": "Harihar"
             },
             {
-              "gross": 3900,
-              "movie": "Jana Nayakan",
-              "screen": "SCREEN 1",
-              "showid": "9687",
-              "tickets_sold": 26,
-              "time": "02:30 PM",
-              "venue": "Harihar"
-            },
-            {
               "gross": 4200,
               "movie": "Jana Nayagan",
               "screen": "SAVITHA",
@@ -250,6 +241,15 @@
               "tickets_sold": 28,
               "time": "09:15 PM",
               "venue": "SFC"
+            },
+            {
+              "gross": 3900,
+              "movie": "Jana Nayakan",
+              "screen": "SCREEN 1",
+              "showid": "9687",
+              "tickets_sold": 26,
+              "time": "02:30 PM",
+              "venue": "Harihar"
             },
             {
               "gross": 3600,
@@ -351,9 +351,9 @@
               "venue": "Issacs"
             }
           ],
-          "gross": 390900,
+          "gross": 391050,
           "shows": 38,
-          "tickets_sold": 2606
+          "tickets_sold": 2607
         },
         "without_gross": {
           "breakdown": [
@@ -409,11 +409,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 49350,
+          "gross": 49500,
           "movie": "Jana Nayagan",
           "screen": "Aiswarya",
           "showid": "7813",
-          "tickets_sold": 329,
+          "tickets_sold": 330,
           "time": "10:45 AM",
           "venue": "Aiswarya Cinemas"
         },
@@ -797,7 +797,7 @@
         }
       ],
       "shows": 43,
-      "tickets_sold": 2606
+      "tickets_sold": 2607
     },
     "Jana Nayagan [T]": {
       "gross": 18150,
@@ -2054,6 +2054,15 @@
               "venue": "Harihar"
             },
             {
+              "gross": 1500,
+              "movie": "The Odyssey",
+              "screen": "SCREEN 3",
+              "showid": "3491",
+              "tickets_sold": 10,
+              "time": "05:45 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
               "gross": 1200,
               "movie": "The Odyssey",
               "screen": "Screen-2",
@@ -2133,15 +2142,6 @@
               "tickets_sold": 6,
               "time": "11:15 AM",
               "venue": "Issacs"
-            },
-            {
-              "gross": 1500,
-              "movie": "The Odyssey",
-              "screen": "SCREEN 3",
-              "showid": "3491",
-              "tickets_sold": 10,
-              "time": "05:45 PM",
-              "venue": "Fairyland Cinemas"
             },
             {
               "gross": 600,
@@ -3111,23 +3111,23 @@
     "merged_movies": [
       {
         "aliases": [
-          "The Odyssey"
+          "LURK",
+          "Lurk"
         ],
-        "canonical": "The Odyssey"
+        "canonical": "LURK"
+      },
+      {
+        "aliases": [
+          "VARAVU",
+          "Varavu"
+        ],
+        "canonical": "Varavu"
       },
       {
         "aliases": [
           "Maharaja Hostel"
         ],
         "canonical": "Maharaja Hostel"
-      },
-      {
-        "aliases": [
-          "Jana Nayagan",
-          "Jana Nayagan [T]",
-          "Jana Nayakan"
-        ],
-        "canonical": "Jana Nayagan"
       },
       {
         "aliases": [
@@ -3139,17 +3139,17 @@
       },
       {
         "aliases": [
-          "VARAVU",
-          "Varavu"
+          "Jana Nayagan",
+          "Jana Nayagan [T]",
+          "Jana Nayakan"
         ],
-        "canonical": "Varavu"
+        "canonical": "Jana Nayagan"
       },
       {
         "aliases": [
-          "LURK",
-          "Lurk"
+          "The Odyssey"
         ],
-        "canonical": "LURK"
+        "canonical": "The Odyssey"
       }
     ]
   }
