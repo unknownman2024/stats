@@ -1,6 +1,6 @@
 {
   "date": "2026-07-28",
-  "last_updated": "2026-07-26T05:34:30.963580+05:30",
+  "last_updated": "2026-07-26T10:00:44.054069+05:30",
   "movies": {
     "Jana Nayagan": {
       "gross": 1800,
@@ -336,7 +336,7 @@
       "tickets_sold": 0
     },
     "Jana Nayakan": {
-      "gross": 450,
+      "gross": 1800,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -349,11 +349,20 @@
               "tickets_sold": 3,
               "time": "10:45 AM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 1350,
+              "movie": "Jana Nayagan",
+              "screen": "Cinema-2",
+              "showid": "22445",
+              "tickets_sold": 9,
+              "time": "09:30 PM",
+              "venue": "Davis Theatre"
             }
           ],
-          "gross": 450,
-          "shows": 1,
-          "tickets_sold": 3
+          "gross": 1800,
+          "shows": 2,
+          "tickets_sold": 12
         },
         "without_gross": {
           "breakdown": [
@@ -383,13 +392,49 @@
               "tickets_sold": 0,
               "time": "09:15 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Jana Nayagan",
+              "screen": "Cinema-3",
+              "showid": "22441",
+              "tickets_sold": 0,
+              "time": "11:45 AM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Jana Nayagan",
+              "screen": "Cinema-3",
+              "showid": "22442",
+              "tickets_sold": 0,
+              "time": "03:00 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Jana Nayagan",
+              "screen": "Cinema-3",
+              "showid": "22443",
+              "tickets_sold": 0,
+              "time": "06:30 PM",
+              "venue": "Davis Theatre"
             }
           ],
-          "shows": 3,
+          "shows": 6,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1350,
+          "movie": "Jana Nayagan",
+          "screen": "Cinema-2",
+          "showid": "22445",
+          "tickets_sold": 9,
+          "time": "09:30 PM",
+          "venue": "Davis Theatre"
+        },
         {
           "gross": 450,
           "movie": "Jana Nayagan",
@@ -425,10 +470,37 @@
           "tickets_sold": 0,
           "time": "09:15 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Jana Nayagan",
+          "screen": "Cinema-3",
+          "showid": "22441",
+          "tickets_sold": 0,
+          "time": "11:45 AM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Jana Nayagan",
+          "screen": "Cinema-3",
+          "showid": "22442",
+          "tickets_sold": 0,
+          "time": "03:00 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Jana Nayagan",
+          "screen": "Cinema-3",
+          "showid": "22443",
+          "tickets_sold": 0,
+          "time": "06:30 PM",
+          "venue": "Davis Theatre"
         }
       ],
-      "shows": 4,
-      "tickets_sold": 3
+      "shows": 8,
+      "tickets_sold": 12
     },
     "Maharaja Hostel": {
       "gross": 0,
@@ -626,20 +698,7 @@
           "LURK",
           "Lurk"
         ],
-        "canonical": "LURK"
-      },
-      {
-        "aliases": [
-          "VARAVU",
-          "Varavu"
-        ],
-        "canonical": "Varavu"
-      },
-      {
-        "aliases": [
-          "Maharaja Hostel"
-        ],
-        "canonical": "Maharaja Hostel"
+        "canonical": "Lurk"
       },
       {
         "aliases": [
@@ -651,17 +710,35 @@
       },
       {
         "aliases": [
-          "Jana Nayagan",
-          "Jana Nayagan [T]",
-          "Jana Nayakan"
-        ],
-        "canonical": "Jana Nayagan"
-      },
-      {
-        "aliases": [
           "The Odyssey"
         ],
         "canonical": "The Odyssey"
+      },
+      {
+        "aliases": [
+          "Jana Nayagan",
+          "Jana Nayakan"
+        ],
+        "canonical": "Jana Nayakan"
+      },
+      {
+        "aliases": [
+          "Maharaja Hostel"
+        ],
+        "canonical": "Maharaja Hostel"
+      },
+      {
+        "aliases": [
+          "VARAVU",
+          "Varavu"
+        ],
+        "canonical": "VARAVU"
+      },
+      {
+        "aliases": [
+          "Jana Nayagan [T]"
+        ],
+        "canonical": "Jana Nayagan [T]"
       }
     ]
   }
