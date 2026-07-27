@@ -1,6 +1,6 @@
 {
   "date": "2026-07-29",
-  "last_updated": "2026-07-27T18:00:29.681132+05:30",
+  "last_updated": "2026-07-27T21:16:49.097987+05:30",
   "movies": {
     "Jana Nayagan": {
       "gross": 300,
@@ -561,14 +561,24 @@
       "tickets_sold": 0
     },
     "The Odyssey": {
-      "gross": 0,
+      "gross": 450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 450,
+              "movie": "The Odyssey",
+              "screen": "SCREEN 3",
+              "showid": "3566",
+              "tickets_sold": 3,
+              "time": "02:30 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "gross": 450,
+          "shows": 1,
+          "tickets_sold": 3
         },
         "without_gross": {
           "breakdown": [
@@ -621,15 +631,6 @@
               "gross": 0,
               "movie": "The Odyssey",
               "screen": "SCREEN 3",
-              "showid": "3566",
-              "tickets_sold": 0,
-              "time": "02:30 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "The Odyssey",
-              "screen": "SCREEN 3",
               "showid": "3567",
               "tickets_sold": 0,
               "time": "06:00 PM",
@@ -645,11 +646,20 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 450,
+          "movie": "The Odyssey",
+          "screen": "SCREEN 3",
+          "showid": "3566",
+          "tickets_sold": 3,
+          "time": "02:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
         {
           "gross": 0,
           "movie": "The Odyssey",
@@ -699,15 +709,6 @@
           "gross": 0,
           "movie": "The Odyssey",
           "screen": "SCREEN 3",
-          "showid": "3566",
-          "tickets_sold": 0,
-          "time": "02:30 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "The Odyssey",
-          "screen": "SCREEN 3",
           "showid": "3567",
           "tickets_sold": 0,
           "time": "06:00 PM",
@@ -724,11 +725,24 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 0
+      "tickets_sold": 3
     }
   },
   "verification": {
     "merged_movies": [
+      {
+        "aliases": [
+          "Jana Nayagan",
+          "Jana Nayakan"
+        ],
+        "canonical": "Jana Nayakan"
+      },
+      {
+        "aliases": [
+          "The Odyssey"
+        ],
+        "canonical": "The Odyssey"
+      },
       {
         "aliases": [
           "SPIDER-MAN: BRAND NEW DAY 3D",
@@ -739,29 +753,16 @@
       },
       {
         "aliases": [
-          "Jana Nayagan",
-          "Jana Nayakan"
-        ],
-        "canonical": "Jana Nayakan"
-      },
-      {
-        "aliases": [
           "VARAVU",
           "Varavu"
         ],
-        "canonical": "Varavu"
+        "canonical": "VARAVU"
       },
       {
         "aliases": [
           "Unknown"
         ],
         "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
       },
       {
         "aliases": [
