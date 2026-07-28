@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "last_updated": "2026-07-28T19:53:34.331612+05:30",
+  "last_updated": "2026-07-28T22:15:11.936527+05:30",
   "movies": {
     "Pluto": {
       "gross": 0,
@@ -97,14 +97,24 @@
       "tickets_sold": 0
     },
     "Spider-Man:Brand New Day": {
-      "gross": 0,
+      "gross": 600,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 600,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "19041",
+              "tickets_sold": 4,
+              "time": "11:00 AM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "gross": 600,
+          "shows": 1,
+          "tickets_sold": 4
         },
         "without_gross": {
           "breakdown": [
@@ -143,13 +153,49 @@
               "tickets_sold": 0,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "19042",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "19043",
+              "tickets_sold": 0,
+              "time": "06:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "19044",
+              "tickets_sold": 0,
+              "time": "09:00 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 4,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 600,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": null,
+          "showid": "19041",
+          "tickets_sold": 4,
+          "time": "11:00 AM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Spider-Man:Brand New Day",
@@ -185,10 +231,37 @@
           "tickets_sold": 0,
           "time": "09:30 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": null,
+          "showid": "19042",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": null,
+          "showid": "19043",
+          "tickets_sold": 0,
+          "time": "06:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": null,
+          "showid": "19044",
+          "tickets_sold": 0,
+          "time": "09:00 PM",
+          "venue": "Puthet Cinemas"
         }
       ],
-      "shows": 4,
-      "tickets_sold": 0
+      "shows": 8,
+      "tickets_sold": 4
     },
     "Unmadham": {
       "gross": 0,
@@ -289,22 +362,15 @@
     "merged_movies": [
       {
         "aliases": [
-          "Unmadham"
-        ],
-        "canonical": "Unmadham"
-      },
-      {
-        "aliases": [
           "Pluto"
         ],
         "canonical": "Pluto"
       },
       {
         "aliases": [
-          "VARAVU",
-          "Varavu"
+          "Unmadham"
         ],
-        "canonical": "VARAVU"
+        "canonical": "Unmadham"
       },
       {
         "aliases": [
@@ -323,9 +389,10 @@
       },
       {
         "aliases": [
-          "Jana Nayakan"
+          "VARAVU",
+          "Varavu"
         ],
-        "canonical": "Jana Nayakan"
+        "canonical": "Varavu"
       },
       {
         "aliases": [
