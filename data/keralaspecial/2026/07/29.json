@@ -1,6 +1,6 @@
 {
   "date": "2026-07-29",
-  "last_updated": "2026-07-28T22:15:11.930585+05:30",
+  "last_updated": "2026-07-28T23:49:14.761767+05:30",
   "movies": {
     "Jana Nayagan": {
       "gross": 23100,
@@ -777,7 +777,7 @@
       "tickets_sold": 0
     },
     "The Odyssey": {
-      "gross": 600,
+      "gross": 900,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -792,18 +792,18 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 150,
+              "gross": 450,
               "movie": "The Odyssey",
               "screen": "SCREEN 3",
               "showid": "3565",
-              "tickets_sold": 1,
+              "tickets_sold": 3,
               "time": "11:00 AM",
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 600,
+          "gross": 900,
           "shows": 2,
-          "tickets_sold": 4
+          "tickets_sold": 6
         },
         "without_gross": {
           "breakdown": [
@@ -904,11 +904,11 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 150,
+          "gross": 450,
           "movie": "The Odyssey",
           "screen": "SCREEN 3",
           "showid": "3565",
-          "tickets_sold": 1,
+          "tickets_sold": 3,
           "time": "11:00 AM",
           "venue": "Fairyland Cinemas"
         },
@@ -995,7 +995,7 @@
         }
       ],
       "shows": 11,
-      "tickets_sold": 4
+      "tickets_sold": 6
     },
     "VARAVU": {
       "gross": 0,
@@ -1263,25 +1263,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "Pluto"
-        ],
-        "canonical": "Pluto"
-      },
-      {
-        "aliases": [
-          "Unmadham"
-        ],
-        "canonical": "Unmadham"
-      },
-      {
-        "aliases": [
-          "Jana Nayagan",
-          "Jana Nayagan [T]"
-        ],
-        "canonical": "Jana Nayagan"
-      },
-      {
-        "aliases": [
           "SPIDER-MAN: BRAND NEW DAY 3D",
           "Spider-Man: Brand New Day",
           "Spider-Man:Brand New Day"
@@ -1297,9 +1278,28 @@
       },
       {
         "aliases": [
+          "Unmadham"
+        ],
+        "canonical": "Unmadham"
+      },
+      {
+        "aliases": [
+          "Pluto"
+        ],
+        "canonical": "Pluto"
+      },
+      {
+        "aliases": [
           "The Odyssey"
         ],
         "canonical": "The Odyssey"
+      },
+      {
+        "aliases": [
+          "Jana Nayagan",
+          "Jana Nayagan [T]"
+        ],
+        "canonical": "Jana Nayagan"
       }
     ]
   }
