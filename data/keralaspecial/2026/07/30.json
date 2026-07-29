@@ -1,8 +1,102 @@
 {
   "date": "2026-07-30",
-  "last_updated": "2026-07-29T03:40:33.902616+05:30",
+  "last_updated": "2026-07-29T05:32:46.313242+05:30",
   "movies": {
     "Jana Nayagan": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Jana Nayagan",
+              "screen": "SCREEN 1",
+              "showid": "3621",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Jana Nayagan",
+              "screen": "SCREEN 1",
+              "showid": "3622",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Jana Nayagan",
+              "screen": "SCREEN 1",
+              "showid": "3623",
+              "tickets_sold": 0,
+              "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Jana Nayagan",
+              "screen": "SCREEN 1",
+              "showid": "3624",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "shows": 4,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Jana Nayagan",
+          "screen": "SCREEN 1",
+          "showid": "3621",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Jana Nayagan",
+          "screen": "SCREEN 1",
+          "showid": "3622",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Jana Nayagan",
+          "screen": "SCREEN 1",
+          "showid": "3623",
+          "tickets_sold": 0,
+          "time": "06:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Jana Nayagan",
+          "screen": "SCREEN 1",
+          "showid": "3624",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Fairyland Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 0
+    },
+    "Jana Nayakan": {
       "gross": 0,
       "occupancy": null,
       "seats_type": {
@@ -851,31 +945,25 @@
     "merged_movies": [
       {
         "aliases": [
-          "Jana Nayagan",
-          "Jana Nayagan [T]"
+          "SPIDER-MAN: BRAND NEW DAY 3D",
+          "Spider-Man: Brand New Day",
+          "Spider-Man:Brand New Day"
         ],
-        "canonical": "Jana Nayagan"
+        "canonical": "Spider-Man:Brand New Day"
       },
       {
         "aliases": [
-          "Maharaja Hostel"
+          "Jana Nayagan",
+          "Jana Nayakan"
         ],
-        "canonical": "Maharaja Hostel"
+        "canonical": "Jana Nayakan"
       },
       {
         "aliases": [
           "VARAVU",
           "Varavu"
         ],
-        "canonical": "VARAVU"
-      },
-      {
-        "aliases": [
-          "SPIDER-MAN: BRAND NEW DAY 3D",
-          "Spider-Man: Brand New Day",
-          "Spider-Man:Brand New Day"
-        ],
-        "canonical": "Spider-Man:Brand New Day"
+        "canonical": "Varavu"
       },
       {
         "aliases": [
@@ -885,21 +973,27 @@
       },
       {
         "aliases": [
-          "Jana Nayakan"
+          "Maharaja Hostel"
         ],
-        "canonical": "Jana Nayakan"
-      },
-      {
-        "aliases": [
-          "Pluto"
-        ],
-        "canonical": "Pluto"
+        "canonical": "Maharaja Hostel"
       },
       {
         "aliases": [
           "Unmadham"
         ],
         "canonical": "Unmadham"
+      },
+      {
+        "aliases": [
+          "Jana Nayagan [T]"
+        ],
+        "canonical": "Jana Nayagan [T]"
+      },
+      {
+        "aliases": [
+          "Pluto"
+        ],
+        "canonical": "Pluto"
       }
     ]
   }
