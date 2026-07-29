@@ -1,7 +1,101 @@
 {
   "date": "2026-08-01",
-  "last_updated": "2026-07-29T13:17:40.583719+05:30",
+  "last_updated": "2026-07-29T16:15:01.690249+05:30",
   "movies": {
+    "PLUTO": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Pluto",
+              "screen": "SCREEN 2",
+              "showid": "3577",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Pluto",
+              "screen": "SCREEN 2",
+              "showid": "3578",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Pluto",
+              "screen": "SCREEN 2",
+              "showid": "3579",
+              "tickets_sold": 0,
+              "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Pluto",
+              "screen": "SCREEN 2",
+              "showid": "3580",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "shows": 4,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Pluto",
+          "screen": "SCREEN 2",
+          "showid": "3577",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Pluto",
+          "screen": "SCREEN 2",
+          "showid": "3578",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Pluto",
+          "screen": "SCREEN 2",
+          "showid": "3579",
+          "tickets_sold": 0,
+          "time": "06:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Pluto",
+          "screen": "SCREEN 2",
+          "showid": "3580",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Fairyland Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 0
+    },
     "Pluto": {
       "gross": 0,
       "occupancy": null,
@@ -264,7 +358,7 @@
       "tickets_sold": 202
     },
     "Spider-Man:Brand New Day": {
-      "gross": 125700,
+      "gross": 127950,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -279,20 +373,20 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 26400,
+              "gross": 26700,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
               "showid": "18972",
-              "tickets_sold": 176,
+              "tickets_sold": 178,
               "time": "11:00 AM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 24450,
+              "gross": 25350,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
               "showid": "18973",
-              "tickets_sold": 163,
+              "tickets_sold": 169,
               "time": "02:30 PM",
               "venue": "Puthet Cinemas"
             },
@@ -306,11 +400,11 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 13800,
+              "gross": 14850,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
               "showid": "18975",
-              "tickets_sold": 92,
+              "tickets_sold": 99,
               "time": "09:00 PM",
               "venue": "Puthet Cinemas"
             },
@@ -378,9 +472,9 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 125700,
+          "gross": 127950,
           "shows": 12,
-          "tickets_sold": 838
+          "tickets_sold": 853
         },
         "without_gross": {
           "breakdown": [
@@ -409,20 +503,20 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 26400,
+          "gross": 26700,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
           "showid": "18972",
-          "tickets_sold": 176,
+          "tickets_sold": 178,
           "time": "11:00 AM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 24450,
+          "gross": 25350,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
           "showid": "18973",
-          "tickets_sold": 163,
+          "tickets_sold": 169,
           "time": "02:30 PM",
           "venue": "Puthet Cinemas"
         },
@@ -436,11 +530,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 13800,
+          "gross": 14850,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
           "showid": "18975",
-          "tickets_sold": 92,
+          "tickets_sold": 99,
           "time": "09:00 PM",
           "venue": "Puthet Cinemas"
         },
@@ -518,7 +612,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 838
+      "tickets_sold": 853
     },
     "Unmadham": {
       "gross": 0,
@@ -619,12 +713,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "Maharaja Hostel"
-        ],
-        "canonical": "Maharaja Hostel"
-      },
-      {
-        "aliases": [
           "Jana Nayagan",
           "Jana Nayagan [T]",
           "Jana Nayakan"
@@ -633,10 +721,23 @@
       },
       {
         "aliases": [
-          "VARAVU",
-          "Varavu"
+          "PLUTO",
+          "Pluto"
         ],
-        "canonical": "Varavu"
+        "canonical": "PLUTO"
+      },
+      {
+        "aliases": [
+          "Maharaja Hostel"
+        ],
+        "canonical": "Maharaja Hostel"
+      },
+      {
+        "aliases": [
+          "UNMADHAM ...",
+          "Unmadham"
+        ],
+        "canonical": "Unmadham"
       },
       {
         "aliases": [
@@ -648,16 +749,10 @@
       },
       {
         "aliases": [
-          "PLUTO",
-          "Pluto"
+          "VARAVU",
+          "Varavu"
         ],
-        "canonical": "Pluto"
-      },
-      {
-        "aliases": [
-          "Unmadham"
-        ],
-        "canonical": "Unmadham"
+        "canonical": "Varavu"
       },
       {
         "aliases": [
