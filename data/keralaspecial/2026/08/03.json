@@ -1,6 +1,6 @@
 {
   "date": "2026-08-03",
-  "last_updated": "2026-07-29T22:50:42.260019+05:30",
+  "last_updated": "2026-07-30T00:55:40.132932+05:30",
   "movies": {
     "PLUTO": {
       "gross": 0,
@@ -189,6 +189,173 @@
       ],
       "shows": 4,
       "tickets_sold": 0
+    },
+    "Spider-Man Brand New Day": {
+      "gross": 7200,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [
+            {
+              "gross": 750,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "19041",
+              "tickets_sold": 5,
+              "time": "11:00 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 3600,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "19042",
+              "tickets_sold": 24,
+              "time": "02:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 2850,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "19043",
+              "tickets_sold": 19,
+              "time": "06:00 PM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "gross": 7200,
+          "shows": 3,
+          "tickets_sold": 48
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "19044",
+              "tickets_sold": 0,
+              "time": "09:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Spider-Man:Brand New Day",
+              "screen": "SCREEN 3",
+              "showid": "3533",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Spider-Man:Brand New Day",
+              "screen": "SCREEN 3",
+              "showid": "3534",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Spider-Man:Brand New Day",
+              "screen": "SCREEN 3",
+              "showid": "3535",
+              "tickets_sold": 0,
+              "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Spider-Man:Brand New Day",
+              "screen": "SCREEN 3",
+              "showid": "3536",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "shows": 5,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 3600,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": null,
+          "showid": "19042",
+          "tickets_sold": 24,
+          "time": "02:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 2850,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": null,
+          "showid": "19043",
+          "tickets_sold": 19,
+          "time": "06:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 750,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": null,
+          "showid": "19041",
+          "tickets_sold": 5,
+          "time": "11:00 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": null,
+          "showid": "19044",
+          "tickets_sold": 0,
+          "time": "09:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Spider-Man:Brand New Day",
+          "screen": "SCREEN 3",
+          "showid": "3533",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Spider-Man:Brand New Day",
+          "screen": "SCREEN 3",
+          "showid": "3534",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Spider-Man:Brand New Day",
+          "screen": "SCREEN 3",
+          "showid": "3535",
+          "tickets_sold": 0,
+          "time": "06:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Spider-Man:Brand New Day",
+          "screen": "SCREEN 3",
+          "showid": "3536",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Fairyland Cinemas"
+        }
+      ],
+      "shows": 8,
+      "tickets_sold": 48
     },
     "Spider-Man:Brand New Day": {
       "gross": 6600,
@@ -456,18 +623,19 @@
     "merged_movies": [
       {
         "aliases": [
+          "SPIDER-MAN: BRAND NEW DAY 3D",
+          "Spider-Man Brand New Day",
+          "Spider-Man: Brand New Day",
+          "Spider-Man:Brand New Day"
+        ],
+        "canonical": "Spider-Man Brand New Day"
+      },
+      {
+        "aliases": [
           "UNMADHAM ...",
           "Unmadham"
         ],
         "canonical": "Unmadham"
-      },
-      {
-        "aliases": [
-          "SPIDER-MAN: BRAND NEW DAY 3D",
-          "Spider-Man: Brand New Day",
-          "Spider-Man:Brand New Day"
-        ],
-        "canonical": "Spider-Man:Brand New Day"
       },
       {
         "aliases": [
@@ -490,7 +658,8 @@
       },
       {
         "aliases": [
-          "Jana Nayagan"
+          "Jana Nayagan",
+          "Jana Nayakan"
         ],
         "canonical": "Jana Nayagan"
       }
