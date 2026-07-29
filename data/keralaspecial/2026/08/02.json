@@ -1,6 +1,6 @@
 {
   "date": "2026-08-02",
-  "last_updated": "2026-07-30T00:55:40.131219+05:30",
+  "last_updated": "2026-07-30T02:32:43.222475+05:30",
   "movies": {
     "PLUTO": {
       "gross": 0,
@@ -197,15 +197,6 @@
         "with_gross": {
           "breakdown": [
             {
-              "gross": 25950,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": null,
-              "showid": "18976",
-              "tickets_sold": 173,
-              "time": "11:00 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 28500,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
@@ -215,21 +206,21 @@
               "venue": "Puthet Cinemas"
             },
             {
+              "gross": 25950,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "18976",
+              "tickets_sold": 173,
+              "time": "11:00 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
               "gross": 17100,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
               "showid": "18978",
               "tickets_sold": 114,
               "time": "06:00 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 5250,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": null,
-              "showid": "18979",
-              "tickets_sold": 35,
-              "time": "09:00 PM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -251,13 +242,13 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 4350,
+              "gross": 5250,
               "movie": "Spider-Man: Brand New Day",
-              "screen": "Aiswarya",
-              "showid": "7905",
-              "tickets_sold": 29,
-              "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
+              "screen": null,
+              "showid": "18979",
+              "tickets_sold": 35,
+              "time": "09:00 PM",
+              "venue": "Puthet Cinemas"
             },
             {
               "gross": 4500,
@@ -266,6 +257,15 @@
               "showid": "7906",
               "tickets_sold": 30,
               "time": "02:00 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 4350,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "Aiswarya",
+              "showid": "7905",
+              "tickets_sold": 29,
+              "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -615,26 +615,26 @@
       "tickets_sold": 86
     },
     "Spider-Man:Brand New Day": {
-      "gross": 97050,
+      "gross": 97650,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 28200,
+              "gross": 28500,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
               "showid": "18977",
-              "tickets_sold": 188,
+              "tickets_sold": 190,
               "time": "02:30 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 25650,
+              "gross": 25950,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
               "showid": "18976",
-              "tickets_sold": 171,
+              "tickets_sold": 173,
               "time": "11:00 AM",
               "venue": "Puthet Cinemas"
             },
@@ -702,9 +702,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 97050,
+          "gross": 97650,
           "shows": 9,
-          "tickets_sold": 647
+          "tickets_sold": 651
         },
         "without_gross": {
           "breakdown": [
@@ -751,20 +751,20 @@
       },
       "show_breakdown": [
         {
-          "gross": 28200,
+          "gross": 28500,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
           "showid": "18977",
-          "tickets_sold": 188,
+          "tickets_sold": 190,
           "time": "02:30 PM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 25650,
+          "gross": 25950,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
           "showid": "18976",
-          "tickets_sold": 171,
+          "tickets_sold": 173,
           "time": "11:00 AM",
           "venue": "Puthet Cinemas"
         },
@@ -869,7 +869,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 647
+      "tickets_sold": 651
     },
     "Unmadham": {
       "gross": 0,
@@ -970,25 +970,10 @@
     "merged_movies": [
       {
         "aliases": [
-          "SPIDER-MAN: BRAND NEW DAY 3D",
-          "Spider-Man Brand New Day",
-          "Spider-Man: Brand New Day",
-          "Spider-Man:Brand New Day"
-        ],
-        "canonical": "Spider-Man Brand New Day"
-      },
-      {
-        "aliases": [
           "UNMADHAM ...",
           "Unmadham"
         ],
         "canonical": "Unmadham"
-      },
-      {
-        "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
       },
       {
         "aliases": [
@@ -998,17 +983,32 @@
       },
       {
         "aliases": [
-          "PLUTO",
-          "Pluto"
+          "SPIDER-MAN: BRAND NEW DAY 3D",
+          "Spider-Man Brand New Day",
+          "Spider-Man: Brand New Day",
+          "Spider-Man:Brand New Day"
         ],
-        "canonical": "PLUTO"
+        "canonical": "Spider-Man:Brand New Day"
+      },
+      {
+        "aliases": [
+          "The Odyssey"
+        ],
+        "canonical": "The Odyssey"
       },
       {
         "aliases": [
           "Jana Nayagan",
           "Jana Nayakan"
         ],
-        "canonical": "Jana Nayagan"
+        "canonical": "Jana Nayakan"
+      },
+      {
+        "aliases": [
+          "PLUTO",
+          "Pluto"
+        ],
+        "canonical": "PLUTO"
       }
     ]
   }
