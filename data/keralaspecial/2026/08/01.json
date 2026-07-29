@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "last_updated": "2026-07-30T02:32:43.220525+05:30",
+  "last_updated": "2026-07-30T04:32:36.245993+05:30",
   "movies": {
     "PLUTO": {
       "gross": 0,
@@ -191,7 +191,7 @@
       "tickets_sold": 0
     },
     "Spider-Man Brand New Day": {
-      "gross": 156150,
+      "gross": 156300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -206,11 +206,11 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 29100,
+              "gross": 29250,
               "movie": "Spider-Man:Brand New Day",
               "screen": "SCREEN 3",
               "showid": "3526",
-              "tickets_sold": 194,
+              "tickets_sold": 195,
               "time": "02:30 PM",
               "venue": "Fairyland Cinemas"
             },
@@ -305,9 +305,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 156150,
+          "gross": 156300,
           "shows": 12,
-          "tickets_sold": 1041
+          "tickets_sold": 1042
         },
         "without_gross": {
           "breakdown": [
@@ -327,6 +327,15 @@
       },
       "show_breakdown": [
         {
+          "gross": 29250,
+          "movie": "Spider-Man:Brand New Day",
+          "screen": "SCREEN 3",
+          "showid": "3526",
+          "tickets_sold": 195,
+          "time": "02:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
           "gross": 29100,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
@@ -334,15 +343,6 @@
           "tickets_sold": 194,
           "time": "11:00 AM",
           "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 29100,
-          "movie": "Spider-Man:Brand New Day",
-          "screen": "SCREEN 3",
-          "showid": "3526",
-          "tickets_sold": 194,
-          "time": "02:30 PM",
-          "venue": "Fairyland Cinemas"
         },
         {
           "gross": 26700,
@@ -445,7 +445,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 1041
+      "tickets_sold": 1042
     },
     "Spider-Man: Brand New Day": {
       "gross": 30300,
@@ -977,9 +977,17 @@
       },
       {
         "aliases": [
-          "Varavu"
+          "PLUTO",
+          "Pluto"
         ],
-        "canonical": "Varavu"
+        "canonical": "Pluto"
+      },
+      {
+        "aliases": [
+          "Jana Nayagan",
+          "Jana Nayakan"
+        ],
+        "canonical": "Jana Nayagan"
       },
       {
         "aliases": [
@@ -988,7 +996,7 @@
           "Spider-Man: Brand New Day",
           "Spider-Man:Brand New Day"
         ],
-        "canonical": "Spider-Man:Brand New Day"
+        "canonical": "Spider-Man Brand New Day"
       },
       {
         "aliases": [
@@ -998,17 +1006,9 @@
       },
       {
         "aliases": [
-          "Jana Nayagan",
-          "Jana Nayakan"
+          "Varavu"
         ],
-        "canonical": "Jana Nayakan"
-      },
-      {
-        "aliases": [
-          "PLUTO",
-          "Pluto"
-        ],
-        "canonical": "PLUTO"
+        "canonical": "Varavu"
       }
     ]
   }
