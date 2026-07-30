@@ -1,6 +1,6 @@
 {
   "date": "2026-08-02",
-  "last_updated": "2026-07-31T01:48:19.102938+05:30",
+  "last_updated": "2026-07-31T03:41:21.805010+05:30",
   "movies": {
     "Jana Nayagan": {
       "gross": 900,
@@ -98,24 +98,24 @@
       "tickets_sold": 6
     },
     "Jana Nayakan": {
-      "gross": 300,
+      "gross": 900,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 300,
+              "gross": 900,
               "movie": "Jana Nayagan",
               "screen": "Athulya",
               "showid": "7968",
-              "tickets_sold": 2,
+              "tickets_sold": 6,
               "time": "02:10 PM",
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 300,
+          "gross": 900,
           "shows": 1,
-          "tickets_sold": 2
+          "tickets_sold": 6
         },
         "without_gross": {
           "breakdown": [
@@ -153,11 +153,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 300,
+          "gross": 900,
           "movie": "Jana Nayagan",
           "screen": "Athulya",
           "showid": "7968",
-          "tickets_sold": 2,
+          "tickets_sold": 6,
           "time": "02:10 PM",
           "venue": "Aiswarya Cinemas"
         },
@@ -190,7 +190,7 @@
         }
       ],
       "shows": 4,
-      "tickets_sold": 2
+      "tickets_sold": 6
     },
     "PLUTO": {
       "gross": 0,
@@ -1107,15 +1107,6 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 11100,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": "Aiswarya",
-              "showid": "7905",
-              "tickets_sold": 74,
-              "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
               "gross": 12150,
               "movie": "Spider-Man:Brand New Day",
               "screen": "SCREEN 3",
@@ -1125,12 +1116,12 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 7350,
+              "gross": 11100,
               "movie": "Spider-Man: Brand New Day",
               "screen": "Aiswarya",
-              "showid": "7906",
-              "tickets_sold": 49,
-              "time": "02:00 PM",
+              "showid": "7905",
+              "tickets_sold": 74,
+              "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -1141,6 +1132,15 @@
               "tickets_sold": 53,
               "time": "06:00 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 7350,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "Aiswarya",
+              "showid": "7906",
+              "tickets_sold": 49,
+              "time": "02:00 PM",
+              "venue": "Aiswarya Cinemas"
             },
             {
               "gross": 4800,
@@ -1188,15 +1188,6 @@
               "venue": "Davis Theatre"
             },
             {
-              "gross": 900,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": "Aiswarya",
-              "showid": "7908",
-              "tickets_sold": 6,
-              "time": "08:30 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
               "gross": 1200,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
@@ -1204,6 +1195,15 @@
               "tickets_sold": 8,
               "time": "11:45 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 900,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "Aiswarya",
+              "showid": "7908",
+              "tickets_sold": 6,
+              "time": "08:30 PM",
+              "venue": "Aiswarya Cinemas"
             },
             {
               "gross": 450,
@@ -1572,20 +1572,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "Jana Nayagan",
-          "Jana Nayakan"
-        ],
-        "canonical": "Jana Nayagan"
-      },
-      {
-        "aliases": [
-          "PLUTO",
-          "Pluto"
-        ],
-        "canonical": "Pluto"
-      },
-      {
-        "aliases": [
           "SPIDER-MAN: BRAND NEW DAY 3D",
           "Spider-Man Brand New Day",
           "Spider-Man: Brand New Day",
@@ -1595,16 +1581,30 @@
       },
       {
         "aliases": [
+          "UNMADHAM ...",
+          "Unmadham"
+        ],
+        "canonical": "Unmadham"
+      },
+      {
+        "aliases": [
+          "PLUTO",
+          "Pluto"
+        ],
+        "canonical": "PLUTO"
+      },
+      {
+        "aliases": [
           "Kandan"
         ],
         "canonical": "Kandan"
       },
       {
         "aliases": [
-          "UNMADHAM ...",
-          "Unmadham"
+          "Jana Nayagan",
+          "Jana Nayakan"
         ],
-        "canonical": "Unmadham"
+        "canonical": "Jana Nayakan"
       }
     ]
   }
