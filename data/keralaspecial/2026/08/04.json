@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "last_updated": "2026-07-30T11:17:35.246241+05:30",
+  "last_updated": "2026-07-30T14:07:22.208062+05:30",
   "movies": {
     "PLUTO": {
       "gross": 0,
@@ -191,7 +191,7 @@
       "tickets_sold": 0
     },
     "Spider-Man Brand New Day": {
-      "gross": 150,
+      "gross": 450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -204,11 +204,20 @@
               "tickets_sold": 1,
               "time": "02:30 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "19047",
+              "tickets_sold": 2,
+              "time": "06:00 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 150,
-          "shows": 1,
-          "tickets_sold": 1
+          "gross": 450,
+          "shows": 2,
+          "tickets_sold": 3
         },
         "without_gross": {
           "breakdown": [
@@ -219,15 +228,6 @@
               "showid": "19045",
               "tickets_sold": 0,
               "time": "11:00 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": null,
-              "showid": "19047",
-              "tickets_sold": 0,
-              "time": "06:00 PM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -276,11 +276,20 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 7,
+          "shows": 6,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 300,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": null,
+          "showid": "19047",
+          "tickets_sold": 2,
+          "time": "06:00 PM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 150,
           "movie": "Spider-Man: Brand New Day",
@@ -297,15 +306,6 @@
           "showid": "19045",
           "tickets_sold": 0,
           "time": "11:00 AM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Spider-Man: Brand New Day",
-          "screen": null,
-          "showid": "19047",
-          "tickets_sold": 0,
-          "time": "06:00 PM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -355,7 +355,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 1
+      "tickets_sold": 3
     },
     "Spider-Man:Brand New Day": {
       "gross": 450,
@@ -364,21 +364,21 @@
         "with_gross": {
           "breakdown": [
             {
-              "gross": 150,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": null,
-              "showid": "19046",
-              "tickets_sold": 1,
-              "time": "02:30 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 300,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
               "showid": "19047",
               "tickets_sold": 2,
               "time": "06:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 150,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "19046",
+              "tickets_sold": 1,
+              "time": "02:30 PM",
               "venue": "Puthet Cinemas"
             }
           ],
@@ -623,25 +623,25 @@
     "merged_movies": [
       {
         "aliases": [
-          "Varavu"
+          "SPIDER-MAN: BRAND NEW DAY 3D",
+          "Spider-Man Brand New Day",
+          "Spider-Man: Brand New Day",
+          "Spider-Man:Brand New Day"
         ],
-        "canonical": "Varavu"
+        "canonical": "Spider-Man Brand New Day"
       },
       {
         "aliases": [
           "Jana Nayagan",
           "Jana Nayakan"
         ],
-        "canonical": "Jana Nayakan"
+        "canonical": "Jana Nayagan"
       },
       {
         "aliases": [
-          "SPIDER-MAN: BRAND NEW DAY 3D",
-          "Spider-Man Brand New Day",
-          "Spider-Man: Brand New Day",
-          "Spider-Man:Brand New Day"
+          "Unmadham"
         ],
-        "canonical": "Spider-Man:Brand New Day"
+        "canonical": "Unmadham"
       },
       {
         "aliases": [
@@ -652,10 +652,15 @@
       },
       {
         "aliases": [
-          "UNMADHAM ...",
-          "Unmadham"
+          "Varavu"
         ],
-        "canonical": "Unmadham"
+        "canonical": "Varavu"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       }
     ]
   }
