@@ -1,6 +1,6 @@
 {
   "date": "2026-08-01",
-  "last_updated": "2026-07-30T04:32:36.245993+05:30",
+  "last_updated": "2026-07-30T08:18:30.632277+05:30",
   "movies": {
     "PLUTO": {
       "gross": 0,
@@ -197,15 +197,6 @@
         "with_gross": {
           "breakdown": [
             {
-              "gross": 29100,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": null,
-              "showid": "18972",
-              "tickets_sold": 194,
-              "time": "11:00 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 29250,
               "movie": "Spider-Man:Brand New Day",
               "screen": "SCREEN 3",
@@ -213,6 +204,15 @@
               "tickets_sold": 195,
               "time": "02:30 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 29100,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "18972",
+              "tickets_sold": 194,
+              "time": "11:00 AM",
+              "venue": "Puthet Cinemas"
             },
             {
               "gross": 26700,
@@ -615,17 +615,17 @@
       "tickets_sold": 202
     },
     "Spider-Man:Brand New Day": {
-      "gross": 156150,
+      "gross": 156900,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 29100,
+              "gross": 29250,
               "movie": "Spider-Man:Brand New Day",
               "screen": "SCREEN 3",
               "showid": "3526",
-              "tickets_sold": 194,
+              "tickets_sold": 195,
               "time": "02:30 PM",
               "venue": "Fairyland Cinemas"
             },
@@ -648,11 +648,11 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 19050,
+              "gross": 19650,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
               "showid": "18975",
-              "tickets_sold": 127,
+              "tickets_sold": 131,
               "time": "09:00 PM",
               "venue": "Puthet Cinemas"
             },
@@ -729,9 +729,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 156150,
+          "gross": 156900,
           "shows": 12,
-          "tickets_sold": 1041
+          "tickets_sold": 1046
         },
         "without_gross": {
           "breakdown": [
@@ -751,11 +751,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 29100,
+          "gross": 29250,
           "movie": "Spider-Man:Brand New Day",
           "screen": "SCREEN 3",
           "showid": "3526",
-          "tickets_sold": 194,
+          "tickets_sold": 195,
           "time": "02:30 PM",
           "venue": "Fairyland Cinemas"
         },
@@ -778,11 +778,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 19050,
+          "gross": 19650,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
           "showid": "18975",
-          "tickets_sold": 127,
+          "tickets_sold": 131,
           "time": "09:00 PM",
           "venue": "Puthet Cinemas"
         },
@@ -869,7 +869,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 1041
+      "tickets_sold": 1046
     },
     "Unmadham": {
       "gross": 0,
@@ -970,17 +970,9 @@
     "merged_movies": [
       {
         "aliases": [
-          "UNMADHAM ...",
-          "Unmadham"
+          "The Odyssey"
         ],
-        "canonical": "Unmadham"
-      },
-      {
-        "aliases": [
-          "PLUTO",
-          "Pluto"
-        ],
-        "canonical": "Pluto"
+        "canonical": "The Odyssey"
       },
       {
         "aliases": [
@@ -991,18 +983,26 @@
       },
       {
         "aliases": [
+          "PLUTO",
+          "Pluto"
+        ],
+        "canonical": "PLUTO"
+      },
+      {
+        "aliases": [
+          "UNMADHAM ...",
+          "Unmadham"
+        ],
+        "canonical": "Unmadham"
+      },
+      {
+        "aliases": [
           "SPIDER-MAN: BRAND NEW DAY 3D",
           "Spider-Man Brand New Day",
           "Spider-Man: Brand New Day",
           "Spider-Man:Brand New Day"
         ],
-        "canonical": "Spider-Man Brand New Day"
-      },
-      {
-        "aliases": [
-          "The Odyssey"
-        ],
-        "canonical": "The Odyssey"
+        "canonical": "Spider-Man:Brand New Day"
       },
       {
         "aliases": [
