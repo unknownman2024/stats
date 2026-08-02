@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "last_updated": "2026-08-02T20:09:07.805220+05:30",
+  "last_updated": "2026-08-02T21:34:46.329295+05:30",
   "movies": {
     "Jana Nayagan": {
       "gross": 0,
@@ -610,21 +610,21 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 1650,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": null,
-              "showid": "19045",
-              "tickets_sold": 11,
-              "time": "11:00 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 2400,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
               "showid": "19046",
               "tickets_sold": 16,
               "time": "02:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 1650,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "19045",
+              "tickets_sold": 11,
+              "time": "11:00 AM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -942,7 +942,7 @@
       "tickets_sold": 55
     },
     "Spider-Man:Brand New Day": {
-      "gross": 6450,
+      "gross": 8250,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -957,20 +957,20 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 1200,
+              "gross": 1650,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
               "showid": "19045",
-              "tickets_sold": 8,
+              "tickets_sold": 11,
               "time": "11:00 AM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 1050,
+              "gross": 2400,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
               "showid": "19046",
-              "tickets_sold": 7,
+              "tickets_sold": 16,
               "time": "02:30 PM",
               "venue": "Puthet Cinemas"
             },
@@ -993,9 +993,9 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 6450,
+          "gross": 8250,
           "shows": 5,
-          "tickets_sold": 43
+          "tickets_sold": 55
         },
         "without_gross": {
           "breakdown": [
@@ -1132,21 +1132,21 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 1200,
-          "movie": "Spider-Man: Brand New Day",
-          "screen": null,
-          "showid": "19045",
-          "tickets_sold": 8,
-          "time": "11:00 AM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 1050,
+          "gross": 2400,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
           "showid": "19046",
-          "tickets_sold": 7,
+          "tickets_sold": 16,
           "time": "02:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 1650,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": null,
+          "showid": "19045",
+          "tickets_sold": 11,
+          "time": "11:00 AM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -1286,7 +1286,7 @@
         }
       ],
       "shows": 18,
-      "tickets_sold": 43
+      "tickets_sold": 55
     },
     "Unmadham": {
       "gross": 0,
@@ -1513,19 +1513,13 @@
     "merged_movies": [
       {
         "aliases": [
-          "Jana Nayagan"
-        ],
-        "canonical": "Jana Nayagan"
-      },
-      {
-        "aliases": [
           "SPIDER MAN: Brand New Day",
           "SPIDER-MAN: BRAND NEW DAY 3D",
           "Spider-Man Brand New Day",
           "Spider-Man: Brand New Day",
           "Spider-Man:Brand New Day"
         ],
-        "canonical": "Spider-Man Brand New Day"
+        "canonical": "Spider-Man:Brand New Day"
       },
       {
         "aliases": [
@@ -1536,16 +1530,22 @@
       },
       {
         "aliases": [
+          "UNMADHAM ...",
+          "Unmadham"
+        ],
+        "canonical": "Unmadham"
+      },
+      {
+        "aliases": [
           "Unknown"
         ],
         "canonical": "Unknown"
       },
       {
         "aliases": [
-          "UNMADHAM ...",
-          "Unmadham"
+          "Jana Nayagan"
         ],
-        "canonical": "Unmadham"
+        "canonical": "Jana Nayagan"
       }
     ]
   }
