@@ -1,6 +1,6 @@
 {
   "date": "2026-08-04",
-  "last_updated": "2026-08-03T04:34:59.378293+05:30",
+  "last_updated": "2026-08-03T09:02:22.010463+05:30",
   "movies": {
     "Jana Nayagan": {
       "gross": 0,
@@ -942,7 +942,7 @@
       "tickets_sold": 59
     },
     "Spider-Man:Brand New Day": {
-      "gross": 8550,
+      "gross": 8850,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -984,18 +984,18 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 450,
+              "gross": 750,
               "movie": "Spider-Man:Brand New Day",
               "screen": "SCREEN 3",
               "showid": "3537",
-              "tickets_sold": 3,
+              "tickets_sold": 5,
               "time": "11:00 AM",
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 8550,
+          "gross": 8850,
           "shows": 5,
-          "tickets_sold": 57
+          "tickets_sold": 59
         },
         "without_gross": {
           "breakdown": [
@@ -1150,6 +1150,15 @@
           "venue": "Puthet Cinemas"
         },
         {
+          "gross": 750,
+          "movie": "Spider-Man:Brand New Day",
+          "screen": "SCREEN 3",
+          "showid": "3537",
+          "tickets_sold": 5,
+          "time": "11:00 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
           "gross": 600,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
@@ -1157,15 +1166,6 @@
           "tickets_sold": 4,
           "time": "09:00 PM",
           "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 450,
-          "movie": "Spider-Man:Brand New Day",
-          "screen": "SCREEN 3",
-          "showid": "3537",
-          "tickets_sold": 3,
-          "time": "11:00 AM",
-          "venue": "Fairyland Cinemas"
         },
         {
           "gross": 0,
@@ -1286,17 +1286,27 @@
         }
       ],
       "shows": 18,
-      "tickets_sold": 57
+      "tickets_sold": 59
     },
     "Unmadham": {
-      "gross": 0,
+      "gross": 300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 300,
+              "movie": "Unmadham",
+              "screen": "Dolby Atmos",
+              "showid": "5754",
+              "tickets_sold": 2,
+              "time": "03:00 PM",
+              "venue": "Girija Theatre"
+            }
+          ],
+          "gross": 300,
+          "shows": 1,
+          "tickets_sold": 2
         },
         "without_gross": {
           "breakdown": [
@@ -1389,22 +1399,22 @@
               "tickets_sold": 0,
               "time": "12:00 PM",
               "venue": "Girija Theatre"
-            },
-            {
-              "gross": 0,
-              "movie": "Unmadham",
-              "screen": "Dolby Atmos",
-              "showid": "5754",
-              "tickets_sold": 0,
-              "time": "03:00 PM",
-              "venue": "Girija Theatre"
             }
           ],
-          "shows": 11,
+          "shows": 10,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 300,
+          "movie": "Unmadham",
+          "screen": "Dolby Atmos",
+          "showid": "5754",
+          "tickets_sold": 2,
+          "time": "03:00 PM",
+          "venue": "Girija Theatre"
+        },
         {
           "gross": 0,
           "movie": "Unmadham",
@@ -1494,30 +1504,14 @@
           "tickets_sold": 0,
           "time": "12:00 PM",
           "venue": "Girija Theatre"
-        },
-        {
-          "gross": 0,
-          "movie": "Unmadham",
-          "screen": "Dolby Atmos",
-          "showid": "5754",
-          "tickets_sold": 0,
-          "time": "03:00 PM",
-          "venue": "Girija Theatre"
         }
       ],
       "shows": 11,
-      "tickets_sold": 0
+      "tickets_sold": 2
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "UNMADHAM ...",
-          "Unmadham"
-        ],
-        "canonical": "Unmadham"
-      },
       {
         "aliases": [
           "SPIDER MAN: Brand New Day",
@@ -1526,14 +1520,7 @@
           "Spider-Man: Brand New Day",
           "Spider-Man:Brand New Day"
         ],
-        "canonical": "Spider-Man Brand New Day"
-      },
-      {
-        "aliases": [
-          "Jana Nayagan",
-          "Jana Nayakan"
-        ],
-        "canonical": "Jana Nayagan"
+        "canonical": "Spider-Man:Brand New Day"
       },
       {
         "aliases": [
@@ -1541,6 +1528,20 @@
           "Pluto"
         ],
         "canonical": "PLUTO"
+      },
+      {
+        "aliases": [
+          "Jana Nayagan",
+          "Jana Nayakan"
+        ],
+        "canonical": "Jana Nayakan"
+      },
+      {
+        "aliases": [
+          "UNMADHAM ...",
+          "Unmadham"
+        ],
+        "canonical": "Unmadham"
       },
       {
         "aliases": [
