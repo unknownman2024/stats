@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "last_updated": "2026-08-04T08:45:17.593822+05:30",
+  "last_updated": "2026-08-04T12:02:43.422330+05:30",
   "movies": {
     "Jana Nayagan": {
       "gross": 0,
@@ -451,7 +451,7 @@
       "tickets_sold": 0
     },
     "Spider-Man Brand New Day": {
-      "gross": 2700,
+      "gross": 3150,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -491,32 +491,32 @@
               "tickets_sold": 1,
               "time": "02:00 PM",
               "venue": "Aiswarya Cinemas"
-            }
-          ],
-          "gross": 2700,
-          "shows": 4,
-          "tickets_sold": 18
-        },
-        "without_gross": {
-          "breakdown": [
+            },
             {
-              "gross": 0,
+              "gross": 150,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
               "showid": "19049",
-              "tickets_sold": 0,
+              "tickets_sold": 1,
               "time": "11:00 AM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 0,
+              "gross": 300,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
               "showid": "19050",
-              "tickets_sold": 0,
+              "tickets_sold": 2,
               "time": "02:30 PM",
               "venue": "Puthet Cinemas"
-            },
+            }
+          ],
+          "gross": 3150,
+          "shows": 6,
+          "tickets_sold": 21
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "Spider-Man:Brand New Day",
@@ -644,7 +644,7 @@
               "venue": "Davis Theatre"
             }
           ],
-          "shows": 16,
+          "shows": 14,
           "tickets_sold": 0
         }
       },
@@ -668,6 +668,15 @@
           "venue": "Puthet Cinemas"
         },
         {
+          "gross": 300,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": null,
+          "showid": "19050",
+          "tickets_sold": 2,
+          "time": "02:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 150,
           "movie": "SPIDER MAN: Brand New Day",
           "screen": "Screen-2",
@@ -686,21 +695,12 @@
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 0,
+          "gross": 150,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
           "showid": "19049",
-          "tickets_sold": 0,
+          "tickets_sold": 1,
           "time": "11:00 AM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Spider-Man: Brand New Day",
-          "screen": null,
-          "showid": "19050",
-          "tickets_sold": 0,
-          "time": "02:30 PM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -831,7 +831,7 @@
         }
       ],
       "shows": 20,
-      "tickets_sold": 18
+      "tickets_sold": 21
     },
     "Spider-Man:Brand New Day": {
       "gross": 3450,
@@ -1441,10 +1441,10 @@
     "merged_movies": [
       {
         "aliases": [
-          "PLUTO",
-          "Pluto"
+          "UNMADHAM ...",
+          "Unmadham"
         ],
-        "canonical": "PLUTO"
+        "canonical": "Unmadham"
       },
       {
         "aliases": [
@@ -1458,23 +1458,23 @@
       },
       {
         "aliases": [
-          "UNMADHAM ...",
-          "Unmadham"
+          "Unknown"
         ],
-        "canonical": "Unmadham"
+        "canonical": "Unknown"
       },
       {
         "aliases": [
           "Jana Nayagan",
           "Jana Nayakan"
         ],
-        "canonical": "Jana Nayakan"
+        "canonical": "Jana Nayagan"
       },
       {
         "aliases": [
-          "Unknown"
+          "PLUTO",
+          "Pluto"
         ],
-        "canonical": "Unknown"
+        "canonical": "Pluto"
       }
     ]
   }
