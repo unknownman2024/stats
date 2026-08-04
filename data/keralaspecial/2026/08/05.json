@@ -1,6 +1,6 @@
 {
   "date": "2026-08-05",
-  "last_updated": "2026-08-05T02:47:31.878243+05:30",
+  "last_updated": "2026-08-05T04:37:44.213625+05:30",
   "movies": {
     "Jana Nayagan": {
       "gross": 900,
@@ -307,21 +307,21 @@
         "with_gross": {
           "breakdown": [
             {
-              "gross": 300,
-              "movie": "Pluto",
-              "screen": "SARITHA",
-              "showid": "19875",
-              "tickets_sold": 2,
-              "time": "11:30 AM",
-              "venue": "SFC"
-            },
-            {
               "gross": 450,
               "movie": "Pluto",
               "screen": "SARITHA",
               "showid": "19878",
               "tickets_sold": 3,
               "time": "08:30 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 300,
+              "movie": "Pluto",
+              "screen": "SARITHA",
+              "showid": "19875",
+              "tickets_sold": 2,
+              "time": "11:30 AM",
               "venue": "SFC"
             }
           ],
@@ -851,7 +851,7 @@
       "tickets_sold": 5
     },
     "Spider-Man Brand New Day": {
-      "gross": 88800,
+      "gross": 89400,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -866,11 +866,11 @@
               "venue": "SFC"
             },
             {
-              "gross": 9750,
+              "gross": 10050,
               "movie": "Spider-Man: Brand New Day",
               "screen": "SAVITHA",
               "showid": "19872",
-              "tickets_sold": 65,
+              "tickets_sold": 67,
               "time": "02:30 PM",
               "venue": "SFC"
             },
@@ -938,11 +938,11 @@
               "venue": "Sandhya"
             },
             {
-              "gross": 3450,
+              "gross": 3600,
               "movie": "Spider-Man: Brand New Day",
               "screen": "SCREEN 1",
               "showid": "8765",
-              "tickets_sold": 23,
+              "tickets_sold": 24,
               "time": "10:30 AM",
               "venue": "Sandhya"
             },
@@ -974,11 +974,11 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 2250,
+              "gross": 2400,
               "movie": "Spider-Man: Brand New Day",
               "screen": "SAVITHA",
               "showid": "19873",
-              "tickets_sold": 15,
+              "tickets_sold": 16,
               "time": "05:45 PM",
               "venue": "SFC"
             },
@@ -1163,9 +1163,9 @@
               "venue": "Jose"
             }
           ],
-          "gross": 88800,
+          "gross": 89400,
           "shows": 34,
-          "tickets_sold": 592
+          "tickets_sold": 596
         },
         "without_gross": {
           "breakdown": [
@@ -1284,11 +1284,11 @@
           "venue": "SFC"
         },
         {
-          "gross": 9750,
+          "gross": 10050,
           "movie": "Spider-Man: Brand New Day",
           "screen": "SAVITHA",
           "showid": "19872",
-          "tickets_sold": 65,
+          "tickets_sold": 67,
           "time": "02:30 PM",
           "venue": "SFC"
         },
@@ -1356,11 +1356,11 @@
           "venue": "Sandhya"
         },
         {
-          "gross": 3450,
+          "gross": 3600,
           "movie": "Spider-Man: Brand New Day",
           "screen": "SCREEN 1",
           "showid": "8765",
-          "tickets_sold": 23,
+          "tickets_sold": 24,
           "time": "10:30 AM",
           "venue": "Sandhya"
         },
@@ -1383,6 +1383,15 @@
           "venue": "Fairyland Cinemas"
         },
         {
+          "gross": 2400,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": "SAVITHA",
+          "showid": "19873",
+          "tickets_sold": 16,
+          "time": "05:45 PM",
+          "venue": "SFC"
+        },
+        {
           "gross": 2250,
           "movie": "Spider-Man:Brand New Day",
           "screen": "SCREEN 3",
@@ -1390,15 +1399,6 @@
           "tickets_sold": 15,
           "time": "06:00 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 2250,
-          "movie": "Spider-Man: Brand New Day",
-          "screen": "SAVITHA",
-          "showid": "19873",
-          "tickets_sold": 15,
-          "time": "05:45 PM",
-          "venue": "SFC"
         },
         {
           "gross": 2100,
@@ -1681,7 +1681,7 @@
         }
       ],
       "shows": 45,
-      "tickets_sold": 592
+      "tickets_sold": 596
     },
     "Spider-Man:Brand New Day": {
       "gross": 34950,
@@ -2562,17 +2562,24 @@
     "merged_movies": [
       {
         "aliases": [
-          "Jana Nayagan",
-          "Jana Nayakan"
-        ],
-        "canonical": "Jana Nayagan"
-      },
-      {
-        "aliases": [
           "PLUTO",
           "Pluto"
         ],
-        "canonical": "PLUTO"
+        "canonical": "Pluto"
+      },
+      {
+        "aliases": [
+          "UNMADHAM ...",
+          "Unmadham"
+        ],
+        "canonical": "Unmadham"
+      },
+      {
+        "aliases": [
+          "Jana Nayagan",
+          "Jana Nayakan"
+        ],
+        "canonical": "Jana Nayakan"
       },
       {
         "aliases": [
@@ -2583,13 +2590,6 @@
           "Spider-Man:Brand New Day"
         ],
         "canonical": "Spider-Man Brand New Day"
-      },
-      {
-        "aliases": [
-          "UNMADHAM ...",
-          "Unmadham"
-        ],
-        "canonical": "Unmadham"
       }
     ]
   }
