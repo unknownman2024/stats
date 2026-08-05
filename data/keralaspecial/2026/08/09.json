@@ -1,6 +1,6 @@
 {
   "date": "2026-08-09",
-  "last_updated": "2026-08-05T08:26:14.782469+05:30",
+  "last_updated": "2026-08-05T11:22:27.618786+05:30",
   "movies": {
     "Spider-Man Brand New Day": {
       "gross": 150,
@@ -191,6 +191,101 @@
       ],
       "shows": 4,
       "tickets_sold": 1
+    },
+    "Thudakkam": {
+      "gross": 14400,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [
+            {
+              "gross": 1800,
+              "movie": "Thudakkam",
+              "screen": "SCREEN 1",
+              "showid": "3662",
+              "tickets_sold": 12,
+              "time": "02:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 5400,
+              "movie": "Thudakkam",
+              "screen": "SCREEN 1",
+              "showid": "3663",
+              "tickets_sold": 36,
+              "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 7200,
+              "movie": "Thudakkam",
+              "screen": "SCREEN 1",
+              "showid": "3664",
+              "tickets_sold": 48,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "gross": 14400,
+          "shows": 3,
+          "tickets_sold": 96
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Thudakkam",
+              "screen": "SCREEN 1",
+              "showid": "3661",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "shows": 1,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 7200,
+          "movie": "Thudakkam",
+          "screen": "SCREEN 1",
+          "showid": "3664",
+          "tickets_sold": 48,
+          "time": "09:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 5400,
+          "movie": "Thudakkam",
+          "screen": "SCREEN 1",
+          "showid": "3663",
+          "tickets_sold": 36,
+          "time": "06:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 1800,
+          "movie": "Thudakkam",
+          "screen": "SCREEN 1",
+          "showid": "3662",
+          "tickets_sold": 12,
+          "time": "02:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Thudakkam",
+          "screen": "SCREEN 1",
+          "showid": "3661",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Fairyland Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 96
     }
   },
   "verification": {
@@ -207,17 +302,10 @@
       },
       {
         "aliases": [
-          "PLUTO",
-          "Pluto"
-        ],
-        "canonical": "PLUTO"
-      },
-      {
-        "aliases": [
           "Jana Nayagan",
           "Jana Nayakan"
         ],
-        "canonical": "Jana Nayakan"
+        "canonical": "Jana Nayagan"
       },
       {
         "aliases": [
@@ -225,6 +313,19 @@
           "Unmadham"
         ],
         "canonical": "Unmadham"
+      },
+      {
+        "aliases": [
+          "PLUTO",
+          "Pluto"
+        ],
+        "canonical": "PLUTO"
+      },
+      {
+        "aliases": [
+          "Thudakkam"
+        ],
+        "canonical": "Thudakkam"
       }
     ]
   }
