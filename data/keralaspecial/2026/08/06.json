@@ -1,6 +1,6 @@
 {
   "date": "2026-08-06",
-  "last_updated": "2026-08-05T13:51:04.378124+05:30",
+  "last_updated": "2026-08-05T14:14:47.433266+05:30",
   "movies": {
     "Jana Nayagan": {
       "gross": 0,
@@ -111,9 +111,27 @@
               "tickets_sold": 0,
               "time": "09:30 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "PLUTO",
+              "screen": "Dolby Atmos",
+              "showid": "5763",
+              "tickets_sold": 0,
+              "time": "06:30 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "PLUTO",
+              "screen": "Dolby Atmos",
+              "showid": "5764",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Girija Theatre"
             }
           ],
-          "shows": 2,
+          "shows": 4,
           "tickets_sold": 0
         }
       },
@@ -135,9 +153,27 @@
           "tickets_sold": 0,
           "time": "09:30 PM",
           "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "PLUTO",
+          "screen": "Dolby Atmos",
+          "showid": "5763",
+          "tickets_sold": 0,
+          "time": "06:30 PM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "PLUTO",
+          "screen": "Dolby Atmos",
+          "showid": "5764",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Girija Theatre"
         }
       ],
-      "shows": 2,
+      "shows": 4,
       "tickets_sold": 0
     },
     "Pluto": {
@@ -235,7 +271,7 @@
       "tickets_sold": 0
     },
     "Spider-Man Brand New Day": {
-      "gross": 1200,
+      "gross": 1350,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -266,11 +302,20 @@
               "tickets_sold": 2,
               "time": "11:00 AM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 150,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "19131",
+              "tickets_sold": 1,
+              "time": "06:00 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 1200,
-          "shows": 3,
-          "tickets_sold": 8
+          "gross": 1350,
+          "shows": 4,
+          "tickets_sold": 9
         },
         "without_gross": {
           "breakdown": [
@@ -386,15 +431,6 @@
               "gross": 0,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
-              "showid": "19131",
-              "tickets_sold": 0,
-              "time": "06:00 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": null,
               "showid": "19132",
               "tickets_sold": 0,
               "time": "09:00 PM",
@@ -437,7 +473,7 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 18,
+          "shows": 17,
           "tickets_sold": 0
         }
       },
@@ -467,6 +503,15 @@
           "showid": "19129",
           "tickets_sold": 2,
           "time": "11:00 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 150,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": null,
+          "showid": "19131",
+          "tickets_sold": 1,
+          "time": "06:00 PM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -581,15 +626,6 @@
           "gross": 0,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
-          "showid": "19131",
-          "tickets_sold": 0,
-          "time": "06:00 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Spider-Man: Brand New Day",
-          "screen": null,
           "showid": "19132",
           "tickets_sold": 0,
           "time": "09:00 PM",
@@ -633,7 +669,7 @@
         }
       ],
       "shows": 21,
-      "tickets_sold": 8
+      "tickets_sold": 9
     },
     "Spider-Man:Brand New Day": {
       "gross": 1350,
@@ -1261,27 +1297,10 @@
     "merged_movies": [
       {
         "aliases": [
-          "SPIDER MAN: Brand New Day",
-          "SPIDER-MAN: BRAND NEW DAY 3D",
-          "Spider-Man Brand New Day",
-          "Spider-Man: Brand New Day",
-          "Spider-Man:Brand New Day"
-        ],
-        "canonical": "Spider-Man:Brand New Day"
-      },
-      {
-        "aliases": [
           "Thudakkam",
           "Thudakkam [M]"
         ],
         "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "PLUTO",
-          "Pluto"
-        ],
-        "canonical": "Pluto"
       },
       {
         "aliases": [
@@ -1296,6 +1315,23 @@
           "Unmadham"
         ],
         "canonical": "Unmadham"
+      },
+      {
+        "aliases": [
+          "PLUTO",
+          "Pluto"
+        ],
+        "canonical": "PLUTO"
+      },
+      {
+        "aliases": [
+          "SPIDER MAN: Brand New Day",
+          "SPIDER-MAN: BRAND NEW DAY 3D",
+          "Spider-Man Brand New Day",
+          "Spider-Man: Brand New Day",
+          "Spider-Man:Brand New Day"
+        ],
+        "canonical": "Spider-Man Brand New Day"
       }
     ]
   }
