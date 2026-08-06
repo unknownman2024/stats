@@ -1,19 +1,19 @@
 {
   "date": "2026-08-06",
-  "last_updated": "2026-08-06T13:13:56.504792+05:30",
+  "last_updated": "2026-08-06T16:14:59.828131+05:30",
   "movies": {
     "Jana Nayagan": {
-      "gross": 1200,
+      "gross": 2400,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 900,
+              "gross": 1350,
               "movie": "Jana Nayagan",
               "screen": "SCREEN 2",
               "showid": "8777",
-              "tickets_sold": 6,
+              "tickets_sold": 9,
               "time": "07:00 PM",
               "venue": "Sandhya"
             },
@@ -25,11 +25,20 @@
               "tickets_sold": 2,
               "time": "02:10 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 750,
+              "movie": "Jana Nayagan",
+              "screen": "Athulya",
+              "showid": "8102",
+              "tickets_sold": 5,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 1200,
-          "shows": 2,
-          "tickets_sold": 8
+          "gross": 2400,
+          "shows": 3,
+          "tickets_sold": 16
         },
         "without_gross": {
           "breakdown": [
@@ -55,34 +64,34 @@
               "gross": 0,
               "movie": "Jana Nayagan",
               "screen": "Athulya",
-              "showid": "8102",
-              "tickets_sold": 0,
-              "time": "05:30 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Jana Nayagan",
-              "screen": "Athulya",
               "showid": "8103",
               "tickets_sold": 0,
               "time": "09:00 PM",
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 4,
+          "shows": 3,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 900,
+          "gross": 1350,
           "movie": "Jana Nayagan",
           "screen": "SCREEN 2",
           "showid": "8777",
-          "tickets_sold": 6,
+          "tickets_sold": 9,
           "time": "07:00 PM",
           "venue": "Sandhya"
+        },
+        {
+          "gross": 750,
+          "movie": "Jana Nayagan",
+          "screen": "Athulya",
+          "showid": "8102",
+          "tickets_sold": 5,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 300,
@@ -115,15 +124,6 @@
           "gross": 0,
           "movie": "Jana Nayagan",
           "screen": "Athulya",
-          "showid": "8102",
-          "tickets_sold": 0,
-          "time": "05:30 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Jana Nayagan",
-          "screen": "Athulya",
           "showid": "8103",
           "tickets_sold": 0,
           "time": "09:00 PM",
@@ -131,7 +131,7 @@
         }
       ],
       "shows": 6,
-      "tickets_sold": 8
+      "tickets_sold": 16
     },
     "Jana Nayakan": {
       "gross": 0,
@@ -542,73 +542,37 @@
       "tickets_sold": 0
     },
     "Spider-Man Brand New Day": {
-      "gross": 64350,
+      "gross": 85350,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 1650,
+              "gross": 10650,
               "movie": "Spider-Man: Brand New Day",
-              "screen": null,
-              "showid": "19127",
-              "tickets_sold": 11,
-              "time": "06:30 PM",
-              "venue": "Puthet Cinemas"
+              "screen": "SCREEN 1",
+              "showid": "8767",
+              "tickets_sold": 71,
+              "time": "01:30 PM",
+              "venue": "Sandhya"
             },
             {
-              "gross": 5400,
+              "gross": 12450,
               "movie": "Spider-Man: Brand New Day",
-              "screen": null,
-              "showid": "19132",
-              "tickets_sold": 36,
+              "screen": "SAVITHA",
+              "showid": "19886",
+              "tickets_sold": 83,
               "time": "09:00 PM",
-              "venue": "Puthet Cinemas"
+              "venue": "SFC"
             },
             {
-              "gross": 1050,
-              "movie": "Spider-Man:Brand New Day",
-              "screen": "SCREEN 3",
-              "showid": "3627",
-              "tickets_sold": 7,
-              "time": "06:00 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 300,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": null,
-              "showid": "19129",
-              "tickets_sold": 2,
-              "time": "11:00 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 5550,
+              "gross": 8250,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
               "showid": "19131",
-              "tickets_sold": 37,
+              "tickets_sold": 55,
               "time": "06:00 PM",
               "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 3000,
-              "movie": "Spider-Man:Brand New Day",
-              "screen": "SCREEN 3",
-              "showid": "3626",
-              "tickets_sold": 20,
-              "time": "02:30 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 1350,
-              "movie": "Spider-Man:Brand New Day",
-              "screen": "SCREEN 3",
-              "showid": "3628",
-              "tickets_sold": 9,
-              "time": "09:30 PM",
-              "venue": "Fairyland Cinemas"
             },
             {
               "gross": 5550,
@@ -620,13 +584,22 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 750,
-              "movie": "SPIDER MAN: Brand New Day",
-              "screen": "Screen-2",
-              "showid": "8093",
-              "tickets_sold": 5,
-              "time": "02:15 PM",
-              "venue": "Aiswarya Cinemas"
+              "gross": 6000,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "19132",
+              "tickets_sold": 40,
+              "time": "09:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 7050,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "SAVITHA",
+              "showid": "19885",
+              "tickets_sold": 47,
+              "time": "05:45 PM",
+              "venue": "SFC"
             },
             {
               "gross": 3150,
@@ -638,22 +611,40 @@
               "venue": "SFC"
             },
             {
-              "gross": 3450,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": "SAVITHA",
-              "showid": "19885",
-              "tickets_sold": 23,
-              "time": "05:45 PM",
-              "venue": "SFC"
+              "gross": 3000,
+              "movie": "Spider-Man:Brand New Day",
+              "screen": "SCREEN 3",
+              "showid": "3626",
+              "tickets_sold": 20,
+              "time": "02:30 PM",
+              "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 8700,
+              "gross": 2550,
+              "movie": "Spider-Man Brand New Day",
+              "screen": "SCREEN 1",
+              "showid": "9842",
+              "tickets_sold": 17,
+              "time": "06:30 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 2550,
               "movie": "Spider-Man: Brand New Day",
-              "screen": "SAVITHA",
-              "showid": "19886",
-              "tickets_sold": 58,
-              "time": "09:00 PM",
-              "venue": "SFC"
+              "screen": null,
+              "showid": "19127",
+              "tickets_sold": 17,
+              "time": "06:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 2850,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "SCREEN 1",
+              "showid": "8769",
+              "tickets_sold": 19,
+              "time": "07:30 PM",
+              "venue": "Sandhya"
             },
             {
               "gross": 1500,
@@ -665,31 +656,22 @@
               "venue": "Harihar"
             },
             {
-              "gross": 2100,
-              "movie": "Spider-Man Brand New Day",
-              "screen": "SCREEN 1",
-              "showid": "9842",
-              "tickets_sold": 14,
-              "time": "06:30 PM",
-              "venue": "Harihar"
-            },
-            {
-              "gross": 450,
-              "movie": "Spider-Man Brand New Day",
-              "screen": "SCREEN 1",
-              "showid": "9843",
-              "tickets_sold": 3,
-              "time": "09:30 PM",
-              "venue": "Harihar"
-            },
-            {
-              "gross": 300,
+              "gross": 1500,
               "movie": "Spider-Man: Brand New Day",
               "screen": "SCREEN 1",
-              "showid": "6867",
-              "tickets_sold": 2,
-              "time": "02:30 PM",
-              "venue": "Issacs"
+              "showid": "9166",
+              "tickets_sold": 10,
+              "time": "02:00 PM",
+              "venue": "Jose"
+            },
+            {
+              "gross": 1350,
+              "movie": "Spider-Man:Brand New Day",
+              "screen": "SCREEN 3",
+              "showid": "3628",
+              "tickets_sold": 9,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
             },
             {
               "gross": 1350,
@@ -701,22 +683,22 @@
               "venue": "Issacs"
             },
             {
-              "gross": 900,
+              "gross": 2250,
               "movie": "Spider-Man: Brand New Day",
               "screen": "SCREEN 1",
-              "showid": "6869",
-              "tickets_sold": 6,
-              "time": "09:00 PM",
-              "venue": "Issacs"
+              "showid": "9168",
+              "tickets_sold": 15,
+              "time": "08:30 PM",
+              "venue": "Jose"
             },
             {
-              "gross": 1500,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": "SCREEN 1",
-              "showid": "9166",
-              "tickets_sold": 10,
-              "time": "02:00 PM",
-              "venue": "Jose"
+              "gross": 3150,
+              "movie": "Spider-Man:Brand New Day",
+              "screen": "SCREEN 3",
+              "showid": "3627",
+              "tickets_sold": 21,
+              "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
             },
             {
               "gross": 1050,
@@ -728,42 +710,6 @@
               "venue": "Jose"
             },
             {
-              "gross": 1350,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": "SCREEN 1",
-              "showid": "9168",
-              "tickets_sold": 9,
-              "time": "08:30 PM",
-              "venue": "Jose"
-            },
-            {
-              "gross": 10650,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": "SCREEN 1",
-              "showid": "8767",
-              "tickets_sold": 71,
-              "time": "01:30 PM",
-              "venue": "Sandhya"
-            },
-            {
-              "gross": 600,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": "SCREEN 1",
-              "showid": "8768",
-              "tickets_sold": 4,
-              "time": "04:30 PM",
-              "venue": "Sandhya"
-            },
-            {
-              "gross": 1650,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": "SCREEN 1",
-              "showid": "8769",
-              "tickets_sold": 11,
-              "time": "07:30 PM",
-              "venue": "Sandhya"
-            },
-            {
               "gross": 1050,
               "movie": "Spider-Man: Brand New Day",
               "screen": "SCREEN 1",
@@ -771,11 +717,74 @@
               "tickets_sold": 7,
               "time": "10:30 PM",
               "venue": "Sandhya"
+            },
+            {
+              "gross": 1350,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "SCREEN 1",
+              "showid": "6869",
+              "tickets_sold": 9,
+              "time": "09:00 PM",
+              "venue": "Issacs"
+            },
+            {
+              "gross": 750,
+              "movie": "SPIDER MAN: Brand New Day",
+              "screen": "Screen-2",
+              "showid": "8093",
+              "tickets_sold": 5,
+              "time": "02:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 3600,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "SCREEN 1",
+              "showid": "8768",
+              "tickets_sold": 24,
+              "time": "04:30 PM",
+              "venue": "Sandhya"
+            },
+            {
+              "gross": 1650,
+              "movie": "Spider-Man Brand New Day",
+              "screen": "SCREEN 1",
+              "showid": "9843",
+              "tickets_sold": 11,
+              "time": "09:30 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 300,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "19129",
+              "tickets_sold": 2,
+              "time": "11:00 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "SCREEN 1",
+              "showid": "6867",
+              "tickets_sold": 2,
+              "time": "02:30 PM",
+              "venue": "Issacs"
+            },
+            {
+              "gross": 150,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "Aiswarya",
+              "showid": "8042",
+              "tickets_sold": 1,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 64350,
-          "shows": 25,
-          "tickets_sold": 429
+          "gross": 85350,
+          "shows": 26,
+          "tickets_sold": 569
         },
         "without_gross": {
           "breakdown": [
@@ -795,15 +804,6 @@
               "showid": "8041",
               "tickets_sold": 0,
               "time": "02:00 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": "Aiswarya",
-              "showid": "8042",
-              "tickets_sold": 0,
-              "time": "05:30 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -888,11 +888,20 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 12,
+          "shows": 11,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 12450,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": "SAVITHA",
+          "showid": "19886",
+          "tickets_sold": 83,
+          "time": "09:00 PM",
+          "venue": "SFC"
+        },
         {
           "gross": 10650,
           "movie": "Spider-Man: Brand New Day",
@@ -903,21 +912,30 @@
           "venue": "Sandhya"
         },
         {
-          "gross": 8700,
-          "movie": "Spider-Man: Brand New Day",
-          "screen": "SAVITHA",
-          "showid": "19886",
-          "tickets_sold": 58,
-          "time": "09:00 PM",
-          "venue": "SFC"
-        },
-        {
-          "gross": 5550,
+          "gross": 8250,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
           "showid": "19131",
-          "tickets_sold": 37,
+          "tickets_sold": 55,
           "time": "06:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 7050,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": "SAVITHA",
+          "showid": "19885",
+          "tickets_sold": 47,
+          "time": "05:45 PM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 6000,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": null,
+          "showid": "19132",
+          "tickets_sold": 40,
+          "time": "09:00 PM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -930,22 +948,13 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 5400,
+          "gross": 3600,
           "movie": "Spider-Man: Brand New Day",
-          "screen": null,
-          "showid": "19132",
-          "tickets_sold": 36,
-          "time": "09:00 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 3450,
-          "movie": "Spider-Man: Brand New Day",
-          "screen": "SAVITHA",
-          "showid": "19885",
-          "tickets_sold": 23,
-          "time": "05:45 PM",
-          "venue": "SFC"
+          "screen": "SCREEN 1",
+          "showid": "8768",
+          "tickets_sold": 24,
+          "time": "04:30 PM",
+          "venue": "Sandhya"
         },
         {
           "gross": 3150,
@@ -957,6 +966,15 @@
           "venue": "SFC"
         },
         {
+          "gross": 3150,
+          "movie": "Spider-Man:Brand New Day",
+          "screen": "SCREEN 3",
+          "showid": "3627",
+          "tickets_sold": 21,
+          "time": "06:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
           "gross": 3000,
           "movie": "Spider-Man:Brand New Day",
           "screen": "SCREEN 3",
@@ -966,31 +984,49 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 2100,
+          "gross": 2850,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": "SCREEN 1",
+          "showid": "8769",
+          "tickets_sold": 19,
+          "time": "07:30 PM",
+          "venue": "Sandhya"
+        },
+        {
+          "gross": 2550,
           "movie": "Spider-Man Brand New Day",
           "screen": "SCREEN 1",
           "showid": "9842",
-          "tickets_sold": 14,
+          "tickets_sold": 17,
           "time": "06:30 PM",
           "venue": "Harihar"
         },
         {
-          "gross": 1650,
+          "gross": 2550,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
           "showid": "19127",
-          "tickets_sold": 11,
+          "tickets_sold": 17,
           "time": "06:30 PM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 1650,
+          "gross": 2250,
           "movie": "Spider-Man: Brand New Day",
           "screen": "SCREEN 1",
-          "showid": "8769",
+          "showid": "9168",
+          "tickets_sold": 15,
+          "time": "08:30 PM",
+          "venue": "Jose"
+        },
+        {
+          "gross": 1650,
+          "movie": "Spider-Man Brand New Day",
+          "screen": "SCREEN 1",
+          "showid": "9843",
           "tickets_sold": 11,
-          "time": "07:30 PM",
-          "venue": "Sandhya"
+          "time": "09:30 PM",
+          "venue": "Harihar"
         },
         {
           "gross": 1500,
@@ -1032,19 +1068,10 @@
           "gross": 1350,
           "movie": "Spider-Man: Brand New Day",
           "screen": "SCREEN 1",
-          "showid": "9168",
+          "showid": "6869",
           "tickets_sold": 9,
-          "time": "08:30 PM",
-          "venue": "Jose"
-        },
-        {
-          "gross": 1050,
-          "movie": "Spider-Man:Brand New Day",
-          "screen": "SCREEN 3",
-          "showid": "3627",
-          "tickets_sold": 7,
-          "time": "06:00 PM",
-          "venue": "Fairyland Cinemas"
+          "time": "09:00 PM",
+          "venue": "Issacs"
         },
         {
           "gross": 1050,
@@ -1065,15 +1092,6 @@
           "venue": "Sandhya"
         },
         {
-          "gross": 900,
-          "movie": "Spider-Man: Brand New Day",
-          "screen": "SCREEN 1",
-          "showid": "6869",
-          "tickets_sold": 6,
-          "time": "09:00 PM",
-          "venue": "Issacs"
-        },
-        {
           "gross": 750,
           "movie": "SPIDER MAN: Brand New Day",
           "screen": "Screen-2",
@@ -1081,24 +1099,6 @@
           "tickets_sold": 5,
           "time": "02:15 PM",
           "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 600,
-          "movie": "Spider-Man: Brand New Day",
-          "screen": "SCREEN 1",
-          "showid": "8768",
-          "tickets_sold": 4,
-          "time": "04:30 PM",
-          "venue": "Sandhya"
-        },
-        {
-          "gross": 450,
-          "movie": "Spider-Man Brand New Day",
-          "screen": "SCREEN 1",
-          "showid": "9843",
-          "tickets_sold": 3,
-          "time": "09:30 PM",
-          "venue": "Harihar"
         },
         {
           "gross": 300,
@@ -1119,6 +1119,15 @@
           "venue": "Issacs"
         },
         {
+          "gross": 150,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": "Aiswarya",
+          "showid": "8042",
+          "tickets_sold": 1,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
           "gross": 0,
           "movie": "Spider-Man: Brand New Day",
           "screen": "Aiswarya",
@@ -1134,15 +1143,6 @@
           "showid": "8041",
           "tickets_sold": 0,
           "time": "02:00 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Spider-Man: Brand New Day",
-          "screen": "Aiswarya",
-          "showid": "8042",
-          "tickets_sold": 0,
-          "time": "05:30 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -1228,7 +1228,7 @@
         }
       ],
       "shows": 37,
-      "tickets_sold": 429
+      "tickets_sold": 569
     },
     "Spider-Man:Brand New Day": {
       "gross": 42300,
@@ -2010,7 +2010,7 @@
       "tickets_sold": 282
     },
     "Unmadham": {
-      "gross": 4200,
+      "gross": 8100,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -2025,21 +2025,39 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 600,
+              "gross": 1500,
               "movie": "Unmadham",
               "screen": null,
               "showid": "19123",
-              "tickets_sold": 4,
+              "tickets_sold": 10,
               "time": "06:15 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 750,
+              "movie": "Unmadham",
+              "screen": "SAMUDRA",
+              "showid": "19893",
+              "tickets_sold": 5,
+              "time": "05:30 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 900,
+              "movie": "Unmadham",
+              "screen": "SAMUDRA",
+              "showid": "19894",
+              "tickets_sold": 6,
+              "time": "08:30 PM",
+              "venue": "SFC"
             },
             {
               "gross": 450,
               "movie": "Unmadham",
               "screen": "SAMUDRA",
-              "showid": "19894",
+              "showid": "19892",
               "tickets_sold": 3,
-              "time": "08:30 PM",
+              "time": "02:30 PM",
               "venue": "SFC"
             },
             {
@@ -2061,24 +2079,6 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 450,
-              "movie": "Unmadham",
-              "screen": "SAMUDRA",
-              "showid": "19892",
-              "tickets_sold": 3,
-              "time": "02:30 PM",
-              "venue": "SFC"
-            },
-            {
-              "gross": 600,
-              "movie": "Unmadham",
-              "screen": "SAMUDRA",
-              "showid": "19893",
-              "tickets_sold": 4,
-              "time": "05:30 PM",
-              "venue": "SFC"
-            },
-            {
               "gross": 300,
               "movie": "Unmadham",
               "screen": "SCREEN 1",
@@ -2088,18 +2088,45 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 300,
+              "gross": 450,
               "movie": "Unmadham",
               "screen": "SCREEN 1",
               "showid": "3679",
-              "tickets_sold": 2,
+              "tickets_sold": 3,
               "time": "06:00 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 900,
+              "movie": "UNMADHAM ...",
+              "screen": "Screen-1",
+              "showid": "8089",
+              "tickets_sold": 6,
+              "time": "04:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 1050,
+              "movie": "UNMADHAM ...",
+              "screen": "Screen-1",
+              "showid": "8090",
+              "tickets_sold": 7,
+              "time": "07:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "UNMADHAM ...",
+              "screen": "Screen-1",
+              "showid": "8091",
+              "tickets_sold": 2,
+              "time": "10:00 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 4200,
-          "shows": 9,
-          "tickets_sold": 28
+          "gross": 8100,
+          "shows": 12,
+          "tickets_sold": 54
         },
         "without_gross": {
           "breakdown": [
@@ -2137,33 +2164,6 @@
               "showid": "8088",
               "tickets_sold": 0,
               "time": "01:45 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "UNMADHAM ...",
-              "screen": "Screen-1",
-              "showid": "8089",
-              "tickets_sold": 0,
-              "time": "04:30 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "UNMADHAM ...",
-              "screen": "Screen-1",
-              "showid": "8090",
-              "tickets_sold": 0,
-              "time": "07:15 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "UNMADHAM ...",
-              "screen": "Screen-1",
-              "showid": "8091",
-              "tickets_sold": 0,
-              "time": "10:00 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -2257,11 +2257,29 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 17,
+          "shows": 14,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1500,
+          "movie": "Unmadham",
+          "screen": null,
+          "showid": "19123",
+          "tickets_sold": 10,
+          "time": "06:15 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 1050,
+          "movie": "UNMADHAM ...",
+          "screen": "Screen-1",
+          "showid": "8090",
+          "tickets_sold": 7,
+          "time": "07:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 900,
           "movie": "Unmadham",
@@ -2272,30 +2290,30 @@
           "venue": "Girija Theatre"
         },
         {
-          "gross": 600,
-          "movie": "Unmadham",
-          "screen": null,
-          "showid": "19123",
-          "tickets_sold": 4,
-          "time": "06:15 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 600,
-          "movie": "Unmadham",
-          "screen": "SAMUDRA",
-          "showid": "19893",
-          "tickets_sold": 4,
-          "time": "05:30 PM",
-          "venue": "SFC"
-        },
-        {
-          "gross": 450,
+          "gross": 900,
           "movie": "Unmadham",
           "screen": "SAMUDRA",
           "showid": "19894",
-          "tickets_sold": 3,
+          "tickets_sold": 6,
           "time": "08:30 PM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 900,
+          "movie": "UNMADHAM ...",
+          "screen": "Screen-1",
+          "showid": "8089",
+          "tickets_sold": 6,
+          "time": "04:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 750,
+          "movie": "Unmadham",
+          "screen": "SAMUDRA",
+          "showid": "19893",
+          "tickets_sold": 5,
+          "time": "05:30 PM",
           "venue": "SFC"
         },
         {
@@ -2306,6 +2324,15 @@
           "tickets_sold": 3,
           "time": "02:30 PM",
           "venue": "SFC"
+        },
+        {
+          "gross": 450,
+          "movie": "Unmadham",
+          "screen": "SCREEN 1",
+          "showid": "3679",
+          "tickets_sold": 3,
+          "time": "06:00 PM",
+          "venue": "Fairyland Cinemas"
         },
         {
           "gross": 300,
@@ -2336,12 +2363,12 @@
         },
         {
           "gross": 300,
-          "movie": "Unmadham",
-          "screen": "SCREEN 1",
-          "showid": "3679",
+          "movie": "UNMADHAM ...",
+          "screen": "Screen-1",
+          "showid": "8091",
           "tickets_sold": 2,
-          "time": "06:00 PM",
-          "venue": "Fairyland Cinemas"
+          "time": "10:00 PM",
+          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 0,
@@ -2377,33 +2404,6 @@
           "showid": "8088",
           "tickets_sold": 0,
           "time": "01:45 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "UNMADHAM ...",
-          "screen": "Screen-1",
-          "showid": "8089",
-          "tickets_sold": 0,
-          "time": "04:30 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "UNMADHAM ...",
-          "screen": "Screen-1",
-          "showid": "8090",
-          "tickets_sold": 0,
-          "time": "07:15 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "UNMADHAM ...",
-          "screen": "Screen-1",
-          "showid": "8091",
-          "tickets_sold": 0,
-          "time": "10:00 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -2498,17 +2498,11 @@
         }
       ],
       "shows": 26,
-      "tickets_sold": 28
+      "tickets_sold": 54
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
       {
         "aliases": [
           "SPIDER MAN: Brand New Day",
@@ -2521,10 +2515,9 @@
       },
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
+          "GDN"
         ],
-        "canonical": "Thudakkam"
+        "canonical": "GDN"
       },
       {
         "aliases": [
@@ -2541,9 +2534,10 @@
       },
       {
         "aliases": [
-          "G.D.N"
+          "Thudakkam",
+          "Thudakkam [M]"
         ],
-        "canonical": "G.D.N"
+        "canonical": "Thudakkam"
       },
       {
         "aliases": [
@@ -2551,6 +2545,18 @@
           "Pluto"
         ],
         "canonical": "PLUTO"
+      },
+      {
+        "aliases": [
+          "G.D.N"
+        ],
+        "canonical": "G.D.N"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
       }
     ]
   }
