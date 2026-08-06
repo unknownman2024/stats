@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "last_updated": "2026-08-06T16:14:59.833799+05:30",
+  "last_updated": "2026-08-06T18:29:54.019960+05:30",
   "movies": {
     "DC": {
       "gross": 0,
@@ -372,21 +372,21 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 150,
-              "movie": "Spider-Man:Brand New Day",
-              "screen": "SCREEN 3",
-              "showid": "3633",
-              "tickets_sold": 1,
-              "time": "11:00 AM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
               "gross": 450,
               "movie": "Spider-Man:Brand New Day",
               "screen": "SCREEN 3",
               "showid": "3635",
               "tickets_sold": 3,
               "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 150,
+              "movie": "Spider-Man:Brand New Day",
+              "screen": "SCREEN 3",
+              "showid": "3633",
+              "tickets_sold": 1,
+              "time": "11:00 AM",
               "venue": "Fairyland Cinemas"
             }
           ],
@@ -542,7 +542,7 @@
       "tickets_sold": 11
     },
     "Spider-Man:Brand New Day": {
-      "gross": 1050,
+      "gross": 1950,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -555,23 +555,41 @@
               "tickets_sold": 7,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
-            }
-          ],
-          "gross": 1050,
-          "shows": 1,
-          "tickets_sold": 7
-        },
-        "without_gross": {
-          "breakdown": [
+            },
             {
-              "gross": 0,
+              "gross": 150,
               "movie": "Spider-Man:Brand New Day",
               "screen": "SCREEN 3",
               "showid": "3633",
-              "tickets_sold": 0,
+              "tickets_sold": 1,
               "time": "11:00 AM",
               "venue": "Fairyland Cinemas"
             },
+            {
+              "gross": 450,
+              "movie": "Spider-Man:Brand New Day",
+              "screen": "SCREEN 3",
+              "showid": "3635",
+              "tickets_sold": 3,
+              "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "Screen-2",
+              "showid": "8165",
+              "tickets_sold": 2,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 1950,
+          "shows": 4,
+          "tickets_sold": 13
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "Spider-Man:Brand New Day",
@@ -583,15 +601,42 @@
             },
             {
               "gross": 0,
-              "movie": "Spider-Man:Brand New Day",
-              "screen": "SCREEN 3",
-              "showid": "3635",
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "Screen-2",
+              "showid": "8166",
               "tickets_sold": 0,
-              "time": "06:00 PM",
-              "venue": "Fairyland Cinemas"
+              "time": "01:45 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "Screen-2",
+              "showid": "8167",
+              "tickets_sold": 0,
+              "time": "04:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "Screen-2",
+              "showid": "8168",
+              "tickets_sold": 0,
+              "time": "07:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "Screen-2",
+              "showid": "8169",
+              "tickets_sold": 0,
+              "time": "10:00 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 3,
+          "shows": 5,
           "tickets_sold": 0
         }
       },
@@ -606,11 +651,29 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 0,
+          "gross": 450,
+          "movie": "Spider-Man:Brand New Day",
+          "screen": "SCREEN 3",
+          "showid": "3635",
+          "tickets_sold": 3,
+          "time": "06:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": "Screen-2",
+          "showid": "8165",
+          "tickets_sold": 2,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 150,
           "movie": "Spider-Man:Brand New Day",
           "screen": "SCREEN 3",
           "showid": "3633",
-          "tickets_sold": 0,
+          "tickets_sold": 1,
           "time": "11:00 AM",
           "venue": "Fairyland Cinemas"
         },
@@ -625,19 +688,46 @@
         },
         {
           "gross": 0,
-          "movie": "Spider-Man:Brand New Day",
-          "screen": "SCREEN 3",
-          "showid": "3635",
+          "movie": "Spider-Man: Brand New Day",
+          "screen": "Screen-2",
+          "showid": "8166",
           "tickets_sold": 0,
-          "time": "06:00 PM",
-          "venue": "Fairyland Cinemas"
+          "time": "01:45 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": "Screen-2",
+          "showid": "8167",
+          "tickets_sold": 0,
+          "time": "04:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": "Screen-2",
+          "showid": "8168",
+          "tickets_sold": 0,
+          "time": "07:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": "Screen-2",
+          "showid": "8169",
+          "tickets_sold": 0,
+          "time": "10:00 PM",
+          "venue": "Aiswarya Cinemas"
         }
       ],
-      "shows": 4,
-      "tickets_sold": 7
+      "shows": 9,
+      "tickets_sold": 13
     },
     "Thudakkam": {
-      "gross": 12900,
+      "gross": 13350,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -668,11 +758,20 @@
               "tickets_sold": 2,
               "time": "02:30 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 450,
+              "movie": "Thudakkam",
+              "screen": "Aiswarya",
+              "showid": "8145",
+              "tickets_sold": 3,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 12900,
-          "shows": 3,
-          "tickets_sold": 86
+          "gross": 13350,
+          "shows": 4,
+          "tickets_sold": 89
         },
         "without_gross": {
           "breakdown": [
@@ -707,22 +806,13 @@
               "gross": 0,
               "movie": "Thudakkam",
               "screen": "Aiswarya",
-              "showid": "8145",
-              "tickets_sold": 0,
-              "time": "05:30 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Thudakkam",
-              "screen": "Aiswarya",
               "showid": "8146",
               "tickets_sold": 0,
               "time": "08:30 PM",
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 5,
+          "shows": 4,
           "tickets_sold": 0
         }
       },
@@ -744,6 +834,15 @@
           "tickets_sold": 36,
           "time": "06:00 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 450,
+          "movie": "Thudakkam",
+          "screen": "Aiswarya",
+          "showid": "8145",
+          "tickets_sold": 3,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 300,
@@ -785,15 +884,6 @@
           "gross": 0,
           "movie": "Thudakkam",
           "screen": "Aiswarya",
-          "showid": "8145",
-          "tickets_sold": 0,
-          "time": "05:30 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Thudakkam",
-          "screen": "Aiswarya",
           "showid": "8146",
           "tickets_sold": 0,
           "time": "08:30 PM",
@@ -801,7 +891,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 86
+      "tickets_sold": 89
     },
     "Unmadham": {
       "gross": 0,
@@ -866,26 +956,19 @@
     "merged_movies": [
       {
         "aliases": [
+          "G.D.N"
+        ],
+        "canonical": "G.D.N"
+      },
+      {
+        "aliases": [
           "SPIDER MAN: Brand New Day",
           "SPIDER-MAN: BRAND NEW DAY 3D",
           "Spider-Man Brand New Day",
           "Spider-Man: Brand New Day",
           "Spider-Man:Brand New Day"
         ],
-        "canonical": "Spider-Man Brand New Day"
-      },
-      {
-        "aliases": [
-          "GDN"
-        ],
-        "canonical": "GDN"
-      },
-      {
-        "aliases": [
-          "UNMADHAM ...",
-          "Unmadham"
-        ],
-        "canonical": "Unmadham"
+        "canonical": "Spider-Man:Brand New Day"
       },
       {
         "aliases": [
@@ -902,6 +985,12 @@
       },
       {
         "aliases": [
+          "GDN"
+        ],
+        "canonical": "GDN"
+      },
+      {
+        "aliases": [
           "PLUTO",
           "Pluto"
         ],
@@ -909,15 +998,22 @@
       },
       {
         "aliases": [
-          "G.D.N"
-        ],
-        "canonical": "G.D.N"
-      },
-      {
-        "aliases": [
           "DC"
         ],
         "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "UNMADHAM ...",
+          "Unmadham"
+        ],
+        "canonical": "Unmadham"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       }
     ]
   }
