@@ -1,7 +1,65 @@
 {
   "date": "2026-08-07",
-  "last_updated": "2026-08-06T05:33:54.022978+05:30",
+  "last_updated": "2026-08-06T09:48:06.901791+05:30",
   "movies": {
+    "Pluto": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "PLUTO",
+              "screen": "Dolby Atmos",
+              "showid": "5767",
+              "tickets_sold": 0,
+              "time": "06:30 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "PLUTO",
+              "screen": "Dolby Atmos",
+              "showid": "5768",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Girija Theatre"
+            }
+          ],
+          "shows": 2,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "PLUTO",
+          "screen": "Dolby Atmos",
+          "showid": "5767",
+          "tickets_sold": 0,
+          "time": "06:30 PM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "PLUTO",
+          "screen": "Dolby Atmos",
+          "showid": "5768",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Girija Theatre"
+        }
+      ],
+      "shows": 2,
+      "tickets_sold": 0
+    },
     "Spider-Man Brand New Day": {
       "gross": 600,
       "occupancy": null,
@@ -193,7 +251,7 @@
       "tickets_sold": 4
     },
     "Thudakkam": {
-      "gross": 38850,
+      "gross": 40800,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -208,11 +266,11 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 6450,
+              "gross": 6750,
               "movie": "Thudakkam",
               "screen": "SCREEN 1",
               "showid": "3655",
-              "tickets_sold": 43,
+              "tickets_sold": 45,
               "time": "06:00 PM",
               "venue": "Fairyland Cinemas"
             },
@@ -226,20 +284,20 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 4200,
+              "gross": 4350,
               "movie": "Thudakkam",
               "screen": "Aiswarya",
               "showid": "8099",
-              "tickets_sold": 28,
+              "tickets_sold": 29,
               "time": "08:30 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 3600,
+              "gross": 4950,
               "movie": "Thudakkam [M]",
               "screen": null,
               "showid": "19135",
-              "tickets_sold": 24,
+              "tickets_sold": 33,
               "time": "06:00 PM",
               "venue": "Puthet Cinemas"
             },
@@ -271,11 +329,11 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 1200,
+              "gross": 1350,
               "movie": "Thudakkam",
               "screen": "Aiswarya",
               "showid": "8096",
-              "tickets_sold": 8,
+              "tickets_sold": 9,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
             },
@@ -307,9 +365,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 38850,
+          "gross": 40800,
           "shows": 12,
-          "tickets_sold": 259
+          "tickets_sold": 272
         },
         "without_gross": {
           "breakdown": [],
@@ -328,11 +386,11 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 6450,
+          "gross": 6750,
           "movie": "Thudakkam",
           "screen": "SCREEN 1",
           "showid": "3655",
-          "tickets_sold": 43,
+          "tickets_sold": 45,
           "time": "06:00 PM",
           "venue": "Fairyland Cinemas"
         },
@@ -346,22 +404,22 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 4200,
-          "movie": "Thudakkam",
-          "screen": "Aiswarya",
-          "showid": "8099",
-          "tickets_sold": 28,
-          "time": "08:30 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 3600,
+          "gross": 4950,
           "movie": "Thudakkam [M]",
           "screen": null,
           "showid": "19135",
-          "tickets_sold": 24,
+          "tickets_sold": 33,
           "time": "06:00 PM",
           "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 4350,
+          "movie": "Thudakkam",
+          "screen": "Aiswarya",
+          "showid": "8099",
+          "tickets_sold": 29,
+          "time": "08:30 PM",
+          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 2250,
@@ -382,6 +440,15 @@
           "venue": "Aiswarya Cinemas"
         },
         {
+          "gross": 1350,
+          "movie": "Thudakkam",
+          "screen": "Aiswarya",
+          "showid": "8096",
+          "tickets_sold": 9,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
           "gross": 1200,
           "movie": "Thudakkam",
           "screen": "SCREEN 1",
@@ -389,15 +456,6 @@
           "tickets_sold": 8,
           "time": "11:00 AM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 1200,
-          "movie": "Thudakkam",
-          "screen": "Aiswarya",
-          "showid": "8096",
-          "tickets_sold": 8,
-          "time": "11:00 AM",
-          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 900,
@@ -428,18 +486,69 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 259
+      "tickets_sold": 272
+    },
+    "Unmadham": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Unmadham",
+              "screen": "Dolby Atmos",
+              "showid": "5765",
+              "tickets_sold": 0,
+              "time": "12:00 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Unmadham",
+              "screen": "Dolby Atmos",
+              "showid": "5766",
+              "tickets_sold": 0,
+              "time": "03:00 PM",
+              "venue": "Girija Theatre"
+            }
+          ],
+          "shows": 2,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Unmadham",
+          "screen": "Dolby Atmos",
+          "showid": "5765",
+          "tickets_sold": 0,
+          "time": "12:00 PM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Unmadham",
+          "screen": "Dolby Atmos",
+          "showid": "5766",
+          "tickets_sold": 0,
+          "time": "03:00 PM",
+          "venue": "Girija Theatre"
+        }
+      ],
+      "shows": 2,
+      "tickets_sold": 0
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "UNMADHAM ...",
-          "Unmadham"
-        ],
-        "canonical": "Unmadham"
-      },
       {
         "aliases": [
           "SPIDER MAN: Brand New Day",
@@ -455,7 +564,20 @@
           "PLUTO",
           "Pluto"
         ],
-        "canonical": "PLUTO"
+        "canonical": "Pluto"
+      },
+      {
+        "aliases": [
+          "Jana Nayagan"
+        ],
+        "canonical": "Jana Nayagan"
+      },
+      {
+        "aliases": [
+          "UNMADHAM ...",
+          "Unmadham"
+        ],
+        "canonical": "Unmadham"
       },
       {
         "aliases": [
@@ -463,12 +585,6 @@
           "Thudakkam [M]"
         ],
         "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "Jana Nayagan"
-        ],
-        "canonical": "Jana Nayagan"
       }
     ]
   }
