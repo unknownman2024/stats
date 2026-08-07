@@ -1,9 +1,9 @@
 {
   "date": "2026-08-10",
-  "last_updated": "2026-08-07T23:22:11.140314+05:30",
+  "last_updated": "2026-08-08T00:34:58.109101+05:30",
   "movies": {
     "DC": {
-      "gross": 300,
+      "gross": 600,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -16,11 +16,20 @@
               "tickets_sold": 2,
               "time": "11:00 AM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "DC",
+              "screen": "SCREEN 4",
+              "showid": "3696",
+              "tickets_sold": 2,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 300,
-          "shows": 1,
-          "tickets_sold": 2
+          "gross": 600,
+          "shows": 2,
+          "tickets_sold": 4
         },
         "without_gross": {
           "breakdown": [
@@ -41,18 +50,9 @@
               "tickets_sold": 0,
               "time": "06:00 PM",
               "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "DC",
-              "screen": "SCREEN 4",
-              "showid": "3696",
-              "tickets_sold": 0,
-              "time": "09:30 PM",
-              "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 3,
+          "shows": 2,
           "tickets_sold": 0
         }
       },
@@ -64,6 +64,15 @@
           "showid": "3693",
           "tickets_sold": 2,
           "time": "11:00 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "DC",
+          "screen": "SCREEN 4",
+          "showid": "3696",
+          "tickets_sold": 2,
+          "time": "09:30 PM",
           "venue": "Fairyland Cinemas"
         },
         {
@@ -83,19 +92,10 @@
           "tickets_sold": 0,
           "time": "06:00 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "DC",
-          "screen": "SCREEN 4",
-          "showid": "3696",
-          "tickets_sold": 0,
-          "time": "09:30 PM",
-          "venue": "Fairyland Cinemas"
         }
       ],
       "shows": 4,
-      "tickets_sold": 2
+      "tickets_sold": 4
     },
     "Spider-Man Brand New Day": {
       "gross": 0,
@@ -458,23 +458,12 @@
     "merged_movies": [
       {
         "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
           "SPIDER-MAN: BRAND NEW DAY 3D",
+          "Spider-Man Brand New Day",
           "Spider-Man: Brand New Day",
           "Spider-Man:Brand New Day"
         ],
         "canonical": "Spider-Man:Brand New Day"
-      },
-      {
-        "aliases": [
-          "G.D.N"
-        ],
-        "canonical": "G.D.N"
       },
       {
         "aliases": [
@@ -485,9 +474,9 @@
       },
       {
         "aliases": [
-          "PLUTO"
+          "G.D.N"
         ],
-        "canonical": "PLUTO"
+        "canonical": "G.D.N"
       },
       {
         "aliases": [
@@ -498,15 +487,28 @@
       },
       {
         "aliases": [
-          "GDN"
+          "DC"
         ],
-        "canonical": "GDN"
+        "canonical": "DC"
       },
       {
         "aliases": [
           "Jana Nayagan"
         ],
         "canonical": "Jana Nayagan"
+      },
+      {
+        "aliases": [
+          "GDN"
+        ],
+        "canonical": "GDN"
+      },
+      {
+        "aliases": [
+          "PLUTO",
+          "Pluto"
+        ],
+        "canonical": "PLUTO"
       }
     ]
   }
