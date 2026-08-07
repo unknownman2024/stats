@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "last_updated": "2026-08-08T04:12:52.650662+05:30",
+  "last_updated": "2026-08-08T05:08:20.596471+05:30",
   "movies": {
     "DC": {
       "gross": 77700,
@@ -1117,7 +1117,7 @@
       "tickets_sold": 213
     },
     "Spider-Man:Brand New Day": {
-      "gross": 162450,
+      "gross": 163350,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -1177,11 +1177,11 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 11100,
+              "gross": 12000,
               "movie": "Spider-Man:Brand New Day",
               "screen": "SCREEN 3",
               "showid": "3633",
-              "tickets_sold": 74,
+              "tickets_sold": 80,
               "time": "11:00 AM",
               "venue": "Fairyland Cinemas"
             },
@@ -1393,15 +1393,6 @@
               "venue": "Jose"
             },
             {
-              "gross": 150,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": "SCREEN 1",
-              "showid": "6888",
-              "tickets_sold": 1,
-              "time": "02:30 PM",
-              "venue": "Issacs"
-            },
-            {
               "gross": 300,
               "movie": "Spider-Man: Brand New Day",
               "screen": "SCREEN 1",
@@ -1409,11 +1400,20 @@
               "tickets_sold": 2,
               "time": "06:00 PM",
               "venue": "Issacs"
+            },
+            {
+              "gross": 150,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "SCREEN 1",
+              "showid": "6888",
+              "tickets_sold": 1,
+              "time": "02:30 PM",
+              "venue": "Issacs"
             }
           ],
-          "gross": 162450,
+          "gross": 163350,
           "shows": 32,
-          "tickets_sold": 1083
+          "tickets_sold": 1089
         },
         "without_gross": {
           "breakdown": [
@@ -1487,6 +1487,15 @@
           "venue": "SFC"
         },
         {
+          "gross": 12000,
+          "movie": "Spider-Man:Brand New Day",
+          "screen": "SCREEN 3",
+          "showid": "3633",
+          "tickets_sold": 80,
+          "time": "11:00 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
           "gross": 11250,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
@@ -1494,15 +1503,6 @@
           "tickets_sold": 75,
           "time": "03:15 PM",
           "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 11100,
-          "movie": "Spider-Man:Brand New Day",
-          "screen": "SCREEN 3",
-          "showid": "3633",
-          "tickets_sold": 74,
-          "time": "11:00 AM",
-          "venue": "Fairyland Cinemas"
         },
         {
           "gross": 8700,
@@ -1749,7 +1749,7 @@
         }
       ],
       "shows": 34,
-      "tickets_sold": 1083
+      "tickets_sold": 1089
     },
     "Thudakkam": {
       "gross": 400950,
@@ -2574,6 +2574,12 @@
     "merged_movies": [
       {
         "aliases": [
+          "Jana Nayagan"
+        ],
+        "canonical": "Jana Nayagan"
+      },
+      {
+        "aliases": [
           "Thudakkam",
           "Thudakkam [M]"
         ],
@@ -2581,15 +2587,10 @@
       },
       {
         "aliases": [
-          "DC"
+          "UNMADHAM ...",
+          "Unmadham"
         ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "GDN"
-        ],
-        "canonical": "GDN"
+        "canonical": "Unmadham"
       },
       {
         "aliases": [
@@ -2602,22 +2603,9 @@
       },
       {
         "aliases": [
-          "G.D.N"
+          "DC"
         ],
-        "canonical": "G.D.N"
-      },
-      {
-        "aliases": [
-          "UNMADHAM ...",
-          "Unmadham"
-        ],
-        "canonical": "Unmadham"
-      },
-      {
-        "aliases": [
-          "Jana Nayagan"
-        ],
-        "canonical": "Jana Nayagan"
+        "canonical": "DC"
       },
       {
         "aliases": [
@@ -2625,6 +2613,18 @@
           "Pluto"
         ],
         "canonical": "PLUTO"
+      },
+      {
+        "aliases": [
+          "G.D.N"
+        ],
+        "canonical": "G.D.N"
+      },
+      {
+        "aliases": [
+          "GDN"
+        ],
+        "canonical": "GDN"
       }
     ]
   }
