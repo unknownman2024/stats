@@ -1,6 +1,6 @@
 {
   "date": "2026-08-08",
-  "last_updated": "2026-08-07T05:37:35.351988+05:30",
+  "last_updated": "2026-08-07T09:23:23.405190+05:30",
   "movies": {
     "DC": {
       "gross": 150,
@@ -264,14 +264,24 @@
       "tickets_sold": 0
     },
     "Jana Nayagan": {
-      "gross": 0,
+      "gross": 300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 300,
+              "movie": "Jana Nayagan",
+              "screen": "Athulya",
+              "showid": "8124",
+              "tickets_sold": 2,
+              "time": "02:10 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 300,
+          "shows": 1,
+          "tickets_sold": 2
         },
         "without_gross": {
           "breakdown": [
@@ -282,15 +292,6 @@
               "showid": "8123",
               "tickets_sold": 0,
               "time": "10:45 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Jana Nayagan",
-              "screen": "Athulya",
-              "showid": "8124",
-              "tickets_sold": 0,
-              "time": "02:10 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -312,11 +313,20 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 4,
+          "shows": 3,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 300,
+          "movie": "Jana Nayagan",
+          "screen": "Athulya",
+          "showid": "8124",
+          "tickets_sold": 2,
+          "time": "02:10 PM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Jana Nayagan",
@@ -324,15 +334,6 @@
           "showid": "8123",
           "tickets_sold": 0,
           "time": "10:45 AM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Jana Nayagan",
-          "screen": "Athulya",
-          "showid": "8124",
-          "tickets_sold": 0,
-          "time": "02:10 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -355,20 +356,20 @@
         }
       ],
       "shows": 4,
-      "tickets_sold": 0
+      "tickets_sold": 2
     },
     "Spider-Man Brand New Day": {
-      "gross": 4500,
+      "gross": 7800,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 1800,
+              "gross": 3150,
               "movie": "Spider-Man:Brand New Day",
               "screen": "SCREEN 3",
               "showid": "3633",
-              "tickets_sold": 12,
+              "tickets_sold": 21,
               "time": "11:00 AM",
               "venue": "Fairyland Cinemas"
             },
@@ -382,20 +383,20 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 450,
+              "gross": 1800,
               "movie": "Spider-Man:Brand New Day",
               "screen": "SCREEN 3",
               "showid": "3635",
-              "tickets_sold": 3,
+              "tickets_sold": 12,
               "time": "06:00 PM",
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 450,
+              "gross": 1050,
               "movie": "Spider-Man:Brand New Day",
               "screen": "SCREEN 3",
               "showid": "3634",
-              "tickets_sold": 3,
+              "tickets_sold": 7,
               "time": "02:30 PM",
               "venue": "Fairyland Cinemas"
             },
@@ -418,9 +419,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 4500,
+          "gross": 7800,
           "shows": 6,
-          "tickets_sold": 30
+          "tickets_sold": 52
         },
         "without_gross": {
           "breakdown": [
@@ -458,12 +459,21 @@
       },
       "show_breakdown": [
         {
-          "gross": 1800,
+          "gross": 3150,
           "movie": "Spider-Man:Brand New Day",
           "screen": "SCREEN 3",
           "showid": "3633",
-          "tickets_sold": 12,
+          "tickets_sold": 21,
           "time": "11:00 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 1800,
+          "movie": "Spider-Man:Brand New Day",
+          "screen": "SCREEN 3",
+          "showid": "3635",
+          "tickets_sold": 12,
+          "time": "06:00 PM",
           "venue": "Fairyland Cinemas"
         },
         {
@@ -476,20 +486,11 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 450,
-          "movie": "Spider-Man:Brand New Day",
-          "screen": "SCREEN 3",
-          "showid": "3635",
-          "tickets_sold": 3,
-          "time": "06:00 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 450,
+          "gross": 1050,
           "movie": "Spider-Man:Brand New Day",
           "screen": "SCREEN 3",
           "showid": "3634",
-          "tickets_sold": 3,
+          "tickets_sold": 7,
           "time": "02:30 PM",
           "venue": "Fairyland Cinemas"
         },
@@ -540,7 +541,7 @@
         }
       ],
       "shows": 9,
-      "tickets_sold": 30
+      "tickets_sold": 52
     },
     "Spider-Man:Brand New Day": {
       "gross": 7500,
@@ -549,12 +550,12 @@
         "with_gross": {
           "breakdown": [
             {
-              "gross": 1050,
+              "gross": 2850,
               "movie": "Spider-Man:Brand New Day",
               "screen": "SCREEN 3",
-              "showid": "3636",
-              "tickets_sold": 7,
-              "time": "09:30 PM",
+              "showid": "3633",
+              "tickets_sold": 19,
+              "time": "11:00 AM",
               "venue": "Fairyland Cinemas"
             },
             {
@@ -567,21 +568,12 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 300,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": "Screen-2",
-              "showid": "8165",
-              "tickets_sold": 2,
-              "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 2850,
+              "gross": 1050,
               "movie": "Spider-Man:Brand New Day",
               "screen": "SCREEN 3",
-              "showid": "3633",
-              "tickets_sold": 19,
-              "time": "11:00 AM",
+              "showid": "3636",
+              "tickets_sold": 7,
+              "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
             },
             {
@@ -600,6 +592,15 @@
               "showid": "8168",
               "tickets_sold": 3,
               "time": "07:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "Screen-2",
+              "showid": "8165",
+              "tickets_sold": 2,
+              "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
             }
           ],
@@ -728,7 +729,7 @@
       "tickets_sold": 50
     },
     "Thudakkam": {
-      "gross": 15000,
+      "gross": 15300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -768,11 +769,20 @@
               "tickets_sold": 2,
               "time": "02:30 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "Thudakkam",
+              "screen": "Aiswarya",
+              "showid": "8146",
+              "tickets_sold": 2,
+              "time": "08:30 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 15000,
-          "shows": 4,
-          "tickets_sold": 100
+          "gross": 15300,
+          "shows": 5,
+          "tickets_sold": 102
         },
         "without_gross": {
           "breakdown": [
@@ -802,18 +812,9 @@
               "tickets_sold": 0,
               "time": "02:00 PM",
               "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Thudakkam",
-              "screen": "Aiswarya",
-              "showid": "8146",
-              "tickets_sold": 0,
-              "time": "08:30 PM",
-              "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 4,
+          "shows": 3,
           "tickets_sold": 0
         }
       },
@@ -855,6 +856,15 @@
           "venue": "Fairyland Cinemas"
         },
         {
+          "gross": 300,
+          "movie": "Thudakkam",
+          "screen": "Aiswarya",
+          "showid": "8146",
+          "tickets_sold": 2,
+          "time": "08:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
           "gross": 0,
           "movie": "Thudakkam",
           "screen": "SCREEN 1",
@@ -880,19 +890,10 @@
           "tickets_sold": 0,
           "time": "02:00 PM",
           "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Thudakkam",
-          "screen": "Aiswarya",
-          "showid": "8146",
-          "tickets_sold": 0,
-          "time": "08:30 PM",
-          "venue": "Aiswarya Cinemas"
         }
       ],
       "shows": 8,
-      "tickets_sold": 100
+      "tickets_sold": 102
     },
     "Unmadham": {
       "gross": 0,
@@ -957,9 +958,9 @@
     "merged_movies": [
       {
         "aliases": [
-          "Jana Nayagan"
+          "DC"
         ],
-        "canonical": "Jana Nayagan"
+        "canonical": "DC"
       },
       {
         "aliases": [
@@ -968,7 +969,20 @@
           "Spider-Man: Brand New Day",
           "Spider-Man:Brand New Day"
         ],
-        "canonical": "Spider-Man:Brand New Day"
+        "canonical": "Spider-Man Brand New Day"
+      },
+      {
+        "aliases": [
+          "UNMADHAM ...",
+          "Unmadham"
+        ],
+        "canonical": "Unmadham"
+      },
+      {
+        "aliases": [
+          "Jana Nayagan"
+        ],
+        "canonical": "Jana Nayagan"
       },
       {
         "aliases": [
@@ -979,6 +993,12 @@
       },
       {
         "aliases": [
+          "G.D.N"
+        ],
+        "canonical": "G.D.N"
+      },
+      {
+        "aliases": [
           "PLUTO",
           "Pluto"
         ],
@@ -986,28 +1006,9 @@
       },
       {
         "aliases": [
-          "G.D.N"
-        ],
-        "canonical": "G.D.N"
-      },
-      {
-        "aliases": [
           "GDN"
         ],
         "canonical": "GDN"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "UNMADHAM ...",
-          "Unmadham"
-        ],
-        "canonical": "Unmadham"
       }
     ]
   }
