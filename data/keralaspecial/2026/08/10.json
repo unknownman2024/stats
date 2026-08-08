@@ -1,9 +1,9 @@
 {
   "date": "2026-08-10",
-  "last_updated": "2026-08-08T20:06:55.422400+05:30",
+  "last_updated": "2026-08-08T21:05:25.281821+05:30",
   "movies": {
     "DC": {
-      "gross": 600,
+      "gross": 1200,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -25,11 +25,29 @@
               "tickets_sold": 2,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "DC",
+              "screen": "SCREEN 4",
+              "showid": "3695",
+              "tickets_sold": 2,
+              "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "DC",
+              "screen": null,
+              "showid": "19198",
+              "tickets_sold": 2,
+              "time": "09:45 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 600,
-          "shows": 2,
-          "tickets_sold": 4
+          "gross": 1200,
+          "shows": 4,
+          "tickets_sold": 8
         },
         "without_gross": {
           "breakdown": [
@@ -40,15 +58,6 @@
               "showid": "3694",
               "tickets_sold": 0,
               "time": "02:30 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "DC",
-              "screen": "SCREEN 4",
-              "showid": "3695",
-              "tickets_sold": 0,
-              "time": "06:00 PM",
               "venue": "Fairyland Cinemas"
             },
             {
@@ -68,18 +77,9 @@
               "tickets_sold": 0,
               "time": "03:35 PM",
               "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "DC",
-              "screen": null,
-              "showid": "19198",
-              "tickets_sold": 0,
-              "time": "09:45 PM",
-              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 5,
+          "shows": 3,
           "tickets_sold": 0
         }
       },
@@ -103,21 +103,30 @@
           "venue": "Fairyland Cinemas"
         },
         {
+          "gross": 300,
+          "movie": "DC",
+          "screen": "SCREEN 4",
+          "showid": "3695",
+          "tickets_sold": 2,
+          "time": "06:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "DC",
+          "screen": null,
+          "showid": "19198",
+          "tickets_sold": 2,
+          "time": "09:45 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 0,
           "movie": "DC",
           "screen": "SCREEN 4",
           "showid": "3694",
           "tickets_sold": 0,
           "time": "02:30 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "DC",
-          "screen": "SCREEN 4",
-          "showid": "3695",
-          "tickets_sold": 0,
-          "time": "06:00 PM",
           "venue": "Fairyland Cinemas"
         },
         {
@@ -137,19 +146,10 @@
           "tickets_sold": 0,
           "time": "03:35 PM",
           "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "DC",
-          "screen": null,
-          "showid": "19198",
-          "tickets_sold": 0,
-          "time": "09:45 PM",
-          "venue": "Puthet Cinemas"
         }
       ],
       "shows": 7,
-      "tickets_sold": 4
+      "tickets_sold": 8
     },
     "Jana Nayagan": {
       "gross": 0,
@@ -412,7 +412,7 @@
       "tickets_sold": 0
     },
     "Spider-Man:Brand New Day": {
-      "gross": 600,
+      "gross": 1800,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -434,11 +434,20 @@
               "tickets_sold": 1,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 1200,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "19188",
+              "tickets_sold": 8,
+              "time": "06:15 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 600,
-          "shows": 2,
-          "tickets_sold": 4
+          "gross": 1800,
+          "shows": 3,
+          "tickets_sold": 12
         },
         "without_gross": {
           "breakdown": [
@@ -482,26 +491,26 @@
               "gross": 0,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
-              "showid": "19188",
-              "tickets_sold": 0,
-              "time": "06:15 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": null,
               "showid": "19189",
               "tickets_sold": 0,
               "time": "09:15 PM",
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 6,
+          "shows": 5,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1200,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": null,
+          "showid": "19188",
+          "tickets_sold": 8,
+          "time": "06:15 PM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 450,
           "movie": "Spider-Man: Brand New Day",
@@ -560,15 +569,6 @@
           "gross": 0,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
-          "showid": "19188",
-          "tickets_sold": 0,
-          "time": "06:15 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Spider-Man: Brand New Day",
-          "screen": null,
           "showid": "19189",
           "tickets_sold": 0,
           "time": "09:15 PM",
@@ -576,10 +576,10 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 4
+      "tickets_sold": 12
     },
     "Thudakkam": {
-      "gross": 15450,
+      "gross": 18150,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -603,20 +603,20 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 2400,
+              "gross": 4650,
               "movie": "Thudakkam [M]",
               "screen": null,
               "showid": "19192",
-              "tickets_sold": 16,
+              "tickets_sold": 31,
               "time": "06:00 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 750,
+              "gross": 1200,
               "movie": "Thudakkam [M]",
               "screen": null,
               "showid": "19193",
-              "tickets_sold": 5,
+              "tickets_sold": 8,
               "time": "09:00 PM",
               "venue": "Puthet Cinemas"
             },
@@ -639,9 +639,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 15450,
+          "gross": 18150,
           "shows": 6,
-          "tickets_sold": 103
+          "tickets_sold": 121
         },
         "without_gross": {
           "breakdown": [
@@ -724,20 +724,20 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 2400,
+          "gross": 4650,
           "movie": "Thudakkam [M]",
           "screen": null,
           "showid": "19192",
-          "tickets_sold": 16,
+          "tickets_sold": 31,
           "time": "06:00 PM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 750,
+          "gross": 1200,
           "movie": "Thudakkam [M]",
           "screen": null,
           "showid": "19193",
-          "tickets_sold": 5,
+          "tickets_sold": 8,
           "time": "09:00 PM",
           "venue": "Puthet Cinemas"
         },
@@ -815,7 +815,7 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 103
+      "tickets_sold": 121
     },
     "Unmadham": {
       "gross": 0,
@@ -880,43 +880,12 @@
     "merged_movies": [
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "Jana Nayagan"
-        ],
-        "canonical": "Jana Nayagan"
-      },
-      {
-        "aliases": [
-          "PLUTO"
-        ],
-        "canonical": "PLUTO"
-      },
-      {
-        "aliases": [
-          "G.D.N"
-        ],
-        "canonical": "G.D.N"
-      },
-      {
-        "aliases": [
           "SPIDER-MAN: BRAND NEW DAY 3D",
           "Spider-Man Brand New Day",
           "Spider-Man: Brand New Day",
           "Spider-Man:Brand New Day"
         ],
-        "canonical": "Spider-Man Brand New Day"
-      },
-      {
-        "aliases": [
-          "GDN"
-        ],
-        "canonical": "GDN"
+        "canonical": "Spider-Man:Brand New Day"
       },
       {
         "aliases": [
@@ -927,15 +896,40 @@
       },
       {
         "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "Thudakkam",
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam"
+      },
+      {
+        "aliases": [
+          "PLUTO"
+        ],
+        "canonical": "PLUTO"
+      },
+      {
+        "aliases": [
           "D C (Tamil)"
         ],
         "canonical": "D C (Tamil)"
       },
       {
         "aliases": [
-          "DC"
+          "G.D.N"
         ],
-        "canonical": "DC"
+        "canonical": "G.D.N"
+      },
+      {
+        "aliases": [
+          "Jana Nayagan"
+        ],
+        "canonical": "Jana Nayagan"
       }
     ]
   }
