@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "last_updated": "2026-08-08T14:19:35.616780+05:30",
+  "last_updated": "2026-08-08T15:13:43.891164+05:30",
   "movies": {
     "DC": {
       "gross": 600,
@@ -287,17 +287,17 @@
       "tickets_sold": 1
     },
     "Thudakkam": {
-      "gross": 9450,
+      "gross": 10650,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 5400,
+              "gross": 6000,
               "movie": "Thudakkam",
               "screen": "SCREEN 1",
               "showid": "3668",
-              "tickets_sold": 36,
+              "tickets_sold": 40,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
             },
@@ -309,23 +309,32 @@
               "tickets_sold": 27,
               "time": "06:00 PM",
               "venue": "Fairyland Cinemas"
-            }
-          ],
-          "gross": 9450,
-          "shows": 2,
-          "tickets_sold": 63
-        },
-        "without_gross": {
-          "breakdown": [
+            },
             {
-              "gross": 0,
+              "gross": 300,
               "movie": "Thudakkam",
               "screen": "SCREEN 1",
               "showid": "3665",
-              "tickets_sold": 0,
+              "tickets_sold": 2,
               "time": "11:00 AM",
               "venue": "Fairyland Cinemas"
             },
+            {
+              "gross": 300,
+              "movie": "Thudakkam",
+              "screen": "Aiswarya",
+              "showid": "8154",
+              "tickets_sold": 2,
+              "time": "08:30 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 10650,
+          "shows": 4,
+          "tickets_sold": 71
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "Thudakkam",
@@ -361,28 +370,19 @@
               "tickets_sold": 0,
               "time": "05:30 PM",
               "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Thudakkam",
-              "screen": "Aiswarya",
-              "showid": "8154",
-              "tickets_sold": 0,
-              "time": "08:30 PM",
-              "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 6,
+          "shows": 4,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 5400,
+          "gross": 6000,
           "movie": "Thudakkam",
           "screen": "SCREEN 1",
           "showid": "3668",
-          "tickets_sold": 36,
+          "tickets_sold": 40,
           "time": "09:30 PM",
           "venue": "Fairyland Cinemas"
         },
@@ -396,13 +396,22 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 0,
+          "gross": 300,
           "movie": "Thudakkam",
           "screen": "SCREEN 1",
           "showid": "3665",
-          "tickets_sold": 0,
+          "tickets_sold": 2,
           "time": "11:00 AM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "Thudakkam",
+          "screen": "Aiswarya",
+          "showid": "8154",
+          "tickets_sold": 2,
+          "time": "08:30 PM",
+          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 0,
@@ -439,19 +448,10 @@
           "tickets_sold": 0,
           "time": "05:30 PM",
           "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Thudakkam",
-          "screen": "Aiswarya",
-          "showid": "8154",
-          "tickets_sold": 0,
-          "time": "08:30 PM",
-          "venue": "Aiswarya Cinemas"
         }
       ],
       "shows": 8,
-      "tickets_sold": 63
+      "tickets_sold": 71
     }
   },
   "verification": {
@@ -465,24 +465,24 @@
       },
       {
         "aliases": [
+          "SPIDER-MAN: BRAND NEW DAY 3D",
+          "Spider-Man Brand New Day",
+          "Spider-Man: Brand New Day",
+          "Spider-Man:Brand New Day"
+        ],
+        "canonical": "Spider-Man Brand New Day"
+      },
+      {
+        "aliases": [
           "DC"
         ],
         "canonical": "DC"
       },
       {
         "aliases": [
-          "D C (Tamil)"
+          "GDN"
         ],
-        "canonical": "D C (Tamil)"
-      },
-      {
-        "aliases": [
-          "SPIDER-MAN: BRAND NEW DAY 3D",
-          "Spider-Man Brand New Day",
-          "Spider-Man: Brand New Day",
-          "Spider-Man:Brand New Day"
-        ],
-        "canonical": "Spider-Man:Brand New Day"
+        "canonical": "GDN"
       },
       {
         "aliases": [
@@ -499,21 +499,21 @@
       },
       {
         "aliases": [
-          "GDN"
+          "D C (Tamil)"
         ],
-        "canonical": "GDN"
-      },
-      {
-        "aliases": [
-          "Jana Nayagan"
-        ],
-        "canonical": "Jana Nayagan"
+        "canonical": "D C (Tamil)"
       },
       {
         "aliases": [
           "G.D.N"
         ],
         "canonical": "G.D.N"
+      },
+      {
+        "aliases": [
+          "Jana Nayagan"
+        ],
+        "canonical": "Jana Nayagan"
       }
     ]
   }
