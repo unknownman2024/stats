@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "last_updated": "2026-08-08T23:06:05.888133+05:30",
+  "last_updated": "2026-08-09T00:15:47.001751+05:30",
   "movies": {
     "D C (Tamil)": {
       "gross": 0,
@@ -97,7 +97,7 @@
       "tickets_sold": 0
     },
     "DC": {
-      "gross": 1650,
+      "gross": 2550,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -130,11 +130,11 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 300,
+              "gross": 1200,
               "movie": "DC",
               "screen": null,
               "showid": "19198",
-              "tickets_sold": 2,
+              "tickets_sold": 8,
               "time": "09:45 PM",
               "venue": "Puthet Cinemas"
             },
@@ -157,9 +157,9 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 1650,
+          "gross": 2550,
           "shows": 6,
-          "tickets_sold": 11
+          "tickets_sold": 17
         },
         "without_gross": {
           "breakdown": [
@@ -178,6 +178,15 @@
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1200,
+          "movie": "DC",
+          "screen": null,
+          "showid": "19198",
+          "tickets_sold": 8,
+          "time": "09:45 PM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 300,
           "movie": "DC",
@@ -209,15 +218,6 @@
           "gross": 300,
           "movie": "DC",
           "screen": null,
-          "showid": "19198",
-          "tickets_sold": 2,
-          "time": "09:45 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 300,
-          "movie": "DC",
-          "screen": null,
           "showid": "19196",
           "tickets_sold": 2,
           "time": "03:35 PM",
@@ -243,7 +243,7 @@
         }
       ],
       "shows": 7,
-      "tickets_sold": 11
+      "tickets_sold": 17
     },
     "Jana Nayagan": {
       "gross": 0,
@@ -340,14 +340,24 @@
       "tickets_sold": 0
     },
     "Spider-Man Brand New Day": {
-      "gross": 0,
+      "gross": 1200,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 1200,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "19188",
+              "tickets_sold": 8,
+              "time": "06:15 PM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "gross": 1200,
+          "shows": 1,
+          "tickets_sold": 8
         },
         "without_gross": {
           "breakdown": [
@@ -409,26 +419,26 @@
               "gross": 0,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
-              "showid": "19188",
-              "tickets_sold": 0,
-              "time": "06:15 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": null,
               "showid": "19189",
               "tickets_sold": 0,
               "time": "09:15 PM",
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1200,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": null,
+          "showid": "19188",
+          "tickets_sold": 8,
+          "time": "06:15 PM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Spider-Man:Brand New Day",
@@ -487,15 +497,6 @@
           "gross": 0,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
-          "showid": "19188",
-          "tickets_sold": 0,
-          "time": "06:15 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Spider-Man: Brand New Day",
-          "screen": null,
           "showid": "19189",
           "tickets_sold": 0,
           "time": "09:15 PM",
@@ -503,7 +504,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 0
+      "tickets_sold": 8
     },
     "Spider-Man:Brand New Day": {
       "gross": 1800,
@@ -1046,9 +1047,25 @@
     "merged_movies": [
       {
         "aliases": [
-          "G.D.N"
+          "SPIDER-MAN: BRAND NEW DAY 3D",
+          "Spider-Man Brand New Day",
+          "Spider-Man: Brand New Day",
+          "Spider-Man:Brand New Day"
         ],
-        "canonical": "G.D.N"
+        "canonical": "Spider-Man Brand New Day"
+      },
+      {
+        "aliases": [
+          "Thudakkam",
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
       },
       {
         "aliases": [
@@ -1058,9 +1075,9 @@
       },
       {
         "aliases": [
-          "PLUTO"
+          "G.D.N"
         ],
-        "canonical": "PLUTO"
+        "canonical": "G.D.N"
       },
       {
         "aliases": [
@@ -1071,30 +1088,22 @@
       },
       {
         "aliases": [
-          "SPIDER-MAN: BRAND NEW DAY 3D",
-          "Spider-Man: Brand New Day",
-          "Spider-Man:Brand New Day"
+          "GDN"
         ],
-        "canonical": "Spider-Man:Brand New Day"
+        "canonical": "GDN"
       },
       {
         "aliases": [
-          "DC"
+          "PLUTO",
+          "Pluto"
         ],
-        "canonical": "DC"
+        "canonical": "PLUTO"
       },
       {
         "aliases": [
           "D C (Tamil)"
         ],
         "canonical": "D C (Tamil)"
-      },
-      {
-        "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
       }
     ]
   }
