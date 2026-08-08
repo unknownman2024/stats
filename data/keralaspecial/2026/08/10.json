@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "last_updated": "2026-08-09T00:15:47.001751+05:30",
+  "last_updated": "2026-08-09T01:04:38.958079+05:30",
   "movies": {
     "D C (Tamil)": {
       "gross": 0,
@@ -97,11 +97,20 @@
       "tickets_sold": 0
     },
     "DC": {
-      "gross": 2550,
+      "gross": 2850,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
+            {
+              "gross": 1200,
+              "movie": "DC",
+              "screen": null,
+              "showid": "19198",
+              "tickets_sold": 8,
+              "time": "09:45 PM",
+              "venue": "Puthet Cinemas"
+            },
             {
               "gross": 300,
               "movie": "DC",
@@ -130,15 +139,6 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 1200,
-              "movie": "DC",
-              "screen": null,
-              "showid": "19198",
-              "tickets_sold": 8,
-              "time": "09:45 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 300,
               "movie": "DC",
               "screen": null,
@@ -148,18 +148,18 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 150,
+              "gross": 450,
               "movie": "DC",
               "screen": null,
               "showid": "19194",
-              "tickets_sold": 1,
+              "tickets_sold": 3,
               "time": "10:25 AM",
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 2550,
+          "gross": 2850,
           "shows": 6,
-          "tickets_sold": 17
+          "tickets_sold": 19
         },
         "without_gross": {
           "breakdown": [
@@ -185,6 +185,15 @@
           "showid": "19198",
           "tickets_sold": 8,
           "time": "09:45 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 450,
+          "movie": "DC",
+          "screen": null,
+          "showid": "19194",
+          "tickets_sold": 3,
+          "time": "10:25 AM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -224,15 +233,6 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 150,
-          "movie": "DC",
-          "screen": null,
-          "showid": "19194",
-          "tickets_sold": 1,
-          "time": "10:25 AM",
-          "venue": "Puthet Cinemas"
-        },
-        {
           "gross": 0,
           "movie": "DC",
           "screen": "SCREEN 4",
@@ -243,7 +243,7 @@
         }
       ],
       "shows": 7,
-      "tickets_sold": 17
+      "tickets_sold": 19
     },
     "Jana Nayagan": {
       "gross": 0,
@@ -674,7 +674,7 @@
       "tickets_sold": 12
     },
     "Thudakkam": {
-      "gross": 21000,
+      "gross": 21150,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -698,11 +698,11 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 4650,
+              "gross": 4800,
               "movie": "Thudakkam [M]",
               "screen": null,
               "showid": "19192",
-              "tickets_sold": 31,
+              "tickets_sold": 32,
               "time": "06:00 PM",
               "venue": "Puthet Cinemas"
             },
@@ -743,9 +743,9 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 21000,
+          "gross": 21150,
           "shows": 7,
-          "tickets_sold": 140
+          "tickets_sold": 141
         },
         "without_gross": {
           "breakdown": [
@@ -855,11 +855,11 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 4650,
+          "gross": 4800,
           "movie": "Thudakkam [M]",
           "screen": null,
           "showid": "19192",
-          "tickets_sold": 31,
+          "tickets_sold": 32,
           "time": "06:00 PM",
           "venue": "Puthet Cinemas"
         },
@@ -982,7 +982,7 @@
         }
       ],
       "shows": 16,
-      "tickets_sold": 140
+      "tickets_sold": 141
     },
     "Unmadham": {
       "gross": 0,
@@ -1047,6 +1047,12 @@
     "merged_movies": [
       {
         "aliases": [
+          "G.D.N"
+        ],
+        "canonical": "G.D.N"
+      },
+      {
+        "aliases": [
           "SPIDER-MAN: BRAND NEW DAY 3D",
           "Spider-Man Brand New Day",
           "Spider-Man: Brand New Day",
@@ -1056,28 +1062,9 @@
       },
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
           "Jana Nayagan"
         ],
         "canonical": "Jana Nayagan"
-      },
-      {
-        "aliases": [
-          "G.D.N"
-        ],
-        "canonical": "G.D.N"
       },
       {
         "aliases": [
@@ -1088,9 +1075,10 @@
       },
       {
         "aliases": [
-          "GDN"
+          "Thudakkam",
+          "Thudakkam [M]"
         ],
-        "canonical": "GDN"
+        "canonical": "Thudakkam"
       },
       {
         "aliases": [
@@ -1104,6 +1092,18 @@
           "D C (Tamil)"
         ],
         "canonical": "D C (Tamil)"
+      },
+      {
+        "aliases": [
+          "GDN"
+        ],
+        "canonical": "GDN"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
       }
     ]
   }
