@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "last_updated": "2026-08-09T20:10:19.218874+05:30",
+  "last_updated": "2026-08-09T21:07:06.690339+05:30",
   "movies": {
     "DC": {
       "gross": 0,
@@ -649,7 +649,7 @@
       "tickets_sold": 0
     },
     "Thudakkam": {
-      "gross": 10950,
+      "gross": 11400,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -680,11 +680,20 @@
               "tickets_sold": 1,
               "time": "11:00 AM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 450,
+              "movie": "Thudakkam [M]",
+              "screen": null,
+              "showid": "19211",
+              "tickets_sold": 3,
+              "time": "09:00 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 10950,
-          "shows": 3,
-          "tickets_sold": 73
+          "gross": 11400,
+          "shows": 4,
+          "tickets_sold": 76
         },
         "without_gross": {
           "breakdown": [
@@ -759,18 +768,9 @@
               "tickets_sold": 0,
               "time": "06:00 PM",
               "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Thudakkam [M]",
-              "screen": null,
-              "showid": "19211",
-              "tickets_sold": 0,
-              "time": "09:00 PM",
-              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 9,
+          "shows": 8,
           "tickets_sold": 0
         }
       },
@@ -792,6 +792,15 @@
           "tickets_sold": 36,
           "time": "09:30 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 450,
+          "movie": "Thudakkam [M]",
+          "screen": null,
+          "showid": "19211",
+          "tickets_sold": 3,
+          "time": "09:00 PM",
+          "venue": "Puthet Cinemas"
         },
         {
           "gross": 150,
@@ -873,23 +882,22 @@
           "tickets_sold": 0,
           "time": "06:00 PM",
           "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Thudakkam [M]",
-          "screen": null,
-          "showid": "19211",
-          "tickets_sold": 0,
-          "time": "09:00 PM",
-          "venue": "Puthet Cinemas"
         }
       ],
       "shows": 12,
-      "tickets_sold": 73
+      "tickets_sold": 76
     }
   },
   "verification": {
     "merged_movies": [
+      {
+        "aliases": [
+          "Spider-Man Brand New Day",
+          "Spider-Man: Brand New Day",
+          "Spider-Man:Brand New Day"
+        ],
+        "canonical": "Spider-Man Brand New Day"
+      },
       {
         "aliases": [
           "Jana Nayagan"
@@ -902,12 +910,6 @@
           "DC (Tamil)"
         ],
         "canonical": "DC (Tamil)"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
       },
       {
         "aliases": [
@@ -924,17 +926,9 @@
       },
       {
         "aliases": [
-          "Spider-Man Brand New Day",
-          "Spider-Man: Brand New Day",
-          "Spider-Man:Brand New Day"
+          "DC"
         ],
-        "canonical": "Spider-Man Brand New Day"
-      },
-      {
-        "aliases": [
-          "GDN"
-        ],
-        "canonical": "GDN"
+        "canonical": "DC"
       }
     ]
   }
