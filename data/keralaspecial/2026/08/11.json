@@ -1,9 +1,9 @@
 {
   "date": "2026-08-11",
-  "last_updated": "2026-08-09T11:20:17.415699+05:30",
+  "last_updated": "2026-08-09T12:34:22.818071+05:30",
   "movies": {
     "DC": {
-      "gross": 600,
+      "gross": 900,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -16,11 +16,20 @@
               "tickets_sold": 4,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "DC",
+              "screen": "Screen-1",
+              "showid": "8205",
+              "tickets_sold": 2,
+              "time": "07:00 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 600,
-          "shows": 1,
-          "tickets_sold": 4
+          "gross": 900,
+          "shows": 2,
+          "tickets_sold": 6
         },
         "without_gross": {
           "breakdown": [
@@ -82,22 +91,13 @@
               "gross": 0,
               "movie": "DC",
               "screen": "Screen-1",
-              "showid": "8205",
-              "tickets_sold": 0,
-              "time": "07:00 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "DC",
-              "screen": "Screen-1",
               "showid": "8206",
               "tickets_sold": 0,
               "time": "09:45 PM",
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
@@ -110,6 +110,15 @@
           "tickets_sold": 4,
           "time": "09:30 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "DC",
+          "screen": "Screen-1",
+          "showid": "8205",
+          "tickets_sold": 2,
+          "time": "07:00 PM",
+          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 0,
@@ -169,15 +178,6 @@
           "gross": 0,
           "movie": "DC",
           "screen": "Screen-1",
-          "showid": "8205",
-          "tickets_sold": 0,
-          "time": "07:00 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "DC",
-          "screen": "Screen-1",
           "showid": "8206",
           "tickets_sold": 0,
           "time": "09:45 PM",
@@ -185,7 +185,7 @@
         }
       ],
       "shows": 9,
-      "tickets_sold": 4
+      "tickets_sold": 6
     },
     "DC (Tamil)": {
       "gross": 0,
@@ -633,17 +633,17 @@
       "tickets_sold": 5
     },
     "Thudakkam": {
-      "gross": 10050,
+      "gross": 10350,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 5400,
+              "gross": 5700,
               "movie": "Thudakkam",
               "screen": "SCREEN 1",
               "showid": "3672",
-              "tickets_sold": 36,
+              "tickets_sold": 38,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
             },
@@ -675,9 +675,9 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 10050,
+          "gross": 10350,
           "shows": 4,
-          "tickets_sold": 67
+          "tickets_sold": 69
         },
         "without_gross": {
           "breakdown": [
@@ -760,11 +760,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 5400,
+          "gross": 5700,
           "movie": "Thudakkam",
           "screen": "SCREEN 1",
           "showid": "3672",
-          "tickets_sold": 36,
+          "tickets_sold": 38,
           "time": "09:30 PM",
           "venue": "Fairyland Cinemas"
         },
@@ -869,7 +869,7 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 67
+      "tickets_sold": 69
     }
   },
   "verification": {
@@ -883,9 +883,12 @@
       },
       {
         "aliases": [
-          "GDN"
+          "SPIDER-MAN: BRAND NEW DAY 3D",
+          "Spider-Man Brand New Day",
+          "Spider-Man: Brand New Day",
+          "Spider-Man:Brand New Day"
         ],
-        "canonical": "GDN"
+        "canonical": "Spider-Man:Brand New Day"
       },
       {
         "aliases": [
@@ -896,6 +899,18 @@
       },
       {
         "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "G.D.N"
+        ],
+        "canonical": "G.D.N"
+      },
+      {
+        "aliases": [
           "UNMADHAM ...",
           "Unmadham"
         ],
@@ -903,30 +918,15 @@
       },
       {
         "aliases": [
-          "SPIDER-MAN: BRAND NEW DAY 3D",
-          "Spider-Man Brand New Day",
-          "Spider-Man: Brand New Day",
-          "Spider-Man:Brand New Day"
+          "GDN"
         ],
-        "canonical": "Spider-Man:Brand New Day"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
+        "canonical": "GDN"
       },
       {
         "aliases": [
           "Jana Nayagan"
         ],
         "canonical": "Jana Nayagan"
-      },
-      {
-        "aliases": [
-          "G.D.N"
-        ],
-        "canonical": "G.D.N"
       }
     ]
   }
