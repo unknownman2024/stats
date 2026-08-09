@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "last_updated": "2026-08-09T05:04:18.101569+05:30",
+  "last_updated": "2026-08-09T07:37:41.227171+05:30",
   "movies": {
     "DC": {
       "gross": 0,
@@ -91,6 +91,100 @@
           "tickets_sold": 0,
           "time": "09:30 PM",
           "venue": "Fairyland Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 0
+    },
+    "DC (Tamil)": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "DC (Tamil)",
+              "screen": "Dolby Atmos",
+              "showid": "5788",
+              "tickets_sold": 0,
+              "time": "12:00 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "DC (Tamil)",
+              "screen": "Dolby Atmos",
+              "showid": "5789",
+              "tickets_sold": 0,
+              "time": "03:00 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "DC (Tamil)",
+              "screen": "Dolby Atmos",
+              "showid": "5790",
+              "tickets_sold": 0,
+              "time": "06:30 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "DC (Tamil)",
+              "screen": "Dolby Atmos",
+              "showid": "5791",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Girija Theatre"
+            }
+          ],
+          "shows": 4,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "DC (Tamil)",
+          "screen": "Dolby Atmos",
+          "showid": "5788",
+          "tickets_sold": 0,
+          "time": "12:00 PM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "DC (Tamil)",
+          "screen": "Dolby Atmos",
+          "showid": "5789",
+          "tickets_sold": 0,
+          "time": "03:00 PM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "DC (Tamil)",
+          "screen": "Dolby Atmos",
+          "showid": "5790",
+          "tickets_sold": 0,
+          "time": "06:30 PM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "DC (Tamil)",
+          "screen": "Dolby Atmos",
+          "showid": "5791",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Girija Theatre"
         }
       ],
       "shows": 4,
@@ -456,19 +550,9 @@
     "merged_movies": [
       {
         "aliases": [
-          "SPIDER-MAN: BRAND NEW DAY 3D",
-          "Spider-Man Brand New Day",
-          "Spider-Man: Brand New Day",
-          "Spider-Man:Brand New Day"
+          "G.D.N"
         ],
-        "canonical": "Spider-Man Brand New Day"
-      },
-      {
-        "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
+        "canonical": "G.D.N"
       },
       {
         "aliases": [
@@ -479,28 +563,10 @@
       },
       {
         "aliases": [
-          "G.D.N"
+          "D C (Tamil)",
+          "DC (Tamil)"
         ],
-        "canonical": "G.D.N"
-      },
-      {
-        "aliases": [
-          "PLUTO",
-          "Pluto"
-        ],
-        "canonical": "PLUTO"
-      },
-      {
-        "aliases": [
-          "GDN"
-        ],
-        "canonical": "GDN"
-      },
-      {
-        "aliases": [
-          "Jana Nayagan"
-        ],
-        "canonical": "Jana Nayagan"
+        "canonical": "DC (Tamil)"
       },
       {
         "aliases": [
@@ -510,9 +576,37 @@
       },
       {
         "aliases": [
-          "D C (Tamil)"
+          "Pluto"
         ],
-        "canonical": "D C (Tamil)"
+        "canonical": "Pluto"
+      },
+      {
+        "aliases": [
+          "GDN"
+        ],
+        "canonical": "GDN"
+      },
+      {
+        "aliases": [
+          "SPIDER-MAN: BRAND NEW DAY 3D",
+          "Spider-Man Brand New Day",
+          "Spider-Man: Brand New Day",
+          "Spider-Man:Brand New Day"
+        ],
+        "canonical": "Spider-Man:Brand New Day"
+      },
+      {
+        "aliases": [
+          "Thudakkam",
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam"
+      },
+      {
+        "aliases": [
+          "Jana Nayagan"
+        ],
+        "canonical": "Jana Nayagan"
       }
     ]
   }
