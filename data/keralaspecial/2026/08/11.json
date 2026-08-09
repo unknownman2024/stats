@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "last_updated": "2026-08-09T16:10:16.767254+05:30",
+  "last_updated": "2026-08-09T17:04:59.932767+05:30",
   "movies": {
     "DC": {
       "gross": 1200,
@@ -282,24 +282,24 @@
       "tickets_sold": 0
     },
     "Spider-Man Brand New Day": {
-      "gross": 750,
+      "gross": 1200,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 750,
+              "gross": 1200,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
               "showid": "19201",
-              "tickets_sold": 5,
+              "tickets_sold": 8,
               "time": "06:15 PM",
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 750,
+          "gross": 1200,
           "shows": 1,
-          "tickets_sold": 5
+          "tickets_sold": 8
         },
         "without_gross": {
           "breakdown": [
@@ -418,11 +418,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 750,
+          "gross": 1200,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
           "showid": "19201",
-          "tickets_sold": 5,
+          "tickets_sold": 8,
           "time": "06:15 PM",
           "venue": "Puthet Cinemas"
         },
@@ -536,7 +536,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 5
+      "tickets_sold": 8
     },
     "Spider-Man:Brand New Day": {
       "gross": 1200,
@@ -796,7 +796,7 @@
       "tickets_sold": 8
     },
     "Thudakkam": {
-      "gross": 12300,
+      "gross": 12600,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -818,6 +818,15 @@
               "tickets_sold": 24,
               "time": "06:00 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 1200,
+              "movie": "Thudakkam [M]",
+              "screen": null,
+              "showid": "19207",
+              "tickets_sold": 8,
+              "time": "09:00 PM",
+              "venue": "Puthet Cinemas"
             },
             {
               "gross": 1050,
@@ -847,18 +856,18 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 1200,
-              "movie": "Thudakkam [M]",
-              "screen": null,
-              "showid": "19207",
-              "tickets_sold": 8,
-              "time": "09:00 PM",
-              "venue": "Puthet Cinemas"
+              "gross": 300,
+              "movie": "Thudakkam",
+              "screen": "Aiswarya",
+              "showid": "8185",
+              "tickets_sold": 2,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 12300,
-          "shows": 6,
-          "tickets_sold": 82
+          "gross": 12600,
+          "shows": 7,
+          "tickets_sold": 84
         },
         "without_gross": {
           "breakdown": [
@@ -879,15 +888,6 @@
               "tickets_sold": 0,
               "time": "02:30 PM",
               "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Thudakkam",
-              "screen": "Aiswarya",
-              "showid": "8185",
-              "tickets_sold": 0,
-              "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
             },
             {
               "gross": 0,
@@ -917,7 +917,7 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 6,
+          "shows": 5,
           "tickets_sold": 0
         }
       },
@@ -977,6 +977,15 @@
           "venue": "Puthet Cinemas"
         },
         {
+          "gross": 300,
+          "movie": "Thudakkam",
+          "screen": "Aiswarya",
+          "showid": "8185",
+          "tickets_sold": 2,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
           "gross": 0,
           "movie": "Thudakkam",
           "screen": "SCREEN 1",
@@ -993,15 +1002,6 @@
           "tickets_sold": 0,
           "time": "02:30 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Thudakkam",
-          "screen": "Aiswarya",
-          "showid": "8185",
-          "tickets_sold": 0,
-          "time": "11:00 AM",
-          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 0,
@@ -1032,19 +1032,36 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 82
+      "tickets_sold": 84
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "SPIDER-MAN: BRAND NEW DAY 3D",
+          "Unmadham"
+        ],
+        "canonical": "Unmadham"
+      },
+      {
+        "aliases": [
+          "GDN"
+        ],
+        "canonical": "GDN"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
           "Spider-Man Brand New Day",
           "Spider-Man: Brand New Day",
           "Spider-Man:Brand New Day"
         ],
-        "canonical": "Spider-Man:Brand New Day"
+        "canonical": "Spider-Man Brand New Day"
       },
       {
         "aliases": [
@@ -1055,12 +1072,6 @@
       },
       {
         "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
           "D C (Tamil)",
           "DC (Tamil)"
         ],
@@ -1068,27 +1079,9 @@
       },
       {
         "aliases": [
-          "GDN"
-        ],
-        "canonical": "GDN"
-      },
-      {
-        "aliases": [
-          "Unmadham"
-        ],
-        "canonical": "Unmadham"
-      },
-      {
-        "aliases": [
           "Jana Nayagan"
         ],
         "canonical": "Jana Nayagan"
-      },
-      {
-        "aliases": [
-          "G.D.N"
-        ],
-        "canonical": "G.D.N"
       }
     ]
   }
