@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "last_updated": "2026-08-09T21:07:06.690339+05:30",
+  "last_updated": "2026-08-09T22:11:50.011589+05:30",
   "movies": {
     "DC": {
       "gross": 0,
@@ -673,15 +673,6 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 150,
-              "movie": "Thudakkam",
-              "screen": "SCREEN 1",
-              "showid": "3673",
-              "tickets_sold": 1,
-              "time": "11:00 AM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
               "gross": 450,
               "movie": "Thudakkam [M]",
               "screen": null,
@@ -689,6 +680,15 @@
               "tickets_sold": 3,
               "time": "09:00 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 150,
+              "movie": "Thudakkam",
+              "screen": "SCREEN 1",
+              "showid": "3673",
+              "tickets_sold": 1,
+              "time": "11:00 AM",
+              "venue": "Fairyland Cinemas"
             }
           ],
           "gross": 11400,
@@ -892,24 +892,10 @@
     "merged_movies": [
       {
         "aliases": [
-          "Spider-Man Brand New Day",
           "Spider-Man: Brand New Day",
           "Spider-Man:Brand New Day"
         ],
-        "canonical": "Spider-Man Brand New Day"
-      },
-      {
-        "aliases": [
-          "Jana Nayagan"
-        ],
-        "canonical": "Jana Nayagan"
-      },
-      {
-        "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
-        ],
-        "canonical": "DC (Tamil)"
+        "canonical": "Spider-Man:Brand New Day"
       },
       {
         "aliases": [
@@ -926,9 +912,22 @@
       },
       {
         "aliases": [
+          "Jana Nayagan"
+        ],
+        "canonical": "Jana Nayagan"
+      },
+      {
+        "aliases": [
           "DC"
         ],
         "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "D C (Tamil)",
+          "DC (Tamil)"
+        ],
+        "canonical": "DC (Tamil)"
       }
     ]
   }
