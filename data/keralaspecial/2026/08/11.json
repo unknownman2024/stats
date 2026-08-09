@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "last_updated": "2026-08-09T23:06:26.319880+05:30",
+  "last_updated": "2026-08-10T00:19:50.509403+05:30",
   "movies": {
     "DC": {
       "gross": 1800,
@@ -812,6 +812,15 @@
               "venue": "Fairyland Cinemas"
             },
             {
+              "gross": 3750,
+              "movie": "Thudakkam [M]",
+              "screen": null,
+              "showid": "19207",
+              "tickets_sold": 25,
+              "time": "09:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
               "gross": 3600,
               "movie": "Thudakkam",
               "screen": "SCREEN 1",
@@ -821,12 +830,12 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 3750,
+              "gross": 1500,
               "movie": "Thudakkam [M]",
               "screen": null,
-              "showid": "19207",
-              "tickets_sold": 25,
-              "time": "09:00 PM",
+              "showid": "19206",
+              "tickets_sold": 10,
+              "time": "06:00 PM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -837,15 +846,6 @@
               "tickets_sold": 7,
               "time": "05:30 PM",
               "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 1500,
-              "movie": "Thudakkam [M]",
-              "screen": null,
-              "showid": "19206",
-              "tickets_sold": 10,
-              "time": "06:00 PM",
-              "venue": "Puthet Cinemas"
             },
             {
               "gross": 1050,
@@ -1040,12 +1040,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "Unmadham"
-        ],
-        "canonical": "Unmadham"
-      },
-      {
-        "aliases": [
           "Thudakkam",
           "Thudakkam [M]"
         ],
@@ -1053,16 +1047,24 @@
       },
       {
         "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
+          "Spider-Man Brand New Day",
           "Spider-Man: Brand New Day",
           "Spider-Man:Brand New Day"
         ],
-        "canonical": "Spider-Man:Brand New Day"
+        "canonical": "Spider-Man Brand New Day"
+      },
+      {
+        "aliases": [
+          "D C (Tamil)",
+          "DC (Tamil)"
+        ],
+        "canonical": "DC (Tamil)"
+      },
+      {
+        "aliases": [
+          "GDN"
+        ],
+        "canonical": "GDN"
       },
       {
         "aliases": [
@@ -1072,10 +1074,15 @@
       },
       {
         "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
+          "DC"
         ],
-        "canonical": "DC (Tamil)"
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "Unmadham"
+        ],
+        "canonical": "Unmadham"
       }
     ]
   }
