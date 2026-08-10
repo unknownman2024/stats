@@ -1,6 +1,6 @@
 {
   "date": "2026-08-11",
-  "last_updated": "2026-08-10T05:06:40.540545+05:30",
+  "last_updated": "2026-08-10T07:42:11.199791+05:30",
   "movies": {
     "DC": {
       "gross": 1800,
@@ -797,7 +797,7 @@
       "tickets_sold": 10
     },
     "Thudakkam": {
-      "gross": 17850,
+      "gross": 18750,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -812,11 +812,11 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 3750,
+              "gross": 4650,
               "movie": "Thudakkam [M]",
               "screen": null,
               "showid": "19207",
-              "tickets_sold": 25,
+              "tickets_sold": 31,
               "time": "09:00 PM",
               "venue": "Puthet Cinemas"
             },
@@ -875,9 +875,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 17850,
+          "gross": 18750,
           "shows": 8,
-          "tickets_sold": 119
+          "tickets_sold": 125
         },
         "without_gross": {
           "breakdown": [
@@ -933,11 +933,11 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 3750,
+          "gross": 4650,
           "movie": "Thudakkam [M]",
           "screen": null,
           "showid": "19207",
-          "tickets_sold": 25,
+          "tickets_sold": 31,
           "time": "09:00 PM",
           "venue": "Puthet Cinemas"
         },
@@ -1033,18 +1033,11 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 119
+      "tickets_sold": 125
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
-        ],
-        "canonical": "DC (Tamil)"
-      },
       {
         "aliases": [
           "Spider-Man Brand New Day",
@@ -1055,9 +1048,16 @@
       },
       {
         "aliases": [
-          "GDN"
+          "D C (Tamil)",
+          "DC (Tamil)"
         ],
-        "canonical": "GDN"
+        "canonical": "DC (Tamil)"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
       },
       {
         "aliases": [
@@ -1080,9 +1080,9 @@
       },
       {
         "aliases": [
-          "DC"
+          "GDN"
         ],
-        "canonical": "DC"
+        "canonical": "GDN"
       }
     ]
   }
