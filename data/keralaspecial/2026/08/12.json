@@ -1,21 +1,30 @@
 {
   "date": "2026-08-12",
-  "last_updated": "2026-08-10T22:28:58.669153+05:30",
+  "last_updated": "2026-08-10T23:27:00.400024+05:30",
   "movies": {
     "DC": {
-      "gross": 4200,
+      "gross": 4350,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 1650,
+              "gross": 1800,
               "movie": "DC",
               "screen": null,
               "showid": "19227",
-              "tickets_sold": 11,
+              "tickets_sold": 12,
               "time": "10:25 AM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 1350,
+              "movie": "DC",
+              "screen": "Screen-1",
+              "showid": "8207",
+              "tickets_sold": 9,
+              "time": "10:45 AM",
+              "venue": "Aiswarya Cinemas"
             },
             {
               "gross": 600,
@@ -36,15 +45,6 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 1350,
-              "movie": "DC",
-              "screen": "Screen-1",
-              "showid": "8207",
-              "tickets_sold": 9,
-              "time": "10:45 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
               "gross": 300,
               "movie": "DC",
               "screen": null,
@@ -54,9 +54,9 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 4200,
+          "gross": 4350,
           "shows": 5,
-          "tickets_sold": 28
+          "tickets_sold": 29
         },
         "without_gross": {
           "breakdown": [
@@ -139,11 +139,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 1650,
+          "gross": 1800,
           "movie": "DC",
           "screen": null,
           "showid": "19227",
-          "tickets_sold": 11,
+          "tickets_sold": 12,
           "time": "10:25 AM",
           "venue": "Puthet Cinemas"
         },
@@ -257,10 +257,10 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 28
+      "tickets_sold": 29
     },
     "DC (Tamil)": {
-      "gross": 150,
+      "gross": 750,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -273,11 +273,20 @@
               "tickets_sold": 1,
               "time": "03:00 PM",
               "venue": "Girija Theatre"
+            },
+            {
+              "gross": 600,
+              "movie": "DC (Tamil)",
+              "screen": "Dolby Atmos",
+              "showid": "5791",
+              "tickets_sold": 4,
+              "time": "09:30 PM",
+              "venue": "Girija Theatre"
             }
           ],
-          "gross": 150,
-          "shows": 1,
-          "tickets_sold": 1
+          "gross": 750,
+          "shows": 2,
+          "tickets_sold": 5
         },
         "without_gross": {
           "breakdown": [
@@ -297,15 +306,6 @@
               "showid": "5790",
               "tickets_sold": 0,
               "time": "06:30 PM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 0,
-              "movie": "DC (Tamil)",
-              "screen": "Dolby Atmos",
-              "showid": "5791",
-              "tickets_sold": 0,
-              "time": "09:30 PM",
               "venue": "Girija Theatre"
             },
             {
@@ -345,11 +345,20 @@
               "venue": "Davis Theatre"
             }
           ],
-          "shows": 7,
+          "shows": 6,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 600,
+          "movie": "DC (Tamil)",
+          "screen": "Dolby Atmos",
+          "showid": "5791",
+          "tickets_sold": 4,
+          "time": "09:30 PM",
+          "venue": "Girija Theatre"
+        },
         {
           "gross": 150,
           "movie": "DC (Tamil)",
@@ -375,15 +384,6 @@
           "showid": "5790",
           "tickets_sold": 0,
           "time": "06:30 PM",
-          "venue": "Girija Theatre"
-        },
-        {
-          "gross": 0,
-          "movie": "DC (Tamil)",
-          "screen": "Dolby Atmos",
-          "showid": "5791",
-          "tickets_sold": 0,
-          "time": "09:30 PM",
           "venue": "Girija Theatre"
         },
         {
@@ -424,7 +424,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 1
+      "tickets_sold": 5
     },
     "Spider-Man Brand New Day": {
       "gross": 300,
@@ -720,24 +720,24 @@
       "tickets_sold": 2
     },
     "Spider-Man:Brand New Day": {
-      "gross": 1050,
+      "gross": 1350,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 1050,
+              "gross": 1350,
               "movie": "Spider-Man: Brand New Day",
               "screen": null,
               "showid": "19223",
-              "tickets_sold": 7,
+              "tickets_sold": 9,
               "time": "11:00 AM",
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 1050,
+          "gross": 1350,
           "shows": 1,
-          "tickets_sold": 7
+          "tickets_sold": 9
         },
         "without_gross": {
           "breakdown": [
@@ -874,11 +874,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 1050,
+          "gross": 1350,
           "movie": "Spider-Man: Brand New Day",
           "screen": null,
           "showid": "19223",
-          "tickets_sold": 7,
+          "tickets_sold": 9,
           "time": "11:00 AM",
           "venue": "Puthet Cinemas"
         },
@@ -1010,10 +1010,10 @@
         }
       ],
       "shows": 15,
-      "tickets_sold": 7
+      "tickets_sold": 9
     },
     "Thudakkam": {
-      "gross": 16500,
+      "gross": 18750,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -1037,21 +1037,21 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 1800,
-              "movie": "Thudakkam [M]",
-              "screen": null,
-              "showid": "19210",
-              "tickets_sold": 12,
-              "time": "06:00 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 2400,
+              "gross": 2700,
               "movie": "Thudakkam [M]",
               "screen": null,
               "showid": "19211",
-              "tickets_sold": 16,
+              "tickets_sold": 18,
               "time": "09:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 3750,
+              "movie": "Thudakkam [M]",
+              "screen": null,
+              "showid": "19210",
+              "tickets_sold": 25,
+              "time": "06:00 PM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -1062,6 +1062,15 @@
               "tickets_sold": 4,
               "time": "11:30 AM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 450,
+              "movie": "Thudakkam",
+              "screen": "Aiswarya",
+              "showid": "8191",
+              "tickets_sold": 3,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
             },
             {
               "gross": 300,
@@ -1080,20 +1089,11 @@
               "tickets_sold": 1,
               "time": "11:00 AM",
               "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 450,
-              "movie": "Thudakkam",
-              "screen": "Aiswarya",
-              "showid": "8191",
-              "tickets_sold": 3,
-              "time": "05:30 PM",
-              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 16500,
+          "gross": 18750,
           "shows": 8,
-          "tickets_sold": 110
+          "tickets_sold": 125
         },
         "without_gross": {
           "breakdown": [
@@ -1194,21 +1194,21 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 2400,
-          "movie": "Thudakkam [M]",
-          "screen": null,
-          "showid": "19211",
-          "tickets_sold": 16,
-          "time": "09:00 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 1800,
+          "gross": 3750,
           "movie": "Thudakkam [M]",
           "screen": null,
           "showid": "19210",
-          "tickets_sold": 12,
+          "tickets_sold": 25,
           "time": "06:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 2700,
+          "movie": "Thudakkam [M]",
+          "screen": null,
+          "showid": "19211",
+          "tickets_sold": 18,
+          "time": "09:00 PM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -1321,7 +1321,7 @@
         }
       ],
       "shows": 16,
-      "tickets_sold": 110
+      "tickets_sold": 125
     },
     "Unmadham": {
       "gross": 0,
@@ -1368,13 +1368,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "Spider-Man: Brand New Day",
-          "Spider-Man:Brand New Day"
-        ],
-        "canonical": "Spider-Man:Brand New Day"
-      },
-      {
-        "aliases": [
           "Thudakkam",
           "Thudakkam [M]"
         ],
@@ -1385,6 +1378,13 @@
           "DC"
         ],
         "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "Spider-Man: Brand New Day",
+          "Spider-Man:Brand New Day"
+        ],
+        "canonical": "Spider-Man:Brand New Day"
       },
       {
         "aliases": [
