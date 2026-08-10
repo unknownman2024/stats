@@ -1,9 +1,9 @@
 {
   "date": "2026-08-12",
-  "last_updated": "2026-08-10T18:51:14.791556+05:30",
+  "last_updated": "2026-08-10T20:34:29.927478+05:30",
   "movies": {
     "DC": {
-      "gross": 1500,
+      "gross": 3150,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -43,11 +43,20 @@
               "tickets_sold": 2,
               "time": "01:00 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 1650,
+              "movie": "DC",
+              "screen": null,
+              "showid": "19227",
+              "tickets_sold": 11,
+              "time": "10:25 AM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 1500,
-          "shows": 4,
-          "tickets_sold": 10
+          "gross": 3150,
+          "shows": 5,
+          "tickets_sold": 21
         },
         "without_gross": {
           "breakdown": [
@@ -109,15 +118,6 @@
               "gross": 0,
               "movie": "DC",
               "screen": null,
-              "showid": "19227",
-              "tickets_sold": 0,
-              "time": "10:25 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "DC",
-              "screen": null,
               "showid": "19229",
               "tickets_sold": 0,
               "time": "03:40 PM",
@@ -133,11 +133,20 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 9,
+          "shows": 8,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1650,
+          "movie": "DC",
+          "screen": null,
+          "showid": "19227",
+          "tickets_sold": 11,
+          "time": "10:25 AM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 600,
           "movie": "DC",
@@ -232,15 +241,6 @@
           "gross": 0,
           "movie": "DC",
           "screen": null,
-          "showid": "19227",
-          "tickets_sold": 0,
-          "time": "10:25 AM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "DC",
-          "screen": null,
           "showid": "19229",
           "tickets_sold": 0,
           "time": "03:40 PM",
@@ -257,17 +257,27 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 10
+      "tickets_sold": 21
     },
     "DC (Tamil)": {
-      "gross": 0,
+      "gross": 150,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 150,
+              "movie": "DC (Tamil)",
+              "screen": "Dolby Atmos",
+              "showid": "5789",
+              "tickets_sold": 1,
+              "time": "03:00 PM",
+              "venue": "Girija Theatre"
+            }
+          ],
+          "gross": 150,
+          "shows": 1,
+          "tickets_sold": 1
         },
         "without_gross": {
           "breakdown": [
@@ -278,15 +288,6 @@
               "showid": "5788",
               "tickets_sold": 0,
               "time": "12:00 PM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 0,
-              "movie": "DC (Tamil)",
-              "screen": "Dolby Atmos",
-              "showid": "5789",
-              "tickets_sold": 0,
-              "time": "03:00 PM",
               "venue": "Girija Theatre"
             },
             {
@@ -306,13 +307,58 @@
               "tickets_sold": 0,
               "time": "09:30 PM",
               "venue": "Girija Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "D C (Tamil)",
+              "screen": "Cinema-3",
+              "showid": "22553",
+              "tickets_sold": 0,
+              "time": "12:00 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "D C (Tamil)",
+              "screen": "Cinema-3",
+              "showid": "22554",
+              "tickets_sold": 0,
+              "time": "03:00 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "D C (Tamil)",
+              "screen": "Cinema-3",
+              "showid": "22555",
+              "tickets_sold": 0,
+              "time": "06:30 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "D C (Tamil)",
+              "screen": "Cinema-2",
+              "showid": "22560",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Davis Theatre"
             }
           ],
-          "shows": 4,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 150,
+          "movie": "DC (Tamil)",
+          "screen": "Dolby Atmos",
+          "showid": "5789",
+          "tickets_sold": 1,
+          "time": "03:00 PM",
+          "venue": "Girija Theatre"
+        },
         {
           "gross": 0,
           "movie": "DC (Tamil)",
@@ -320,15 +366,6 @@
           "showid": "5788",
           "tickets_sold": 0,
           "time": "12:00 PM",
-          "venue": "Girija Theatre"
-        },
-        {
-          "gross": 0,
-          "movie": "DC (Tamil)",
-          "screen": "Dolby Atmos",
-          "showid": "5789",
-          "tickets_sold": 0,
-          "time": "03:00 PM",
           "venue": "Girija Theatre"
         },
         {
@@ -348,10 +385,46 @@
           "tickets_sold": 0,
           "time": "09:30 PM",
           "venue": "Girija Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "D C (Tamil)",
+          "screen": "Cinema-3",
+          "showid": "22553",
+          "tickets_sold": 0,
+          "time": "12:00 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "D C (Tamil)",
+          "screen": "Cinema-3",
+          "showid": "22554",
+          "tickets_sold": 0,
+          "time": "03:00 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "D C (Tamil)",
+          "screen": "Cinema-3",
+          "showid": "22555",
+          "tickets_sold": 0,
+          "time": "06:30 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "D C (Tamil)",
+          "screen": "Cinema-2",
+          "showid": "22560",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Davis Theatre"
         }
       ],
-      "shows": 4,
-      "tickets_sold": 0
+      "shows": 8,
+      "tickets_sold": 1
     },
     "Spider-Man Brand New Day": {
       "gross": 300,
@@ -482,9 +555,27 @@
               "tickets_sold": 0,
               "time": "09:15 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "Screen-2",
+              "showid": "8247",
+              "tickets_sold": 0,
+              "time": "02:00 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "Screen-2",
+              "showid": "8248",
+              "tickets_sold": 0,
+              "time": "07:15 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 12,
+          "shows": 14,
           "tickets_sold": 0
         }
       },
@@ -605,9 +696,27 @@
           "tickets_sold": 0,
           "time": "09:15 PM",
           "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": "Screen-2",
+          "showid": "8247",
+          "tickets_sold": 0,
+          "time": "02:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": "Screen-2",
+          "showid": "8248",
+          "tickets_sold": 0,
+          "time": "07:15 PM",
+          "venue": "Aiswarya Cinemas"
         }
       ],
-      "shows": 13,
+      "shows": 15,
       "tickets_sold": 2
     },
     "Spider-Man:Brand New Day": {
@@ -867,7 +976,7 @@
       "tickets_sold": 0
     },
     "Thudakkam": {
-      "gross": 13350,
+      "gross": 13950,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -909,11 +1018,11 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 450,
+              "gross": 1050,
               "movie": "Thudakkam [M]",
               "screen": null,
               "showid": "19211",
-              "tickets_sold": 3,
+              "tickets_sold": 7,
               "time": "09:00 PM",
               "venue": "Puthet Cinemas"
             },
@@ -936,9 +1045,9 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 13350,
+          "gross": 13950,
           "shows": 7,
-          "tickets_sold": 89
+          "tickets_sold": 93
         },
         "without_gross": {
           "breakdown": [
@@ -986,9 +1095,45 @@
               "tickets_sold": 0,
               "time": "08:30 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Thudakkam",
+              "screen": "Cinema-1",
+              "showid": "22542",
+              "tickets_sold": 0,
+              "time": "12:00 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Thudakkam",
+              "screen": "Cinema-1",
+              "showid": "22543",
+              "tickets_sold": 0,
+              "time": "03:00 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Thudakkam",
+              "screen": "Cinema-1",
+              "showid": "22544",
+              "tickets_sold": 0,
+              "time": "06:30 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Thudakkam",
+              "screen": "Cinema-1",
+              "showid": "22545",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Davis Theatre"
             }
           ],
-          "shows": 5,
+          "shows": 9,
           "tickets_sold": 0
         }
       },
@@ -1021,21 +1166,21 @@
           "venue": "Puthet Cinemas"
         },
         {
+          "gross": 1050,
+          "movie": "Thudakkam [M]",
+          "screen": null,
+          "showid": "19211",
+          "tickets_sold": 7,
+          "time": "09:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 600,
           "movie": "Thudakkam [M]",
           "screen": null,
           "showid": "19208",
           "tickets_sold": 4,
           "time": "11:30 AM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 450,
-          "movie": "Thudakkam [M]",
-          "screen": null,
-          "showid": "19211",
-          "tickets_sold": 3,
-          "time": "09:00 PM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -1100,10 +1245,46 @@
           "tickets_sold": 0,
           "time": "08:30 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Thudakkam",
+          "screen": "Cinema-1",
+          "showid": "22542",
+          "tickets_sold": 0,
+          "time": "12:00 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Thudakkam",
+          "screen": "Cinema-1",
+          "showid": "22543",
+          "tickets_sold": 0,
+          "time": "03:00 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Thudakkam",
+          "screen": "Cinema-1",
+          "showid": "22544",
+          "tickets_sold": 0,
+          "time": "06:30 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Thudakkam",
+          "screen": "Cinema-1",
+          "showid": "22545",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Davis Theatre"
         }
       ],
-      "shows": 12,
-      "tickets_sold": 89
+      "shows": 16,
+      "tickets_sold": 93
     },
     "Unmadham": {
       "gross": 0,
@@ -1150,17 +1331,15 @@
     "merged_movies": [
       {
         "aliases": [
-          "Jana Nayagan"
+          "GDN"
         ],
-        "canonical": "Jana Nayagan"
+        "canonical": "GDN"
       },
       {
         "aliases": [
-          "Spider-Man Brand New Day",
-          "Spider-Man: Brand New Day",
-          "Spider-Man:Brand New Day"
+          "DC"
         ],
-        "canonical": "Spider-Man:Brand New Day"
+        "canonical": "DC"
       },
       {
         "aliases": [
@@ -1171,18 +1350,6 @@
       },
       {
         "aliases": [
-          "GDN"
-        ],
-        "canonical": "GDN"
-      },
-      {
-        "aliases": [
-          "Unmadham"
-        ],
-        "canonical": "Unmadham"
-      },
-      {
-        "aliases": [
           "Thudakkam",
           "Thudakkam [M]"
         ],
@@ -1190,9 +1357,23 @@
       },
       {
         "aliases": [
-          "DC"
+          "Jana Nayagan"
         ],
-        "canonical": "DC"
+        "canonical": "Jana Nayagan"
+      },
+      {
+        "aliases": [
+          "Spider-Man Brand New Day",
+          "Spider-Man: Brand New Day",
+          "Spider-Man:Brand New Day"
+        ],
+        "canonical": "Spider-Man Brand New Day"
+      },
+      {
+        "aliases": [
+          "Unmadham"
+        ],
+        "canonical": "Unmadham"
       }
     ]
   }
