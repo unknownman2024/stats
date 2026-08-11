@@ -1,6 +1,6 @@
 {
   "date": "2026-08-12",
-  "last_updated": "2026-08-12T04:20:36.682305+05:30",
+  "last_updated": "2026-08-12T05:19:18.015139+05:30",
   "movies": {
     "DC": {
       "gross": 243300,
@@ -1750,7 +1750,7 @@
       "tickets_sold": 211
     },
     "Thudakkam": {
-      "gross": 169200,
+      "gross": 169650,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -1954,11 +1954,11 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 2700,
+              "gross": 3150,
               "movie": "Thudakkam",
               "screen": "Aiswarya",
               "showid": "8190",
-              "tickets_sold": 18,
+              "tickets_sold": 21,
               "time": "02:00 PM",
               "venue": "Aiswarya Cinemas"
             },
@@ -2044,9 +2044,9 @@
               "venue": "Issacs"
             }
           ],
-          "gross": 169200,
+          "gross": 169650,
           "shows": 32,
-          "tickets_sold": 1128
+          "tickets_sold": 1131
         },
         "without_gross": {
           "breakdown": [
@@ -2237,6 +2237,15 @@
           "venue": "Harihar"
         },
         {
+          "gross": 3150,
+          "movie": "Thudakkam",
+          "screen": "Aiswarya",
+          "showid": "8190",
+          "tickets_sold": 21,
+          "time": "02:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
           "gross": 3000,
           "movie": "Thudakkam",
           "screen": "SAMUDRA",
@@ -2271,15 +2280,6 @@
           "tickets_sold": 18,
           "time": "02:30 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 2700,
-          "movie": "Thudakkam",
-          "screen": "Aiswarya",
-          "showid": "8190",
-          "tickets_sold": 18,
-          "time": "02:00 PM",
-          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 2550,
@@ -2382,7 +2382,7 @@
         }
       ],
       "shows": 34,
-      "tickets_sold": 1128
+      "tickets_sold": 1131
     },
     "Unknown": {
       "gross": 0,
@@ -2542,6 +2542,14 @@
     "merged_movies": [
       {
         "aliases": [
+          "Spider-Man Brand New Day",
+          "Spider-Man: Brand New Day",
+          "Spider-Man:Brand New Day"
+        ],
+        "canonical": "Spider-Man:Brand New Day"
+      },
+      {
+        "aliases": [
           "Thudakkam",
           "Thudakkam [M]"
         ],
@@ -2555,9 +2563,9 @@
       },
       {
         "aliases": [
-          "Unknown"
+          "DC"
         ],
-        "canonical": "Unknown"
+        "canonical": "DC"
       },
       {
         "aliases": [
@@ -2568,17 +2576,9 @@
       },
       {
         "aliases": [
-          "Spider-Man Brand New Day",
-          "Spider-Man: Brand New Day",
-          "Spider-Man:Brand New Day"
+          "Unknown"
         ],
-        "canonical": "Spider-Man Brand New Day"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
+        "canonical": "Unknown"
       }
     ]
   }
