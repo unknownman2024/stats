@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "last_updated": "2026-08-13T03:23:20.933639+05:30",
+  "last_updated": "2026-08-13T04:18:56.704670+05:30",
   "movies": {
     "DC": {
       "gross": 0,
@@ -459,7 +459,7 @@
       "tickets_sold": 0
     },
     "Vishwanath and Sons": {
-      "gross": 23850,
+      "gross": 24450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -483,11 +483,11 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 5400,
+              "gross": 6000,
               "movie": "Vishwanath and Sons",
               "screen": null,
               "showid": "19237",
-              "tickets_sold": 36,
+              "tickets_sold": 40,
               "time": "10:30 AM",
               "venue": "Puthet Cinemas"
             },
@@ -528,9 +528,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 23850,
+          "gross": 24450,
           "shows": 7,
-          "tickets_sold": 159
+          "tickets_sold": 163
         },
         "without_gross": {
           "breakdown": [
@@ -586,21 +586,21 @@
           "venue": "Aiswarya Cinemas"
         },
         {
+          "gross": 6000,
+          "movie": "Vishwanath and Sons",
+          "screen": null,
+          "showid": "19237",
+          "tickets_sold": 40,
+          "time": "10:30 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 5550,
           "movie": "Vishwanath and Sons",
           "screen": null,
           "showid": "19239",
           "tickets_sold": 37,
           "time": "09:30 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 5400,
-          "movie": "Vishwanath and Sons",
-          "screen": null,
-          "showid": "19237",
-          "tickets_sold": 36,
-          "time": "10:30 AM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -677,23 +677,11 @@
         }
       ],
       "shows": 11,
-      "tickets_sold": 159
+      "tickets_sold": 163
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "DC (Tamil)"
-        ],
-        "canonical": "DC (Tamil)"
-      },
-      {
-        "aliases": [
-          "Vishwanath and Sons"
-        ],
-        "canonical": "Vishwanath and Sons"
-      },
       {
         "aliases": [
           "DC"
@@ -702,9 +690,16 @@
       },
       {
         "aliases": [
-          "Unmadham"
+          "DC (Tamil)"
         ],
-        "canonical": "Unmadham"
+        "canonical": "DC (Tamil)"
+      },
+      {
+        "aliases": [
+          "Thudakkam",
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam"
       },
       {
         "aliases": [
@@ -716,10 +711,15 @@
       },
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
+          "Unmadham"
         ],
-        "canonical": "Thudakkam"
+        "canonical": "Unmadham"
+      },
+      {
+        "aliases": [
+          "Vishwanath and Sons"
+        ],
+        "canonical": "Vishwanath and Sons"
       }
     ]
   }
