@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "last_updated": "2026-08-12T07:54:39.411045+05:30",
+  "last_updated": "2026-08-12T10:22:16.077376+05:30",
   "movies": {
     "DC (Tamil)": {
       "gross": 0,
@@ -95,15 +95,111 @@
       ],
       "shows": 4,
       "tickets_sold": 0
+    },
+    "Vishwanath and Sons": {
+      "gross": 2550,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [
+            {
+              "gross": 2550,
+              "movie": "Vishwanath and Sons",
+              "screen": "Aiswarya",
+              "showid": "8255",
+              "tickets_sold": 17,
+              "time": "08:30 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 2550,
+          "shows": 1,
+          "tickets_sold": 17
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Vishwanath and Sons",
+              "screen": "Aiswarya",
+              "showid": "8252",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Vishwanath and Sons",
+              "screen": "Aiswarya",
+              "showid": "8253",
+              "tickets_sold": 0,
+              "time": "02:00 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Vishwanath and Sons",
+              "screen": "Aiswarya",
+              "showid": "8254",
+              "tickets_sold": 0,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "shows": 3,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 2550,
+          "movie": "Vishwanath and Sons",
+          "screen": "Aiswarya",
+          "showid": "8255",
+          "tickets_sold": 17,
+          "time": "08:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Vishwanath and Sons",
+          "screen": "Aiswarya",
+          "showid": "8252",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Vishwanath and Sons",
+          "screen": "Aiswarya",
+          "showid": "8253",
+          "tickets_sold": 0,
+          "time": "02:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Vishwanath and Sons",
+          "screen": "Aiswarya",
+          "showid": "8254",
+          "tickets_sold": 0,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 17
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "Unknown"
+          "Thudakkam",
+          "Thudakkam [M]"
         ],
-        "canonical": "Unknown"
+        "canonical": "Thudakkam"
       },
       {
         "aliases": [
@@ -111,7 +207,7 @@
           "Spider-Man: Brand New Day",
           "Spider-Man:Brand New Day"
         ],
-        "canonical": "Spider-Man Brand New Day"
+        "canonical": "Spider-Man:Brand New Day"
       },
       {
         "aliases": [
@@ -128,16 +224,21 @@
       },
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
+          "Unknown"
         ],
-        "canonical": "Thudakkam"
+        "canonical": "Unknown"
       },
       {
         "aliases": [
           "DC"
         ],
         "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "Vishwanath and Sons"
+        ],
+        "canonical": "Vishwanath and Sons"
       }
     ]
   }
