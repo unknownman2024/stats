@@ -1,9 +1,9 @@
 {
   "date": "2026-08-15",
-  "last_updated": "2026-08-12T20:33:25.282835+05:30",
+  "last_updated": "2026-08-12T22:31:52.742512+05:30",
   "movies": {
     "DC (Tamil)": {
-      "gross": 1950,
+      "gross": 2250,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -16,23 +16,23 @@
               "tickets_sold": 13,
               "time": "09:30 PM",
               "venue": "Girija Theatre"
-            }
-          ],
-          "gross": 1950,
-          "shows": 1,
-          "tickets_sold": 13
-        },
-        "without_gross": {
-          "breakdown": [
+            },
             {
-              "gross": 0,
+              "gross": 300,
               "movie": "DC (Tamil)",
               "screen": "Dolby Atmos",
               "showid": "5800",
-              "tickets_sold": 0,
+              "tickets_sold": 2,
               "time": "12:00 PM",
               "venue": "Girija Theatre"
-            },
+            }
+          ],
+          "gross": 2250,
+          "shows": 2,
+          "tickets_sold": 15
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "DC (Tamil)",
@@ -52,7 +52,7 @@
               "venue": "Girija Theatre"
             }
           ],
-          "shows": 3,
+          "shows": 2,
           "tickets_sold": 0
         }
       },
@@ -67,11 +67,11 @@
           "venue": "Girija Theatre"
         },
         {
-          "gross": 0,
+          "gross": 300,
           "movie": "DC (Tamil)",
           "screen": "Dolby Atmos",
           "showid": "5800",
-          "tickets_sold": 0,
+          "tickets_sold": 2,
           "time": "12:00 PM",
           "venue": "Girija Theatre"
         },
@@ -95,14 +95,23 @@
         }
       ],
       "shows": 4,
-      "tickets_sold": 13
+      "tickets_sold": 15
     },
     "Thudakkam": {
-      "gross": 2700,
+      "gross": 3300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
+            {
+              "gross": 2100,
+              "movie": "Thudakkam",
+              "screen": "SCREEN 1",
+              "showid": "3759",
+              "tickets_sold": 14,
+              "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
             {
               "gross": 750,
               "movie": "Thudakkam",
@@ -110,15 +119,6 @@
               "showid": "3758",
               "tickets_sold": 5,
               "time": "02:30 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 1500,
-              "movie": "Thudakkam",
-              "screen": "SCREEN 1",
-              "showid": "3759",
-              "tickets_sold": 10,
-              "time": "06:00 PM",
               "venue": "Fairyland Cinemas"
             },
             {
@@ -131,9 +131,9 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 2700,
+          "gross": 3300,
           "shows": 3,
-          "tickets_sold": 18
+          "tickets_sold": 22
         },
         "without_gross": {
           "breakdown": [
@@ -153,11 +153,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 1500,
+          "gross": 2100,
           "movie": "Thudakkam",
           "screen": "SCREEN 1",
           "showid": "3759",
-          "tickets_sold": 10,
+          "tickets_sold": 14,
           "time": "06:00 PM",
           "venue": "Fairyland Cinemas"
         },
@@ -190,7 +190,7 @@
         }
       ],
       "shows": 4,
-      "tickets_sold": 18
+      "tickets_sold": 22
     },
     "Vishwanath and Sons": {
       "gross": 0,
@@ -291,34 +291,16 @@
     "merged_movies": [
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "Vishwanath and Sons"
-        ],
-        "canonical": "Vishwanath and Sons"
-      },
-      {
-        "aliases": [
           "DC"
         ],
         "canonical": "DC"
       },
       {
         "aliases": [
-          "Magudam"
+          "D C (Tamil)",
+          "DC (Tamil)"
         ],
-        "canonical": "Magudam"
-      },
-      {
-        "aliases": [
-          "Unmadham"
-        ],
-        "canonical": "Unmadham"
+        "canonical": "DC (Tamil)"
       },
       {
         "aliases": [
@@ -329,10 +311,28 @@
       },
       {
         "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
+          "Vishwanath and Sons"
         ],
-        "canonical": "DC (Tamil)"
+        "canonical": "Vishwanath and Sons"
+      },
+      {
+        "aliases": [
+          "Unmadham"
+        ],
+        "canonical": "Unmadham"
+      },
+      {
+        "aliases": [
+          "Magudam"
+        ],
+        "canonical": "Magudam"
+      },
+      {
+        "aliases": [
+          "Thudakkam",
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam"
       }
     ]
   }

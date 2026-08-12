@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "last_updated": "2026-08-12T20:33:25.282022+05:30",
+  "last_updated": "2026-08-12T22:31:52.741281+05:30",
   "movies": {
     "DC": {
       "gross": 0,
@@ -419,45 +419,45 @@
       "tickets_sold": 0
     },
     "Vishwanath and Sons": {
-      "gross": 19050,
+      "gross": 22500,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 4200,
+              "gross": 4950,
+              "movie": "Vishwanath and Sons",
+              "screen": null,
+              "showid": "19237",
+              "tickets_sold": 33,
+              "time": "10:30 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 6150,
               "movie": "Vishwanath and Sons",
               "screen": "Aiswarya",
               "showid": "8255",
-              "tickets_sold": 28,
+              "tickets_sold": 41,
               "time": "08:30 PM",
               "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 3900,
-              "movie": "Vishwanath and Sons",
-              "screen": null,
-              "showid": "19239",
-              "tickets_sold": 26,
-              "time": "09:30 PM",
-              "venue": "Puthet Cinemas"
             },
             {
               "gross": 4350,
               "movie": "Vishwanath and Sons",
               "screen": null,
-              "showid": "19237",
+              "showid": "19238",
               "tickets_sold": 29,
-              "time": "10:30 AM",
+              "time": "06:15 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 4200,
+              "gross": 4650,
               "movie": "Vishwanath and Sons",
               "screen": null,
-              "showid": "19238",
-              "tickets_sold": 28,
-              "time": "06:15 PM",
+              "showid": "19239",
+              "tickets_sold": 31,
+              "time": "09:30 PM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -488,9 +488,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 19050,
+          "gross": 22500,
           "shows": 7,
-          "tickets_sold": 127
+          "tickets_sold": 150
         },
         "without_gross": {
           "breakdown": [
@@ -537,39 +537,39 @@
       },
       "show_breakdown": [
         {
-          "gross": 4350,
-          "movie": "Vishwanath and Sons",
-          "screen": null,
-          "showid": "19237",
-          "tickets_sold": 29,
-          "time": "10:30 AM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 4200,
+          "gross": 6150,
           "movie": "Vishwanath and Sons",
           "screen": "Aiswarya",
           "showid": "8255",
-          "tickets_sold": 28,
+          "tickets_sold": 41,
           "time": "08:30 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 4200,
+          "gross": 4950,
           "movie": "Vishwanath and Sons",
           "screen": null,
-          "showid": "19238",
-          "tickets_sold": 28,
-          "time": "06:15 PM",
+          "showid": "19237",
+          "tickets_sold": 33,
+          "time": "10:30 AM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 3900,
+          "gross": 4650,
           "movie": "Vishwanath and Sons",
           "screen": null,
           "showid": "19239",
-          "tickets_sold": 26,
+          "tickets_sold": 31,
           "time": "09:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 4350,
+          "movie": "Vishwanath and Sons",
+          "screen": null,
+          "showid": "19238",
+          "tickets_sold": 29,
+          "time": "06:15 PM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -637,24 +637,11 @@
         }
       ],
       "shows": 11,
-      "tickets_sold": 127
+      "tickets_sold": 150
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "Vishwanath and Sons"
-        ],
-        "canonical": "Vishwanath and Sons"
-      },
       {
         "aliases": [
           "DC"
@@ -663,15 +650,10 @@
       },
       {
         "aliases": [
-          "Magudam"
+          "D C (Tamil)",
+          "DC (Tamil)"
         ],
-        "canonical": "Magudam"
-      },
-      {
-        "aliases": [
-          "Unmadham"
-        ],
-        "canonical": "Unmadham"
+        "canonical": "DC (Tamil)"
       },
       {
         "aliases": [
@@ -682,10 +664,28 @@
       },
       {
         "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
+          "Vishwanath and Sons"
         ],
-        "canonical": "DC (Tamil)"
+        "canonical": "Vishwanath and Sons"
+      },
+      {
+        "aliases": [
+          "Unmadham"
+        ],
+        "canonical": "Unmadham"
+      },
+      {
+        "aliases": [
+          "Magudam"
+        ],
+        "canonical": "Magudam"
+      },
+      {
+        "aliases": [
+          "Thudakkam",
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam"
       }
     ]
   }
