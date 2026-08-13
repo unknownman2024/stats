@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "last_updated": "2026-08-13T05:19:02.024109+05:30",
+  "last_updated": "2026-08-13T07:56:33.933600+05:30",
   "movies": {
     "DC": {
       "gross": 0,
@@ -459,7 +459,7 @@
       "tickets_sold": 0
     },
     "Vishwanath and Sons": {
-      "gross": 24600,
+      "gross": 25200,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -492,11 +492,11 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 4350,
+              "gross": 4650,
               "movie": "Vishwanath and Sons",
               "screen": null,
               "showid": "19238",
-              "tickets_sold": 29,
+              "tickets_sold": 31,
               "time": "06:15 PM",
               "venue": "Puthet Cinemas"
             },
@@ -528,18 +528,27 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 150,
+              "gross": 300,
               "movie": "Vishwanath and Sons",
               "screen": "SCREEN 2",
               "showid": "3729",
-              "tickets_sold": 1,
+              "tickets_sold": 2,
               "time": "11:00 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 150,
+              "movie": "Vishwanath and Sons",
+              "screen": "SCREEN 2",
+              "showid": "3731",
+              "tickets_sold": 1,
+              "time": "06:00 PM",
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 24600,
-          "shows": 8,
-          "tickets_sold": 164
+          "gross": 25200,
+          "shows": 9,
+          "tickets_sold": 168
         },
         "without_gross": {
           "breakdown": [
@@ -560,18 +569,9 @@
               "tickets_sold": 0,
               "time": "02:30 PM",
               "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Vishwanath and Sons",
-              "screen": "SCREEN 2",
-              "showid": "3731",
-              "tickets_sold": 0,
-              "time": "06:00 PM",
-              "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 3,
+          "shows": 2,
           "tickets_sold": 0
         }
       },
@@ -604,11 +604,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 4350,
+          "gross": 4650,
           "movie": "Vishwanath and Sons",
           "screen": null,
           "showid": "19238",
-          "tickets_sold": 29,
+          "tickets_sold": 31,
           "time": "06:15 PM",
           "venue": "Puthet Cinemas"
         },
@@ -640,12 +640,21 @@
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 150,
+          "gross": 300,
           "movie": "Vishwanath and Sons",
           "screen": "SCREEN 2",
           "showid": "3729",
-          "tickets_sold": 1,
+          "tickets_sold": 2,
           "time": "11:00 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 150,
+          "movie": "Vishwanath and Sons",
+          "screen": "SCREEN 2",
+          "showid": "3731",
+          "tickets_sold": 1,
+          "time": "06:00 PM",
           "venue": "Fairyland Cinemas"
         },
         {
@@ -665,19 +674,10 @@
           "tickets_sold": 0,
           "time": "02:30 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Vishwanath and Sons",
-          "screen": "SCREEN 2",
-          "showid": "3731",
-          "tickets_sold": 0,
-          "time": "06:00 PM",
-          "venue": "Fairyland Cinemas"
         }
       ],
       "shows": 11,
-      "tickets_sold": 164
+      "tickets_sold": 168
     }
   },
   "verification": {
@@ -689,6 +689,24 @@
           "Spider-Man:Brand New Day"
         ],
         "canonical": "Spider-Man:Brand New Day"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "Magudam"
+        ],
+        "canonical": "Magudam"
+      },
+      {
+        "aliases": [
+          "Unmadham"
+        ],
+        "canonical": "Unmadham"
       },
       {
         "aliases": [
@@ -708,18 +726,6 @@
           "Thudakkam [M]"
         ],
         "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "Unmadham"
-        ],
-        "canonical": "Unmadham"
       }
     ]
   }
