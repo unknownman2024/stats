@@ -1,16 +1,35 @@
 {
   "date": "2026-08-15",
-  "last_updated": "2026-08-13T20:32:57.910478+05:30",
+  "last_updated": "2026-08-13T22:31:42.068530+05:30",
   "movies": {
     "DC": {
-      "gross": 0,
+      "gross": 1200,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 450,
+              "movie": "DC",
+              "screen": "SCREEN 3",
+              "showid": "3783",
+              "tickets_sold": 3,
+              "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 750,
+              "movie": "DC",
+              "screen": "SCREEN 3",
+              "showid": "3784",
+              "tickets_sold": 5,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "gross": 1200,
+          "shows": 2,
+          "tickets_sold": 8
         },
         "without_gross": {
           "breakdown": [
@@ -31,31 +50,31 @@
               "tickets_sold": 0,
               "time": "02:30 PM",
               "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "DC",
-              "screen": "SCREEN 3",
-              "showid": "3783",
-              "tickets_sold": 0,
-              "time": "06:00 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "DC",
-              "screen": "SCREEN 3",
-              "showid": "3784",
-              "tickets_sold": 0,
-              "time": "09:30 PM",
-              "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 4,
+          "shows": 2,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 750,
+          "movie": "DC",
+          "screen": "SCREEN 3",
+          "showid": "3784",
+          "tickets_sold": 5,
+          "time": "09:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 450,
+          "movie": "DC",
+          "screen": "SCREEN 3",
+          "showid": "3783",
+          "tickets_sold": 3,
+          "time": "06:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
         {
           "gross": 0,
           "movie": "DC",
@@ -73,31 +92,13 @@
           "tickets_sold": 0,
           "time": "02:30 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "DC",
-          "screen": "SCREEN 3",
-          "showid": "3783",
-          "tickets_sold": 0,
-          "time": "06:00 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "DC",
-          "screen": "SCREEN 3",
-          "showid": "3784",
-          "tickets_sold": 0,
-          "time": "09:30 PM",
-          "venue": "Fairyland Cinemas"
         }
       ],
       "shows": 4,
-      "tickets_sold": 0
+      "tickets_sold": 8
     },
     "DC (Tamil)": {
-      "gross": 3450,
+      "gross": 4050,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -112,27 +113,27 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 300,
+              "gross": 900,
               "movie": "DC (Tamil)",
               "screen": "Dolby Atmos",
-              "showid": "5800",
-              "tickets_sold": 2,
-              "time": "12:00 PM",
+              "showid": "5801",
+              "tickets_sold": 6,
+              "time": "03:00 PM",
               "venue": "Girija Theatre"
             },
             {
               "gross": 600,
               "movie": "DC (Tamil)",
               "screen": "Dolby Atmos",
-              "showid": "5801",
+              "showid": "5800",
               "tickets_sold": 4,
-              "time": "03:00 PM",
+              "time": "12:00 PM",
               "venue": "Girija Theatre"
             }
           ],
-          "gross": 3450,
+          "gross": 4050,
           "shows": 3,
-          "tickets_sold": 23
+          "tickets_sold": 27
         },
         "without_gross": {
           "breakdown": [
@@ -197,20 +198,20 @@
           "venue": "Girija Theatre"
         },
         {
-          "gross": 600,
+          "gross": 900,
           "movie": "DC (Tamil)",
           "screen": "Dolby Atmos",
           "showid": "5801",
-          "tickets_sold": 4,
+          "tickets_sold": 6,
           "time": "03:00 PM",
           "venue": "Girija Theatre"
         },
         {
-          "gross": 300,
+          "gross": 600,
           "movie": "DC (Tamil)",
           "screen": "Dolby Atmos",
           "showid": "5800",
-          "tickets_sold": 2,
+          "tickets_sold": 4,
           "time": "12:00 PM",
           "venue": "Girija Theatre"
         },
@@ -261,7 +262,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 23
+      "tickets_sold": 27
     },
     "Magudam": {
       "gross": 0,
@@ -358,17 +359,17 @@
       "tickets_sold": 0
     },
     "Thudakkam": {
-      "gross": 6750,
+      "gross": 7650,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 2100,
+              "gross": 2550,
               "movie": "Thudakkam",
               "screen": "SCREEN 1",
               "showid": "3759",
-              "tickets_sold": 14,
+              "tickets_sold": 17,
               "time": "06:00 PM",
               "venue": "Fairyland Cinemas"
             },
@@ -382,11 +383,20 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 750,
+              "gross": 900,
+              "movie": "Thudakkam",
+              "screen": "Cinema-2",
+              "showid": "22580",
+              "tickets_sold": 6,
+              "time": "06:30 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 1200,
               "movie": "Thudakkam",
               "screen": "SCREEN 1",
               "showid": "3758",
-              "tickets_sold": 5,
+              "tickets_sold": 8,
               "time": "02:30 PM",
               "venue": "Fairyland Cinemas"
             },
@@ -407,20 +417,11 @@
               "tickets_sold": 3,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 900,
-              "movie": "Thudakkam",
-              "screen": "Cinema-2",
-              "showid": "22580",
-              "tickets_sold": 6,
-              "time": "06:30 PM",
-              "venue": "Davis Theatre"
             }
           ],
-          "gross": 6750,
+          "gross": 7650,
           "shows": 6,
-          "tickets_sold": 45
+          "tickets_sold": 51
         },
         "without_gross": {
           "breakdown": [
@@ -485,11 +486,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 2100,
+          "gross": 2550,
           "movie": "Thudakkam",
           "screen": "SCREEN 1",
           "showid": "3759",
-          "tickets_sold": 14,
+          "tickets_sold": 17,
           "time": "06:00 PM",
           "venue": "Fairyland Cinemas"
         },
@@ -503,6 +504,15 @@
           "venue": "Fairyland Cinemas"
         },
         {
+          "gross": 1200,
+          "movie": "Thudakkam",
+          "screen": "SCREEN 1",
+          "showid": "3758",
+          "tickets_sold": 8,
+          "time": "02:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
           "gross": 900,
           "movie": "Thudakkam",
           "screen": "Cinema-2",
@@ -510,15 +520,6 @@
           "tickets_sold": 6,
           "time": "06:30 PM",
           "venue": "Davis Theatre"
-        },
-        {
-          "gross": 750,
-          "movie": "Thudakkam",
-          "screen": "SCREEN 1",
-          "showid": "3758",
-          "tickets_sold": 5,
-          "time": "02:30 PM",
-          "venue": "Fairyland Cinemas"
         },
         {
           "gross": 750,
@@ -594,17 +595,27 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 45
+      "tickets_sold": 51
     },
     "Vishwanath and Sons": {
-      "gross": 0,
+      "gross": 450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 450,
+              "movie": "Vishwanath and Sons",
+              "screen": "Aiswarya",
+              "showid": "8273",
+              "tickets_sold": 3,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 450,
+          "shows": 1,
+          "tickets_sold": 3
         },
         "without_gross": {
           "breakdown": [
@@ -666,26 +677,26 @@
               "gross": 0,
               "movie": "Vishwanath and Sons",
               "screen": "Aiswarya",
-              "showid": "8273",
-              "tickets_sold": 0,
-              "time": "05:30 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Vishwanath and Sons",
-              "screen": "Aiswarya",
               "showid": "8274",
               "tickets_sold": 0,
               "time": "08:45 PM",
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 450,
+          "movie": "Vishwanath and Sons",
+          "screen": "Aiswarya",
+          "showid": "8273",
+          "tickets_sold": 3,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Vishwanath and Sons",
@@ -744,15 +755,6 @@
           "gross": 0,
           "movie": "Vishwanath and Sons",
           "screen": "Aiswarya",
-          "showid": "8273",
-          "tickets_sold": 0,
-          "time": "05:30 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Vishwanath and Sons",
-          "screen": "Aiswarya",
           "showid": "8274",
           "tickets_sold": 0,
           "time": "08:45 PM",
@@ -760,11 +762,18 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 0
+      "tickets_sold": 3
     }
   },
   "verification": {
     "merged_movies": [
+      {
+        "aliases": [
+          "D C (Tamil)",
+          "DC (Tamil)"
+        ],
+        "canonical": "DC (Tamil)"
+      },
       {
         "aliases": [
           "Vishwanath and Sons",
@@ -794,22 +803,15 @@
       },
       {
         "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
+          "Spider-Man: Brand New Day"
         ],
-        "canonical": "DC (Tamil)"
+        "canonical": "Spider-Man: Brand New Day"
       },
       {
         "aliases": [
           "Magudam"
         ],
         "canonical": "Magudam"
-      },
-      {
-        "aliases": [
-          "Spider-Man: Brand New Day"
-        ],
-        "canonical": "Spider-Man: Brand New Day"
       }
     ]
   }
