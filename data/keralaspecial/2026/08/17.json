@@ -1,7 +1,101 @@
 {
   "date": "2026-08-17",
-  "last_updated": "2026-08-13T07:56:33.936549+05:30",
+  "last_updated": "2026-08-13T10:26:26.507454+05:30",
   "movies": {
+    "DC": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "DC",
+              "screen": "SCREEN 3",
+              "showid": "3789",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "DC",
+              "screen": "SCREEN 3",
+              "showid": "3790",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "DC",
+              "screen": "SCREEN 3",
+              "showid": "3791",
+              "tickets_sold": 0,
+              "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "DC",
+              "screen": "SCREEN 3",
+              "showid": "3792",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "shows": 4,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "DC",
+          "screen": "SCREEN 3",
+          "showid": "3789",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "DC",
+          "screen": "SCREEN 3",
+          "showid": "3790",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "DC",
+          "screen": "SCREEN 3",
+          "showid": "3791",
+          "tickets_sold": 0,
+          "time": "06:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "DC",
+          "screen": "SCREEN 3",
+          "showid": "3792",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Fairyland Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 0
+    },
     "DC (Tamil)": {
       "gross": 0,
       "occupancy": null,
@@ -91,6 +185,100 @@
           "tickets_sold": 0,
           "time": "09:30 PM",
           "venue": "Girija Theatre"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 0
+    },
+    "Magudam": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Magudam",
+              "screen": "SCREEN 4",
+              "showid": "3813",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Magudam",
+              "screen": "SCREEN 4",
+              "showid": "3814",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Magudam",
+              "screen": "SCREEN 4",
+              "showid": "3815",
+              "tickets_sold": 0,
+              "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Magudam",
+              "screen": "SCREEN 4",
+              "showid": "3816",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "shows": 4,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Magudam",
+          "screen": "SCREEN 4",
+          "showid": "3813",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Magudam",
+          "screen": "SCREEN 4",
+          "showid": "3814",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Magudam",
+          "screen": "SCREEN 4",
+          "showid": "3815",
+          "tickets_sold": 0,
+          "time": "06:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Magudam",
+          "screen": "SCREEN 4",
+          "showid": "3816",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Fairyland Cinemas"
         }
       ],
       "shows": 4,
@@ -289,35 +477,9 @@
     "merged_movies": [
       {
         "aliases": [
-          "Spider-Man Brand New Day",
-          "Spider-Man: Brand New Day",
-          "Spider-Man:Brand New Day"
-        ],
-        "canonical": "Spider-Man:Brand New Day"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
           "Magudam"
         ],
         "canonical": "Magudam"
-      },
-      {
-        "aliases": [
-          "Unmadham"
-        ],
-        "canonical": "Unmadham"
-      },
-      {
-        "aliases": [
-          "DC (Tamil)"
-        ],
-        "canonical": "DC (Tamil)"
       },
       {
         "aliases": [
@@ -327,10 +489,37 @@
       },
       {
         "aliases": [
+          "D C (Tamil)",
+          "DC (Tamil)"
+        ],
+        "canonical": "DC (Tamil)"
+      },
+      {
+        "aliases": [
           "Thudakkam",
           "Thudakkam [M]"
         ],
         "canonical": "Thudakkam"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "Unmadham"
+        ],
+        "canonical": "Unmadham"
+      },
+      {
+        "aliases": [
+          "Spider-Man Brand New Day",
+          "Spider-Man: Brand New Day",
+          "Spider-Man:Brand New Day"
+        ],
+        "canonical": "Spider-Man Brand New Day"
       }
     ]
   }
