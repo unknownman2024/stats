@@ -1,19 +1,28 @@
 {
   "date": "2026-08-14",
-  "last_updated": "2026-08-13T13:55:28.802284+05:30",
+  "last_updated": "2026-08-13T15:43:20.046258+05:30",
   "movies": {
     "DC": {
-      "gross": 1050,
+      "gross": 1650,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 150,
+              "gross": 300,
+              "movie": "DC",
+              "screen": "SCREEN 3",
+              "showid": "3780",
+              "tickets_sold": 2,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 750,
               "movie": "DC",
               "screen": "Screen-1",
               "showid": "8266",
-              "tickets_sold": 1,
+              "tickets_sold": 5,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
             },
@@ -52,20 +61,11 @@
               "tickets_sold": 1,
               "time": "10:00 PM",
               "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 300,
-              "movie": "DC",
-              "screen": "SCREEN 3",
-              "showid": "3780",
-              "tickets_sold": 2,
-              "time": "09:30 PM",
-              "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 1050,
+          "gross": 1650,
           "shows": 6,
-          "tickets_sold": 7
+          "tickets_sold": 11
         },
         "without_gross": {
           "breakdown": [
@@ -95,13 +95,58 @@
               "tickets_sold": 0,
               "time": "06:00 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "DC",
+              "screen": null,
+              "showid": "19253",
+              "tickets_sold": 0,
+              "time": "01:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "DC",
+              "screen": null,
+              "showid": "19254",
+              "tickets_sold": 0,
+              "time": "03:45 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "DC",
+              "screen": null,
+              "showid": "19255",
+              "tickets_sold": 0,
+              "time": "06:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "DC",
+              "screen": null,
+              "showid": "19256",
+              "tickets_sold": 0,
+              "time": "09:45 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 3,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 750,
+          "movie": "DC",
+          "screen": "Screen-1",
+          "showid": "8266",
+          "tickets_sold": 5,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 300,
           "movie": "DC",
@@ -110,15 +155,6 @@
           "tickets_sold": 2,
           "time": "09:30 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 150,
-          "movie": "DC",
-          "screen": "Screen-1",
-          "showid": "8266",
-          "tickets_sold": 1,
-          "time": "11:00 AM",
-          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 150,
@@ -182,10 +218,46 @@
           "tickets_sold": 0,
           "time": "06:00 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "DC",
+          "screen": null,
+          "showid": "19253",
+          "tickets_sold": 0,
+          "time": "01:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "DC",
+          "screen": null,
+          "showid": "19254",
+          "tickets_sold": 0,
+          "time": "03:45 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "DC",
+          "screen": null,
+          "showid": "19255",
+          "tickets_sold": 0,
+          "time": "06:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "DC",
+          "screen": null,
+          "showid": "19256",
+          "tickets_sold": 0,
+          "time": "09:45 PM",
+          "venue": "Puthet Cinemas"
         }
       ],
-      "shows": 9,
-      "tickets_sold": 7
+      "shows": 13,
+      "tickets_sold": 11
     },
     "DC (Tamil)": {
       "gross": 300,
@@ -490,9 +562,18 @@
               "tickets_sold": 0,
               "time": "07:00 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "19252",
+              "tickets_sold": 0,
+              "time": "10:15 AM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 1,
+          "shows": 2,
           "tickets_sold": 0
         }
       },
@@ -505,12 +586,21 @@
           "tickets_sold": 0,
           "time": "07:00 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": null,
+          "showid": "19252",
+          "tickets_sold": 0,
+          "time": "10:15 AM",
+          "venue": "Puthet Cinemas"
         }
       ],
-      "shows": 1,
+      "shows": 2,
       "tickets_sold": 0
     },
-    "Thudakkam": {
+    "THE END OF OAK STREET": {
       "gross": 0,
       "occupancy": null,
       "seats_type": {
@@ -519,6 +609,65 @@
           "gross": 0,
           "shows": 0,
           "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "THE END OF OAK STREET",
+              "screen": null,
+              "showid": "19257",
+              "tickets_sold": 0,
+              "time": "01:30 PM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "shows": 1,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "THE END OF OAK STREET",
+          "screen": null,
+          "showid": "19257",
+          "tickets_sold": 0,
+          "time": "01:30 PM",
+          "venue": "Puthet Cinemas"
+        }
+      ],
+      "shows": 1,
+      "tickets_sold": 0
+    },
+    "Thudakkam": {
+      "gross": 1350,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [
+            {
+              "gross": 600,
+              "movie": "Thudakkam",
+              "screen": "Athulya",
+              "showid": "8285",
+              "tickets_sold": 4,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 750,
+              "movie": "Thudakkam [M]",
+              "screen": null,
+              "showid": "19250",
+              "tickets_sold": 5,
+              "time": "06:00 PM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "gross": 1350,
+          "shows": 2,
+          "tickets_sold": 9
         },
         "without_gross": {
           "breakdown": [
@@ -580,26 +729,62 @@
               "gross": 0,
               "movie": "Thudakkam",
               "screen": "Athulya",
-              "showid": "8285",
-              "tickets_sold": 0,
-              "time": "05:30 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Thudakkam",
-              "screen": "Athulya",
               "showid": "8286",
               "tickets_sold": 0,
               "time": "08:45 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Thudakkam [M]",
+              "screen": null,
+              "showid": "19248",
+              "tickets_sold": 0,
+              "time": "11:30 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Thudakkam [M]",
+              "screen": null,
+              "showid": "19249",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Thudakkam [M]",
+              "screen": null,
+              "showid": "19251",
+              "tickets_sold": 0,
+              "time": "09:00 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 10,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 750,
+          "movie": "Thudakkam [M]",
+          "screen": null,
+          "showid": "19250",
+          "tickets_sold": 5,
+          "time": "06:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 600,
+          "movie": "Thudakkam",
+          "screen": "Athulya",
+          "showid": "8285",
+          "tickets_sold": 4,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Thudakkam",
@@ -658,72 +843,90 @@
           "gross": 0,
           "movie": "Thudakkam",
           "screen": "Athulya",
-          "showid": "8285",
-          "tickets_sold": 0,
-          "time": "05:30 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Thudakkam",
-          "screen": "Athulya",
           "showid": "8286",
           "tickets_sold": 0,
           "time": "08:45 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Thudakkam [M]",
+          "screen": null,
+          "showid": "19248",
+          "tickets_sold": 0,
+          "time": "11:30 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Thudakkam [M]",
+          "screen": null,
+          "showid": "19249",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Thudakkam [M]",
+          "screen": null,
+          "showid": "19251",
+          "tickets_sold": 0,
+          "time": "09:00 PM",
+          "venue": "Puthet Cinemas"
         }
       ],
-      "shows": 8,
-      "tickets_sold": 0
+      "shows": 12,
+      "tickets_sold": 9
     },
     "Vishwanath and Sons": {
-      "gross": 33000,
+      "gross": 36000,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 8100,
+              "gross": 8400,
               "movie": "Vishwanath and Sons",
               "screen": null,
               "showid": "19238",
-              "tickets_sold": 54,
+              "tickets_sold": 56,
               "time": "06:15 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 6750,
-              "movie": "Vishwanath and Sons",
-              "screen": "Aiswarya",
-              "showid": "8255",
-              "tickets_sold": 45,
-              "time": "08:30 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 7050,
+              "gross": 7500,
               "movie": "Vishwanath and Sons",
               "screen": null,
               "showid": "19237",
-              "tickets_sold": 47,
+              "tickets_sold": 50,
               "time": "10:30 AM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 7050,
+              "gross": 7650,
               "movie": "Vishwanath and Sons",
               "screen": null,
               "showid": "19239",
-              "tickets_sold": 47,
+              "tickets_sold": 51,
               "time": "09:30 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 2550,
+              "gross": 7200,
+              "movie": "Vishwanath and Sons",
+              "screen": "Aiswarya",
+              "showid": "8255",
+              "tickets_sold": 48,
+              "time": "08:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 3450,
               "movie": "Vishwanath and Sons",
               "screen": "Aiswarya",
               "showid": "8252",
-              "tickets_sold": 17,
+              "tickets_sold": 23,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
             },
@@ -771,71 +974,70 @@
               "tickets_sold": 1,
               "time": "06:00 PM",
               "venue": "Fairyland Cinemas"
-            }
-          ],
-          "gross": 33000,
-          "shows": 10,
-          "tickets_sold": 220
-        },
-        "without_gross": {
-          "breakdown": [
+            },
             {
-              "gross": 0,
+              "gross": 300,
               "movie": "Vishwanath and Sons",
               "screen": "Aiswarya",
               "showid": "8253",
-              "tickets_sold": 0,
+              "tickets_sold": 2,
               "time": "02:00 PM",
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 1,
+          "gross": 36000,
+          "shows": 11,
+          "tickets_sold": 240
+        },
+        "without_gross": {
+          "breakdown": [],
+          "shows": 0,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 8100,
+          "gross": 8400,
           "movie": "Vishwanath and Sons",
           "screen": null,
           "showid": "19238",
-          "tickets_sold": 54,
+          "tickets_sold": 56,
           "time": "06:15 PM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 7050,
-          "movie": "Vishwanath and Sons",
-          "screen": null,
-          "showid": "19237",
-          "tickets_sold": 47,
-          "time": "10:30 AM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 7050,
+          "gross": 7650,
           "movie": "Vishwanath and Sons",
           "screen": null,
           "showid": "19239",
-          "tickets_sold": 47,
+          "tickets_sold": 51,
           "time": "09:30 PM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 6750,
+          "gross": 7500,
+          "movie": "Vishwanath and Sons",
+          "screen": null,
+          "showid": "19237",
+          "tickets_sold": 50,
+          "time": "10:30 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 7200,
           "movie": "Vishwanath and Sons",
           "screen": "Aiswarya",
           "showid": "8255",
-          "tickets_sold": 45,
+          "tickets_sold": 48,
           "time": "08:30 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 2550,
+          "gross": 3450,
           "movie": "Vishwanath and Sons",
           "screen": "Aiswarya",
           "showid": "8252",
-          "tickets_sold": 17,
+          "tickets_sold": 23,
           "time": "11:00 AM",
           "venue": "Aiswarya Cinemas"
         },
@@ -876,6 +1078,15 @@
           "venue": "Fairyland Cinemas"
         },
         {
+          "gross": 300,
+          "movie": "Vishwanath and Sons",
+          "screen": "Aiswarya",
+          "showid": "8253",
+          "tickets_sold": 2,
+          "time": "02:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
           "gross": 150,
           "movie": "Vishwanath and Sons",
           "screen": "SCREEN 2",
@@ -883,19 +1094,10 @@
           "tickets_sold": 1,
           "time": "06:00 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Vishwanath and Sons",
-          "screen": "Aiswarya",
-          "showid": "8253",
-          "tickets_sold": 0,
-          "time": "02:00 PM",
-          "venue": "Aiswarya Cinemas"
         }
       ],
       "shows": 11,
-      "tickets_sold": 220
+      "tickets_sold": 240
     }
   },
   "verification": {
@@ -909,13 +1111,12 @@
       },
       {
         "aliases": [
-          "DC"
+          "Magudam"
         ],
-        "canonical": "DC"
+        "canonical": "Magudam"
       },
       {
         "aliases": [
-          "Spider-Man Brand New Day",
           "Spider-Man: Brand New Day",
           "Spider-Man:Brand New Day"
         ],
@@ -936,15 +1137,21 @@
       },
       {
         "aliases": [
-          "Unmadham"
+          "THE END OF OAK STREET"
         ],
-        "canonical": "Unmadham"
+        "canonical": "THE END OF OAK STREET"
       },
       {
         "aliases": [
-          "Magudam"
+          "DC"
         ],
-        "canonical": "Magudam"
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "Unmadham"
+        ],
+        "canonical": "Unmadham"
       }
     ]
   }
