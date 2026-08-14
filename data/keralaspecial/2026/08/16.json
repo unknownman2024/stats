@@ -1,6 +1,6 @@
 {
   "date": "2026-08-16",
-  "last_updated": "2026-08-14T10:23:13.325908+05:30",
+  "last_updated": "2026-08-14T11:48:40.304729+05:30",
   "movies": {
     "DC": {
       "gross": 450,
@@ -359,14 +359,24 @@
       "tickets_sold": 0
     },
     "Thudakkam": {
-      "gross": 0,
+      "gross": 600,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 600,
+              "movie": "Thudakkam",
+              "screen": "SCREEN 1",
+              "showid": "3762",
+              "tickets_sold": 4,
+              "time": "02:30 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "gross": 600,
+          "shows": 1,
+          "tickets_sold": 4
         },
         "without_gross": {
           "breakdown": [
@@ -377,15 +387,6 @@
               "showid": "3761",
               "tickets_sold": 0,
               "time": "11:00 AM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Thudakkam",
-              "screen": "SCREEN 1",
-              "showid": "3762",
-              "tickets_sold": 0,
-              "time": "02:30 PM",
               "venue": "Fairyland Cinemas"
             },
             {
@@ -479,11 +480,20 @@
               "venue": "Davis Theatre"
             }
           ],
-          "shows": 12,
+          "shows": 11,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 600,
+          "movie": "Thudakkam",
+          "screen": "SCREEN 1",
+          "showid": "3762",
+          "tickets_sold": 4,
+          "time": "02:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Thudakkam",
@@ -491,15 +501,6 @@
           "showid": "3761",
           "tickets_sold": 0,
           "time": "11:00 AM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Thudakkam",
-          "screen": "SCREEN 1",
-          "showid": "3762",
-          "tickets_sold": 0,
-          "time": "02:30 PM",
           "venue": "Fairyland Cinemas"
         },
         {
@@ -594,17 +595,27 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 0
+      "tickets_sold": 4
     },
     "Vishwanath & Sons": {
-      "gross": 0,
+      "gross": 600,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 600,
+              "movie": "Vishwanath and Sons",
+              "screen": "Aiswarya",
+              "showid": "8277",
+              "tickets_sold": 4,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 600,
+          "shows": 1,
+          "tickets_sold": 4
         },
         "without_gross": {
           "breakdown": [
@@ -666,26 +677,26 @@
               "gross": 0,
               "movie": "Vishwanath and Sons",
               "screen": "Aiswarya",
-              "showid": "8277",
-              "tickets_sold": 0,
-              "time": "05:30 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Vishwanath and Sons",
-              "screen": "Aiswarya",
               "showid": "8278",
               "tickets_sold": 0,
               "time": "08:45 PM",
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 600,
+          "movie": "Vishwanath and Sons",
+          "screen": "Aiswarya",
+          "showid": "8277",
+          "tickets_sold": 4,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Vishwanath and Sons",
@@ -744,15 +755,6 @@
           "gross": 0,
           "movie": "Vishwanath and Sons",
           "screen": "Aiswarya",
-          "showid": "8277",
-          "tickets_sold": 0,
-          "time": "05:30 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Vishwanath and Sons",
-          "screen": "Aiswarya",
           "showid": "8278",
           "tickets_sold": 0,
           "time": "08:45 PM",
@@ -760,7 +762,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 0
+      "tickets_sold": 4
     },
     "Vishwanath and Sons": {
       "gross": 0,
@@ -933,6 +935,19 @@
     "merged_movies": [
       {
         "aliases": [
+          "Spider-Man: Brand New Day"
+        ],
+        "canonical": "Spider-Man: Brand New Day"
+      },
+      {
+        "aliases": [
+          "Thudakkam",
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam"
+      },
+      {
+        "aliases": [
           "D C (Tamil)",
           "DC (Tamil)"
         ],
@@ -947,41 +962,34 @@
       },
       {
         "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
           "DC"
         ],
         "canonical": "DC"
       },
       {
         "aliases": [
-          "Magudam"
+          "Vishwanath and Sons (Tamil)"
         ],
-        "canonical": "Magudam"
+        "canonical": "Vishwanath and Sons (Tamil)"
       },
       {
         "aliases": [
           "THE END OF OAK STREET",
           "The End of Oak Street"
         ],
-        "canonical": "THE END OF OAK STREET"
+        "canonical": "The End of Oak Street"
       },
       {
         "aliases": [
-          "Spider-Man: Brand New Day"
+          "Magudam"
         ],
-        "canonical": "Spider-Man: Brand New Day"
-      },
-      {
-        "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "Vishwanath and Sons (Tamil)"
-        ],
-        "canonical": "Vishwanath and Sons (Tamil)"
+        "canonical": "Magudam"
       }
     ]
   }
