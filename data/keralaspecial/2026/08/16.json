@@ -1,9 +1,9 @@
 {
   "date": "2026-08-16",
-  "last_updated": "2026-08-14T13:50:33.381864+05:30",
+  "last_updated": "2026-08-14T15:39:41.390658+05:30",
   "movies": {
     "DC": {
-      "gross": 450,
+      "gross": 750,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -16,11 +16,20 @@
               "tickets_sold": 3,
               "time": "06:00 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "DC",
+              "screen": "Screen-1",
+              "showid": "8315",
+              "tickets_sold": 2,
+              "time": "01:45 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 450,
-          "shows": 1,
-          "tickets_sold": 3
+          "gross": 750,
+          "shows": 2,
+          "tickets_sold": 5
         },
         "without_gross": {
           "breakdown": [
@@ -64,15 +73,6 @@
               "gross": 0,
               "movie": "DC",
               "screen": "Screen-1",
-              "showid": "8315",
-              "tickets_sold": 0,
-              "time": "01:45 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "DC",
-              "screen": "Screen-1",
               "showid": "8316",
               "tickets_sold": 0,
               "time": "04:30 PM",
@@ -97,7 +97,7 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
@@ -110,6 +110,15 @@
           "tickets_sold": 3,
           "time": "06:00 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "DC",
+          "screen": "Screen-1",
+          "showid": "8315",
+          "tickets_sold": 2,
+          "time": "01:45 PM",
+          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 0,
@@ -151,15 +160,6 @@
           "gross": 0,
           "movie": "DC",
           "screen": "Screen-1",
-          "showid": "8315",
-          "tickets_sold": 0,
-          "time": "01:45 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "DC",
-          "screen": "Screen-1",
           "showid": "8316",
           "tickets_sold": 0,
           "time": "04:30 PM",
@@ -185,7 +185,7 @@
         }
       ],
       "shows": 9,
-      "tickets_sold": 3
+      "tickets_sold": 5
     },
     "DC (Tamil)": {
       "gross": 750,
@@ -654,18 +654,112 @@
       "shows": 4,
       "tickets_sold": 0
     },
+    "The End of Oak Street": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "The End of Oak Street",
+              "screen": "Screen-2",
+              "showid": "8324",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "The End of Oak Street",
+              "screen": "Screen-2",
+              "showid": "8325",
+              "tickets_sold": 0,
+              "time": "01:45 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "The End of Oak Street",
+              "screen": "Screen-2",
+              "showid": "8326",
+              "tickets_sold": 0,
+              "time": "04:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "The End of Oak Street",
+              "screen": "Screen-2",
+              "showid": "8328",
+              "tickets_sold": 0,
+              "time": "10:00 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "shows": 4,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "The End of Oak Street",
+          "screen": "Screen-2",
+          "showid": "8324",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "The End of Oak Street",
+          "screen": "Screen-2",
+          "showid": "8325",
+          "tickets_sold": 0,
+          "time": "01:45 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "The End of Oak Street",
+          "screen": "Screen-2",
+          "showid": "8326",
+          "tickets_sold": 0,
+          "time": "04:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "The End of Oak Street",
+          "screen": "Screen-2",
+          "showid": "8328",
+          "tickets_sold": 0,
+          "time": "10:00 PM",
+          "venue": "Aiswarya Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 0
+    },
     "Thudakkam": {
-      "gross": 900,
+      "gross": 1350,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 600,
+              "gross": 1050,
               "movie": "Thudakkam",
               "screen": "SCREEN 1",
               "showid": "3762",
-              "tickets_sold": 4,
+              "tickets_sold": 7,
               "time": "02:30 PM",
               "venue": "Fairyland Cinemas"
             },
@@ -679,9 +773,9 @@
               "venue": "Davis Theatre"
             }
           ],
-          "gross": 900,
+          "gross": 1350,
           "shows": 2,
-          "tickets_sold": 6
+          "tickets_sold": 9
         },
         "without_gross": {
           "breakdown": [
@@ -782,11 +876,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 600,
+          "gross": 1050,
           "movie": "Thudakkam",
           "screen": "SCREEN 1",
           "showid": "3762",
-          "tickets_sold": 4,
+          "tickets_sold": 7,
           "time": "02:30 PM",
           "venue": "Fairyland Cinemas"
         },
@@ -891,7 +985,7 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 6
+      "tickets_sold": 9
     },
     "Vishwanath & Sons": {
       "gross": 900,
@@ -1061,14 +1155,33 @@
       "tickets_sold": 6
     },
     "Vishwanath and Sons": {
-      "gross": 0,
+      "gross": 1200,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 600,
+              "movie": "Vishwanath and Sons",
+              "screen": "Aiswarya",
+              "showid": "8276",
+              "tickets_sold": 4,
+              "time": "02:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 600,
+              "movie": "Vishwanath and Sons",
+              "screen": "Aiswarya",
+              "showid": "8277",
+              "tickets_sold": 4,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 1200,
+          "shows": 2,
+          "tickets_sold": 8
         },
         "without_gross": {
           "breakdown": [
@@ -1121,35 +1234,35 @@
               "gross": 0,
               "movie": "Vishwanath and Sons",
               "screen": "Aiswarya",
-              "showid": "8276",
-              "tickets_sold": 0,
-              "time": "02:15 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Vishwanath and Sons",
-              "screen": "Aiswarya",
-              "showid": "8277",
-              "tickets_sold": 0,
-              "time": "05:30 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Vishwanath and Sons",
-              "screen": "Aiswarya",
               "showid": "8278",
               "tickets_sold": 0,
               "time": "08:45 PM",
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 6,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 600,
+          "movie": "Vishwanath and Sons",
+          "screen": "Aiswarya",
+          "showid": "8276",
+          "tickets_sold": 4,
+          "time": "02:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 600,
+          "movie": "Vishwanath and Sons",
+          "screen": "Aiswarya",
+          "showid": "8277",
+          "tickets_sold": 4,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Vishwanath and Sons",
@@ -1199,24 +1312,6 @@
           "gross": 0,
           "movie": "Vishwanath and Sons",
           "screen": "Aiswarya",
-          "showid": "8276",
-          "tickets_sold": 0,
-          "time": "02:15 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Vishwanath and Sons",
-          "screen": "Aiswarya",
-          "showid": "8277",
-          "tickets_sold": 0,
-          "time": "05:30 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Vishwanath and Sons",
-          "screen": "Aiswarya",
           "showid": "8278",
           "tickets_sold": 0,
           "time": "08:45 PM",
@@ -1224,38 +1319,11 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 0
+      "tickets_sold": 8
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "Vishwanath & Sons",
-          "Vishwanath and Sons"
-        ],
-        "canonical": "Vishwanath & Sons"
-      },
-      {
-        "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
-        ],
-        "canonical": "DC (Tamil)"
-      },
-      {
-        "aliases": [
-          "THE END OF OAK STREET",
-          "The End of Oak Street"
-        ],
-        "canonical": "THE END OF OAK STREET"
-      },
-      {
-        "aliases": [
-          "Spider-Man: Brand New Day"
-        ],
-        "canonical": "Spider-Man: Brand New Day"
-      },
       {
         "aliases": [
           "Thudakkam",
@@ -1265,9 +1333,17 @@
       },
       {
         "aliases": [
-          "DC"
+          "Vishwanath and Sons",
+          "Vishwanath and Sons (Tamil)"
         ],
-        "canonical": "DC"
+        "canonical": "Vishwanath and Sons"
+      },
+      {
+        "aliases": [
+          "THE END OF OAK STREET",
+          "The End of Oak Street"
+        ],
+        "canonical": "The End of Oak Street"
       },
       {
         "aliases": [
@@ -1277,9 +1353,28 @@
       },
       {
         "aliases": [
-          "Vishwanath and Sons (Tamil)"
+          "Vishwanath & Sons"
         ],
-        "canonical": "Vishwanath and Sons (Tamil)"
+        "canonical": "Vishwanath & Sons"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "Spider-Man: Brand New Day"
+        ],
+        "canonical": "Spider-Man: Brand New Day"
+      },
+      {
+        "aliases": [
+          "D C (Tamil)",
+          "DC (Tamil)"
+        ],
+        "canonical": "DC (Tamil)"
       }
     ]
   }
