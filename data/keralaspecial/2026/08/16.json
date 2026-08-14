@@ -1,6 +1,6 @@
 {
   "date": "2026-08-16",
-  "last_updated": "2026-08-14T15:39:41.390658+05:30",
+  "last_updated": "2026-08-14T17:19:20.713570+05:30",
   "movies": {
     "DC": {
       "gross": 750,
@@ -540,9 +540,18 @@
               "tickets_sold": 0,
               "time": "07:15 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "Screen-2",
+              "showid": "8338",
+              "tickets_sold": 0,
+              "time": "01:45 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 1,
+          "shows": 2,
           "tickets_sold": 0
         }
       },
@@ -555,9 +564,18 @@
           "tickets_sold": 0,
           "time": "07:15 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": "Screen-2",
+          "showid": "8338",
+          "tickets_sold": 0,
+          "time": "01:45 PM",
+          "venue": "Aiswarya Cinemas"
         }
       ],
-      "shows": 1,
+      "shows": 2,
       "tickets_sold": 0
     },
     "THE END OF OAK STREET": {
@@ -988,7 +1006,7 @@
       "tickets_sold": 9
     },
     "Vishwanath & Sons": {
-      "gross": 900,
+      "gross": 1200,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -1003,18 +1021,18 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 300,
+              "gross": 600,
               "movie": "Vishwanath and Sons",
               "screen": "Aiswarya",
               "showid": "8276",
-              "tickets_sold": 2,
+              "tickets_sold": 4,
               "time": "02:15 PM",
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 900,
+          "gross": 1200,
           "shows": 2,
-          "tickets_sold": 6
+          "tickets_sold": 8
         },
         "without_gross": {
           "breakdown": [
@@ -1088,11 +1106,11 @@
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 300,
+          "gross": 600,
           "movie": "Vishwanath and Sons",
           "screen": "Aiswarya",
           "showid": "8276",
-          "tickets_sold": 2,
+          "tickets_sold": 4,
           "time": "02:15 PM",
           "venue": "Aiswarya Cinemas"
         },
@@ -1152,7 +1170,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 6
+      "tickets_sold": 8
     },
     "Vishwanath and Sons": {
       "gross": 1200,
@@ -1333,13 +1351,6 @@
       },
       {
         "aliases": [
-          "Vishwanath and Sons",
-          "Vishwanath and Sons (Tamil)"
-        ],
-        "canonical": "Vishwanath and Sons"
-      },
-      {
-        "aliases": [
           "THE END OF OAK STREET",
           "The End of Oak Street"
         ],
@@ -1353,15 +1364,18 @@
       },
       {
         "aliases": [
-          "Vishwanath & Sons"
+          "D C (Tamil)",
+          "DC (Tamil)"
         ],
-        "canonical": "Vishwanath & Sons"
+        "canonical": "DC (Tamil)"
       },
       {
         "aliases": [
-          "DC"
+          "Vishwanath & Sons",
+          "Vishwanath and Sons",
+          "Vishwanath and Sons (Tamil)"
         ],
-        "canonical": "DC"
+        "canonical": "Vishwanath & Sons"
       },
       {
         "aliases": [
@@ -1371,10 +1385,9 @@
       },
       {
         "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
+          "DC"
         ],
-        "canonical": "DC (Tamil)"
+        "canonical": "DC"
       }
     ]
   }
