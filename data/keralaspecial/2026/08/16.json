@@ -1,19 +1,19 @@
 {
   "date": "2026-08-16",
-  "last_updated": "2026-08-15T00:31:28.244277+05:30",
+  "last_updated": "2026-08-15T02:05:57.570932+05:30",
   "movies": {
     "DC": {
-      "gross": 1050,
+      "gross": 1350,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 750,
+              "gross": 1050,
               "movie": "DC",
               "screen": "SCREEN 3",
               "showid": "3787",
-              "tickets_sold": 5,
+              "tickets_sold": 7,
               "time": "06:00 PM",
               "venue": "Fairyland Cinemas"
             },
@@ -27,9 +27,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 1050,
+          "gross": 1350,
           "shows": 2,
-          "tickets_sold": 7
+          "tickets_sold": 9
         },
         "without_gross": {
           "breakdown": [
@@ -103,11 +103,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 750,
+          "gross": 1050,
           "movie": "DC",
           "screen": "SCREEN 3",
           "showid": "3787",
-          "tickets_sold": 5,
+          "tickets_sold": 7,
           "time": "06:00 PM",
           "venue": "Fairyland Cinemas"
         },
@@ -185,7 +185,7 @@
         }
       ],
       "shows": 9,
-      "tickets_sold": 7
+      "tickets_sold": 9
     },
     "DC (Tamil)": {
       "gross": 5250,
@@ -1529,17 +1529,23 @@
     "merged_movies": [
       {
         "aliases": [
+          "Vishwanath & Sons",
+          "Vishwanath and Sons"
+        ],
+        "canonical": "Vishwanath & Sons"
+      },
+      {
+        "aliases": [
+          "Spider-Man: Brand New Day"
+        ],
+        "canonical": "Spider-Man: Brand New Day"
+      },
+      {
+        "aliases": [
           "D C (Tamil)",
           "DC (Tamil)"
         ],
         "canonical": "DC (Tamil)"
-      },
-      {
-        "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
       },
       {
         "aliases": [
@@ -1556,16 +1562,16 @@
       },
       {
         "aliases": [
-          "Unknown"
+          "Thudakkam",
+          "Thudakkam [M]"
         ],
-        "canonical": "Unknown"
+        "canonical": "Thudakkam"
       },
       {
         "aliases": [
-          "Vishwanath & Sons",
-          "Vishwanath and Sons"
+          "Unknown"
         ],
-        "canonical": "Vishwanath & Sons"
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -1578,12 +1584,6 @@
           "Vishwanath and Sons (Tamil)"
         ],
         "canonical": "Vishwanath and Sons (Tamil)"
-      },
-      {
-        "aliases": [
-          "Spider-Man: Brand New Day"
-        ],
-        "canonical": "Spider-Man: Brand New Day"
       }
     ]
   }
