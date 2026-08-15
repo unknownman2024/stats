@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "last_updated": "2026-08-15T12:17:26.112150+05:30",
+  "last_updated": "2026-08-15T13:05:41.921530+05:30",
   "movies": {
     "DC": {
       "gross": 0,
@@ -91,6 +91,100 @@
           "tickets_sold": 0,
           "time": "09:30 PM",
           "venue": "Fairyland Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 0
+    },
+    "DC (Tamil)": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "DC (Tamil)",
+              "screen": "Dolby Atmos",
+              "showid": "5816",
+              "tickets_sold": 0,
+              "time": "12:00 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "DC (Tamil)",
+              "screen": "Dolby Atmos",
+              "showid": "5817",
+              "tickets_sold": 0,
+              "time": "03:00 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "DC (Tamil)",
+              "screen": "Dolby Atmos",
+              "showid": "5818",
+              "tickets_sold": 0,
+              "time": "06:30 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "DC (Tamil)",
+              "screen": "Dolby Atmos",
+              "showid": "5819",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Girija Theatre"
+            }
+          ],
+          "shows": 4,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "DC (Tamil)",
+          "screen": "Dolby Atmos",
+          "showid": "5816",
+          "tickets_sold": 0,
+          "time": "12:00 PM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "DC (Tamil)",
+          "screen": "Dolby Atmos",
+          "showid": "5817",
+          "tickets_sold": 0,
+          "time": "03:00 PM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "DC (Tamil)",
+          "screen": "Dolby Atmos",
+          "showid": "5818",
+          "tickets_sold": 0,
+          "time": "06:30 PM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "DC (Tamil)",
+          "screen": "Dolby Atmos",
+          "showid": "5819",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Girija Theatre"
         }
       ],
       "shows": 4,
@@ -477,17 +571,10 @@
     "merged_movies": [
       {
         "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
+          "Vishwanath and Sons",
+          "Vishwanath and Sons (Tamil)"
         ],
-        "canonical": "DC (Tamil)"
-      },
-      {
-        "aliases": [
-          "THE END OF OAK STREET",
-          "The End of Oak Street"
-        ],
-        "canonical": "The End of Oak Street"
+        "canonical": "Vishwanath and Sons"
       },
       {
         "aliases": [
@@ -498,28 +585,9 @@
       },
       {
         "aliases": [
-          "Vishwanath & Sons",
-          "Vishwanath and Sons"
+          "Unknown"
         ],
-        "canonical": "Vishwanath & Sons"
-      },
-      {
-        "aliases": [
-          "Vishwanath and Sons (Tamil)"
-        ],
-        "canonical": "Vishwanath and Sons (Tamil)"
-      },
-      {
-        "aliases": [
-          "Magudam"
-        ],
-        "canonical": "Magudam"
-      },
-      {
-        "aliases": [
-          "Spider-Man: Brand New Day"
-        ],
-        "canonical": "Spider-Man: Brand New Day"
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -529,9 +597,35 @@
       },
       {
         "aliases": [
-          "Unknown"
+          "Magudam"
         ],
-        "canonical": "Unknown"
+        "canonical": "Magudam"
+      },
+      {
+        "aliases": [
+          "THE END OF OAK STREET",
+          "The End of Oak Street"
+        ],
+        "canonical": "THE END OF OAK STREET"
+      },
+      {
+        "aliases": [
+          "Spider-Man: Brand New Day"
+        ],
+        "canonical": "Spider-Man: Brand New Day"
+      },
+      {
+        "aliases": [
+          "Vishwanath & Sons"
+        ],
+        "canonical": "Vishwanath & Sons"
+      },
+      {
+        "aliases": [
+          "D C (Tamil)",
+          "DC (Tamil)"
+        ],
+        "canonical": "DC (Tamil)"
       }
     ]
   }
