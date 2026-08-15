@@ -1,6 +1,6 @@
 {
   "date": "2026-08-16",
-  "last_updated": "2026-08-16T03:58:09.377794+05:30",
+  "last_updated": "2026-08-16T04:55:27.407433+05:30",
   "movies": {
     "DC": {
       "gross": 201600,
@@ -117,15 +117,6 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 4350,
-              "movie": "DC",
-              "screen": null,
-              "showid": "19287",
-              "tickets_sold": 29,
-              "time": "10:15 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 4500,
               "movie": "DC",
               "screen": "SCREEN 3",
@@ -133,6 +124,15 @@
               "tickets_sold": 30,
               "time": "11:00 AM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 4350,
+              "movie": "DC",
+              "screen": null,
+              "showid": "19287",
+              "tickets_sold": 29,
+              "time": "10:15 AM",
+              "venue": "Puthet Cinemas"
             },
             {
               "gross": 3150,
@@ -937,7 +937,7 @@
       "tickets_sold": 41
     },
     "THE END OF OAK STREET": {
-      "gross": 900,
+      "gross": 1650,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -952,18 +952,18 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 300,
+              "gross": 1050,
               "movie": "THE END OF OAK STREET",
               "screen": null,
               "showid": "19282",
-              "tickets_sold": 2,
+              "tickets_sold": 7,
               "time": "01:30 PM",
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 900,
+          "gross": 1650,
           "shows": 2,
-          "tickets_sold": 6
+          "tickets_sold": 11
         },
         "without_gross": {
           "breakdown": [
@@ -1001,6 +1001,15 @@
       },
       "show_breakdown": [
         {
+          "gross": 1050,
+          "movie": "THE END OF OAK STREET",
+          "screen": null,
+          "showid": "19282",
+          "tickets_sold": 7,
+          "time": "01:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 600,
           "movie": "The End of Oak Street",
           "screen": "Screen-2",
@@ -1008,15 +1017,6 @@
           "tickets_sold": 4,
           "time": "11:00 AM",
           "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 300,
-          "movie": "THE END OF OAK STREET",
-          "screen": null,
-          "showid": "19282",
-          "tickets_sold": 2,
-          "time": "01:30 PM",
-          "venue": "Puthet Cinemas"
         },
         {
           "gross": 0,
@@ -1047,7 +1047,7 @@
         }
       ],
       "shows": 5,
-      "tickets_sold": 6
+      "tickets_sold": 11
     },
     "The End of Oak Street": {
       "gross": 1350,
@@ -3189,27 +3189,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "Vishwanath and Sons",
-          "Vishwanath and Sons (Tamil)"
-        ],
-        "canonical": "Vishwanath and Sons"
-      },
-      {
-        "aliases": [
-          "THE END OF OAK STREET",
-          "The End of Oak Street"
-        ],
-        "canonical": "The End of Oak Street"
-      },
-      {
-        "aliases": [
           "D C (Tamil)",
           "DC (Tamil)"
         ],
@@ -3217,21 +3196,10 @@
       },
       {
         "aliases": [
-          "Vishwanath & Sons"
+          "Vishwanath and Sons",
+          "Vishwanath and Sons (Tamil)"
         ],
-        "canonical": "Vishwanath & Sons"
-      },
-      {
-        "aliases": [
-          "Spider-Man: Brand New Day"
-        ],
-        "canonical": "Spider-Man: Brand New Day"
-      },
-      {
-        "aliases": [
-          "Magudam"
-        ],
-        "canonical": "Magudam"
+        "canonical": "Vishwanath and Sons"
       },
       {
         "aliases": [
@@ -3244,6 +3212,38 @@
           "Unknown"
         ],
         "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Magudam"
+        ],
+        "canonical": "Magudam"
+      },
+      {
+        "aliases": [
+          "Spider-Man: Brand New Day"
+        ],
+        "canonical": "Spider-Man: Brand New Day"
+      },
+      {
+        "aliases": [
+          "Vishwanath & Sons"
+        ],
+        "canonical": "Vishwanath & Sons"
+      },
+      {
+        "aliases": [
+          "THE END OF OAK STREET",
+          "The End of Oak Street"
+        ],
+        "canonical": "THE END OF OAK STREET"
+      },
+      {
+        "aliases": [
+          "Thudakkam",
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam"
       }
     ]
   }
