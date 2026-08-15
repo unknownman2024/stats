@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "last_updated": "2026-08-15T16:55:15.763730+05:30",
+  "last_updated": "2026-08-15T18:18:05.378720+05:30",
   "movies": {
     "DC": {
       "gross": 0,
@@ -451,26 +451,27 @@
       "tickets_sold": 0
     },
     "Vishwanath & Sons": {
-      "gross": 0,
+      "gross": 300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
-        },
-        "without_gross": {
           "breakdown": [
             {
-              "gross": 0,
+              "gross": 300,
               "movie": "Vishwanath and Sons",
               "screen": "SCREEN 2",
               "showid": "3741",
-              "tickets_sold": 0,
+              "tickets_sold": 2,
               "time": "11:00 AM",
               "venue": "Fairyland Cinemas"
-            },
+            }
+          ],
+          "gross": 300,
+          "shows": 1,
+          "tickets_sold": 2
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "Vishwanath and Sons",
@@ -535,17 +536,17 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 0,
+          "gross": 300,
           "movie": "Vishwanath and Sons",
           "screen": "SCREEN 2",
           "showid": "3741",
-          "tickets_sold": 0,
+          "tickets_sold": 2,
           "time": "11:00 AM",
           "venue": "Fairyland Cinemas"
         },
@@ -614,7 +615,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 0
+      "tickets_sold": 2
     },
     "Vishwanath and Sons": {
       "gross": 0,
@@ -801,10 +802,10 @@
       },
       {
         "aliases": [
-          "THE END OF OAK STREET",
-          "The End of Oak Street"
+          "Vishwanath & Sons",
+          "Vishwanath and Sons"
         ],
-        "canonical": "THE END OF OAK STREET"
+        "canonical": "Vishwanath & Sons"
       },
       {
         "aliases": [
@@ -820,16 +821,9 @@
       },
       {
         "aliases": [
-          "DC"
+          "Vishwanath and Sons (Tamil)"
         ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "Vishwanath & Sons",
-          "Vishwanath and Sons"
-        ],
-        "canonical": "Vishwanath & Sons"
+        "canonical": "Vishwanath and Sons (Tamil)"
       },
       {
         "aliases": [
@@ -839,9 +833,16 @@
       },
       {
         "aliases": [
-          "Vishwanath and Sons (Tamil)"
+          "DC"
         ],
-        "canonical": "Vishwanath and Sons (Tamil)"
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "THE END OF OAK STREET",
+          "The End of Oak Street"
+        ],
+        "canonical": "The End of Oak Street"
       }
     ]
   }
