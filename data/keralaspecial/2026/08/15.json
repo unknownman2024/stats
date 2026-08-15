@@ -1,6 +1,6 @@
 {
   "date": "2026-08-15",
-  "last_updated": "2026-08-15T22:01:22.079488+05:30",
+  "last_updated": "2026-08-15T22:55:26.507744+05:30",
   "movies": {
     "DC": {
       "gross": 606900,
@@ -1308,7 +1308,7 @@
       "tickets_sold": 13
     },
     "Thudakkam": {
-      "gross": 634650,
+      "gross": 635850,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -1575,6 +1575,15 @@
               "venue": "Issacs"
             },
             {
+              "gross": 7200,
+              "movie": "Thudakkam [M]",
+              "screen": null,
+              "showid": "19286",
+              "tickets_sold": 48,
+              "time": "11:45 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
               "gross": 3300,
               "movie": "Thudakkam",
               "screen": "Athulya",
@@ -1591,15 +1600,6 @@
               "tickets_sold": 18,
               "time": "11:15 AM",
               "venue": "Issacs"
-            },
-            {
-              "gross": 6000,
-              "movie": "Thudakkam [M]",
-              "screen": null,
-              "showid": "19286",
-              "tickets_sold": 40,
-              "time": "11:45 PM",
-              "venue": "Puthet Cinemas"
             },
             {
               "gross": 2250,
@@ -1620,9 +1620,9 @@
               "venue": "Harihar"
             }
           ],
-          "gross": 634650,
+          "gross": 635850,
           "shows": 34,
-          "tickets_sold": 4231
+          "tickets_sold": 4239
         },
         "without_gross": {
           "breakdown": [],
@@ -1875,6 +1875,15 @@
           "venue": "Sandhya"
         },
         {
+          "gross": 7200,
+          "movie": "Thudakkam [M]",
+          "screen": null,
+          "showid": "19286",
+          "tickets_sold": 48,
+          "time": "11:45 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 6900,
           "movie": "Thudakkam",
           "screen": "Cinema-2",
@@ -1891,15 +1900,6 @@
           "tickets_sold": 41,
           "time": "02:00 PM",
           "venue": "Issacs"
-        },
-        {
-          "gross": 6000,
-          "movie": "Thudakkam [M]",
-          "screen": null,
-          "showid": "19286",
-          "tickets_sold": 40,
-          "time": "11:45 PM",
-          "venue": "Puthet Cinemas"
         },
         {
           "gross": 3300,
@@ -1939,7 +1939,7 @@
         }
       ],
       "shows": 34,
-      "tickets_sold": 4231
+      "tickets_sold": 4239
     },
     "Unknown": {
       "gross": 39900,
@@ -3547,23 +3547,10 @@
     "merged_movies": [
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
+          "D C (Tamil)",
+          "DC (Tamil)"
         ],
-        "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "Vishwanath and Sons",
-          "Vishwanath and Sons (Tamil)"
-        ],
-        "canonical": "Vishwanath and Sons"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
+        "canonical": "DC (Tamil)"
       },
       {
         "aliases": [
@@ -3574,16 +3561,9 @@
       },
       {
         "aliases": [
-          "Spider-Man: Brand New Day"
+          "Magudam"
         ],
-        "canonical": "Spider-Man: Brand New Day"
-      },
-      {
-        "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
-        ],
-        "canonical": "DC (Tamil)"
+        "canonical": "Magudam"
       },
       {
         "aliases": [
@@ -3593,9 +3573,29 @@
       },
       {
         "aliases": [
-          "Magudam"
+          "Vishwanath and Sons",
+          "Vishwanath and Sons (Tamil)"
         ],
-        "canonical": "Magudam"
+        "canonical": "Vishwanath and Sons"
+      },
+      {
+        "aliases": [
+          "Thudakkam",
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam"
+      },
+      {
+        "aliases": [
+          "Spider-Man: Brand New Day"
+        ],
+        "canonical": "Spider-Man: Brand New Day"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
       }
     ]
   }
