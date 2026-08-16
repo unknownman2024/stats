@@ -1,6 +1,6 @@
 {
   "date": "2026-08-16",
-  "last_updated": "2026-08-16T22:01:49.177416+05:30",
+  "last_updated": "2026-08-16T22:54:23.786949+05:30",
   "movies": {
     "DC": {
       "gross": 650400,
@@ -1476,6 +1476,15 @@
               "venue": "Davis Theatre"
             },
             {
+              "gross": 6150,
+              "movie": "Thudakkam",
+              "screen": "SCREEN 2",
+              "showid": "8873",
+              "tickets_sold": 41,
+              "time": "10:30 PM",
+              "venue": "Sandhya"
+            },
+            {
               "gross": 5850,
               "movie": "Thudakkam",
               "screen": "Athulya",
@@ -1519,15 +1528,6 @@
               "tickets_sold": 27,
               "time": "02:00 PM",
               "venue": "Issacs"
-            },
-            {
-              "gross": 6150,
-              "movie": "Thudakkam",
-              "screen": "SCREEN 2",
-              "showid": "8873",
-              "tickets_sold": 41,
-              "time": "10:30 PM",
-              "venue": "Sandhya"
             },
             {
               "gross": 3300,
@@ -1885,24 +1885,6 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 14850,
-              "movie": "Unknown",
-              "screen": "Dolby Atmos",
-              "showid": "5806",
-              "tickets_sold": 99,
-              "time": null,
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 1950,
-              "movie": "Unknown",
-              "screen": "SCREEN 1",
-              "showid": "3762",
-              "tickets_sold": 13,
-              "time": "02:30 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
               "gross": 16050,
               "movie": "Unknown",
               "screen": "Screen-3",
@@ -1928,6 +1910,24 @@
               "tickets_sold": 107,
               "time": "07:30 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 14850,
+              "movie": "Unknown",
+              "screen": "Dolby Atmos",
+              "showid": "5806",
+              "tickets_sold": 99,
+              "time": null,
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 1950,
+              "movie": "Unknown",
+              "screen": "SCREEN 1",
+              "showid": "3762",
+              "tickets_sold": 13,
+              "time": "02:30 PM",
+              "venue": "Fairyland Cinemas"
             }
           ],
           "gross": 89700,
@@ -3529,6 +3529,26 @@
     "merged_movies": [
       {
         "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "D C (Tamil)",
+          "DC (Tamil)"
+        ],
+        "canonical": "DC (Tamil)"
+      },
+      {
+        "aliases": [
+          "Thudakkam",
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam"
+      },
+      {
+        "aliases": [
           "KHALIFA",
           "Khalifa"
         ],
@@ -3543,42 +3563,22 @@
       },
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
+          "DC"
         ],
-        "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
-        ],
-        "canonical": "DC (Tamil)"
+        "canonical": "DC"
       },
       {
         "aliases": [
           "THE END OF OAK STREET",
           "The End of Oak Street"
         ],
-        "canonical": "THE END OF OAK STREET"
+        "canonical": "The End of Oak Street"
       },
       {
         "aliases": [
           "Spider-Man: Brand New Day"
         ],
         "canonical": "Spider-Man: Brand New Day"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
       }
     ]
   }
