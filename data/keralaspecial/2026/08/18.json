@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "last_updated": "2026-08-16T20:56:54.486571+05:30",
+  "last_updated": "2026-08-16T22:01:49.167480+05:30",
   "movies": {
     "DC": {
       "gross": 0,
@@ -727,7 +727,7 @@
       "tickets_sold": 120
     },
     "Vishwanath and Sons": {
-      "gross": 18000,
+      "gross": 18450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -767,11 +767,20 @@
               "tickets_sold": 30,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 450,
+              "movie": "Vishwanath and Sons",
+              "screen": "Aiswarya",
+              "showid": "8364",
+              "tickets_sold": 3,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 18000,
-          "shows": 4,
-          "tickets_sold": 120
+          "gross": 18450,
+          "shows": 5,
+          "tickets_sold": 123
         },
         "without_gross": {
           "breakdown": [
@@ -815,22 +824,13 @@
               "gross": 0,
               "movie": "Vishwanath and Sons",
               "screen": "Aiswarya",
-              "showid": "8364",
-              "tickets_sold": 0,
-              "time": "05:30 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Vishwanath and Sons",
-              "screen": "Aiswarya",
               "showid": "8365",
               "tickets_sold": 0,
               "time": "08:45 PM",
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 6,
+          "shows": 5,
           "tickets_sold": 0
         }
       },
@@ -872,6 +872,15 @@
           "venue": "Fairyland Cinemas"
         },
         {
+          "gross": 450,
+          "movie": "Vishwanath and Sons",
+          "screen": "Aiswarya",
+          "showid": "8364",
+          "tickets_sold": 3,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
           "gross": 0,
           "movie": "Vishwanath and Sons (Tamil)",
           "screen": "Cinema-3",
@@ -911,15 +920,6 @@
           "gross": 0,
           "movie": "Vishwanath and Sons",
           "screen": "Aiswarya",
-          "showid": "8364",
-          "tickets_sold": 0,
-          "time": "05:30 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Vishwanath and Sons",
-          "screen": "Aiswarya",
           "showid": "8365",
           "tickets_sold": 0,
           "time": "08:45 PM",
@@ -927,7 +927,7 @@
         }
       ],
       "shows": 10,
-      "tickets_sold": 120
+      "tickets_sold": 123
     },
     "Vishwanath and Sons (Tamil)": {
       "gross": 0,
@@ -992,11 +992,24 @@
     "merged_movies": [
       {
         "aliases": [
-          "Vishwanath & Sons",
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "Khalifa"
+      },
+      {
+        "aliases": [
           "Vishwanath and Sons",
           "Vishwanath and Sons (Tamil)"
         ],
-        "canonical": "Vishwanath & Sons"
+        "canonical": "Vishwanath and Sons"
+      },
+      {
+        "aliases": [
+          "Thudakkam",
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam"
       },
       {
         "aliases": [
@@ -1004,6 +1017,13 @@
           "DC (Tamil)"
         ],
         "canonical": "DC (Tamil)"
+      },
+      {
+        "aliases": [
+          "THE END OF OAK STREET",
+          "The End of Oak Street"
+        ],
+        "canonical": "THE END OF OAK STREET"
       },
       {
         "aliases": [
@@ -1016,27 +1036,6 @@
           "Unknown"
         ],
         "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "THE END OF OAK STREET",
-          "The End of Oak Street"
-        ],
-        "canonical": "The End of Oak Street"
-      },
-      {
-        "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "Khalifa"
-      },
-      {
-        "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
       },
       {
         "aliases": [
