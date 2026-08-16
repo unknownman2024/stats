@@ -1,22 +1,13 @@
 {
   "date": "2026-08-17",
-  "last_updated": "2026-08-16T18:19:52.502156+05:30",
+  "last_updated": "2026-08-16T19:05:40.303735+05:30",
   "movies": {
     "DC": {
-      "gross": 1350,
+      "gross": 1800,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
-            {
-              "gross": 450,
-              "movie": "DC",
-              "screen": "SCREEN 3",
-              "showid": "3790",
-              "tickets_sold": 3,
-              "time": "02:30 PM",
-              "venue": "Fairyland Cinemas"
-            },
             {
               "gross": 600,
               "movie": "DC",
@@ -27,18 +18,27 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 300,
+              "gross": 450,
+              "movie": "DC",
+              "screen": "SCREEN 3",
+              "showid": "3790",
+              "tickets_sold": 3,
+              "time": "02:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 750,
               "movie": "DC",
               "screen": null,
               "showid": "19301",
-              "tickets_sold": 2,
+              "tickets_sold": 5,
               "time": "10:15 AM",
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 1350,
+          "gross": 1800,
           "shows": 3,
-          "tickets_sold": 9
+          "tickets_sold": 12
         },
         "without_gross": {
           "breakdown": [
@@ -139,6 +139,15 @@
       },
       "show_breakdown": [
         {
+          "gross": 750,
+          "movie": "DC",
+          "screen": null,
+          "showid": "19301",
+          "tickets_sold": 5,
+          "time": "10:15 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 600,
           "movie": "DC",
           "screen": "Screen-1",
@@ -155,15 +164,6 @@
           "tickets_sold": 3,
           "time": "02:30 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 300,
-          "movie": "DC",
-          "screen": null,
-          "showid": "19301",
-          "tickets_sold": 2,
-          "time": "10:15 AM",
-          "venue": "Puthet Cinemas"
         },
         {
           "gross": 0,
@@ -257,7 +257,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 9
+      "tickets_sold": 12
     },
     "DC (Tamil)": {
       "gross": 150,
@@ -545,15 +545,6 @@
         "with_gross": {
           "breakdown": [
             {
-              "gross": 150,
-              "movie": "Spider-Man: Brand New Day",
-              "screen": null,
-              "showid": "19304",
-              "tickets_sold": 1,
-              "time": "06:25 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 450,
               "movie": "Spider-Man: Brand New Day",
               "screen": "Screen-2",
@@ -561,6 +552,15 @@
               "tickets_sold": 3,
               "time": "07:15 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 150,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": null,
+              "showid": "19304",
+              "tickets_sold": 1,
+              "time": "06:25 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
           "gross": 600,
@@ -1115,7 +1115,7 @@
       "tickets_sold": 14
     },
     "Vishwanath & Sons": {
-      "gross": 19500,
+      "gross": 19800,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -1155,11 +1155,20 @@
               "tickets_sold": 30,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "Vishwanath and Sons",
+              "screen": "Aiswarya",
+              "showid": "8280",
+              "tickets_sold": 2,
+              "time": "02:15 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 19500,
-          "shows": 4,
-          "tickets_sold": 130
+          "gross": 19800,
+          "shows": 5,
+          "tickets_sold": 132
         },
         "without_gross": {
           "breakdown": [
@@ -1170,15 +1179,6 @@
               "showid": "8279",
               "tickets_sold": 0,
               "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Vishwanath and Sons",
-              "screen": "Aiswarya",
-              "showid": "8280",
-              "tickets_sold": 0,
-              "time": "02:15 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -1254,7 +1254,7 @@
               "venue": "Davis Theatre"
             }
           ],
-          "shows": 10,
+          "shows": 9,
           "tickets_sold": 0
         }
       },
@@ -1296,21 +1296,21 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 0,
+          "gross": 300,
           "movie": "Vishwanath and Sons",
           "screen": "Aiswarya",
-          "showid": "8279",
-          "tickets_sold": 0,
-          "time": "11:00 AM",
+          "showid": "8280",
+          "tickets_sold": 2,
+          "time": "02:15 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 0,
           "movie": "Vishwanath and Sons",
           "screen": "Aiswarya",
-          "showid": "8280",
+          "showid": "8279",
           "tickets_sold": 0,
-          "time": "02:15 PM",
+          "time": "11:00 AM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -1387,7 +1387,7 @@
         }
       ],
       "shows": 14,
-      "tickets_sold": 130
+      "tickets_sold": 132
     },
     "Vishwanath and Sons": {
       "gross": 19500,
@@ -1727,20 +1727,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "Vishwanath & Sons",
-          "Vishwanath and Sons"
-        ],
-        "canonical": "Vishwanath & Sons"
-      },
-      {
-        "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "KHALIFA"
-      },
-      {
-        "aliases": [
           "D C (Tamil)",
           "DC (Tamil)"
         ],
@@ -1748,9 +1734,17 @@
       },
       {
         "aliases": [
-          "Magudam"
+          "Unknown"
         ],
-        "canonical": "Magudam"
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Vishwanath & Sons",
+          "Vishwanath and Sons",
+          "Vishwanath and Sons (Tamil)"
+        ],
+        "canonical": "Vishwanath & Sons"
       },
       {
         "aliases": [
@@ -1761,10 +1755,16 @@
       },
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
+          "Magudam"
         ],
-        "canonical": "Thudakkam"
+        "canonical": "Magudam"
+      },
+      {
+        "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "Khalifa"
       },
       {
         "aliases": [
@@ -1774,21 +1774,16 @@
       },
       {
         "aliases": [
+          "Thudakkam",
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam"
+      },
+      {
+        "aliases": [
           "DC"
         ],
         "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Vishwanath and Sons (Tamil)"
-        ],
-        "canonical": "Vishwanath and Sons (Tamil)"
       }
     ]
   }
