@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "last_updated": "2026-08-16T22:54:23.777401+05:30",
+  "last_updated": "2026-08-17T00:05:54.836287+05:30",
   "movies": {
     "DC": {
       "gross": 0,
@@ -524,7 +524,7 @@
       "tickets_sold": 2
     },
     "Vishwanath & Sons": {
-      "gross": 18000,
+      "gross": 18450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -564,11 +564,20 @@
               "tickets_sold": 30,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 450,
+              "movie": "Vishwanath and Sons",
+              "screen": "Aiswarya",
+              "showid": "8364",
+              "tickets_sold": 3,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 18000,
-          "shows": 4,
-          "tickets_sold": 120
+          "gross": 18450,
+          "shows": 5,
+          "tickets_sold": 123
         },
         "without_gross": {
           "breakdown": [
@@ -588,15 +597,6 @@
               "showid": "8363",
               "tickets_sold": 0,
               "time": "02:15 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Vishwanath and Sons",
-              "screen": "Aiswarya",
-              "showid": "8364",
-              "tickets_sold": 0,
-              "time": "05:30 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -627,7 +627,7 @@
               "venue": "Davis Theatre"
             }
           ],
-          "shows": 6,
+          "shows": 5,
           "tickets_sold": 0
         }
       },
@@ -669,6 +669,15 @@
           "venue": "Fairyland Cinemas"
         },
         {
+          "gross": 450,
+          "movie": "Vishwanath and Sons",
+          "screen": "Aiswarya",
+          "showid": "8364",
+          "tickets_sold": 3,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
           "gross": 0,
           "movie": "Vishwanath and Sons",
           "screen": "Aiswarya",
@@ -684,15 +693,6 @@
           "showid": "8363",
           "tickets_sold": 0,
           "time": "02:15 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Vishwanath and Sons",
-          "screen": "Aiswarya",
-          "showid": "8364",
-          "tickets_sold": 0,
-          "time": "05:30 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -724,7 +724,7 @@
         }
       ],
       "shows": 10,
-      "tickets_sold": 120
+      "tickets_sold": 123
     },
     "Vishwanath and Sons": {
       "gross": 18450,
@@ -992,9 +992,10 @@
     "merged_movies": [
       {
         "aliases": [
-          "Unknown"
+          "THE END OF OAK STREET",
+          "The End of Oak Street"
         ],
-        "canonical": "Unknown"
+        "canonical": "THE END OF OAK STREET"
       },
       {
         "aliases": [
@@ -1005,24 +1006,30 @@
       },
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
           "KHALIFA",
           "Khalifa"
         ],
-        "canonical": "Khalifa"
+        "canonical": "KHALIFA"
       },
       {
         "aliases": [
+          "Spider-Man: Brand New Day"
+        ],
+        "canonical": "Spider-Man: Brand New Day"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Vishwanath & Sons",
           "Vishwanath and Sons",
           "Vishwanath and Sons (Tamil)"
         ],
-        "canonical": "Vishwanath and Sons"
+        "canonical": "Vishwanath & Sons"
       },
       {
         "aliases": [
@@ -1032,16 +1039,10 @@
       },
       {
         "aliases": [
-          "THE END OF OAK STREET",
-          "The End of Oak Street"
+          "Thudakkam",
+          "Thudakkam [M]"
         ],
-        "canonical": "The End of Oak Street"
-      },
-      {
-        "aliases": [
-          "Spider-Man: Brand New Day"
-        ],
-        "canonical": "Spider-Man: Brand New Day"
+        "canonical": "Thudakkam"
       }
     ]
   }
