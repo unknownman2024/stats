@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "last_updated": "2026-08-16T11:03:26.543653+05:30",
+  "last_updated": "2026-08-16T12:18:57.238869+05:30",
   "movies": {
     "DC": {
       "gross": 0,
@@ -285,14 +285,24 @@
       "tickets_sold": 0
     },
     "Thudakkam": {
-      "gross": 0,
+      "gross": 300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 300,
+              "movie": "Thudakkam",
+              "screen": "Athulya",
+              "showid": "8370",
+              "tickets_sold": 2,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 300,
+          "shows": 1,
+          "tickets_sold": 2
         },
         "without_gross": {
           "breakdown": [
@@ -336,15 +346,6 @@
               "gross": 0,
               "movie": "Thudakkam",
               "screen": "Athulya",
-              "showid": "8370",
-              "tickets_sold": 0,
-              "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Thudakkam",
-              "screen": "Athulya",
               "showid": "8371",
               "tickets_sold": 0,
               "time": "02:15 PM",
@@ -369,11 +370,20 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 300,
+          "movie": "Thudakkam",
+          "screen": "Athulya",
+          "showid": "8370",
+          "tickets_sold": 2,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Thudakkam",
@@ -414,15 +424,6 @@
           "gross": 0,
           "movie": "Thudakkam",
           "screen": "Athulya",
-          "showid": "8370",
-          "tickets_sold": 0,
-          "time": "11:00 AM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Thudakkam",
-          "screen": "Athulya",
           "showid": "8371",
           "tickets_sold": 0,
           "time": "02:15 PM",
@@ -448,7 +449,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 0
+      "tickets_sold": 2
     },
     "Vishwanath & Sons": {
       "gross": 18000,
@@ -716,13 +717,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "Vishwanath & Sons",
-          "Vishwanath and Sons"
-        ],
-        "canonical": "Vishwanath & Sons"
-      },
-      {
-        "aliases": [
           "THE END OF OAK STREET",
           "The End of Oak Street"
         ],
@@ -730,9 +724,9 @@
       },
       {
         "aliases": [
-          "Unknown"
+          "Magudam"
         ],
-        "canonical": "Unknown"
+        "canonical": "Magudam"
       },
       {
         "aliases": [
@@ -743,9 +737,10 @@
       },
       {
         "aliases": [
-          "DC"
+          "Thudakkam",
+          "Thudakkam [M]"
         ],
-        "canonical": "DC"
+        "canonical": "Thudakkam"
       },
       {
         "aliases": [
@@ -755,22 +750,28 @@
       },
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
+          "Vishwanath & Sons",
+          "Vishwanath and Sons"
         ],
-        "canonical": "Thudakkam"
+        "canonical": "Vishwanath & Sons"
       },
       {
         "aliases": [
-          "Magudam"
+          "Unknown"
         ],
-        "canonical": "Magudam"
+        "canonical": "Unknown"
       },
       {
         "aliases": [
           "Vishwanath and Sons (Tamil)"
         ],
         "canonical": "Vishwanath and Sons (Tamil)"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
       }
     ]
   }

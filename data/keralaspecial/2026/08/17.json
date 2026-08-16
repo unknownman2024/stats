@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "last_updated": "2026-08-16T11:03:26.541844+05:30",
+  "last_updated": "2026-08-16T12:18:57.237404+05:30",
   "movies": {
     "DC": {
       "gross": 450,
@@ -459,9 +459,27 @@
               "tickets_sold": 0,
               "time": "07:30 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "Screen-2",
+              "showid": "8379",
+              "tickets_sold": 0,
+              "time": "01:45 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Spider-Man: Brand New Day",
+              "screen": "Screen-2",
+              "showid": "8381",
+              "tickets_sold": 0,
+              "time": "07:15 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 2,
+          "shows": 4,
           "tickets_sold": 0
         }
       },
@@ -483,9 +501,103 @@
           "tickets_sold": 0,
           "time": "07:30 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": "Screen-2",
+          "showid": "8379",
+          "tickets_sold": 0,
+          "time": "01:45 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Spider-Man: Brand New Day",
+          "screen": "Screen-2",
+          "showid": "8381",
+          "tickets_sold": 0,
+          "time": "07:15 PM",
+          "venue": "Aiswarya Cinemas"
         }
       ],
-      "shows": 2,
+      "shows": 4,
+      "tickets_sold": 0
+    },
+    "THE END OF OAK STREET": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "The End of Oak Street",
+              "screen": "Screen-2",
+              "showid": "8378",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "The End of Oak Street",
+              "screen": "Screen-2",
+              "showid": "8380",
+              "tickets_sold": 0,
+              "time": "04:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "The End of Oak Street",
+              "screen": "Screen-2",
+              "showid": "8382",
+              "tickets_sold": 0,
+              "time": "10:00 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "shows": 3,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "The End of Oak Street",
+          "screen": "Screen-2",
+          "showid": "8378",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "The End of Oak Street",
+          "screen": "Screen-2",
+          "showid": "8380",
+          "tickets_sold": 0,
+          "time": "04:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "The End of Oak Street",
+          "screen": "Screen-2",
+          "showid": "8382",
+          "tickets_sold": 0,
+          "time": "10:00 PM",
+          "venue": "Aiswarya Cinemas"
+        }
+      ],
+      "shows": 3,
       "tickets_sold": 0
     },
     "Thudakkam": {
@@ -994,13 +1106,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "Vishwanath & Sons",
-          "Vishwanath and Sons"
-        ],
-        "canonical": "Vishwanath & Sons"
-      },
-      {
-        "aliases": [
           "THE END OF OAK STREET",
           "The End of Oak Street"
         ],
@@ -1008,9 +1113,9 @@
       },
       {
         "aliases": [
-          "Unknown"
+          "Magudam"
         ],
-        "canonical": "Unknown"
+        "canonical": "Magudam"
       },
       {
         "aliases": [
@@ -1021,9 +1126,10 @@
       },
       {
         "aliases": [
-          "DC"
+          "Thudakkam",
+          "Thudakkam [M]"
         ],
-        "canonical": "DC"
+        "canonical": "Thudakkam"
       },
       {
         "aliases": [
@@ -1033,22 +1139,28 @@
       },
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
+          "Vishwanath & Sons",
+          "Vishwanath and Sons"
         ],
-        "canonical": "Thudakkam"
+        "canonical": "Vishwanath & Sons"
       },
       {
         "aliases": [
-          "Magudam"
+          "Unknown"
         ],
-        "canonical": "Magudam"
+        "canonical": "Unknown"
       },
       {
         "aliases": [
           "Vishwanath and Sons (Tamil)"
         ],
         "canonical": "Vishwanath and Sons (Tamil)"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
       }
     ]
   }
