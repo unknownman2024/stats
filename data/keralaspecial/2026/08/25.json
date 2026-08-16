@@ -1,7 +1,102 @@
 {
   "date": "2026-08-25",
-  "last_updated": "2026-08-16T16:55:07.960638+05:30",
+  "last_updated": "2026-08-16T18:19:52.509793+05:30",
   "movies": {
+    "KHALIFA": {
+      "gross": 14400,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [
+            {
+              "gross": 7200,
+              "movie": "Khalifa",
+              "screen": "SCREEN 1",
+              "showid": "3847",
+              "tickets_sold": 48,
+              "time": "05:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 7200,
+              "movie": "Khalifa",
+              "screen": "SCREEN 1",
+              "showid": "3848",
+              "tickets_sold": 48,
+              "time": "09:00 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "gross": 14400,
+          "shows": 2,
+          "tickets_sold": 96
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Khalifa",
+              "screen": "SCREEN 1",
+              "showid": "3845",
+              "tickets_sold": 0,
+              "time": "10:30 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Khalifa",
+              "screen": "SCREEN 1",
+              "showid": "3846",
+              "tickets_sold": 0,
+              "time": "02:00 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "shows": 2,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 7200,
+          "movie": "Khalifa",
+          "screen": "SCREEN 1",
+          "showid": "3847",
+          "tickets_sold": 48,
+          "time": "05:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 7200,
+          "movie": "Khalifa",
+          "screen": "SCREEN 1",
+          "showid": "3848",
+          "tickets_sold": 48,
+          "time": "09:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Khalifa",
+          "screen": "SCREEN 1",
+          "showid": "3845",
+          "tickets_sold": 0,
+          "time": "10:30 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Khalifa",
+          "screen": "SCREEN 1",
+          "showid": "3846",
+          "tickets_sold": 0,
+          "time": "02:00 PM",
+          "venue": "Fairyland Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 96
+    },
     "Khalifa": {
       "gross": 14400,
       "occupancy": null,
@@ -102,23 +197,30 @@
     "merged_movies": [
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
+          "Vishwanath & Sons",
+          "Vishwanath and Sons"
         ],
-        "canonical": "Thudakkam"
+        "canonical": "Vishwanath & Sons"
       },
       {
         "aliases": [
-          "Vishwanath and Sons",
-          "Vishwanath and Sons (Tamil)"
+          "KHALIFA",
+          "Khalifa"
         ],
-        "canonical": "Vishwanath and Sons"
+        "canonical": "KHALIFA"
       },
       {
         "aliases": [
-          "Unknown"
+          "D C (Tamil)",
+          "DC (Tamil)"
         ],
-        "canonical": "Unknown"
+        "canonical": "DC (Tamil)"
+      },
+      {
+        "aliases": [
+          "Magudam"
+        ],
+        "canonical": "Magudam"
       },
       {
         "aliases": [
@@ -129,28 +231,10 @@
       },
       {
         "aliases": [
-          "Magudam"
+          "Thudakkam",
+          "Thudakkam [M]"
         ],
-        "canonical": "Magudam"
-      },
-      {
-        "aliases": [
-          "Vishwanath & Sons"
-        ],
-        "canonical": "Vishwanath & Sons"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "Khalifa"
+        "canonical": "Thudakkam"
       },
       {
         "aliases": [
@@ -160,10 +244,21 @@
       },
       {
         "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
+          "DC"
         ],
-        "canonical": "DC (Tamil)"
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Vishwanath and Sons (Tamil)"
+        ],
+        "canonical": "Vishwanath and Sons (Tamil)"
       }
     ]
   }

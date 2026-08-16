@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "last_updated": "2026-08-16T16:55:07.955029+05:30",
+  "last_updated": "2026-08-16T18:19:52.504228+05:30",
   "movies": {
     "DC": {
       "gross": 0,
@@ -928,29 +928,94 @@
       ],
       "shows": 10,
       "tickets_sold": 120
+    },
+    "Vishwanath and Sons (Tamil)": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Vishwanath and Sons (Tamil)",
+              "screen": "Cinema-3",
+              "showid": "22616",
+              "tickets_sold": 0,
+              "time": "06:15 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Vishwanath and Sons (Tamil)",
+              "screen": "Cinema-3",
+              "showid": "22617",
+              "tickets_sold": 0,
+              "time": "09:20 PM",
+              "venue": "Davis Theatre"
+            }
+          ],
+          "shows": 2,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Vishwanath and Sons (Tamil)",
+          "screen": "Cinema-3",
+          "showid": "22616",
+          "tickets_sold": 0,
+          "time": "06:15 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Vishwanath and Sons (Tamil)",
+          "screen": "Cinema-3",
+          "showid": "22617",
+          "tickets_sold": 0,
+          "time": "09:20 PM",
+          "venue": "Davis Theatre"
+        }
+      ],
+      "shows": 2,
+      "tickets_sold": 0
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
+          "Vishwanath & Sons",
+          "Vishwanath and Sons"
         ],
-        "canonical": "Thudakkam"
+        "canonical": "Vishwanath & Sons"
       },
       {
         "aliases": [
-          "Vishwanath and Sons",
-          "Vishwanath and Sons (Tamil)"
+          "KHALIFA",
+          "Khalifa"
         ],
-        "canonical": "Vishwanath and Sons"
+        "canonical": "KHALIFA"
       },
       {
         "aliases": [
-          "Unknown"
+          "D C (Tamil)",
+          "DC (Tamil)"
         ],
-        "canonical": "Unknown"
+        "canonical": "DC (Tamil)"
+      },
+      {
+        "aliases": [
+          "Magudam"
+        ],
+        "canonical": "Magudam"
       },
       {
         "aliases": [
@@ -961,28 +1026,10 @@
       },
       {
         "aliases": [
-          "Magudam"
+          "Thudakkam",
+          "Thudakkam [M]"
         ],
-        "canonical": "Magudam"
-      },
-      {
-        "aliases": [
-          "Vishwanath & Sons"
-        ],
-        "canonical": "Vishwanath & Sons"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "Khalifa"
+        "canonical": "Thudakkam"
       },
       {
         "aliases": [
@@ -992,10 +1039,21 @@
       },
       {
         "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
+          "DC"
         ],
-        "canonical": "DC (Tamil)"
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Vishwanath and Sons (Tamil)"
+        ],
+        "canonical": "Vishwanath and Sons (Tamil)"
       }
     ]
   }
