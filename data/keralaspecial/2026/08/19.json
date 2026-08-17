@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "last_updated": "2026-08-17T22:03:46.632627+05:30",
+  "last_updated": "2026-08-17T23:01:23.378381+05:30",
   "movies": {
     "DC": {
       "gross": 300,
@@ -767,7 +767,7 @@
       "tickets_sold": 2
     },
     "Vishwanath and Sons": {
-      "gross": 300,
+      "gross": 900,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -780,11 +780,20 @@
               "tickets_sold": 2,
               "time": "11:00 AM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 600,
+              "movie": "Vishwanath and Sons",
+              "screen": "SCREEN 2",
+              "showid": "3752",
+              "tickets_sold": 4,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 300,
-          "shows": 1,
-          "tickets_sold": 2
+          "gross": 900,
+          "shows": 2,
+          "tickets_sold": 6
         },
         "without_gross": {
           "breakdown": [
@@ -804,15 +813,6 @@
               "showid": "3751",
               "tickets_sold": 0,
               "time": "06:00 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Vishwanath and Sons",
-              "screen": "SCREEN 2",
-              "showid": "3752",
-              "tickets_sold": 0,
-              "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
             },
             {
@@ -852,11 +852,20 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 7,
+          "shows": 6,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 600,
+          "movie": "Vishwanath and Sons",
+          "screen": "SCREEN 2",
+          "showid": "3752",
+          "tickets_sold": 4,
+          "time": "09:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
         {
           "gross": 300,
           "movie": "Vishwanath and Sons",
@@ -882,15 +891,6 @@
           "showid": "3751",
           "tickets_sold": 0,
           "time": "06:00 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Vishwanath and Sons",
-          "screen": "SCREEN 2",
-          "showid": "3752",
-          "tickets_sold": 0,
-          "time": "09:30 PM",
           "venue": "Fairyland Cinemas"
         },
         {
@@ -931,17 +931,23 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 2
+      "tickets_sold": 6
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
+          "Spider-Man: Brand New Day"
         ],
-        "canonical": "Thudakkam"
+        "canonical": "Spider-Man: Brand New Day"
+      },
+      {
+        "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "Khalifa"
       },
       {
         "aliases": [
@@ -959,9 +965,10 @@
       },
       {
         "aliases": [
-          "DC"
+          "Thudakkam",
+          "Thudakkam [M]"
         ],
-        "canonical": "DC"
+        "canonical": "Thudakkam"
       },
       {
         "aliases": [
@@ -971,16 +978,9 @@
       },
       {
         "aliases": [
-          "Spider-Man: Brand New Day"
+          "DC"
         ],
-        "canonical": "Spider-Man: Brand New Day"
-      },
-      {
-        "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "KHALIFA"
+        "canonical": "DC"
       }
     ]
   }
