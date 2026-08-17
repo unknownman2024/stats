@@ -1,9 +1,9 @@
 {
   "date": "2026-08-22",
-  "last_updated": "2026-08-17T08:35:23.491625+05:30",
+  "last_updated": "2026-08-17T10:19:33.805159+05:30",
   "movies": {
     "KHALIFA": {
-      "gross": 14400,
+      "gross": 14550,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -18,18 +18,18 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 7200,
+              "gross": 7350,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "3836",
-              "tickets_sold": 48,
+              "tickets_sold": 49,
               "time": "09:00 PM",
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 14400,
+          "gross": 14550,
           "shows": 2,
-          "tickets_sold": 96
+          "tickets_sold": 97
         },
         "without_gross": {
           "breakdown": [
@@ -58,21 +58,21 @@
       },
       "show_breakdown": [
         {
-          "gross": 7200,
+          "gross": 7350,
           "movie": "Khalifa",
           "screen": "SCREEN 1",
-          "showid": "3835",
-          "tickets_sold": 48,
-          "time": "05:30 PM",
+          "showid": "3836",
+          "tickets_sold": 49,
+          "time": "09:00 PM",
           "venue": "Fairyland Cinemas"
         },
         {
           "gross": 7200,
           "movie": "Khalifa",
           "screen": "SCREEN 1",
-          "showid": "3836",
+          "showid": "3835",
           "tickets_sold": 48,
-          "time": "09:00 PM",
+          "time": "05:30 PM",
           "venue": "Fairyland Cinemas"
         },
         {
@@ -95,7 +95,7 @@
         }
       ],
       "shows": 4,
-      "tickets_sold": 96
+      "tickets_sold": 97
     },
     "Khalifa": {
       "gross": 14400,
@@ -197,6 +197,13 @@
     "merged_movies": [
       {
         "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "KHALIFA"
+      },
+      {
+        "aliases": [
           "D C (Tamil)",
           "DC (Tamil)"
         ],
@@ -211,36 +218,11 @@
       },
       {
         "aliases": [
-          "THE END OF OAK STREET",
-          "The End of Oak Street"
-        ],
-        "canonical": "The End of Oak Street"
-      },
-      {
-        "aliases": [
+          "Vishwanath & Sons",
           "Vishwanath and Sons",
           "Vishwanath and Sons (Tamil)"
         ],
-        "canonical": "Vishwanath and Sons"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "Vishwanath & Sons"
-        ],
         "canonical": "Vishwanath & Sons"
-      },
-      {
-        "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "Khalifa"
       },
       {
         "aliases": [
@@ -253,6 +235,19 @@
           "Spider-Man: Brand New Day"
         ],
         "canonical": "Spider-Man: Brand New Day"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "THE END OF OAK STREET",
+          "The End of Oak Street"
+        ],
+        "canonical": "THE END OF OAK STREET"
       }
     ]
   }
