@@ -1,9 +1,9 @@
 {
   "date": "2026-08-19",
-  "last_updated": "2026-08-18T01:02:41.537739+05:30",
+  "last_updated": "2026-08-18T02:02:52.444707+05:30",
   "movies": {
     "DC": {
-      "gross": 300,
+      "gross": 450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -16,11 +16,20 @@
               "tickets_sold": 2,
               "time": "07:15 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 150,
+              "movie": "DC",
+              "screen": "SCREEN 3",
+              "showid": "3800",
+              "tickets_sold": 1,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 300,
-          "shows": 1,
-          "tickets_sold": 2
+          "gross": 450,
+          "shows": 2,
+          "tickets_sold": 3
         },
         "without_gross": {
           "breakdown": [
@@ -49,15 +58,6 @@
               "showid": "3799",
               "tickets_sold": 0,
               "time": "06:00 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "DC",
-              "screen": "SCREEN 3",
-              "showid": "3800",
-              "tickets_sold": 0,
-              "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
             },
             {
@@ -97,7 +97,7 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
@@ -110,6 +110,15 @@
           "tickets_sold": 2,
           "time": "07:15 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 150,
+          "movie": "DC",
+          "screen": "SCREEN 3",
+          "showid": "3800",
+          "tickets_sold": 1,
+          "time": "09:30 PM",
+          "venue": "Fairyland Cinemas"
         },
         {
           "gross": 0,
@@ -136,15 +145,6 @@
           "showid": "3799",
           "tickets_sold": 0,
           "time": "06:00 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "DC",
-          "screen": "SCREEN 3",
-          "showid": "3800",
-          "tickets_sold": 0,
-          "time": "09:30 PM",
           "venue": "Fairyland Cinemas"
         },
         {
@@ -185,7 +185,7 @@
         }
       ],
       "shows": 9,
-      "tickets_sold": 2
+      "tickets_sold": 3
     },
     "DC (Tamil)": {
       "gross": 0,
@@ -938,37 +938,10 @@
     "merged_movies": [
       {
         "aliases": [
-          "Spider-Man: Brand New Day"
-        ],
-        "canonical": "Spider-Man: Brand New Day"
-      },
-      {
-        "aliases": [
-          "Vishwanath & Sons",
           "Vishwanath and Sons",
           "Vishwanath and Sons (Tamil)"
         ],
-        "canonical": "Vishwanath & Sons"
-      },
-      {
-        "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "Khalifa"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
-        ],
-        "canonical": "DC (Tamil)"
+        "canonical": "Vishwanath and Sons"
       },
       {
         "aliases": [
@@ -979,9 +952,41 @@
       },
       {
         "aliases": [
+          "Vishwanath & Sons"
+        ],
+        "canonical": "Vishwanath & Sons"
+      },
+      {
+        "aliases": [
+          "Spider-Man: Brand New Day"
+        ],
+        "canonical": "Spider-Man: Brand New Day"
+      },
+      {
+        "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "Khalifa"
+      },
+      {
+        "aliases": [
           "THE END OF OAK STREET"
         ],
         "canonical": "THE END OF OAK STREET"
+      },
+      {
+        "aliases": [
+          "D C (Tamil)",
+          "DC (Tamil)"
+        ],
+        "canonical": "DC (Tamil)"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
       }
     ]
   }
