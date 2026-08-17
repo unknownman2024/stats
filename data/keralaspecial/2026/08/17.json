@@ -1,6 +1,6 @@
 {
   "date": "2026-08-17",
-  "last_updated": "2026-08-17T04:55:31.347774+05:30",
+  "last_updated": "2026-08-17T07:10:41.490695+05:30",
   "movies": {
     "DC": {
       "gross": 43650,
@@ -45,15 +45,6 @@
               "venue": "Sandhya"
             },
             {
-              "gross": 2850,
-              "movie": "DC",
-              "screen": "SAVITHA",
-              "showid": "20052",
-              "tickets_sold": 19,
-              "time": "05:30 PM",
-              "venue": "SFC"
-            },
-            {
               "gross": 3000,
               "movie": "DC",
               "screen": "SCREEN 2",
@@ -61,6 +52,15 @@
               "tickets_sold": 20,
               "time": "07:30 PM",
               "venue": "Sandhya"
+            },
+            {
+              "gross": 2850,
+              "movie": "DC",
+              "screen": "SAVITHA",
+              "showid": "20052",
+              "tickets_sold": 19,
+              "time": "05:30 PM",
+              "venue": "SFC"
             },
             {
               "gross": 2400,
@@ -1094,17 +1094,17 @@
       "tickets_sold": 2
     },
     "Thudakkam": {
-      "gross": 31350,
+      "gross": 32850,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 7800,
+              "gross": 8700,
               "movie": "Thudakkam",
               "screen": "SCREEN 1",
               "showid": "8877",
-              "tickets_sold": 52,
+              "tickets_sold": 58,
               "time": "07:30 PM",
               "venue": "Sandhya"
             },
@@ -1145,11 +1145,11 @@
               "venue": "Sandhya"
             },
             {
-              "gross": 1800,
+              "gross": 2100,
               "movie": "Thudakkam [M]",
               "screen": null,
               "showid": "19297",
-              "tickets_sold": 12,
+              "tickets_sold": 14,
               "time": "12:00 PM",
               "venue": "Puthet Cinemas"
             },
@@ -1251,11 +1251,20 @@
               "tickets_sold": 2,
               "time": "09:00 PM",
               "venue": "Issacs"
+            },
+            {
+              "gross": 300,
+              "movie": "Thudakkam",
+              "screen": "SAMUDRA",
+              "showid": "20054",
+              "tickets_sold": 2,
+              "time": "11:30 AM",
+              "venue": "SFC"
             }
           ],
-          "gross": 31350,
-          "shows": 17,
-          "tickets_sold": 209
+          "gross": 32850,
+          "shows": 18,
+          "tickets_sold": 219
         },
         "without_gross": {
           "breakdown": [
@@ -1352,15 +1361,6 @@
             {
               "gross": 0,
               "movie": "Thudakkam",
-              "screen": "SAMUDRA",
-              "showid": "20054",
-              "tickets_sold": 0,
-              "time": "11:30 AM",
-              "venue": "SFC"
-            },
-            {
-              "gross": 0,
-              "movie": "Thudakkam",
               "screen": "SCREEN 2",
               "showid": "6963",
               "tickets_sold": 0,
@@ -1368,17 +1368,17 @@
               "venue": "Issacs"
             }
           ],
-          "shows": 12,
+          "shows": 11,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 7800,
+          "gross": 8700,
           "movie": "Thudakkam",
           "screen": "SCREEN 1",
           "showid": "8877",
-          "tickets_sold": 52,
+          "tickets_sold": 58,
           "time": "07:30 PM",
           "venue": "Sandhya"
         },
@@ -1419,11 +1419,11 @@
           "venue": "Sandhya"
         },
         {
-          "gross": 1800,
+          "gross": 2100,
           "movie": "Thudakkam [M]",
           "screen": null,
           "showid": "19297",
-          "tickets_sold": 12,
+          "tickets_sold": 14,
           "time": "12:00 PM",
           "venue": "Puthet Cinemas"
         },
@@ -1527,6 +1527,15 @@
           "venue": "Issacs"
         },
         {
+          "gross": 300,
+          "movie": "Thudakkam",
+          "screen": "SAMUDRA",
+          "showid": "20054",
+          "tickets_sold": 2,
+          "time": "11:30 AM",
+          "venue": "SFC"
+        },
+        {
           "gross": 0,
           "movie": "Thudakkam",
           "screen": "SCREEN 1",
@@ -1619,15 +1628,6 @@
         {
           "gross": 0,
           "movie": "Thudakkam",
-          "screen": "SAMUDRA",
-          "showid": "20054",
-          "tickets_sold": 0,
-          "time": "11:30 AM",
-          "venue": "SFC"
-        },
-        {
-          "gross": 0,
-          "movie": "Thudakkam",
           "screen": "SCREEN 2",
           "showid": "6963",
           "tickets_sold": 0,
@@ -1636,7 +1636,7 @@
         }
       ],
       "shows": 29,
-      "tickets_sold": 209
+      "tickets_sold": 219
     },
     "Unknown": {
       "gross": 48150,
@@ -2869,16 +2869,24 @@
     "merged_movies": [
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
+          "THE END OF OAK STREET",
+          "The End of Oak Street"
         ],
-        "canonical": "Thudakkam"
+        "canonical": "The End of Oak Street"
       },
       {
         "aliases": [
-          "Unknown"
+          "Vishwanath & Sons",
+          "Vishwanath and Sons",
+          "Vishwanath and Sons (Tamil)"
         ],
-        "canonical": "Unknown"
+        "canonical": "Vishwanath & Sons"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
       },
       {
         "aliases": [
@@ -2889,11 +2897,9 @@
       },
       {
         "aliases": [
-          "Vishwanath & Sons",
-          "Vishwanath and Sons",
-          "Vishwanath and Sons (Tamil)"
+          "Unknown"
         ],
-        "canonical": "Vishwanath & Sons"
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -2910,16 +2916,10 @@
       },
       {
         "aliases": [
-          "DC"
+          "Thudakkam",
+          "Thudakkam [M]"
         ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "THE END OF OAK STREET",
-          "The End of Oak Street"
-        ],
-        "canonical": "THE END OF OAK STREET"
+        "canonical": "Thudakkam"
       }
     ]
   }
