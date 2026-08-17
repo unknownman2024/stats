@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "last_updated": "2026-08-17T14:23:13.533613+05:30",
+  "last_updated": "2026-08-17T15:19:07.183325+05:30",
   "movies": {
     "DC": {
       "gross": 0,
@@ -541,26 +541,27 @@
       "tickets_sold": 0
     },
     "Vishwanath & Sons": {
-      "gross": 0,
+      "gross": 300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
-        },
-        "without_gross": {
           "breakdown": [
             {
-              "gross": 0,
+              "gross": 300,
               "movie": "Vishwanath and Sons",
               "screen": "SCREEN 2",
               "showid": "3749",
-              "tickets_sold": 0,
+              "tickets_sold": 2,
               "time": "11:00 AM",
               "venue": "Fairyland Cinemas"
-            },
+            }
+          ],
+          "gross": 300,
+          "shows": 1,
+          "tickets_sold": 2
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "Vishwanath and Sons",
@@ -625,17 +626,17 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 0,
+          "gross": 300,
           "movie": "Vishwanath and Sons",
           "screen": "SCREEN 2",
           "showid": "3749",
-          "tickets_sold": 0,
+          "tickets_sold": 2,
           "time": "11:00 AM",
           "venue": "Fairyland Cinemas"
         },
@@ -704,7 +705,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 0
+      "tickets_sold": 2
     },
     "Vishwanath and Sons": {
       "gross": 300,
@@ -878,37 +879,50 @@
     "merged_movies": [
       {
         "aliases": [
-          "Vishwanath and Sons",
-          "Vishwanath and Sons (Tamil)"
+          "D C (Tamil)",
+          "DC (Tamil)"
         ],
-        "canonical": "Vishwanath and Sons"
+        "canonical": "DC (Tamil)"
+      },
+      {
+        "aliases": [
+          "Vishwanath & Sons",
+          "Vishwanath and Sons"
+        ],
+        "canonical": "Vishwanath & Sons"
+      },
+      {
+        "aliases": [
+          "Thudakkam",
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam"
       },
       {
         "aliases": [
           "KHALIFA",
           "Khalifa"
         ],
-        "canonical": "Khalifa"
+        "canonical": "KHALIFA"
       },
       {
         "aliases": [
-          "Vishwanath & Sons"
+          "Unknown"
         ],
-        "canonical": "Vishwanath & Sons"
+        "canonical": "Unknown"
       },
       {
         "aliases": [
           "THE END OF OAK STREET",
           "The End of Oak Street"
         ],
-        "canonical": "THE END OF OAK STREET"
+        "canonical": "The End of Oak Street"
       },
       {
         "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
+          "Vishwanath and Sons (Tamil)"
         ],
-        "canonical": "DC (Tamil)"
+        "canonical": "Vishwanath and Sons (Tamil)"
       },
       {
         "aliases": [
@@ -921,19 +935,6 @@
           "Spider-Man: Brand New Day"
         ],
         "canonical": "Spider-Man: Brand New Day"
-      },
-      {
-        "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
       }
     ]
   }

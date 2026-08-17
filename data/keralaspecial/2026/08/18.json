@@ -1,6 +1,6 @@
 {
   "date": "2026-08-18",
-  "last_updated": "2026-08-17T14:23:13.530067+05:30",
+  "last_updated": "2026-08-17T15:19:07.179530+05:30",
   "movies": {
     "DC": {
       "gross": 150,
@@ -545,6 +545,46 @@
       "shows": 1,
       "tickets_sold": 0
     },
+    "The End of Oak Street": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "THE END OF OAK STREET",
+              "screen": null,
+              "showid": "19320",
+              "tickets_sold": 0,
+              "time": "01:30 PM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "shows": 1,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "THE END OF OAK STREET",
+          "screen": null,
+          "showid": "19320",
+          "tickets_sold": 0,
+          "time": "01:30 PM",
+          "venue": "Puthet Cinemas"
+        }
+      ],
+      "shows": 1,
+      "tickets_sold": 0
+    },
     "Thudakkam": {
       "gross": 300,
       "occupancy": null,
@@ -922,9 +962,45 @@
               "tickets_sold": 0,
               "time": "09:20 PM",
               "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Vishwanath and Sons",
+              "screen": null,
+              "showid": "19319",
+              "tickets_sold": 0,
+              "time": "10:30 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Vishwanath and Sons",
+              "screen": null,
+              "showid": "19321",
+              "tickets_sold": 0,
+              "time": "03:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Vishwanath and Sons",
+              "screen": null,
+              "showid": "19322",
+              "tickets_sold": 0,
+              "time": "06:35 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Vishwanath and Sons",
+              "screen": null,
+              "showid": "19323",
+              "tickets_sold": 0,
+              "time": "09:45 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 5,
+          "shows": 9,
           "tickets_sold": 0
         }
       },
@@ -1018,9 +1094,45 @@
           "tickets_sold": 0,
           "time": "09:20 PM",
           "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Vishwanath and Sons",
+          "screen": null,
+          "showid": "19319",
+          "tickets_sold": 0,
+          "time": "10:30 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Vishwanath and Sons",
+          "screen": null,
+          "showid": "19321",
+          "tickets_sold": 0,
+          "time": "03:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Vishwanath and Sons",
+          "screen": null,
+          "showid": "19322",
+          "tickets_sold": 0,
+          "time": "06:35 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Vishwanath and Sons",
+          "screen": null,
+          "showid": "19323",
+          "tickets_sold": 0,
+          "time": "09:45 PM",
+          "venue": "Puthet Cinemas"
         }
       ],
-      "shows": 10,
+      "shows": 14,
       "tickets_sold": 123
     },
     "Vishwanath and Sons": {
@@ -1361,37 +1473,50 @@
     "merged_movies": [
       {
         "aliases": [
-          "Vishwanath and Sons",
-          "Vishwanath and Sons (Tamil)"
+          "D C (Tamil)",
+          "DC (Tamil)"
         ],
-        "canonical": "Vishwanath and Sons"
+        "canonical": "DC (Tamil)"
+      },
+      {
+        "aliases": [
+          "Vishwanath & Sons",
+          "Vishwanath and Sons"
+        ],
+        "canonical": "Vishwanath & Sons"
+      },
+      {
+        "aliases": [
+          "Thudakkam",
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam"
       },
       {
         "aliases": [
           "KHALIFA",
           "Khalifa"
         ],
-        "canonical": "Khalifa"
+        "canonical": "KHALIFA"
       },
       {
         "aliases": [
-          "Vishwanath & Sons"
+          "Unknown"
         ],
-        "canonical": "Vishwanath & Sons"
+        "canonical": "Unknown"
       },
       {
         "aliases": [
           "THE END OF OAK STREET",
           "The End of Oak Street"
         ],
-        "canonical": "THE END OF OAK STREET"
+        "canonical": "The End of Oak Street"
       },
       {
         "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
+          "Vishwanath and Sons (Tamil)"
         ],
-        "canonical": "DC (Tamil)"
+        "canonical": "Vishwanath and Sons (Tamil)"
       },
       {
         "aliases": [
@@ -1404,19 +1529,6 @@
           "Spider-Man: Brand New Day"
         ],
         "canonical": "Spider-Man: Brand New Day"
-      },
-      {
-        "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
       }
     ]
   }
