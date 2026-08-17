@@ -1,16 +1,26 @@
 {
   "date": "2026-08-19",
-  "last_updated": "2026-08-17T15:19:07.183325+05:30",
+  "last_updated": "2026-08-17T16:07:22.030908+05:30",
   "movies": {
     "DC": {
-      "gross": 0,
+      "gross": 300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 300,
+              "movie": "DC",
+              "screen": "Screen-1",
+              "showid": "8355",
+              "tickets_sold": 2,
+              "time": "07:15 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 300,
+          "shows": 1,
+          "tickets_sold": 2
         },
         "without_gross": {
           "breakdown": [
@@ -81,26 +91,26 @@
               "gross": 0,
               "movie": "DC",
               "screen": "Screen-1",
-              "showid": "8355",
-              "tickets_sold": 0,
-              "time": "07:15 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "DC",
-              "screen": "Screen-1",
               "showid": "8356",
               "tickets_sold": 0,
               "time": "10:00 PM",
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 9,
+          "shows": 8,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 300,
+          "movie": "DC",
+          "screen": "Screen-1",
+          "showid": "8355",
+          "tickets_sold": 2,
+          "time": "07:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 0,
           "movie": "DC",
@@ -168,15 +178,6 @@
           "gross": 0,
           "movie": "DC",
           "screen": "Screen-1",
-          "showid": "8355",
-          "tickets_sold": 0,
-          "time": "07:15 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "DC",
-          "screen": "Screen-1",
           "showid": "8356",
           "tickets_sold": 0,
           "time": "10:00 PM",
@@ -184,7 +185,7 @@
         }
       ],
       "shows": 9,
-      "tickets_sold": 0
+      "tickets_sold": 2
     },
     "DC (Tamil)": {
       "gross": 0,
@@ -879,13 +880,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
-        ],
-        "canonical": "DC (Tamil)"
-      },
-      {
-        "aliases": [
           "Vishwanath & Sons",
           "Vishwanath and Sons"
         ],
@@ -900,23 +894,30 @@
       },
       {
         "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "KHALIFA"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
           "THE END OF OAK STREET",
           "The End of Oak Street"
         ],
-        "canonical": "The End of Oak Street"
+        "canonical": "THE END OF OAK STREET"
+      },
+      {
+        "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "Khalifa"
+      },
+      {
+        "aliases": [
+          "D C (Tamil)",
+          "DC (Tamil)"
+        ],
+        "canonical": "DC (Tamil)"
+      },
+      {
+        "aliases": [
+          "Spider-Man: Brand New Day"
+        ],
+        "canonical": "Spider-Man: Brand New Day"
       },
       {
         "aliases": [
@@ -932,9 +933,9 @@
       },
       {
         "aliases": [
-          "Spider-Man: Brand New Day"
+          "Unknown"
         ],
-        "canonical": "Spider-Man: Brand New Day"
+        "canonical": "Unknown"
       }
     ]
   }

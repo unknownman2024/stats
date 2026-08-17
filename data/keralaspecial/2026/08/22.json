@@ -1,6 +1,6 @@
 {
   "date": "2026-08-22",
-  "last_updated": "2026-08-17T15:19:07.185526+05:30",
+  "last_updated": "2026-08-17T16:07:22.033088+05:30",
   "movies": {
     "KHALIFA": {
       "gross": 15150,
@@ -9,21 +9,21 @@
         "with_gross": {
           "breakdown": [
             {
-              "gross": 7350,
-              "movie": "Khalifa",
-              "screen": "SCREEN 1",
-              "showid": "3836",
-              "tickets_sold": 49,
-              "time": "09:00 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
               "gross": 7800,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "3835",
               "tickets_sold": 52,
               "time": "05:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 7350,
+              "movie": "Khalifa",
+              "screen": "SCREEN 1",
+              "showid": "3836",
+              "tickets_sold": 49,
+              "time": "09:00 PM",
               "venue": "Fairyland Cinemas"
             }
           ],
@@ -98,7 +98,7 @@
       "tickets_sold": 101
     },
     "Khalifa": {
-      "gross": 15150,
+      "gross": 15300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -113,18 +113,18 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 7350,
+              "gross": 7500,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "3836",
-              "tickets_sold": 49,
+              "tickets_sold": 50,
               "time": "09:00 PM",
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 15150,
+          "gross": 15300,
           "shows": 2,
-          "tickets_sold": 101
+          "tickets_sold": 102
         },
         "without_gross": {
           "breakdown": [
@@ -162,11 +162,11 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 7350,
+          "gross": 7500,
           "movie": "Khalifa",
           "screen": "SCREEN 1",
           "showid": "3836",
-          "tickets_sold": 49,
+          "tickets_sold": 50,
           "time": "09:00 PM",
           "venue": "Fairyland Cinemas"
         },
@@ -190,18 +190,11 @@
         }
       ],
       "shows": 4,
-      "tickets_sold": 101
+      "tickets_sold": 102
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
-        ],
-        "canonical": "DC (Tamil)"
-      },
       {
         "aliases": [
           "Vishwanath & Sons",
@@ -218,23 +211,30 @@
       },
       {
         "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "KHALIFA"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
           "THE END OF OAK STREET",
           "The End of Oak Street"
         ],
-        "canonical": "The End of Oak Street"
+        "canonical": "THE END OF OAK STREET"
+      },
+      {
+        "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "Khalifa"
+      },
+      {
+        "aliases": [
+          "D C (Tamil)",
+          "DC (Tamil)"
+        ],
+        "canonical": "DC (Tamil)"
+      },
+      {
+        "aliases": [
+          "Spider-Man: Brand New Day"
+        ],
+        "canonical": "Spider-Man: Brand New Day"
       },
       {
         "aliases": [
@@ -250,9 +250,9 @@
       },
       {
         "aliases": [
-          "Spider-Man: Brand New Day"
+          "Unknown"
         ],
-        "canonical": "Spider-Man: Brand New Day"
+        "canonical": "Unknown"
       }
     ]
   }
