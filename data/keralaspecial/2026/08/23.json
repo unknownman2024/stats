@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "last_updated": "2026-08-17T11:09:07.170151+05:30",
+  "last_updated": "2026-08-17T14:23:13.536438+05:30",
   "movies": {
     "KHALIFA": {
       "gross": 15450,
@@ -98,17 +98,17 @@
       "tickets_sold": 103
     },
     "Khalifa": {
-      "gross": 15150,
+      "gross": 15450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 7200,
+              "gross": 7500,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "3839",
-              "tickets_sold": 48,
+              "tickets_sold": 50,
               "time": "05:30 PM",
               "venue": "Fairyland Cinemas"
             },
@@ -131,9 +131,9 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 15150,
+          "gross": 15450,
           "shows": 3,
-          "tickets_sold": 101
+          "tickets_sold": 103
         },
         "without_gross": {
           "breakdown": [
@@ -153,11 +153,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 7200,
+          "gross": 7500,
           "movie": "Khalifa",
           "screen": "SCREEN 1",
           "showid": "3839",
-          "tickets_sold": 48,
+          "tickets_sold": 50,
           "time": "05:30 PM",
           "venue": "Fairyland Cinemas"
         },
@@ -190,38 +190,30 @@
         }
       ],
       "shows": 4,
-      "tickets_sold": 101
+      "tickets_sold": 103
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "KHALIFA"
-      },
-      {
-        "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
-        ],
-        "canonical": "DC (Tamil)"
-      },
-      {
-        "aliases": [
           "Vishwanath and Sons",
           "Vishwanath and Sons (Tamil)"
         ],
         "canonical": "Vishwanath and Sons"
+      },
+      {
+        "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "Khalifa"
+      },
+      {
+        "aliases": [
+          "Vishwanath & Sons"
+        ],
+        "canonical": "Vishwanath & Sons"
       },
       {
         "aliases": [
@@ -232,27 +224,35 @@
       },
       {
         "aliases": [
-          "Spider-Man: Brand New Day"
+          "D C (Tamil)",
+          "DC (Tamil)"
         ],
-        "canonical": "Spider-Man: Brand New Day"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Vishwanath & Sons"
-        ],
-        "canonical": "Vishwanath & Sons"
+        "canonical": "DC (Tamil)"
       },
       {
         "aliases": [
           "DC"
         ],
         "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "Spider-Man: Brand New Day"
+        ],
+        "canonical": "Spider-Man: Brand New Day"
+      },
+      {
+        "aliases": [
+          "Thudakkam",
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       }
     ]
   }
