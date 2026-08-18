@@ -1,13 +1,22 @@
 {
   "date": "2026-08-18",
-  "last_updated": "2026-08-18T21:07:08.020643+05:30",
+  "last_updated": "2026-08-18T22:07:10.515359+05:30",
   "movies": {
     "DC": {
-      "gross": 119850,
+      "gross": 121800,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
+            {
+              "gross": 32700,
+              "movie": "DC",
+              "screen": "SCREEN 1",
+              "showid": "8893",
+              "tickets_sold": 218,
+              "time": "10:30 PM",
+              "venue": "Sandhya"
+            },
             {
               "gross": 15750,
               "movie": "DC",
@@ -16,15 +25,6 @@
               "tickets_sold": 105,
               "time": "08:45 PM",
               "venue": "SFC"
-            },
-            {
-              "gross": 30750,
-              "movie": "DC",
-              "screen": "SCREEN 1",
-              "showid": "8893",
-              "tickets_sold": 205,
-              "time": "10:30 PM",
-              "venue": "Sandhya"
             },
             {
               "gross": 6750,
@@ -36,6 +36,15 @@
               "venue": "SFC"
             },
             {
+              "gross": 6300,
+              "movie": "DC",
+              "screen": "SCREEN 1",
+              "showid": "10004",
+              "tickets_sold": 42,
+              "time": "09:40 PM",
+              "venue": "Harihar"
+            },
+            {
               "gross": 6000,
               "movie": "DC",
               "screen": "SCREEN 2",
@@ -43,6 +52,15 @@
               "tickets_sold": 40,
               "time": "07:30 PM",
               "venue": "Sandhya"
+            },
+            {
+              "gross": 5550,
+              "movie": "DC",
+              "screen": "SCREEN 3",
+              "showid": "3796",
+              "tickets_sold": 37,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
             },
             {
               "gross": 4500,
@@ -61,6 +79,15 @@
               "tickets_sold": 28,
               "time": "11:00 AM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 4200,
+              "movie": "DC",
+              "screen": "Screen-1",
+              "showid": "8351",
+              "tickets_sold": 28,
+              "time": "10:00 PM",
+              "venue": "Aiswarya Cinemas"
             },
             {
               "gross": 4050,
@@ -126,15 +153,6 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 6300,
-              "movie": "DC",
-              "screen": "SCREEN 1",
-              "showid": "10004",
-              "tickets_sold": 42,
-              "time": "09:40 PM",
-              "venue": "Harihar"
-            },
-            {
               "gross": 2400,
               "movie": "DC",
               "screen": "SCREEN 1",
@@ -159,15 +177,6 @@
               "showid": "8349",
               "tickets_sold": 15,
               "time": "04:30 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 4200,
-              "movie": "DC",
-              "screen": "Screen-1",
-              "showid": "8351",
-              "tickets_sold": 28,
-              "time": "10:00 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -216,15 +225,6 @@
               "venue": "Issacs"
             },
             {
-              "gross": 5550,
-              "movie": "DC",
-              "screen": "SCREEN 3",
-              "showid": "3796",
-              "tickets_sold": 37,
-              "time": "09:30 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
               "gross": 600,
               "movie": "DC",
               "screen": null,
@@ -234,9 +234,9 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 119850,
+          "gross": 121800,
           "shows": 25,
-          "tickets_sold": 799
+          "tickets_sold": 812
         },
         "without_gross": {
           "breakdown": [
@@ -256,11 +256,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 30750,
+          "gross": 32700,
           "movie": "DC",
           "screen": "SCREEN 1",
           "showid": "8893",
-          "tickets_sold": 205,
+          "tickets_sold": 218,
           "time": "10:30 PM",
           "venue": "Sandhya"
         },
@@ -491,7 +491,7 @@
         }
       ],
       "shows": 26,
-      "tickets_sold": 799
+      "tickets_sold": 812
     },
     "DC (Tamil)": {
       "gross": 4650,
@@ -509,21 +509,21 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 900,
-              "movie": "DC (Tamil)",
-              "screen": "Dolby Atmos",
-              "showid": "5813",
-              "tickets_sold": 6,
-              "time": "03:00 PM",
-              "venue": "Girija Theatre"
-            },
-            {
               "gross": 1500,
               "movie": "DC (Tamil)",
               "screen": "Dolby Atmos",
               "showid": "5815",
               "tickets_sold": 10,
               "time": "09:30 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 900,
+              "movie": "DC (Tamil)",
+              "screen": "Dolby Atmos",
+              "showid": "5813",
+              "tickets_sold": 6,
+              "time": "03:00 PM",
               "venue": "Girija Theatre"
             },
             {
@@ -876,7 +876,7 @@
       "tickets_sold": 0
     },
     "Thudakkam": {
-      "gross": 66750,
+      "gross": 67650,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -907,6 +907,15 @@
               "tickets_sold": 33,
               "time": "04:30 PM",
               "venue": "Sandhya"
+            },
+            {
+              "gross": 4500,
+              "movie": "Thudakkam",
+              "screen": "SCREEN 1",
+              "showid": "3772",
+              "tickets_sold": 30,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
             },
             {
               "gross": 3900,
@@ -972,6 +981,15 @@
               "venue": "Harihar"
             },
             {
+              "gross": 2250,
+              "movie": "Thudakkam",
+              "screen": "SCREEN 3",
+              "showid": "10012",
+              "tickets_sold": 15,
+              "time": "09:30 PM",
+              "venue": "Harihar"
+            },
+            {
               "gross": 2100,
               "movie": "Thudakkam [M]",
               "screen": null,
@@ -1026,15 +1044,6 @@
               "venue": "SFC"
             },
             {
-              "gross": 2250,
-              "movie": "Thudakkam",
-              "screen": "SCREEN 3",
-              "showid": "10012",
-              "tickets_sold": 15,
-              "time": "09:30 PM",
-              "venue": "Harihar"
-            },
-            {
               "gross": 1200,
               "movie": "Thudakkam [M]",
               "screen": null,
@@ -1071,6 +1080,15 @@
               "venue": "Davis Theatre"
             },
             {
+              "gross": 1350,
+              "movie": "Thudakkam",
+              "screen": "SCREEN 2",
+              "showid": "8897",
+              "tickets_sold": 9,
+              "time": "10:30 PM",
+              "venue": "Sandhya"
+            },
+            {
               "gross": 300,
               "movie": "Thudakkam",
               "screen": "Athulya",
@@ -1089,15 +1107,6 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 4500,
-              "movie": "Thudakkam",
-              "screen": "SCREEN 1",
-              "showid": "3772",
-              "tickets_sold": 30,
-              "time": "09:30 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
               "gross": 300,
               "movie": "Thudakkam",
               "screen": "Athulya",
@@ -1105,20 +1114,11 @@
               "tickets_sold": 2,
               "time": "05:30 PM",
               "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 450,
-              "movie": "Thudakkam",
-              "screen": "SCREEN 2",
-              "showid": "8897",
-              "tickets_sold": 3,
-              "time": "10:30 PM",
-              "venue": "Sandhya"
             }
           ],
-          "gross": 66750,
+          "gross": 67650,
           "shows": 26,
-          "tickets_sold": 445
+          "tickets_sold": 451
         },
         "without_gross": {
           "breakdown": [
@@ -1336,6 +1336,15 @@
           "venue": "SFC"
         },
         {
+          "gross": 1350,
+          "movie": "Thudakkam",
+          "screen": "SCREEN 2",
+          "showid": "8897",
+          "tickets_sold": 9,
+          "time": "10:30 PM",
+          "venue": "Sandhya"
+        },
+        {
           "gross": 1200,
           "movie": "Thudakkam [M]",
           "screen": null,
@@ -1370,15 +1379,6 @@
           "tickets_sold": 3,
           "time": "06:30 PM",
           "venue": "Davis Theatre"
-        },
-        {
-          "gross": 450,
-          "movie": "Thudakkam",
-          "screen": "SCREEN 2",
-          "showid": "8897",
-          "tickets_sold": 3,
-          "time": "10:30 PM",
-          "venue": "Sandhya"
         },
         {
           "gross": 300,
@@ -1454,7 +1454,7 @@
         }
       ],
       "shows": 31,
-      "tickets_sold": 445
+      "tickets_sold": 451
     },
     "Unknown": {
       "gross": 0,
@@ -1683,6 +1683,24 @@
               "venue": "Puthet Cinemas"
             },
             {
+              "gross": 2700,
+              "movie": "Vishwanath & Sons",
+              "screen": "SCREEN 2",
+              "showid": "10008",
+              "tickets_sold": 18,
+              "time": "09:30 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 2100,
+              "movie": "Vishwanath and Sons",
+              "screen": null,
+              "showid": "19323",
+              "tickets_sold": 14,
+              "time": "09:45 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
               "gross": 1950,
               "movie": "Vishwanath and Sons",
               "screen": "SAAGARA",
@@ -1746,15 +1764,6 @@
               "venue": "SFC"
             },
             {
-              "gross": 2100,
-              "movie": "Vishwanath and Sons",
-              "screen": null,
-              "showid": "19323",
-              "tickets_sold": 14,
-              "time": "09:45 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 1050,
               "movie": "Vishwanath and Sons",
               "screen": "SCREEN 1",
@@ -1762,15 +1771,6 @@
               "tickets_sold": 7,
               "time": "08:30 PM",
               "venue": "Jose"
-            },
-            {
-              "gross": 2700,
-              "movie": "Vishwanath & Sons",
-              "screen": "SCREEN 2",
-              "showid": "10008",
-              "tickets_sold": 18,
-              "time": "09:30 PM",
-              "venue": "Harihar"
             },
             {
               "gross": 750,
@@ -2739,15 +2739,10 @@
     "merged_movies": [
       {
         "aliases": [
-          "Unknown"
+          "Vishwanath and Sons",
+          "Vishwanath and Sons (Tamil)"
         ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "DC (Tamil)"
-        ],
-        "canonical": "DC (Tamil)"
+        "canonical": "Vishwanath and Sons"
       },
       {
         "aliases": [
@@ -2761,14 +2756,14 @@
           "KHALIFA",
           "Khalifa"
         ],
-        "canonical": "KHALIFA"
+        "canonical": "Khalifa"
       },
       {
         "aliases": [
-          "Vishwanath & Sons",
-          "Vishwanath and Sons"
+          "D C (Tamil)",
+          "DC (Tamil)"
         ],
-        "canonical": "Vishwanath & Sons"
+        "canonical": "DC (Tamil)"
       },
       {
         "aliases": [
@@ -2778,15 +2773,21 @@
       },
       {
         "aliases": [
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bethlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
           "Spider-Man: Brand New Day"
         ],
         "canonical": "Spider-Man: Brand New Day"
       },
       {
         "aliases": [
-          "Bethlehem Kudumba Unit"
+          "Unknown"
         ],
-        "canonical": "Bethlehem Kudumba Unit"
+        "canonical": "Unknown"
       }
     ]
   }
