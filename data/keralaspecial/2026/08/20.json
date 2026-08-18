@@ -1,9 +1,9 @@
 {
   "date": "2026-08-20",
-  "last_updated": "2026-08-18T04:57:58.069848+05:30",
+  "last_updated": "2026-08-18T07:05:51.443464+05:30",
   "movies": {
     "KHALIFA": {
-      "gross": 208200,
+      "gross": 208950,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -36,20 +36,20 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 21000,
+              "gross": 21150,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "3827",
-              "tickets_sold": 140,
+              "tickets_sold": 141,
               "time": "05:30 PM",
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 18600,
+              "gross": 18750,
               "movie": "KHALIFA",
               "screen": null,
               "showid": "19306",
-              "tickets_sold": 124,
+              "tickets_sold": 125,
               "time": "09:00 AM",
               "venue": "Puthet Cinemas"
             },
@@ -63,11 +63,11 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 16500,
+              "gross": 16650,
               "movie": "Khalifa",
               "screen": "Aiswarya",
               "showid": "8383",
-              "tickets_sold": 110,
+              "tickets_sold": 111,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
             },
@@ -81,11 +81,11 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 11100,
+              "gross": 11400,
               "movie": "KHALIFA",
               "screen": null,
               "showid": "19307",
-              "tickets_sold": 74,
+              "tickets_sold": 76,
               "time": "12:00 PM",
               "venue": "Puthet Cinemas"
             },
@@ -171,9 +171,9 @@
               "venue": "Davis Theatre"
             }
           ],
-          "gross": 208200,
+          "gross": 208950,
           "shows": 18,
-          "tickets_sold": 1388
+          "tickets_sold": 1393
         },
         "without_gross": {
           "breakdown": [],
@@ -210,20 +210,20 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 21000,
+          "gross": 21150,
           "movie": "Khalifa",
           "screen": "SCREEN 1",
           "showid": "3827",
-          "tickets_sold": 140,
+          "tickets_sold": 141,
           "time": "05:30 PM",
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 18600,
+          "gross": 18750,
           "movie": "KHALIFA",
           "screen": null,
           "showid": "19306",
-          "tickets_sold": 124,
+          "tickets_sold": 125,
           "time": "09:00 AM",
           "venue": "Puthet Cinemas"
         },
@@ -237,11 +237,11 @@
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 16500,
+          "gross": 16650,
           "movie": "Khalifa",
           "screen": "Aiswarya",
           "showid": "8383",
-          "tickets_sold": 110,
+          "tickets_sold": 111,
           "time": "11:00 AM",
           "venue": "Aiswarya Cinemas"
         },
@@ -255,11 +255,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 11100,
+          "gross": 11400,
           "movie": "KHALIFA",
           "screen": null,
           "showid": "19307",
-          "tickets_sold": 74,
+          "tickets_sold": 76,
           "time": "12:00 PM",
           "venue": "Puthet Cinemas"
         },
@@ -346,7 +346,7 @@
         }
       ],
       "shows": 18,
-      "tickets_sold": 1388
+      "tickets_sold": 1393
     },
     "Khalifa": {
       "gross": 207900,
@@ -699,10 +699,17 @@
     "merged_movies": [
       {
         "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
+          "Vishwanath & Sons",
+          "Vishwanath and Sons",
+          "Vishwanath and Sons (Tamil)"
         ],
-        "canonical": "DC (Tamil)"
+        "canonical": "Vishwanath & Sons"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
       },
       {
         "aliases": [
@@ -713,10 +720,16 @@
       },
       {
         "aliases": [
-          "Vishwanath and Sons",
-          "Vishwanath and Sons (Tamil)"
+          "KHALIFA",
+          "Khalifa"
         ],
-        "canonical": "Vishwanath and Sons"
+        "canonical": "KHALIFA"
+      },
+      {
+        "aliases": [
+          "Spider-Man: Brand New Day"
+        ],
+        "canonical": "Spider-Man: Brand New Day"
       },
       {
         "aliases": [
@@ -726,28 +739,10 @@
       },
       {
         "aliases": [
-          "KHALIFA",
-          "Khalifa"
+          "D C (Tamil)",
+          "DC (Tamil)"
         ],
-        "canonical": "KHALIFA"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "Vishwanath & Sons"
-        ],
-        "canonical": "Vishwanath & Sons"
-      },
-      {
-        "aliases": [
-          "Spider-Man: Brand New Day"
-        ],
-        "canonical": "Spider-Man: Brand New Day"
+        "canonical": "DC (Tamil)"
       }
     ]
   }

@@ -1,9 +1,9 @@
 {
   "date": "2026-08-18",
-  "last_updated": "2026-08-18T04:57:58.067085+05:30",
+  "last_updated": "2026-08-18T07:05:51.439761+05:30",
   "movies": {
     "DC": {
-      "gross": 28050,
+      "gross": 28200,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -27,11 +27,11 @@
               "venue": "SFC"
             },
             {
-              "gross": 2250,
+              "gross": 2400,
               "movie": "DC",
               "screen": "SCREEN 1",
               "showid": "8893",
-              "tickets_sold": 15,
+              "tickets_sold": 16,
               "time": "10:30 PM",
               "venue": "Sandhya"
             },
@@ -171,9 +171,9 @@
               "venue": "Sandhya"
             }
           ],
-          "gross": 28050,
+          "gross": 28200,
           "shows": 18,
-          "tickets_sold": 187
+          "tickets_sold": 188
         },
         "without_gross": {
           "breakdown": [
@@ -274,11 +274,11 @@
           "venue": "SFC"
         },
         {
-          "gross": 2250,
+          "gross": 2400,
           "movie": "DC",
           "screen": "SCREEN 1",
           "showid": "8893",
-          "tickets_sold": 15,
+          "tickets_sold": 16,
           "time": "10:30 PM",
           "venue": "Sandhya"
         },
@@ -491,7 +491,7 @@
         }
       ],
       "shows": 26,
-      "tickets_sold": 187
+      "tickets_sold": 188
     },
     "DC (Tamil)": {
       "gross": 900,
@@ -876,7 +876,7 @@
       "tickets_sold": 0
     },
     "Thudakkam": {
-      "gross": 17100,
+      "gross": 18300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -945,11 +945,11 @@
               "venue": "Harihar"
             },
             {
-              "gross": 1050,
+              "gross": 1650,
               "movie": "Thudakkam",
               "screen": "SCREEN 1",
               "showid": "8890",
-              "tickets_sold": 7,
+              "tickets_sold": 11,
               "time": "01:30 PM",
               "venue": "Sandhya"
             },
@@ -963,11 +963,11 @@
               "venue": "Sandhya"
             },
             {
-              "gross": 600,
+              "gross": 1200,
               "movie": "Thudakkam [M]",
               "screen": null,
               "showid": "19317",
-              "tickets_sold": 4,
+              "tickets_sold": 8,
               "time": "06:00 PM",
               "venue": "Puthet Cinemas"
             },
@@ -1035,9 +1035,9 @@
               "venue": "SFC"
             }
           ],
-          "gross": 17100,
+          "gross": 18300,
           "shows": 17,
-          "tickets_sold": 114
+          "tickets_sold": 122
         },
         "without_gross": {
           "breakdown": [
@@ -1210,6 +1210,15 @@
           "venue": "Harihar"
         },
         {
+          "gross": 1650,
+          "movie": "Thudakkam",
+          "screen": "SCREEN 1",
+          "showid": "8890",
+          "tickets_sold": 11,
+          "time": "01:30 PM",
+          "venue": "Sandhya"
+        },
+        {
           "gross": 1500,
           "movie": "Thudakkam",
           "screen": "SCREEN 3",
@@ -1237,13 +1246,13 @@
           "venue": "Harihar"
         },
         {
-          "gross": 1050,
-          "movie": "Thudakkam",
-          "screen": "SCREEN 1",
-          "showid": "8890",
-          "tickets_sold": 7,
-          "time": "01:30 PM",
-          "venue": "Sandhya"
+          "gross": 1200,
+          "movie": "Thudakkam [M]",
+          "screen": null,
+          "showid": "19317",
+          "tickets_sold": 8,
+          "time": "06:00 PM",
+          "venue": "Puthet Cinemas"
         },
         {
           "gross": 750,
@@ -1253,15 +1262,6 @@
           "tickets_sold": 5,
           "time": "04:30 PM",
           "venue": "Sandhya"
-        },
-        {
-          "gross": 600,
-          "movie": "Thudakkam [M]",
-          "screen": null,
-          "showid": "19317",
-          "tickets_sold": 4,
-          "time": "06:00 PM",
-          "venue": "Puthet Cinemas"
         },
         {
           "gross": 600,
@@ -1454,7 +1454,7 @@
         }
       ],
       "shows": 31,
-      "tickets_sold": 114
+      "tickets_sold": 122
     },
     "Vishwanath & Sons": {
       "gross": 25200,
@@ -2573,10 +2573,17 @@
     "merged_movies": [
       {
         "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
+          "Vishwanath & Sons",
+          "Vishwanath and Sons",
+          "Vishwanath and Sons (Tamil)"
         ],
-        "canonical": "DC (Tamil)"
+        "canonical": "Vishwanath & Sons"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
       },
       {
         "aliases": [
@@ -2587,10 +2594,16 @@
       },
       {
         "aliases": [
-          "Vishwanath and Sons",
-          "Vishwanath and Sons (Tamil)"
+          "KHALIFA",
+          "Khalifa"
         ],
-        "canonical": "Vishwanath and Sons"
+        "canonical": "KHALIFA"
+      },
+      {
+        "aliases": [
+          "Spider-Man: Brand New Day"
+        ],
+        "canonical": "Spider-Man: Brand New Day"
       },
       {
         "aliases": [
@@ -2600,28 +2613,10 @@
       },
       {
         "aliases": [
-          "KHALIFA",
-          "Khalifa"
+          "D C (Tamil)",
+          "DC (Tamil)"
         ],
-        "canonical": "KHALIFA"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "Vishwanath & Sons"
-        ],
-        "canonical": "Vishwanath & Sons"
-      },
-      {
-        "aliases": [
-          "Spider-Man: Brand New Day"
-        ],
-        "canonical": "Spider-Man: Brand New Day"
+        "canonical": "DC (Tamil)"
       }
     ]
   }
