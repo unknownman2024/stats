@@ -1,6 +1,6 @@
 {
   "date": "2026-08-19",
-  "last_updated": "2026-08-19T01:01:33.962698+05:30",
+  "last_updated": "2026-08-19T02:00:29.695206+05:30",
   "movies": {
     "D C (Tamil)": {
       "gross": 0,
@@ -76,6 +76,15 @@
               "venue": "SFC"
             },
             {
+              "gross": 1950,
+              "movie": "DC",
+              "screen": "SCREEN 2",
+              "showid": "8905",
+              "tickets_sold": 13,
+              "time": "07:30 PM",
+              "venue": "Sandhya"
+            },
+            {
               "gross": 1500,
               "movie": "DC",
               "screen": "SCREEN 1",
@@ -91,15 +100,6 @@
               "showid": "8898",
               "tickets_sold": 9,
               "time": "10:30 AM",
-              "venue": "Sandhya"
-            },
-            {
-              "gross": 1950,
-              "movie": "DC",
-              "screen": "SCREEN 2",
-              "showid": "8905",
-              "tickets_sold": 13,
-              "time": "07:30 PM",
               "venue": "Sandhya"
             },
             {
@@ -853,17 +853,17 @@
       "tickets_sold": 0
     },
     "Thudakkam": {
-      "gross": 10050,
+      "gross": 10350,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 2100,
+              "gross": 2400,
               "movie": "Thudakkam",
               "screen": "SCREEN 1",
               "showid": "8901",
-              "tickets_sold": 14,
+              "tickets_sold": 16,
               "time": "07:30 PM",
               "venue": "Sandhya"
             },
@@ -949,9 +949,9 @@
               "venue": "Harihar"
             }
           ],
-          "gross": 10050,
+          "gross": 10350,
           "shows": 10,
-          "tickets_sold": 67
+          "tickets_sold": 69
         },
         "without_gross": {
           "breakdown": [
@@ -1151,11 +1151,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 2100,
+          "gross": 2400,
           "movie": "Thudakkam",
           "screen": "SCREEN 1",
           "showid": "8901",
-          "tickets_sold": 14,
+          "tickets_sold": 16,
           "time": "07:30 PM",
           "venue": "Sandhya"
         },
@@ -1431,7 +1431,7 @@
         }
       ],
       "shows": 31,
-      "tickets_sold": 67
+      "tickets_sold": 69
     },
     "Unknown": {
       "gross": 0,
@@ -1606,33 +1606,6 @@
         "with_gross": {
           "breakdown": [
             {
-              "gross": 600,
-              "movie": "Vishwanath and Sons",
-              "screen": "SCREEN 2",
-              "showid": "3752",
-              "tickets_sold": 4,
-              "time": "09:30 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 300,
-              "movie": "Vishwanath and Sons",
-              "screen": "SCREEN 2",
-              "showid": "3749",
-              "tickets_sold": 2,
-              "time": "11:00 AM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 300,
-              "movie": "Vishwanath and Sons",
-              "screen": "Aiswarya",
-              "showid": "8366",
-              "tickets_sold": 2,
-              "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
               "gross": 1950,
               "movie": "Vishwanath and Sons",
               "screen": null,
@@ -1640,15 +1613,6 @@
               "tickets_sold": 13,
               "time": "10:30 AM",
               "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 450,
-              "movie": "Vishwanath and Sons",
-              "screen": "SCREEN 2",
-              "showid": "3750",
-              "tickets_sold": 3,
-              "time": "02:30 PM",
-              "venue": "Fairyland Cinemas"
             },
             {
               "gross": 1200,
@@ -1669,6 +1633,51 @@
               "venue": "SFC"
             },
             {
+              "gross": 600,
+              "movie": "Vishwanath and Sons",
+              "screen": "SCREEN 2",
+              "showid": "3752",
+              "tickets_sold": 4,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 450,
+              "movie": "Vishwanath and Sons",
+              "screen": "SCREEN 2",
+              "showid": "3750",
+              "tickets_sold": 3,
+              "time": "02:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 450,
+              "movie": "Vishwanath and Sons",
+              "screen": "SCREEN 1",
+              "showid": "7000",
+              "tickets_sold": 3,
+              "time": "09:15 PM",
+              "venue": "Issacs"
+            },
+            {
+              "gross": 300,
+              "movie": "Vishwanath and Sons",
+              "screen": "SCREEN 2",
+              "showid": "3749",
+              "tickets_sold": 2,
+              "time": "11:00 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "Vishwanath and Sons",
+              "screen": "Aiswarya",
+              "showid": "8366",
+              "tickets_sold": 2,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
               "gross": 300,
               "movie": "Vishwanath and Sons",
               "screen": "SAAGARA",
@@ -1676,15 +1685,6 @@
               "tickets_sold": 2,
               "time": "08:30 PM",
               "venue": "SFC"
-            },
-            {
-              "gross": 150,
-              "movie": "Vishwanath and Sons",
-              "screen": "SCREEN 1",
-              "showid": "6997",
-              "tickets_sold": 1,
-              "time": "11:15 AM",
-              "venue": "Issacs"
             },
             {
               "gross": 300,
@@ -1696,12 +1696,12 @@
               "venue": "Issacs"
             },
             {
-              "gross": 450,
+              "gross": 150,
               "movie": "Vishwanath and Sons",
               "screen": "SCREEN 1",
-              "showid": "7000",
-              "tickets_sold": 3,
-              "time": "09:15 PM",
+              "showid": "6997",
+              "tickets_sold": 1,
+              "time": "11:15 AM",
               "venue": "Issacs"
             }
           ],
@@ -2127,7 +2127,7 @@
       "tickets_sold": 46
     },
     "Vishwanath and Sons": {
-      "gross": 6600,
+      "gross": 6900,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -2151,11 +2151,11 @@
               "venue": "SFC"
             },
             {
-              "gross": 900,
+              "gross": 1200,
               "movie": "Vishwanath and Sons",
               "screen": "SAAGARA",
               "showid": "20086",
-              "tickets_sold": 6,
+              "tickets_sold": 8,
               "time": "02:30 PM",
               "venue": "SFC"
             },
@@ -2223,9 +2223,9 @@
               "venue": "Issacs"
             }
           ],
-          "gross": 6600,
+          "gross": 6900,
           "shows": 10,
-          "tickets_sold": 44
+          "tickets_sold": 46
         },
         "without_gross": {
           "breakdown": [
@@ -2398,11 +2398,11 @@
           "venue": "SFC"
         },
         {
-          "gross": 900,
+          "gross": 1200,
           "movie": "Vishwanath and Sons",
           "screen": "SAAGARA",
           "showid": "20086",
-          "tickets_sold": 6,
+          "tickets_sold": 8,
           "time": "02:30 PM",
           "venue": "SFC"
         },
@@ -2615,7 +2615,7 @@
         }
       ],
       "shows": 26,
-      "tickets_sold": 44
+      "tickets_sold": 46
     },
     "Vishwanath and Sons (Tamil)": {
       "gross": 0,
@@ -2680,10 +2680,17 @@
     "merged_movies": [
       {
         "aliases": [
-          "Vishwanath & Sons",
-          "Vishwanath and Sons"
+          "KHALIFA",
+          "Khalifa"
         ],
-        "canonical": "Vishwanath & Sons"
+        "canonical": "KHALIFA"
+      },
+      {
+        "aliases": [
+          "D C (Tamil)",
+          "DC (Tamil)"
+        ],
+        "canonical": "DC (Tamil)"
       },
       {
         "aliases": [
@@ -2694,10 +2701,16 @@
       },
       {
         "aliases": [
-          "KHALIFA",
-          "Khalifa"
+          "Vishwanath and Sons",
+          "Vishwanath and Sons (Tamil)"
         ],
-        "canonical": "Khalifa"
+        "canonical": "Vishwanath and Sons"
+      },
+      {
+        "aliases": [
+          "Vishwanath & Sons"
+        ],
+        "canonical": "Vishwanath & Sons"
       },
       {
         "aliases": [
@@ -2713,28 +2726,15 @@
       },
       {
         "aliases": [
-          "Spider-Man: Brand New Day"
-        ],
-        "canonical": "Spider-Man: Brand New Day"
-      },
-      {
-        "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
-        ],
-        "canonical": "DC (Tamil)"
-      },
-      {
-        "aliases": [
-          "Vishwanath and Sons (Tamil)"
-        ],
-        "canonical": "Vishwanath and Sons (Tamil)"
-      },
-      {
-        "aliases": [
           "Unknown"
         ],
         "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Spider-Man: Brand New Day"
+        ],
+        "canonical": "Spider-Man: Brand New Day"
       }
     ]
   }
