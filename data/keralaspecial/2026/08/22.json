@@ -1,26 +1,35 @@
 {
   "date": "2026-08-22",
-  "last_updated": "2026-08-18T13:12:50.286154+05:30",
+  "last_updated": "2026-08-18T14:13:10.090754+05:30",
   "movies": {
     "Bethlehem Kudumba Unit": {
-      "gross": 300,
+      "gross": 1200,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 300,
+              "gross": 900,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
               "showid": "19331",
-              "tickets_sold": 2,
+              "tickets_sold": 6,
               "time": "05:30 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Dolby Atmos",
+              "showid": "5832",
+              "tickets_sold": 2,
+              "time": "09:30 PM",
+              "venue": "Girija Theatre"
             }
           ],
-          "gross": 300,
-          "shows": 1,
-          "tickets_sold": 2
+          "gross": 1200,
+          "shows": 2,
+          "tickets_sold": 8
         },
         "without_gross": {
           "breakdown": [
@@ -49,15 +58,6 @@
               "showid": "5831",
               "tickets_sold": 0,
               "time": "06:30 PM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Dolby Atmos",
-              "showid": "5832",
-              "tickets_sold": 0,
-              "time": "09:30 PM",
               "venue": "Girija Theatre"
             },
             {
@@ -133,19 +133,28 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 12,
+          "shows": 11,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 300,
+          "gross": 900,
           "movie": "Bethlehem Kudumba Unit",
           "screen": null,
           "showid": "19331",
-          "tickets_sold": 2,
+          "tickets_sold": 6,
           "time": "05:30 PM",
           "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Dolby Atmos",
+          "showid": "5832",
+          "tickets_sold": 2,
+          "time": "09:30 PM",
+          "venue": "Girija Theatre"
         },
         {
           "gross": 0,
@@ -172,15 +181,6 @@
           "showid": "5831",
           "tickets_sold": 0,
           "time": "06:30 PM",
-          "venue": "Girija Theatre"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Dolby Atmos",
-          "showid": "5832",
-          "tickets_sold": 0,
-          "time": "09:30 PM",
           "venue": "Girija Theatre"
         },
         {
@@ -257,7 +257,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 2
+      "tickets_sold": 8
     },
     "KHALIFA": {
       "gross": 15150,
@@ -361,21 +361,21 @@
         "with_gross": {
           "breakdown": [
             {
-              "gross": 7800,
-              "movie": "Khalifa",
-              "screen": "SCREEN 1",
-              "showid": "3835",
-              "tickets_sold": 52,
-              "time": "05:30 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
               "gross": 8100,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "3836",
               "tickets_sold": 54,
               "time": "09:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 7800,
+              "movie": "Khalifa",
+              "screen": "SCREEN 1",
+              "showid": "3835",
+              "tickets_sold": 52,
+              "time": "05:30 PM",
               "venue": "Fairyland Cinemas"
             }
           ],
@@ -402,9 +402,54 @@
               "tickets_sold": 0,
               "time": "02:00 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "KHALIFA",
+              "screen": null,
+              "showid": "19349",
+              "tickets_sold": 0,
+              "time": "10:45 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "KHALIFA",
+              "screen": null,
+              "showid": "19350",
+              "tickets_sold": 0,
+              "time": "01:45 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "KHALIFA",
+              "screen": null,
+              "showid": "19351",
+              "tickets_sold": 0,
+              "time": "05:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "KHALIFA",
+              "screen": null,
+              "showid": "19352",
+              "tickets_sold": 0,
+              "time": "08:15 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "KHALIFA",
+              "screen": null,
+              "showid": "19353",
+              "tickets_sold": 0,
+              "time": "11:55 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 2,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
@@ -444,9 +489,54 @@
           "tickets_sold": 0,
           "time": "02:00 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "KHALIFA",
+          "screen": null,
+          "showid": "19349",
+          "tickets_sold": 0,
+          "time": "10:45 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "KHALIFA",
+          "screen": null,
+          "showid": "19350",
+          "tickets_sold": 0,
+          "time": "01:45 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "KHALIFA",
+          "screen": null,
+          "showid": "19351",
+          "tickets_sold": 0,
+          "time": "05:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "KHALIFA",
+          "screen": null,
+          "showid": "19352",
+          "tickets_sold": 0,
+          "time": "08:15 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "KHALIFA",
+          "screen": null,
+          "showid": "19353",
+          "tickets_sold": 0,
+          "time": "11:55 PM",
+          "venue": "Puthet Cinemas"
         }
       ],
-      "shows": 4,
+      "shows": 9,
       "tickets_sold": 106
     }
   },
@@ -454,9 +544,23 @@
     "merged_movies": [
       {
         "aliases": [
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bethlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
           "Spider-Man: Brand New Day"
         ],
         "canonical": "Spider-Man: Brand New Day"
+      },
+      {
+        "aliases": [
+          "Vishwanath & Sons",
+          "Vishwanath and Sons",
+          "Vishwanath and Sons (Tamil)"
+        ],
+        "canonical": "Vishwanath & Sons"
       },
       {
         "aliases": [
@@ -467,10 +571,10 @@
       },
       {
         "aliases": [
-          "Vishwanath & Sons",
-          "Vishwanath and Sons"
+          "D C (Tamil)",
+          "DC (Tamil)"
         ],
-        "canonical": "Vishwanath & Sons"
+        "canonical": "DC (Tamil)"
       },
       {
         "aliases": [
@@ -484,25 +588,6 @@
           "Khalifa"
         ],
         "canonical": "Khalifa"
-      },
-      {
-        "aliases": [
-          "Vishwanath and Sons (Tamil)"
-        ],
-        "canonical": "Vishwanath and Sons (Tamil)"
-      },
-      {
-        "aliases": [
-          "Bethlehem Kudumba Unit"
-        ],
-        "canonical": "Bethlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
-        ],
-        "canonical": "DC (Tamil)"
       }
     ]
   }
