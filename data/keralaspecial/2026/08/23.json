@@ -1,9 +1,9 @@
 {
   "date": "2026-08-23",
-  "last_updated": "2026-08-19T18:27:05.800252+05:30",
+  "last_updated": "2026-08-19T19:20:41.559299+05:30",
   "movies": {
     "Bethlehem Kudumba Unit": {
-      "gross": 20550,
+      "gross": 21000,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -45,6 +45,15 @@
               "venue": "Puthet Cinemas"
             },
             {
+              "gross": 1650,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Dolby Atmos",
+              "showid": "5834",
+              "tickets_sold": 11,
+              "time": "03:00 PM",
+              "venue": "Girija Theatre"
+            },
+            {
               "gross": 900,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "SCREEN 3",
@@ -60,15 +69,6 @@
               "showid": "5836",
               "tickets_sold": 5,
               "time": "09:30 PM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 1200,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Dolby Atmos",
-              "showid": "5834",
-              "tickets_sold": 8,
-              "time": "03:00 PM",
               "venue": "Girija Theatre"
             },
             {
@@ -108,9 +108,9 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 20550,
+          "gross": 21000,
           "shows": 11,
-          "tickets_sold": 137
+          "tickets_sold": 140
         },
         "without_gross": {
           "breakdown": [
@@ -211,11 +211,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 1200,
+          "gross": 1650,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Dolby Atmos",
           "showid": "5834",
-          "tickets_sold": 8,
+          "tickets_sold": 11,
           "time": "03:00 PM",
           "venue": "Girija Theatre"
         },
@@ -329,7 +329,7 @@
         }
       ],
       "shows": 17,
-      "tickets_sold": 137
+      "tickets_sold": 140
     },
     "KHALIFA": {
       "gross": 19050,
@@ -857,16 +857,22 @@
       },
       {
         "aliases": [
-          "Bethlehem Kudumba Unit"
+          "KHALIFA",
+          "Khalifa"
         ],
-        "canonical": "Bethlehem Kudumba Unit"
+        "canonical": "Khalifa"
       },
       {
         "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
+          "DC"
         ],
-        "canonical": "DC (Tamil)"
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bethlehem Kudumba Unit"
       },
       {
         "aliases": [
@@ -875,13 +881,6 @@
           "Vishwanath and Sons (Tamil)"
         ],
         "canonical": "Vishwanath & Sons"
-      },
-      {
-        "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "KHALIFA"
       },
       {
         "aliases": [
@@ -897,9 +896,10 @@
       },
       {
         "aliases": [
-          "DC"
+          "D C (Tamil)",
+          "DC (Tamil)"
         ],
-        "canonical": "DC"
+        "canonical": "DC (Tamil)"
       }
     ]
   }
