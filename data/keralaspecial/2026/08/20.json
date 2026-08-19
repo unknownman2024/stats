@@ -1,6 +1,6 @@
 {
   "date": "2026-08-20",
-  "last_updated": "2026-08-20T03:59:46.667139+05:30",
+  "last_updated": "2026-08-20T04:57:34.496467+05:30",
   "movies": {
     "DC": {
       "gross": 3750,
@@ -409,7 +409,7 @@
       "tickets_sold": 10
     },
     "KHALIFA": {
-      "gross": 1263750,
+      "gross": 1264200,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -532,11 +532,11 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 32700,
+              "gross": 32850,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "6969",
-              "tickets_sold": 218,
+              "tickets_sold": 219,
               "time": "10:30 AM",
               "venue": "Issacs"
             },
@@ -577,11 +577,11 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 28050,
+              "gross": 28200,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "3825",
-              "tickets_sold": 187,
+              "tickets_sold": 188,
               "time": "10:30 AM",
               "venue": "Fairyland Cinemas"
             },
@@ -739,11 +739,11 @@
               "venue": "Jose"
             },
             {
-              "gross": 7950,
+              "gross": 8100,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "9996",
-              "tickets_sold": 53,
+              "tickets_sold": 54,
               "time": "12:00 PM",
               "venue": "Harihar"
             },
@@ -856,9 +856,9 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 1263750,
+          "gross": 1264200,
           "shows": 49,
-          "tickets_sold": 8425
+          "tickets_sold": 8428
         },
         "without_gross": {
           "breakdown": [],
@@ -985,11 +985,11 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 32700,
+          "gross": 32850,
           "movie": "Khalifa",
           "screen": "SCREEN 1",
           "showid": "6969",
-          "tickets_sold": 218,
+          "tickets_sold": 219,
           "time": "10:30 AM",
           "venue": "Issacs"
         },
@@ -1021,6 +1021,15 @@
           "venue": "Puthet Cinemas"
         },
         {
+          "gross": 28200,
+          "movie": "Khalifa",
+          "screen": "SCREEN 1",
+          "showid": "3825",
+          "tickets_sold": 188,
+          "time": "10:30 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
           "gross": 28050,
           "movie": "KHALIFA",
           "screen": null,
@@ -1028,15 +1037,6 @@
           "tickets_sold": 187,
           "time": "06:00 PM",
           "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 28050,
-          "movie": "Khalifa",
-          "screen": "SCREEN 1",
-          "showid": "3825",
-          "tickets_sold": 187,
-          "time": "10:30 AM",
-          "venue": "Fairyland Cinemas"
         },
         {
           "gross": 26400,
@@ -1192,11 +1192,11 @@
           "venue": "Jose"
         },
         {
-          "gross": 7950,
+          "gross": 8100,
           "movie": "Khalifa",
           "screen": "SCREEN 1",
           "showid": "9996",
-          "tickets_sold": 53,
+          "tickets_sold": 54,
           "time": "12:00 PM",
           "venue": "Harihar"
         },
@@ -1310,7 +1310,7 @@
         }
       ],
       "shows": 49,
-      "tickets_sold": 8425
+      "tickets_sold": 8428
     },
     "Khalifa": {
       "gross": 1261800,
@@ -1706,15 +1706,6 @@
               "venue": "Davis Theatre"
             },
             {
-              "gross": 3000,
-              "movie": "Khalifa",
-              "screen": "Cinema-1",
-              "showid": "22619",
-              "tickets_sold": 20,
-              "time": "12:00 PM",
-              "venue": "Davis Theatre"
-            },
-            {
               "gross": 3300,
               "movie": "KHALIFA",
               "screen": null,
@@ -1722,6 +1713,15 @@
               "tickets_sold": 22,
               "time": "11:30 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 3000,
+              "movie": "Khalifa",
+              "screen": "Cinema-1",
+              "showid": "22619",
+              "tickets_sold": 20,
+              "time": "12:00 PM",
+              "venue": "Davis Theatre"
             },
             {
               "gross": 2700,
@@ -3414,10 +3414,35 @@
     "merged_movies": [
       {
         "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "KHALIFA"
+      },
+      {
+        "aliases": [
           "Thudakkam",
           "Thudakkam [M]"
         ],
         "canonical": "Thudakkam"
+      },
+      {
+        "aliases": [
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bethlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
+          "DC (Tamil)"
+        ],
+        "canonical": "DC (Tamil)"
       },
       {
         "aliases": [
@@ -3428,40 +3453,15 @@
       },
       {
         "aliases": [
-          "DC"
+          "Unknown"
         ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "Khalifa"
+        "canonical": "Unknown"
       },
       {
         "aliases": [
           "Spider-Man: Brand New Day"
         ],
         "canonical": "Spider-Man: Brand New Day"
-      },
-      {
-        "aliases": [
-          "DC (Tamil)"
-        ],
-        "canonical": "DC (Tamil)"
-      },
-      {
-        "aliases": [
-          "Bethlehem Kudumba Unit"
-        ],
-        "canonical": "Bethlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
       }
     ]
   }
