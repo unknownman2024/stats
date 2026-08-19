@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "last_updated": "2026-08-19T14:13:58.094273+05:30",
+  "last_updated": "2026-08-19T15:09:13.194558+05:30",
   "movies": {
     "Bethlehem Kudumba Unit": {
       "gross": 17400,
@@ -18,15 +18,6 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 3300,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Dolby Atmos",
-              "showid": "5835",
-              "tickets_sold": 22,
-              "time": "06:30 PM",
-              "venue": "Girija Theatre"
-            },
-            {
               "gross": 3600,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
@@ -34,6 +25,15 @@
               "tickets_sold": 24,
               "time": "05:30 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 3300,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Dolby Atmos",
+              "showid": "5835",
+              "tickets_sold": 22,
+              "time": "06:30 PM",
+              "venue": "Girija Theatre"
             },
             {
               "gross": 1800,
@@ -640,15 +640,6 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 150,
-              "movie": "Khalifa",
-              "screen": "Aiswarya",
-              "showid": "8407",
-              "tickets_sold": 1,
-              "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
               "gross": 300,
               "movie": "KHALIFA",
               "screen": null,
@@ -656,6 +647,15 @@
               "tickets_sold": 2,
               "time": "05:00 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 150,
+              "movie": "Khalifa",
+              "screen": "Aiswarya",
+              "showid": "8407",
+              "tickets_sold": 1,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
           "gross": 19050,
@@ -850,16 +850,28 @@
     "merged_movies": [
       {
         "aliases": [
-          "Unknown"
+          "D C (Tamil)",
+          "DC (Tamil)"
         ],
-        "canonical": "Unknown"
+        "canonical": "DC (Tamil)"
       },
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
+          "DC"
         ],
-        "canonical": "Thudakkam"
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "Spider-Man: Brand New Day"
+        ],
+        "canonical": "Spider-Man: Brand New Day"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -870,22 +882,10 @@
       },
       {
         "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
+          "Thudakkam",
+          "Thudakkam [M]"
         ],
-        "canonical": "DC (Tamil)"
-      },
-      {
-        "aliases": [
-          "Vishwanath & Sons"
-        ],
-        "canonical": "Vishwanath & Sons"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
+        "canonical": "Thudakkam"
       },
       {
         "aliases": [
@@ -902,9 +902,9 @@
       },
       {
         "aliases": [
-          "Spider-Man: Brand New Day"
+          "Vishwanath & Sons"
         ],
-        "canonical": "Spider-Man: Brand New Day"
+        "canonical": "Vishwanath & Sons"
       }
     ]
   }
