@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "last_updated": "2026-08-20T00:12:06.752595+05:30",
+  "last_updated": "2026-08-20T01:00:31.511662+05:30",
   "movies": {
     "Bethlehem Kudumba Unit": {
       "gross": 28800,
@@ -332,7 +332,7 @@
       "tickets_sold": 192
     },
     "KHALIFA": {
-      "gross": 20550,
+      "gross": 21150,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -374,11 +374,11 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 750,
+              "gross": 1350,
               "movie": "KHALIFA",
               "screen": null,
               "showid": "19344",
-              "tickets_sold": 5,
+              "tickets_sold": 9,
               "time": "10:45 AM",
               "venue": "Puthet Cinemas"
             },
@@ -410,9 +410,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 20550,
+          "gross": 21150,
           "shows": 8,
-          "tickets_sold": 137
+          "tickets_sold": 141
         },
         "without_gross": {
           "breakdown": [
@@ -495,6 +495,15 @@
           "venue": "Puthet Cinemas"
         },
         {
+          "gross": 1350,
+          "movie": "KHALIFA",
+          "screen": null,
+          "showid": "19344",
+          "tickets_sold": 9,
+          "time": "10:45 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 750,
           "movie": "Khalifa",
           "screen": "SCREEN 1",
@@ -502,15 +511,6 @@
           "tickets_sold": 5,
           "time": "02:00 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 750,
-          "movie": "KHALIFA",
-          "screen": null,
-          "showid": "19344",
-          "tickets_sold": 5,
-          "time": "10:45 AM",
-          "venue": "Puthet Cinemas"
         },
         {
           "gross": 450,
@@ -586,7 +586,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 137
+      "tickets_sold": 141
     },
     "Khalifa": {
       "gross": 21000,
@@ -622,6 +622,15 @@
               "venue": "Puthet Cinemas"
             },
             {
+              "gross": 1200,
+              "movie": "KHALIFA",
+              "screen": null,
+              "showid": "19344",
+              "tickets_sold": 8,
+              "time": "10:45 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
               "gross": 750,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
@@ -631,12 +640,12 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 1200,
+              "gross": 450,
               "movie": "KHALIFA",
               "screen": null,
-              "showid": "19344",
-              "tickets_sold": 8,
-              "time": "10:45 AM",
+              "showid": "19347",
+              "tickets_sold": 3,
+              "time": "08:15 PM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -656,15 +665,6 @@
               "tickets_sold": 1,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 450,
-              "movie": "KHALIFA",
-              "screen": null,
-              "showid": "19347",
-              "tickets_sold": 3,
-              "time": "08:15 PM",
-              "venue": "Puthet Cinemas"
             }
           ],
           "gross": 21000,
@@ -850,36 +850,16 @@
     "merged_movies": [
       {
         "aliases": [
-          "Vishwanath & Sons",
-          "Vishwanath and Sons"
+          "KHALIFA",
+          "Khalifa"
         ],
-        "canonical": "Vishwanath & Sons"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
+        "canonical": "KHALIFA"
       },
       {
         "aliases": [
           "Spider-Man: Brand New Day"
         ],
         "canonical": "Spider-Man: Brand New Day"
-      },
-      {
-        "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "Khalifa"
       },
       {
         "aliases": [
@@ -895,9 +875,29 @@
       },
       {
         "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
           "DC"
         ],
         "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "Thudakkam",
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam"
+      },
+      {
+        "aliases": [
+          "Vishwanath & Sons",
+          "Vishwanath and Sons"
+        ],
+        "canonical": "Vishwanath & Sons"
       }
     ]
   }
