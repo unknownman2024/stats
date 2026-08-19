@@ -1,19 +1,19 @@
 {
   "date": "2026-08-23",
-  "last_updated": "2026-08-19T17:00:14.510683+05:30",
+  "last_updated": "2026-08-19T18:27:05.800252+05:30",
   "movies": {
     "Bethlehem Kudumba Unit": {
-      "gross": 18000,
+      "gross": 20550,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 5700,
+              "gross": 7650,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
               "showid": "19337",
-              "tickets_sold": 38,
+              "tickets_sold": 51,
               "time": "08:30 PM",
               "venue": "Puthet Cinemas"
             },
@@ -63,11 +63,11 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 600,
+              "gross": 1200,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Dolby Atmos",
               "showid": "5834",
-              "tickets_sold": 4,
+              "tickets_sold": 8,
               "time": "03:00 PM",
               "venue": "Girija Theatre"
             },
@@ -108,9 +108,9 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 18000,
+          "gross": 20550,
           "shows": 11,
-          "tickets_sold": 120
+          "tickets_sold": 137
         },
         "without_gross": {
           "breakdown": [
@@ -175,11 +175,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 5700,
+          "gross": 7650,
           "movie": "Bethlehem Kudumba Unit",
           "screen": null,
           "showid": "19337",
-          "tickets_sold": 38,
+          "tickets_sold": 51,
           "time": "08:30 PM",
           "venue": "Puthet Cinemas"
         },
@@ -211,6 +211,15 @@
           "venue": "Puthet Cinemas"
         },
         {
+          "gross": 1200,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Dolby Atmos",
+          "showid": "5834",
+          "tickets_sold": 8,
+          "time": "03:00 PM",
+          "venue": "Girija Theatre"
+        },
+        {
           "gross": 900,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "SCREEN 3",
@@ -226,15 +235,6 @@
           "showid": "5836",
           "tickets_sold": 5,
           "time": "09:30 PM",
-          "venue": "Girija Theatre"
-        },
-        {
-          "gross": 600,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Dolby Atmos",
-          "showid": "5834",
-          "tickets_sold": 4,
-          "time": "03:00 PM",
           "venue": "Girija Theatre"
         },
         {
@@ -329,7 +329,7 @@
         }
       ],
       "shows": 17,
-      "tickets_sold": 120
+      "tickets_sold": 137
     },
     "KHALIFA": {
       "gross": 19050,
@@ -850,9 +850,16 @@
     "merged_movies": [
       {
         "aliases": [
-          "Unknown"
+          "Thudakkam",
+          "Thudakkam [M]"
         ],
-        "canonical": "Unknown"
+        "canonical": "Thudakkam"
+      },
+      {
+        "aliases": [
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bethlehem Kudumba Unit"
       },
       {
         "aliases": [
@@ -860,6 +867,27 @@
           "DC (Tamil)"
         ],
         "canonical": "DC (Tamil)"
+      },
+      {
+        "aliases": [
+          "Vishwanath & Sons",
+          "Vishwanath and Sons",
+          "Vishwanath and Sons (Tamil)"
+        ],
+        "canonical": "Vishwanath & Sons"
+      },
+      {
+        "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "KHALIFA"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -872,39 +900,6 @@
           "DC"
         ],
         "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "Bethlehem Kudumba Unit"
-        ],
-        "canonical": "Bethlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "Khalifa"
-      },
-      {
-        "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "Vishwanath & Sons",
-          "Vishwanath and Sons"
-        ],
-        "canonical": "Vishwanath & Sons"
-      },
-      {
-        "aliases": [
-          "Vishwanath and Sons (Tamil)"
-        ],
-        "canonical": "Vishwanath and Sons (Tamil)"
       }
     ]
   }
