@@ -1,9 +1,9 @@
 {
   "date": "2026-08-22",
-  "last_updated": "2026-08-19T10:12:02.214316+05:30",
+  "last_updated": "2026-08-19T11:05:37.434748+05:30",
   "movies": {
     "Bethlehem Kudumba Unit": {
-      "gross": 24150,
+      "gross": 24450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -27,12 +27,21 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 2850,
+              "gross": 3150,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
               "showid": "19329",
-              "tickets_sold": 19,
+              "tickets_sold": 21,
               "time": "10:30 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 2400,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19330",
+              "tickets_sold": 16,
+              "time": "01:30 PM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -43,15 +52,6 @@
               "tickets_sold": 14,
               "time": "09:30 PM",
               "venue": "Girija Theatre"
-            },
-            {
-              "gross": 2400,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": null,
-              "showid": "19330",
-              "tickets_sold": 16,
-              "time": "01:30 PM",
-              "venue": "Puthet Cinemas"
             },
             {
               "gross": 900,
@@ -90,9 +90,9 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 24150,
+          "gross": 24450,
           "shows": 9,
-          "tickets_sold": 161
+          "tickets_sold": 163
         },
         "without_gross": {
           "breakdown": [
@@ -193,11 +193,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 2850,
+          "gross": 3150,
           "movie": "Bethlehem Kudumba Unit",
           "screen": null,
           "showid": "19329",
-          "tickets_sold": 19,
+          "tickets_sold": 21,
           "time": "10:30 AM",
           "venue": "Puthet Cinemas"
         },
@@ -329,20 +329,20 @@
         }
       ],
       "shows": 17,
-      "tickets_sold": 161
+      "tickets_sold": 163
     },
     "KHALIFA": {
-      "gross": 23250,
+      "gross": 24000,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 8250,
+              "gross": 9000,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "3836",
-              "tickets_sold": 55,
+              "tickets_sold": 60,
               "time": "09:00 PM",
               "venue": "Fairyland Cinemas"
             },
@@ -372,6 +372,15 @@
               "tickets_sold": 13,
               "time": "10:45 AM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 600,
+              "movie": "Khalifa",
+              "screen": "Aiswarya",
+              "showid": "8404",
+              "tickets_sold": 4,
+              "time": "02:15 PM",
+              "venue": "Aiswarya Cinemas"
             },
             {
               "gross": 450,
@@ -410,15 +419,6 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 600,
-              "movie": "Khalifa",
-              "screen": "Aiswarya",
-              "showid": "8404",
-              "tickets_sold": 4,
-              "time": "02:15 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
               "gross": 300,
               "movie": "Khalifa",
               "screen": "Aiswarya",
@@ -428,9 +428,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 23250,
+          "gross": 24000,
           "shows": 10,
-          "tickets_sold": 155
+          "tickets_sold": 160
         },
         "without_gross": {
           "breakdown": [
@@ -468,11 +468,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 8250,
+          "gross": 9000,
           "movie": "Khalifa",
           "screen": "SCREEN 1",
           "showid": "3836",
-          "tickets_sold": 55,
+          "tickets_sold": 60,
           "time": "09:00 PM",
           "venue": "Fairyland Cinemas"
         },
@@ -586,7 +586,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 155
+      "tickets_sold": 160
     },
     "Khalifa": {
       "gross": 22200,
@@ -850,6 +850,13 @@
     "merged_movies": [
       {
         "aliases": [
+          "Vishwanath and Sons",
+          "Vishwanath and Sons (Tamil)"
+        ],
+        "canonical": "Vishwanath and Sons"
+      },
+      {
+        "aliases": [
           "D C (Tamil)",
           "DC (Tamil)"
         ],
@@ -857,23 +864,9 @@
       },
       {
         "aliases": [
-          "Unknown"
+          "Bethlehem Kudumba Unit"
         ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Vishwanath & Sons",
-          "Vishwanath and Sons"
-        ],
-        "canonical": "Vishwanath & Sons"
-      },
-      {
-        "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
+        "canonical": "Bethlehem Kudumba Unit"
       },
       {
         "aliases": [
@@ -884,15 +877,22 @@
       },
       {
         "aliases": [
-          "Vishwanath and Sons (Tamil)"
+          "Thudakkam",
+          "Thudakkam [M]"
         ],
-        "canonical": "Vishwanath and Sons (Tamil)"
+        "canonical": "Thudakkam"
       },
       {
         "aliases": [
-          "Bethlehem Kudumba Unit"
+          "Vishwanath & Sons"
         ],
-        "canonical": "Bethlehem Kudumba Unit"
+        "canonical": "Vishwanath & Sons"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       },
       {
         "aliases": [
