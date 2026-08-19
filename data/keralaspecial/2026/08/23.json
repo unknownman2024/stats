@@ -1,6 +1,6 @@
 {
   "date": "2026-08-23",
-  "last_updated": "2026-08-19T07:07:47.673278+05:30",
+  "last_updated": "2026-08-19T08:33:00.294506+05:30",
   "movies": {
     "Bethlehem Kudumba Unit": {
       "gross": 13050,
@@ -589,7 +589,7 @@
       "tickets_sold": 112
     },
     "Khalifa": {
-      "gross": 16800,
+      "gross": 17550,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -638,11 +638,20 @@
               "tickets_sold": 1,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 750,
+              "movie": "KHALIFA",
+              "screen": null,
+              "showid": "19344",
+              "tickets_sold": 5,
+              "time": "10:45 AM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 16800,
-          "shows": 5,
-          "tickets_sold": 112
+          "gross": 17550,
+          "shows": 6,
+          "tickets_sold": 117
         },
         "without_gross": {
           "breakdown": [
@@ -654,15 +663,6 @@
               "tickets_sold": 0,
               "time": "10:30 AM",
               "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "KHALIFA",
-              "screen": null,
-              "showid": "19344",
-              "tickets_sold": 0,
-              "time": "10:45 AM",
-              "venue": "Puthet Cinemas"
             },
             {
               "gross": 0,
@@ -719,7 +719,7 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
@@ -761,6 +761,15 @@
           "venue": "Fairyland Cinemas"
         },
         {
+          "gross": 750,
+          "movie": "KHALIFA",
+          "screen": null,
+          "showid": "19344",
+          "tickets_sold": 5,
+          "time": "10:45 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 150,
           "movie": "Khalifa",
           "screen": "Aiswarya",
@@ -777,15 +786,6 @@
           "tickets_sold": 0,
           "time": "10:30 AM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "KHALIFA",
-          "screen": null,
-          "showid": "19344",
-          "tickets_sold": 0,
-          "time": "10:45 AM",
-          "venue": "Puthet Cinemas"
         },
         {
           "gross": 0,
@@ -843,7 +843,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 112
+      "tickets_sold": 117
     }
   },
   "verification": {
@@ -858,22 +858,16 @@
       },
       {
         "aliases": [
-          "Spider-Man: Brand New Day"
-        ],
-        "canonical": "Spider-Man: Brand New Day"
-      },
-      {
-        "aliases": [
           "KHALIFA",
           "Khalifa"
         ],
-        "canonical": "KHALIFA"
+        "canonical": "Khalifa"
       },
       {
         "aliases": [
-          "Unknown"
+          "DC"
         ],
-        "canonical": "Unknown"
+        "canonical": "DC"
       },
       {
         "aliases": [
@@ -881,6 +875,12 @@
           "DC (Tamil)"
         ],
         "canonical": "DC (Tamil)"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -897,9 +897,9 @@
       },
       {
         "aliases": [
-          "DC"
+          "Spider-Man: Brand New Day"
         ],
-        "canonical": "DC"
+        "canonical": "Spider-Man: Brand New Day"
       }
     ]
   }
