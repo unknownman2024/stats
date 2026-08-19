@@ -1,9 +1,9 @@
 {
   "date": "2026-08-23",
-  "last_updated": "2026-08-19T15:09:13.194558+05:30",
+  "last_updated": "2026-08-19T16:04:11.345753+05:30",
   "movies": {
     "Bethlehem Kudumba Unit": {
-      "gross": 17400,
+      "gross": 18000,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -97,23 +97,23 @@
               "tickets_sold": 1,
               "time": "02:00 PM",
               "venue": "Fairyland Cinemas"
-            }
-          ],
-          "gross": 17400,
-          "shows": 10,
-          "tickets_sold": 116
-        },
-        "without_gross": {
-          "breakdown": [
+            },
             {
-              "gross": 0,
+              "gross": 600,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
               "showid": "19334",
-              "tickets_sold": 0,
+              "tickets_sold": 4,
               "time": "10:30 AM",
               "venue": "Puthet Cinemas"
-            },
+            }
+          ],
+          "gross": 18000,
+          "shows": 11,
+          "tickets_sold": 120
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "Bethlehem Kudumba Unit",
@@ -169,7 +169,7 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 7,
+          "shows": 6,
           "tickets_sold": 0
         }
       },
@@ -238,6 +238,15 @@
           "venue": "Girija Theatre"
         },
         {
+          "gross": 600,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19334",
+          "tickets_sold": 4,
+          "time": "10:30 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 300,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "SCREEN 3",
@@ -263,15 +272,6 @@
           "tickets_sold": 1,
           "time": "02:00 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": null,
-          "showid": "19334",
-          "tickets_sold": 0,
-          "time": "10:30 AM",
-          "venue": "Puthet Cinemas"
         },
         {
           "gross": 0,
@@ -329,7 +329,7 @@
         }
       ],
       "shows": 17,
-      "tickets_sold": 116
+      "tickets_sold": 120
     },
     "KHALIFA": {
       "gross": 19050,
@@ -850,22 +850,9 @@
     "merged_movies": [
       {
         "aliases": [
-          "D C (Tamil)",
-          "DC (Tamil)"
+          "Bethlehem Kudumba Unit"
         ],
-        "canonical": "DC (Tamil)"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "Spider-Man: Brand New Day"
-        ],
-        "canonical": "Spider-Man: Brand New Day"
+        "canonical": "Bethlehem Kudumba Unit"
       },
       {
         "aliases": [
@@ -882,6 +869,32 @@
       },
       {
         "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "D C (Tamil)",
+          "DC (Tamil)"
+        ],
+        "canonical": "DC (Tamil)"
+      },
+      {
+        "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "KHALIFA"
+      },
+      {
+        "aliases": [
+          "Vishwanath & Sons"
+        ],
+        "canonical": "Vishwanath & Sons"
+      },
+      {
+        "aliases": [
           "Thudakkam",
           "Thudakkam [M]"
         ],
@@ -889,22 +902,9 @@
       },
       {
         "aliases": [
-          "Bethlehem Kudumba Unit"
+          "Spider-Man: Brand New Day"
         ],
-        "canonical": "Bethlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "Khalifa"
-      },
-      {
-        "aliases": [
-          "Vishwanath & Sons"
-        ],
-        "canonical": "Vishwanath & Sons"
+        "canonical": "Spider-Man: Brand New Day"
       }
     ]
   }
