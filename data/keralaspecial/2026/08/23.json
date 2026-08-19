@@ -1,9 +1,9 @@
 {
   "date": "2026-08-23",
-  "last_updated": "2026-08-19T12:23:13.783740+05:30",
+  "last_updated": "2026-08-19T13:13:11.089676+05:30",
   "movies": {
     "Bethlehem Kudumba Unit": {
-      "gross": 16050,
+      "gross": 16350,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -18,15 +18,6 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 3150,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": null,
-              "showid": "19336",
-              "tickets_sold": 21,
-              "time": "05:30 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 3300,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Dolby Atmos",
@@ -36,11 +27,20 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 1500,
+              "gross": 3150,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19336",
+              "tickets_sold": 21,
+              "time": "05:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 1800,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
               "showid": "19335",
-              "tickets_sold": 10,
+              "tickets_sold": 12,
               "time": "01:30 PM",
               "venue": "Puthet Cinemas"
             },
@@ -99,9 +99,9 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 16050,
+          "gross": 16350,
           "shows": 10,
-          "tickets_sold": 107
+          "tickets_sold": 109
         },
         "without_gross": {
           "breakdown": [
@@ -202,11 +202,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 1500,
+          "gross": 1800,
           "movie": "Bethlehem Kudumba Unit",
           "screen": null,
           "showid": "19335",
-          "tickets_sold": 10,
+          "tickets_sold": 12,
           "time": "01:30 PM",
           "venue": "Puthet Cinemas"
         },
@@ -329,7 +329,7 @@
         }
       ],
       "shows": 17,
-      "tickets_sold": 107
+      "tickets_sold": 109
     },
     "KHALIFA": {
       "gross": 19050,
@@ -383,15 +383,6 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 150,
-              "movie": "Khalifa",
-              "screen": "Aiswarya",
-              "showid": "8407",
-              "tickets_sold": 1,
-              "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
               "gross": 300,
               "movie": "KHALIFA",
               "screen": null,
@@ -399,6 +390,15 @@
               "tickets_sold": 2,
               "time": "05:00 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 150,
+              "movie": "Khalifa",
+              "screen": "Aiswarya",
+              "showid": "8407",
+              "tickets_sold": 1,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
           "gross": 19050,
@@ -850,24 +850,22 @@
     "merged_movies": [
       {
         "aliases": [
-          "Bethlehem Kudumba Unit"
+          "DC"
         ],
-        "canonical": "Bethlehem Kudumba Unit"
+        "canonical": "DC"
       },
       {
         "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "KHALIFA"
-      },
-      {
-        "aliases": [
-          "Vishwanath & Sons",
           "Vishwanath and Sons",
           "Vishwanath and Sons (Tamil)"
         ],
-        "canonical": "Vishwanath & Sons"
+        "canonical": "Vishwanath and Sons"
+      },
+      {
+        "aliases": [
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bethlehem Kudumba Unit"
       },
       {
         "aliases": [
@@ -885,9 +883,16 @@
       },
       {
         "aliases": [
-          "DC"
+          "KHALIFA",
+          "Khalifa"
         ],
-        "canonical": "DC"
+        "canonical": "KHALIFA"
+      },
+      {
+        "aliases": [
+          "Vishwanath & Sons"
+        ],
+        "canonical": "Vishwanath & Sons"
       },
       {
         "aliases": [
