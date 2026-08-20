@@ -1,9 +1,9 @@
 {
   "date": "2026-08-22",
-  "last_updated": "2026-08-21T04:02:55.639229+05:30",
+  "last_updated": "2026-08-21T05:01:09.306389+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
-      "gross": 102600,
+      "gross": 103500,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -117,11 +117,11 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 750,
+              "gross": 1650,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
               "showid": "19333",
-              "tickets_sold": 5,
+              "tickets_sold": 11,
               "time": "11:30 PM",
               "venue": "Puthet Cinemas"
             },
@@ -144,9 +144,9 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 102600,
+          "gross": 103500,
           "shows": 15,
-          "tickets_sold": 684
+          "tickets_sold": 690
         },
         "without_gross": {
           "breakdown": [
@@ -283,6 +283,15 @@
           "venue": "Girija Theatre"
         },
         {
+          "gross": 1650,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19333",
+          "tickets_sold": 11,
+          "time": "11:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 1500,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Athulya",
@@ -299,15 +308,6 @@
           "tickets_sold": 9,
           "time": "10:00 PM",
           "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 750,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": null,
-          "showid": "19333",
-          "tickets_sold": 5,
-          "time": "11:30 PM",
-          "venue": "Puthet Cinemas"
         },
         {
           "gross": 150,
@@ -365,7 +365,7 @@
         }
       ],
       "shows": 19,
-      "tickets_sold": 684
+      "tickets_sold": 690
     },
     "Bethlehem Kudumba Unit": {
       "gross": 103500,
@@ -1665,13 +1665,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
           "KHALIFA",
           "Khalifa"
         ],
@@ -1679,22 +1672,10 @@
       },
       {
         "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
           "Bathlehem Kudumba Unit",
           "Bethlehem Kudumba Unit"
         ],
-        "canonical": "Bethlehem Kudumba Unit"
+        "canonical": "Bathlehem Kudumba Unit"
       },
       {
         "aliases": [
@@ -1707,6 +1688,25 @@
           "Vishwanath and Sons"
         ],
         "canonical": "Vishwanath and Sons"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Thudakkam",
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
       }
     ]
   }
