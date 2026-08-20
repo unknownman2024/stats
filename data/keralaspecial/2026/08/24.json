@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "last_updated": "2026-08-20T15:10:07.719564+05:30",
+  "last_updated": "2026-08-20T16:06:17.615673+05:30",
   "movies": {
     "Bethlehem Kudumba Unit": {
       "gross": 900,
@@ -176,6 +176,101 @@
         "with_gross": {
           "breakdown": [
             {
+              "gross": 8100,
+              "movie": "Khalifa",
+              "screen": "SCREEN 1",
+              "showid": "3844",
+              "tickets_sold": 54,
+              "time": "09:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 7200,
+              "movie": "Khalifa",
+              "screen": "SCREEN 1",
+              "showid": "3843",
+              "tickets_sold": 48,
+              "time": "05:30 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "gross": 15300,
+          "shows": 2,
+          "tickets_sold": 102
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Khalifa",
+              "screen": "SCREEN 1",
+              "showid": "3841",
+              "tickets_sold": 0,
+              "time": "10:30 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Khalifa",
+              "screen": "SCREEN 1",
+              "showid": "3842",
+              "tickets_sold": 0,
+              "time": "02:00 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "shows": 2,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 8100,
+          "movie": "Khalifa",
+          "screen": "SCREEN 1",
+          "showid": "3844",
+          "tickets_sold": 54,
+          "time": "09:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 7200,
+          "movie": "Khalifa",
+          "screen": "SCREEN 1",
+          "showid": "3843",
+          "tickets_sold": 48,
+          "time": "05:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Khalifa",
+          "screen": "SCREEN 1",
+          "showid": "3841",
+          "tickets_sold": 0,
+          "time": "10:30 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Khalifa",
+          "screen": "SCREEN 1",
+          "showid": "3842",
+          "tickets_sold": 0,
+          "time": "02:00 PM",
+          "venue": "Fairyland Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 102
+    },
+    "Khalifa": {
+      "gross": 15300,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [
+            {
               "gross": 7200,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
@@ -263,124 +358,15 @@
       ],
       "shows": 4,
       "tickets_sold": 102
-    },
-    "Khalifa": {
-      "gross": 14400,
-      "occupancy": null,
-      "seats_type": {
-        "with_gross": {
-          "breakdown": [
-            {
-              "gross": 7200,
-              "movie": "Khalifa",
-              "screen": "SCREEN 1",
-              "showid": "3843",
-              "tickets_sold": 48,
-              "time": "05:30 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 7200,
-              "movie": "Khalifa",
-              "screen": "SCREEN 1",
-              "showid": "3844",
-              "tickets_sold": 48,
-              "time": "09:00 PM",
-              "venue": "Fairyland Cinemas"
-            }
-          ],
-          "gross": 14400,
-          "shows": 2,
-          "tickets_sold": 96
-        },
-        "without_gross": {
-          "breakdown": [
-            {
-              "gross": 0,
-              "movie": "Khalifa",
-              "screen": "SCREEN 1",
-              "showid": "3841",
-              "tickets_sold": 0,
-              "time": "10:30 AM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Khalifa",
-              "screen": "SCREEN 1",
-              "showid": "3842",
-              "tickets_sold": 0,
-              "time": "02:00 PM",
-              "venue": "Fairyland Cinemas"
-            }
-          ],
-          "shows": 2,
-          "tickets_sold": 0
-        }
-      },
-      "show_breakdown": [
-        {
-          "gross": 7200,
-          "movie": "Khalifa",
-          "screen": "SCREEN 1",
-          "showid": "3843",
-          "tickets_sold": 48,
-          "time": "05:30 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 7200,
-          "movie": "Khalifa",
-          "screen": "SCREEN 1",
-          "showid": "3844",
-          "tickets_sold": 48,
-          "time": "09:00 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Khalifa",
-          "screen": "SCREEN 1",
-          "showid": "3841",
-          "tickets_sold": 0,
-          "time": "10:30 AM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Khalifa",
-          "screen": "SCREEN 1",
-          "showid": "3842",
-          "tickets_sold": 0,
-          "time": "02:00 PM",
-          "venue": "Fairyland Cinemas"
-        }
-      ],
-      "shows": 4,
-      "tickets_sold": 96
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
+          "DC"
         ],
-        "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "KHALIFA"
-      },
-      {
-        "aliases": [
-          "DC (Tamil)"
-        ],
-        "canonical": "DC (Tamil)"
+        "canonical": "DC"
       },
       {
         "aliases": [
@@ -390,21 +376,35 @@
       },
       {
         "aliases": [
-          "Vishwanath and Sons"
+          "DC (Tamil)"
         ],
-        "canonical": "Vishwanath and Sons"
+        "canonical": "DC (Tamil)"
       },
       {
         "aliases": [
-          "DC"
+          "Thudakkam",
+          "Thudakkam [M]"
         ],
-        "canonical": "DC"
+        "canonical": "Thudakkam"
       },
       {
         "aliases": [
           "Bethlehem Kudumba Unit"
         ],
         "canonical": "Bethlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "Khalifa"
+      },
+      {
+        "aliases": [
+          "Vishwanath and Sons"
+        ],
+        "canonical": "Vishwanath and Sons"
       }
     ]
   }
