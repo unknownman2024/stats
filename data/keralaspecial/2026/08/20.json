@@ -1,30 +1,21 @@
 {
   "date": "2026-08-20",
-  "last_updated": "2026-08-20T16:06:17.605100+05:30",
+  "last_updated": "2026-08-20T17:02:19.676572+05:30",
   "movies": {
     "DC": {
-      "gross": 25350,
+      "gross": 26550,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 6450,
+              "gross": 6750,
               "movie": "DC",
               "screen": "SAAGARA",
               "showid": "20102",
-              "tickets_sold": 43,
+              "tickets_sold": 45,
               "time": "08:00 PM",
               "venue": "SFC"
-            },
-            {
-              "gross": 4650,
-              "movie": "DC",
-              "screen": "SCREEN 4",
-              "showid": "3878",
-              "tickets_sold": 31,
-              "time": "02:15 PM",
-              "venue": "Fairyland Cinemas"
             },
             {
               "gross": 4800,
@@ -34,6 +25,15 @@
               "tickets_sold": 32,
               "time": "04:30 PM",
               "venue": "Sandhya"
+            },
+            {
+              "gross": 4650,
+              "movie": "DC",
+              "screen": "SCREEN 4",
+              "showid": "3878",
+              "tickets_sold": 31,
+              "time": "02:15 PM",
+              "venue": "Fairyland Cinemas"
             },
             {
               "gross": 2700,
@@ -63,11 +63,11 @@
               "venue": "SFC"
             },
             {
-              "gross": 1050,
+              "gross": 1500,
               "movie": "DC",
               "screen": "SCREEN 2",
               "showid": "8912",
-              "tickets_sold": 7,
+              "tickets_sold": 10,
               "time": "10:45 PM",
               "venue": "Sandhya"
             },
@@ -99,18 +99,27 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 300,
+              "gross": 450,
               "movie": "DC",
               "screen": "Screen-1",
               "showid": "8430",
-              "tickets_sold": 2,
+              "tickets_sold": 3,
               "time": "07:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "DC",
+              "screen": "Screen-1",
+              "showid": "8431",
+              "tickets_sold": 2,
+              "time": "10:00 PM",
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 25350,
-          "shows": 11,
-          "tickets_sold": 169
+          "gross": 26550,
+          "shows": 12,
+          "tickets_sold": 177
         },
         "without_gross": {
           "breakdown": [
@@ -130,15 +139,6 @@
               "showid": "8429",
               "tickets_sold": 0,
               "time": "04:30 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "DC",
-              "screen": "Screen-1",
-              "showid": "8431",
-              "tickets_sold": 0,
-              "time": "10:00 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -169,17 +169,17 @@
               "venue": "Issacs"
             }
           ],
-          "shows": 6,
+          "shows": 5,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 6450,
+          "gross": 6750,
           "movie": "DC",
           "screen": "SAAGARA",
           "showid": "20102",
-          "tickets_sold": 43,
+          "tickets_sold": 45,
           "time": "08:00 PM",
           "venue": "SFC"
         },
@@ -220,6 +220,15 @@
           "venue": "SFC"
         },
         {
+          "gross": 1500,
+          "movie": "DC",
+          "screen": "SCREEN 2",
+          "showid": "8912",
+          "tickets_sold": 10,
+          "time": "10:45 PM",
+          "venue": "Sandhya"
+        },
+        {
           "gross": 1050,
           "movie": "DC",
           "screen": "SAAGARA",
@@ -227,15 +236,6 @@
           "tickets_sold": 7,
           "time": "11:30 AM",
           "venue": "SFC"
-        },
-        {
-          "gross": 1050,
-          "movie": "DC",
-          "screen": "SCREEN 2",
-          "showid": "8912",
-          "tickets_sold": 7,
-          "time": "10:45 PM",
-          "venue": "Sandhya"
         },
         {
           "gross": 750,
@@ -265,12 +265,21 @@
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 300,
+          "gross": 450,
           "movie": "DC",
           "screen": "Screen-1",
           "showid": "8430",
-          "tickets_sold": 2,
+          "tickets_sold": 3,
           "time": "07:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "DC",
+          "screen": "Screen-1",
+          "showid": "8431",
+          "tickets_sold": 2,
+          "time": "10:00 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -289,15 +298,6 @@
           "showid": "8429",
           "tickets_sold": 0,
           "time": "04:30 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "DC",
-          "screen": "Screen-1",
-          "showid": "8431",
-          "tickets_sold": 0,
-          "time": "10:00 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -329,7 +329,7 @@
         }
       ],
       "shows": 17,
-      "tickets_sold": 169
+      "tickets_sold": 177
     },
     "DC (Tamil)": {
       "gross": 2250,
@@ -427,26 +427,26 @@
       "tickets_sold": 15
     },
     "KHALIFA": {
-      "gross": 1590450,
+      "gross": 1669650,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 73050,
+              "gross": 73500,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "8887",
-              "tickets_sold": 487,
+              "tickets_sold": 490,
               "time": "10:45 PM",
               "venue": "Sandhya"
             },
             {
-              "gross": 72150,
+              "gross": 74100,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "8886",
-              "tickets_sold": 481,
+              "tickets_sold": 494,
               "time": "07:30 PM",
               "venue": "Sandhya"
             },
@@ -487,11 +487,11 @@
               "venue": "SFC"
             },
             {
-              "gross": 58950,
+              "gross": 59400,
               "movie": "Khalifa",
               "screen": "SAVITHA",
               "showid": "20065",
-              "tickets_sold": 393,
+              "tickets_sold": 396,
               "time": "06:30 PM",
               "venue": "SFC"
             },
@@ -514,38 +514,38 @@
               "venue": "SFC"
             },
             {
-              "gross": 52350,
+              "gross": 52500,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "6972",
-              "tickets_sold": 349,
+              "tickets_sold": 350,
               "time": "08:15 PM",
               "venue": "Issacs"
             },
             {
-              "gross": 50100,
+              "gross": 53100,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "3828",
-              "tickets_sold": 334,
+              "tickets_sold": 354,
               "time": "09:00 PM",
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 48000,
+              "gross": 50250,
               "movie": "Khalifa",
               "screen": "Aiswarya",
               "showid": "8386",
-              "tickets_sold": 320,
+              "tickets_sold": 335,
               "time": "08:45 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 47400,
+              "gross": 53400,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "3827",
-              "tickets_sold": 316,
+              "tickets_sold": 356,
               "time": "05:30 PM",
               "venue": "Fairyland Cinemas"
             },
@@ -568,20 +568,20 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 36150,
+              "gross": 39150,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "6973",
-              "tickets_sold": 241,
+              "tickets_sold": 261,
               "time": "11:30 PM",
               "venue": "Issacs"
             },
             {
-              "gross": 33150,
+              "gross": 34650,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "9233",
-              "tickets_sold": 221,
+              "tickets_sold": 231,
               "time": "08:30 PM",
               "venue": "Jose"
             },
@@ -604,29 +604,29 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 29700,
+              "gross": 29850,
               "movie": "KHALIFA",
               "screen": null,
               "showid": "19310",
-              "tickets_sold": 198,
+              "tickets_sold": 199,
               "time": "09:00 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 28650,
+              "gross": 28800,
               "movie": "KHALIFA",
               "screen": null,
               "showid": "19309",
-              "tickets_sold": 191,
+              "tickets_sold": 192,
               "time": "06:00 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 27300,
+              "gross": 28800,
               "movie": "Khalifa",
               "screen": "SAAGARA",
               "showid": "20110",
-              "tickets_sold": 182,
+              "tickets_sold": 192,
               "time": "10:45 PM",
               "venue": "SFC"
             },
@@ -676,20 +676,20 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 24300,
+              "gross": 27600,
               "movie": "Khalifa",
               "screen": "SCREEN 3",
               "showid": "3874",
-              "tickets_sold": 162,
+              "tickets_sold": 184,
               "time": "09:00 PM",
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 23850,
+              "gross": 24150,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "9999",
-              "tickets_sold": 159,
+              "tickets_sold": 161,
               "time": "09:00 PM",
               "venue": "Harihar"
             },
@@ -712,38 +712,38 @@
               "venue": "Harihar"
             },
             {
-              "gross": 21300,
+              "gross": 29550,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "9232",
-              "tickets_sold": 142,
+              "tickets_sold": 197,
               "time": "05:30 PM",
               "venue": "Jose"
             },
             {
-              "gross": 20400,
+              "gross": 20700,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "9998",
-              "tickets_sold": 136,
+              "tickets_sold": 138,
               "time": "06:00 PM",
               "venue": "Harihar"
             },
             {
-              "gross": 20400,
+              "gross": 27750,
               "movie": "Khalifa",
               "screen": "SARITHA",
               "showid": "20118",
-              "tickets_sold": 136,
+              "tickets_sold": 185,
               "time": "11:00 PM",
               "venue": "SFC"
             },
             {
-              "gross": 19950,
+              "gross": 21900,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "3873",
-              "tickets_sold": 133,
+              "tickets_sold": 146,
               "time": "11:59 PM",
               "venue": "Fairyland Cinemas"
             },
@@ -757,11 +757,11 @@
               "venue": "SFC"
             },
             {
-              "gross": 19350,
+              "gross": 25500,
               "movie": "Khalifa",
               "screen": "Aiswarya",
               "showid": "8385",
-              "tickets_sold": 129,
+              "tickets_sold": 170,
               "time": "05:30 PM",
               "venue": "Aiswarya Cinemas"
             },
@@ -775,11 +775,11 @@
               "venue": "Harihar"
             },
             {
-              "gross": 18750,
+              "gross": 20250,
               "movie": "Khalifa",
               "screen": "SCREEN 3",
               "showid": "10034",
-              "tickets_sold": 125,
+              "tickets_sold": 135,
               "time": "06:10 PM",
               "venue": "Harihar"
             },
@@ -820,11 +820,11 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 12000,
+              "gross": 14700,
               "movie": "KHALIFA",
               "screen": null,
               "showid": "19374",
-              "tickets_sold": 80,
+              "tickets_sold": 98,
               "time": "11:30 PM",
               "venue": "Puthet Cinemas"
             },
@@ -838,11 +838,11 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 10350,
+              "gross": 13350,
               "movie": "Khalifa",
               "screen": "SCREEN 4",
               "showid": "3885",
-              "tickets_sold": 69,
+              "tickets_sold": 89,
               "time": "09:00 PM",
               "venue": "Fairyland Cinemas"
             },
@@ -856,11 +856,11 @@
               "venue": "Harihar"
             },
             {
-              "gross": 6000,
+              "gross": 11250,
               "movie": "Khalifa",
               "screen": "Screen-2",
               "showid": "8436",
-              "tickets_sold": 40,
+              "tickets_sold": 75,
               "time": "07:00 PM",
               "venue": "Aiswarya Cinemas"
             },
@@ -874,11 +874,11 @@
               "venue": "Harihar"
             },
             {
-              "gross": 5550,
+              "gross": 11100,
               "movie": "Khalifa",
               "screen": "SCREEN 2",
               "showid": "10038",
-              "tickets_sold": 37,
+              "tickets_sold": 74,
               "time": "09:15 PM",
               "venue": "Harihar"
             },
@@ -892,11 +892,11 @@
               "venue": "Davis Theatre"
             },
             {
-              "gross": 4650,
+              "gross": 8100,
               "movie": "Khalifa",
               "screen": "Screen-2",
               "showid": "8437",
-              "tickets_sold": 31,
+              "tickets_sold": 54,
               "time": "10:00 PM",
               "venue": "Aiswarya Cinemas"
             },
@@ -919,11 +919,11 @@
               "venue": "Davis Theatre"
             },
             {
-              "gross": 3750,
+              "gross": 6900,
               "movie": "Khalifa",
               "screen": "Cinema-1",
               "showid": "22621",
-              "tickets_sold": 25,
+              "tickets_sold": 46,
               "time": "06:30 PM",
               "venue": "Davis Theatre"
             },
@@ -937,18 +937,18 @@
               "venue": "Davis Theatre"
             },
             {
-              "gross": 2100,
+              "gross": 8550,
               "movie": "Khalifa",
               "screen": "SCREEN 2",
               "showid": "10037",
-              "tickets_sold": 14,
+              "tickets_sold": 57,
               "time": "06:15 PM",
               "venue": "Harihar"
             }
           ],
-          "gross": 1590450,
+          "gross": 1669650,
           "shows": 57,
-          "tickets_sold": 10603
+          "tickets_sold": 11131
         },
         "without_gross": {
           "breakdown": [],
@@ -958,21 +958,21 @@
       },
       "show_breakdown": [
         {
-          "gross": 73050,
-          "movie": "Khalifa",
-          "screen": "SCREEN 1",
-          "showid": "8887",
-          "tickets_sold": 487,
-          "time": "10:45 PM",
-          "venue": "Sandhya"
-        },
-        {
-          "gross": 72150,
+          "gross": 74100,
           "movie": "Khalifa",
           "screen": "SCREEN 1",
           "showid": "8886",
-          "tickets_sold": 481,
+          "tickets_sold": 494,
           "time": "07:30 PM",
+          "venue": "Sandhya"
+        },
+        {
+          "gross": 73500,
+          "movie": "Khalifa",
+          "screen": "SCREEN 1",
+          "showid": "8887",
+          "tickets_sold": 490,
+          "time": "10:45 PM",
           "venue": "Sandhya"
         },
         {
@@ -1012,11 +1012,11 @@
           "venue": "SFC"
         },
         {
-          "gross": 58950,
+          "gross": 59400,
           "movie": "Khalifa",
           "screen": "SAVITHA",
           "showid": "20065",
-          "tickets_sold": 393,
+          "tickets_sold": 396,
           "time": "06:30 PM",
           "venue": "SFC"
         },
@@ -1039,40 +1039,40 @@
           "venue": "SFC"
         },
         {
-          "gross": 52350,
+          "gross": 53400,
           "movie": "Khalifa",
           "screen": "SCREEN 1",
-          "showid": "6972",
-          "tickets_sold": 349,
-          "time": "08:15 PM",
-          "venue": "Issacs"
+          "showid": "3827",
+          "tickets_sold": 356,
+          "time": "05:30 PM",
+          "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 50100,
+          "gross": 53100,
           "movie": "Khalifa",
           "screen": "SCREEN 1",
           "showid": "3828",
-          "tickets_sold": 334,
+          "tickets_sold": 354,
           "time": "09:00 PM",
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 48000,
+          "gross": 52500,
+          "movie": "Khalifa",
+          "screen": "SCREEN 1",
+          "showid": "6972",
+          "tickets_sold": 350,
+          "time": "08:15 PM",
+          "venue": "Issacs"
+        },
+        {
+          "gross": 50250,
           "movie": "Khalifa",
           "screen": "Aiswarya",
           "showid": "8386",
-          "tickets_sold": 320,
+          "tickets_sold": 335,
           "time": "08:45 PM",
           "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 47400,
-          "movie": "Khalifa",
-          "screen": "SCREEN 1",
-          "showid": "3827",
-          "tickets_sold": 316,
-          "time": "05:30 PM",
-          "venue": "Fairyland Cinemas"
         },
         {
           "gross": 39300,
@@ -1081,6 +1081,15 @@
           "showid": "6971",
           "tickets_sold": 262,
           "time": "05:00 PM",
+          "venue": "Issacs"
+        },
+        {
+          "gross": 39150,
+          "movie": "Khalifa",
+          "screen": "SCREEN 1",
+          "showid": "6973",
+          "tickets_sold": 261,
+          "time": "11:30 PM",
           "venue": "Issacs"
         },
         {
@@ -1093,20 +1102,11 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 36150,
-          "movie": "Khalifa",
-          "screen": "SCREEN 1",
-          "showid": "6973",
-          "tickets_sold": 241,
-          "time": "11:30 PM",
-          "venue": "Issacs"
-        },
-        {
-          "gross": 33150,
+          "gross": 34650,
           "movie": "Khalifa",
           "screen": "SCREEN 1",
           "showid": "9233",
-          "tickets_sold": 221,
+          "tickets_sold": 231,
           "time": "08:30 PM",
           "venue": "Jose"
         },
@@ -1129,31 +1129,58 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 29700,
+          "gross": 29850,
           "movie": "KHALIFA",
           "screen": null,
           "showid": "19310",
-          "tickets_sold": 198,
+          "tickets_sold": 199,
           "time": "09:00 PM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 28650,
+          "gross": 29550,
+          "movie": "Khalifa",
+          "screen": "SCREEN 1",
+          "showid": "9232",
+          "tickets_sold": 197,
+          "time": "05:30 PM",
+          "venue": "Jose"
+        },
+        {
+          "gross": 28800,
           "movie": "KHALIFA",
           "screen": null,
           "showid": "19309",
-          "tickets_sold": 191,
+          "tickets_sold": 192,
           "time": "06:00 PM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 27300,
+          "gross": 28800,
           "movie": "Khalifa",
           "screen": "SAAGARA",
           "showid": "20110",
-          "tickets_sold": 182,
+          "tickets_sold": 192,
           "time": "10:45 PM",
           "venue": "SFC"
+        },
+        {
+          "gross": 27750,
+          "movie": "Khalifa",
+          "screen": "SARITHA",
+          "showid": "20118",
+          "tickets_sold": 185,
+          "time": "11:00 PM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 27600,
+          "movie": "Khalifa",
+          "screen": "SCREEN 3",
+          "showid": "3874",
+          "tickets_sold": 184,
+          "time": "09:00 PM",
+          "venue": "Fairyland Cinemas"
         },
         {
           "gross": 26700,
@@ -1192,6 +1219,15 @@
           "venue": "Issacs"
         },
         {
+          "gross": 25500,
+          "movie": "Khalifa",
+          "screen": "Aiswarya",
+          "showid": "8385",
+          "tickets_sold": 170,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
           "gross": 24900,
           "movie": "KHALIFA",
           "screen": null,
@@ -1201,20 +1237,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 24300,
-          "movie": "Khalifa",
-          "screen": "SCREEN 3",
-          "showid": "3874",
-          "tickets_sold": 162,
-          "time": "09:00 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 23850,
+          "gross": 24150,
           "movie": "Khalifa",
           "screen": "SCREEN 1",
           "showid": "9999",
-          "tickets_sold": 159,
+          "tickets_sold": 161,
           "time": "09:00 PM",
           "venue": "Harihar"
         },
@@ -1237,40 +1264,31 @@
           "venue": "Harihar"
         },
         {
-          "gross": 21300,
+          "gross": 21900,
           "movie": "Khalifa",
           "screen": "SCREEN 1",
-          "showid": "9232",
-          "tickets_sold": 142,
-          "time": "05:30 PM",
-          "venue": "Jose"
+          "showid": "3873",
+          "tickets_sold": 146,
+          "time": "11:59 PM",
+          "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 20400,
+          "gross": 20700,
           "movie": "Khalifa",
           "screen": "SCREEN 1",
           "showid": "9998",
-          "tickets_sold": 136,
+          "tickets_sold": 138,
           "time": "06:00 PM",
           "venue": "Harihar"
         },
         {
-          "gross": 20400,
+          "gross": 20250,
           "movie": "Khalifa",
-          "screen": "SARITHA",
-          "showid": "20118",
-          "tickets_sold": 136,
-          "time": "11:00 PM",
-          "venue": "SFC"
-        },
-        {
-          "gross": 19950,
-          "movie": "Khalifa",
-          "screen": "SCREEN 1",
-          "showid": "3873",
-          "tickets_sold": 133,
-          "time": "11:59 PM",
-          "venue": "Fairyland Cinemas"
+          "screen": "SCREEN 3",
+          "showid": "10034",
+          "tickets_sold": 135,
+          "time": "06:10 PM",
+          "venue": "Harihar"
         },
         {
           "gross": 19500,
@@ -1282,30 +1300,12 @@
           "venue": "SFC"
         },
         {
-          "gross": 19350,
-          "movie": "Khalifa",
-          "screen": "Aiswarya",
-          "showid": "8385",
-          "tickets_sold": 129,
-          "time": "05:30 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
           "gross": 19050,
           "movie": "Khalifa",
           "screen": "SCREEN 1",
           "showid": "9995",
           "tickets_sold": 127,
           "time": "09:00 AM",
-          "venue": "Harihar"
-        },
-        {
-          "gross": 18750,
-          "movie": "Khalifa",
-          "screen": "SCREEN 3",
-          "showid": "10034",
-          "tickets_sold": 125,
-          "time": "06:10 PM",
           "venue": "Harihar"
         },
         {
@@ -1345,13 +1345,40 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 12000,
+          "gross": 14700,
           "movie": "KHALIFA",
           "screen": null,
           "showid": "19374",
-          "tickets_sold": 80,
+          "tickets_sold": 98,
           "time": "11:30 PM",
           "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 13350,
+          "movie": "Khalifa",
+          "screen": "SCREEN 4",
+          "showid": "3885",
+          "tickets_sold": 89,
+          "time": "09:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 11250,
+          "movie": "Khalifa",
+          "screen": "Screen-2",
+          "showid": "8436",
+          "tickets_sold": 75,
+          "time": "07:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 11100,
+          "movie": "Khalifa",
+          "screen": "SCREEN 2",
+          "showid": "10038",
+          "tickets_sold": 74,
+          "time": "09:15 PM",
+          "venue": "Harihar"
         },
         {
           "gross": 10650,
@@ -1363,15 +1390,6 @@
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 10350,
-          "movie": "Khalifa",
-          "screen": "SCREEN 4",
-          "showid": "3885",
-          "tickets_sold": 69,
-          "time": "09:00 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
           "gross": 8850,
           "movie": "Khalifa",
           "screen": "SCREEN 1",
@@ -1381,13 +1399,31 @@
           "venue": "Harihar"
         },
         {
-          "gross": 6000,
+          "gross": 8550,
+          "movie": "Khalifa",
+          "screen": "SCREEN 2",
+          "showid": "10037",
+          "tickets_sold": 57,
+          "time": "06:15 PM",
+          "venue": "Harihar"
+        },
+        {
+          "gross": 8100,
           "movie": "Khalifa",
           "screen": "Screen-2",
-          "showid": "8436",
-          "tickets_sold": 40,
-          "time": "07:00 PM",
+          "showid": "8437",
+          "tickets_sold": 54,
+          "time": "10:00 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 6900,
+          "movie": "Khalifa",
+          "screen": "Cinema-1",
+          "showid": "22621",
+          "tickets_sold": 46,
+          "time": "06:30 PM",
+          "venue": "Davis Theatre"
         },
         {
           "gross": 5700,
@@ -1399,15 +1435,6 @@
           "venue": "Harihar"
         },
         {
-          "gross": 5550,
-          "movie": "Khalifa",
-          "screen": "SCREEN 2",
-          "showid": "10038",
-          "tickets_sold": 37,
-          "time": "09:15 PM",
-          "venue": "Harihar"
-        },
-        {
           "gross": 4950,
           "movie": "Khalifa",
           "screen": "Cinema-1",
@@ -1415,15 +1442,6 @@
           "tickets_sold": 33,
           "time": "09:45 PM",
           "venue": "Davis Theatre"
-        },
-        {
-          "gross": 4650,
-          "movie": "Khalifa",
-          "screen": "Screen-2",
-          "showid": "8437",
-          "tickets_sold": 31,
-          "time": "10:00 PM",
-          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 3900,
@@ -1444,15 +1462,6 @@
           "venue": "Davis Theatre"
         },
         {
-          "gross": 3750,
-          "movie": "Khalifa",
-          "screen": "Cinema-1",
-          "showid": "22621",
-          "tickets_sold": 25,
-          "time": "06:30 PM",
-          "venue": "Davis Theatre"
-        },
-        {
           "gross": 2100,
           "movie": "Khalifa",
           "screen": "Cinema-1",
@@ -1460,19 +1469,10 @@
           "tickets_sold": 14,
           "time": "09:00 AM",
           "venue": "Davis Theatre"
-        },
-        {
-          "gross": 2100,
-          "movie": "Khalifa",
-          "screen": "SCREEN 2",
-          "showid": "10037",
-          "tickets_sold": 14,
-          "time": "06:15 PM",
-          "venue": "Harihar"
         }
       ],
       "shows": 57,
-      "tickets_sold": 10603
+      "tickets_sold": 11131
     },
     "Khalifa": {
       "gross": 1643700,
@@ -1481,21 +1481,21 @@
         "with_gross": {
           "breakdown": [
             {
-              "gross": 73200,
-              "movie": "Khalifa",
-              "screen": "SCREEN 1",
-              "showid": "8887",
-              "tickets_sold": 488,
-              "time": "10:45 PM",
-              "venue": "Sandhya"
-            },
-            {
               "gross": 73500,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "8886",
               "tickets_sold": 490,
               "time": "07:30 PM",
+              "venue": "Sandhya"
+            },
+            {
+              "gross": 73200,
+              "movie": "Khalifa",
+              "screen": "SCREEN 1",
+              "showid": "8887",
+              "tickets_sold": 488,
+              "time": "10:45 PM",
               "venue": "Sandhya"
             },
             {
@@ -1517,6 +1517,15 @@
               "venue": "SFC"
             },
             {
+              "gross": 59100,
+              "movie": "Khalifa",
+              "screen": "SAVITHA",
+              "showid": "20065",
+              "tickets_sold": 394,
+              "time": "06:30 PM",
+              "venue": "SFC"
+            },
+            {
               "gross": 58650,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
@@ -1532,15 +1541,6 @@
               "showid": "20064",
               "tickets_sold": 391,
               "time": "03:15 PM",
-              "venue": "SFC"
-            },
-            {
-              "gross": 59100,
-              "movie": "Khalifa",
-              "screen": "SAVITHA",
-              "showid": "20065",
-              "tickets_sold": 394,
-              "time": "06:30 PM",
               "venue": "SFC"
             },
             {
@@ -1571,6 +1571,15 @@
               "venue": "Issacs"
             },
             {
+              "gross": 51450,
+              "movie": "Khalifa",
+              "screen": "SCREEN 1",
+              "showid": "3827",
+              "tickets_sold": 343,
+              "time": "05:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
               "gross": 50850,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
@@ -1598,13 +1607,13 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 51450,
+              "gross": 42600,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
-              "showid": "3827",
-              "tickets_sold": 343,
-              "time": "05:30 PM",
-              "venue": "Fairyland Cinemas"
+              "showid": "6971",
+              "tickets_sold": 284,
+              "time": "05:00 PM",
+              "venue": "Issacs"
             },
             {
               "gross": 42450,
@@ -1616,21 +1625,21 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 36900,
-              "movie": "Khalifa",
-              "screen": "SCREEN 1",
-              "showid": "6969",
-              "tickets_sold": 246,
-              "time": "10:30 AM",
-              "venue": "Issacs"
-            },
-            {
               "gross": 38100,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "6973",
               "tickets_sold": 254,
               "time": "11:30 PM",
+              "venue": "Issacs"
+            },
+            {
+              "gross": 36900,
+              "movie": "Khalifa",
+              "screen": "SCREEN 1",
+              "showid": "6969",
+              "tickets_sold": 246,
+              "time": "10:30 AM",
               "venue": "Issacs"
             },
             {
@@ -1643,13 +1652,13 @@
               "venue": "Jose"
             },
             {
-              "gross": 42600,
-              "movie": "Khalifa",
-              "screen": "SCREEN 1",
-              "showid": "6971",
-              "tickets_sold": 284,
-              "time": "05:00 PM",
-              "venue": "Issacs"
+              "gross": 29850,
+              "movie": "KHALIFA",
+              "screen": null,
+              "showid": "19310",
+              "tickets_sold": 199,
+              "time": "09:00 PM",
+              "venue": "Puthet Cinemas"
             },
             {
               "gross": 28950,
@@ -1659,15 +1668,6 @@
               "tickets_sold": 193,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 29850,
-              "movie": "KHALIFA",
-              "screen": null,
-              "showid": "19310",
-              "tickets_sold": 199,
-              "time": "09:00 PM",
-              "venue": "Puthet Cinemas"
             },
             {
               "gross": 28650,
@@ -1697,6 +1697,24 @@
               "venue": "SFC"
             },
             {
+              "gross": 26550,
+              "movie": "Khalifa",
+              "screen": "SCREEN 3",
+              "showid": "3874",
+              "tickets_sold": 177,
+              "time": "09:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 26100,
+              "movie": "Khalifa",
+              "screen": "SARITHA",
+              "showid": "20118",
+              "tickets_sold": 174,
+              "time": "11:00 PM",
+              "venue": "SFC"
+            },
+            {
               "gross": 25800,
               "movie": "KHALIFA",
               "screen": null,
@@ -1704,6 +1722,15 @@
               "tickets_sold": 172,
               "time": "03:00 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 25200,
+              "movie": "Khalifa",
+              "screen": "SARITHA",
+              "showid": "20117",
+              "tickets_sold": 168,
+              "time": "05:00 PM",
+              "venue": "SFC"
             },
             {
               "gross": 24900,
@@ -1724,6 +1751,15 @@
               "venue": "Harihar"
             },
             {
+              "gross": 22950,
+              "movie": "Khalifa",
+              "screen": "SCREEN 1",
+              "showid": "9232",
+              "tickets_sold": 153,
+              "time": "05:30 PM",
+              "venue": "Jose"
+            },
+            {
               "gross": 22650,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
@@ -1742,13 +1778,13 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 26550,
+              "gross": 22500,
               "movie": "Khalifa",
-              "screen": "SCREEN 3",
-              "showid": "3874",
-              "tickets_sold": 177,
-              "time": "09:00 PM",
-              "venue": "Fairyland Cinemas"
+              "screen": "Aiswarya",
+              "showid": "8385",
+              "tickets_sold": 150,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
             },
             {
               "gross": 22200,
@@ -1767,6 +1803,15 @@
               "tickets_sold": 141,
               "time": "11:00 AM",
               "venue": "Jose"
+            },
+            {
+              "gross": 20700,
+              "movie": "Khalifa",
+              "screen": "SCREEN 1",
+              "showid": "3873",
+              "tickets_sold": 138,
+              "time": "11:59 PM",
+              "venue": "Fairyland Cinemas"
             },
             {
               "gross": 19800,
@@ -1796,31 +1841,13 @@
               "venue": "Harihar"
             },
             {
-              "gross": 22950,
-              "movie": "Khalifa",
-              "screen": "SCREEN 1",
-              "showid": "9232",
-              "tickets_sold": 153,
-              "time": "05:30 PM",
-              "venue": "Jose"
-            },
-            {
-              "gross": 20700,
-              "movie": "Khalifa",
-              "screen": "SCREEN 1",
-              "showid": "3873",
-              "tickets_sold": 138,
-              "time": "11:59 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 22500,
-              "movie": "Khalifa",
-              "screen": "Aiswarya",
-              "showid": "8385",
-              "tickets_sold": 150,
-              "time": "05:30 PM",
-              "venue": "Aiswarya Cinemas"
+              "gross": 17550,
+              "movie": "KHALIFA",
+              "screen": null,
+              "showid": "19373",
+              "tickets_sold": 117,
+              "time": "05:15 PM",
+              "venue": "Puthet Cinemas"
             },
             {
               "gross": 13800,
@@ -1832,60 +1859,6 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 12450,
-              "movie": "Khalifa",
-              "screen": "SCREEN 1",
-              "showid": "9996",
-              "tickets_sold": 83,
-              "time": "12:00 PM",
-              "venue": "Harihar"
-            },
-            {
-              "gross": 11400,
-              "movie": "Khalifa",
-              "screen": "SCREEN 3",
-              "showid": "10034",
-              "tickets_sold": 76,
-              "time": "06:10 PM",
-              "venue": "Harihar"
-            },
-            {
-              "gross": 25200,
-              "movie": "Khalifa",
-              "screen": "SARITHA",
-              "showid": "20117",
-              "tickets_sold": 168,
-              "time": "05:00 PM",
-              "venue": "SFC"
-            },
-            {
-              "gross": 17550,
-              "movie": "KHALIFA",
-              "screen": null,
-              "showid": "19373",
-              "tickets_sold": 117,
-              "time": "05:15 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 26100,
-              "movie": "Khalifa",
-              "screen": "SARITHA",
-              "showid": "20118",
-              "tickets_sold": 174,
-              "time": "11:00 PM",
-              "venue": "SFC"
-            },
-            {
-              "gross": 7800,
-              "movie": "Khalifa",
-              "screen": "SCREEN 1",
-              "showid": "10000",
-              "tickets_sold": 52,
-              "time": "11:57 PM",
-              "venue": "Harihar"
-            },
-            {
               "gross": 13200,
               "movie": "KHALIFA",
               "screen": null,
@@ -1893,6 +1866,15 @@
               "tickets_sold": 88,
               "time": "11:30 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 12450,
+              "movie": "Khalifa",
+              "screen": "SCREEN 1",
+              "showid": "9996",
+              "tickets_sold": 83,
+              "time": "12:00 PM",
+              "venue": "Harihar"
             },
             {
               "gross": 11700,
@@ -1904,12 +1886,57 @@
               "venue": "Fairyland Cinemas"
             },
             {
+              "gross": 11400,
+              "movie": "Khalifa",
+              "screen": "SCREEN 3",
+              "showid": "10034",
+              "tickets_sold": 76,
+              "time": "06:10 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 7800,
+              "movie": "Khalifa",
+              "screen": "SCREEN 1",
+              "showid": "10000",
+              "tickets_sold": 52,
+              "time": "11:57 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 6900,
+              "movie": "Khalifa",
+              "screen": "Screen-2",
+              "showid": "8437",
+              "tickets_sold": 46,
+              "time": "10:00 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 6600,
+              "movie": "Khalifa",
+              "screen": "Screen-2",
+              "showid": "8436",
+              "tickets_sold": 44,
+              "time": "07:00 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
               "gross": 5250,
               "movie": "Khalifa",
               "screen": "Cinema-1",
               "showid": "22622",
               "tickets_sold": 35,
               "time": "09:45 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 5250,
+              "movie": "Khalifa",
+              "screen": "Cinema-1",
+              "showid": "22621",
+              "tickets_sold": 35,
+              "time": "06:30 PM",
               "venue": "Davis Theatre"
             },
             {
@@ -1949,15 +1976,6 @@
               "venue": "Davis Theatre"
             },
             {
-              "gross": 6600,
-              "movie": "Khalifa",
-              "screen": "Screen-2",
-              "showid": "8436",
-              "tickets_sold": 44,
-              "time": "07:00 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
               "gross": 2100,
               "movie": "Khalifa",
               "screen": "Cinema-1",
@@ -1965,24 +1983,6 @@
               "tickets_sold": 14,
               "time": "09:00 AM",
               "venue": "Davis Theatre"
-            },
-            {
-              "gross": 5250,
-              "movie": "Khalifa",
-              "screen": "Cinema-1",
-              "showid": "22621",
-              "tickets_sold": 35,
-              "time": "06:30 PM",
-              "venue": "Davis Theatre"
-            },
-            {
-              "gross": 6900,
-              "movie": "Khalifa",
-              "screen": "Screen-2",
-              "showid": "8437",
-              "tickets_sold": 46,
-              "time": "10:00 PM",
-              "venue": "Aiswarya Cinemas"
             }
           ],
           "gross": 1643700,
@@ -2582,7 +2582,7 @@
       "tickets_sold": 12
     },
     "Thudakkam": {
-      "gross": 45600,
+      "gross": 48000,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -2597,20 +2597,20 @@
               "venue": "Sandhya"
             },
             {
-              "gross": 8250,
+              "gross": 8850,
               "movie": "Thudakkam",
               "screen": "SAMUDRA",
               "showid": "20106",
-              "tickets_sold": 55,
+              "tickets_sold": 59,
               "time": "08:30 PM",
               "venue": "SFC"
             },
             {
-              "gross": 5400,
+              "gross": 6150,
               "movie": "Thudakkam [M]",
               "screen": null,
               "showid": "19368",
-              "tickets_sold": 36,
+              "tickets_sold": 41,
               "time": "06:15 PM",
               "venue": "Puthet Cinemas"
             },
@@ -2651,6 +2651,15 @@
               "venue": "SFC"
             },
             {
+              "gross": 2700,
+              "movie": "Thudakkam",
+              "screen": "Athulya",
+              "showid": "8398",
+              "tickets_sold": 18,
+              "time": "08:45 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
               "gross": 2100,
               "movie": "Thudakkam [M]",
               "screen": null,
@@ -2669,20 +2678,11 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 2700,
-              "movie": "Thudakkam",
-              "screen": "Athulya",
-              "showid": "8398",
-              "tickets_sold": 18,
-              "time": "08:45 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 750,
+              "gross": 1800,
               "movie": "Thudakkam",
               "screen": "Athulya",
               "showid": "8397",
-              "tickets_sold": 5,
+              "tickets_sold": 12,
               "time": "05:30 PM",
               "venue": "Aiswarya Cinemas"
             },
@@ -2723,9 +2723,9 @@
               "venue": "SFC"
             }
           ],
-          "gross": 45600,
+          "gross": 48000,
           "shows": 15,
-          "tickets_sold": 304
+          "tickets_sold": 320
         },
         "without_gross": {
           "breakdown": [
@@ -2853,20 +2853,20 @@
           "venue": "Sandhya"
         },
         {
-          "gross": 8250,
+          "gross": 8850,
           "movie": "Thudakkam",
           "screen": "SAMUDRA",
           "showid": "20106",
-          "tickets_sold": 55,
+          "tickets_sold": 59,
           "time": "08:30 PM",
           "venue": "SFC"
         },
         {
-          "gross": 5400,
+          "gross": 6150,
           "movie": "Thudakkam [M]",
           "screen": null,
           "showid": "19368",
-          "tickets_sold": 36,
+          "tickets_sold": 41,
           "time": "06:15 PM",
           "venue": "Puthet Cinemas"
         },
@@ -2925,6 +2925,15 @@
           "venue": "Puthet Cinemas"
         },
         {
+          "gross": 1800,
+          "movie": "Thudakkam",
+          "screen": "Athulya",
+          "showid": "8397",
+          "tickets_sold": 12,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
           "gross": 1050,
           "movie": "Thudakkam [M]",
           "screen": null,
@@ -2932,15 +2941,6 @@
           "tickets_sold": 7,
           "time": "09:15 PM",
           "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 750,
-          "movie": "Thudakkam",
-          "screen": "Athulya",
-          "showid": "8397",
-          "tickets_sold": 5,
-          "time": "05:30 PM",
-          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 300,
@@ -3088,7 +3088,7 @@
         }
       ],
       "shows": 27,
-      "tickets_sold": 304
+      "tickets_sold": 320
     },
     "Unknown": {
       "gross": 0,
@@ -3604,20 +3604,11 @@
       "tickets_sold": 78
     },
     "Vishwanath and Sons": {
-      "gross": 11700,
+      "gross": 15300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
-            {
-              "gross": 3000,
-              "movie": "Vishwanath and Sons",
-              "screen": null,
-              "showid": "19372",
-              "tickets_sold": 20,
-              "time": "08:15 PM",
-              "venue": "Puthet Cinemas"
-            },
             {
               "gross": 3300,
               "movie": "Vishwanath and Sons",
@@ -3628,20 +3619,29 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 1650,
+              "gross": 3600,
+              "movie": "Vishwanath and Sons",
+              "screen": null,
+              "showid": "19372",
+              "tickets_sold": 24,
+              "time": "08:15 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 2250,
               "movie": "Vishwanath and Sons",
               "screen": "SCREEN 2",
               "showid": "3883",
-              "tickets_sold": 11,
+              "tickets_sold": 15,
               "time": "05:30 PM",
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 1650,
+              "gross": 3150,
               "movie": "Vishwanath and Sons",
               "screen": "SARITHA",
               "showid": "20109",
-              "tickets_sold": 11,
+              "tickets_sold": 21,
               "time": "08:00 PM",
               "venue": "SFC"
             },
@@ -3655,11 +3655,11 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 750,
+              "gross": 1650,
               "movie": "Vishwanath and Sons",
               "screen": "Screen-3",
               "showid": "8435",
-              "tickets_sold": 5,
+              "tickets_sold": 11,
               "time": "10:00 PM",
               "venue": "Aiswarya Cinemas"
             },
@@ -3682,9 +3682,9 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 11700,
+          "gross": 15300,
           "shows": 8,
-          "tickets_sold": 78
+          "tickets_sold": 102
         },
         "without_gross": {
           "breakdown": [
@@ -3740,6 +3740,15 @@
       },
       "show_breakdown": [
         {
+          "gross": 3600,
+          "movie": "Vishwanath and Sons",
+          "screen": null,
+          "showid": "19372",
+          "tickets_sold": 24,
+          "time": "08:15 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 3300,
           "movie": "Vishwanath and Sons",
           "screen": "Screen-3",
@@ -3749,31 +3758,31 @@
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 3000,
+          "gross": 3150,
           "movie": "Vishwanath and Sons",
-          "screen": null,
-          "showid": "19372",
-          "tickets_sold": 20,
-          "time": "08:15 PM",
-          "venue": "Puthet Cinemas"
+          "screen": "SARITHA",
+          "showid": "20109",
+          "tickets_sold": 21,
+          "time": "08:00 PM",
+          "venue": "SFC"
         },
         {
-          "gross": 1650,
+          "gross": 2250,
           "movie": "Vishwanath and Sons",
           "screen": "SCREEN 2",
           "showid": "3883",
-          "tickets_sold": 11,
+          "tickets_sold": 15,
           "time": "05:30 PM",
           "venue": "Fairyland Cinemas"
         },
         {
           "gross": 1650,
           "movie": "Vishwanath and Sons",
-          "screen": "SARITHA",
-          "showid": "20109",
+          "screen": "Screen-3",
+          "showid": "8435",
           "tickets_sold": 11,
-          "time": "08:00 PM",
-          "venue": "SFC"
+          "time": "10:00 PM",
+          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 750,
@@ -3782,15 +3791,6 @@
           "showid": "8432",
           "tickets_sold": 5,
           "time": "11:00 AM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 750,
-          "movie": "Vishwanath and Sons",
-          "screen": "Screen-3",
-          "showid": "8435",
-          "tickets_sold": 5,
-          "time": "10:00 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -3858,22 +3858,35 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 78
+      "tickets_sold": 102
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "DC"
+          "Bethlehem Kudumba Unit"
         ],
-        "canonical": "DC"
+        "canonical": "Bethlehem Kudumba Unit"
       },
       {
         "aliases": [
-          "Unknown"
+          "Vishwanath and Sons"
         ],
-        "canonical": "Unknown"
+        "canonical": "Vishwanath and Sons"
+      },
+      {
+        "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "KHALIFA"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
       },
       {
         "aliases": [
@@ -3890,22 +3903,9 @@
       },
       {
         "aliases": [
-          "Bethlehem Kudumba Unit"
+          "Unknown"
         ],
-        "canonical": "Bethlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "Khalifa"
-      },
-      {
-        "aliases": [
-          "Vishwanath and Sons"
-        ],
-        "canonical": "Vishwanath and Sons"
+        "canonical": "Unknown"
       }
     ]
   }
