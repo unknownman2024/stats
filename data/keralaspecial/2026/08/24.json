@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "last_updated": "2026-08-20T20:11:32.712315+05:30",
+  "last_updated": "2026-08-20T21:08:58.950124+05:30",
   "movies": {
     "Bethlehem Kudumba Unit": {
       "gross": 1950,
@@ -15,6 +15,15 @@
               "showid": "5839",
               "tickets_sold": 4,
               "time": "06:30 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 600,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Dolby Atmos",
+              "showid": "5840",
+              "tickets_sold": 4,
+              "time": "09:30 PM",
               "venue": "Girija Theatre"
             },
             {
@@ -34,15 +43,6 @@
               "tickets_sold": 2,
               "time": "02:00 PM",
               "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 600,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Dolby Atmos",
-              "showid": "5840",
-              "tickets_sold": 4,
-              "time": "09:30 PM",
-              "venue": "Girija Theatre"
             }
           ],
           "gross": 1950,
@@ -364,6 +364,12 @@
     "merged_movies": [
       {
         "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
           "Thudakkam",
           "Thudakkam [M]"
         ],
@@ -377,15 +383,10 @@
       },
       {
         "aliases": [
-          "DC"
+          "KHALIFA",
+          "Khalifa"
         ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "Khalifa - The Ruler"
-        ],
-        "canonical": "Khalifa - The Ruler"
+        "canonical": "Khalifa"
       },
       {
         "aliases": [
@@ -395,22 +396,21 @@
       },
       {
         "aliases": [
+          "Vishwanath and Sons"
+        ],
+        "canonical": "Vishwanath and Sons"
+      },
+      {
+        "aliases": [
           "DC (Tamil)"
         ],
         "canonical": "DC (Tamil)"
       },
       {
         "aliases": [
-          "KHALIFA",
-          "Khalifa"
+          "Khalifa - The Ruler"
         ],
-        "canonical": "Khalifa"
-      },
-      {
-        "aliases": [
-          "Vishwanath and Sons"
-        ],
-        "canonical": "Vishwanath and Sons"
+        "canonical": "Khalifa - The Ruler"
       }
     ]
   }
