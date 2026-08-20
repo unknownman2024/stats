@@ -1,28 +1,28 @@
 {
   "date": "2026-08-23",
-  "last_updated": "2026-08-20T08:32:12.715709+05:30",
+  "last_updated": "2026-08-20T10:12:07.256820+05:30",
   "movies": {
     "Bethlehem Kudumba Unit": {
-      "gross": 30900,
+      "gross": 33000,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 10650,
+              "gross": 11700,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
               "showid": "19337",
-              "tickets_sold": 71,
+              "tickets_sold": 78,
               "time": "08:30 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 6450,
+              "gross": 7500,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
               "showid": "19336",
-              "tickets_sold": 43,
+              "tickets_sold": 50,
               "time": "05:30 PM",
               "venue": "Puthet Cinemas"
             },
@@ -108,9 +108,9 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 30900,
+          "gross": 33000,
           "shows": 11,
-          "tickets_sold": 206
+          "tickets_sold": 220
         },
         "without_gross": {
           "breakdown": [
@@ -175,20 +175,20 @@
       },
       "show_breakdown": [
         {
-          "gross": 10650,
+          "gross": 11700,
           "movie": "Bethlehem Kudumba Unit",
           "screen": null,
           "showid": "19337",
-          "tickets_sold": 71,
+          "tickets_sold": 78,
           "time": "08:30 PM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 6450,
+          "gross": 7500,
           "movie": "Bethlehem Kudumba Unit",
           "screen": null,
           "showid": "19336",
-          "tickets_sold": 43,
+          "tickets_sold": 50,
           "time": "05:30 PM",
           "venue": "Puthet Cinemas"
         },
@@ -329,7 +329,7 @@
         }
       ],
       "shows": 17,
-      "tickets_sold": 206
+      "tickets_sold": 220
     },
     "KHALIFA": {
       "gross": 21750,
@@ -589,7 +589,7 @@
       "tickets_sold": 145
     },
     "Khalifa": {
-      "gross": 21300,
+      "gross": 22350,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -622,11 +622,11 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 1350,
+              "gross": 1800,
               "movie": "KHALIFA",
               "screen": null,
               "showid": "19344",
-              "tickets_sold": 9,
+              "tickets_sold": 12,
               "time": "10:45 AM",
               "venue": "Puthet Cinemas"
             },
@@ -665,23 +665,23 @@
               "tickets_sold": 1,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
-            }
-          ],
-          "gross": 21300,
-          "shows": 8,
-          "tickets_sold": 142
-        },
-        "without_gross": {
-          "breakdown": [
+            },
             {
-              "gross": 0,
+              "gross": 600,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "3837",
-              "tickets_sold": 0,
+              "tickets_sold": 4,
               "time": "10:30 AM",
               "venue": "Fairyland Cinemas"
-            },
+            }
+          ],
+          "gross": 22350,
+          "shows": 9,
+          "tickets_sold": 149
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "KHALIFA",
@@ -719,7 +719,7 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 5,
+          "shows": 4,
           "tickets_sold": 0
         }
       },
@@ -752,11 +752,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 1350,
+          "gross": 1800,
           "movie": "KHALIFA",
           "screen": null,
           "showid": "19344",
-          "tickets_sold": 9,
+          "tickets_sold": 12,
           "time": "10:45 AM",
           "venue": "Puthet Cinemas"
         },
@@ -767,6 +767,15 @@
           "showid": "3838",
           "tickets_sold": 5,
           "time": "02:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 600,
+          "movie": "Khalifa",
+          "screen": "SCREEN 1",
+          "showid": "3837",
+          "tickets_sold": 4,
+          "time": "10:30 AM",
           "venue": "Fairyland Cinemas"
         },
         {
@@ -795,15 +804,6 @@
           "tickets_sold": 1,
           "time": "11:00 AM",
           "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Khalifa",
-          "screen": "SCREEN 1",
-          "showid": "3837",
-          "tickets_sold": 0,
-          "time": "10:30 AM",
-          "venue": "Fairyland Cinemas"
         },
         {
           "gross": 0,
@@ -843,11 +843,32 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 142
+      "tickets_sold": 149
     }
   },
   "verification": {
     "merged_movies": [
+      {
+        "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "Khalifa"
+      },
+      {
+        "aliases": [
+          "Thudakkam",
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam"
+      },
+      {
+        "aliases": [
+          "Vishwanath & Sons",
+          "Vishwanath and Sons"
+        ],
+        "canonical": "Vishwanath & Sons"
+      },
       {
         "aliases": [
           "Unknown"
@@ -862,17 +883,9 @@
       },
       {
         "aliases": [
-          "Vishwanath & Sons",
-          "Vishwanath and Sons"
+          "Spider-Man: Brand New Day"
         ],
-        "canonical": "Vishwanath & Sons"
-      },
-      {
-        "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
+        "canonical": "Spider-Man: Brand New Day"
       },
       {
         "aliases": [
@@ -885,19 +898,6 @@
           "Bethlehem Kudumba Unit"
         ],
         "canonical": "Bethlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "KHALIFA"
-      },
-      {
-        "aliases": [
-          "Spider-Man: Brand New Day"
-        ],
-        "canonical": "Spider-Man: Brand New Day"
       }
     ]
   }
