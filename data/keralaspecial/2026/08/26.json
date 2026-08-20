@@ -1,6 +1,6 @@
 {
   "date": "2026-08-26",
-  "last_updated": "2026-08-20T12:24:33.963095+05:30",
+  "last_updated": "2026-08-20T13:16:46.424278+05:30",
   "movies": {
     "KHALIFA": {
       "gross": 16500,
@@ -98,7 +98,7 @@
       "tickets_sold": 110
     },
     "Khalifa": {
-      "gross": 16350,
+      "gross": 16500,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -113,18 +113,18 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 7950,
+              "gross": 8100,
               "movie": "Khalifa",
               "screen": "SCREEN 1",
               "showid": "3851",
-              "tickets_sold": 53,
+              "tickets_sold": 54,
               "time": "05:30 PM",
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 16350,
+          "gross": 16500,
           "shows": 2,
-          "tickets_sold": 109
+          "tickets_sold": 110
         },
         "without_gross": {
           "breakdown": [
@@ -162,11 +162,11 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 7950,
+          "gross": 8100,
           "movie": "Khalifa",
           "screen": "SCREEN 1",
           "showid": "3851",
-          "tickets_sold": 53,
+          "tickets_sold": 54,
           "time": "05:30 PM",
           "venue": "Fairyland Cinemas"
         },
@@ -190,11 +190,30 @@
         }
       ],
       "shows": 4,
-      "tickets_sold": 109
+      "tickets_sold": 110
     }
   },
   "verification": {
     "merged_movies": [
+      {
+        "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "Khalifa"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
+      },
       {
         "aliases": [
           "Thudakkam",
@@ -204,16 +223,9 @@
       },
       {
         "aliases": [
-          "KHALIFA",
-          "Khalifa"
+          "Bethlehem Kudumba Unit"
         ],
-        "canonical": "KHALIFA"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
+        "canonical": "Bethlehem Kudumba Unit"
       },
       {
         "aliases": [
@@ -227,18 +239,6 @@
           "DC (Tamil)"
         ],
         "canonical": "DC (Tamil)"
-      },
-      {
-        "aliases": [
-          "Bethlehem Kudumba Unit"
-        ],
-        "canonical": "Bethlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
       }
     ]
   }

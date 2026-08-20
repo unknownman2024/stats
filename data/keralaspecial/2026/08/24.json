@@ -1,9 +1,9 @@
 {
   "date": "2026-08-24",
-  "last_updated": "2026-08-20T12:24:33.961452+05:30",
+  "last_updated": "2026-08-20T13:16:46.422621+05:30",
   "movies": {
     "Bethlehem Kudumba Unit": {
-      "gross": 300,
+      "gross": 900,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -16,11 +16,20 @@
               "tickets_sold": 2,
               "time": "02:00 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 600,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Dolby Atmos",
+              "showid": "5839",
+              "tickets_sold": 4,
+              "time": "06:30 PM",
+              "venue": "Girija Theatre"
             }
           ],
-          "gross": 300,
-          "shows": 1,
-          "tickets_sold": 2
+          "gross": 900,
+          "shows": 2,
+          "tickets_sold": 6
         },
         "without_gross": {
           "breakdown": [
@@ -40,15 +49,6 @@
               "showid": "5838",
               "tickets_sold": 0,
               "time": "03:00 PM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Dolby Atmos",
-              "showid": "5839",
-              "tickets_sold": 0,
-              "time": "06:30 PM",
               "venue": "Girija Theatre"
             },
             {
@@ -88,11 +88,20 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 7,
+          "shows": 6,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 600,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Dolby Atmos",
+          "showid": "5839",
+          "tickets_sold": 4,
+          "time": "06:30 PM",
+          "venue": "Girija Theatre"
+        },
         {
           "gross": 300,
           "movie": "Bethlehem Kudumba Unit",
@@ -118,15 +127,6 @@
           "showid": "5838",
           "tickets_sold": 0,
           "time": "03:00 PM",
-          "venue": "Girija Theatre"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Dolby Atmos",
-          "showid": "5839",
-          "tickets_sold": 0,
-          "time": "06:30 PM",
           "venue": "Girija Theatre"
         },
         {
@@ -167,7 +167,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 2
+      "tickets_sold": 6
     },
     "KHALIFA": {
       "gross": 14400,
@@ -364,6 +364,25 @@
     "merged_movies": [
       {
         "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "Khalifa"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
           "Thudakkam",
           "Thudakkam [M]"
         ],
@@ -371,16 +390,9 @@
       },
       {
         "aliases": [
-          "KHALIFA",
-          "Khalifa"
+          "Bethlehem Kudumba Unit"
         ],
-        "canonical": "KHALIFA"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
+        "canonical": "Bethlehem Kudumba Unit"
       },
       {
         "aliases": [
@@ -394,18 +406,6 @@
           "DC (Tamil)"
         ],
         "canonical": "DC (Tamil)"
-      },
-      {
-        "aliases": [
-          "Bethlehem Kudumba Unit"
-        ],
-        "canonical": "Bethlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
       }
     ]
   }
