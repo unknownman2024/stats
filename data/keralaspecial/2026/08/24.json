@@ -1,6 +1,6 @@
 {
   "date": "2026-08-24",
-  "last_updated": "2026-08-20T13:16:46.422621+05:30",
+  "last_updated": "2026-08-20T14:16:22.814428+05:30",
   "movies": {
     "Bethlehem Kudumba Unit": {
       "gross": 900,
@@ -9,15 +9,6 @@
         "with_gross": {
           "breakdown": [
             {
-              "gross": 300,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "SCREEN 3",
-              "showid": "3866",
-              "tickets_sold": 2,
-              "time": "02:00 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
               "gross": 600,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Dolby Atmos",
@@ -25,6 +16,15 @@
               "tickets_sold": 4,
               "time": "06:30 PM",
               "venue": "Girija Theatre"
+            },
+            {
+              "gross": 300,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "SCREEN 3",
+              "showid": "3866",
+              "tickets_sold": 2,
+              "time": "02:00 PM",
+              "venue": "Fairyland Cinemas"
             }
           ],
           "gross": 900,
@@ -364,22 +364,10 @@
     "merged_movies": [
       {
         "aliases": [
-          "KHALIFA",
-          "Khalifa"
+          "Vishwanath & Sons",
+          "Vishwanath and Sons"
         ],
-        "canonical": "Khalifa"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
+        "canonical": "Vishwanath & Sons"
       },
       {
         "aliases": [
@@ -390,22 +378,34 @@
       },
       {
         "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "KHALIFA"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
           "Bethlehem Kudumba Unit"
         ],
         "canonical": "Bethlehem Kudumba Unit"
       },
       {
         "aliases": [
-          "Vishwanath & Sons",
-          "Vishwanath and Sons"
-        ],
-        "canonical": "Vishwanath & Sons"
-      },
-      {
-        "aliases": [
           "DC (Tamil)"
         ],
         "canonical": "DC (Tamil)"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       }
     ]
   }
