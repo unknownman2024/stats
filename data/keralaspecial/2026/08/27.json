@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "last_updated": "2026-08-22T09:20:34.187918+05:30",
+  "last_updated": "2026-08-22T10:08:26.150044+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 5700,
@@ -170,7 +170,7 @@
       "tickets_sold": 38
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 5700,
+      "gross": 7800,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -194,11 +194,11 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 600,
+              "gross": 2700,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Dolby Atmos",
               "showid": "5854",
-              "tickets_sold": 4,
+              "tickets_sold": 18,
               "time": "03:00 PM",
               "venue": "Girija Theatre"
             },
@@ -212,9 +212,9 @@
               "venue": "Girija Theatre"
             }
           ],
-          "gross": 5700,
+          "gross": 7800,
           "shows": 4,
-          "tickets_sold": 38
+          "tickets_sold": 52
         },
         "without_gross": {
           "breakdown": [
@@ -270,21 +270,21 @@
           "venue": "Girija Theatre"
         },
         {
+          "gross": 2700,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Dolby Atmos",
+          "showid": "5854",
+          "tickets_sold": 18,
+          "time": "03:00 PM",
+          "venue": "Girija Theatre"
+        },
+        {
           "gross": 1650,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Dolby Atmos",
           "showid": "5856",
           "tickets_sold": 11,
           "time": "09:30 PM",
-          "venue": "Girija Theatre"
-        },
-        {
-          "gross": 600,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Dolby Atmos",
-          "showid": "5854",
-          "tickets_sold": 4,
-          "time": "03:00 PM",
           "venue": "Girija Theatre"
         },
         {
@@ -334,7 +334,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 38
+      "tickets_sold": 52
     },
     "KHALIFA": {
       "gross": 0,
@@ -529,28 +529,23 @@
     "merged_movies": [
       {
         "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "Khalifa"
+      },
+      {
+        "aliases": [
+          "Toxic"
+        ],
+        "canonical": "Toxic"
+      },
+      {
+        "aliases": [
           "Bathlehem Kudumba Unit",
           "Bethlehem Kudumba Unit"
         ],
-        "canonical": "Bathlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Vishwanath and Sons"
-        ],
-        "canonical": "Vishwanath and Sons"
+        "canonical": "Bethlehem Kudumba Unit"
       },
       {
         "aliases": [
@@ -561,22 +556,27 @@
       },
       {
         "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "KHALIFA"
-      },
-      {
-        "aliases": [
-          "Toxic"
-        ],
-        "canonical": "Toxic"
-      },
-      {
-        "aliases": [
           "Khalifa - The Ruler"
         ],
         "canonical": "Khalifa - The Ruler"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "Vishwanath and Sons"
+        ],
+        "canonical": "Vishwanath and Sons"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       }
     ]
   }
