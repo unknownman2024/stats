@@ -1,6 +1,6 @@
 {
   "date": "2026-08-27",
-  "last_updated": "2026-08-22T15:59:22.543263+05:30",
+  "last_updated": "2026-08-22T16:55:33.767670+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 20700,
@@ -242,7 +242,7 @@
       "tickets_sold": 138
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 21300,
+      "gross": 22800,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -254,6 +254,15 @@
               "showid": "22723",
               "tickets_sold": 30,
               "time": "06:30 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 3300,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Cinema-1",
+              "showid": "22722",
+              "tickets_sold": 22,
+              "time": "03:10 PM",
               "venue": "Davis Theatre"
             },
             {
@@ -275,22 +284,13 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 2700,
+              "gross": 3150,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Dolby Atmos",
               "showid": "5856",
-              "tickets_sold": 18,
+              "tickets_sold": 21,
               "time": "09:30 PM",
               "venue": "Girija Theatre"
-            },
-            {
-              "gross": 3300,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Cinema-1",
-              "showid": "22722",
-              "tickets_sold": 22,
-              "time": "03:10 PM",
-              "venue": "Davis Theatre"
             },
             {
               "gross": 1950,
@@ -302,20 +302,20 @@
               "venue": "Davis Theatre"
             },
             {
-              "gross": 1650,
+              "gross": 2550,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Cinema-1",
               "showid": "22724",
-              "tickets_sold": 11,
+              "tickets_sold": 17,
               "time": "09:45 PM",
               "venue": "Davis Theatre"
             },
             {
-              "gross": 900,
+              "gross": 1050,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Dolby Atmos",
               "showid": "5853",
-              "tickets_sold": 6,
+              "tickets_sold": 7,
               "time": "12:00 PM",
               "venue": "Girija Theatre"
             },
@@ -329,9 +329,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 21300,
+          "gross": 22800,
           "shows": 9,
-          "tickets_sold": 142
+          "tickets_sold": 152
         },
         "without_gross": {
           "breakdown": [
@@ -396,6 +396,15 @@
           "venue": "Girija Theatre"
         },
         {
+          "gross": 3150,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Dolby Atmos",
+          "showid": "5856",
+          "tickets_sold": 21,
+          "time": "09:30 PM",
+          "venue": "Girija Theatre"
+        },
+        {
           "gross": 2700,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Dolby Atmos",
@@ -405,13 +414,13 @@
           "venue": "Girija Theatre"
         },
         {
-          "gross": 2700,
+          "gross": 2550,
           "movie": "Bethlehem Kudumba Unit",
-          "screen": "Dolby Atmos",
-          "showid": "5856",
-          "tickets_sold": 18,
-          "time": "09:30 PM",
-          "venue": "Girija Theatre"
+          "screen": "Cinema-1",
+          "showid": "22724",
+          "tickets_sold": 17,
+          "time": "09:45 PM",
+          "venue": "Davis Theatre"
         },
         {
           "gross": 1950,
@@ -423,20 +432,11 @@
           "venue": "Davis Theatre"
         },
         {
-          "gross": 1650,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Cinema-1",
-          "showid": "22724",
-          "tickets_sold": 11,
-          "time": "09:45 PM",
-          "venue": "Davis Theatre"
-        },
-        {
-          "gross": 900,
+          "gross": 1050,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Dolby Atmos",
           "showid": "5853",
-          "tickets_sold": 6,
+          "tickets_sold": 7,
           "time": "12:00 PM",
           "venue": "Girija Theatre"
         },
@@ -478,7 +478,7 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 142
+      "tickets_sold": 152
     },
     "KHALIFA": {
       "gross": 0,
@@ -673,16 +673,15 @@
     "merged_movies": [
       {
         "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "Khalifa"
-      },
-      {
-        "aliases": [
           "Khalifa - The Ruler"
         ],
         "canonical": "Khalifa - The Ruler"
+      },
+      {
+        "aliases": [
+          "Vishwanath and Sons"
+        ],
+        "canonical": "Vishwanath and Sons"
       },
       {
         "aliases": [
@@ -693,15 +692,17 @@
       },
       {
         "aliases": [
-          "Vishwanath and Sons"
+          "Thudakkam",
+          "Thudakkam [M]"
         ],
-        "canonical": "Vishwanath and Sons"
+        "canonical": "Thudakkam"
       },
       {
         "aliases": [
-          "Toxic"
+          "KHALIFA",
+          "Khalifa"
         ],
-        "canonical": "Toxic"
+        "canonical": "Khalifa"
       },
       {
         "aliases": [
@@ -717,10 +718,9 @@
       },
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
+          "Toxic"
         ],
-        "canonical": "Thudakkam"
+        "canonical": "Toxic"
       }
     ]
   }
