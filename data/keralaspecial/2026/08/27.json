@@ -1,9 +1,9 @@
 {
   "date": "2026-08-27",
-  "last_updated": "2026-08-22T12:19:34.195477+05:30",
+  "last_updated": "2026-08-22T13:06:12.212811+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
-      "gross": 19500,
+      "gross": 20100,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -36,6 +36,15 @@
               "venue": "Girija Theatre"
             },
             {
+              "gross": 2700,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Dolby Atmos",
+              "showid": "5856",
+              "tickets_sold": 18,
+              "time": "09:30 PM",
+              "venue": "Girija Theatre"
+            },
+            {
               "gross": 2100,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Cinema-1",
@@ -54,15 +63,6 @@
               "venue": "Davis Theatre"
             },
             {
-              "gross": 2700,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Dolby Atmos",
-              "showid": "5856",
-              "tickets_sold": 18,
-              "time": "09:30 PM",
-              "venue": "Girija Theatre"
-            },
-            {
               "gross": 1650,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Cinema-1",
@@ -72,15 +72,6 @@
               "venue": "Davis Theatre"
             },
             {
-              "gross": 300,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Dolby Atmos",
-              "showid": "5853",
-              "tickets_sold": 2,
-              "time": "12:00 PM",
-              "venue": "Girija Theatre"
-            },
-            {
               "gross": 450,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Aiswarya",
@@ -88,11 +79,20 @@
               "tickets_sold": 3,
               "time": "05:30 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 900,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Dolby Atmos",
+              "showid": "5853",
+              "tickets_sold": 6,
+              "time": "12:00 PM",
+              "venue": "Girija Theatre"
             }
           ],
-          "gross": 19500,
+          "gross": 20100,
           "shows": 9,
-          "tickets_sold": 130
+          "tickets_sold": 134
         },
         "without_gross": {
           "breakdown": [
@@ -193,6 +193,15 @@
           "venue": "Davis Theatre"
         },
         {
+          "gross": 900,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Dolby Atmos",
+          "showid": "5853",
+          "tickets_sold": 6,
+          "time": "12:00 PM",
+          "venue": "Girija Theatre"
+        },
+        {
           "gross": 450,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Aiswarya",
@@ -200,15 +209,6 @@
           "tickets_sold": 3,
           "time": "05:30 PM",
           "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 300,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Dolby Atmos",
-          "showid": "5853",
-          "tickets_sold": 2,
-          "time": "12:00 PM",
-          "venue": "Girija Theatre"
         },
         {
           "gross": 0,
@@ -239,7 +239,7 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 130
+      "tickets_sold": 134
     },
     "Bethlehem Kudumba Unit": {
       "gross": 7800,
@@ -601,21 +601,15 @@
     "merged_movies": [
       {
         "aliases": [
-          "Khalifa - The Ruler"
-        ],
-        "canonical": "Khalifa - The Ruler"
-      },
-      {
-        "aliases": [
           "Toxic"
         ],
         "canonical": "Toxic"
       },
       {
         "aliases": [
-          "DC"
+          "Unknown"
         ],
-        "canonical": "DC"
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -646,9 +640,15 @@
       },
       {
         "aliases": [
-          "Unknown"
+          "DC"
         ],
-        "canonical": "Unknown"
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "Khalifa - The Ruler"
+        ],
+        "canonical": "Khalifa - The Ruler"
       }
     ]
   }
