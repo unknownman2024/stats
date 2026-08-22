@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "last_updated": "2026-08-22T19:05:54.853970+05:30",
+  "last_updated": "2026-08-22T19:57:03.876519+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 450,
@@ -170,14 +170,24 @@
       "tickets_sold": 3
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 0,
+      "gross": 450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 450,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Cinema-1",
+              "showid": "22727",
+              "tickets_sold": 3,
+              "time": "06:30 PM",
+              "venue": "Davis Theatre"
+            }
+          ],
+          "gross": 450,
+          "shows": 1,
+          "tickets_sold": 3
         },
         "without_gross": {
           "breakdown": [
@@ -239,26 +249,26 @@
               "gross": 0,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Cinema-1",
-              "showid": "22727",
-              "tickets_sold": 0,
-              "time": "06:30 PM",
-              "venue": "Davis Theatre"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Cinema-1",
               "showid": "22728",
               "tickets_sold": 0,
               "time": "09:45 PM",
               "venue": "Davis Theatre"
             }
           ],
-          "shows": 8,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 450,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Cinema-1",
+          "showid": "22727",
+          "tickets_sold": 3,
+          "time": "06:30 PM",
+          "venue": "Davis Theatre"
+        },
         {
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
@@ -317,15 +327,6 @@
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Cinema-1",
-          "showid": "22727",
-          "tickets_sold": 0,
-          "time": "06:30 PM",
-          "venue": "Davis Theatre"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Cinema-1",
           "showid": "22728",
           "tickets_sold": 0,
           "time": "09:45 PM",
@@ -333,7 +334,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 0
+      "tickets_sold": 3
     }
   },
   "verification": {
@@ -344,30 +345,6 @@
           "Khalifa"
         ],
         "canonical": "Khalifa"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "Toxic: A Fairy Tale for Grown-ups (telugu)"
-        ],
-        "canonical": "Toxic: A Fairy Tale for Grown-ups (telugu)"
-      },
-      {
-        "aliases": [
-          "Toxic"
-        ],
-        "canonical": "Toxic"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -384,16 +361,40 @@
       },
       {
         "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
-        ],
-        "canonical": "Bathlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
           "Khalifa - The Ruler"
         ],
         "canonical": "Khalifa - The Ruler"
+      },
+      {
+        "aliases": [
+          "Toxic"
+        ],
+        "canonical": "Toxic"
+      },
+      {
+        "aliases": [
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bethlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "Toxic: A Fairy Tale for Grown-ups (telugu)"
+        ],
+        "canonical": "Toxic: A Fairy Tale for Grown-ups (telugu)"
       }
     ]
   }
