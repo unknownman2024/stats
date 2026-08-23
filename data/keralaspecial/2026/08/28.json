@@ -1,9 +1,9 @@
 {
   "date": "2026-08-28",
-  "last_updated": "2026-08-23T19:58:42.565722+05:30",
+  "last_updated": "2026-08-23T20:57:58.449667+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
-      "gross": 450,
+      "gross": 4800,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -16,11 +16,47 @@
               "tickets_sold": 3,
               "time": "06:30 PM",
               "venue": "Davis Theatre"
+            },
+            {
+              "gross": 600,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19425",
+              "tickets_sold": 4,
+              "time": "10:30 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 900,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19426",
+              "tickets_sold": 6,
+              "time": "01:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 900,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19427",
+              "tickets_sold": 6,
+              "time": "05:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 1950,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19428",
+              "tickets_sold": 13,
+              "time": "08:30 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 450,
-          "shows": 1,
-          "tickets_sold": 3
+          "gross": 4800,
+          "shows": 5,
+          "tickets_sold": 32
         },
         "without_gross": {
           "breakdown": [
@@ -86,13 +122,58 @@
               "tickets_sold": 0,
               "time": "09:45 PM",
               "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19429",
+              "tickets_sold": 0,
+              "time": "11:55 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 7,
+          "shows": 8,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1950,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19428",
+          "tickets_sold": 13,
+          "time": "08:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 900,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19426",
+          "tickets_sold": 6,
+          "time": "01:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 900,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19427",
+          "tickets_sold": 6,
+          "time": "05:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 600,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19425",
+          "tickets_sold": 4,
+          "time": "10:30 AM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 450,
           "movie": "Bethlehem Kudumba Unit",
@@ -164,10 +245,19 @@
           "tickets_sold": 0,
           "time": "09:45 PM",
           "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19429",
+          "tickets_sold": 0,
+          "time": "11:55 PM",
+          "venue": "Puthet Cinemas"
         }
       ],
-      "shows": 8,
-      "tickets_sold": 3
+      "shows": 13,
+      "tickets_sold": 32
     },
     "Bethlehem Kudumba Unit": {
       "gross": 450,
@@ -341,17 +431,17 @@
     "merged_movies": [
       {
         "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "Khalifa"
-      },
-      {
-        "aliases": [
           "Bathlehem Kudumba Unit",
           "Bethlehem Kudumba Unit"
         ],
         "canonical": "Bathlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
+          "Toxic: A Fairy Tale for Grown-ups",
+          "Toxic: A Fairy Tale for Grown-ups (telugu)"
+        ],
+        "canonical": "Toxic: A Fairy Tale for Grown-ups"
       },
       {
         "aliases": [
@@ -361,17 +451,10 @@
       },
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
+          "KHALIFA",
+          "Khalifa"
         ],
-        "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "Toxic: A Fairy Tale for Grown-ups",
-          "Toxic: A Fairy Tale for Grown-ups (telugu)"
-        ],
-        "canonical": "Toxic: A Fairy Tale for Grown-ups"
+        "canonical": "Khalifa"
       },
       {
         "aliases": [
@@ -396,6 +479,13 @@
           "DC"
         ],
         "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "Thudakkam",
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam"
       }
     ]
   }
