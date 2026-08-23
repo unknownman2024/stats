@@ -1,6 +1,6 @@
 {
   "date": "2026-08-28",
-  "last_updated": "2026-08-24T02:57:09.571828+05:30",
+  "last_updated": "2026-08-24T03:57:51.089907+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 24150,
@@ -15,6 +15,15 @@
               "showid": "19428",
               "tickets_sold": 48,
               "time": "08:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 3900,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19425",
+              "tickets_sold": 26,
+              "time": "10:30 AM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -36,15 +45,6 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 3900,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": null,
-              "showid": "19425",
-              "tickets_sold": 26,
-              "time": "10:30 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 2250,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Cinema-1",
@@ -54,21 +54,21 @@
               "venue": "Davis Theatre"
             },
             {
-              "gross": 1650,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Cinema-1",
-              "showid": "22725",
-              "tickets_sold": 11,
-              "time": "11:50 AM",
-              "venue": "Davis Theatre"
-            },
-            {
               "gross": 1950,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Cinema-1",
               "showid": "22726",
               "tickets_sold": 13,
               "time": "03:10 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 1650,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Cinema-1",
+              "showid": "22725",
+              "tickets_sold": 11,
+              "time": "11:50 AM",
               "venue": "Davis Theatre"
             },
             {
@@ -521,16 +521,9 @@
     "merged_movies": [
       {
         "aliases": [
-          "Toxic: A Fairy Tale for Grown-ups",
-          "Toxic: A Fairy Tale for Grown-ups (telugu)"
+          "Toxic"
         ],
-        "canonical": "Toxic: A Fairy Tale for Grown-ups"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
+        "canonical": "Toxic"
       },
       {
         "aliases": [
@@ -541,28 +534,9 @@
       },
       {
         "aliases": [
-          "Khalifa - The Ruler"
+          "Unknown"
         ],
-        "canonical": "Khalifa - The Ruler"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
-        ],
-        "canonical": "Bathlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "Toxic"
-        ],
-        "canonical": "Toxic"
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -573,9 +547,35 @@
       },
       {
         "aliases": [
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bethlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
+          "Khalifa - The Ruler"
+        ],
+        "canonical": "Khalifa - The Ruler"
+      },
+      {
+        "aliases": [
+          "Toxic: A Fairy Tale for Grown-ups",
+          "Toxic: A Fairy Tale for Grown-ups (telugu)"
+        ],
+        "canonical": "Toxic: A Fairy Tale for Grown-ups"
+      },
+      {
+        "aliases": [
           "Vishwanath and Sons"
         ],
         "canonical": "Vishwanath and Sons"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
       }
     ]
   }
