@@ -1,9 +1,9 @@
 {
   "date": "2026-08-30",
-  "last_updated": "2026-08-24T08:38:56.703502+05:30",
+  "last_updated": "2026-08-24T10:21:37.781857+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
-      "gross": 10050,
+      "gross": 10500,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -61,11 +61,20 @@
               "tickets_sold": 5,
               "time": "08:30 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 450,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19436",
+              "tickets_sold": 3,
+              "time": "01:30 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 10050,
-          "shows": 6,
-          "tickets_sold": 67
+          "gross": 10500,
+          "shows": 7,
+          "tickets_sold": 70
         },
         "without_gross": {
           "breakdown": [
@@ -109,15 +118,6 @@
               "gross": 0,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
-              "showid": "19436",
-              "tickets_sold": 0,
-              "time": "01:30 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": null,
               "showid": "19437",
               "tickets_sold": 0,
               "time": "05:30 PM",
@@ -133,7 +133,7 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 7,
+          "shows": 6,
           "tickets_sold": 0
         }
       },
@@ -193,6 +193,15 @@
           "venue": "Puthet Cinemas"
         },
         {
+          "gross": 450,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19436",
+          "tickets_sold": 3,
+          "time": "01:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Aiswarya",
@@ -232,15 +241,6 @@
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
           "screen": null,
-          "showid": "19436",
-          "tickets_sold": 0,
-          "time": "01:30 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": null,
           "showid": "19437",
           "tickets_sold": 0,
           "time": "05:30 PM",
@@ -257,7 +257,7 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 67
+      "tickets_sold": 70
     },
     "Bethlehem Kudumba Unit": {
       "gross": 10050,
@@ -521,29 +521,9 @@
     "merged_movies": [
       {
         "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
+          "Vishwanath and Sons"
         ],
-        "canonical": "Bathlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "Khalifa"
-      },
-      {
-        "aliases": [
-          "Khalifa - The Ruler"
-        ],
-        "canonical": "Khalifa - The Ruler"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
+        "canonical": "Vishwanath and Sons"
       },
       {
         "aliases": [
@@ -554,10 +534,35 @@
       },
       {
         "aliases": [
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bathlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
           "Thudakkam",
           "Thudakkam [M]"
         ],
         "canonical": "Thudakkam"
+      },
+      {
+        "aliases": [
+          "Khalifa - The Ruler"
+        ],
+        "canonical": "Khalifa - The Ruler"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
       },
       {
         "aliases": [
@@ -567,15 +572,10 @@
       },
       {
         "aliases": [
-          "Vishwanath and Sons"
+          "KHALIFA",
+          "Khalifa"
         ],
-        "canonical": "Vishwanath and Sons"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
+        "canonical": "Khalifa"
       }
     ]
   }
