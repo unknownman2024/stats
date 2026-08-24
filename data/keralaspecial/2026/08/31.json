@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "last_updated": "2026-08-24T18:30:32.038242+05:30",
+  "last_updated": "2026-08-24T20:18:43.543700+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 150,
@@ -170,7 +170,7 @@
       "tickets_sold": 1
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 150,
+      "gross": 1050,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -183,11 +183,20 @@
               "tickets_sold": 1,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 900,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Dolby Atmos",
+              "showid": "5871",
+              "tickets_sold": 6,
+              "time": "06:30 PM",
+              "venue": "Girija Theatre"
             }
           ],
-          "gross": 150,
-          "shows": 1,
-          "tickets_sold": 1
+          "gross": 1050,
+          "shows": 2,
+          "tickets_sold": 7
         },
         "without_gross": {
           "breakdown": [
@@ -240,26 +249,26 @@
               "gross": 0,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Dolby Atmos",
-              "showid": "5871",
-              "tickets_sold": 0,
-              "time": "06:30 PM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Dolby Atmos",
               "showid": "5872",
               "tickets_sold": 0,
               "time": "09:30 PM",
               "venue": "Girija Theatre"
             }
           ],
-          "shows": 7,
+          "shows": 6,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 900,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Dolby Atmos",
+          "showid": "5871",
+          "tickets_sold": 6,
+          "time": "06:30 PM",
+          "venue": "Girija Theatre"
+        },
         {
           "gross": 150,
           "movie": "Bethlehem Kudumba Unit",
@@ -318,15 +327,6 @@
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Dolby Atmos",
-          "showid": "5871",
-          "tickets_sold": 0,
-          "time": "06:30 PM",
-          "venue": "Girija Theatre"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Dolby Atmos",
           "showid": "5872",
           "tickets_sold": 0,
           "time": "09:30 PM",
@@ -334,7 +334,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 1
+      "tickets_sold": 7
     }
   },
   "verification": {
@@ -344,7 +344,7 @@
           "KHALIFA",
           "Khalifa"
         ],
-        "canonical": "KHALIFA"
+        "canonical": "Khalifa"
       },
       {
         "aliases": [
@@ -362,9 +362,27 @@
       },
       {
         "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
           "Toxic"
         ],
         "canonical": "Toxic"
+      },
+      {
+        "aliases": [
+          "Khalifa - The Ruler"
+        ],
+        "canonical": "Khalifa - The Ruler"
       },
       {
         "aliases": [
@@ -378,18 +396,6 @@
           "Vishwanath and Sons"
         ],
         "canonical": "Vishwanath and Sons"
-      },
-      {
-        "aliases": [
-          "Khalifa - The Ruler"
-        ],
-        "canonical": "Khalifa - The Ruler"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
       }
     ]
   }
