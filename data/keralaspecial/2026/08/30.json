@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "last_updated": "2026-08-24T20:18:43.541775+05:30",
+  "last_updated": "2026-08-24T21:14:43.224558+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 24900,
@@ -494,7 +494,7 @@
       "tickets_sold": 166
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 30450,
+      "gross": 31500,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -516,6 +516,15 @@
               "tickets_sold": 39,
               "time": "09:00 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 2700,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19437",
+              "tickets_sold": 18,
+              "time": "05:30 PM",
+              "venue": "Puthet Cinemas"
             },
             {
               "gross": 2100,
@@ -572,15 +581,6 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 2700,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": null,
-              "showid": "19437",
-              "tickets_sold": 18,
-              "time": "05:30 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 1500,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Cinema-2",
@@ -590,11 +590,11 @@
               "venue": "Davis Theatre"
             },
             {
-              "gross": 1200,
+              "gross": 2250,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Dolby Atmos",
               "showid": "5867",
-              "tickets_sold": 8,
+              "tickets_sold": 15,
               "time": "06:30 PM",
               "venue": "Girija Theatre"
             },
@@ -626,9 +626,9 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 30450,
+          "gross": 31500,
           "shows": 14,
-          "tickets_sold": 203
+          "tickets_sold": 210
         },
         "without_gross": {
           "breakdown": [
@@ -792,6 +792,15 @@
           "venue": "Puthet Cinemas"
         },
         {
+          "gross": 2250,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Dolby Atmos",
+          "showid": "5867",
+          "tickets_sold": 15,
+          "time": "06:30 PM",
+          "venue": "Girija Theatre"
+        },
+        {
           "gross": 2100,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Cinema-1",
@@ -853,15 +862,6 @@
           "tickets_sold": 10,
           "time": "06:30 PM",
           "venue": "Davis Theatre"
-        },
-        {
-          "gross": 1200,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Dolby Atmos",
-          "showid": "5867",
-          "tickets_sold": 8,
-          "time": "06:30 PM",
-          "venue": "Girija Theatre"
         },
         {
           "gross": 1050,
@@ -1018,7 +1018,7 @@
         }
       ],
       "shows": 28,
-      "tickets_sold": 203
+      "tickets_sold": 210
     },
     "KHALIFA": {
       "gross": 0,
@@ -1347,10 +1347,30 @@
     "merged_movies": [
       {
         "aliases": [
+          "Toxic: A Fairy Tale for Grown-ups",
+          "Toxic: A Fairy Tale for Grown-ups (telugu)"
+        ],
+        "canonical": "Toxic: A Fairy Tale for Grown-ups"
+      },
+      {
+        "aliases": [
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bethlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
           "KHALIFA",
           "Khalifa"
         ],
-        "canonical": "Khalifa"
+        "canonical": "KHALIFA"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
       },
       {
         "aliases": [
@@ -1361,22 +1381,9 @@
       },
       {
         "aliases": [
-          "Toxic: A Fairy Tale for Grown-ups",
-          "Toxic: A Fairy Tale for Grown-ups (telugu)"
+          "Vishwanath and Sons"
         ],
-        "canonical": "Toxic: A Fairy Tale for Grown-ups"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
+        "canonical": "Vishwanath and Sons"
       },
       {
         "aliases": [
@@ -1389,19 +1396,6 @@
           "Khalifa - The Ruler"
         ],
         "canonical": "Khalifa - The Ruler"
-      },
-      {
-        "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
-        ],
-        "canonical": "Bethlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "Vishwanath and Sons"
-        ],
-        "canonical": "Vishwanath and Sons"
       }
     ]
   }
