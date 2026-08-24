@@ -1,9 +1,9 @@
 {
   "date": "2026-08-30",
-  "last_updated": "2026-08-24T15:24:30.659448+05:30",
+  "last_updated": "2026-08-24T16:11:38.060369+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
-      "gross": 24150,
+      "gross": 24900,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -97,11 +97,20 @@
               "tickets_sold": 3,
               "time": "01:30 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 750,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19437",
+              "tickets_sold": 5,
+              "time": "05:30 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 24150,
-          "shows": 10,
-          "tickets_sold": 161
+          "gross": 24900,
+          "shows": 11,
+          "tickets_sold": 166
         },
         "without_gross": {
           "breakdown": [
@@ -139,15 +148,6 @@
               "showid": "19435",
               "tickets_sold": 0,
               "time": "10:30 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": null,
-              "showid": "19437",
-              "tickets_sold": 0,
-              "time": "05:30 PM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -250,7 +250,7 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 16,
+          "shows": 15,
           "tickets_sold": 0
         }
       },
@@ -337,6 +337,15 @@
           "venue": "Girija Theatre"
         },
         {
+          "gross": 750,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19437",
+          "tickets_sold": 5,
+          "time": "05:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 450,
           "movie": "Bethlehem Kudumba Unit",
           "screen": null,
@@ -379,15 +388,6 @@
           "showid": "19435",
           "tickets_sold": 0,
           "time": "10:30 AM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": null,
-          "showid": "19437",
-          "tickets_sold": 0,
-          "time": "05:30 PM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -491,7 +491,7 @@
         }
       ],
       "shows": 26,
-      "tickets_sold": 161
+      "tickets_sold": 166
     },
     "Bethlehem Kudumba Unit": {
       "gross": 10050,
@@ -1077,12 +1077,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "Vishwanath and Sons"
-        ],
-        "canonical": "Vishwanath and Sons"
-      },
-      {
-        "aliases": [
           "Toxic: A Fairy Tale for Grown-ups",
           "Toxic: A Fairy Tale for Grown-ups (telugu)"
         ],
@@ -1090,16 +1084,15 @@
       },
       {
         "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
+          "Toxic"
         ],
-        "canonical": "Bathlehem Kudumba Unit"
+        "canonical": "Toxic"
       },
       {
         "aliases": [
-          "Khalifa - The Ruler"
+          "Vishwanath and Sons"
         ],
-        "canonical": "Khalifa - The Ruler"
+        "canonical": "Vishwanath and Sons"
       },
       {
         "aliases": [
@@ -1110,6 +1103,18 @@
       },
       {
         "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "Khalifa - The Ruler"
+        ],
+        "canonical": "Khalifa - The Ruler"
+      },
+      {
+        "aliases": [
           "Thudakkam",
           "Thudakkam [M]"
         ],
@@ -1117,15 +1122,10 @@
       },
       {
         "aliases": [
-          "DC"
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
         ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "Toxic"
-        ],
-        "canonical": "Toxic"
+        "canonical": "Bathlehem Kudumba Unit"
       }
     ]
   }
