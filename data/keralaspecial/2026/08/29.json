@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "last_updated": "2026-08-25T01:04:59.229895+05:30",
+  "last_updated": "2026-08-25T02:08:06.135719+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 71700,
@@ -9,21 +9,21 @@
         "with_gross": {
           "breakdown": [
             {
-              "gross": 14700,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": null,
-              "showid": "19433",
-              "tickets_sold": 98,
-              "time": "08:30 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 14850,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
               "showid": "19432",
               "tickets_sold": 99,
               "time": "05:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 14700,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19433",
+              "tickets_sold": 98,
+              "time": "08:30 PM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -530,26 +530,26 @@
       "tickets_sold": 478
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 70650,
+      "gross": 72450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 14850,
+              "gross": 15000,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
               "showid": "19432",
-              "tickets_sold": 99,
+              "tickets_sold": 100,
               "time": "05:30 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 14700,
+              "gross": 16050,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
               "showid": "19433",
-              "tickets_sold": 98,
+              "tickets_sold": 107,
               "time": "08:30 PM",
               "venue": "Puthet Cinemas"
             },
@@ -581,11 +581,11 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 3900,
+              "gross": 4200,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
               "showid": "19431",
-              "tickets_sold": 26,
+              "tickets_sold": 28,
               "time": "01:30 PM",
               "venue": "Puthet Cinemas"
             },
@@ -698,9 +698,9 @@
               "venue": "Davis Theatre"
             }
           ],
-          "gross": 70650,
+          "gross": 72450,
           "shows": 18,
-          "tickets_sold": 471
+          "tickets_sold": 483
         },
         "without_gross": {
           "breakdown": [
@@ -801,21 +801,21 @@
       },
       "show_breakdown": [
         {
-          "gross": 14850,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": null,
-          "showid": "19432",
-          "tickets_sold": 99,
-          "time": "05:30 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 14700,
+          "gross": 16050,
           "movie": "Bethlehem Kudumba Unit",
           "screen": null,
           "showid": "19433",
-          "tickets_sold": 98,
+          "tickets_sold": 107,
           "time": "08:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 15000,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19432",
+          "tickets_sold": 100,
+          "time": "05:30 PM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -846,11 +846,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 3900,
+          "gross": 4200,
           "movie": "Bethlehem Kudumba Unit",
           "screen": null,
           "showid": "19431",
-          "tickets_sold": 26,
+          "tickets_sold": 28,
           "time": "01:30 PM",
           "venue": "Puthet Cinemas"
         },
@@ -1054,7 +1054,7 @@
         }
       ],
       "shows": 28,
-      "tickets_sold": 471
+      "tickets_sold": 483
     },
     "KHALIFA": {
       "gross": 0,
@@ -1383,17 +1383,16 @@
     "merged_movies": [
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
+          "KHALIFA",
+          "Khalifa"
         ],
-        "canonical": "Thudakkam"
+        "canonical": "KHALIFA"
       },
       {
         "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
+          "DC"
         ],
-        "canonical": "Bathlehem Kudumba Unit"
+        "canonical": "DC"
       },
       {
         "aliases": [
@@ -1403,16 +1402,10 @@
       },
       {
         "aliases": [
-          "KHALIFA",
-          "Khalifa"
+          "Thudakkam",
+          "Thudakkam [M]"
         ],
-        "canonical": "KHALIFA"
-      },
-      {
-        "aliases": [
-          "Khalifa - The Ruler"
-        ],
-        "canonical": "Khalifa - The Ruler"
+        "canonical": "Thudakkam"
       },
       {
         "aliases": [
@@ -1423,15 +1416,22 @@
       },
       {
         "aliases": [
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bethlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
           "Toxic"
         ],
         "canonical": "Toxic"
       },
       {
         "aliases": [
-          "DC"
+          "Khalifa - The Ruler"
         ],
-        "canonical": "DC"
+        "canonical": "Khalifa - The Ruler"
       }
     ]
   }
