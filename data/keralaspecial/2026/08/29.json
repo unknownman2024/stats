@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "last_updated": "2026-08-26T03:03:56.095885+05:30",
+  "last_updated": "2026-08-26T04:03:05.002915+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 139200,
@@ -45,15 +45,6 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 11550,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "SCREEN 3",
-              "showid": "3936",
-              "tickets_sold": 77,
-              "time": "05:30 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
               "gross": 11700,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Dolby Atmos",
@@ -61,6 +52,15 @@
               "tickets_sold": 78,
               "time": "09:30 PM",
               "venue": "Girija Theatre"
+            },
+            {
+              "gross": 11550,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "SCREEN 3",
+              "showid": "3936",
+              "tickets_sold": 77,
+              "time": "05:30 PM",
+              "venue": "Fairyland Cinemas"
             },
             {
               "gross": 10200,
@@ -530,7 +530,7 @@
       "tickets_sold": 928
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 134700,
+      "gross": 137100,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -590,11 +590,11 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 9300,
+              "gross": 11700,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Dolby Atmos",
               "showid": "5864",
-              "tickets_sold": 62,
+              "tickets_sold": 78,
               "time": "09:30 PM",
               "venue": "Girija Theatre"
             },
@@ -752,9 +752,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 134700,
+          "gross": 137100,
           "shows": 24,
-          "tickets_sold": 898
+          "tickets_sold": 914
         },
         "without_gross": {
           "breakdown": [
@@ -837,6 +837,15 @@
           "venue": "Puthet Cinemas"
         },
         {
+          "gross": 11700,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Dolby Atmos",
+          "showid": "5864",
+          "tickets_sold": 78,
+          "time": "09:30 PM",
+          "venue": "Girija Theatre"
+        },
+        {
           "gross": 11550,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "SCREEN 3",
@@ -853,15 +862,6 @@
           "tickets_sold": 68,
           "time": "09:00 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 9300,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Dolby Atmos",
-          "showid": "5864",
-          "tickets_sold": 62,
-          "time": "09:30 PM",
-          "venue": "Girija Theatre"
         },
         {
           "gross": 4650,
@@ -1054,7 +1054,7 @@
         }
       ],
       "shows": 28,
-      "tickets_sold": 898
+      "tickets_sold": 914
     },
     "KHALIFA": {
       "gross": 0,
@@ -1383,36 +1383,9 @@
     "merged_movies": [
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
+          "Vishwanath and Sons"
         ],
-        "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "Toxic"
-        ],
-        "canonical": "Toxic"
-      },
-      {
-        "aliases": [
-          "Khalifa - The Ruler"
-        ],
-        "canonical": "Khalifa - The Ruler"
-      },
-      {
-        "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "Khalifa"
-      },
-      {
-        "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
-        ],
-        "canonical": "Bathlehem Kudumba Unit"
+        "canonical": "Vishwanath and Sons"
       },
       {
         "aliases": [
@@ -1430,9 +1403,36 @@
       },
       {
         "aliases": [
-          "Vishwanath and Sons"
+          "Thudakkam",
+          "Thudakkam [M]"
         ],
-        "canonical": "Vishwanath and Sons"
+        "canonical": "Thudakkam"
+      },
+      {
+        "aliases": [
+          "Khalifa - The Ruler"
+        ],
+        "canonical": "Khalifa - The Ruler"
+      },
+      {
+        "aliases": [
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bethlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "Khalifa"
+      },
+      {
+        "aliases": [
+          "Toxic"
+        ],
+        "canonical": "Toxic"
       }
     ]
   }
