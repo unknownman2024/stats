@@ -1,9 +1,9 @@
 {
   "date": "2026-08-29",
-  "last_updated": "2026-08-25T07:07:26.738875+05:30",
+  "last_updated": "2026-08-25T08:33:48.957497+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
-      "gross": 73800,
+      "gross": 74700,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -45,20 +45,20 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 5850,
+              "gross": 6450,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
               "showid": "19430",
-              "tickets_sold": 39,
+              "tickets_sold": 43,
               "time": "10:30 AM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 4500,
+              "gross": 4800,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
               "showid": "19431",
-              "tickets_sold": 30,
+              "tickets_sold": 32,
               "time": "01:30 PM",
               "venue": "Puthet Cinemas"
             },
@@ -171,9 +171,9 @@
               "venue": "Davis Theatre"
             }
           ],
-          "gross": 73800,
+          "gross": 74700,
           "shows": 18,
-          "tickets_sold": 492
+          "tickets_sold": 498
         },
         "without_gross": {
           "breakdown": [
@@ -301,6 +301,15 @@
           "venue": "Fairyland Cinemas"
         },
         {
+          "gross": 6450,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19430",
+          "tickets_sold": 43,
+          "time": "10:30 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 5850,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "SCREEN 3",
@@ -310,20 +319,11 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 5850,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": null,
-          "showid": "19430",
-          "tickets_sold": 39,
-          "time": "10:30 AM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 4500,
+          "gross": 4800,
           "movie": "Bethlehem Kudumba Unit",
           "screen": null,
           "showid": "19431",
-          "tickets_sold": 30,
+          "tickets_sold": 32,
           "time": "01:30 PM",
           "venue": "Puthet Cinemas"
         },
@@ -527,7 +527,7 @@
         }
       ],
       "shows": 28,
-      "tickets_sold": 492
+      "tickets_sold": 498
     },
     "Bethlehem Kudumba Unit": {
       "gross": 72750,
@@ -1383,6 +1383,20 @@
     "merged_movies": [
       {
         "aliases": [
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bathlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
+          "Toxic: A Fairy Tale for Grown-ups",
+          "Toxic: A Fairy Tale for Grown-ups (telugu)"
+        ],
+        "canonical": "Toxic: A Fairy Tale for Grown-ups"
+      },
+      {
+        "aliases": [
           "Thudakkam",
           "Thudakkam [M]"
         ],
@@ -1396,22 +1410,10 @@
       },
       {
         "aliases": [
-          "Khalifa - The Ruler"
+          "KHALIFA",
+          "Khalifa"
         ],
-        "canonical": "Khalifa - The Ruler"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
-        ],
-        "canonical": "Bethlehem Kudumba Unit"
+        "canonical": "Khalifa"
       },
       {
         "aliases": [
@@ -1421,23 +1423,21 @@
       },
       {
         "aliases": [
-          "KHALIFA",
-          "Khalifa"
+          "DC"
         ],
-        "canonical": "Khalifa"
-      },
-      {
-        "aliases": [
-          "Toxic: A Fairy Tale for Grown-ups",
-          "Toxic: A Fairy Tale for Grown-ups (telugu)"
-        ],
-        "canonical": "Toxic: A Fairy Tale for Grown-ups"
+        "canonical": "DC"
       },
       {
         "aliases": [
           "Unknown"
         ],
         "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Khalifa - The Ruler"
+        ],
+        "canonical": "Khalifa - The Ruler"
       }
     ]
   }
