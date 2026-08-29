@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "last_updated": "2026-08-30T03:05:06.361226+05:30",
+  "last_updated": "2026-08-30T05:29:49.017739+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 12000,
@@ -9,39 +9,12 @@
         "with_gross": {
           "breakdown": [
             {
-              "gross": 1200,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Cinema-2",
-              "showid": "22813",
-              "tickets_sold": 8,
-              "time": "06:30 PM",
-              "venue": "Davis Theatre"
-            },
-            {
-              "gross": 1050,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Cinema-2",
-              "showid": "22814",
-              "tickets_sold": 7,
-              "time": "09:45 PM",
-              "venue": "Davis Theatre"
-            },
-            {
               "gross": 2850,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
               "showid": "19491",
               "tickets_sold": 19,
               "time": "05:30 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 1200,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": null,
-              "showid": "19490",
-              "tickets_sold": 8,
-              "time": "01:45 PM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -54,13 +27,31 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 150,
+              "gross": 1200,
               "movie": "Bethlehem Kudumba Unit",
-              "screen": "Aiswarya",
-              "showid": "8652",
-              "tickets_sold": 1,
-              "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
+              "screen": "Cinema-2",
+              "showid": "22813",
+              "tickets_sold": 8,
+              "time": "06:30 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 1200,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19490",
+              "tickets_sold": 8,
+              "time": "01:45 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 1050,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Cinema-2",
+              "showid": "22814",
+              "tickets_sold": 7,
+              "time": "09:45 PM",
+              "venue": "Davis Theatre"
             },
             {
               "gross": 750,
@@ -90,6 +81,15 @@
               "venue": "Aiswarya Cinemas"
             },
             {
+              "gross": 450,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Dolby Atmos",
+              "showid": "5879",
+              "tickets_sold": 3,
+              "time": "06:30 PM",
+              "venue": "Girija Theatre"
+            },
+            {
               "gross": 300,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Dolby Atmos",
@@ -99,13 +99,13 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 450,
+              "gross": 150,
               "movie": "Bethlehem Kudumba Unit",
-              "screen": "Dolby Atmos",
-              "showid": "5879",
-              "tickets_sold": 3,
-              "time": "06:30 PM",
-              "venue": "Girija Theatre"
+              "screen": "Aiswarya",
+              "showid": "8652",
+              "tickets_sold": 1,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
           "gross": 12000,
@@ -1567,16 +1567,29 @@
     "merged_movies": [
       {
         "aliases": [
-          "Khalifa - The Ruler"
+          "Toxic"
         ],
-        "canonical": "Khalifa - The Ruler"
+        "canonical": "Toxic"
+      },
+      {
+        "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "Khalifa"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
       },
       {
         "aliases": [
           "Bathlehem Kudumba Unit",
           "Bethlehem Kudumba Unit"
         ],
-        "canonical": "Bathlehem Kudumba Unit"
+        "canonical": "Bethlehem Kudumba Unit"
       },
       {
         "aliases": [
@@ -1593,16 +1606,15 @@
       },
       {
         "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "Khalifa"
-      },
-      {
-        "aliases": [
           "Vishwanath and Sons"
         ],
         "canonical": "Vishwanath and Sons"
+      },
+      {
+        "aliases": [
+          "Khalifa - The Ruler"
+        ],
+        "canonical": "Khalifa - The Ruler"
       },
       {
         "aliases": [
@@ -1610,18 +1622,6 @@
           "Thudakkam [M]"
         ],
         "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "Toxic"
-        ],
-        "canonical": "Toxic"
       }
     ]
   }

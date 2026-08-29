@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "last_updated": "2026-08-30T03:05:06.358673+05:30",
+  "last_updated": "2026-08-30T05:29:49.015174+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 42750,
@@ -36,6 +36,15 @@
               "venue": "Puthet Cinemas"
             },
             {
+              "gross": 3600,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19484",
+              "tickets_sold": 24,
+              "time": "10:30 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
               "gross": 2850,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Cinema-2",
@@ -45,13 +54,13 @@
               "venue": "Davis Theatre"
             },
             {
-              "gross": 3600,
+              "gross": 2400,
               "movie": "Bethlehem Kudumba Unit",
-              "screen": null,
-              "showid": "19484",
-              "tickets_sold": 24,
-              "time": "10:30 AM",
-              "venue": "Puthet Cinemas"
+              "screen": "Dolby Atmos",
+              "showid": "5875",
+              "tickets_sold": 16,
+              "time": "06:30 PM",
+              "venue": "Girija Theatre"
             },
             {
               "gross": 2250,
@@ -72,22 +81,13 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 2400,
+              "gross": 1500,
               "movie": "Bethlehem Kudumba Unit",
-              "screen": "Dolby Atmos",
-              "showid": "5875",
-              "tickets_sold": 16,
-              "time": "06:30 PM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 900,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Dolby Atmos",
-              "showid": "5876",
-              "tickets_sold": 6,
-              "time": "09:30 PM",
-              "venue": "Girija Theatre"
+              "screen": "SCREEN 1",
+              "showid": "4032",
+              "tickets_sold": 10,
+              "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
             },
             {
               "gross": 1050,
@@ -99,13 +99,13 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 1500,
+              "gross": 900,
               "movie": "Bethlehem Kudumba Unit",
-              "screen": "SCREEN 1",
-              "showid": "4032",
-              "tickets_sold": 10,
-              "time": "06:00 PM",
-              "venue": "Fairyland Cinemas"
+              "screen": "Dolby Atmos",
+              "showid": "5876",
+              "tickets_sold": 6,
+              "time": "09:30 PM",
+              "venue": "Girija Theatre"
             }
           ],
           "gross": 42750,
@@ -476,7 +476,7 @@
       "tickets_sold": 285
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 42300,
+      "gross": 42750,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -509,11 +509,11 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 3150,
+              "gross": 3600,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
               "showid": "19485",
-              "tickets_sold": 21,
+              "tickets_sold": 24,
               "time": "01:45 PM",
               "venue": "Puthet Cinemas"
             },
@@ -581,9 +581,9 @@
               "venue": "Girija Theatre"
             }
           ],
-          "gross": 42300,
+          "gross": 42750,
           "shows": 11,
-          "tickets_sold": 282
+          "tickets_sold": 285
         },
         "without_gross": {
           "breakdown": [
@@ -747,11 +747,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 3150,
+          "gross": 3600,
           "movie": "Bethlehem Kudumba Unit",
           "screen": null,
           "showid": "19485",
-          "tickets_sold": 21,
+          "tickets_sold": 24,
           "time": "01:45 PM",
           "venue": "Puthet Cinemas"
         },
@@ -946,7 +946,7 @@
         }
       ],
       "shows": 25,
-      "tickets_sold": 282
+      "tickets_sold": 285
     },
     "KHALIFA": {
       "gross": 0,
@@ -1568,16 +1568,29 @@
     "merged_movies": [
       {
         "aliases": [
-          "Khalifa - The Ruler"
+          "Toxic"
         ],
-        "canonical": "Khalifa - The Ruler"
+        "canonical": "Toxic"
+      },
+      {
+        "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "Khalifa"
+      },
+      {
+        "aliases": [
+          "DC"
+        ],
+        "canonical": "DC"
       },
       {
         "aliases": [
           "Bathlehem Kudumba Unit",
           "Bethlehem Kudumba Unit"
         ],
-        "canonical": "Bathlehem Kudumba Unit"
+        "canonical": "Bethlehem Kudumba Unit"
       },
       {
         "aliases": [
@@ -1594,16 +1607,15 @@
       },
       {
         "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "Khalifa"
-      },
-      {
-        "aliases": [
           "Vishwanath and Sons"
         ],
         "canonical": "Vishwanath and Sons"
+      },
+      {
+        "aliases": [
+          "Khalifa - The Ruler"
+        ],
+        "canonical": "Khalifa - The Ruler"
       },
       {
         "aliases": [
@@ -1611,18 +1623,6 @@
           "Thudakkam [M]"
         ],
         "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "Toxic"
-        ],
-        "canonical": "Toxic"
       }
     ]
   }
