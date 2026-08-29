@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "last_updated": "2026-08-29T19:48:35.174199+05:30",
+  "last_updated": "2026-08-29T23:45:36.760204+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 0,
@@ -61,14 +61,24 @@
       "tickets_sold": 0
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 0,
+      "gross": 750,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 750,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Aiswarya",
+              "showid": "8663",
+              "tickets_sold": 5,
+              "time": "08:45 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 750,
+          "shows": 1,
+          "tickets_sold": 5
         },
         "without_gross": {
           "breakdown": [
@@ -80,22 +90,22 @@
               "tickets_sold": 0,
               "time": "05:30 PM",
               "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Aiswarya",
-              "showid": "8663",
-              "tickets_sold": 0,
-              "time": "08:45 PM",
-              "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 2,
+          "shows": 1,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 750,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Aiswarya",
+          "showid": "8663",
+          "tickets_sold": 5,
+          "time": "08:45 PM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
@@ -104,41 +114,20 @@
           "tickets_sold": 0,
           "time": "05:30 PM",
           "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Aiswarya",
-          "showid": "8663",
-          "tickets_sold": 0,
-          "time": "08:45 PM",
-          "venue": "Aiswarya Cinemas"
         }
       ],
       "shows": 2,
-      "tickets_sold": 0
+      "tickets_sold": 5
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "Vishwanath and Sons"
-        ],
-        "canonical": "Vishwanath and Sons"
-      },
-      {
-        "aliases": [
-          "Khalifa - The Ruler"
-        ],
-        "canonical": "Khalifa - The Ruler"
-      },
-      {
-        "aliases": [
           "KHALIFA",
           "Khalifa"
         ],
-        "canonical": "KHALIFA"
+        "canonical": "Khalifa"
       },
       {
         "aliases": [
@@ -156,15 +145,21 @@
       },
       {
         "aliases": [
-          "Toxic: A Fairy Tale for Grown-ups"
+          "Vishwanath and Sons"
         ],
-        "canonical": "Toxic: A Fairy Tale for Grown-ups"
+        "canonical": "Vishwanath and Sons"
       },
       {
         "aliases": [
           "Toxic"
         ],
         "canonical": "Toxic"
+      },
+      {
+        "aliases": [
+          "Toxic: A Fairy Tale for Grown-ups"
+        ],
+        "canonical": "Toxic: A Fairy Tale for Grown-ups"
       }
     ]
   }
