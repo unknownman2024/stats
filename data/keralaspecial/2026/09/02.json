@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "last_updated": "2026-08-31T04:05:27.409197+05:30",
+  "last_updated": "2026-08-31T06:47:03.674377+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 12000,
@@ -476,7 +476,7 @@
       "tickets_sold": 80
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 41400,
+      "gross": 42300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -509,11 +509,11 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 2550,
+              "gross": 3450,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Screen-1",
               "showid": "8706",
-              "tickets_sold": 17,
+              "tickets_sold": 23,
               "time": "07:30 PM",
               "venue": "Aiswarya Cinemas"
             },
@@ -635,9 +635,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 41400,
+          "gross": 42300,
           "shows": 17,
-          "tickets_sold": 276
+          "tickets_sold": 282
         },
         "without_gross": {
           "breakdown": [
@@ -738,6 +738,15 @@
           "venue": "Puthet Cinemas"
         },
         {
+          "gross": 3450,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Screen-1",
+          "showid": "8706",
+          "tickets_sold": 23,
+          "time": "07:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
           "gross": 3000,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Dolby Atmos",
@@ -745,15 +754,6 @@
           "tickets_sold": 20,
           "time": "06:30 PM",
           "venue": "Girija Theatre"
-        },
-        {
-          "gross": 2550,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Screen-1",
-          "showid": "8706",
-          "tickets_sold": 17,
-          "time": "07:30 PM",
-          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 2250,
@@ -946,7 +946,7 @@
         }
       ],
       "shows": 25,
-      "tickets_sold": 276
+      "tickets_sold": 282
     },
     "KHALIFA": {
       "gross": 0,
@@ -1567,17 +1567,9 @@
     "merged_movies": [
       {
         "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
+          "Unknown"
         ],
-        "canonical": "Bethlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "KHALIFA",
-          "Khalifa"
-        ],
-        "canonical": "Khalifa"
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -1585,6 +1577,20 @@
           "Toxic: A Fairy Tale for Grown-ups"
         ],
         "canonical": "Toxic: A Fairy Tale for Grown-ups"
+      },
+      {
+        "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "KHALIFA"
+      },
+      {
+        "aliases": [
+          "Thudakkam",
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam"
       },
       {
         "aliases": [
@@ -1600,28 +1606,22 @@
       },
       {
         "aliases": [
-          "Khalifa - The Ruler"
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
         ],
-        "canonical": "Khalifa - The Ruler"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
+        "canonical": "Bethlehem Kudumba Unit"
       },
       {
         "aliases": [
           "DC"
         ],
         "canonical": "DC"
+      },
+      {
+        "aliases": [
+          "Khalifa - The Ruler"
+        ],
+        "canonical": "Khalifa - The Ruler"
       }
     ]
   }
