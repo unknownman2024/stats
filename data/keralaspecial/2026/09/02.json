@@ -1,9 +1,9 @@
 {
   "date": "2026-09-02",
-  "last_updated": "2026-09-01T03:22:18.184508+05:30",
+  "last_updated": "2026-09-01T06:39:23.585932+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
-      "gross": 118800,
+      "gross": 119100,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -45,15 +45,6 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 7650,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Dolby Atmos",
-              "showid": "5880",
-              "tickets_sold": 51,
-              "time": "09:30 PM",
-              "venue": "Girija Theatre"
-            },
-            {
               "gross": 7950,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
@@ -61,6 +52,15 @@
               "tickets_sold": 53,
               "time": "06:00 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 7650,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Dolby Atmos",
+              "showid": "5880",
+              "tickets_sold": 51,
+              "time": "09:30 PM",
+              "venue": "Girija Theatre"
             },
             {
               "gross": 6750,
@@ -135,21 +135,21 @@
               "venue": "Aiswarya Cinemas"
             },
             {
+              "gross": 2400,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Cinema-1",
+              "showid": "22833",
+              "tickets_sold": 16,
+              "time": "06:30 PM",
+              "venue": "Davis Theatre"
+            },
+            {
               "gross": 1800,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Cinema-1",
               "showid": "22834",
               "tickets_sold": 12,
               "time": "09:45 PM",
-              "venue": "Davis Theatre"
-            },
-            {
-              "gross": 2100,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Cinema-1",
-              "showid": "22833",
-              "tickets_sold": 14,
-              "time": "06:30 PM",
               "venue": "Davis Theatre"
             },
             {
@@ -198,15 +198,6 @@
               "venue": "Davis Theatre"
             },
             {
-              "gross": 750,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Screen-1",
-              "showid": "8704",
-              "tickets_sold": 5,
-              "time": "01:30 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
               "gross": 1050,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "SCREEN 1",
@@ -214,6 +205,15 @@
               "tickets_sold": 7,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 750,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Screen-1",
+              "showid": "8704",
+              "tickets_sold": 5,
+              "time": "01:30 PM",
+              "venue": "Aiswarya Cinemas"
             },
             {
               "gross": 750,
@@ -243,9 +243,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 118800,
+          "gross": 119100,
           "shows": 26,
-          "tickets_sold": 792
+          "tickets_sold": 794
         },
         "without_gross": {
           "breakdown": [
@@ -409,6 +409,15 @@
           "venue": "Davis Theatre"
         },
         {
+          "gross": 2400,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Cinema-1",
+          "showid": "22833",
+          "tickets_sold": 16,
+          "time": "06:30 PM",
+          "venue": "Davis Theatre"
+        },
+        {
           "gross": 2250,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Aiswarya",
@@ -416,15 +425,6 @@
           "tickets_sold": 15,
           "time": "02:15 PM",
           "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 2100,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Cinema-1",
-          "showid": "22833",
-          "tickets_sold": 14,
-          "time": "06:30 PM",
-          "venue": "Davis Theatre"
         },
         {
           "gross": 1800,
@@ -563,7 +563,7 @@
         }
       ],
       "shows": 30,
-      "tickets_sold": 792
+      "tickets_sold": 794
     },
     "Bethlehem Kudumba Unit": {
       "gross": 42300,
@@ -1699,22 +1699,16 @@
     "merged_movies": [
       {
         "aliases": [
-          "DC"
+          "KHALIFA",
+          "Khalifa"
         ],
-        "canonical": "DC"
+        "canonical": "Khalifa"
       },
       {
         "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
+          "Unknown"
         ],
-        "canonical": "Bathlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "Khalifa - The Ruler"
-        ],
-        "canonical": "Khalifa - The Ruler"
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -1725,6 +1719,12 @@
       },
       {
         "aliases": [
+          "Khalifa - The Ruler"
+        ],
+        "canonical": "Khalifa - The Ruler"
+      },
+      {
+        "aliases": [
           "Thudakkam",
           "Thudakkam [M]"
         ],
@@ -1732,10 +1732,16 @@
       },
       {
         "aliases": [
-          "KHALIFA",
-          "Khalifa"
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
         ],
-        "canonical": "KHALIFA"
+        "canonical": "Bathlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
+          "Toxic"
+        ],
+        "canonical": "Toxic"
       },
       {
         "aliases": [
@@ -1745,15 +1751,9 @@
       },
       {
         "aliases": [
-          "Unknown"
+          "DC"
         ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Toxic"
-        ],
-        "canonical": "Toxic"
+        "canonical": "DC"
       }
     ]
   }
