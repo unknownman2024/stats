@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "last_updated": "2026-09-01T06:39:23.590074+05:30",
+  "last_updated": "2026-09-01T13:06:14.956643+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 9000,
@@ -95,35 +95,109 @@
       ],
       "shows": 4,
       "tickets_sold": 60
+    },
+    "Bethlehem Kudumba Unit": {
+      "gross": 11550,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [
+            {
+              "gross": 1800,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Dolby Atmos",
+              "showid": "5893",
+              "tickets_sold": 12,
+              "time": "12:00 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 4650,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Dolby Atmos",
+              "showid": "5894",
+              "tickets_sold": 31,
+              "time": "03:00 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 4050,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Dolby Atmos",
+              "showid": "5895",
+              "tickets_sold": 27,
+              "time": "06:30 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 1050,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Dolby Atmos",
+              "showid": "5896",
+              "tickets_sold": 7,
+              "time": "09:30 PM",
+              "venue": "Girija Theatre"
+            }
+          ],
+          "gross": 11550,
+          "shows": 4,
+          "tickets_sold": 77
+        },
+        "without_gross": {
+          "breakdown": [],
+          "shows": 0,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 4650,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Dolby Atmos",
+          "showid": "5894",
+          "tickets_sold": 31,
+          "time": "03:00 PM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 4050,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Dolby Atmos",
+          "showid": "5895",
+          "tickets_sold": 27,
+          "time": "06:30 PM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 1800,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Dolby Atmos",
+          "showid": "5893",
+          "tickets_sold": 12,
+          "time": "12:00 PM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 1050,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Dolby Atmos",
+          "showid": "5896",
+          "tickets_sold": 7,
+          "time": "09:30 PM",
+          "venue": "Girija Theatre"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 77
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "KHALIFA",
-          "Khalifa"
+          "Toxic"
         ],
-        "canonical": "Khalifa"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "TOXIC : A Fairy Tale For Grown-ups",
-          "Toxic: A Fairy Tale for Grown-ups"
-        ],
-        "canonical": "Toxic: A Fairy Tale for Grown-ups"
-      },
-      {
-        "aliases": [
-          "Khalifa - The Ruler"
-        ],
-        "canonical": "Khalifa - The Ruler"
+        "canonical": "Toxic"
       },
       {
         "aliases": [
@@ -134,16 +208,35 @@
       },
       {
         "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
+          "DC"
         ],
-        "canonical": "Bathlehem Kudumba Unit"
+        "canonical": "DC"
       },
       {
         "aliases": [
-          "Toxic"
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
         ],
-        "canonical": "Toxic"
+        "canonical": "Bethlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "Khalifa"
+      },
+      {
+        "aliases": [
+          "Khalifa - The Ruler"
+        ],
+        "canonical": "Khalifa - The Ruler"
+      },
+      {
+        "aliases": [
+          "Toxic: A Fairy Tale for Grown-ups"
+        ],
+        "canonical": "Toxic: A Fairy Tale for Grown-ups"
       },
       {
         "aliases": [
@@ -153,9 +246,9 @@
       },
       {
         "aliases": [
-          "DC"
+          "Unknown"
         ],
-        "canonical": "DC"
+        "canonical": "Unknown"
       }
     ]
   }
