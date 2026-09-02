@@ -1,9 +1,9 @@
 {
   "date": "2026-09-05",
-  "last_updated": "2026-09-02T14:12:34.228214+05:30",
+  "last_updated": "2026-09-02T18:58:58.954705+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
-      "gross": 25200,
+      "gross": 27450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -27,11 +27,11 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 3000,
+              "gross": 3750,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Cinema-2",
               "showid": "22853",
-              "tickets_sold": 20,
+              "tickets_sold": 25,
               "time": "09:45 PM",
               "venue": "Davis Theatre"
             },
@@ -88,23 +88,32 @@
               "tickets_sold": 4,
               "time": "05:30 PM",
               "venue": "Aiswarya Cinemas"
-            }
-          ],
-          "gross": 25200,
-          "shows": 9,
-          "tickets_sold": 168
-        },
-        "without_gross": {
-          "breakdown": [
+            },
             {
-              "gross": 0,
+              "gross": 300,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Aiswarya",
               "showid": "8739",
-              "tickets_sold": 0,
+              "tickets_sold": 2,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
             },
+            {
+              "gross": 1200,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Aiswarya",
+              "showid": "8742",
+              "tickets_sold": 8,
+              "time": "09:00 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 27450,
+          "shows": 11,
+          "tickets_sold": 183
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "Bethlehem Kudumba Unit",
@@ -113,18 +122,9 @@
               "tickets_sold": 0,
               "time": "02:15 PM",
               "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Aiswarya",
-              "showid": "8742",
-              "tickets_sold": 0,
-              "time": "09:00 PM",
-              "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 3,
+          "shows": 1,
           "tickets_sold": 0
         }
       },
@@ -148,11 +148,11 @@
           "venue": "Girija Theatre"
         },
         {
-          "gross": 3000,
+          "gross": 3750,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Cinema-2",
           "showid": "22853",
-          "tickets_sold": 20,
+          "tickets_sold": 25,
           "time": "09:45 PM",
           "venue": "Davis Theatre"
         },
@@ -193,6 +193,15 @@
           "venue": "Davis Theatre"
         },
         {
+          "gross": 1200,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Aiswarya",
+          "showid": "8742",
+          "tickets_sold": 8,
+          "time": "09:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
           "gross": 900,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Dolby Atmos",
@@ -211,11 +220,11 @@
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 0,
+          "gross": 300,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Aiswarya",
           "showid": "8739",
-          "tickets_sold": 0,
+          "tickets_sold": 2,
           "time": "11:00 AM",
           "venue": "Aiswarya Cinemas"
         },
@@ -227,19 +236,10 @@
           "tickets_sold": 0,
           "time": "02:15 PM",
           "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Aiswarya",
-          "showid": "8742",
-          "tickets_sold": 0,
-          "time": "09:00 PM",
-          "venue": "Aiswarya Cinemas"
         }
       ],
       "shows": 12,
-      "tickets_sold": 168
+      "tickets_sold": 183
     },
     "Bethlehem Kudumba Unit": {
       "gross": 26250,
@@ -320,21 +320,21 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 300,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Aiswarya",
-              "showid": "8739",
-              "tickets_sold": 2,
-              "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
               "gross": 600,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Aiswarya",
               "showid": "8741",
               "tickets_sold": 4,
               "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Aiswarya",
+              "showid": "8739",
+              "tickets_sold": 2,
+              "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
             }
           ],
@@ -580,6 +580,26 @@
     "merged_movies": [
       {
         "aliases": [
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bathlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
+          "KHALIFA",
+          "Khalifa"
+        ],
+        "canonical": "Khalifa"
+      },
+      {
+        "aliases": [
+          "Thudakkam"
+        ],
+        "canonical": "Thudakkam"
+      },
+      {
+        "aliases": [
           "I AM GAME",
           "I Am Game",
           "I M Game",
@@ -589,16 +609,9 @@
       },
       {
         "aliases": [
-          "KHALIFA",
-          "Khalifa"
+          "Vishwanath and Sons"
         ],
-        "canonical": "KHALIFA"
-      },
-      {
-        "aliases": [
-          "Toxic"
-        ],
-        "canonical": "Toxic"
+        "canonical": "Vishwanath and Sons"
       },
       {
         "aliases": [
@@ -608,29 +621,9 @@
       },
       {
         "aliases": [
-          "Vishwanath and Sons"
+          "Toxic"
         ],
-        "canonical": "Vishwanath and Sons"
-      },
-      {
-        "aliases": [
-          "DC"
-        ],
-        "canonical": "DC"
-      },
-      {
-        "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
-        ],
-        "canonical": "Bethlehem Kudumba Unit"
+        "canonical": "Toxic"
       }
     ]
   }
