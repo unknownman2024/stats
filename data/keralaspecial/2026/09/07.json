@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "last_updated": "2026-09-03T18:57:25.276095+05:30",
+  "last_updated": "2026-09-03T23:14:08.822028+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 900,
@@ -170,7 +170,7 @@
       "tickets_sold": 6
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 900,
+      "gross": 1650,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -183,11 +183,20 @@
               "tickets_sold": 6,
               "time": "09:30 PM",
               "venue": "Girija Theatre"
+            },
+            {
+              "gross": 750,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "SCREEN 3",
+              "showid": "4104",
+              "tickets_sold": 5,
+              "time": "05:45 PM",
+              "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 900,
-          "shows": 1,
-          "tickets_sold": 6
+          "gross": 1650,
+          "shows": 2,
+          "tickets_sold": 11
         },
         "without_gross": {
           "breakdown": [
@@ -240,15 +249,6 @@
               "gross": 0,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "SCREEN 3",
-              "showid": "4104",
-              "tickets_sold": 0,
-              "time": "05:45 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "SCREEN 3",
               "showid": "4105",
               "tickets_sold": 0,
               "time": "09:30 PM",
@@ -291,7 +291,7 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 11,
+          "shows": 10,
           "tickets_sold": 0
         }
       },
@@ -304,6 +304,15 @@
           "tickets_sold": 6,
           "time": "09:30 PM",
           "venue": "Girija Theatre"
+        },
+        {
+          "gross": 750,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "SCREEN 3",
+          "showid": "4104",
+          "tickets_sold": 5,
+          "time": "05:45 PM",
+          "venue": "Fairyland Cinemas"
         },
         {
           "gross": 0,
@@ -354,15 +363,6 @@
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "SCREEN 3",
-          "showid": "4104",
-          "tickets_sold": 0,
-          "time": "05:45 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "SCREEN 3",
           "showid": "4105",
           "tickets_sold": 0,
           "time": "09:30 PM",
@@ -406,38 +406,26 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 6
+      "tickets_sold": 11
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
+          "Thudakkam",
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam"
+      },
+      {
+        "aliases": [
           "I AM GAME",
           "I Am Game",
           "I M Game",
-          "I am Game",
-          "I'm Game"
+          "I am Game"
         ],
         "canonical": "I M Game"
-      },
-      {
-        "aliases": [
-          "Khalifa"
-        ],
-        "canonical": "Khalifa"
-      },
-      {
-        "aliases": [
-          "Khalifa - The Ruler"
-        ],
-        "canonical": "Khalifa - The Ruler"
-      },
-      {
-        "aliases": [
-          "Immortal"
-        ],
-        "canonical": "Immortal"
       },
       {
         "aliases": [
@@ -448,16 +436,21 @@
       },
       {
         "aliases": [
-          "Vishwanath and Sons"
+          "Khalifa"
         ],
-        "canonical": "Vishwanath and Sons"
+        "canonical": "Khalifa"
       },
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
+          "Immortal"
         ],
-        "canonical": "Thudakkam"
+        "canonical": "Immortal"
+      },
+      {
+        "aliases": [
+          "Vishwanath and Sons"
+        ],
+        "canonical": "Vishwanath and Sons"
       }
     ]
   }
