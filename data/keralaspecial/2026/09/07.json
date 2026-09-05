@@ -1,9 +1,9 @@
 {
   "date": "2026-09-07",
-  "last_updated": "2026-09-05T06:18:14.272502+05:30",
+  "last_updated": "2026-09-05T10:59:11.936073+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
-      "gross": 17550,
+      "gross": 21000,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -45,11 +45,11 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 1950,
+              "gross": 3300,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
               "showid": "19613",
-              "tickets_sold": 13,
+              "tickets_sold": 22,
               "time": "08:45 PM",
               "venue": "Puthet Cinemas"
             },
@@ -79,11 +79,29 @@
               "tickets_sold": 2,
               "time": "01:45 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 900,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Dolby Atmos",
+              "showid": "5899",
+              "tickets_sold": 6,
+              "time": "06:30 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 1200,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "SCREEN 3",
+              "showid": "4105",
+              "tickets_sold": 8,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 17550,
-          "shows": 8,
-          "tickets_sold": 117
+          "gross": 21000,
+          "shows": 10,
+          "tickets_sold": 140
         },
         "without_gross": {
           "breakdown": [
@@ -108,15 +126,6 @@
             {
               "gross": 0,
               "movie": "Bethlehem Kudumba Unit",
-              "screen": "Dolby Atmos",
-              "showid": "5899",
-              "tickets_sold": 0,
-              "time": "06:30 PM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
               "screen": "SCREEN 3",
               "showid": "4102",
               "tickets_sold": 0,
@@ -130,15 +139,6 @@
               "showid": "4103",
               "tickets_sold": 0,
               "time": "02:00 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "SCREEN 3",
-              "showid": "4105",
-              "tickets_sold": 0,
-              "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
             },
             {
@@ -205,7 +205,7 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 13,
+          "shows": 11,
           "tickets_sold": 0
         }
       },
@@ -229,6 +229,15 @@
           "venue": "Puthet Cinemas"
         },
         {
+          "gross": 3300,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19613",
+          "tickets_sold": 22,
+          "time": "08:45 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 2700,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "SCREEN 3",
@@ -247,13 +256,22 @@
           "venue": "Girija Theatre"
         },
         {
-          "gross": 1950,
+          "gross": 1200,
           "movie": "Bethlehem Kudumba Unit",
-          "screen": null,
-          "showid": "19613",
-          "tickets_sold": 13,
-          "time": "08:45 PM",
-          "venue": "Puthet Cinemas"
+          "screen": "SCREEN 3",
+          "showid": "4105",
+          "tickets_sold": 8,
+          "time": "09:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 900,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Dolby Atmos",
+          "showid": "5899",
+          "tickets_sold": 6,
+          "time": "06:30 PM",
+          "venue": "Girija Theatre"
         },
         {
           "gross": 600,
@@ -303,15 +321,6 @@
         {
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
-          "screen": "Dolby Atmos",
-          "showid": "5899",
-          "tickets_sold": 0,
-          "time": "06:30 PM",
-          "venue": "Girija Theatre"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
           "screen": "SCREEN 3",
           "showid": "4102",
           "tickets_sold": 0,
@@ -325,15 +334,6 @@
           "showid": "4103",
           "tickets_sold": 0,
           "time": "02:00 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "SCREEN 3",
-          "showid": "4105",
-          "tickets_sold": 0,
-          "time": "09:30 PM",
           "venue": "Fairyland Cinemas"
         },
         {
@@ -401,7 +401,7 @@
         }
       ],
       "shows": 21,
-      "tickets_sold": 117
+      "tickets_sold": 140
     },
     "Bethlehem Kudumba Unit": {
       "gross": 16950,
@@ -917,14 +917,33 @@
       "tickets_sold": 0
     },
     "I'm Game": {
-      "gross": 0,
+      "gross": 2400,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 1650,
+              "movie": "I M Game",
+              "screen": null,
+              "showid": "19616",
+              "tickets_sold": 11,
+              "time": "06:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 750,
+              "movie": "I M Game",
+              "screen": null,
+              "showid": "19617",
+              "tickets_sold": 5,
+              "time": "09:30 PM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "gross": 2400,
+          "shows": 2,
+          "tickets_sold": 16
         },
         "without_gross": {
           "breakdown": [
@@ -948,24 +967,6 @@
             },
             {
               "gross": 0,
-              "movie": "I M Game",
-              "screen": null,
-              "showid": "19616",
-              "tickets_sold": 0,
-              "time": "06:00 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "I M Game",
-              "screen": null,
-              "showid": "19617",
-              "tickets_sold": 0,
-              "time": "09:30 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
               "movie": "I AM GAME",
               "screen": "Screen-2",
               "showid": "8861",
@@ -983,11 +984,29 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 6,
+          "shows": 4,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1650,
+          "movie": "I M Game",
+          "screen": null,
+          "showid": "19616",
+          "tickets_sold": 11,
+          "time": "06:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 750,
+          "movie": "I M Game",
+          "screen": null,
+          "showid": "19617",
+          "tickets_sold": 5,
+          "time": "09:30 PM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 0,
           "movie": "I M Game",
@@ -1004,24 +1023,6 @@
           "showid": "19615",
           "tickets_sold": 0,
           "time": "02:30 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "I M Game",
-          "screen": null,
-          "showid": "19616",
-          "tickets_sold": 0,
-          "time": "06:00 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "I M Game",
-          "screen": null,
-          "showid": "19617",
-          "tickets_sold": 0,
-          "time": "09:30 PM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -1044,11 +1045,30 @@
         }
       ],
       "shows": 6,
-      "tickets_sold": 0
+      "tickets_sold": 16
     }
   },
   "verification": {
     "merged_movies": [
+      {
+        "aliases": [
+          "Mirzapur: The Movie"
+        ],
+        "canonical": "Mirzapur: The Movie"
+      },
+      {
+        "aliases": [
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bathlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
+          "Immortal"
+        ],
+        "canonical": "Immortal"
+      },
       {
         "aliases": [
           "I AM GAME",
@@ -1058,6 +1078,18 @@
           "I'm Game"
         ],
         "canonical": "I'm Game"
+      },
+      {
+        "aliases": [
+          "Khalifa"
+        ],
+        "canonical": "Khalifa"
+      },
+      {
+        "aliases": [
+          "Vishwanath and Sons"
+        ],
+        "canonical": "Vishwanath and Sons"
       },
       {
         "aliases": [
@@ -1073,41 +1105,10 @@
       },
       {
         "aliases": [
-          "Khalifa"
-        ],
-        "canonical": "Khalifa"
-      },
-      {
-        "aliases": [
           "Thudakkam",
           "Thudakkam [M]"
         ],
         "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "Mirzapur: The Movie"
-        ],
-        "canonical": "Mirzapur: The Movie"
-      },
-      {
-        "aliases": [
-          "Vishwanath and Sons"
-        ],
-        "canonical": "Vishwanath and Sons"
-      },
-      {
-        "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
-        ],
-        "canonical": "Bathlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "Immortal"
-        ],
-        "canonical": "Immortal"
       }
     ]
   }
