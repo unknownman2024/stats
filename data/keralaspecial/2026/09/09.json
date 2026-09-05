@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "last_updated": "2026-09-05T19:18:14.083900+05:30",
+  "last_updated": "2026-09-05T22:11:42.388712+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 0,
@@ -817,9 +817,45 @@
               "tickets_sold": 0,
               "time": "09:00 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "I M Game",
+              "screen": null,
+              "showid": "19622",
+              "tickets_sold": 0,
+              "time": "10:30 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "I M Game",
+              "screen": null,
+              "showid": "19631",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "I M Game",
+              "screen": null,
+              "showid": "19632",
+              "tickets_sold": 0,
+              "time": "06:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "I M Game",
+              "screen": null,
+              "showid": "19633",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 6,
+          "shows": 10,
           "tickets_sold": 0
         }
       },
@@ -877,21 +913,126 @@
           "tickets_sold": 0,
           "time": "09:00 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "I M Game",
+          "screen": null,
+          "showid": "19622",
+          "tickets_sold": 0,
+          "time": "10:30 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "I M Game",
+          "screen": null,
+          "showid": "19631",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "I M Game",
+          "screen": null,
+          "showid": "19632",
+          "tickets_sold": 0,
+          "time": "06:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "I M Game",
+          "screen": null,
+          "showid": "19633",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Puthet Cinemas"
         }
       ],
-      "shows": 6,
+      "shows": 10,
+      "tickets_sold": 0
+    },
+    "Khalifa": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Khalifa",
+              "screen": "SCREEN 4",
+              "showid": "4137",
+              "tickets_sold": 0,
+              "time": "02:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Khalifa",
+              "screen": "SCREEN 4",
+              "showid": "4138",
+              "tickets_sold": 0,
+              "time": "05:45 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Khalifa",
+              "screen": "SCREEN 4",
+              "showid": "4139",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "shows": 3,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Khalifa",
+          "screen": "SCREEN 4",
+          "showid": "4137",
+          "tickets_sold": 0,
+          "time": "02:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Khalifa",
+          "screen": "SCREEN 4",
+          "showid": "4138",
+          "tickets_sold": 0,
+          "time": "05:45 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Khalifa",
+          "screen": "SCREEN 4",
+          "showid": "4139",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Fairyland Cinemas"
+        }
+      ],
+      "shows": 3,
       "tickets_sold": 0
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
-      },
       {
         "aliases": [
           "Bathlehem Kudumba Unit",
@@ -901,13 +1042,16 @@
       },
       {
         "aliases": [
-          "I AM GAME",
-          "I Am Game",
-          "I M Game",
-          "I am Game",
-          "I'm Game"
+          "Khalifa"
         ],
-        "canonical": "I M Game"
+        "canonical": "Khalifa"
+      },
+      {
+        "aliases": [
+          "Thudakkam",
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam"
       },
       {
         "aliases": [
@@ -917,15 +1061,13 @@
       },
       {
         "aliases": [
-          "Khalifa"
+          "I AM GAME",
+          "I Am Game",
+          "I M Game",
+          "I am Game",
+          "I'm Game"
         ],
-        "canonical": "Khalifa"
-      },
-      {
-        "aliases": [
-          "Immortal"
-        ],
-        "canonical": "Immortal"
+        "canonical": "I'm Game"
       },
       {
         "aliases": [
@@ -935,9 +1077,9 @@
       },
       {
         "aliases": [
-          "Khalifa - The Ruler"
+          "Immortal"
         ],
-        "canonical": "Khalifa - The Ruler"
+        "canonical": "Immortal"
       }
     ]
   }
