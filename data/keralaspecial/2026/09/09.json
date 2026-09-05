@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "last_updated": "2026-09-05T22:11:42.388712+05:30",
+  "last_updated": "2026-09-06T00:25:34.523497+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 0,
@@ -241,14 +241,24 @@
       "tickets_sold": 0
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 0,
+      "gross": 450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 450,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19623",
+              "tickets_sold": 3,
+              "time": "01:45 PM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "gross": 450,
+          "shows": 1,
+          "tickets_sold": 3
         },
         "without_gross": {
           "breakdown": [
@@ -373,15 +383,6 @@
               "gross": 0,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
-              "showid": "19623",
-              "tickets_sold": 0,
-              "time": "01:45 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": null,
               "showid": "19624",
               "tickets_sold": 0,
               "time": "05:30 PM",
@@ -397,11 +398,20 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 16,
+          "shows": 15,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 450,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19623",
+          "tickets_sold": 3,
+          "time": "01:45 PM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
@@ -523,15 +533,6 @@
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
           "screen": null,
-          "showid": "19623",
-          "tickets_sold": 0,
-          "time": "01:45 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": null,
           "showid": "19624",
           "tickets_sold": 0,
           "time": "05:30 PM",
@@ -548,7 +549,7 @@
         }
       ],
       "shows": 16,
-      "tickets_sold": 0
+      "tickets_sold": 3
     },
     "I M Game": {
       "gross": 0,
@@ -1042,9 +1043,19 @@
       },
       {
         "aliases": [
-          "Khalifa"
+          "Khalifa - The Ruler"
         ],
-        "canonical": "Khalifa"
+        "canonical": "Khalifa - The Ruler"
+      },
+      {
+        "aliases": [
+          "I AM GAME",
+          "I Am Game",
+          "I M Game",
+          "I am Game",
+          "I'm Game"
+        ],
+        "canonical": "I M Game"
       },
       {
         "aliases": [
@@ -1055,31 +1066,33 @@
       },
       {
         "aliases": [
-          "Vishwanath and Sons"
-        ],
-        "canonical": "Vishwanath and Sons"
-      },
-      {
-        "aliases": [
-          "I AM GAME",
-          "I Am Game",
-          "I M Game",
-          "I am Game",
-          "I'm Game"
-        ],
-        "canonical": "I'm Game"
-      },
-      {
-        "aliases": [
           "Madhurame Jeevitham"
         ],
         "canonical": "Madhurame Jeevitham"
       },
       {
         "aliases": [
+          "Vishwanath and Sons"
+        ],
+        "canonical": "Vishwanath and Sons"
+      },
+      {
+        "aliases": [
           "Immortal"
         ],
         "canonical": "Immortal"
+      },
+      {
+        "aliases": [
+          "Khalifa"
+        ],
+        "canonical": "Khalifa"
+      },
+      {
+        "aliases": [
+          "Mirzapur: The Movie"
+        ],
+        "canonical": "Mirzapur: The Movie"
       }
     ]
   }

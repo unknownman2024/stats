@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "last_updated": "2026-09-05T22:11:42.386748+05:30",
+  "last_updated": "2026-09-06T00:25:34.521557+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 1050,
@@ -320,15 +320,6 @@
         "with_gross": {
           "breakdown": [
             {
-              "gross": 750,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "SCREEN 3",
-              "showid": "4109",
-              "tickets_sold": 5,
-              "time": "09:30 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
               "gross": 1200,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
@@ -338,6 +329,15 @@
               "venue": "Puthet Cinemas"
             },
             {
+              "gross": 750,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "SCREEN 3",
+              "showid": "4109",
+              "tickets_sold": 5,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
               "gross": 450,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "SCREEN 3",
@@ -345,6 +345,15 @@
               "tickets_sold": 3,
               "time": "05:45 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 450,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19621",
+              "tickets_sold": 3,
+              "time": "08:45 PM",
+              "venue": "Puthet Cinemas"
             },
             {
               "gross": 300,
@@ -362,15 +371,6 @@
               "showid": "19620",
               "tickets_sold": 2,
               "time": "05:30 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 450,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": null,
-              "showid": "19621",
-              "tickets_sold": 3,
-              "time": "08:45 PM",
               "venue": "Puthet Cinemas"
             }
           ],
@@ -697,14 +697,24 @@
       "tickets_sold": 23
     },
     "I M Game": {
-      "gross": 0,
+      "gross": 300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 300,
+              "movie": "I AM GAME",
+              "screen": "Athulya",
+              "showid": "8877",
+              "tickets_sold": 2,
+              "time": "02:15 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 300,
+          "shows": 1,
+          "tickets_sold": 2
         },
         "without_gross": {
           "breakdown": [
@@ -775,15 +785,6 @@
               "gross": 0,
               "movie": "I AM GAME",
               "screen": "Athulya",
-              "showid": "8877",
-              "tickets_sold": 0,
-              "time": "02:15 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "I AM GAME",
-              "screen": "Athulya",
               "showid": "8878",
               "tickets_sold": 0,
               "time": "05:30 PM",
@@ -799,11 +800,20 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 10,
+          "shows": 9,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 300,
+          "movie": "I AM GAME",
+          "screen": "Athulya",
+          "showid": "8877",
+          "tickets_sold": 2,
+          "time": "02:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 0,
           "movie": "I AM GAME",
@@ -871,15 +881,6 @@
           "gross": 0,
           "movie": "I AM GAME",
           "screen": "Athulya",
-          "showid": "8877",
-          "tickets_sold": 0,
-          "time": "02:15 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "I AM GAME",
-          "screen": "Athulya",
           "showid": "8878",
           "tickets_sold": 0,
           "time": "05:30 PM",
@@ -896,7 +897,7 @@
         }
       ],
       "shows": 10,
-      "tickets_sold": 0
+      "tickets_sold": 2
     },
     "I'm Game": {
       "gross": 300,
@@ -1189,9 +1190,19 @@
       },
       {
         "aliases": [
-          "Khalifa"
+          "Khalifa - The Ruler"
         ],
-        "canonical": "Khalifa"
+        "canonical": "Khalifa - The Ruler"
+      },
+      {
+        "aliases": [
+          "I AM GAME",
+          "I Am Game",
+          "I M Game",
+          "I am Game",
+          "I'm Game"
+        ],
+        "canonical": "I M Game"
       },
       {
         "aliases": [
@@ -1202,31 +1213,33 @@
       },
       {
         "aliases": [
-          "Vishwanath and Sons"
-        ],
-        "canonical": "Vishwanath and Sons"
-      },
-      {
-        "aliases": [
-          "I AM GAME",
-          "I Am Game",
-          "I M Game",
-          "I am Game",
-          "I'm Game"
-        ],
-        "canonical": "I'm Game"
-      },
-      {
-        "aliases": [
           "Madhurame Jeevitham"
         ],
         "canonical": "Madhurame Jeevitham"
       },
       {
         "aliases": [
+          "Vishwanath and Sons"
+        ],
+        "canonical": "Vishwanath and Sons"
+      },
+      {
+        "aliases": [
           "Immortal"
         ],
         "canonical": "Immortal"
+      },
+      {
+        "aliases": [
+          "Khalifa"
+        ],
+        "canonical": "Khalifa"
+      },
+      {
+        "aliases": [
+          "Mirzapur: The Movie"
+        ],
+        "canonical": "Mirzapur: The Movie"
       }
     ]
   }
