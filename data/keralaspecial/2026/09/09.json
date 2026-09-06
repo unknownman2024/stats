@@ -1,16 +1,35 @@
 {
   "date": "2026-09-09",
-  "last_updated": "2026-09-06T05:11:41.944125+05:30",
+  "last_updated": "2026-09-06T09:30:07.809265+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
-      "gross": 0,
+      "gross": 1350,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 750,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19623",
+              "tickets_sold": 5,
+              "time": "01:45 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 600,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19624",
+              "tickets_sold": 4,
+              "time": "05:30 PM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "gross": 1350,
+          "shows": 2,
+          "tickets_sold": 9
         },
         "without_gross": {
           "breakdown": [
@@ -121,13 +140,49 @@
               "tickets_sold": 0,
               "time": "10:30 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19630",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19625",
+              "tickets_sold": 0,
+              "time": "08:45 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 12,
+          "shows": 14,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 750,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19623",
+          "tickets_sold": 5,
+          "time": "01:45 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 600,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19624",
+          "tickets_sold": 4,
+          "time": "05:30 PM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
@@ -235,10 +290,28 @@
           "tickets_sold": 0,
           "time": "10:30 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19630",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19625",
+          "tickets_sold": 0,
+          "time": "08:45 PM",
+          "venue": "Puthet Cinemas"
         }
       ],
-      "shows": 12,
-      "tickets_sold": 0
+      "shows": 16,
+      "tickets_sold": 9
     },
     "Bethlehem Kudumba Unit": {
       "gross": 450,
@@ -1036,10 +1109,15 @@
     "merged_movies": [
       {
         "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
+          "Madhurame Jeevitham"
         ],
-        "canonical": "Bethlehem Kudumba Unit"
+        "canonical": "Madhurame Jeevitham"
+      },
+      {
+        "aliases": [
+          "Immortal"
+        ],
+        "canonical": "Immortal"
       },
       {
         "aliases": [
@@ -1053,34 +1131,22 @@
       },
       {
         "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "Immortal"
-        ],
-        "canonical": "Immortal"
-      },
-      {
-        "aliases": [
-          "Madhurame Jeevitham"
-        ],
-        "canonical": "Madhurame Jeevitham"
-      },
-      {
-        "aliases": [
           "Khalifa - The Ruler"
         ],
         "canonical": "Khalifa - The Ruler"
       },
       {
         "aliases": [
-          "Khalifa"
+          "Vishwanath and Sons"
         ],
-        "canonical": "Khalifa"
+        "canonical": "Vishwanath and Sons"
+      },
+      {
+        "aliases": [
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bathlehem Kudumba Unit"
       },
       {
         "aliases": [
@@ -1090,9 +1156,16 @@
       },
       {
         "aliases": [
-          "Vishwanath and Sons"
+          "Thudakkam",
+          "Thudakkam [M]"
         ],
-        "canonical": "Vishwanath and Sons"
+        "canonical": "Thudakkam"
+      },
+      {
+        "aliases": [
+          "Khalifa"
+        ],
+        "canonical": "Khalifa"
       }
     ]
   }
