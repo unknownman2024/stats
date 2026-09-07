@@ -2,10 +2,7 @@ name: Data Update (GA4 + Kerala BO)
 
 on:
   schedule:
-  
-    - cron: '*/15 * * * *'    # every 15 minutes
     - cron: '*/35 * * * *'    # every 35 minutes
-    - cron: '0 * * * *'       # every 1 hour
   workflow_dispatch:
 
 jobs:
