@@ -1,16 +1,26 @@
 {
   "date": "2026-09-10",
-  "last_updated": "2026-09-08T10:38:17.836164+05:30",
+  "last_updated": "2026-09-08T15:32:58.754155+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
-      "gross": 0,
+      "gross": 600,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 600,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Dolby Atmos",
+              "showid": "5910",
+              "tickets_sold": 4,
+              "time": "03:00 PM",
+              "venue": "Girija Theatre"
+            }
+          ],
+          "gross": 600,
+          "shows": 1,
+          "tickets_sold": 4
         },
         "without_gross": {
           "breakdown": [
@@ -21,15 +31,6 @@
               "showid": "5909",
               "tickets_sold": 0,
               "time": "12:00 PM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Dolby Atmos",
-              "showid": "5910",
-              "tickets_sold": 0,
-              "time": "03:00 PM",
               "venue": "Girija Theatre"
             },
             {
@@ -49,6 +50,15 @@
               "tickets_sold": 0,
               "time": "09:30 PM",
               "venue": "Girija Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Screen-2",
+              "showid": "8888",
+              "tickets_sold": 0,
+              "time": "07:00 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
           "shows": 4,
@@ -57,21 +67,21 @@
       },
       "show_breakdown": [
         {
-          "gross": 0,
+          "gross": 600,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Dolby Atmos",
-          "showid": "5909",
-          "tickets_sold": 0,
-          "time": "12:00 PM",
+          "showid": "5910",
+          "tickets_sold": 4,
+          "time": "03:00 PM",
           "venue": "Girija Theatre"
         },
         {
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Dolby Atmos",
-          "showid": "5910",
+          "showid": "5909",
           "tickets_sold": 0,
-          "time": "03:00 PM",
+          "time": "12:00 PM",
           "venue": "Girija Theatre"
         },
         {
@@ -91,10 +101,19 @@
           "tickets_sold": 0,
           "time": "09:30 PM",
           "venue": "Girija Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Screen-2",
+          "showid": "8888",
+          "tickets_sold": 0,
+          "time": "07:00 PM",
+          "venue": "Aiswarya Cinemas"
         }
       ],
-      "shows": 4,
-      "tickets_sold": 0
+      "shows": 5,
+      "tickets_sold": 4
     },
     "Bethlehem Kudumba Unit": {
       "gross": 600,
@@ -190,36 +209,86 @@
       ],
       "shows": 4,
       "tickets_sold": 4
+    },
+    "Sardar 2": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Sardar 2",
+              "screen": "Screen-2",
+              "showid": "8886",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Sardar 2",
+              "screen": "Screen-2",
+              "showid": "8887",
+              "tickets_sold": 0,
+              "time": "02:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Sardar 2",
+              "screen": "Screen-2",
+              "showid": "8889",
+              "tickets_sold": 0,
+              "time": "10:00 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "shows": 3,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Sardar 2",
+          "screen": "Screen-2",
+          "showid": "8886",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Sardar 2",
+          "screen": "Screen-2",
+          "showid": "8887",
+          "tickets_sold": 0,
+          "time": "02:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Sardar 2",
+          "screen": "Screen-2",
+          "showid": "8889",
+          "tickets_sold": 0,
+          "time": "10:00 PM",
+          "venue": "Aiswarya Cinemas"
+        }
+      ],
+      "shows": 3,
+      "tickets_sold": 0
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
-        ],
-        "canonical": "Bethlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "Thudakkam",
-          "Thudakkam [M]"
-        ],
-        "canonical": "Thudakkam"
-      },
-      {
-        "aliases": [
-          "Mirzapur: The Movie"
-        ],
-        "canonical": "Mirzapur: The Movie"
-      },
-      {
-        "aliases": [
-          "Khalifa - The Ruler"
-        ],
-        "canonical": "Khalifa - The Ruler"
-      },
       {
         "aliases": [
           "I AM GAME",
@@ -232,15 +301,34 @@
       },
       {
         "aliases": [
-          "Madhurame Jeevitham"
-        ],
-        "canonical": "Madhurame Jeevitham"
-      },
-      {
-        "aliases": [
           "Khalifa"
         ],
         "canonical": "Khalifa"
+      },
+      {
+        "aliases": [
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bathlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
+          "Khalifa - The Ruler"
+        ],
+        "canonical": "Khalifa - The Ruler"
+      },
+      {
+        "aliases": [
+          "Thudakkam [M]"
+        ],
+        "canonical": "Thudakkam [M]"
+      },
+      {
+        "aliases": [
+          "Sardar 2"
+        ],
+        "canonical": "Sardar 2"
       }
     ]
   }
