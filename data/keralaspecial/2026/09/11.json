@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "last_updated": "2026-09-09T05:07:32.512763+05:30",
+  "last_updated": "2026-09-09T09:07:14.453161+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 450,
@@ -170,7 +170,7 @@
       "tickets_sold": 3
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 450,
+      "gross": 1350,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -183,11 +183,20 @@
               "tickets_sold": 3,
               "time": "09:30 PM",
               "venue": "Girija Theatre"
+            },
+            {
+              "gross": 900,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Aiswarya",
+              "showid": "8899",
+              "tickets_sold": 6,
+              "time": "02:15 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 450,
-          "shows": 1,
-          "tickets_sold": 3
+          "gross": 1350,
+          "shows": 2,
+          "tickets_sold": 9
         },
         "without_gross": {
           "breakdown": [
@@ -231,15 +240,6 @@
               "gross": 0,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Aiswarya",
-              "showid": "8899",
-              "tickets_sold": 0,
-              "time": "02:15 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Aiswarya",
               "showid": "8900",
               "tickets_sold": 0,
               "time": "05:30 PM",
@@ -255,11 +255,20 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 7,
+          "shows": 6,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 900,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Aiswarya",
+          "showid": "8899",
+          "tickets_sold": 6,
+          "time": "02:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 450,
           "movie": "Bethlehem Kudumba Unit",
@@ -309,15 +318,6 @@
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Aiswarya",
-          "showid": "8899",
-          "tickets_sold": 0,
-          "time": "02:15 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Aiswarya",
           "showid": "8900",
           "tickets_sold": 0,
           "time": "05:30 PM",
@@ -334,17 +334,11 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 3
+      "tickets_sold": 9
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "Khalifa - The Ruler"
-        ],
-        "canonical": "Khalifa - The Ruler"
-      },
       {
         "aliases": [
           "I AM GAME",
@@ -356,22 +350,15 @@
       },
       {
         "aliases": [
-          "Mirzapur: The Movie"
+          "Khalifa - The Ruler"
         ],
-        "canonical": "Mirzapur: The Movie"
+        "canonical": "Khalifa - The Ruler"
       },
       {
         "aliases": [
-          "Sardar 2"
+          "Unknown"
         ],
-        "canonical": "Sardar 2"
-      },
-      {
-        "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
-        ],
-        "canonical": "Bethlehem Kudumba Unit"
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -387,9 +374,22 @@
       },
       {
         "aliases": [
-          "Unknown"
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
         ],
-        "canonical": "Unknown"
+        "canonical": "Bethlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
+          "Mirzapur: The Movie"
+        ],
+        "canonical": "Mirzapur: The Movie"
+      },
+      {
+        "aliases": [
+          "Sardar 2"
+        ],
+        "canonical": "Sardar 2"
       }
     ]
   }
