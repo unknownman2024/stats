@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "last_updated": "2026-09-09T09:07:14.453161+05:30",
+  "last_updated": "2026-09-09T14:15:58.198559+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 450,
@@ -170,20 +170,11 @@
       "tickets_sold": 3
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 1350,
+      "gross": 5400,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
-            {
-              "gross": 450,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Dolby Atmos",
-              "showid": "5916",
-              "tickets_sold": 3,
-              "time": "09:30 PM",
-              "venue": "Girija Theatre"
-            },
             {
               "gross": 900,
               "movie": "Bethlehem Kudumba Unit",
@@ -192,11 +183,29 @@
               "tickets_sold": 6,
               "time": "02:15 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 3900,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Dolby Atmos",
+              "showid": "5916",
+              "tickets_sold": 26,
+              "time": "09:30 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 600,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Dolby Atmos",
+              "showid": "5915",
+              "tickets_sold": 4,
+              "time": "06:30 PM",
+              "venue": "Girija Theatre"
             }
           ],
-          "gross": 1350,
-          "shows": 2,
-          "tickets_sold": 9
+          "gross": 5400,
+          "shows": 3,
+          "tickets_sold": 36
         },
         "without_gross": {
           "breakdown": [
@@ -216,15 +225,6 @@
               "showid": "5914",
               "tickets_sold": 0,
               "time": "03:00 PM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Dolby Atmos",
-              "showid": "5915",
-              "tickets_sold": 0,
-              "time": "06:30 PM",
               "venue": "Girija Theatre"
             },
             {
@@ -255,11 +255,20 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 6,
+          "shows": 5,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 3900,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Dolby Atmos",
+          "showid": "5916",
+          "tickets_sold": 26,
+          "time": "09:30 PM",
+          "venue": "Girija Theatre"
+        },
         {
           "gross": 900,
           "movie": "Bethlehem Kudumba Unit",
@@ -270,12 +279,12 @@
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 450,
+          "gross": 600,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Dolby Atmos",
-          "showid": "5916",
-          "tickets_sold": 3,
-          "time": "09:30 PM",
+          "showid": "5915",
+          "tickets_sold": 4,
+          "time": "06:30 PM",
           "venue": "Girija Theatre"
         },
         {
@@ -294,15 +303,6 @@
           "showid": "5914",
           "tickets_sold": 0,
           "time": "03:00 PM",
-          "venue": "Girija Theatre"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Dolby Atmos",
-          "showid": "5915",
-          "tickets_sold": 0,
-          "time": "06:30 PM",
           "venue": "Girija Theatre"
         },
         {
@@ -334,14 +334,21 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 9
+      "tickets_sold": 36
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
           "I AM GAME",
+          "I Am Game",
           "I M Game",
           "I am Game",
           "I'm Game"
@@ -356,21 +363,9 @@
       },
       {
         "aliases": [
-          "Unknown"
+          "Sardar 2"
         ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Khalifa"
-        ],
-        "canonical": "Khalifa"
-      },
-      {
-        "aliases": [
-          "Thudakkam"
-        ],
-        "canonical": "Thudakkam"
+        "canonical": "Sardar 2"
       },
       {
         "aliases": [
@@ -381,15 +376,21 @@
       },
       {
         "aliases": [
-          "Mirzapur: The Movie"
+          "Madhurame Jeevitham"
         ],
-        "canonical": "Mirzapur: The Movie"
+        "canonical": "Madhurame Jeevitham"
       },
       {
         "aliases": [
-          "Sardar 2"
+          "Khalifa"
         ],
-        "canonical": "Sardar 2"
+        "canonical": "Khalifa"
+      },
+      {
+        "aliases": [
+          "Mandaadi"
+        ],
+        "canonical": "Mandaadi"
       }
     ]
   }
