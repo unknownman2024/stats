@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "last_updated": "2026-09-11T04:52:03.246092+05:30",
+  "last_updated": "2026-09-11T06:54:38.011324+05:30",
   "movies": {
     "Aasha": {
       "gross": 0,
@@ -480,7 +480,7 @@
       "tickets_sold": 306
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 45900,
+      "gross": 46500,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -522,6 +522,15 @@
               "venue": "Girija Theatre"
             },
             {
+              "gross": 3300,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19666",
+              "tickets_sold": 22,
+              "time": "08:45 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
               "gross": 3150,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Aiswarya",
@@ -547,15 +556,6 @@
               "tickets_sold": 19,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 3300,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": null,
-              "showid": "19666",
-              "tickets_sold": 22,
-              "time": "08:45 PM",
-              "venue": "Puthet Cinemas"
             },
             {
               "gross": 2850,
@@ -612,11 +612,11 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 900,
+              "gross": 1500,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
               "showid": "19664",
-              "tickets_sold": 6,
+              "tickets_sold": 10,
               "time": "01:45 PM",
               "venue": "Puthet Cinemas"
             },
@@ -639,9 +639,9 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 45900,
+          "gross": 46500,
           "shows": 17,
-          "tickets_sold": 306
+          "tickets_sold": 310
         },
         "without_gross": {
           "breakdown": [
@@ -805,6 +805,15 @@
           "venue": "Girija Theatre"
         },
         {
+          "gross": 1500,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19664",
+          "tickets_sold": 10,
+          "time": "01:45 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 1200,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Dolby Atmos",
@@ -812,15 +821,6 @@
           "tickets_sold": 8,
           "time": "09:30 PM",
           "venue": "Girija Theatre"
-        },
-        {
-          "gross": 900,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": null,
-          "showid": "19664",
-          "tickets_sold": 6,
-          "time": "01:45 PM",
-          "venue": "Puthet Cinemas"
         },
         {
           "gross": 900,
@@ -878,7 +878,7 @@
         }
       ],
       "shows": 21,
-      "tickets_sold": 306
+      "tickets_sold": 310
     },
     "I M Game": {
       "gross": 0,
@@ -1571,39 +1571,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "Pradhama Dhrishtya Kuttakkar",
-          "Pradhama Drishtiya Kuttakkar",
-          "Pradhama Drishtya Kuttakkar"
-        ],
-        "canonical": "Pradhama Drishtya Kuttakkar"
-      },
-      {
-        "aliases": [
-          "Mandaadi"
-        ],
-        "canonical": "Mandaadi"
-      },
-      {
-        "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
-        ],
-        "canonical": "Bethlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "Aasha"
-        ],
-        "canonical": "Aasha"
-      },
-      {
-        "aliases": [
-          "Arayanum Amarakkaranum"
-        ],
-        "canonical": "Arayanum Amarakkaranum"
-      },
-      {
-        "aliases": [
           "I AM GAME",
           "I Am Game",
           "I M Game",
@@ -1614,15 +1581,48 @@
       },
       {
         "aliases": [
-          "Unknown"
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
         ],
-        "canonical": "Unknown"
+        "canonical": "Bethlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
+          "Pradhama Dhrishtya Kuttakkar",
+          "Pradhama Drishtiya Kuttakkar",
+          "Pradhama Drishtya Kuttakkar"
+        ],
+        "canonical": "Pradhama Drishtya Kuttakkar"
+      },
+      {
+        "aliases": [
+          "Aasha"
+        ],
+        "canonical": "Aasha"
+      },
+      {
+        "aliases": [
+          "Mandaadi"
+        ],
+        "canonical": "Mandaadi"
+      },
+      {
+        "aliases": [
+          "Arayanum Amarakkaranum"
+        ],
+        "canonical": "Arayanum Amarakkaranum"
       },
       {
         "aliases": [
           "Sardar 2"
         ],
         "canonical": "Sardar 2"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       }
     ]
   }

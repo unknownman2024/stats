@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "last_updated": "2026-09-11T04:52:03.243523+05:30",
+  "last_updated": "2026-09-11T06:54:38.008645+05:30",
   "movies": {
     "Aasha": {
       "gross": 0,
@@ -497,7 +497,7 @@
       "tickets_sold": 461
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 69150,
+      "gross": 69600,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -521,6 +521,15 @@
               "venue": "Puthet Cinemas"
             },
             {
+              "gross": 7500,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19660",
+              "tickets_sold": 50,
+              "time": "01:45 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
               "gross": 6900,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Dolby Atmos",
@@ -528,15 +537,6 @@
               "tickets_sold": 46,
               "time": "09:30 PM",
               "venue": "Girija Theatre"
-            },
-            {
-              "gross": 7050,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": null,
-              "showid": "19660",
-              "tickets_sold": 47,
-              "time": "01:45 PM",
-              "venue": "Puthet Cinemas"
             },
             {
               "gross": 4350,
@@ -701,9 +701,9 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 69150,
+          "gross": 69600,
           "shows": 22,
-          "tickets_sold": 461
+          "tickets_sold": 464
         },
         "without_gross": {
           "breakdown": [],
@@ -731,11 +731,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 7050,
+          "gross": 7500,
           "movie": "Bethlehem Kudumba Unit",
           "screen": null,
           "showid": "19660",
-          "tickets_sold": 47,
+          "tickets_sold": 50,
           "time": "01:45 PM",
           "venue": "Puthet Cinemas"
         },
@@ -912,7 +912,7 @@
         }
       ],
       "shows": 22,
-      "tickets_sold": 461
+      "tickets_sold": 464
     },
     "I M Game": {
       "gross": 600,
@@ -1608,39 +1608,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "Pradhama Dhrishtya Kuttakkar",
-          "Pradhama Drishtiya Kuttakkar",
-          "Pradhama Drishtya Kuttakkar"
-        ],
-        "canonical": "Pradhama Drishtya Kuttakkar"
-      },
-      {
-        "aliases": [
-          "Mandaadi"
-        ],
-        "canonical": "Mandaadi"
-      },
-      {
-        "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
-        ],
-        "canonical": "Bethlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "Aasha"
-        ],
-        "canonical": "Aasha"
-      },
-      {
-        "aliases": [
-          "Arayanum Amarakkaranum"
-        ],
-        "canonical": "Arayanum Amarakkaranum"
-      },
-      {
-        "aliases": [
           "I AM GAME",
           "I Am Game",
           "I M Game",
@@ -1651,15 +1618,48 @@
       },
       {
         "aliases": [
-          "Unknown"
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
         ],
-        "canonical": "Unknown"
+        "canonical": "Bethlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
+          "Pradhama Dhrishtya Kuttakkar",
+          "Pradhama Drishtiya Kuttakkar",
+          "Pradhama Drishtya Kuttakkar"
+        ],
+        "canonical": "Pradhama Drishtya Kuttakkar"
+      },
+      {
+        "aliases": [
+          "Aasha"
+        ],
+        "canonical": "Aasha"
+      },
+      {
+        "aliases": [
+          "Mandaadi"
+        ],
+        "canonical": "Mandaadi"
+      },
+      {
+        "aliases": [
+          "Arayanum Amarakkaranum"
+        ],
+        "canonical": "Arayanum Amarakkaranum"
       },
       {
         "aliases": [
           "Sardar 2"
         ],
         "canonical": "Sardar 2"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       }
     ]
   }
