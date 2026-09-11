@@ -1,16 +1,26 @@
 {
   "date": "2026-09-13",
-  "last_updated": "2026-09-12T00:59:19.103263+05:30",
+  "last_updated": "2026-09-12T03:23:37.094856+05:30",
   "movies": {
     "Aasha": {
-      "gross": 0,
+      "gross": 150,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 150,
+              "movie": "Aasha",
+              "screen": "SCREEN 4",
+              "showid": "4224",
+              "tickets_sold": 1,
+              "time": "09:40 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "gross": 150,
+          "shows": 1,
+          "tickets_sold": 1
         },
         "without_gross": {
           "breakdown": [
@@ -49,22 +59,22 @@
               "tickets_sold": 0,
               "time": "06:15 PM",
               "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Aasha",
-              "screen": "SCREEN 4",
-              "showid": "4224",
-              "tickets_sold": 0,
-              "time": "09:40 PM",
-              "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 5,
+          "shows": 4,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 150,
+          "movie": "Aasha",
+          "screen": "SCREEN 4",
+          "showid": "4224",
+          "tickets_sold": 1,
+          "time": "09:40 PM",
+          "venue": "Fairyland Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Aasha",
@@ -100,19 +110,10 @@
           "tickets_sold": 0,
           "time": "06:15 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Aasha",
-          "screen": "SCREEN 4",
-          "showid": "4224",
-          "tickets_sold": 0,
-          "time": "09:40 PM",
-          "venue": "Fairyland Cinemas"
         }
       ],
       "shows": 5,
-      "tickets_sold": 0
+      "tickets_sold": 1
     },
     "Bathlehem Kudumba Unit": {
       "gross": 114450,
@@ -130,13 +131,13 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 11100,
+              "gross": 15750,
               "movie": "Bethlehem Kudumba Unit",
-              "screen": "Aiswarya",
-              "showid": "8908",
-              "tickets_sold": 74,
-              "time": "05:30 PM",
-              "venue": "Aiswarya Cinemas"
+              "screen": null,
+              "showid": "19664",
+              "tickets_sold": 105,
+              "time": "01:45 PM",
+              "venue": "Puthet Cinemas"
             },
             {
               "gross": 13950,
@@ -148,21 +149,30 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 5550,
+              "gross": 11100,
               "movie": "Bethlehem Kudumba Unit",
-              "screen": "Dolby Atmos",
-              "showid": "5923",
-              "tickets_sold": 37,
-              "time": "06:30 PM",
-              "venue": "Girija Theatre"
+              "screen": "Aiswarya",
+              "showid": "8908",
+              "tickets_sold": 74,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 15750,
+              "gross": 7800,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Aiswarya",
+              "showid": "8907",
+              "tickets_sold": 52,
+              "time": "02:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 6450,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
-              "showid": "19664",
-              "tickets_sold": 105,
-              "time": "01:45 PM",
+              "showid": "19663",
+              "tickets_sold": 43,
+              "time": "10:30 AM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -175,12 +185,21 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 7800,
+              "gross": 5550,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Dolby Atmos",
+              "showid": "5923",
+              "tickets_sold": 37,
+              "time": "06:30 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 4200,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Aiswarya",
-              "showid": "8907",
-              "tickets_sold": 52,
-              "time": "02:15 PM",
+              "showid": "8906",
+              "tickets_sold": 28,
+              "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -202,12 +221,12 @@
               "venue": "Davis Theatre"
             },
             {
-              "gross": 4200,
+              "gross": 3000,
               "movie": "Bethlehem Kudumba Unit",
-              "screen": "Aiswarya",
-              "showid": "8906",
-              "tickets_sold": 28,
-              "time": "11:00 AM",
+              "screen": "Screen-2",
+              "showid": "8944",
+              "tickets_sold": 20,
+              "time": "07:00 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -218,15 +237,6 @@
               "tickets_sold": 15,
               "time": "12:00 PM",
               "venue": "Davis Theatre"
-            },
-            {
-              "gross": 6450,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": null,
-              "showid": "19663",
-              "tickets_sold": 43,
-              "time": "10:30 AM",
-              "venue": "Puthet Cinemas"
             },
             {
               "gross": 1950,
@@ -247,24 +257,6 @@
               "venue": "Davis Theatre"
             },
             {
-              "gross": 1800,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Dolby Atmos",
-              "showid": "5922",
-              "tickets_sold": 12,
-              "time": "03:00 PM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 1200,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Dolby Atmos",
-              "showid": "5924",
-              "tickets_sold": 8,
-              "time": "09:30 PM",
-              "venue": "Girija Theatre"
-            },
-            {
               "gross": 1950,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "SCREEN 1",
@@ -276,6 +268,15 @@
             {
               "gross": 1800,
               "movie": "Bethlehem Kudumba Unit",
+              "screen": "Dolby Atmos",
+              "showid": "5922",
+              "tickets_sold": 12,
+              "time": "03:00 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 1800,
+              "movie": "Bethlehem Kudumba Unit",
               "screen": "Aiswarya",
               "showid": "8909",
               "tickets_sold": 12,
@@ -283,13 +284,13 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 3000,
+              "gross": 1200,
               "movie": "Bethlehem Kudumba Unit",
-              "screen": "Screen-2",
-              "showid": "8944",
-              "tickets_sold": 20,
-              "time": "07:00 PM",
-              "venue": "Aiswarya Cinemas"
+              "screen": "Dolby Atmos",
+              "showid": "5924",
+              "tickets_sold": 8,
+              "time": "09:30 PM",
+              "venue": "Girija Theatre"
             },
             {
               "gross": 1200,
@@ -1358,21 +1359,21 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 150,
-              "movie": "Pradhama Dhrishtya Kuttakkar",
-              "screen": "SCREEN 3",
-              "showid": "4218",
-              "tickets_sold": 1,
-              "time": "02:00 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
               "gross": 300,
               "movie": "Pradhama Dhrishtya Kuttakkar",
               "screen": "SCREEN 3",
               "showid": "4219",
               "tickets_sold": 2,
               "time": "05:45 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 150,
+              "movie": "Pradhama Dhrishtya Kuttakkar",
+              "screen": "SCREEN 3",
+              "showid": "4218",
+              "tickets_sold": 1,
+              "time": "02:00 PM",
               "venue": "Fairyland Cinemas"
             }
           ],
@@ -1644,40 +1645,19 @@
     "merged_movies": [
       {
         "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
-        ],
-        "canonical": "Bathlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "Arayanum Amarakkaranum"
-        ],
-        "canonical": "Arayanum Amarakkaranum"
-      },
-      {
-        "aliases": [
           "I AM GAME",
           "I Am Game",
           "I M Game",
           "I am Game",
           "I'm Game"
         ],
-        "canonical": "I'm Game"
+        "canonical": "I M Game"
       },
       {
         "aliases": [
-          "Unknown"
+          "Sardar 2"
         ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Pradhama Dhrishtya Kuttakkar",
-          "Pradhama Drishtiya Kuttakkar",
-          "Pradhama Drishtya Kuttakkar"
-        ],
-        "canonical": "Pradhama Drishtya Kuttakkar"
+        "canonical": "Sardar 2"
       },
       {
         "aliases": [
@@ -1693,9 +1673,30 @@
       },
       {
         "aliases": [
-          "Sardar 2"
+          "Pradhama Dhrishtya Kuttakkar",
+          "Pradhama Drishtiya Kuttakkar",
+          "Pradhama Drishtya Kuttakkar"
         ],
-        "canonical": "Sardar 2"
+        "canonical": "Pradhama Drishtya Kuttakkar"
+      },
+      {
+        "aliases": [
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bathlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
+          "Arayanum Amarakkaranum"
+        ],
+        "canonical": "Arayanum Amarakkaranum"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       }
     ]
   }
