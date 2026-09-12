@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "last_updated": "2026-09-12T05:26:34.860179+05:30",
+  "last_updated": "2026-09-12T09:22:40.369458+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 1800,
@@ -170,7 +170,7 @@
       "tickets_sold": 12
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 300,
+      "gross": 3900,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -183,11 +183,38 @@
               "tickets_sold": 2,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 1200,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19689",
+              "tickets_sold": 8,
+              "time": "02:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 900,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19690",
+              "tickets_sold": 6,
+              "time": "06:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 1500,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19691",
+              "tickets_sold": 10,
+              "time": "09:30 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 300,
-          "shows": 1,
-          "tickets_sold": 2
+          "gross": 3900,
+          "shows": 4,
+          "tickets_sold": 26
         },
         "without_gross": {
           "breakdown": [
@@ -217,13 +244,49 @@
               "tickets_sold": 0,
               "time": "08:45 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19688",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 3,
+          "shows": 4,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1500,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19691",
+          "tickets_sold": 10,
+          "time": "09:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 1200,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19689",
+          "tickets_sold": 8,
+          "time": "02:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 900,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19690",
+          "tickets_sold": 6,
+          "time": "06:00 PM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 300,
           "movie": "Bethlehem Kudumba Unit",
@@ -259,10 +322,19 @@
           "tickets_sold": 0,
           "time": "08:45 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19688",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Puthet Cinemas"
         }
       ],
-      "shows": 4,
-      "tickets_sold": 2
+      "shows": 8,
+      "tickets_sold": 26
     },
     "Pradhama Drishtya Kuttakkar": {
       "gross": 0,
@@ -373,18 +445,20 @@
       },
       {
         "aliases": [
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bethlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
           "Aasha"
         ],
         "canonical": "Aasha"
       },
       {
         "aliases": [
-          "Mandaadi"
-        ],
-        "canonical": "Mandaadi"
-      },
-      {
-        "aliases": [
+          "PRADHAMA DRISHTIYA KUTTAKKAR",
           "Pradhama Dhrishtya Kuttakkar",
           "Pradhama Drishtiya Kuttakkar",
           "Pradhama Drishtya Kuttakkar"
@@ -393,10 +467,15 @@
       },
       {
         "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
+          "Unknown"
         ],
-        "canonical": "Bathlehem Kudumba Unit"
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Mandaadi"
+        ],
+        "canonical": "Mandaadi"
       },
       {
         "aliases": [
@@ -409,12 +488,6 @@
           "Sardar 2"
         ],
         "canonical": "Sardar 2"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
       }
     ]
   }
