@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "last_updated": "2026-09-13T06:09:59.897521+05:30",
+  "last_updated": "2026-09-13T11:13:37.858103+05:30",
   "movies": {
     "Aasha": {
       "gross": 0,
@@ -540,6 +540,64 @@
       "shows": 2,
       "tickets_sold": 0
     },
+    "I'm Game": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "I AM GAME",
+              "screen": "Screen-1",
+              "showid": "9002",
+              "tickets_sold": 0,
+              "time": "10:45 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "I AM GAME",
+              "screen": "Screen-1",
+              "showid": "9004",
+              "tickets_sold": 0,
+              "time": "04:30 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "shows": 2,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "I AM GAME",
+          "screen": "Screen-1",
+          "showid": "9002",
+          "tickets_sold": 0,
+          "time": "10:45 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "I AM GAME",
+          "screen": "Screen-1",
+          "showid": "9004",
+          "tickets_sold": 0,
+          "time": "04:30 PM",
+          "venue": "Aiswarya Cinemas"
+        }
+      ],
+      "shows": 2,
+      "tickets_sold": 0
+    },
     "Mandaadi": {
       "gross": 0,
       "occupancy": null,
@@ -791,12 +849,25 @@
     "merged_movies": [
       {
         "aliases": [
+          "Mandaadi"
+        ],
+        "canonical": "Mandaadi"
+      },
+      {
+        "aliases": [
+          "I AM GAME",
           "I Am Game",
           "I M Game",
           "I am Game",
           "I'm Game"
         ],
         "canonical": "I'm Game"
+      },
+      {
+        "aliases": [
+          "Aasha"
+        ],
+        "canonical": "Aasha"
       },
       {
         "aliases": [
@@ -809,22 +880,10 @@
       },
       {
         "aliases": [
-          "Aasha"
-        ],
-        "canonical": "Aasha"
-      },
-      {
-        "aliases": [
           "Bathlehem Kudumba Unit",
           "Bethlehem Kudumba Unit"
         ],
         "canonical": "Bathlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "Mandaadi"
-        ],
-        "canonical": "Mandaadi"
       },
       {
         "aliases": [
