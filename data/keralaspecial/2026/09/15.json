@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "last_updated": "2026-09-13T23:49:29.176333+05:30",
+  "last_updated": "2026-09-14T02:35:59.954865+05:30",
   "movies": {
     "Aasha": {
       "gross": 0,
@@ -449,21 +449,21 @@
         "with_gross": {
           "breakdown": [
             {
-              "gross": 450,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": null,
-              "showid": "19715",
-              "tickets_sold": 3,
-              "time": "11:00 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 1200,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
               "showid": "19717",
               "tickets_sold": 8,
               "time": "06:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 450,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19715",
+              "tickets_sold": 3,
+              "time": "11:00 AM",
               "venue": "Puthet Cinemas"
             }
           ],
@@ -930,9 +930,27 @@
               "tickets_sold": 0,
               "time": "04:30 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "I am Game",
+              "screen": "SCREEN 2",
+              "showid": "4271",
+              "tickets_sold": 0,
+              "time": "02:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "I am Game",
+              "screen": "SCREEN 2",
+              "showid": "4272",
+              "tickets_sold": 0,
+              "time": "05:30 PM",
+              "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 2,
+          "shows": 4,
           "tickets_sold": 0
         }
       },
@@ -954,9 +972,27 @@
           "tickets_sold": 0,
           "time": "04:30 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "I am Game",
+          "screen": "SCREEN 2",
+          "showid": "4271",
+          "tickets_sold": 0,
+          "time": "02:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "I am Game",
+          "screen": "SCREEN 2",
+          "showid": "4272",
+          "tickets_sold": 0,
+          "time": "05:30 PM",
+          "venue": "Fairyland Cinemas"
         }
       ],
-      "shows": 2,
+      "shows": 4,
       "tickets_sold": 0
     },
     "Mandaadi": {
@@ -1355,14 +1391,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "I AM GAME",
-          "I M Game",
-          "I am Game"
-        ],
-        "canonical": "I M Game"
-      },
-      {
-        "aliases": [
           "PRADHAMA DRISHTIYA KUTTAKKAR",
           "Pradhama Dhrishtya Kuttakkar",
           "Pradhama Drishtiya Kuttakkar",
@@ -1378,15 +1406,19 @@
       },
       {
         "aliases": [
-          "Bethlehem Kudumba Unit"
+          "I AM GAME",
+          "I M Game",
+          "I am Game",
+          "I'm Game"
         ],
-        "canonical": "Bethlehem Kudumba Unit"
+        "canonical": "I'm Game"
       },
       {
         "aliases": [
-          "Aasha"
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
         ],
-        "canonical": "Aasha"
+        "canonical": "Bethlehem Kudumba Unit"
       },
       {
         "aliases": [
@@ -1399,6 +1431,12 @@
           "Mandaadi"
         ],
         "canonical": "Mandaadi"
+      },
+      {
+        "aliases": [
+          "Aasha"
+        ],
+        "canonical": "Aasha"
       }
     ]
   }
