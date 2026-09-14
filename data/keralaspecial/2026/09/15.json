@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "last_updated": "2026-09-14T04:56:56.122641+05:30",
+  "last_updated": "2026-09-14T07:02:53.981517+05:30",
   "movies": {
     "Aasha": {
       "gross": 0,
@@ -169,14 +169,42 @@
       "tickets_sold": 0
     },
     "Bathlehem Kudumba Unit": {
-      "gross": 0,
+      "gross": 1950,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 450,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19715",
+              "tickets_sold": 3,
+              "time": "11:00 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 1200,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19717",
+              "tickets_sold": 8,
+              "time": "06:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19718",
+              "tickets_sold": 2,
+              "time": "09:30 PM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "gross": 1950,
+          "shows": 3,
+          "tickets_sold": 13
         },
         "without_gross": {
           "breakdown": [
@@ -305,13 +333,49 @@
               "tickets_sold": 0,
               "time": "09:15 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19716",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 14,
+          "shows": 15,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1200,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19717",
+          "tickets_sold": 8,
+          "time": "06:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 450,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19715",
+          "tickets_sold": 3,
+          "time": "11:00 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19718",
+          "tickets_sold": 2,
+          "time": "09:30 PM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
@@ -437,10 +501,19 @@
           "tickets_sold": 0,
           "time": "09:15 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19716",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Puthet Cinemas"
         }
       ],
-      "shows": 14,
-      "tickets_sold": 0
+      "shows": 18,
+      "tickets_sold": 13
     },
     "Bethlehem Kudumba Unit": {
       "gross": 1650,
@@ -1391,19 +1464,22 @@
     "merged_movies": [
       {
         "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
+          "Unknown"
         ],
-        "canonical": "Bethlehem Kudumba Unit"
+        "canonical": "Unknown"
       },
       {
         "aliases": [
-          "I AM GAME",
-          "I M Game",
-          "I am Game",
-          "I'm Game"
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
         ],
-        "canonical": "I'm Game"
+        "canonical": "Bathlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
+          "Sardar 2"
+        ],
+        "canonical": "Sardar 2"
       },
       {
         "aliases": [
@@ -1416,18 +1492,6 @@
       },
       {
         "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Sardar 2"
-        ],
-        "canonical": "Sardar 2"
-      },
-      {
-        "aliases": [
           "Aasha"
         ],
         "canonical": "Aasha"
@@ -1437,6 +1501,15 @@
           "Mandaadi"
         ],
         "canonical": "Mandaadi"
+      },
+      {
+        "aliases": [
+          "I AM GAME",
+          "I M Game",
+          "I am Game",
+          "I'm Game"
+        ],
+        "canonical": "I'm Game"
       }
     ]
   }
