@@ -1,6 +1,6 @@
 {
   "date": "2026-09-17",
-  "last_updated": "2026-09-16T01:55:29.569945+05:30",
+  "last_updated": "2026-09-16T04:38:46.297392+05:30",
   "movies": {
     "Aasha": {
       "gross": 0,
@@ -97,7 +97,7 @@
       "tickets_sold": 0
     },
     "Bathlehem Kudumba Unit": {
-      "gross": 300,
+      "gross": 750,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -110,11 +110,20 @@
               "tickets_sold": 2,
               "time": "06:30 PM",
               "venue": "Girija Theatre"
+            },
+            {
+              "gross": 450,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19746",
+              "tickets_sold": 3,
+              "time": "02:30 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 300,
-          "shows": 1,
-          "tickets_sold": 2
+          "gross": 750,
+          "shows": 2,
+          "tickets_sold": 5
         },
         "without_gross": {
           "breakdown": [
@@ -194,15 +203,6 @@
               "gross": 0,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
-              "showid": "19746",
-              "tickets_sold": 0,
-              "time": "02:30 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": null,
               "showid": "19747",
               "tickets_sold": 0,
               "time": "06:00 PM",
@@ -218,11 +218,20 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 11,
+          "shows": 10,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 450,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19746",
+          "tickets_sold": 3,
+          "time": "02:30 PM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 300,
           "movie": "Bethlehem Kudumba Unit",
@@ -308,15 +317,6 @@
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
           "screen": null,
-          "showid": "19746",
-          "tickets_sold": 0,
-          "time": "02:30 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": null,
           "showid": "19747",
           "tickets_sold": 0,
           "time": "06:00 PM",
@@ -333,7 +333,7 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 2
+      "tickets_sold": 5
     },
     "Bethlehem Kudumba Unit": {
       "gross": 750,
@@ -996,31 +996,9 @@
     "merged_movies": [
       {
         "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
-        ],
-        "canonical": "Bethlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
           "Mandaadi"
         ],
         "canonical": "Mandaadi"
-      },
-      {
-        "aliases": [
-          "I AM GAME",
-          "I M Game",
-          "I am Game",
-          "I'm Game"
-        ],
-        "canonical": "I'm Game"
-      },
-      {
-        "aliases": [
-          "Sardar 2"
-        ],
-        "canonical": "Sardar 2"
       },
       {
         "aliases": [
@@ -1036,6 +1014,28 @@
           "Aasha"
         ],
         "canonical": "Aasha"
+      },
+      {
+        "aliases": [
+          "Sardar 2"
+        ],
+        "canonical": "Sardar 2"
+      },
+      {
+        "aliases": [
+          "I AM GAME",
+          "I M Game",
+          "I am Game",
+          "I'm Game"
+        ],
+        "canonical": "I'm Game"
+      },
+      {
+        "aliases": [
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bathlehem Kudumba Unit"
       }
     ]
   }
