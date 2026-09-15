@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "last_updated": "2026-09-15T04:13:44.713143+05:30",
+  "last_updated": "2026-09-15T06:44:38.337673+05:30",
   "movies": {
     "Aasha": {
       "gross": 0,
@@ -169,7 +169,7 @@
       "tickets_sold": 0
     },
     "Bathlehem Kudumba Unit": {
-      "gross": 2250,
+      "gross": 4950,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -191,11 +191,29 @@
               "tickets_sold": 6,
               "time": "05:30 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 1200,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "SCREEN 1",
+              "showid": "4241",
+              "tickets_sold": 8,
+              "time": "05:45 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 1500,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19722",
+              "tickets_sold": 10,
+              "time": "09:30 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 2250,
-          "shows": 2,
-          "tickets_sold": 15
+          "gross": 4950,
+          "shows": 4,
+          "tickets_sold": 33
         },
         "without_gross": {
           "breakdown": [
@@ -302,15 +320,6 @@
               "gross": 0,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "SCREEN 1",
-              "showid": "4241",
-              "tickets_sold": 0,
-              "time": "05:45 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "SCREEN 1",
               "showid": "4242",
               "tickets_sold": 0,
               "time": "09:15 PM",
@@ -333,22 +342,22 @@
               "tickets_sold": 0,
               "time": "02:30 PM",
               "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": null,
-              "showid": "19722",
-              "tickets_sold": 0,
-              "time": "09:30 PM",
-              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 16,
+          "shows": 14,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1500,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19722",
+          "tickets_sold": 10,
+          "time": "09:30 PM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 1350,
           "movie": "Bethlehem Kudumba Unit",
@@ -357,6 +366,15 @@
           "tickets_sold": 9,
           "time": "06:00 PM",
           "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 1200,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "SCREEN 1",
+          "showid": "4241",
+          "tickets_sold": 8,
+          "time": "05:45 PM",
+          "venue": "Fairyland Cinemas"
         },
         {
           "gross": 900,
@@ -470,15 +488,6 @@
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "SCREEN 1",
-          "showid": "4241",
-          "tickets_sold": 0,
-          "time": "05:45 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "SCREEN 1",
           "showid": "4242",
           "tickets_sold": 0,
           "time": "09:15 PM",
@@ -501,19 +510,10 @@
           "tickets_sold": 0,
           "time": "02:30 PM",
           "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": null,
-          "showid": "19722",
-          "tickets_sold": 0,
-          "time": "09:30 PM",
-          "venue": "Puthet Cinemas"
         }
       ],
       "shows": 18,
-      "tickets_sold": 15
+      "tickets_sold": 33
     },
     "Bethlehem Kudumba Unit": {
       "gross": 4500,
@@ -1500,6 +1500,18 @@
     "merged_movies": [
       {
         "aliases": [
+          "Sardar 2"
+        ],
+        "canonical": "Sardar 2"
+      },
+      {
+        "aliases": [
+          "Mandaadi"
+        ],
+        "canonical": "Mandaadi"
+      },
+      {
+        "aliases": [
           "PRADHAMA DRISHTIYA KUTTAKKAR",
           "Pradhama Dhrishtya Kuttakkar",
           "Pradhama Drishtiya Kuttakkar",
@@ -1512,7 +1524,7 @@
           "Bathlehem Kudumba Unit",
           "Bethlehem Kudumba Unit"
         ],
-        "canonical": "Bethlehem Kudumba Unit"
+        "canonical": "Bathlehem Kudumba Unit"
       },
       {
         "aliases": [
@@ -1521,19 +1533,7 @@
           "I am Game",
           "I'm Game"
         ],
-        "canonical": "I M Game"
-      },
-      {
-        "aliases": [
-          "Mandaadi"
-        ],
-        "canonical": "Mandaadi"
-      },
-      {
-        "aliases": [
-          "Sardar 2"
-        ],
-        "canonical": "Sardar 2"
+        "canonical": "I'm Game"
       },
       {
         "aliases": [
