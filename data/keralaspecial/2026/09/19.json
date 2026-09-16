@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "last_updated": "2026-09-16T18:18:13.304168+05:30",
+  "last_updated": "2026-09-16T23:01:21.482136+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 0,
@@ -241,14 +241,24 @@
       "tickets_sold": 0
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 0,
+      "gross": 600,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 600,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Aiswarya",
+              "showid": "9061",
+              "tickets_sold": 4,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 600,
+          "shows": 1,
+          "tickets_sold": 4
         },
         "without_gross": {
           "breakdown": [
@@ -268,15 +278,6 @@
               "showid": "9060",
               "tickets_sold": 0,
               "time": "02:15 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Aiswarya",
-              "showid": "9061",
-              "tickets_sold": 0,
-              "time": "05:30 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -323,13 +324,58 @@
               "tickets_sold": 0,
               "time": "09:30 PM",
               "venue": "Girija Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "SCREEN 1",
+              "showid": "4292",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "SCREEN 1",
+              "showid": "4293",
+              "tickets_sold": 0,
+              "time": "02:15 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "SCREEN 1",
+              "showid": "4294",
+              "tickets_sold": 0,
+              "time": "05:45 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "SCREEN 1",
+              "showid": "4295",
+              "tickets_sold": 0,
+              "time": "09:15 PM",
+              "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 11,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 600,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Aiswarya",
+          "showid": "9061",
+          "tickets_sold": 4,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
@@ -346,15 +392,6 @@
           "showid": "9060",
           "tickets_sold": 0,
           "time": "02:15 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Aiswarya",
-          "showid": "9061",
-          "tickets_sold": 0,
-          "time": "05:30 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -401,10 +438,46 @@
           "tickets_sold": 0,
           "time": "09:30 PM",
           "venue": "Girija Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "SCREEN 1",
+          "showid": "4292",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "SCREEN 1",
+          "showid": "4293",
+          "tickets_sold": 0,
+          "time": "02:15 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "SCREEN 1",
+          "showid": "4294",
+          "tickets_sold": 0,
+          "time": "05:45 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "SCREEN 1",
+          "showid": "4295",
+          "tickets_sold": 0,
+          "time": "09:15 PM",
+          "venue": "Fairyland Cinemas"
         }
       ],
-      "shows": 8,
-      "tickets_sold": 0
+      "shows": 12,
+      "tickets_sold": 4
     },
     "Pradhama Drishtya Kuttakkar": {
       "gross": 300,
@@ -578,30 +651,29 @@
     "merged_movies": [
       {
         "aliases": [
+          "It's a Medical Miracle",
+          "Its a Medical Miracle"
+        ],
+        "canonical": "Its a Medical Miracle"
+      },
+      {
+        "aliases": [
           "Mandaadi"
         ],
         "canonical": "Mandaadi"
       },
       {
         "aliases": [
-          "I AM GAME",
-          "I am Game",
-          "I'm Game"
-        ],
-        "canonical": "I'm Game"
-      },
-      {
-        "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
-        ],
-        "canonical": "Bathlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
           "Aasha"
         ],
         "canonical": "Aasha"
+      },
+      {
+        "aliases": [
+          "I AM GAME",
+          "I M Game"
+        ],
+        "canonical": "I M Game"
       },
       {
         "aliases": [
@@ -617,6 +689,12 @@
           "Enna Vilai"
         ],
         "canonical": "Enna Vilai"
+      },
+      {
+        "aliases": [
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bethlehem Kudumba Unit"
       }
     ]
   }
