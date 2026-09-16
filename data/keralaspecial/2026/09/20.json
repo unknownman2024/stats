@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "last_updated": "2026-09-16T07:06:38.798284+05:30",
+  "last_updated": "2026-09-16T12:52:08.961336+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 0,
@@ -169,14 +169,24 @@
       "tickets_sold": 0
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 0,
+      "gross": 750,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 750,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Aiswarya",
+              "showid": "9066",
+              "tickets_sold": 5,
+              "time": "08:45 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 750,
+          "shows": 1,
+          "tickets_sold": 5
         },
         "without_gross": {
           "breakdown": [
@@ -205,15 +215,6 @@
               "showid": "9065",
               "tickets_sold": 0,
               "time": "05:30 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Aiswarya",
-              "showid": "9066",
-              "tickets_sold": 0,
-              "time": "08:45 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -253,11 +254,20 @@
               "venue": "Girija Theatre"
             }
           ],
-          "shows": 8,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 750,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Aiswarya",
+          "showid": "9066",
+          "tickets_sold": 5,
+          "time": "08:45 PM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
@@ -283,15 +293,6 @@
           "showid": "9065",
           "tickets_sold": 0,
           "time": "05:30 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Aiswarya",
-          "showid": "9066",
-          "tickets_sold": 0,
-          "time": "08:45 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -332,7 +333,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 0
+      "tickets_sold": 5
     },
     "Pradhama Drishtya Kuttakkar": {
       "gross": 0,
@@ -433,6 +434,15 @@
     "merged_movies": [
       {
         "aliases": [
+          "I AM GAME",
+          "I M Game",
+          "I am Game",
+          "I'm Game"
+        ],
+        "canonical": "I'm Game"
+      },
+      {
+        "aliases": [
           "PRADHAMA DRISHTIYA KUTTAKKAR",
           "Pradhama Dhrishtya Kuttakkar",
           "Pradhama Drishtiya Kuttakkar",
@@ -442,37 +452,28 @@
       },
       {
         "aliases": [
-          "I AM GAME",
-          "I M Game",
-          "I am Game",
-          "I'm Game"
-        ],
-        "canonical": "I M Game"
-      },
-      {
-        "aliases": [
           "Sardar 2"
         ],
         "canonical": "Sardar 2"
       },
       {
         "aliases": [
-          "Mandaadi"
-        ],
-        "canonical": "Mandaadi"
-      },
-      {
-        "aliases": [
           "Bathlehem Kudumba Unit",
           "Bethlehem Kudumba Unit"
         ],
-        "canonical": "Bathlehem Kudumba Unit"
+        "canonical": "Bethlehem Kudumba Unit"
       },
       {
         "aliases": [
           "Aasha"
         ],
         "canonical": "Aasha"
+      },
+      {
+        "aliases": [
+          "Mandaadi"
+        ],
+        "canonical": "Mandaadi"
       }
     ]
   }
