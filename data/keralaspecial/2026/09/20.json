@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "last_updated": "2026-09-17T18:15:21.926782+05:30",
+  "last_updated": "2026-09-17T23:01:19.343975+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 750,
@@ -242,11 +242,20 @@
       "tickets_sold": 5
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 4950,
+      "gross": 5700,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
+            {
+              "gross": 1800,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Aiswarya",
+              "showid": "9065",
+              "tickets_sold": 12,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
             {
               "gross": 750,
               "movie": "Bethlehem Kudumba Unit",
@@ -266,30 +275,12 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 1800,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Aiswarya",
-              "showid": "9065",
-              "tickets_sold": 12,
-              "time": "05:30 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 600,
+              "gross": 1350,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Dolby Atmos",
               "showid": "5950",
-              "tickets_sold": 4,
+              "tickets_sold": 9,
               "time": "03:00 PM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 450,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Dolby Atmos",
-              "showid": "5951",
-              "tickets_sold": 3,
-              "time": "06:30 PM",
               "venue": "Girija Theatre"
             },
             {
@@ -300,11 +291,20 @@
               "tickets_sold": 4,
               "time": "05:45 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 450,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Dolby Atmos",
+              "showid": "5951",
+              "tickets_sold": 3,
+              "time": "06:30 PM",
+              "venue": "Girija Theatre"
             }
           ],
-          "gross": 4950,
+          "gross": 5700,
           "shows": 6,
-          "tickets_sold": 33
+          "tickets_sold": 38
         },
         "without_gross": {
           "breakdown": [
@@ -378,6 +378,15 @@
           "venue": "Aiswarya Cinemas"
         },
         {
+          "gross": 1350,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Dolby Atmos",
+          "showid": "5950",
+          "tickets_sold": 9,
+          "time": "03:00 PM",
+          "venue": "Girija Theatre"
+        },
+        {
           "gross": 750,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Aiswarya",
@@ -394,15 +403,6 @@
           "tickets_sold": 5,
           "time": "02:15 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 600,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Dolby Atmos",
-          "showid": "5950",
-          "tickets_sold": 4,
-          "time": "03:00 PM",
-          "venue": "Girija Theatre"
         },
         {
           "gross": 600,
@@ -478,7 +478,7 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 33
+      "tickets_sold": 38
     },
     "Pradhama Drishtya Kuttakkar": {
       "gross": 300,
@@ -652,30 +652,11 @@
     "merged_movies": [
       {
         "aliases": [
-          "PRADHAMA DRISHTIYA KUTTAKKAR",
-          "Pradhama Dhrishtya Kuttakkar",
-          "Pradhama Drishtiya Kuttakkar",
-          "Pradhama Drishtya Kuttakkar"
+          "It's a Medical Miracle",
+          "Its A Medical Miracle [M]",
+          "Its a Medical Miracle"
         ],
-        "canonical": "Pradhama Drishtya Kuttakkar"
-      },
-      {
-        "aliases": [
-          "Aasha"
-        ],
-        "canonical": "Aasha"
-      },
-      {
-        "aliases": [
-          "Enna Vilai"
-        ],
-        "canonical": "Enna Vilai"
-      },
-      {
-        "aliases": [
-          "L"
-        ],
-        "canonical": "L"
+        "canonical": "Its a Medical Miracle"
       },
       {
         "aliases": [
@@ -685,36 +666,48 @@
       },
       {
         "aliases": [
+          "Enna Vilai"
+        ],
+        "canonical": "Enna Vilai"
+      },
+      {
+        "aliases": [
           "Mandaadi"
         ],
         "canonical": "Mandaadi"
       },
       {
         "aliases": [
-          "It's a Medical Miracle",
-          "Its A Medical Miracle [M]",
-          "Its a Medical Miracle"
+          "L"
         ],
-        "canonical": "Its a Medical Miracle"
+        "canonical": "L"
       },
       {
         "aliases": [
-          "Ottam Thullal"
+          "PRADHAMA DRISHTIYA KUTTAKKAR",
+          "Pradhama Dhrishtya Kuttakkar",
+          "Pradhama Drishtiya Kuttakkar",
+          "Pradhama Drishtya Kuttakkar"
         ],
-        "canonical": "Ottam Thullal"
+        "canonical": "Pradhama Drishtya Kuttakkar"
       },
       {
         "aliases": [
-          "Bathlehem Kudumba Unit",
           "Bethlehem Kudumba Unit"
         ],
         "canonical": "Bethlehem Kudumba Unit"
       },
       {
         "aliases": [
-          "I am Game"
+          "Aasha"
         ],
-        "canonical": "I am Game"
+        "canonical": "Aasha"
+      },
+      {
+        "aliases": [
+          "Ottam Thullal"
+        ],
+        "canonical": "Ottam Thullal"
       }
     ]
   }
