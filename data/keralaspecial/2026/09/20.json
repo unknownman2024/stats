@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "last_updated": "2026-09-17T07:09:38.877062+05:30",
+  "last_updated": "2026-09-17T12:47:45.143999+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 750,
@@ -242,7 +242,7 @@
       "tickets_sold": 5
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 750,
+      "gross": 1500,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -255,11 +255,20 @@
               "tickets_sold": 5,
               "time": "08:45 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 750,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "SCREEN 1",
+              "showid": "4297",
+              "tickets_sold": 5,
+              "time": "02:15 PM",
+              "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 750,
-          "shows": 1,
-          "tickets_sold": 5
+          "gross": 1500,
+          "shows": 2,
+          "tickets_sold": 10
         },
         "without_gross": {
           "breakdown": [
@@ -339,15 +348,6 @@
               "gross": 0,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "SCREEN 1",
-              "showid": "4297",
-              "tickets_sold": 0,
-              "time": "02:15 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "SCREEN 1",
               "showid": "4298",
               "tickets_sold": 0,
               "time": "05:45 PM",
@@ -363,7 +363,7 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 11,
+          "shows": 10,
           "tickets_sold": 0
         }
       },
@@ -376,6 +376,15 @@
           "tickets_sold": 5,
           "time": "08:45 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 750,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "SCREEN 1",
+          "showid": "4297",
+          "tickets_sold": 5,
+          "time": "02:15 PM",
+          "venue": "Fairyland Cinemas"
         },
         {
           "gross": 0,
@@ -453,15 +462,6 @@
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "SCREEN 1",
-          "showid": "4297",
-          "tickets_sold": 0,
-          "time": "02:15 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "SCREEN 1",
           "showid": "4298",
           "tickets_sold": 0,
           "time": "05:45 PM",
@@ -478,7 +478,7 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 5
+      "tickets_sold": 10
     },
     "Pradhama Drishtya Kuttakkar": {
       "gross": 0,
@@ -651,19 +651,21 @@
     "merged_movies": [
       {
         "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
+          "Unknown"
         ],
-        "canonical": "Bathlehem Kudumba Unit"
+        "canonical": "Unknown"
       },
       {
         "aliases": [
-          "PRADHAMA DRISHTIYA KUTTAKKAR",
-          "Pradhama Dhrishtya Kuttakkar",
-          "Pradhama Drishtiya Kuttakkar",
-          "Pradhama Drishtya Kuttakkar"
+          "Aasha"
         ],
-        "canonical": "Pradhama Drishtya Kuttakkar"
+        "canonical": "Aasha"
+      },
+      {
+        "aliases": [
+          "Enna Vilai"
+        ],
+        "canonical": "Enna Vilai"
       },
       {
         "aliases": [
@@ -675,9 +677,15 @@
       },
       {
         "aliases": [
-          "Enna Vilai"
+          "Law and Order"
         ],
-        "canonical": "Enna Vilai"
+        "canonical": "Law and Order"
+      },
+      {
+        "aliases": [
+          "Sardar 2"
+        ],
+        "canonical": "Sardar 2"
       },
       {
         "aliases": [
@@ -688,9 +696,19 @@
       },
       {
         "aliases": [
-          "Aasha"
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
         ],
-        "canonical": "Aasha"
+        "canonical": "Bethlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
+          "PRADHAMA DRISHTIYA KUTTAKKAR",
+          "Pradhama Dhrishtya Kuttakkar",
+          "Pradhama Drishtiya Kuttakkar",
+          "Pradhama Drishtya Kuttakkar"
+        ],
+        "canonical": "Pradhama Drishtya Kuttakkar"
       },
       {
         "aliases": [
