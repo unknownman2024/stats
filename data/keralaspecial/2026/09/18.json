@@ -1,16 +1,26 @@
 {
   "date": "2026-09-18",
-  "last_updated": "2026-09-17T12:47:45.107156+05:30",
+  "last_updated": "2026-09-17T18:15:21.922602+05:30",
   "movies": {
     "Aasha": {
-      "gross": 0,
+      "gross": 600,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 600,
+              "movie": "Aasha",
+              "screen": "SCREEN 4",
+              "showid": "4282",
+              "tickets_sold": 4,
+              "time": "06:15 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "gross": 600,
+          "shows": 1,
+          "tickets_sold": 4
         },
         "without_gross": {
           "breakdown": [
@@ -30,15 +40,6 @@
               "showid": "4281",
               "tickets_sold": 0,
               "time": "02:45 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Aasha",
-              "screen": "SCREEN 4",
-              "showid": "4282",
-              "tickets_sold": 0,
-              "time": "06:15 PM",
               "venue": "Fairyland Cinemas"
             },
             {
@@ -67,13 +68,67 @@
               "tickets_sold": 0,
               "time": "04:30 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Aasha",
+              "screen": null,
+              "showid": "19763",
+              "tickets_sold": 0,
+              "time": "03:20 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Aasha",
+              "screen": null,
+              "showid": "19764",
+              "tickets_sold": 0,
+              "time": "08:20 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Aasha",
+              "screen": "Screen-3",
+              "showid": "9120",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Aasha",
+              "screen": "Screen-2",
+              "showid": "9119",
+              "tickets_sold": 0,
+              "time": "01:45 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Aasha",
+              "screen": "Screen-3",
+              "showid": "9123",
+              "tickets_sold": 0,
+              "time": "07:30 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 6,
+          "shows": 10,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 600,
+          "movie": "Aasha",
+          "screen": "SCREEN 4",
+          "showid": "4282",
+          "tickets_sold": 4,
+          "time": "06:15 PM",
+          "venue": "Fairyland Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Aasha",
@@ -90,15 +145,6 @@
           "showid": "4281",
           "tickets_sold": 0,
           "time": "02:45 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Aasha",
-          "screen": "SCREEN 4",
-          "showid": "4282",
-          "tickets_sold": 0,
-          "time": "06:15 PM",
           "venue": "Fairyland Cinemas"
         },
         {
@@ -127,10 +173,55 @@
           "tickets_sold": 0,
           "time": "04:30 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Aasha",
+          "screen": null,
+          "showid": "19763",
+          "tickets_sold": 0,
+          "time": "03:20 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Aasha",
+          "screen": null,
+          "showid": "19764",
+          "tickets_sold": 0,
+          "time": "08:20 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Aasha",
+          "screen": "Screen-3",
+          "showid": "9120",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Aasha",
+          "screen": "Screen-2",
+          "showid": "9119",
+          "tickets_sold": 0,
+          "time": "01:45 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Aasha",
+          "screen": "Screen-3",
+          "showid": "9123",
+          "tickets_sold": 0,
+          "time": "07:30 PM",
+          "venue": "Aiswarya Cinemas"
         }
       ],
-      "shows": 6,
-      "tickets_sold": 0
+      "shows": 11,
+      "tickets_sold": 4
     },
     "Bathlehem Kudumba Unit": {
       "gross": 2550,
@@ -372,7 +463,7 @@
       "tickets_sold": 17
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 3300,
+      "gross": 5700,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -421,11 +512,29 @@
               "tickets_sold": 2,
               "time": "05:45 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 1800,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19767",
+              "tickets_sold": 12,
+              "time": "06:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 600,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19768",
+              "tickets_sold": 4,
+              "time": "09:00 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 3300,
-          "shows": 5,
-          "tickets_sold": 22
+          "gross": 5700,
+          "shows": 7,
+          "tickets_sold": 38
         },
         "without_gross": {
           "breakdown": [
@@ -491,13 +600,67 @@
               "tickets_sold": 0,
               "time": "09:15 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Cinema-2",
+              "showid": "23003",
+              "tickets_sold": 0,
+              "time": "06:30 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Cinema-2",
+              "showid": "23004",
+              "tickets_sold": 0,
+              "time": "09:40 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19765",
+              "tickets_sold": 0,
+              "time": "12:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19766",
+              "tickets_sold": 0,
+              "time": "03:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19769",
+              "tickets_sold": 0,
+              "time": "11:45 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 7,
+          "shows": 12,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1800,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19767",
+          "tickets_sold": 12,
+          "time": "06:00 PM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 1200,
           "movie": "Bethlehem Kudumba Unit",
@@ -515,6 +678,15 @@
           "tickets_sold": 6,
           "time": "12:00 PM",
           "venue": "Girija Theatre"
+        },
+        {
+          "gross": 600,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19768",
+          "tickets_sold": 4,
+          "time": "09:00 PM",
+          "venue": "Puthet Cinemas"
         },
         {
           "gross": 450,
@@ -605,12 +777,57 @@
           "tickets_sold": 0,
           "time": "09:15 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Cinema-2",
+          "showid": "23003",
+          "tickets_sold": 0,
+          "time": "06:30 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Cinema-2",
+          "showid": "23004",
+          "tickets_sold": 0,
+          "time": "09:40 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19765",
+          "tickets_sold": 0,
+          "time": "12:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19766",
+          "tickets_sold": 0,
+          "time": "03:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19769",
+          "tickets_sold": 0,
+          "time": "11:45 PM",
+          "venue": "Puthet Cinemas"
         }
       ],
-      "shows": 12,
-      "tickets_sold": 22
+      "shows": 19,
+      "tickets_sold": 38
     },
-    "Its a Medical Miracle": {
+    "Enna Vilai": {
       "gross": 0,
       "occupancy": null,
       "seats_type": {
@@ -624,22 +841,63 @@
           "breakdown": [
             {
               "gross": 0,
+              "movie": "Enna Vilai",
+              "screen": "Screen-2",
+              "showid": "9125",
+              "tickets_sold": 0,
+              "time": "10:00 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "shows": 1,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Enna Vilai",
+          "screen": "Screen-2",
+          "showid": "9125",
+          "tickets_sold": 0,
+          "time": "10:00 PM",
+          "venue": "Aiswarya Cinemas"
+        }
+      ],
+      "shows": 1,
+      "tickets_sold": 0
+    },
+    "Its a Medical Miracle": {
+      "gross": 750,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [
+            {
+              "gross": 600,
               "movie": "It's a Medical Miracle",
               "screen": null,
               "showid": "19753",
-              "tickets_sold": 0,
+              "tickets_sold": 4,
               "time": "10:00 AM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 0,
+              "gross": 150,
               "movie": "It's a Medical Miracle",
               "screen": null,
               "showid": "19754",
-              "tickets_sold": 0,
+              "tickets_sold": 1,
               "time": "12:45 PM",
               "venue": "Puthet Cinemas"
-            },
+            }
+          ],
+          "gross": 750,
+          "shows": 2,
+          "tickets_sold": 5
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "It's a Medical Miracle",
@@ -693,28 +951,91 @@
               "tickets_sold": 0,
               "time": "05:45 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Its A Medical Miracle [M]",
+              "screen": "Cinema-3",
+              "showid": "22997",
+              "tickets_sold": 0,
+              "time": "12:00 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Its A Medical Miracle [M]",
+              "screen": "Cinema-3",
+              "showid": "22998",
+              "tickets_sold": 0,
+              "time": "03:00 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Its A Medical Miracle [M]",
+              "screen": "Cinema-3",
+              "showid": "22999",
+              "tickets_sold": 0,
+              "time": "06:30 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Its A Medical Miracle [M]",
+              "screen": "Cinema-3",
+              "showid": "23000",
+              "tickets_sold": 0,
+              "time": "09:40 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "It's a Medical Miracle",
+              "screen": "SCREEN 4",
+              "showid": "4320",
+              "tickets_sold": 0,
+              "time": "11:15 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "It's a Medical Miracle",
+              "screen": "SCREEN 4",
+              "showid": "4321",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "It's a Medical Miracle",
+              "screen": "SCREEN 4",
+              "showid": "4322",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 13,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 0,
+          "gross": 600,
           "movie": "It's a Medical Miracle",
           "screen": null,
           "showid": "19753",
-          "tickets_sold": 0,
+          "tickets_sold": 4,
           "time": "10:00 AM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 0,
+          "gross": 150,
           "movie": "It's a Medical Miracle",
           "screen": null,
           "showid": "19754",
-          "tickets_sold": 0,
+          "tickets_sold": 1,
           "time": "12:45 PM",
           "venue": "Puthet Cinemas"
         },
@@ -771,13 +1092,152 @@
           "tickets_sold": 0,
           "time": "05:45 PM",
           "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Its A Medical Miracle [M]",
+          "screen": "Cinema-3",
+          "showid": "22997",
+          "tickets_sold": 0,
+          "time": "12:00 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Its A Medical Miracle [M]",
+          "screen": "Cinema-3",
+          "showid": "22998",
+          "tickets_sold": 0,
+          "time": "03:00 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Its A Medical Miracle [M]",
+          "screen": "Cinema-3",
+          "showid": "22999",
+          "tickets_sold": 0,
+          "time": "06:30 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Its A Medical Miracle [M]",
+          "screen": "Cinema-3",
+          "showid": "23000",
+          "tickets_sold": 0,
+          "time": "09:40 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "It's a Medical Miracle",
+          "screen": "SCREEN 4",
+          "showid": "4320",
+          "tickets_sold": 0,
+          "time": "11:15 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "It's a Medical Miracle",
+          "screen": "SCREEN 4",
+          "showid": "4321",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "It's a Medical Miracle",
+          "screen": "SCREEN 4",
+          "showid": "4322",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Fairyland Cinemas"
         }
       ],
-      "shows": 8,
+      "shows": 15,
+      "tickets_sold": 5
+    },
+    "L": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "L",
+              "screen": null,
+              "showid": "19758",
+              "tickets_sold": 0,
+              "time": "10:10 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "L",
+              "screen": null,
+              "showid": "19760",
+              "tickets_sold": 0,
+              "time": "04:15 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "L",
+              "screen": null,
+              "showid": "19762",
+              "tickets_sold": 0,
+              "time": "10:15 PM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "shows": 3,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "L",
+          "screen": null,
+          "showid": "19758",
+          "tickets_sold": 0,
+          "time": "10:10 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "L",
+          "screen": null,
+          "showid": "19760",
+          "tickets_sold": 0,
+          "time": "04:15 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "L",
+          "screen": null,
+          "showid": "19762",
+          "tickets_sold": 0,
+          "time": "10:15 PM",
+          "venue": "Puthet Cinemas"
+        }
+      ],
+      "shows": 3,
       "tickets_sold": 0
     },
     "Law and Order": {
-      "gross": 150,
+      "gross": 300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -790,23 +1250,23 @@
               "tickets_sold": 1,
               "time": "09:15 PM",
               "venue": "Fairyland Cinemas"
-            }
-          ],
-          "gross": 150,
-          "shows": 1,
-          "tickets_sold": 1
-        },
-        "without_gross": {
-          "breakdown": [
+            },
             {
-              "gross": 0,
+              "gross": 150,
               "movie": "Law and Order",
               "screen": "SCREEN 2",
               "showid": "4316",
-              "tickets_sold": 0,
+              "tickets_sold": 1,
               "time": "11:00 AM",
               "venue": "Fairyland Cinemas"
-            },
+            }
+          ],
+          "gross": 300,
+          "shows": 2,
+          "tickets_sold": 2
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "Law and Order",
@@ -853,7 +1313,7 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 6,
+          "shows": 5,
           "tickets_sold": 0
         }
       },
@@ -868,11 +1328,11 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 0,
+          "gross": 150,
           "movie": "Law and Order",
           "screen": "SCREEN 2",
           "showid": "4316",
-          "tickets_sold": 0,
+          "tickets_sold": 1,
           "time": "11:00 AM",
           "venue": "Fairyland Cinemas"
         },
@@ -923,23 +1383,149 @@
         }
       ],
       "shows": 7,
-      "tickets_sold": 1
+      "tickets_sold": 2
     },
-    "Pradhama Drishtya Kuttakkar": {
-      "gross": 1350,
+    "Mandaadi": {
+      "gross": 150,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 300,
-              "movie": "Pradhama Dhrishtya Kuttakkar",
-              "screen": "SCREEN 3",
-              "showid": "4306",
-              "tickets_sold": 2,
-              "time": "05:45 PM",
-              "venue": "Fairyland Cinemas"
+              "gross": 150,
+              "movie": "Mandaadi",
+              "screen": "Screen-3",
+              "showid": "9121",
+              "tickets_sold": 1,
+              "time": "01:30 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 150,
+          "shows": 1,
+          "tickets_sold": 1
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Mandaadi",
+              "screen": "Screen-3",
+              "showid": "9122",
+              "tickets_sold": 0,
+              "time": "04:30 PM",
+              "venue": "Aiswarya Cinemas"
             },
+            {
+              "gross": 0,
+              "movie": "Mandaadi",
+              "screen": "Screen-3",
+              "showid": "9124",
+              "tickets_sold": 0,
+              "time": "10:15 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "shows": 2,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 150,
+          "movie": "Mandaadi",
+          "screen": "Screen-3",
+          "showid": "9121",
+          "tickets_sold": 1,
+          "time": "01:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Mandaadi",
+          "screen": "Screen-3",
+          "showid": "9122",
+          "tickets_sold": 0,
+          "time": "04:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Mandaadi",
+          "screen": "Screen-3",
+          "showid": "9124",
+          "tickets_sold": 0,
+          "time": "10:15 PM",
+          "venue": "Aiswarya Cinemas"
+        }
+      ],
+      "shows": 3,
+      "tickets_sold": 1
+    },
+    "Ottam Thullal": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Ottam Thullal",
+              "screen": "Screen-1",
+              "showid": "9126",
+              "tickets_sold": 0,
+              "time": "02:00 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Ottam Thullal",
+              "screen": "Screen-1",
+              "showid": "9127",
+              "tickets_sold": 0,
+              "time": "04:30 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "shows": 2,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Ottam Thullal",
+          "screen": "Screen-1",
+          "showid": "9126",
+          "tickets_sold": 0,
+          "time": "02:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Ottam Thullal",
+          "screen": "Screen-1",
+          "showid": "9127",
+          "tickets_sold": 0,
+          "time": "04:30 PM",
+          "venue": "Aiswarya Cinemas"
+        }
+      ],
+      "shows": 2,
+      "tickets_sold": 0
+    },
+    "Pradhama Drishtya Kuttakkar": {
+      "gross": 2700,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [
             {
               "gross": 600,
               "movie": "Pradhama Drishtya Kuttakkar",
@@ -950,18 +1536,36 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 450,
+              "gross": 900,
               "movie": "Pradhama Drishtya Kuttakkar",
               "screen": "Athulya",
               "showid": "9086",
-              "tickets_sold": 3,
+              "tickets_sold": 6,
               "time": "08:45 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "Pradhama Dhrishtya Kuttakkar",
+              "screen": "SCREEN 3",
+              "showid": "4306",
+              "tickets_sold": 2,
+              "time": "05:45 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 900,
+              "movie": "Pradhama Dhrishtya Kuttakkar",
+              "screen": "SCREEN 3",
+              "showid": "4305",
+              "tickets_sold": 6,
+              "time": "02:15 PM",
+              "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 1350,
-          "shows": 3,
-          "tickets_sold": 9
+          "gross": 2700,
+          "shows": 4,
+          "tickets_sold": 18
         },
         "without_gross": {
           "breakdown": [
@@ -996,26 +1600,71 @@
               "gross": 0,
               "movie": "Pradhama Dhrishtya Kuttakkar",
               "screen": "SCREEN 3",
-              "showid": "4305",
-              "tickets_sold": 0,
-              "time": "02:15 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Pradhama Dhrishtya Kuttakkar",
-              "screen": "SCREEN 3",
               "showid": "4307",
               "tickets_sold": 0,
               "time": "09:15 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Pradhama Drishtiya Kuttakkar",
+              "screen": "Cinema-1",
+              "showid": "23001",
+              "tickets_sold": 0,
+              "time": "06:30 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Pradhama Drishtiya Kuttakkar",
+              "screen": "Cinema-1",
+              "showid": "23002",
+              "tickets_sold": 0,
+              "time": "09:40 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "PRADHAMA DRISHTIYA KUTTAKKAR",
+              "screen": null,
+              "showid": "19759",
+              "tickets_sold": 0,
+              "time": "01:15 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "PRADHAMA DRISHTIYA KUTTAKKAR",
+              "screen": null,
+              "showid": "19761",
+              "tickets_sold": 0,
+              "time": "07:15 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 5,
+          "shows": 8,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 900,
+          "movie": "Pradhama Drishtya Kuttakkar",
+          "screen": "Athulya",
+          "showid": "9086",
+          "tickets_sold": 6,
+          "time": "08:45 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 900,
+          "movie": "Pradhama Dhrishtya Kuttakkar",
+          "screen": "SCREEN 3",
+          "showid": "4305",
+          "tickets_sold": 6,
+          "time": "02:15 PM",
+          "venue": "Fairyland Cinemas"
+        },
         {
           "gross": 600,
           "movie": "Pradhama Drishtya Kuttakkar",
@@ -1023,15 +1672,6 @@
           "showid": "9083",
           "tickets_sold": 4,
           "time": "11:00 AM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 450,
-          "movie": "Pradhama Drishtya Kuttakkar",
-          "screen": "Athulya",
-          "showid": "9086",
-          "tickets_sold": 3,
-          "time": "08:45 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -1074,32 +1714,62 @@
           "gross": 0,
           "movie": "Pradhama Dhrishtya Kuttakkar",
           "screen": "SCREEN 3",
-          "showid": "4305",
-          "tickets_sold": 0,
-          "time": "02:15 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Pradhama Dhrishtya Kuttakkar",
-          "screen": "SCREEN 3",
           "showid": "4307",
           "tickets_sold": 0,
           "time": "09:15 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Pradhama Drishtiya Kuttakkar",
+          "screen": "Cinema-1",
+          "showid": "23001",
+          "tickets_sold": 0,
+          "time": "06:30 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Pradhama Drishtiya Kuttakkar",
+          "screen": "Cinema-1",
+          "showid": "23002",
+          "tickets_sold": 0,
+          "time": "09:40 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "PRADHAMA DRISHTIYA KUTTAKKAR",
+          "screen": null,
+          "showid": "19759",
+          "tickets_sold": 0,
+          "time": "01:15 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "PRADHAMA DRISHTIYA KUTTAKKAR",
+          "screen": null,
+          "showid": "19761",
+          "tickets_sold": 0,
+          "time": "07:15 PM",
+          "venue": "Puthet Cinemas"
         }
       ],
-      "shows": 8,
-      "tickets_sold": 9
+      "shows": 12,
+      "tickets_sold": 18
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "Unknown"
+          "PRADHAMA DRISHTIYA KUTTAKKAR",
+          "Pradhama Dhrishtya Kuttakkar",
+          "Pradhama Drishtiya Kuttakkar",
+          "Pradhama Drishtya Kuttakkar"
         ],
-        "canonical": "Unknown"
+        "canonical": "Pradhama Drishtya Kuttakkar"
       },
       {
         "aliases": [
@@ -1115,11 +1785,9 @@
       },
       {
         "aliases": [
-          "I AM GAME",
-          "I M Game",
-          "I am Game"
+          "L"
         ],
-        "canonical": "I M Game"
+        "canonical": "L"
       },
       {
         "aliases": [
@@ -1129,16 +1797,23 @@
       },
       {
         "aliases": [
-          "Sardar 2"
+          "Mandaadi"
         ],
-        "canonical": "Sardar 2"
+        "canonical": "Mandaadi"
       },
       {
         "aliases": [
           "It's a Medical Miracle",
+          "Its A Medical Miracle [M]",
           "Its a Medical Miracle"
         ],
         "canonical": "Its a Medical Miracle"
+      },
+      {
+        "aliases": [
+          "Ottam Thullal"
+        ],
+        "canonical": "Ottam Thullal"
       },
       {
         "aliases": [
@@ -1149,18 +1824,9 @@
       },
       {
         "aliases": [
-          "PRADHAMA DRISHTIYA KUTTAKKAR",
-          "Pradhama Dhrishtya Kuttakkar",
-          "Pradhama Drishtiya Kuttakkar",
-          "Pradhama Drishtya Kuttakkar"
+          "I am Game"
         ],
-        "canonical": "Pradhama Drishtya Kuttakkar"
-      },
-      {
-        "aliases": [
-          "Mandaadi"
-        ],
-        "canonical": "Mandaadi"
+        "canonical": "I am Game"
       }
     ]
   }
