@@ -1,6 +1,6 @@
 {
   "date": "2026-09-20",
-  "last_updated": "2026-09-18T04:33:33.474800+05:30",
+  "last_updated": "2026-09-18T06:55:53.816046+05:30",
   "movies": {
     "Bathlehem Kudumba Unit": {
       "gross": 6000,
@@ -242,7 +242,7 @@
       "tickets_sold": 40
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 5700,
+      "gross": 6000,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -300,11 +300,20 @@
               "tickets_sold": 3,
               "time": "06:30 PM",
               "venue": "Girija Theatre"
+            },
+            {
+              "gross": 300,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "SCREEN 1",
+              "showid": "4299",
+              "tickets_sold": 2,
+              "time": "09:15 PM",
+              "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 5700,
-          "shows": 6,
-          "tickets_sold": 38
+          "gross": 6000,
+          "shows": 7,
+          "tickets_sold": 40
         },
         "without_gross": {
           "breakdown": [
@@ -352,18 +361,9 @@
               "tickets_sold": 0,
               "time": "11:00 AM",
               "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "SCREEN 1",
-              "showid": "4299",
-              "tickets_sold": 0,
-              "time": "09:15 PM",
-              "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 6,
+          "shows": 5,
           "tickets_sold": 0
         }
       },
@@ -423,6 +423,15 @@
           "venue": "Girija Theatre"
         },
         {
+          "gross": 300,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "SCREEN 1",
+          "showid": "4299",
+          "tickets_sold": 2,
+          "time": "09:15 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Aiswarya",
@@ -466,19 +475,10 @@
           "tickets_sold": 0,
           "time": "11:00 AM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "SCREEN 1",
-          "showid": "4299",
-          "tickets_sold": 0,
-          "time": "09:15 PM",
-          "venue": "Fairyland Cinemas"
         }
       ],
       "shows": 12,
-      "tickets_sold": 38
+      "tickets_sold": 40
     },
     "Pradhama Drishtya Kuttakkar": {
       "gross": 300,
@@ -652,15 +652,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "PRADHAMA DRISHTIYA KUTTAKKAR",
-          "Pradhama Dhrishtya Kuttakkar",
-          "Pradhama Drishtiya Kuttakkar",
-          "Pradhama Drishtya Kuttakkar"
-        ],
-        "canonical": "Pradhama Drishtya Kuttakkar"
-      },
-      {
-        "aliases": [
           "It's a Medical Miracle",
           "Its A Medical Miracle",
           "Its A Medical Miracle [M]",
@@ -670,29 +661,19 @@
       },
       {
         "aliases": [
-          "L"
+          "PRADHAMA DRISHTIYA KUTTAKKAR",
+          "Pradhama Dhrishtya Kuttakkar",
+          "Pradhama Drishtiya Kuttakkar",
+          "Pradhama Drishtya Kuttakkar"
         ],
-        "canonical": "L"
+        "canonical": "Pradhama Drishtya Kuttakkar"
       },
       {
         "aliases": [
           "Bathlehem Kudumba Unit",
           "Bethlehem Kudumba Unit"
         ],
-        "canonical": "Bathlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "L&O - Law and Order",
-          "Law and Order"
-        ],
-        "canonical": "Law and Order"
-      },
-      {
-        "aliases": [
-          "Aasha"
-        ],
-        "canonical": "Aasha"
+        "canonical": "Bethlehem Kudumba Unit"
       },
       {
         "aliases": [
@@ -702,9 +683,21 @@
       },
       {
         "aliases": [
+          "L"
+        ],
+        "canonical": "L"
+      },
+      {
+        "aliases": [
           "Ottam Thullal"
         ],
         "canonical": "Ottam Thullal"
+      },
+      {
+        "aliases": [
+          "Aasha"
+        ],
+        "canonical": "Aasha"
       },
       {
         "aliases": [
@@ -717,6 +710,13 @@
           "Enna Vilai"
         ],
         "canonical": "Enna Vilai"
+      },
+      {
+        "aliases": [
+          "L&O - Law and Order",
+          "Law and Order"
+        ],
+        "canonical": "Law and Order"
       }
     ]
   }
