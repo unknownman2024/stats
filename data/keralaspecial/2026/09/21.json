@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "last_updated": "2026-09-19T18:27:11.964964+05:30",
+  "last_updated": "2026-09-19T21:51:08.019179+05:30",
   "movies": {
     "Aasha": {
       "gross": 0,
@@ -408,17 +408,26 @@
       "tickets_sold": 15
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 2850,
+      "gross": 4200,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 1050,
+              "gross": 1200,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19792",
+              "tickets_sold": 8,
+              "time": "03:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 1800,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Aiswarya",
               "showid": "9067",
-              "tickets_sold": 7,
+              "tickets_sold": 12,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
             },
@@ -432,27 +441,27 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 300,
+              "gross": 600,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
               "showid": "19791",
-              "tickets_sold": 2,
+              "tickets_sold": 4,
               "time": "12:00 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 1200,
+              "gross": 300,
               "movie": "Bethlehem Kudumba Unit",
-              "screen": null,
-              "showid": "19792",
-              "tickets_sold": 8,
+              "screen": "Dolby Atmos",
+              "showid": "5954",
+              "tickets_sold": 2,
               "time": "03:00 PM",
-              "venue": "Puthet Cinemas"
+              "venue": "Girija Theatre"
             }
           ],
-          "gross": 2850,
-          "shows": 4,
-          "tickets_sold": 19
+          "gross": 4200,
+          "shows": 5,
+          "tickets_sold": 28
         },
         "without_gross": {
           "breakdown": [
@@ -490,15 +499,6 @@
               "showid": "5953",
               "tickets_sold": 0,
               "time": "12:00 PM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Dolby Atmos",
-              "showid": "5954",
-              "tickets_sold": 0,
-              "time": "03:00 PM",
               "venue": "Girija Theatre"
             },
             {
@@ -565,11 +565,20 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 12,
+          "shows": 11,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1800,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Aiswarya",
+          "showid": "9067",
+          "tickets_sold": 12,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 1200,
           "movie": "Bethlehem Kudumba Unit",
@@ -580,13 +589,13 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 1050,
+          "gross": 600,
           "movie": "Bethlehem Kudumba Unit",
-          "screen": "Aiswarya",
-          "showid": "9067",
-          "tickets_sold": 7,
-          "time": "11:00 AM",
-          "venue": "Aiswarya Cinemas"
+          "screen": null,
+          "showid": "19791",
+          "tickets_sold": 4,
+          "time": "12:00 PM",
+          "venue": "Puthet Cinemas"
         },
         {
           "gross": 300,
@@ -600,11 +609,11 @@
         {
           "gross": 300,
           "movie": "Bethlehem Kudumba Unit",
-          "screen": null,
-          "showid": "19791",
+          "screen": "Dolby Atmos",
+          "showid": "5954",
           "tickets_sold": 2,
-          "time": "12:00 PM",
-          "venue": "Puthet Cinemas"
+          "time": "03:00 PM",
+          "venue": "Girija Theatre"
         },
         {
           "gross": 0,
@@ -640,15 +649,6 @@
           "showid": "5953",
           "tickets_sold": 0,
           "time": "12:00 PM",
-          "venue": "Girija Theatre"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Dolby Atmos",
-          "showid": "5954",
-          "tickets_sold": 0,
-          "time": "03:00 PM",
           "venue": "Girija Theatre"
         },
         {
@@ -716,7 +716,7 @@
         }
       ],
       "shows": 16,
-      "tickets_sold": 19
+      "tickets_sold": 28
     },
     "Its A Medical Miracle": {
       "gross": 0,
@@ -1356,13 +1356,27 @@
     "merged_movies": [
       {
         "aliases": [
+          "Daivathaan Kunnu"
+        ],
+        "canonical": "Daivathaan Kunnu"
+      },
+      {
+        "aliases": [
+          "PRADHAMA DRISHTIYA KUTTAKKAR",
+          "Pradhama Dhrishtya Kuttakkar",
+          "Pradhama Drishtiya Kuttakkar",
+          "Pradhama Drishtya Kuttakkar"
+        ],
+        "canonical": "Pradhama Drishtya Kuttakkar"
+      },
+      {
+        "aliases": [
           "L"
         ],
         "canonical": "L"
       },
       {
         "aliases": [
-          "It's a Medical Miracle",
           "Its A Medical Miracle",
           "Its A Medical Miracle [M]",
           "Its a Medical Miracle"
@@ -1377,44 +1391,21 @@
       },
       {
         "aliases": [
-          "PRADHAMA DRISHTIYA KUTTAKKAR",
-          "Pradhama Dhrishtya Kuttakkar",
-          "Pradhama Drishtiya Kuttakkar",
-          "Pradhama Drishtya Kuttakkar"
+          "Mandaadi"
         ],
-        "canonical": "Pradhama Drishtya Kuttakkar"
+        "canonical": "Mandaadi"
       },
       {
         "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
-        ],
-        "canonical": "Bethlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "Ottam Thullal"
-        ],
-        "canonical": "Ottam Thullal"
-      },
-      {
-        "aliases": [
-          "L&O - Law and Order",
           "Law and Order"
         ],
         "canonical": "Law and Order"
       },
       {
         "aliases": [
-          "Daivathaan Kunnu"
+          "Bethlehem Kudumba Unit"
         ],
-        "canonical": "Daivathaan Kunnu"
-      },
-      {
-        "aliases": [
-          "Mandaadi"
-        ],
-        "canonical": "Mandaadi"
+        "canonical": "Bethlehem Kudumba Unit"
       }
     ]
   }
