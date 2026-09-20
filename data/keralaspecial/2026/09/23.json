@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "last_updated": "2026-09-20T17:40:35.832302+05:30",
+  "last_updated": "2026-09-20T21:56:52.502277+05:30",
   "movies": {
     "Aasha": {
       "gross": 0,
@@ -264,14 +264,33 @@
       "tickets_sold": 4
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 0,
+      "gross": 900,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 600,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Aiswarya",
+              "showid": "9075",
+              "tickets_sold": 4,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Aiswarya",
+              "showid": "9077",
+              "tickets_sold": 2,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 900,
+          "shows": 2,
+          "tickets_sold": 6
         },
         "without_gross": {
           "breakdown": [
@@ -279,27 +298,9 @@
               "gross": 0,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Aiswarya",
-              "showid": "9075",
-              "tickets_sold": 0,
-              "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Aiswarya",
               "showid": "9076",
               "tickets_sold": 0,
               "time": "02:15 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Aiswarya",
-              "showid": "9077",
-              "tickets_sold": 0,
-              "time": "05:30 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -348,18 +349,27 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 6,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 0,
+          "gross": 600,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Aiswarya",
           "showid": "9075",
-          "tickets_sold": 0,
+          "tickets_sold": 4,
           "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Aiswarya",
+          "showid": "9077",
+          "tickets_sold": 2,
+          "time": "05:30 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -369,15 +379,6 @@
           "showid": "9076",
           "tickets_sold": 0,
           "time": "02:15 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Aiswarya",
-          "showid": "9077",
-          "tickets_sold": 0,
-          "time": "05:30 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -427,7 +428,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 0
+      "tickets_sold": 6
     },
     "Its A Medical Miracle": {
       "gross": 0,
@@ -1139,10 +1140,11 @@
     "merged_movies": [
       {
         "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
+          "Its A Medical Miracle",
+          "Its A Medical Miracle [M]",
+          "Its a Medical Miracle"
         ],
-        "canonical": "Bathlehem Kudumba Unit"
+        "canonical": "Its a Medical Miracle"
       },
       {
         "aliases": [
@@ -1152,9 +1154,9 @@
       },
       {
         "aliases": [
-          "Aasha"
+          "Bethlehem Kudumba Unit"
         ],
-        "canonical": "Aasha"
+        "canonical": "Bethlehem Kudumba Unit"
       },
       {
         "aliases": [
@@ -1167,31 +1169,21 @@
       },
       {
         "aliases": [
-          "It's a Medical Miracle",
-          "Its A Medical Miracle",
-          "Its A Medical Miracle [M]",
-          "Its a Medical Miracle"
+          "Aasha"
         ],
-        "canonical": "Its A Medical Miracle"
+        "canonical": "Aasha"
       },
       {
         "aliases": [
-          "Mandaadi"
-        ],
-        "canonical": "Mandaadi"
-      },
-      {
-        "aliases": [
-          "L&O - Law and Order",
           "Law and Order"
         ],
         "canonical": "Law and Order"
       },
       {
         "aliases": [
-          "Ottam Thullal"
+          "Mandaadi"
         ],
-        "canonical": "Ottam Thullal"
+        "canonical": "Mandaadi"
       }
     ]
   }
