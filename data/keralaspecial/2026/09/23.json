@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "last_updated": "2026-09-20T21:56:52.502277+05:30",
+  "last_updated": "2026-09-21T00:31:14.533165+05:30",
   "movies": {
     "Aasha": {
       "gross": 0,
@@ -97,7 +97,7 @@
       "tickets_sold": 0
     },
     "Bathlehem Kudumba Unit": {
-      "gross": 600,
+      "gross": 900,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -110,11 +110,20 @@
               "tickets_sold": 4,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Aiswarya",
+              "showid": "9077",
+              "tickets_sold": 2,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 600,
-          "shows": 1,
-          "tickets_sold": 4
+          "gross": 900,
+          "shows": 2,
+          "tickets_sold": 6
         },
         "without_gross": {
           "breakdown": [
@@ -125,15 +134,6 @@
               "showid": "9076",
               "tickets_sold": 0,
               "time": "02:15 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Aiswarya",
-              "showid": "9077",
-              "tickets_sold": 0,
-              "time": "05:30 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -182,7 +182,7 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 7,
+          "shows": 6,
           "tickets_sold": 0
         }
       },
@@ -197,21 +197,21 @@
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 0,
+          "gross": 300,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Aiswarya",
-          "showid": "9076",
-          "tickets_sold": 0,
-          "time": "02:15 PM",
+          "showid": "9077",
+          "tickets_sold": 2,
+          "time": "05:30 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Aiswarya",
-          "showid": "9077",
+          "showid": "9076",
           "tickets_sold": 0,
-          "time": "05:30 PM",
+          "time": "02:15 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -261,7 +261,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 4
+      "tickets_sold": 6
     },
     "Bethlehem Kudumba Unit": {
       "gross": 900,
@@ -1140,23 +1140,22 @@
     "merged_movies": [
       {
         "aliases": [
-          "Its A Medical Miracle",
-          "Its A Medical Miracle [M]",
-          "Its a Medical Miracle"
+          "Mandaadi"
         ],
-        "canonical": "Its a Medical Miracle"
+        "canonical": "Mandaadi"
+      },
+      {
+        "aliases": [
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bathlehem Kudumba Unit"
       },
       {
         "aliases": [
           "L"
         ],
         "canonical": "L"
-      },
-      {
-        "aliases": [
-          "Bethlehem Kudumba Unit"
-        ],
-        "canonical": "Bethlehem Kudumba Unit"
       },
       {
         "aliases": [
@@ -1169,21 +1168,37 @@
       },
       {
         "aliases": [
-          "Aasha"
-        ],
-        "canonical": "Aasha"
-      },
-      {
-        "aliases": [
+          "L&O - Law and Order",
           "Law and Order"
         ],
         "canonical": "Law and Order"
       },
       {
         "aliases": [
-          "Mandaadi"
+          "Ottam Thullal"
         ],
-        "canonical": "Mandaadi"
+        "canonical": "Ottam Thullal"
+      },
+      {
+        "aliases": [
+          "Aasha"
+        ],
+        "canonical": "Aasha"
+      },
+      {
+        "aliases": [
+          "It's a Medical Miracle",
+          "Its A Medical Miracle",
+          "Its A Medical Miracle [M]",
+          "Its a Medical Miracle"
+        ],
+        "canonical": "Its a Medical Miracle"
+      },
+      {
+        "aliases": [
+          "Resident Evil"
+        ],
+        "canonical": "Resident Evil"
       }
     ]
   }
