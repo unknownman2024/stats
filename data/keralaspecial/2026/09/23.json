@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "last_updated": "2026-09-20T12:26:52.170169+05:30",
+  "last_updated": "2026-09-20T17:40:35.832302+05:30",
   "movies": {
     "Aasha": {
       "gross": 0,
@@ -97,26 +97,27 @@
       "tickets_sold": 0
     },
     "Bathlehem Kudumba Unit": {
-      "gross": 0,
+      "gross": 600,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
-        },
-        "without_gross": {
           "breakdown": [
             {
-              "gross": 0,
+              "gross": 600,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Aiswarya",
               "showid": "9075",
-              "tickets_sold": 0,
+              "tickets_sold": 4,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
-            },
+            }
+          ],
+          "gross": 600,
+          "shows": 1,
+          "tickets_sold": 4
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "Bethlehem Kudumba Unit",
@@ -181,17 +182,17 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 0,
+          "gross": 600,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "Aiswarya",
           "showid": "9075",
-          "tickets_sold": 0,
+          "tickets_sold": 4,
           "time": "11:00 AM",
           "venue": "Aiswarya Cinemas"
         },
@@ -260,7 +261,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 0
+      "tickets_sold": 4
     },
     "Bethlehem Kudumba Unit": {
       "gross": 0,
@@ -967,14 +968,24 @@
       "tickets_sold": 0
     },
     "Pradhama Drishtya Kuttakkar": {
-      "gross": 0,
+      "gross": 300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 300,
+              "movie": "Pradhama Drishtya Kuttakkar",
+              "screen": "Athulya",
+              "showid": "9106",
+              "tickets_sold": 2,
+              "time": "08:45 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 300,
+          "shows": 1,
+          "tickets_sold": 2
         },
         "without_gross": {
           "breakdown": [
@@ -1003,15 +1014,6 @@
               "showid": "9105",
               "tickets_sold": 0,
               "time": "05:30 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Pradhama Drishtya Kuttakkar",
-              "screen": "Athulya",
-              "showid": "9106",
-              "tickets_sold": 0,
-              "time": "08:45 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -1051,11 +1053,20 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 300,
+          "movie": "Pradhama Drishtya Kuttakkar",
+          "screen": "Athulya",
+          "showid": "9106",
+          "tickets_sold": 2,
+          "time": "08:45 PM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Pradhama Drishtya Kuttakkar",
@@ -1081,15 +1092,6 @@
           "showid": "9105",
           "tickets_sold": 0,
           "time": "05:30 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Pradhama Drishtya Kuttakkar",
-          "screen": "Athulya",
-          "showid": "9106",
-          "tickets_sold": 0,
-          "time": "08:45 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -1130,32 +1132,29 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 0
+      "tickets_sold": 2
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "It's a Medical Miracle",
-          "Its A Medical Miracle",
-          "Its A Medical Miracle [M]",
-          "Its a Medical Miracle"
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
         ],
-        "canonical": "Its a Medical Miracle"
-      },
-      {
-        "aliases": [
-          "L&O - Law and Order",
-          "Law and Order"
-        ],
-        "canonical": "Law and Order"
+        "canonical": "Bathlehem Kudumba Unit"
       },
       {
         "aliases": [
           "L"
         ],
         "canonical": "L"
+      },
+      {
+        "aliases": [
+          "Aasha"
+        ],
+        "canonical": "Aasha"
       },
       {
         "aliases": [
@@ -1168,34 +1167,31 @@
       },
       {
         "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
+          "It's a Medical Miracle",
+          "Its A Medical Miracle",
+          "Its A Medical Miracle [M]",
+          "Its a Medical Miracle"
         ],
-        "canonical": "Bethlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "Aasha"
-        ],
-        "canonical": "Aasha"
-      },
-      {
-        "aliases": [
-          "Ottam Thullal"
-        ],
-        "canonical": "Ottam Thullal"
-      },
-      {
-        "aliases": [
-          "Resident Evil"
-        ],
-        "canonical": "Resident Evil"
+        "canonical": "Its A Medical Miracle"
       },
       {
         "aliases": [
           "Mandaadi"
         ],
         "canonical": "Mandaadi"
+      },
+      {
+        "aliases": [
+          "L&O - Law and Order",
+          "Law and Order"
+        ],
+        "canonical": "Law and Order"
+      },
+      {
+        "aliases": [
+          "Ottam Thullal"
+        ],
+        "canonical": "Ottam Thullal"
       }
     ]
   }
