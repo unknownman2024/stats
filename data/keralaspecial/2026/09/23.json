@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "last_updated": "2026-09-22T02:01:47.162262+05:30",
+  "last_updated": "2026-09-22T05:02:57.300713+05:30",
   "movies": {
     "Aasha": {
       "gross": 0,
@@ -121,21 +121,21 @@
         "with_gross": {
           "breakdown": [
             {
-              "gross": 600,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Aiswarya",
-              "showid": "9075",
-              "tickets_sold": 4,
-              "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
               "gross": 1500,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Aiswarya",
               "showid": "9077",
               "tickets_sold": 10,
               "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 600,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Aiswarya",
+              "showid": "9075",
+              "tickets_sold": 4,
+              "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
             }
           ],
@@ -426,7 +426,7 @@
       "tickets_sold": 14
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 1200,
+      "gross": 2100,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -441,18 +441,18 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 600,
+              "gross": 1500,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "Aiswarya",
               "showid": "9077",
-              "tickets_sold": 4,
+              "tickets_sold": 10,
               "time": "05:30 PM",
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 1200,
+          "gross": 2100,
           "shows": 2,
-          "tickets_sold": 8
+          "tickets_sold": 14
         },
         "without_gross": {
           "breakdown": [
@@ -545,13 +545,58 @@
               "tickets_sold": 0,
               "time": "09:30 PM",
               "venue": "Girija Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19839",
+              "tickets_sold": 0,
+              "time": "11:45 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19840",
+              "tickets_sold": 0,
+              "time": "03:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19841",
+              "tickets_sold": 0,
+              "time": "06:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19842",
+              "tickets_sold": 0,
+              "time": "09:45 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 10,
+          "shows": 14,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1500,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Aiswarya",
+          "showid": "9077",
+          "tickets_sold": 10,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 600,
           "movie": "Bethlehem Kudumba Unit",
@@ -559,15 +604,6 @@
           "showid": "9075",
           "tickets_sold": 4,
           "time": "11:00 AM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 600,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Aiswarya",
-          "showid": "9077",
-          "tickets_sold": 4,
-          "time": "05:30 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -659,10 +695,46 @@
           "tickets_sold": 0,
           "time": "09:30 PM",
           "venue": "Girija Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19839",
+          "tickets_sold": 0,
+          "time": "11:45 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19840",
+          "tickets_sold": 0,
+          "time": "03:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19841",
+          "tickets_sold": 0,
+          "time": "06:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19842",
+          "tickets_sold": 0,
+          "time": "09:45 PM",
+          "venue": "Puthet Cinemas"
         }
       ],
-      "shows": 12,
-      "tickets_sold": 8
+      "shows": 16,
+      "tickets_sold": 14
     },
     "Its A Medical Miracle": {
       "gross": 0,
@@ -1531,6 +1603,12 @@
       },
       {
         "aliases": [
+          "Mandaadi"
+        ],
+        "canonical": "Mandaadi"
+      },
+      {
+        "aliases": [
           "It's a Medical Miracle",
           "Its A Medical Miracle",
           "Its a Medical Miracle"
@@ -1539,29 +1617,16 @@
       },
       {
         "aliases": [
-          "L&O - Law and Order",
-          "Law and Order"
-        ],
-        "canonical": "Law and Order"
-      },
-      {
-        "aliases": [
-          "Resident Evil"
-        ],
-        "canonical": "Resident Evil"
-      },
-      {
-        "aliases": [
-          "Ottam Thullal"
-        ],
-        "canonical": "Ottam Thullal"
-      },
-      {
-        "aliases": [
           "Bathlehem Kudumba Unit",
           "Bethlehem Kudumba Unit"
         ],
-        "canonical": "Bathlehem Kudumba Unit"
+        "canonical": "Bethlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
+          "Aasha"
+        ],
+        "canonical": "Aasha"
       },
       {
         "aliases": [
@@ -1571,15 +1636,22 @@
       },
       {
         "aliases": [
-          "Mandaadi"
+          "Ottam Thullal"
         ],
-        "canonical": "Mandaadi"
+        "canonical": "Ottam Thullal"
       },
       {
         "aliases": [
-          "Aasha"
+          "Resident Evil"
         ],
-        "canonical": "Aasha"
+        "canonical": "Resident Evil"
+      },
+      {
+        "aliases": [
+          "L&O - Law and Order",
+          "Law and Order"
+        ],
+        "canonical": "Law and Order"
       }
     ]
   }
