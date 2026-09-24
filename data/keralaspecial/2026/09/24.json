@@ -1,26 +1,44 @@
 {
   "date": "2026-09-24",
-  "last_updated": "2026-09-24T05:25:40.891504+05:30",
+  "last_updated": "2026-09-24T09:09:24.581664+05:30",
   "movies": {
     "Aasha": {
-      "gross": 750,
+      "gross": 2250,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 750,
+              "gross": 1200,
               "movie": "Aasha",
               "screen": "SCREEN 2",
               "showid": "10547",
-              "tickets_sold": 5,
+              "tickets_sold": 8,
               "time": "11:30 AM",
               "venue": "Harihar"
+            },
+            {
+              "gross": 150,
+              "movie": "Aasha",
+              "screen": "SAMUDRA",
+              "showid": "20753",
+              "tickets_sold": 1,
+              "time": "11:30 AM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 900,
+              "movie": "Aasha",
+              "screen": "SARITHA",
+              "showid": "20746",
+              "tickets_sold": 6,
+              "time": "05:15 PM",
+              "venue": "SFC"
             }
           ],
-          "gross": 750,
-          "shows": 1,
-          "tickets_sold": 5
+          "gross": 2250,
+          "shows": 3,
+          "tickets_sold": 15
         },
         "without_gross": {
           "breakdown": [
@@ -72,24 +90,6 @@
             {
               "gross": 0,
               "movie": "Aasha",
-              "screen": "SAMUDRA",
-              "showid": "20753",
-              "tickets_sold": 0,
-              "time": "11:30 AM",
-              "venue": "SFC"
-            },
-            {
-              "gross": 0,
-              "movie": "Aasha",
-              "screen": "SARITHA",
-              "showid": "20746",
-              "tickets_sold": 0,
-              "time": "05:15 PM",
-              "venue": "SFC"
-            },
-            {
-              "gross": 0,
-              "movie": "Aasha",
               "screen": "SARITHA",
               "showid": "20747",
               "tickets_sold": 0,
@@ -97,19 +97,37 @@
               "venue": "SFC"
             }
           ],
-          "shows": 8,
+          "shows": 6,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 750,
+          "gross": 1200,
           "movie": "Aasha",
           "screen": "SCREEN 2",
           "showid": "10547",
-          "tickets_sold": 5,
+          "tickets_sold": 8,
           "time": "11:30 AM",
           "venue": "Harihar"
+        },
+        {
+          "gross": 900,
+          "movie": "Aasha",
+          "screen": "SARITHA",
+          "showid": "20746",
+          "tickets_sold": 6,
+          "time": "05:15 PM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 150,
+          "movie": "Aasha",
+          "screen": "SAMUDRA",
+          "showid": "20753",
+          "tickets_sold": 1,
+          "time": "11:30 AM",
+          "venue": "SFC"
         },
         {
           "gross": 0,
@@ -159,24 +177,6 @@
         {
           "gross": 0,
           "movie": "Aasha",
-          "screen": "SAMUDRA",
-          "showid": "20753",
-          "tickets_sold": 0,
-          "time": "11:30 AM",
-          "venue": "SFC"
-        },
-        {
-          "gross": 0,
-          "movie": "Aasha",
-          "screen": "SARITHA",
-          "showid": "20746",
-          "tickets_sold": 0,
-          "time": "05:15 PM",
-          "venue": "SFC"
-        },
-        {
-          "gross": 0,
-          "movie": "Aasha",
           "screen": "SARITHA",
           "showid": "20747",
           "tickets_sold": 0,
@@ -185,58 +185,40 @@
         }
       ],
       "shows": 9,
-      "tickets_sold": 5
+      "tickets_sold": 15
     },
     "Bathlehem Kudumba Unit": {
-      "gross": 76050,
+      "gross": 83400,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 3150,
+              "gross": 42450,
               "movie": "Bethlehem Kudumba Unit",
-              "screen": null,
-              "showid": "19849",
-              "tickets_sold": 21,
-              "time": "06:30 PM",
-              "venue": "Puthet Cinemas"
+              "screen": "SCREEN 1",
+              "showid": "9282",
+              "tickets_sold": 283,
+              "time": "07:30 PM",
+              "venue": "Sandhya"
             },
             {
-              "gross": 2700,
+              "gross": 7800,
               "movie": "Bethlehem Kudumba Unit",
-              "screen": null,
-              "showid": "19847",
-              "tickets_sold": 18,
-              "time": "11:45 AM",
-              "venue": "Puthet Cinemas"
+              "screen": "SCREEN 1",
+              "showid": "9280",
+              "tickets_sold": 52,
+              "time": "01:00 PM",
+              "venue": "Sandhya"
             },
             {
-              "gross": 300,
+              "gross": 7650,
               "movie": "Bethlehem Kudumba Unit",
-              "screen": "SAVITHA",
-              "showid": "20740",
-              "tickets_sold": 2,
-              "time": "11:30 AM",
-              "venue": "SFC"
-            },
-            {
-              "gross": 2550,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "SAVITHA",
-              "showid": "20741",
-              "tickets_sold": 17,
-              "time": "02:30 PM",
-              "venue": "SFC"
-            },
-            {
-              "gross": 450,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "SAVITHA",
-              "showid": "20742",
-              "tickets_sold": 3,
-              "time": "05:30 PM",
-              "venue": "SFC"
+              "screen": "SCREEN 1",
+              "showid": "9281",
+              "tickets_sold": 51,
+              "time": "04:15 PM",
+              "venue": "Sandhya"
             },
             {
               "gross": 5100,
@@ -248,13 +230,40 @@
               "venue": "SFC"
             },
             {
-              "gross": 1050,
-              "movie": "Bathlehem Kudumba Unit",
-              "screen": "SCREEN 2",
-              "showid": "10548",
-              "tickets_sold": 7,
+              "gross": 3450,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19849",
+              "tickets_sold": 23,
+              "time": "06:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 3150,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "SCREEN 1",
+              "showid": "9517",
+              "tickets_sold": 21,
+              "time": "08:30 PM",
+              "venue": "Jose"
+            },
+            {
+              "gross": 2700,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19847",
+              "tickets_sold": 18,
+              "time": "11:45 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 3450,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "SAVITHA",
+              "showid": "20741",
+              "tickets_sold": 23,
               "time": "02:30 PM",
-              "venue": "Harihar"
+              "venue": "SFC"
             },
             {
               "gross": 1500,
@@ -269,19 +278,19 @@
               "gross": 1050,
               "movie": "Bathlehem Kudumba Unit",
               "screen": "SCREEN 2",
+              "showid": "10548",
+              "tickets_sold": 7,
+              "time": "02:30 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 1050,
+              "movie": "Bathlehem Kudumba Unit",
+              "screen": "SCREEN 2",
               "showid": "10550",
               "tickets_sold": 7,
               "time": "09:30 PM",
               "venue": "Harihar"
-            },
-            {
-              "gross": 300,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "SCREEN 1",
-              "showid": "9514",
-              "tickets_sold": 2,
-              "time": "11:00 AM",
-              "venue": "Jose"
             },
             {
               "gross": 750,
@@ -295,6 +304,15 @@
             {
               "gross": 450,
               "movie": "Bethlehem Kudumba Unit",
+              "screen": "SAVITHA",
+              "showid": "20742",
+              "tickets_sold": 3,
+              "time": "05:30 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 450,
+              "movie": "Bethlehem Kudumba Unit",
               "screen": "SCREEN 1",
               "showid": "9516",
               "tickets_sold": 3,
@@ -302,40 +320,22 @@
               "venue": "Jose"
             },
             {
-              "gross": 3150,
+              "gross": 300,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "SAVITHA",
+              "showid": "20740",
+              "tickets_sold": 2,
+              "time": "11:30 AM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 300,
               "movie": "Bethlehem Kudumba Unit",
               "screen": "SCREEN 1",
-              "showid": "9517",
-              "tickets_sold": 21,
-              "time": "08:30 PM",
+              "showid": "9514",
+              "tickets_sold": 2,
+              "time": "11:00 AM",
               "venue": "Jose"
-            },
-            {
-              "gross": 6600,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "SCREEN 1",
-              "showid": "9280",
-              "tickets_sold": 44,
-              "time": "01:00 PM",
-              "venue": "Sandhya"
-            },
-            {
-              "gross": 5250,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "SCREEN 1",
-              "showid": "9281",
-              "tickets_sold": 35,
-              "time": "04:15 PM",
-              "venue": "Sandhya"
-            },
-            {
-              "gross": 41400,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "SCREEN 1",
-              "showid": "9282",
-              "tickets_sold": 276,
-              "time": "07:30 PM",
-              "venue": "Sandhya"
             },
             {
               "gross": 300,
@@ -345,11 +345,56 @@
               "tickets_sold": 2,
               "time": "10:45 PM",
               "venue": "Sandhya"
+            },
+            {
+              "gross": 300,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "SCREEN 2",
+              "showid": "4418",
+              "tickets_sold": 2,
+              "time": "05:45 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 450,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "SCREEN 2",
+              "showid": "4419",
+              "tickets_sold": 3,
+              "time": "09:15 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Aiswarya",
+              "showid": "9199",
+              "tickets_sold": 2,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Aiswarya",
+              "showid": "9200",
+              "tickets_sold": 2,
+              "time": "02:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 150,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": null,
+              "showid": "19848",
+              "tickets_sold": 1,
+              "time": "03:00 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 76050,
-          "shows": 17,
-          "tickets_sold": 507
+          "gross": 83400,
+          "shows": 22,
+          "tickets_sold": 556
         },
         "without_gross": {
           "breakdown": [
@@ -370,42 +415,6 @@
               "tickets_sold": 0,
               "time": "02:15 PM",
               "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "SCREEN 2",
-              "showid": "4418",
-              "tickets_sold": 0,
-              "time": "05:45 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "SCREEN 2",
-              "showid": "4419",
-              "tickets_sold": 0,
-              "time": "09:15 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Aiswarya",
-              "showid": "9199",
-              "tickets_sold": 0,
-              "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "Aiswarya",
-              "showid": "9200",
-              "tickets_sold": 0,
-              "time": "02:15 PM",
-              "venue": "Aiswarya Cinemas"
             },
             {
               "gross": 0,
@@ -447,50 +456,41 @@
               "gross": 0,
               "movie": "Bethlehem Kudumba Unit",
               "screen": null,
-              "showid": "19848",
-              "tickets_sold": 0,
-              "time": "03:00 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": null,
               "showid": "19850",
               "tickets_sold": 0,
               "time": "09:45 PM",
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 12,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 41400,
+          "gross": 42450,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "SCREEN 1",
           "showid": "9282",
-          "tickets_sold": 276,
+          "tickets_sold": 283,
           "time": "07:30 PM",
           "venue": "Sandhya"
         },
         {
-          "gross": 6600,
+          "gross": 7800,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "SCREEN 1",
           "showid": "9280",
-          "tickets_sold": 44,
+          "tickets_sold": 52,
           "time": "01:00 PM",
           "venue": "Sandhya"
         },
         {
-          "gross": 5250,
+          "gross": 7650,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "SCREEN 1",
           "showid": "9281",
-          "tickets_sold": 35,
+          "tickets_sold": 51,
           "time": "04:15 PM",
           "venue": "Sandhya"
         },
@@ -504,13 +504,22 @@
           "venue": "SFC"
         },
         {
-          "gross": 3150,
+          "gross": 3450,
           "movie": "Bethlehem Kudumba Unit",
           "screen": null,
           "showid": "19849",
-          "tickets_sold": 21,
+          "tickets_sold": 23,
           "time": "06:30 PM",
           "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 3450,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "SAVITHA",
+          "showid": "20741",
+          "tickets_sold": 23,
+          "time": "02:30 PM",
+          "venue": "SFC"
         },
         {
           "gross": 3150,
@@ -529,15 +538,6 @@
           "tickets_sold": 18,
           "time": "11:45 AM",
           "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 2550,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "SAVITHA",
-          "showid": "20741",
-          "tickets_sold": 17,
-          "time": "02:30 PM",
-          "venue": "SFC"
         },
         {
           "gross": 1500,
@@ -594,6 +594,15 @@
           "venue": "Jose"
         },
         {
+          "gross": 450,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "SCREEN 2",
+          "showid": "4419",
+          "tickets_sold": 3,
+          "time": "09:15 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
           "gross": 300,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "SAVITHA",
@@ -621,6 +630,42 @@
           "venue": "Sandhya"
         },
         {
+          "gross": 300,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "SCREEN 2",
+          "showid": "4418",
+          "tickets_sold": 2,
+          "time": "05:45 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Aiswarya",
+          "showid": "9199",
+          "tickets_sold": 2,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Aiswarya",
+          "showid": "9200",
+          "tickets_sold": 2,
+          "time": "02:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 150,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": null,
+          "showid": "19848",
+          "tickets_sold": 1,
+          "time": "03:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
           "screen": "SCREEN 2",
@@ -637,42 +682,6 @@
           "tickets_sold": 0,
           "time": "02:15 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "SCREEN 2",
-          "showid": "4418",
-          "tickets_sold": 0,
-          "time": "05:45 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "SCREEN 2",
-          "showid": "4419",
-          "tickets_sold": 0,
-          "time": "09:15 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Aiswarya",
-          "showid": "9199",
-          "tickets_sold": 0,
-          "time": "11:00 AM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "Aiswarya",
-          "showid": "9200",
-          "tickets_sold": 0,
-          "time": "02:15 PM",
-          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 0,
@@ -714,15 +723,6 @@
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
           "screen": null,
-          "showid": "19848",
-          "tickets_sold": 0,
-          "time": "03:00 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": null,
           "showid": "19850",
           "tickets_sold": 0,
           "time": "09:45 PM",
@@ -730,7 +730,7 @@
         }
       ],
       "shows": 29,
-      "tickets_sold": 507
+      "tickets_sold": 556
     },
     "Bethlehem Kudumba Unit": {
       "gross": 76350,
@@ -1379,9 +1379,36 @@
               "tickets_sold": 0,
               "time": "08:30 PM",
               "venue": "SFC"
+            },
+            {
+              "gross": 0,
+              "movie": "Its a Medical Miracle",
+              "screen": "SCREEN 4",
+              "showid": "4456",
+              "tickets_sold": 0,
+              "time": "11:15 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Its a Medical Miracle",
+              "screen": "SCREEN 4",
+              "showid": "4457",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Its a Medical Miracle",
+              "screen": "SCREEN 4",
+              "showid": "4459",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 9,
+          "shows": 12,
           "tickets_sold": 0
         }
       },
@@ -1475,9 +1502,36 @@
           "tickets_sold": 0,
           "time": "08:30 PM",
           "venue": "SFC"
+        },
+        {
+          "gross": 0,
+          "movie": "Its a Medical Miracle",
+          "screen": "SCREEN 4",
+          "showid": "4456",
+          "tickets_sold": 0,
+          "time": "11:15 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Its a Medical Miracle",
+          "screen": "SCREEN 4",
+          "showid": "4457",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Its a Medical Miracle",
+          "screen": "SCREEN 4",
+          "showid": "4459",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Fairyland Cinemas"
         }
       ],
-      "shows": 10,
+      "shows": 13,
       "tickets_sold": 6
     },
     "Its a Medical Miracle": {
@@ -1738,14 +1792,24 @@
       "tickets_sold": 6
     },
     "L&O - Law and Order": {
-      "gross": 0,
+      "gross": 150,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 150,
+              "movie": "L&O - Law and Order",
+              "screen": "SAAGARA",
+              "showid": "20750",
+              "tickets_sold": 1,
+              "time": "02:30 PM",
+              "venue": "SFC"
+            }
+          ],
+          "gross": 150,
+          "shows": 1,
+          "tickets_sold": 1
         },
         "without_gross": {
           "breakdown": [
@@ -1762,26 +1826,26 @@
               "gross": 0,
               "movie": "L&O - Law and Order",
               "screen": "SAAGARA",
-              "showid": "20750",
-              "tickets_sold": 0,
-              "time": "02:30 PM",
-              "venue": "SFC"
-            },
-            {
-              "gross": 0,
-              "movie": "L&O - Law and Order",
-              "screen": "SAAGARA",
               "showid": "20752",
               "tickets_sold": 0,
               "time": "08:45 PM",
               "venue": "SFC"
             }
           ],
-          "shows": 3,
+          "shows": 2,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 150,
+          "movie": "L&O - Law and Order",
+          "screen": "SAAGARA",
+          "showid": "20750",
+          "tickets_sold": 1,
+          "time": "02:30 PM",
+          "venue": "SFC"
+        },
         {
           "gross": 0,
           "movie": "L&O - Law and Order",
@@ -1795,15 +1859,6 @@
           "gross": 0,
           "movie": "L&O - Law and Order",
           "screen": "SAAGARA",
-          "showid": "20750",
-          "tickets_sold": 0,
-          "time": "02:30 PM",
-          "venue": "SFC"
-        },
-        {
-          "gross": 0,
-          "movie": "L&O - Law and Order",
-          "screen": "SAAGARA",
           "showid": "20752",
           "tickets_sold": 0,
           "time": "08:45 PM",
@@ -1811,7 +1866,7 @@
         }
       ],
       "shows": 3,
-      "tickets_sold": 0
+      "tickets_sold": 1
     },
     "Mandaadi": {
       "gross": 600,
@@ -1909,44 +1964,44 @@
       "tickets_sold": 4
     },
     "Pradhama Drishtya Kuttakkar": {
-      "gross": 22650,
+      "gross": 29400,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 5700,
+              "gross": 6450,
               "movie": "Pradhama Drishtiya Kuttakkar",
               "screen": "SCREEN 2",
               "showid": "9285",
-              "tickets_sold": 38,
+              "tickets_sold": 43,
               "time": "07:30 PM",
               "venue": "Sandhya"
             },
             {
-              "gross": 2400,
+              "gross": 2700,
               "movie": "Pradhama Drishtiya Kuttakkar",
               "screen": "SCREEN 2",
               "showid": "9283",
-              "tickets_sold": 16,
+              "tickets_sold": 18,
               "time": "01:00 PM",
               "venue": "Sandhya"
             },
             {
-              "gross": 2100,
+              "gross": 2850,
               "movie": "Pradhama Drishtiya Kuttakkar",
               "screen": "SARITHA",
               "showid": "20748",
-              "tickets_sold": 14,
+              "tickets_sold": 19,
               "time": "10:00 PM",
               "venue": "SFC"
             },
             {
-              "gross": 1650,
+              "gross": 2250,
               "movie": "Pradhama Drishtiya Kuttakkar",
               "screen": "SAAGARA",
               "showid": "20751",
-              "tickets_sold": 11,
+              "tickets_sold": 15,
               "time": "05:30 PM",
               "venue": "SFC"
             },
@@ -1969,47 +2024,47 @@
               "venue": "Harihar"
             },
             {
-              "gross": 1650,
+              "gross": 2850,
               "movie": "Pradhama Drishtya Kuttakkar",
               "screen": "SCREEN 3",
               "showid": "10554",
-              "tickets_sold": 11,
+              "tickets_sold": 19,
               "time": "09:30 PM",
               "venue": "Harihar"
             },
             {
-              "gross": 1050,
+              "gross": 1350,
               "movie": "Pradhama Drishtiya Kuttakkar",
               "screen": "SARITHA",
               "showid": "20745",
-              "tickets_sold": 7,
+              "tickets_sold": 9,
               "time": "02:15 PM",
               "venue": "SFC"
             },
             {
-              "gross": 900,
+              "gross": 1350,
               "movie": "Pradhama Drishtiya Kuttakkar",
               "screen": "SARITHA",
               "showid": "20744",
-              "tickets_sold": 6,
+              "tickets_sold": 9,
               "time": "11:15 AM",
               "venue": "SFC"
             },
             {
-              "gross": 750,
+              "gross": 1050,
               "movie": "Pradhama Drishtiya Kuttakkar",
               "screen": "SCREEN 2",
               "showid": "9284",
-              "tickets_sold": 5,
+              "tickets_sold": 7,
               "time": "04:15 PM",
               "venue": "Sandhya"
             },
             {
-              "gross": 600,
+              "gross": 1050,
               "movie": "Pradhama Dhrishtya Kuttakkar",
               "screen": "SCREEN 3",
               "showid": "4389",
-              "tickets_sold": 4,
+              "tickets_sold": 7,
               "time": "02:15 PM",
               "venue": "Fairyland Cinemas"
             },
@@ -2032,11 +2087,11 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 450,
+              "gross": 750,
               "movie": "Pradhama Drishtya Kuttakkar",
               "screen": "Athulya",
               "showid": "9204",
-              "tickets_sold": 3,
+              "tickets_sold": 5,
               "time": "02:15 PM",
               "venue": "Aiswarya Cinemas"
             },
@@ -2068,18 +2123,45 @@
               "venue": "Jose"
             },
             {
-              "gross": 300,
+              "gross": 750,
               "movie": "Pradhama Drishtiya Kuttakkar",
               "screen": "SCREEN 2",
               "showid": "9287",
-              "tickets_sold": 2,
+              "tickets_sold": 5,
               "time": "10:45 PM",
               "venue": "Sandhya"
+            },
+            {
+              "gross": 450,
+              "movie": "Pradhama Dhrishtya Kuttakkar",
+              "screen": "SCREEN 3",
+              "showid": "4390",
+              "tickets_sold": 3,
+              "time": "05:45 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "Pradhama Drishtiya Kuttakkar",
+              "screen": "SCREEN 2",
+              "showid": "9526",
+              "tickets_sold": 2,
+              "time": "11:30 AM",
+              "venue": "Jose"
+            },
+            {
+              "gross": 150,
+              "movie": "Pradhama Drishtiya Kuttakkar",
+              "screen": "SCREEN 2",
+              "showid": "9529",
+              "tickets_sold": 1,
+              "time": "09:00 PM",
+              "venue": "Jose"
             }
           ],
-          "gross": 22650,
-          "shows": 18,
-          "tickets_sold": 151
+          "gross": 29400,
+          "shows": 21,
+          "tickets_sold": 196
         },
         "without_gross": {
           "breakdown": [
@@ -2091,15 +2173,6 @@
               "tickets_sold": 0,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Pradhama Dhrishtya Kuttakkar",
-              "screen": "SCREEN 3",
-              "showid": "4390",
-              "tickets_sold": 0,
-              "time": "05:45 PM",
-              "venue": "Fairyland Cinemas"
             },
             {
               "gross": 0,
@@ -2168,15 +2241,6 @@
               "gross": 0,
               "movie": "Pradhama Drishtiya Kuttakkar",
               "screen": "SCREEN 2",
-              "showid": "9526",
-              "tickets_sold": 0,
-              "time": "11:30 AM",
-              "venue": "Jose"
-            },
-            {
-              "gross": 0,
-              "movie": "Pradhama Drishtiya Kuttakkar",
-              "screen": "SCREEN 2",
               "showid": "9527",
               "tickets_sold": 0,
               "time": "02:30 PM",
@@ -2184,52 +2248,61 @@
             },
             {
               "gross": 0,
-              "movie": "Pradhama Drishtiya Kuttakkar",
-              "screen": "SCREEN 2",
-              "showid": "9529",
+              "movie": "Pradhama Drishtya Kuttakkar",
+              "screen": "SCREEN 1",
+              "showid": "10555",
               "tickets_sold": 0,
-              "time": "09:00 PM",
-              "venue": "Jose"
+              "time": "11:20 AM",
+              "venue": "Harihar"
             }
           ],
-          "shows": 12,
+          "shows": 10,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 5700,
+          "gross": 6450,
           "movie": "Pradhama Drishtiya Kuttakkar",
           "screen": "SCREEN 2",
           "showid": "9285",
-          "tickets_sold": 38,
+          "tickets_sold": 43,
           "time": "07:30 PM",
           "venue": "Sandhya"
         },
         {
-          "gross": 2400,
-          "movie": "Pradhama Drishtiya Kuttakkar",
-          "screen": "SCREEN 2",
-          "showid": "9283",
-          "tickets_sold": 16,
-          "time": "01:00 PM",
-          "venue": "Sandhya"
-        },
-        {
-          "gross": 2100,
+          "gross": 2850,
           "movie": "Pradhama Drishtiya Kuttakkar",
           "screen": "SARITHA",
           "showid": "20748",
-          "tickets_sold": 14,
+          "tickets_sold": 19,
           "time": "10:00 PM",
           "venue": "SFC"
         },
         {
-          "gross": 1650,
+          "gross": 2850,
+          "movie": "Pradhama Drishtya Kuttakkar",
+          "screen": "SCREEN 3",
+          "showid": "10554",
+          "tickets_sold": 19,
+          "time": "09:30 PM",
+          "venue": "Harihar"
+        },
+        {
+          "gross": 2700,
+          "movie": "Pradhama Drishtiya Kuttakkar",
+          "screen": "SCREEN 2",
+          "showid": "9283",
+          "tickets_sold": 18,
+          "time": "01:00 PM",
+          "venue": "Sandhya"
+        },
+        {
+          "gross": 2250,
           "movie": "Pradhama Drishtiya Kuttakkar",
           "screen": "SAAGARA",
           "showid": "20751",
-          "tickets_sold": 11,
+          "tickets_sold": 15,
           "time": "05:30 PM",
           "venue": "SFC"
         },
@@ -2252,49 +2325,58 @@
           "venue": "Harihar"
         },
         {
-          "gross": 1650,
-          "movie": "Pradhama Drishtya Kuttakkar",
-          "screen": "SCREEN 3",
-          "showid": "10554",
-          "tickets_sold": 11,
-          "time": "09:30 PM",
-          "venue": "Harihar"
-        },
-        {
-          "gross": 1050,
+          "gross": 1350,
           "movie": "Pradhama Drishtiya Kuttakkar",
           "screen": "SARITHA",
           "showid": "20745",
-          "tickets_sold": 7,
+          "tickets_sold": 9,
           "time": "02:15 PM",
           "venue": "SFC"
         },
         {
-          "gross": 900,
+          "gross": 1350,
           "movie": "Pradhama Drishtiya Kuttakkar",
           "screen": "SARITHA",
           "showid": "20744",
-          "tickets_sold": 6,
+          "tickets_sold": 9,
           "time": "11:15 AM",
           "venue": "SFC"
+        },
+        {
+          "gross": 1050,
+          "movie": "Pradhama Drishtiya Kuttakkar",
+          "screen": "SCREEN 2",
+          "showid": "9284",
+          "tickets_sold": 7,
+          "time": "04:15 PM",
+          "venue": "Sandhya"
+        },
+        {
+          "gross": 1050,
+          "movie": "Pradhama Dhrishtya Kuttakkar",
+          "screen": "SCREEN 3",
+          "showid": "4389",
+          "tickets_sold": 7,
+          "time": "02:15 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 750,
+          "movie": "Pradhama Drishtya Kuttakkar",
+          "screen": "Athulya",
+          "showid": "9204",
+          "tickets_sold": 5,
+          "time": "02:15 PM",
+          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 750,
           "movie": "Pradhama Drishtiya Kuttakkar",
           "screen": "SCREEN 2",
-          "showid": "9284",
+          "showid": "9287",
           "tickets_sold": 5,
-          "time": "04:15 PM",
+          "time": "10:45 PM",
           "venue": "Sandhya"
-        },
-        {
-          "gross": 600,
-          "movie": "Pradhama Dhrishtya Kuttakkar",
-          "screen": "SCREEN 3",
-          "showid": "4389",
-          "tickets_sold": 4,
-          "time": "02:15 PM",
-          "venue": "Fairyland Cinemas"
         },
         {
           "gross": 450,
@@ -2316,12 +2398,12 @@
         },
         {
           "gross": 450,
-          "movie": "Pradhama Drishtya Kuttakkar",
-          "screen": "Athulya",
-          "showid": "9204",
+          "movie": "Pradhama Dhrishtya Kuttakkar",
+          "screen": "SCREEN 3",
+          "showid": "4390",
           "tickets_sold": 3,
-          "time": "02:15 PM",
-          "venue": "Aiswarya Cinemas"
+          "time": "05:45 PM",
+          "venue": "Fairyland Cinemas"
         },
         {
           "gross": 300,
@@ -2354,10 +2436,19 @@
           "gross": 300,
           "movie": "Pradhama Drishtiya Kuttakkar",
           "screen": "SCREEN 2",
-          "showid": "9287",
+          "showid": "9526",
           "tickets_sold": 2,
-          "time": "10:45 PM",
-          "venue": "Sandhya"
+          "time": "11:30 AM",
+          "venue": "Jose"
+        },
+        {
+          "gross": 150,
+          "movie": "Pradhama Drishtiya Kuttakkar",
+          "screen": "SCREEN 2",
+          "showid": "9529",
+          "tickets_sold": 1,
+          "time": "09:00 PM",
+          "venue": "Jose"
         },
         {
           "gross": 0,
@@ -2367,15 +2458,6 @@
           "tickets_sold": 0,
           "time": "11:00 AM",
           "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Pradhama Dhrishtya Kuttakkar",
-          "screen": "SCREEN 3",
-          "showid": "4390",
-          "tickets_sold": 0,
-          "time": "05:45 PM",
-          "venue": "Fairyland Cinemas"
         },
         {
           "gross": 0,
@@ -2444,15 +2526,6 @@
           "gross": 0,
           "movie": "Pradhama Drishtiya Kuttakkar",
           "screen": "SCREEN 2",
-          "showid": "9526",
-          "tickets_sold": 0,
-          "time": "11:30 AM",
-          "venue": "Jose"
-        },
-        {
-          "gross": 0,
-          "movie": "Pradhama Drishtiya Kuttakkar",
-          "screen": "SCREEN 2",
           "showid": "9527",
           "tickets_sold": 0,
           "time": "02:30 PM",
@@ -2460,29 +2533,29 @@
         },
         {
           "gross": 0,
-          "movie": "Pradhama Drishtiya Kuttakkar",
-          "screen": "SCREEN 2",
-          "showid": "9529",
+          "movie": "Pradhama Drishtya Kuttakkar",
+          "screen": "SCREEN 1",
+          "showid": "10555",
           "tickets_sold": 0,
-          "time": "09:00 PM",
-          "venue": "Jose"
+          "time": "11:20 AM",
+          "venue": "Harihar"
         }
       ],
-      "shows": 30,
-      "tickets_sold": 151
+      "shows": 31,
+      "tickets_sold": 196
     },
     "The Paradise": {
-      "gross": 42150,
+      "gross": 43350,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 7200,
+              "gross": 7650,
               "movie": "The Paradise",
               "screen": "SCREEN 1",
               "showid": "7278",
-              "tickets_sold": 48,
+              "tickets_sold": 51,
               "time": "09:30 PM",
               "venue": "Issacs"
             },
@@ -2532,11 +2605,11 @@
               "venue": "Issacs"
             },
             {
-              "gross": 2850,
+              "gross": 3000,
               "movie": "The Paradise",
               "screen": null,
               "showid": "19855",
-              "tickets_sold": 19,
+              "tickets_sold": 20,
               "time": "10:15 PM",
               "venue": "Puthet Cinemas"
             },
@@ -2604,20 +2677,20 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 900,
+              "gross": 1200,
               "movie": "The Paradise",
               "screen": null,
               "showid": "19853",
-              "tickets_sold": 6,
+              "tickets_sold": 8,
               "time": "04:15 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 750,
+              "gross": 1050,
               "movie": "The Paradise",
               "screen": "SCREEN 1",
               "showid": "4444",
-              "tickets_sold": 5,
+              "tickets_sold": 7,
               "time": "10:45 AM",
               "venue": "Fairyland Cinemas"
             },
@@ -2658,9 +2731,9 @@
               "venue": "Girija Theatre"
             }
           ],
-          "gross": 42150,
+          "gross": 43350,
           "shows": 20,
-          "tickets_sold": 281
+          "tickets_sold": 289
         },
         "without_gross": {
           "breakdown": [
@@ -2698,11 +2771,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 7200,
+          "gross": 7650,
           "movie": "The Paradise",
           "screen": "SCREEN 1",
           "showid": "7278",
-          "tickets_sold": 48,
+          "tickets_sold": 51,
           "time": "09:30 PM",
           "venue": "Issacs"
         },
@@ -2752,11 +2825,11 @@
           "venue": "Issacs"
         },
         {
-          "gross": 2850,
+          "gross": 3000,
           "movie": "The Paradise",
           "screen": null,
           "showid": "19855",
-          "tickets_sold": 19,
+          "tickets_sold": 20,
           "time": "10:15 PM",
           "venue": "Puthet Cinemas"
         },
@@ -2797,6 +2870,15 @@
           "venue": "Harihar"
         },
         {
+          "gross": 1200,
+          "movie": "The Paradise",
+          "screen": null,
+          "showid": "19853",
+          "tickets_sold": 8,
+          "time": "04:15 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 1050,
           "movie": "The Paradise",
           "screen": "Screen-1",
@@ -2815,30 +2897,21 @@
           "venue": "Issacs"
         },
         {
+          "gross": 1050,
+          "movie": "The Paradise",
+          "screen": "SCREEN 1",
+          "showid": "4444",
+          "tickets_sold": 7,
+          "time": "10:45 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
           "gross": 900,
           "movie": "The Paradise",
           "screen": "SCREEN 1",
           "showid": "4446",
           "tickets_sold": 6,
           "time": "05:30 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 900,
-          "movie": "The Paradise",
-          "screen": null,
-          "showid": "19853",
-          "tickets_sold": 6,
-          "time": "04:15 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 750,
-          "movie": "The Paradise",
-          "screen": "SCREEN 1",
-          "showid": "4444",
-          "tickets_sold": 5,
-          "time": "10:45 AM",
           "venue": "Fairyland Cinemas"
         },
         {
@@ -2906,10 +2979,10 @@
         }
       ],
       "shows": 23,
-      "tickets_sold": 281
+      "tickets_sold": 289
     },
     "Unknown": {
-      "gross": 2250,
+      "gross": 29250,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -2922,11 +2995,29 @@
               "tickets_sold": 15,
               "time": "10:00 AM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 24450,
+              "movie": "Unknown",
+              "screen": "Screen-1",
+              "showid": "9217",
+              "tickets_sold": 163,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 2550,
+              "movie": "Unknown",
+              "screen": "Dolby Atmos",
+              "showid": "5965",
+              "tickets_sold": 17,
+              "time": null,
+              "venue": "Girija Theatre"
             }
           ],
-          "gross": 2250,
-          "shows": 1,
-          "tickets_sold": 15
+          "gross": 29250,
+          "shows": 3,
+          "tickets_sold": 195
         },
         "without_gross": {
           "breakdown": [],
@@ -2935,6 +3026,24 @@
         }
       },
       "show_breakdown": [
+        {
+          "gross": 24450,
+          "movie": "Unknown",
+          "screen": "Screen-1",
+          "showid": "9217",
+          "tickets_sold": 163,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 2550,
+          "movie": "Unknown",
+          "screen": "Dolby Atmos",
+          "showid": "5965",
+          "tickets_sold": 17,
+          "time": null,
+          "venue": "Girija Theatre"
+        },
         {
           "gross": 2250,
           "movie": "Unknown",
@@ -2945,31 +3054,19 @@
           "venue": "Puthet Cinemas"
         }
       ],
-      "shows": 1,
-      "tickets_sold": 15
+      "shows": 3,
+      "tickets_sold": 195
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "Aasha"
-        ],
-        "canonical": "Aasha"
-      },
-      {
-        "aliases": [
           "It's a Medical Miracle",
           "Its A Medical Miracle",
           "Its a Medical Miracle"
         ],
-        "canonical": "Its a Medical Miracle"
-      },
-      {
-        "aliases": [
-          "Dhoomakethu"
-        ],
-        "canonical": "Dhoomakethu"
+        "canonical": "Its A Medical Miracle"
       },
       {
         "aliases": [
@@ -2980,11 +3077,30 @@
       },
       {
         "aliases": [
+          "L&O - Law and Order"
+        ],
+        "canonical": "L&O - Law and Order"
+      },
+      {
+        "aliases": [
           "PRADHAMA DRISHTIYA KUTTAKKAR",
+          "Pradhama Dhrishtya Kuttakkar",
           "Pradhama Drishtiya Kuttakkar",
           "Pradhama Drishtya Kuttakkar"
         ],
         "canonical": "Pradhama Drishtya Kuttakkar"
+      },
+      {
+        "aliases": [
+          "Aasha"
+        ],
+        "canonical": "Aasha"
+      },
+      {
+        "aliases": [
+          "Dhoomakethu"
+        ],
+        "canonical": "Dhoomakethu"
       },
       {
         "aliases": [
@@ -2997,12 +3113,6 @@
           "The Paradise"
         ],
         "canonical": "The Paradise"
-      },
-      {
-        "aliases": [
-          "L&O - Law and Order"
-        ],
-        "canonical": "L&O - Law and Order"
       },
       {
         "aliases": [
