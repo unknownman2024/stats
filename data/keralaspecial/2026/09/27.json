@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "last_updated": "2026-09-25T03:33:53.592566+05:30",
+  "last_updated": "2026-09-25T06:15:13.196724+05:30",
   "movies": {
     "Aaram": {
       "gross": 0,
@@ -246,14 +246,24 @@
       "tickets_sold": 5
     },
     "Bethlehem Kudumba Unit": {
-      "gross": 0,
+      "gross": 750,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 750,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "SCREEN 2",
+              "showid": "4430",
+              "tickets_sold": 5,
+              "time": "05:45 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "gross": 750,
+          "shows": 1,
+          "tickets_sold": 5
         },
         "without_gross": {
           "breakdown": [
@@ -273,15 +283,6 @@
               "showid": "4429",
               "tickets_sold": 0,
               "time": "02:15 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bethlehem Kudumba Unit",
-              "screen": "SCREEN 2",
-              "showid": "4430",
-              "tickets_sold": 0,
-              "time": "05:45 PM",
               "venue": "Fairyland Cinemas"
             },
             {
@@ -330,11 +331,20 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 750,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "SCREEN 2",
+          "showid": "4430",
+          "tickets_sold": 5,
+          "time": "05:45 PM",
+          "venue": "Fairyland Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
@@ -351,15 +361,6 @@
           "showid": "4429",
           "tickets_sold": 0,
           "time": "02:15 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bethlehem Kudumba Unit",
-          "screen": "SCREEN 2",
-          "showid": "4430",
-          "tickets_sold": 0,
-          "time": "05:45 PM",
           "venue": "Fairyland Cinemas"
         },
         {
@@ -409,7 +410,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 0
+      "tickets_sold": 5
     },
     "Dhoomakethu": {
       "gross": 0,
@@ -887,18 +888,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "Avengers Endgame: Encore"
-        ],
-        "canonical": "Avengers Endgame: Encore"
-      },
-      {
-        "aliases": [
-          "Amanushikam"
-        ],
-        "canonical": "Amanushikam"
-      },
-      {
-        "aliases": [
           "PRADHAMA DRISHTIYA KUTTAKKAR",
           "Pradhama Dhrishtya Kuttakkar",
           "Pradhama Drishtiya Kuttakkar",
@@ -908,22 +897,16 @@
       },
       {
         "aliases": [
+          "It's a Medical Miracle"
+        ],
+        "canonical": "It's a Medical Miracle"
+      },
+      {
+        "aliases": [
           "Bathlehem Kudumba Unit",
           "Bethlehem Kudumba Unit"
         ],
-        "canonical": "Bathlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Aasha"
-        ],
-        "canonical": "Aasha"
+        "canonical": "Bethlehem Kudumba Unit"
       },
       {
         "aliases": [
@@ -933,33 +916,39 @@
       },
       {
         "aliases": [
-          "The Paradise Telugu"
-        ],
-        "canonical": "The Paradise Telugu"
-      },
-      {
-        "aliases": [
-          "It's a Medical Miracle"
-        ],
-        "canonical": "It's a Medical Miracle"
-      },
-      {
-        "aliases": [
-          "Dorothy"
-        ],
-        "canonical": "Dorothy"
-      },
-      {
-        "aliases": [
           "Dhoomakethu"
         ],
         "canonical": "Dhoomakethu"
       },
       {
         "aliases": [
-          "Mandaadi"
+          "Avengers Endgame: Encore"
         ],
-        "canonical": "Mandaadi"
+        "canonical": "Avengers Endgame: Encore"
+      },
+      {
+        "aliases": [
+          "Aasha"
+        ],
+        "canonical": "Aasha"
+      },
+      {
+        "aliases": [
+          "Aaram"
+        ],
+        "canonical": "Aaram"
+      },
+      {
+        "aliases": [
+          "The Paradise Telugu"
+        ],
+        "canonical": "The Paradise Telugu"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -969,9 +958,21 @@
       },
       {
         "aliases": [
-          "Aaram"
+          "Dorothy"
         ],
-        "canonical": "Aaram"
+        "canonical": "Dorothy"
+      },
+      {
+        "aliases": [
+          "Mandaadi"
+        ],
+        "canonical": "Mandaadi"
+      },
+      {
+        "aliases": [
+          "Amanushikam"
+        ],
+        "canonical": "Amanushikam"
       }
     ]
   }
