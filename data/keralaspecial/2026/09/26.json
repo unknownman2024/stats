@@ -1,6 +1,6 @@
 {
   "date": "2026-09-26",
-  "last_updated": "2026-09-25T06:15:13.194854+05:30",
+  "last_updated": "2026-09-25T11:25:56.667993+05:30",
   "movies": {
     "Aaram": {
       "gross": 0,
@@ -658,7 +658,7 @@
       "tickets_sold": 1
     },
     "Pradhama Drishtya Kuttakkar": {
-      "gross": 1650,
+      "gross": 3150,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -680,11 +680,20 @@
               "tickets_sold": 2,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 1500,
+              "movie": "Pradhama Drishtya Kuttakkar",
+              "screen": "Athulya",
+              "showid": "9240",
+              "tickets_sold": 10,
+              "time": "08:45 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 1650,
-          "shows": 2,
-          "tickets_sold": 11
+          "gross": 3150,
+          "shows": 3,
+          "tickets_sold": 21
         },
         "without_gross": {
           "breakdown": [
@@ -732,22 +741,22 @@
               "tickets_sold": 0,
               "time": "02:15 PM",
               "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Pradhama Drishtya Kuttakkar",
-              "screen": "Athulya",
-              "showid": "9240",
-              "tickets_sold": 0,
-              "time": "08:45 PM",
-              "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 6,
+          "shows": 5,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1500,
+          "movie": "Pradhama Drishtya Kuttakkar",
+          "screen": "Athulya",
+          "showid": "9240",
+          "tickets_sold": 10,
+          "time": "08:45 PM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 1350,
           "movie": "Pradhama Drishtya Kuttakkar",
@@ -810,19 +819,10 @@
           "tickets_sold": 0,
           "time": "02:15 PM",
           "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Pradhama Drishtya Kuttakkar",
-          "screen": "Athulya",
-          "showid": "9240",
-          "tickets_sold": 0,
-          "time": "08:45 PM",
-          "venue": "Aiswarya Cinemas"
         }
       ],
       "shows": 8,
-      "tickets_sold": 11
+      "tickets_sold": 21
     },
     "The Paradise": {
       "gross": 0,
@@ -936,28 +936,39 @@
       },
       {
         "aliases": [
+          "Aaram"
+        ],
+        "canonical": "Aaram"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Dorothy"
+        ],
+        "canonical": "Dorothy"
+      },
+      {
+        "aliases": [
+          "The Paradise Telugu"
+        ],
+        "canonical": "The Paradise Telugu"
+      },
+      {
+        "aliases": [
           "It's a Medical Miracle"
         ],
         "canonical": "It's a Medical Miracle"
       },
       {
         "aliases": [
-          "Bathlehem Kudumba Unit",
-          "Bethlehem Kudumba Unit"
+          "Amanushikam"
         ],
-        "canonical": "Bethlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "The Paradise"
-        ],
-        "canonical": "The Paradise"
-      },
-      {
-        "aliases": [
-          "Dhoomakethu"
-        ],
-        "canonical": "Dhoomakethu"
+        "canonical": "Amanushikam"
       },
       {
         "aliases": [
@@ -973,33 +984,9 @@
       },
       {
         "aliases": [
-          "Aaram"
+          "Dhoomakethu"
         ],
-        "canonical": "Aaram"
-      },
-      {
-        "aliases": [
-          "The Paradise Telugu"
-        ],
-        "canonical": "The Paradise Telugu"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Meesaya Murukku 2"
-        ],
-        "canonical": "Meesaya Murukku 2"
-      },
-      {
-        "aliases": [
-          "Dorothy"
-        ],
-        "canonical": "Dorothy"
+        "canonical": "Dhoomakethu"
       },
       {
         "aliases": [
@@ -1009,9 +996,22 @@
       },
       {
         "aliases": [
-          "Amanushikam"
+          "Meesaya Murukku 2"
         ],
-        "canonical": "Amanushikam"
+        "canonical": "Meesaya Murukku 2"
+      },
+      {
+        "aliases": [
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bathlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
+          "The Paradise"
+        ],
+        "canonical": "The Paradise"
       }
     ]
   }
