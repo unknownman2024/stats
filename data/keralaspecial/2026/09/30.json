@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "last_updated": "2026-09-27T22:44:37.208428+05:30",
+  "last_updated": "2026-09-28T01:51:09.515934+05:30",
   "movies": {
     "Aaram": {
       "gross": 0,
@@ -115,14 +115,24 @@
       "tickets_sold": 0
     },
     "Bathlehem Kudumba Unit": {
-      "gross": 0,
+      "gross": 300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 300,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Cinema-3",
+              "showid": "23133",
+              "tickets_sold": 2,
+              "time": "06:30 PM",
+              "venue": "Davis Theatre"
+            }
+          ],
+          "gross": 300,
+          "shows": 1,
+          "tickets_sold": 2
         },
         "without_gross": {
           "breakdown": [
@@ -233,13 +243,40 @@
               "tickets_sold": 0,
               "time": "08:45 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Cinema-3",
+              "showid": "23127",
+              "tickets_sold": 0,
+              "time": "03:00 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Bethlehem Kudumba Unit",
+              "screen": "Cinema-3",
+              "showid": "23134",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Davis Theatre"
             }
           ],
-          "shows": 12,
+          "shows": 14,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 300,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Cinema-3",
+          "showid": "23133",
+          "tickets_sold": 2,
+          "time": "06:30 PM",
+          "venue": "Davis Theatre"
+        },
         {
           "gross": 0,
           "movie": "Bethlehem Kudumba Unit",
@@ -347,10 +384,28 @@
           "tickets_sold": 0,
           "time": "08:45 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Cinema-3",
+          "showid": "23127",
+          "tickets_sold": 0,
+          "time": "03:00 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Bethlehem Kudumba Unit",
+          "screen": "Cinema-3",
+          "showid": "23134",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Davis Theatre"
         }
       ],
-      "shows": 12,
-      "tickets_sold": 0
+      "shows": 15,
+      "tickets_sold": 2
     },
     "Bethlehem Kudumba Unit": {
       "gross": 300,
@@ -1268,27 +1323,29 @@
     "merged_movies": [
       {
         "aliases": [
-          "Amanushikam"
-        ],
-        "canonical": "Amanushikam"
-      },
-      {
-        "aliases": [
-          "Dhoomakethu"
-        ],
-        "canonical": "Dhoomakethu"
-      },
-      {
-        "aliases": [
           "Avengers Endgame: Encore"
         ],
         "canonical": "Avengers Endgame: Encore"
       },
       {
         "aliases": [
-          "Aasha"
+          "Mandaadi",
+          "Mandadi"
         ],
-        "canonical": "Aasha"
+        "canonical": "Mandadi"
+      },
+      {
+        "aliases": [
+          "Bathlehem Kudumba Unit",
+          "Bethlehem Kudumba Unit"
+        ],
+        "canonical": "Bathlehem Kudumba Unit"
+      },
+      {
+        "aliases": [
+          "Dhoomakethu"
+        ],
+        "canonical": "Dhoomakethu"
       },
       {
         "aliases": [
@@ -1301,27 +1358,9 @@
       },
       {
         "aliases": [
-          "Aaram"
+          "Aasha"
         ],
-        "canonical": "Aaram"
-      },
-      {
-        "aliases": [
-          "Dorothy"
-        ],
-        "canonical": "Dorothy"
-      },
-      {
-        "aliases": [
-          "Bethlehem Kudumba Unit"
-        ],
-        "canonical": "Bethlehem Kudumba Unit"
-      },
-      {
-        "aliases": [
-          "The Paradise"
-        ],
-        "canonical": "The Paradise"
+        "canonical": "Aasha"
       },
       {
         "aliases": [
@@ -1331,9 +1370,33 @@
       },
       {
         "aliases": [
-          "Mandaadi"
+          "It's a Medical Miracle"
         ],
-        "canonical": "Mandaadi"
+        "canonical": "It's a Medical Miracle"
+      },
+      {
+        "aliases": [
+          "Aaram"
+        ],
+        "canonical": "Aaram"
+      },
+      {
+        "aliases": [
+          "Amanushikam"
+        ],
+        "canonical": "Amanushikam"
+      },
+      {
+        "aliases": [
+          "The Paradise"
+        ],
+        "canonical": "The Paradise"
+      },
+      {
+        "aliases": [
+          "Dorothy"
+        ],
+        "canonical": "Dorothy"
       }
     ]
   }
