@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "last_updated": "2026-10-07T06:29:47.351954+05:30",
+  "last_updated": "2026-10-07T12:37:44.076274+05:30",
   "movies": {
     "Avaraachan & Sons": {
       "gross": 1350,
@@ -9,6 +9,15 @@
         "with_gross": {
           "breakdown": [
             {
+              "gross": 600,
+              "movie": "Avarachan and Sons",
+              "screen": "SCREEN 2",
+              "showid": "9619",
+              "tickets_sold": 4,
+              "time": "02:30 PM",
+              "venue": "Jose"
+            },
+            {
               "gross": 300,
               "movie": "Avaraachan & Sons",
               "screen": "SCREEN 2",
@@ -16,15 +25,6 @@
               "tickets_sold": 2,
               "time": "01:30 PM",
               "venue": "Sandhya"
-            },
-            {
-              "gross": 150,
-              "movie": "Avaraachan and Sons",
-              "screen": "SAVITHA",
-              "showid": "20982",
-              "tickets_sold": 1,
-              "time": "11:30 AM",
-              "venue": "SFC"
             },
             {
               "gross": 300,
@@ -36,13 +36,13 @@
               "venue": "SFC"
             },
             {
-              "gross": 600,
-              "movie": "Avarachan and Sons",
-              "screen": "SCREEN 2",
-              "showid": "9619",
-              "tickets_sold": 4,
-              "time": "02:30 PM",
-              "venue": "Jose"
+              "gross": 150,
+              "movie": "Avaraachan and Sons",
+              "screen": "SAVITHA",
+              "showid": "20982",
+              "tickets_sold": 1,
+              "time": "11:30 AM",
+              "venue": "SFC"
             }
           ],
           "gross": 1350,
@@ -224,7 +224,7 @@
       "tickets_sold": 9
     },
     "Avarachan": {
-      "gross": 1650,
+      "gross": 2700,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -264,23 +264,41 @@
               "tickets_sold": 2,
               "time": "09:15 PM",
               "venue": "Puthet Cinemas"
-            }
-          ],
-          "gross": 1650,
-          "shows": 4,
-          "tickets_sold": 11
-        },
-        "without_gross": {
-          "breakdown": [
+            },
             {
-              "gross": 0,
+              "gross": 150,
               "movie": "Avarachan",
               "screen": "SCREEN 3",
               "showid": "4690",
-              "tickets_sold": 0,
+              "tickets_sold": 1,
               "time": "02:30 PM",
               "venue": "Fairyland Cinemas"
             },
+            {
+              "gross": 750,
+              "movie": "Avaraachan",
+              "screen": "Screen-2",
+              "showid": "9494",
+              "tickets_sold": 5,
+              "time": "07:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 150,
+              "movie": "Avaraachan",
+              "screen": null,
+              "showid": "20050",
+              "tickets_sold": 1,
+              "time": "03:00 PM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "gross": 2700,
+          "shows": 7,
+          "tickets_sold": 18
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "Avarachan",
@@ -357,15 +375,6 @@
               "gross": 0,
               "movie": "Avaraachan",
               "screen": "Screen-2",
-              "showid": "9494",
-              "tickets_sold": 0,
-              "time": "07:15 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Avaraachan",
-              "screen": "Screen-2",
               "showid": "9495",
               "tickets_sold": 0,
               "time": "10:00 PM",
@@ -393,26 +402,26 @@
               "gross": 0,
               "movie": "Avaraachan",
               "screen": null,
-              "showid": "20050",
-              "tickets_sold": 0,
-              "time": "03:00 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Avaraachan",
-              "screen": null,
               "showid": "20051",
               "tickets_sold": 0,
               "time": "06:00 PM",
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 15,
+          "shows": 12,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 750,
+          "movie": "Avaraachan",
+          "screen": "Screen-2",
+          "showid": "9494",
+          "tickets_sold": 5,
+          "time": "07:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 450,
           "movie": "Avarachan",
@@ -450,13 +459,22 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 0,
+          "gross": 150,
           "movie": "Avarachan",
           "screen": "SCREEN 3",
           "showid": "4690",
-          "tickets_sold": 0,
+          "tickets_sold": 1,
           "time": "02:30 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 150,
+          "movie": "Avaraachan",
+          "screen": null,
+          "showid": "20050",
+          "tickets_sold": 1,
+          "time": "03:00 PM",
+          "venue": "Puthet Cinemas"
         },
         {
           "gross": 0,
@@ -534,15 +552,6 @@
           "gross": 0,
           "movie": "Avaraachan",
           "screen": "Screen-2",
-          "showid": "9494",
-          "tickets_sold": 0,
-          "time": "07:15 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Avaraachan",
-          "screen": "Screen-2",
           "showid": "9495",
           "tickets_sold": 0,
           "time": "10:00 PM",
@@ -570,15 +579,6 @@
           "gross": 0,
           "movie": "Avaraachan",
           "screen": null,
-          "showid": "20050",
-          "tickets_sold": 0,
-          "time": "03:00 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Avaraachan",
-          "screen": null,
           "showid": "20051",
           "tickets_sold": 0,
           "time": "06:00 PM",
@@ -586,10 +586,10 @@
         }
       ],
       "shows": 19,
-      "tickets_sold": 11
+      "tickets_sold": 18
     },
     "Avarachan & Sons": {
-      "gross": 1050,
+      "gross": 6450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -604,11 +604,11 @@
               "venue": "Jose"
             },
             {
-              "gross": 300,
+              "gross": 600,
               "movie": "Avaraachan and Sons",
               "screen": "SAVITHA",
               "showid": "20983",
-              "tickets_sold": 2,
+              "tickets_sold": 4,
               "time": "02:30 PM",
               "venue": "SFC"
             },
@@ -620,11 +620,56 @@
               "tickets_sold": 1,
               "time": "11:30 AM",
               "venue": "SFC"
+            },
+            {
+              "gross": 1200,
+              "movie": "Avarachan & Sons",
+              "screen": "SCREEN 3",
+              "showid": "10695",
+              "tickets_sold": 8,
+              "time": "02:30 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 1200,
+              "movie": "Avarachan & Sons",
+              "screen": "SCREEN 3",
+              "showid": "10696",
+              "tickets_sold": 8,
+              "time": "06:30 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 750,
+              "movie": "Avarachan & Sons",
+              "screen": "SCREEN 3",
+              "showid": "10697",
+              "tickets_sold": 5,
+              "time": "09:30 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 1500,
+              "movie": "Avaraachan & Sons",
+              "screen": "SCREEN 2",
+              "showid": "9369",
+              "tickets_sold": 10,
+              "time": "01:30 PM",
+              "venue": "Sandhya"
+            },
+            {
+              "gross": 450,
+              "movie": "Avaraachan & Sons",
+              "screen": "SCREEN 2",
+              "showid": "9370",
+              "tickets_sold": 3,
+              "time": "04:30 PM",
+              "venue": "Sandhya"
             }
           ],
-          "gross": 1050,
-          "shows": 3,
-          "tickets_sold": 7
+          "gross": 6450,
+          "shows": 8,
+          "tickets_sold": 43
         },
         "without_gross": {
           "breakdown": [
@@ -657,33 +702,6 @@
             },
             {
               "gross": 0,
-              "movie": "Avarachan & Sons",
-              "screen": "SCREEN 3",
-              "showid": "10695",
-              "tickets_sold": 0,
-              "time": "02:30 PM",
-              "venue": "Harihar"
-            },
-            {
-              "gross": 0,
-              "movie": "Avarachan & Sons",
-              "screen": "SCREEN 3",
-              "showid": "10696",
-              "tickets_sold": 0,
-              "time": "06:30 PM",
-              "venue": "Harihar"
-            },
-            {
-              "gross": 0,
-              "movie": "Avarachan & Sons",
-              "screen": "SCREEN 3",
-              "showid": "10697",
-              "tickets_sold": 0,
-              "time": "09:30 PM",
-              "venue": "Harihar"
-            },
-            {
-              "gross": 0,
               "movie": "Avarachan and Sons",
               "screen": "SCREEN 2",
               "showid": "9618",
@@ -708,13 +726,58 @@
               "tickets_sold": 0,
               "time": "09:00 PM",
               "venue": "Jose"
+            },
+            {
+              "gross": 0,
+              "movie": "Avaraachan & Sons",
+              "screen": "SCREEN 2",
+              "showid": "9371",
+              "tickets_sold": 0,
+              "time": "07:30 PM",
+              "venue": "Sandhya"
             }
           ],
-          "shows": 9,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1500,
+          "movie": "Avaraachan & Sons",
+          "screen": "SCREEN 2",
+          "showid": "9369",
+          "tickets_sold": 10,
+          "time": "01:30 PM",
+          "venue": "Sandhya"
+        },
+        {
+          "gross": 1200,
+          "movie": "Avarachan & Sons",
+          "screen": "SCREEN 3",
+          "showid": "10695",
+          "tickets_sold": 8,
+          "time": "02:30 PM",
+          "venue": "Harihar"
+        },
+        {
+          "gross": 1200,
+          "movie": "Avarachan & Sons",
+          "screen": "SCREEN 3",
+          "showid": "10696",
+          "tickets_sold": 8,
+          "time": "06:30 PM",
+          "venue": "Harihar"
+        },
+        {
+          "gross": 750,
+          "movie": "Avarachan & Sons",
+          "screen": "SCREEN 3",
+          "showid": "10697",
+          "tickets_sold": 5,
+          "time": "09:30 PM",
+          "venue": "Harihar"
+        },
         {
           "gross": 600,
           "movie": "Avarachan and Sons",
@@ -725,13 +788,22 @@
           "venue": "Jose"
         },
         {
-          "gross": 300,
+          "gross": 600,
           "movie": "Avaraachan and Sons",
           "screen": "SAVITHA",
           "showid": "20983",
-          "tickets_sold": 2,
+          "tickets_sold": 4,
           "time": "02:30 PM",
           "venue": "SFC"
+        },
+        {
+          "gross": 450,
+          "movie": "Avaraachan & Sons",
+          "screen": "SCREEN 2",
+          "showid": "9370",
+          "tickets_sold": 3,
+          "time": "04:30 PM",
+          "venue": "Sandhya"
         },
         {
           "gross": 150,
@@ -771,33 +843,6 @@
         },
         {
           "gross": 0,
-          "movie": "Avarachan & Sons",
-          "screen": "SCREEN 3",
-          "showid": "10695",
-          "tickets_sold": 0,
-          "time": "02:30 PM",
-          "venue": "Harihar"
-        },
-        {
-          "gross": 0,
-          "movie": "Avarachan & Sons",
-          "screen": "SCREEN 3",
-          "showid": "10696",
-          "tickets_sold": 0,
-          "time": "06:30 PM",
-          "venue": "Harihar"
-        },
-        {
-          "gross": 0,
-          "movie": "Avarachan & Sons",
-          "screen": "SCREEN 3",
-          "showid": "10697",
-          "tickets_sold": 0,
-          "time": "09:30 PM",
-          "venue": "Harihar"
-        },
-        {
-          "gross": 0,
           "movie": "Avarachan and Sons",
           "screen": "SCREEN 2",
           "showid": "9618",
@@ -822,13 +867,98 @@
           "tickets_sold": 0,
           "time": "09:00 PM",
           "venue": "Jose"
+        },
+        {
+          "gross": 0,
+          "movie": "Avaraachan & Sons",
+          "screen": "SCREEN 2",
+          "showid": "9371",
+          "tickets_sold": 0,
+          "time": "07:30 PM",
+          "venue": "Sandhya"
         }
       ],
-      "shows": 12,
-      "tickets_sold": 7
+      "shows": 15,
+      "tickets_sold": 43
+    },
+    "Avarachan and Sons": {
+      "gross": 2100,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [
+            {
+              "gross": 1200,
+              "movie": "Avarachan and Sons",
+              "screen": "SCREEN 2",
+              "showid": "9619",
+              "tickets_sold": 8,
+              "time": "02:30 PM",
+              "venue": "Jose"
+            },
+            {
+              "gross": 450,
+              "movie": "Avarachan and Sons",
+              "screen": "SCREEN 2",
+              "showid": "9620",
+              "tickets_sold": 3,
+              "time": "06:00 PM",
+              "venue": "Jose"
+            },
+            {
+              "gross": 450,
+              "movie": "Avarachan and Sons",
+              "screen": "SCREEN 2",
+              "showid": "9621",
+              "tickets_sold": 3,
+              "time": "09:00 PM",
+              "venue": "Jose"
+            }
+          ],
+          "gross": 2100,
+          "shows": 3,
+          "tickets_sold": 14
+        },
+        "without_gross": {
+          "breakdown": [],
+          "shows": 0,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 1200,
+          "movie": "Avarachan and Sons",
+          "screen": "SCREEN 2",
+          "showid": "9619",
+          "tickets_sold": 8,
+          "time": "02:30 PM",
+          "venue": "Jose"
+        },
+        {
+          "gross": 450,
+          "movie": "Avarachan and Sons",
+          "screen": "SCREEN 2",
+          "showid": "9620",
+          "tickets_sold": 3,
+          "time": "06:00 PM",
+          "venue": "Jose"
+        },
+        {
+          "gross": 450,
+          "movie": "Avarachan and Sons",
+          "screen": "SCREEN 2",
+          "showid": "9621",
+          "tickets_sold": 3,
+          "time": "09:00 PM",
+          "venue": "Jose"
+        }
+      ],
+      "shows": 3,
+      "tickets_sold": 14
     },
     "Baththa": {
-      "gross": 900,
+      "gross": 7800,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -843,18 +973,63 @@
               "venue": "SFC"
             },
             {
-              "gross": 450,
+              "gross": 1200,
               "movie": "Baththa",
               "screen": "SAAGARA",
               "showid": "20988",
-              "tickets_sold": 3,
+              "tickets_sold": 8,
               "time": "05:30 PM",
               "venue": "SFC"
+            },
+            {
+              "gross": 1050,
+              "movie": "Baththa",
+              "screen": "SCREEN 4",
+              "showid": "4667",
+              "tickets_sold": 7,
+              "time": "02:15 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 1950,
+              "movie": "Baththa",
+              "screen": "Screen-3",
+              "showid": "9510",
+              "tickets_sold": 13,
+              "time": "10:00 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 750,
+              "movie": "Baththa",
+              "screen": "SCREEN 1",
+              "showid": "10714",
+              "tickets_sold": 5,
+              "time": "02:30 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 1200,
+              "movie": "Baththa",
+              "screen": "SCREEN 1",
+              "showid": "10715",
+              "tickets_sold": 8,
+              "time": "06:30 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 1200,
+              "movie": "Baththa",
+              "screen": "SCREEN 1",
+              "showid": "10716",
+              "tickets_sold": 8,
+              "time": "09:30 PM",
+              "venue": "Harihar"
             }
           ],
-          "gross": 900,
-          "shows": 2,
-          "tickets_sold": 6
+          "gross": 7800,
+          "shows": 7,
+          "tickets_sold": 52
         },
         "without_gross": {
           "breakdown": [
@@ -865,15 +1040,6 @@
               "showid": "4666",
               "tickets_sold": 0,
               "time": "11:00 AM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Baththa",
-              "screen": "SCREEN 4",
-              "showid": "4667",
-              "tickets_sold": 0,
-              "time": "02:15 PM",
               "venue": "Fairyland Cinemas"
             },
             {
@@ -901,15 +1067,6 @@
               "showid": "9506",
               "tickets_sold": 0,
               "time": "10:45 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Baththa",
-              "screen": "Screen-3",
-              "showid": "9510",
-              "tickets_sold": 0,
-              "time": "10:00 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -943,33 +1100,6 @@
               "gross": 0,
               "movie": "Baththa",
               "screen": "SCREEN 1",
-              "showid": "10714",
-              "tickets_sold": 0,
-              "time": "02:30 PM",
-              "venue": "Harihar"
-            },
-            {
-              "gross": 0,
-              "movie": "Baththa",
-              "screen": "SCREEN 1",
-              "showid": "10715",
-              "tickets_sold": 0,
-              "time": "06:30 PM",
-              "venue": "Harihar"
-            },
-            {
-              "gross": 0,
-              "movie": "Baththa",
-              "screen": "SCREEN 1",
-              "showid": "10716",
-              "tickets_sold": 0,
-              "time": "09:30 PM",
-              "venue": "Harihar"
-            },
-            {
-              "gross": 0,
-              "movie": "Baththa",
-              "screen": "SCREEN 1",
               "showid": "7376",
               "tickets_sold": 0,
               "time": "02:15 PM",
@@ -985,11 +1115,65 @@
               "venue": "Issacs"
             }
           ],
-          "shows": 14,
+          "shows": 9,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1950,
+          "movie": "Baththa",
+          "screen": "Screen-3",
+          "showid": "9510",
+          "tickets_sold": 13,
+          "time": "10:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 1200,
+          "movie": "Baththa",
+          "screen": "SAAGARA",
+          "showid": "20988",
+          "tickets_sold": 8,
+          "time": "05:30 PM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 1200,
+          "movie": "Baththa",
+          "screen": "SCREEN 1",
+          "showid": "10715",
+          "tickets_sold": 8,
+          "time": "06:30 PM",
+          "venue": "Harihar"
+        },
+        {
+          "gross": 1200,
+          "movie": "Baththa",
+          "screen": "SCREEN 1",
+          "showid": "10716",
+          "tickets_sold": 8,
+          "time": "09:30 PM",
+          "venue": "Harihar"
+        },
+        {
+          "gross": 1050,
+          "movie": "Baththa",
+          "screen": "SCREEN 4",
+          "showid": "4667",
+          "tickets_sold": 7,
+          "time": "02:15 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 750,
+          "movie": "Baththa",
+          "screen": "SCREEN 1",
+          "showid": "10714",
+          "tickets_sold": 5,
+          "time": "02:30 PM",
+          "venue": "Harihar"
+        },
         {
           "gross": 450,
           "movie": "Baththa",
@@ -1000,30 +1184,12 @@
           "venue": "SFC"
         },
         {
-          "gross": 450,
-          "movie": "Baththa",
-          "screen": "SAAGARA",
-          "showid": "20988",
-          "tickets_sold": 3,
-          "time": "05:30 PM",
-          "venue": "SFC"
-        },
-        {
           "gross": 0,
           "movie": "Baththa",
           "screen": "SCREEN 4",
           "showid": "4666",
           "tickets_sold": 0,
           "time": "11:00 AM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Baththa",
-          "screen": "SCREEN 4",
-          "showid": "4667",
-          "tickets_sold": 0,
-          "time": "02:15 PM",
           "venue": "Fairyland Cinemas"
         },
         {
@@ -1051,15 +1217,6 @@
           "showid": "9506",
           "tickets_sold": 0,
           "time": "10:45 AM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Baththa",
-          "screen": "Screen-3",
-          "showid": "9510",
-          "tickets_sold": 0,
-          "time": "10:00 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -1093,33 +1250,6 @@
           "gross": 0,
           "movie": "Baththa",
           "screen": "SCREEN 1",
-          "showid": "10714",
-          "tickets_sold": 0,
-          "time": "02:30 PM",
-          "venue": "Harihar"
-        },
-        {
-          "gross": 0,
-          "movie": "Baththa",
-          "screen": "SCREEN 1",
-          "showid": "10715",
-          "tickets_sold": 0,
-          "time": "06:30 PM",
-          "venue": "Harihar"
-        },
-        {
-          "gross": 0,
-          "movie": "Baththa",
-          "screen": "SCREEN 1",
-          "showid": "10716",
-          "tickets_sold": 0,
-          "time": "09:30 PM",
-          "venue": "Harihar"
-        },
-        {
-          "gross": 0,
-          "movie": "Baththa",
-          "screen": "SCREEN 1",
           "showid": "7376",
           "tickets_sold": 0,
           "time": "02:15 PM",
@@ -1136,7 +1266,7 @@
         }
       ],
       "shows": 16,
-      "tickets_sold": 6
+      "tickets_sold": 52
     },
     "Dhoomakethu": {
       "gross": 450,
@@ -1274,14 +1404,24 @@
       "tickets_sold": 0
     },
     "Dont Trouble The Trouble": {
-      "gross": 0,
+      "gross": 300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 300,
+              "movie": "Dont Trouble The Trouble",
+              "screen": "SAAGARA",
+              "showid": "20989",
+              "tickets_sold": 2,
+              "time": "08:30 PM",
+              "venue": "SFC"
+            }
+          ],
+          "gross": 300,
+          "shows": 1,
+          "tickets_sold": 2
         },
         "without_gross": {
           "breakdown": [
@@ -1329,22 +1469,22 @@
               "tickets_sold": 0,
               "time": "02:30 PM",
               "venue": "SFC"
-            },
-            {
-              "gross": 0,
-              "movie": "Dont Trouble The Trouble",
-              "screen": "SAAGARA",
-              "showid": "20989",
-              "tickets_sold": 0,
-              "time": "08:30 PM",
-              "venue": "SFC"
             }
           ],
-          "shows": 6,
+          "shows": 5,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 300,
+          "movie": "Dont Trouble The Trouble",
+          "screen": "SAAGARA",
+          "showid": "20989",
+          "tickets_sold": 2,
+          "time": "08:30 PM",
+          "venue": "SFC"
+        },
         {
           "gross": 0,
           "movie": "Dont Trouble The Trouble",
@@ -1389,29 +1529,30 @@
           "tickets_sold": 0,
           "time": "02:30 PM",
           "venue": "SFC"
-        },
-        {
-          "gross": 0,
-          "movie": "Dont Trouble The Trouble",
-          "screen": "SAAGARA",
-          "showid": "20989",
-          "tickets_sold": 0,
-          "time": "08:30 PM",
-          "venue": "SFC"
         }
       ],
       "shows": 6,
-      "tickets_sold": 0
+      "tickets_sold": 2
     },
     "Heart of the Beast": {
-      "gross": 0,
+      "gross": 300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 300,
+              "movie": "Heart of the Beast",
+              "screen": null,
+              "showid": "20047",
+              "tickets_sold": 2,
+              "time": "07:45 PM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "gross": 300,
+          "shows": 1,
+          "tickets_sold": 2
         },
         "without_gross": {
           "breakdown": [
@@ -1423,22 +1564,22 @@
               "tickets_sold": 0,
               "time": "12:30 PM",
               "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Heart of the Beast",
-              "screen": null,
-              "showid": "20047",
-              "tickets_sold": 0,
-              "time": "07:45 PM",
-              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 2,
+          "shows": 1,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 300,
+          "movie": "Heart of the Beast",
+          "screen": null,
+          "showid": "20047",
+          "tickets_sold": 2,
+          "time": "07:45 PM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Heart of the Beast",
@@ -1447,19 +1588,10 @@
           "tickets_sold": 0,
           "time": "12:30 PM",
           "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Heart of the Beast",
-          "screen": null,
-          "showid": "20047",
-          "tickets_sold": 0,
-          "time": "07:45 PM",
-          "venue": "Puthet Cinemas"
         }
       ],
       "shows": 2,
-      "tickets_sold": 0
+      "tickets_sold": 2
     },
     "Mandaadi": {
       "gross": 0,
@@ -1596,7 +1728,7 @@
       "tickets_sold": 0
     },
     "Pradhama Drishtya Kuttakkar": {
-      "gross": 450,
+      "gross": 3450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -1609,11 +1741,56 @@
               "tickets_sold": 3,
               "time": "11:15 AM",
               "venue": "SFC"
+            },
+            {
+              "gross": 1200,
+              "movie": "PRADHAMA DRISHTIYA KUTTAKKAR",
+              "screen": null,
+              "showid": "20041",
+              "tickets_sold": 8,
+              "time": "02:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 150,
+              "movie": "PRADHAMA DRISHTIYA KUTTAKKAR",
+              "screen": null,
+              "showid": "20042",
+              "tickets_sold": 1,
+              "time": "06:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 600,
+              "movie": "Pradhama Drishtya Kuttakkar",
+              "screen": "SCREEN 2",
+              "showid": "10717",
+              "tickets_sold": 4,
+              "time": "06:30 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 750,
+              "movie": "Pradhama Drishtya Kuttakkar",
+              "screen": "SCREEN 2",
+              "showid": "10718",
+              "tickets_sold": 5,
+              "time": "09:30 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 300,
+              "movie": "Pradhama Dhrishtya Kuttakkar",
+              "screen": "SCREEN 1",
+              "showid": "4704",
+              "tickets_sold": 2,
+              "time": "02:15 PM",
+              "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 450,
-          "shows": 1,
-          "tickets_sold": 3
+          "gross": 3450,
+          "shows": 6,
+          "tickets_sold": 23
         },
         "without_gross": {
           "breakdown": [
@@ -1684,24 +1861,6 @@
               "gross": 0,
               "movie": "PRADHAMA DRISHTIYA KUTTAKKAR",
               "screen": null,
-              "showid": "20041",
-              "tickets_sold": 0,
-              "time": "02:30 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "PRADHAMA DRISHTIYA KUTTAKKAR",
-              "screen": null,
-              "showid": "20042",
-              "tickets_sold": 0,
-              "time": "06:30 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "PRADHAMA DRISHTIYA KUTTAKKAR",
-              "screen": null,
               "showid": "20043",
               "tickets_sold": 0,
               "time": "09:45 PM",
@@ -1727,24 +1886,6 @@
             },
             {
               "gross": 0,
-              "movie": "Pradhama Drishtya Kuttakkar",
-              "screen": "SCREEN 2",
-              "showid": "10717",
-              "tickets_sold": 0,
-              "time": "06:30 PM",
-              "venue": "Harihar"
-            },
-            {
-              "gross": 0,
-              "movie": "Pradhama Drishtya Kuttakkar",
-              "screen": "SCREEN 2",
-              "showid": "10718",
-              "tickets_sold": 0,
-              "time": "09:30 PM",
-              "venue": "Harihar"
-            },
-            {
-              "gross": 0,
               "movie": "Pradhama Drishtiya Kuttakkar",
               "screen": "SCREEN 2",
               "showid": "7379",
@@ -1753,11 +1894,38 @@
               "venue": "Issacs"
             }
           ],
-          "shows": 15,
+          "shows": 11,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1200,
+          "movie": "PRADHAMA DRISHTIYA KUTTAKKAR",
+          "screen": null,
+          "showid": "20041",
+          "tickets_sold": 8,
+          "time": "02:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 750,
+          "movie": "Pradhama Drishtya Kuttakkar",
+          "screen": "SCREEN 2",
+          "showid": "10718",
+          "tickets_sold": 5,
+          "time": "09:30 PM",
+          "venue": "Harihar"
+        },
+        {
+          "gross": 600,
+          "movie": "Pradhama Drishtya Kuttakkar",
+          "screen": "SCREEN 2",
+          "showid": "10717",
+          "tickets_sold": 4,
+          "time": "06:30 PM",
+          "venue": "Harihar"
+        },
         {
           "gross": 450,
           "movie": "Pradhama Drishtiya Kuttakkar",
@@ -1766,6 +1934,24 @@
           "tickets_sold": 3,
           "time": "11:15 AM",
           "venue": "SFC"
+        },
+        {
+          "gross": 300,
+          "movie": "Pradhama Dhrishtya Kuttakkar",
+          "screen": "SCREEN 1",
+          "showid": "4704",
+          "tickets_sold": 2,
+          "time": "02:15 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 150,
+          "movie": "PRADHAMA DRISHTIYA KUTTAKKAR",
+          "screen": null,
+          "showid": "20042",
+          "tickets_sold": 1,
+          "time": "06:30 PM",
+          "venue": "Puthet Cinemas"
         },
         {
           "gross": 0,
@@ -1834,24 +2020,6 @@
           "gross": 0,
           "movie": "PRADHAMA DRISHTIYA KUTTAKKAR",
           "screen": null,
-          "showid": "20041",
-          "tickets_sold": 0,
-          "time": "02:30 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "PRADHAMA DRISHTIYA KUTTAKKAR",
-          "screen": null,
-          "showid": "20042",
-          "tickets_sold": 0,
-          "time": "06:30 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "PRADHAMA DRISHTIYA KUTTAKKAR",
-          "screen": null,
           "showid": "20043",
           "tickets_sold": 0,
           "time": "09:45 PM",
@@ -1877,24 +2045,6 @@
         },
         {
           "gross": 0,
-          "movie": "Pradhama Drishtya Kuttakkar",
-          "screen": "SCREEN 2",
-          "showid": "10717",
-          "tickets_sold": 0,
-          "time": "06:30 PM",
-          "venue": "Harihar"
-        },
-        {
-          "gross": 0,
-          "movie": "Pradhama Drishtya Kuttakkar",
-          "screen": "SCREEN 2",
-          "showid": "10718",
-          "tickets_sold": 0,
-          "time": "09:30 PM",
-          "venue": "Harihar"
-        },
-        {
-          "gross": 0,
           "movie": "Pradhama Drishtiya Kuttakkar",
           "screen": "SCREEN 2",
           "showid": "7379",
@@ -1903,8 +2053,8 @@
           "venue": "Issacs"
         }
       ],
-      "shows": 16,
-      "tickets_sold": 3
+      "shows": 17,
+      "tickets_sold": 23
     },
     "Sigma": {
       "gross": 0,
@@ -2197,6 +2347,26 @@
     "merged_movies": [
       {
         "aliases": [
+          "Heart of the Beast"
+        ],
+        "canonical": "Heart of the Beast"
+      },
+      {
+        "aliases": [
+          "Avaraachan & Sons",
+          "Avaraachan and Sons",
+          "Avarachan & Sons"
+        ],
+        "canonical": "Avarachan & Sons"
+      },
+      {
+        "aliases": [
+          "Avarachan and Sons"
+        ],
+        "canonical": "Avarachan and Sons"
+      },
+      {
+        "aliases": [
           "PRADHAMA DRISHTIYA KUTTAKKAR",
           "Pradhama Dhrishtya Kuttakkar",
           "Pradhama Drishtiya Kuttakkar",
@@ -2206,11 +2376,21 @@
       },
       {
         "aliases": [
-          "Avaraachan & Sons",
-          "Avaraachan and Sons",
-          "Avarachan and Sons"
+          "Dhoomakethu"
         ],
-        "canonical": "Avaraachan & Sons"
+        "canonical": "Dhoomakethu"
+      },
+      {
+        "aliases": [
+          "Mandaadi"
+        ],
+        "canonical": "Mandaadi"
+      },
+      {
+        "aliases": [
+          "Meesaya Murukku 2"
+        ],
+        "canonical": "Meesaya Murukku 2"
       },
       {
         "aliases": [
@@ -2221,22 +2401,15 @@
       },
       {
         "aliases": [
-          "Dhoomakethu"
-        ],
-        "canonical": "Dhoomakethu"
-      },
-      {
-        "aliases": [
-          "Avarachan & Sons"
-        ],
-        "canonical": "Avarachan & Sons"
-      },
-      {
-        "aliases": [
-          "Don't Trouble The Trouble",
           "Dont Trouble The Trouble"
         ],
         "canonical": "Dont Trouble The Trouble"
+      },
+      {
+        "aliases": [
+          "Baththa"
+        ],
+        "canonical": "Baththa"
       },
       {
         "aliases": [
@@ -2249,36 +2422,6 @@
           "Sigma"
         ],
         "canonical": "Sigma"
-      },
-      {
-        "aliases": [
-          "Mandaadi"
-        ],
-        "canonical": "Mandaadi"
-      },
-      {
-        "aliases": [
-          "Heart of the Beast"
-        ],
-        "canonical": "Heart of the Beast"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Meesaya Murukku 2"
-        ],
-        "canonical": "Meesaya Murukku 2"
-      },
-      {
-        "aliases": [
-          "Baththa"
-        ],
-        "canonical": "Baththa"
       }
     ]
   }
