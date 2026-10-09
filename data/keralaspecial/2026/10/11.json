@@ -1,9 +1,9 @@
 {
   "date": "2026-10-11",
-  "last_updated": "2026-10-09T19:42:19.389485+05:30",
+  "last_updated": "2026-10-10T01:11:23.134474+05:30",
   "movies": {
     "Avarachan": {
-      "gross": 150,
+      "gross": 450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -16,11 +16,20 @@
               "tickets_sold": 1,
               "time": "01:45 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "Avaraachan",
+              "screen": "Dolby Atmos",
+              "showid": "6030",
+              "tickets_sold": 2,
+              "time": "03:00 PM",
+              "venue": "Girija Theatre"
             }
           ],
-          "gross": 150,
-          "shows": 1,
-          "tickets_sold": 1
+          "gross": 450,
+          "shows": 2,
+          "tickets_sold": 3
         },
         "without_gross": {
           "breakdown": [
@@ -67,15 +76,6 @@
               "showid": "6029",
               "tickets_sold": 0,
               "time": "12:00 PM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 0,
-              "movie": "Avaraachan",
-              "screen": "Dolby Atmos",
-              "showid": "6030",
-              "tickets_sold": 0,
-              "time": "03:00 PM",
               "venue": "Girija Theatre"
             },
             {
@@ -160,11 +160,20 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 15,
+          "shows": 14,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 300,
+          "movie": "Avaraachan",
+          "screen": "Dolby Atmos",
+          "showid": "6030",
+          "tickets_sold": 2,
+          "time": "03:00 PM",
+          "venue": "Girija Theatre"
+        },
         {
           "gross": 150,
           "movie": "Avaraachan",
@@ -217,15 +226,6 @@
           "showid": "6029",
           "tickets_sold": 0,
           "time": "12:00 PM",
-          "venue": "Girija Theatre"
-        },
-        {
-          "gross": 0,
-          "movie": "Avaraachan",
-          "screen": "Dolby Atmos",
-          "showid": "6030",
-          "tickets_sold": 0,
-          "time": "03:00 PM",
           "venue": "Girija Theatre"
         },
         {
@@ -311,7 +311,7 @@
         }
       ],
       "shows": 16,
-      "tickets_sold": 1
+      "tickets_sold": 3
     },
     "Baththa": {
       "gross": 0,
@@ -369,9 +369,45 @@
               "tickets_sold": 0,
               "time": "09:15 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Baththa",
+              "screen": "Screen-3",
+              "showid": "9566",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Baththa",
+              "screen": "Screen-3",
+              "showid": "9567",
+              "tickets_sold": 0,
+              "time": "02:00 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Baththa",
+              "screen": "Screen-3",
+              "showid": "9568",
+              "tickets_sold": 0,
+              "time": "07:00 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Baththa",
+              "screen": "Screen-3",
+              "showid": "9569",
+              "tickets_sold": 0,
+              "time": "10:00 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 5,
+          "shows": 9,
           "tickets_sold": 0
         }
       },
@@ -420,9 +456,45 @@
           "tickets_sold": 0,
           "time": "09:15 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Baththa",
+          "screen": "Screen-3",
+          "showid": "9566",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Baththa",
+          "screen": "Screen-3",
+          "showid": "9567",
+          "tickets_sold": 0,
+          "time": "02:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Baththa",
+          "screen": "Screen-3",
+          "showid": "9568",
+          "tickets_sold": 0,
+          "time": "07:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Baththa",
+          "screen": "Screen-3",
+          "showid": "9569",
+          "tickets_sold": 0,
+          "time": "10:00 PM",
+          "venue": "Aiswarya Cinemas"
         }
       ],
-      "shows": 5,
+      "shows": 9,
       "tickets_sold": 0
     },
     "Dhanushkodiyilekk": {
@@ -513,6 +585,100 @@
           "showid": "4758",
           "tickets_sold": 0,
           "time": "02:30 PM",
+          "venue": "Fairyland Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 0
+    },
+    "Drishyam The Conclusion": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Drishyam:The Conclusion",
+              "screen": "SCREEN 1",
+              "showid": "4737",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Drishyam:The Conclusion",
+              "screen": "SCREEN 1",
+              "showid": "4738",
+              "tickets_sold": 0,
+              "time": "02:15 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Drishyam:The Conclusion",
+              "screen": "SCREEN 1",
+              "showid": "4739",
+              "tickets_sold": 0,
+              "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Drishyam:The Conclusion",
+              "screen": "SCREEN 1",
+              "showid": "4740",
+              "tickets_sold": 0,
+              "time": "09:15 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "shows": 4,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Drishyam:The Conclusion",
+          "screen": "SCREEN 1",
+          "showid": "4737",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Drishyam:The Conclusion",
+          "screen": "SCREEN 1",
+          "showid": "4738",
+          "tickets_sold": 0,
+          "time": "02:15 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Drishyam:The Conclusion",
+          "screen": "SCREEN 1",
+          "showid": "4739",
+          "tickets_sold": 0,
+          "time": "06:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Drishyam:The Conclusion",
+          "screen": "SCREEN 1",
+          "showid": "4740",
+          "tickets_sold": 0,
+          "time": "09:15 PM",
           "venue": "Fairyland Cinemas"
         }
       ],
@@ -719,11 +885,10 @@
       },
       {
         "aliases": [
-          "Drishyam 3 The Conclusion ",
-          "Drishyam The Conclusion",
-          "Drishyam:The Conclusion"
+          "Avaraachan",
+          "Avarachan"
         ],
-        "canonical": "Drishyam:The Conclusion"
+        "canonical": "Avarachan"
       },
       {
         "aliases": [
@@ -735,10 +900,9 @@
       },
       {
         "aliases": [
-          "Avaraachan",
-          "Avarachan"
+          "Dhoomakethu"
         ],
-        "canonical": "Avarachan"
+        "canonical": "Dhoomakethu"
       },
       {
         "aliases": [
@@ -749,15 +913,11 @@
       },
       {
         "aliases": [
-          "Poru: Oru Tharam, Randu Tharam"
+          "Drishyam 3 The Conclusion ",
+          "Drishyam The Conclusion",
+          "Drishyam:The Conclusion"
         ],
-        "canonical": "Poru: Oru Tharam, Randu Tharam"
-      },
-      {
-        "aliases": [
-          "Avaraachan and Sons"
-        ],
-        "canonical": "Avaraachan and Sons"
+        "canonical": "Drishyam The Conclusion"
       },
       {
         "aliases": [
@@ -767,15 +927,27 @@
       },
       {
         "aliases": [
-          "Other Mommy"
+          "Poru: Oru Tharam, Randu Tharam"
         ],
-        "canonical": "Other Mommy"
+        "canonical": "Poru: Oru Tharam, Randu Tharam"
       },
       {
         "aliases": [
           "Baththa"
         ],
         "canonical": "Baththa"
+      },
+      {
+        "aliases": [
+          "Avaraachan and Sons"
+        ],
+        "canonical": "Avaraachan and Sons"
+      },
+      {
+        "aliases": [
+          "Other Mommy"
+        ],
+        "canonical": "Other Mommy"
       }
     ]
   }
