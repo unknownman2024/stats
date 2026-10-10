@@ -1,20 +1,38 @@
 {
   "date": "2026-10-15",
-  "last_updated": "2026-10-10T21:42:29.074655+05:30",
+  "last_updated": "2026-10-11T01:48:02.420416+05:30",
   "movies": {
     "Jailer 2 - Tamil": {
-      "gross": 6900,
+      "gross": 8400,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 2400,
+              "gross": 3000,
               "movie": "Jailer 2 - Tamil",
               "screen": "Cinema-1",
               "showid": "23247",
-              "tickets_sold": 16,
+              "tickets_sold": 20,
               "time": "06:00 AM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 2550,
+              "movie": "Jailer 2 - Tamil",
+              "screen": "Cinema-1",
+              "showid": "23251",
+              "tickets_sold": 17,
+              "time": "09:45 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 1500,
+              "movie": "Jailer 2 - Tamil",
+              "screen": "Cinema-1",
+              "showid": "23250",
+              "tickets_sold": 10,
+              "time": "06:15 PM",
               "venue": "Davis Theatre"
             },
             {
@@ -34,29 +52,11 @@
               "tickets_sold": 3,
               "time": "02:45 PM",
               "venue": "Davis Theatre"
-            },
-            {
-              "gross": 1500,
-              "movie": "Jailer 2 - Tamil",
-              "screen": "Cinema-1",
-              "showid": "23250",
-              "tickets_sold": 10,
-              "time": "06:15 PM",
-              "venue": "Davis Theatre"
-            },
-            {
-              "gross": 1650,
-              "movie": "Jailer 2 - Tamil",
-              "screen": "Cinema-1",
-              "showid": "23251",
-              "tickets_sold": 11,
-              "time": "09:45 PM",
-              "venue": "Davis Theatre"
             }
           ],
-          "gross": 6900,
+          "gross": 8400,
           "shows": 5,
-          "tickets_sold": 46
+          "tickets_sold": 56
         },
         "without_gross": {
           "breakdown": [],
@@ -66,20 +66,20 @@
       },
       "show_breakdown": [
         {
-          "gross": 2400,
+          "gross": 3000,
           "movie": "Jailer 2 - Tamil",
           "screen": "Cinema-1",
           "showid": "23247",
-          "tickets_sold": 16,
+          "tickets_sold": 20,
           "time": "06:00 AM",
           "venue": "Davis Theatre"
         },
         {
-          "gross": 1650,
+          "gross": 2550,
           "movie": "Jailer 2 - Tamil",
           "screen": "Cinema-1",
           "showid": "23251",
-          "tickets_sold": 11,
+          "tickets_sold": 17,
           "time": "09:45 PM",
           "venue": "Davis Theatre"
         },
@@ -112,43 +112,11 @@
         }
       ],
       "shows": 5,
-      "tickets_sold": 46
+      "tickets_sold": 56
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "Dhanushkodiyilekk",
-          "Dhanushkodiyilekku"
-        ],
-        "canonical": "Dhanushkodiyilekk"
-      },
-      {
-        "aliases": [
-          "Other Mommy"
-        ],
-        "canonical": "Other Mommy"
-      },
-      {
-        "aliases": [
-          "Avaraachan",
-          "Avarachan"
-        ],
-        "canonical": "Avarachan"
-      },
-      {
-        "aliases": [
-          "Thenmavin Kombath"
-        ],
-        "canonical": "Thenmavin Kombath"
-      },
-      {
-        "aliases": [
-          "Jailer 2 - Tamil"
-        ],
-        "canonical": "Jailer 2 - Tamil"
-      },
       {
         "aliases": [
           "Drishyam 3 The Conclusion ",
@@ -156,24 +124,6 @@
           "Drishyam:The Conclusion"
         ],
         "canonical": "Drishyam The Conclusion"
-      },
-      {
-        "aliases": [
-          "Baththa"
-        ],
-        "canonical": "Baththa"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Avarachan & Sons"
-        ],
-        "canonical": "Avarachan & Sons"
       },
       {
         "aliases": [
@@ -186,6 +136,71 @@
           "Poru: Oru Tharam, Randu Tharam"
         ],
         "canonical": "Poru: Oru Tharam, Randu Tharam"
+      },
+      {
+        "aliases": [
+          "Avaraachan & Sons",
+          "Avarachan & Sons",
+          "Avarachan and Sons"
+        ],
+        "canonical": "Avarachan & Sons"
+      },
+      {
+        "aliases": [
+          "Other Mommy"
+        ],
+        "canonical": "Other Mommy"
+      },
+      {
+        "aliases": [
+          "Baththa"
+        ],
+        "canonical": "Baththa"
+      },
+      {
+        "aliases": [
+          "Dhoomakethu"
+        ],
+        "canonical": "Dhoomakethu"
+      },
+      {
+        "aliases": [
+          "Dhanushkodiyilekk",
+          "Dhanushkodiyilekku"
+        ],
+        "canonical": "Dhanushkodiyilekk"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Avaraachan",
+          "Avarachan"
+        ],
+        "canonical": "Avarachan"
+      },
+      {
+        "aliases": [
+          "Avaraachan and Sons"
+        ],
+        "canonical": "Avaraachan and Sons"
+      },
+      {
+        "aliases": [
+          "THENMAVIN KOMBATH",
+          "Thenmavin Kombath"
+        ],
+        "canonical": "THENMAVIN KOMBATH"
+      },
+      {
+        "aliases": [
+          "Jailer 2 - Tamil"
+        ],
+        "canonical": "Jailer 2 - Tamil"
       }
     ]
   }
