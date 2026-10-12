@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "last_updated": "2026-10-12T02:19:58.478016+05:30",
+  "last_updated": "2026-10-12T05:46:47.387050+05:30",
   "movies": {
     "JAILER 2": {
       "gross": 5850,
@@ -293,6 +293,15 @@
               "venue": "Puthet Cinemas"
             },
             {
+              "gross": 1500,
+              "movie": "Jailer 2",
+              "screen": null,
+              "showid": "20120",
+              "tickets_sold": 10,
+              "time": "10:30 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
               "gross": 1200,
               "movie": "JAILER 2",
               "screen": "Dolby Atmos",
@@ -311,24 +320,6 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 900,
-              "movie": "JAILER 2",
-              "screen": "Dolby Atmos",
-              "showid": "6061",
-              "tickets_sold": 6,
-              "time": "10:00 PM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 1500,
-              "movie": "Jailer 2",
-              "screen": null,
-              "showid": "20120",
-              "tickets_sold": 10,
-              "time": "10:30 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 1200,
               "movie": "Jailer 2",
               "screen": null,
@@ -336,6 +327,15 @@
               "tickets_sold": 8,
               "time": "08:45 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 900,
+              "movie": "JAILER 2",
+              "screen": "Dolby Atmos",
+              "showid": "6061",
+              "tickets_sold": 6,
+              "time": "10:00 PM",
+              "venue": "Girija Theatre"
             },
             {
               "gross": 900,
@@ -521,6 +521,21 @@
     "merged_movies": [
       {
         "aliases": [
+          "Avaraachan",
+          "Avarachan"
+        ],
+        "canonical": "Avarachan"
+      },
+      {
+        "aliases": [
+          "Avaraachan & Sons",
+          "Avaraachan and Sons",
+          "Avarachan and Sons"
+        ],
+        "canonical": "Avaraachan & Sons"
+      },
+      {
+        "aliases": [
           "Drishyam 3 The Conclusion ",
           "Drishyam The Conclusion"
         ],
@@ -528,54 +543,21 @@
       },
       {
         "aliases": [
-          "Other Mommy"
+          "Chiram"
         ],
-        "canonical": "Other Mommy"
+        "canonical": "Chiram"
       },
       {
         "aliases": [
-          "Avaraachan & Sons",
-          "Avaraachan and Sons",
-          "Avarachan & Sons"
+          "Dhoomakethu"
         ],
-        "canonical": "Avarachan & Sons"
-      },
-      {
-        "aliases": [
-          "Avarachan and Sons"
-        ],
-        "canonical": "Avarachan and Sons"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Poru: Oru Tharam, Randu Tharam"
-        ],
-        "canonical": "Poru: Oru Tharam, Randu Tharam"
-      },
-      {
-        "aliases": [
-          "THENMAVIN KOMBATH",
-          "Thenmavin Kombath"
-        ],
-        "canonical": "Thenmavin Kombath"
+        "canonical": "Dhoomakethu"
       },
       {
         "aliases": [
           "Baththa"
         ],
         "canonical": "Baththa"
-      },
-      {
-        "aliases": [
-          "Chiram"
-        ],
-        "canonical": "Chiram"
       },
       {
         "aliases": [
@@ -586,22 +568,40 @@
       },
       {
         "aliases": [
-          "Dhoomakethu"
+          "THENMAVIN KOMBATH",
+          "Thenmavin Kombath"
         ],
-        "canonical": "Dhoomakethu"
+        "canonical": "THENMAVIN KOMBATH"
       },
       {
         "aliases": [
-          "Avaraachan",
-          "Avarachan"
+          "Poru: Oru Tharam, Randu Tharam"
         ],
-        "canonical": "Avarachan"
+        "canonical": "Poru: Oru Tharam, Randu Tharam"
       },
       {
         "aliases": [
           "Jailer 2 - Tamil"
         ],
         "canonical": "Jailer 2 - Tamil"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Avarachan & Sons"
+        ],
+        "canonical": "Avarachan & Sons"
+      },
+      {
+        "aliases": [
+          "Other Mommy"
+        ],
+        "canonical": "Other Mommy"
       }
     ]
   }
