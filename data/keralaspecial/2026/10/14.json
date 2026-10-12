@@ -1,16 +1,26 @@
 {
   "date": "2026-10-14",
-  "last_updated": "2026-10-12T05:46:47.389785+05:30",
+  "last_updated": "2026-10-12T11:56:53.925486+05:30",
   "movies": {
     "Avarachan": {
-      "gross": 0,
+      "gross": 600,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 600,
+              "movie": "Avaraachan",
+              "screen": "Dolby Atmos",
+              "showid": "6043",
+              "tickets_sold": 4,
+              "time": "06:30 PM",
+              "venue": "Girija Theatre"
+            }
+          ],
+          "gross": 600,
+          "shows": 1,
+          "tickets_sold": 4
         },
         "without_gross": {
           "breakdown": [
@@ -126,15 +136,6 @@
               "gross": 0,
               "movie": "Avaraachan",
               "screen": "Dolby Atmos",
-              "showid": "6043",
-              "tickets_sold": 0,
-              "time": "06:30 PM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 0,
-              "movie": "Avaraachan",
-              "screen": "Dolby Atmos",
               "showid": "6044",
               "tickets_sold": 0,
               "time": "09:30 PM",
@@ -195,11 +196,20 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 20,
+          "shows": 19,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 600,
+          "movie": "Avaraachan",
+          "screen": "Dolby Atmos",
+          "showid": "6043",
+          "tickets_sold": 4,
+          "time": "06:30 PM",
+          "venue": "Girija Theatre"
+        },
         {
           "gross": 0,
           "movie": "Avarachan",
@@ -312,15 +322,6 @@
           "gross": 0,
           "movie": "Avaraachan",
           "screen": "Dolby Atmos",
-          "showid": "6043",
-          "tickets_sold": 0,
-          "time": "06:30 PM",
-          "venue": "Girija Theatre"
-        },
-        {
-          "gross": 0,
-          "movie": "Avaraachan",
-          "screen": "Dolby Atmos",
           "showid": "6044",
           "tickets_sold": 0,
           "time": "09:30 PM",
@@ -382,7 +383,7 @@
         }
       ],
       "shows": 20,
-      "tickets_sold": 0
+      "tickets_sold": 4
     },
     "Baththa": {
       "gross": 0,
@@ -819,43 +820,17 @@
     "merged_movies": [
       {
         "aliases": [
-          "Avaraachan",
-          "Avarachan"
-        ],
-        "canonical": "Avarachan"
-      },
-      {
-        "aliases": [
           "Avaraachan & Sons",
-          "Avaraachan and Sons",
+          "Avarachan & Sons",
           "Avarachan and Sons"
         ],
-        "canonical": "Avaraachan & Sons"
+        "canonical": "Avarachan & Sons"
       },
       {
         "aliases": [
-          "Drishyam 3 The Conclusion ",
-          "Drishyam The Conclusion"
+          "Avaraachan and Sons"
         ],
-        "canonical": "Drishyam The Conclusion"
-      },
-      {
-        "aliases": [
-          "Chiram"
-        ],
-        "canonical": "Chiram"
-      },
-      {
-        "aliases": [
-          "Dhoomakethu"
-        ],
-        "canonical": "Dhoomakethu"
-      },
-      {
-        "aliases": [
-          "Baththa"
-        ],
-        "canonical": "Baththa"
+        "canonical": "Avaraachan and Sons"
       },
       {
         "aliases": [
@@ -866,16 +841,30 @@
       },
       {
         "aliases": [
-          "THENMAVIN KOMBATH",
-          "Thenmavin Kombath"
+          "Avaraachan",
+          "Avarachan"
         ],
-        "canonical": "THENMAVIN KOMBATH"
+        "canonical": "Avarachan"
       },
       {
         "aliases": [
-          "Poru: Oru Tharam, Randu Tharam"
+          "THENMAVIN KOMBATH",
+          "Thenmavin Kombath"
         ],
-        "canonical": "Poru: Oru Tharam, Randu Tharam"
+        "canonical": "Thenmavin Kombath"
+      },
+      {
+        "aliases": [
+          "Chiram"
+        ],
+        "canonical": "Chiram"
+      },
+      {
+        "aliases": [
+          "Drishyam 3 The Conclusion ",
+          "Drishyam The Conclusion"
+        ],
+        "canonical": "Drishyam The Conclusion"
       },
       {
         "aliases": [
@@ -885,21 +874,33 @@
       },
       {
         "aliases": [
-          "Unknown"
+          "Dhoomakethu"
         ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Avarachan & Sons"
-        ],
-        "canonical": "Avarachan & Sons"
+        "canonical": "Dhoomakethu"
       },
       {
         "aliases": [
           "Other Mommy"
         ],
         "canonical": "Other Mommy"
+      },
+      {
+        "aliases": [
+          "Poru: Oru Tharam, Randu Tharam"
+        ],
+        "canonical": "Poru: Oru Tharam, Randu Tharam"
+      },
+      {
+        "aliases": [
+          "Baththa"
+        ],
+        "canonical": "Baththa"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       }
     ]
   }
