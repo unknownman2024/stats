@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "last_updated": "2026-10-13T23:58:43.120827+05:30",
+  "last_updated": "2026-10-14T04:35:02.030887+05:30",
   "movies": {
     "JAILER 2": {
       "gross": 33750,
@@ -260,7 +260,7 @@
       "tickets_sold": 225
     },
     "Jailer 2": {
-      "gross": 55050,
+      "gross": 55650,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -275,11 +275,11 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 7200,
+              "gross": 7650,
               "movie": "Jailer 2",
               "screen": null,
               "showid": "20115",
-              "tickets_sold": 48,
+              "tickets_sold": 51,
               "time": "10:30 AM",
               "venue": "Puthet Cinemas"
             },
@@ -290,6 +290,15 @@
               "showid": "20116",
               "tickets_sold": 43,
               "time": "02:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 6300,
+              "movie": "Jailer 2",
+              "screen": null,
+              "showid": "20117",
+              "tickets_sold": 42,
+              "time": "05:30 PM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -311,15 +320,6 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 6150,
-              "movie": "Jailer 2",
-              "screen": null,
-              "showid": "20117",
-              "tickets_sold": 41,
-              "time": "05:30 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 3000,
               "movie": "JAILER 2",
               "screen": "Aiswarya",
@@ -327,6 +327,15 @@
               "tickets_sold": 20,
               "time": "05:30 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 1950,
+              "movie": "Jailer 2",
+              "screen": null,
+              "showid": "20119",
+              "tickets_sold": 13,
+              "time": "11:55 PM",
+              "venue": "Puthet Cinemas"
             },
             {
               "gross": 1500,
@@ -354,20 +363,11 @@
               "tickets_sold": 2,
               "time": "11:30 AM",
               "venue": "Girija Theatre"
-            },
-            {
-              "gross": 1950,
-              "movie": "Jailer 2",
-              "screen": null,
-              "showid": "20119",
-              "tickets_sold": 13,
-              "time": "11:55 PM",
-              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 55050,
+          "gross": 55650,
           "shows": 11,
-          "tickets_sold": 367
+          "tickets_sold": 371
         },
         "without_gross": {
           "breakdown": [
@@ -405,11 +405,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 7200,
+          "gross": 7650,
           "movie": "Jailer 2",
           "screen": null,
           "showid": "20115",
-          "tickets_sold": 48,
+          "tickets_sold": 51,
           "time": "10:30 AM",
           "venue": "Puthet Cinemas"
         },
@@ -423,11 +423,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 6150,
+          "gross": 6300,
           "movie": "Jailer 2",
           "screen": null,
           "showid": "20117",
-          "tickets_sold": 41,
+          "tickets_sold": 42,
           "time": "05:30 PM",
           "venue": "Puthet Cinemas"
         },
@@ -514,11 +514,17 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 367
+      "tickets_sold": 371
     }
   },
   "verification": {
     "merged_movies": [
+      {
+        "aliases": [
+          "Drishyam The Conclusion"
+        ],
+        "canonical": "Drishyam The Conclusion"
+      },
       {
         "aliases": [
           "Poru: Oru Tharam, Randu Tharam"
@@ -527,22 +533,22 @@
       },
       {
         "aliases": [
-          "Chiram"
+          "Avaraachan & Sons",
+          "Avaraachan and Sons"
         ],
-        "canonical": "Chiram"
+        "canonical": "Avaraachan & Sons"
       },
       {
         "aliases": [
-          "Baththa"
+          "Dhoomakethu"
         ],
-        "canonical": "Baththa"
+        "canonical": "Dhoomakethu"
       },
       {
         "aliases": [
-          "Avaraachan",
-          "Avarachan"
+          "Avarachan & Sons"
         ],
-        "canonical": "Avarachan"
+        "canonical": "Avarachan & Sons"
       },
       {
         "aliases": [
@@ -559,9 +565,28 @@
       },
       {
         "aliases": [
-          "Drishyam The Conclusion"
+          "Avaraachan",
+          "Avarachan"
         ],
-        "canonical": "Drishyam The Conclusion"
+        "canonical": "Avarachan"
+      },
+      {
+        "aliases": [
+          "Thenmavin Kombath"
+        ],
+        "canonical": "Thenmavin Kombath"
+      },
+      {
+        "aliases": [
+          "Baththa"
+        ],
+        "canonical": "Baththa"
+      },
+      {
+        "aliases": [
+          "Chiram"
+        ],
+        "canonical": "Chiram"
       }
     ]
   }

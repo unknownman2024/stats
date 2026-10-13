@@ -1,6 +1,6 @@
 {
   "date": "2026-10-18",
-  "last_updated": "2026-10-13T23:58:43.122022+05:30",
+  "last_updated": "2026-10-14T04:35:02.031988+05:30",
   "movies": {
     "JAILER 2": {
       "gross": 22350,
@@ -260,7 +260,7 @@
       "tickets_sold": 149
     },
     "Jailer 2": {
-      "gross": 35100,
+      "gross": 35400,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -275,21 +275,21 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 5400,
-              "movie": "Jailer 2",
-              "screen": null,
-              "showid": "20122",
-              "tickets_sold": 36,
-              "time": "05:30 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 6000,
               "movie": "Jailer 2",
               "screen": null,
               "showid": "20121",
               "tickets_sold": 40,
               "time": "02:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 5400,
+              "movie": "Jailer 2",
+              "screen": null,
+              "showid": "20122",
+              "tickets_sold": 36,
+              "time": "05:30 PM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -300,33 +300,6 @@
               "tickets_sold": 21,
               "time": "08:45 PM",
               "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 1950,
-              "movie": "JAILER 2",
-              "screen": "Aiswarya",
-              "showid": "9584",
-              "tickets_sold": 13,
-              "time": "02:15 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 1800,
-              "movie": "JAILER 2",
-              "screen": "Dolby Atmos",
-              "showid": "6060",
-              "tickets_sold": 12,
-              "time": "06:30 PM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 1950,
-              "movie": "JAILER 2",
-              "screen": "Dolby Atmos",
-              "showid": "6059",
-              "tickets_sold": 13,
-              "time": "03:00 PM",
-              "venue": "Girija Theatre"
             },
             {
               "gross": 2700,
@@ -344,6 +317,33 @@
               "showid": "6058",
               "tickets_sold": 15,
               "time": "11:30 AM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 2250,
+              "movie": "JAILER 2",
+              "screen": "Aiswarya",
+              "showid": "9584",
+              "tickets_sold": 15,
+              "time": "02:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 1950,
+              "movie": "JAILER 2",
+              "screen": "Dolby Atmos",
+              "showid": "6059",
+              "tickets_sold": 13,
+              "time": "03:00 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 1800,
+              "movie": "JAILER 2",
+              "screen": "Dolby Atmos",
+              "showid": "6060",
+              "tickets_sold": 12,
+              "time": "06:30 PM",
               "venue": "Girija Theatre"
             },
             {
@@ -374,9 +374,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 35100,
+          "gross": 35400,
           "shows": 12,
-          "tickets_sold": 234
+          "tickets_sold": 236
         },
         "without_gross": {
           "breakdown": [
@@ -450,11 +450,11 @@
           "venue": "Girija Theatre"
         },
         {
-          "gross": 1950,
+          "gross": 2250,
           "movie": "JAILER 2",
           "screen": "Aiswarya",
           "showid": "9584",
-          "tickets_sold": 13,
+          "tickets_sold": 15,
           "time": "02:15 PM",
           "venue": "Aiswarya Cinemas"
         },
@@ -514,11 +514,17 @@
         }
       ],
       "shows": 13,
-      "tickets_sold": 234
+      "tickets_sold": 236
     }
   },
   "verification": {
     "merged_movies": [
+      {
+        "aliases": [
+          "Drishyam The Conclusion"
+        ],
+        "canonical": "Drishyam The Conclusion"
+      },
       {
         "aliases": [
           "Poru: Oru Tharam, Randu Tharam"
@@ -527,22 +533,22 @@
       },
       {
         "aliases": [
-          "Chiram"
+          "Avaraachan & Sons",
+          "Avaraachan and Sons"
         ],
-        "canonical": "Chiram"
+        "canonical": "Avaraachan & Sons"
       },
       {
         "aliases": [
-          "Baththa"
+          "Dhoomakethu"
         ],
-        "canonical": "Baththa"
+        "canonical": "Dhoomakethu"
       },
       {
         "aliases": [
-          "Avaraachan",
-          "Avarachan"
+          "Avarachan & Sons"
         ],
-        "canonical": "Avarachan"
+        "canonical": "Avarachan & Sons"
       },
       {
         "aliases": [
@@ -559,9 +565,28 @@
       },
       {
         "aliases": [
-          "Drishyam The Conclusion"
+          "Avaraachan",
+          "Avarachan"
         ],
-        "canonical": "Drishyam The Conclusion"
+        "canonical": "Avarachan"
+      },
+      {
+        "aliases": [
+          "Thenmavin Kombath"
+        ],
+        "canonical": "Thenmavin Kombath"
+      },
+      {
+        "aliases": [
+          "Baththa"
+        ],
+        "canonical": "Baththa"
+      },
+      {
+        "aliases": [
+          "Chiram"
+        ],
+        "canonical": "Chiram"
       }
     ]
   }
