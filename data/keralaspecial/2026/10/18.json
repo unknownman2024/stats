@@ -1,7 +1,83 @@
 {
   "date": "2026-10-18",
-  "last_updated": "2026-10-15T10:35:43.493137+05:30",
+  "last_updated": "2026-10-15T15:45:49.482250+05:30",
   "movies": {
+    "Avaraachan": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Avaraachan",
+              "screen": "Screen-2",
+              "showid": "9714",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Avaraachan",
+              "screen": "Screen-2",
+              "showid": "9715",
+              "tickets_sold": 0,
+              "time": "01:45 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Avaraachan",
+              "screen": "Screen-2",
+              "showid": "9716",
+              "tickets_sold": 0,
+              "time": "04:30 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "shows": 3,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Avaraachan",
+          "screen": "Screen-2",
+          "showid": "9714",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Avaraachan",
+          "screen": "Screen-2",
+          "showid": "9715",
+          "tickets_sold": 0,
+          "time": "01:45 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Avaraachan",
+          "screen": "Screen-2",
+          "showid": "9716",
+          "tickets_sold": 0,
+          "time": "04:30 PM",
+          "venue": "Aiswarya Cinemas"
+        }
+      ],
+      "shows": 3,
+      "tickets_sold": 0
+    },
     "Avarachan": {
       "gross": 0,
       "occupancy": null,
@@ -224,15 +300,6 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 9150,
-              "movie": "Jailer 2",
-              "screen": null,
-              "showid": "20123",
-              "tickets_sold": 61,
-              "time": "08:45 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 12000,
               "movie": "JAILER 2",
               "screen": "Aiswarya",
@@ -240,6 +307,15 @@
               "tickets_sold": 80,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 10800,
+              "movie": "Jailer 2",
+              "screen": null,
+              "showid": "20121",
+              "tickets_sold": 72,
+              "time": "02:00 PM",
+              "venue": "Puthet Cinemas"
             },
             {
               "gross": 9900,
@@ -251,13 +327,22 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 10800,
+              "gross": 9150,
               "movie": "Jailer 2",
               "screen": null,
-              "showid": "20121",
-              "tickets_sold": 72,
-              "time": "02:00 PM",
+              "showid": "20123",
+              "tickets_sold": 61,
+              "time": "08:45 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 6900,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "4879",
+              "tickets_sold": 46,
+              "time": "09:00 PM",
+              "venue": "Fairyland Cinemas"
             },
             {
               "gross": 6150,
@@ -285,6 +370,15 @@
               "tickets_sold": 40,
               "time": "10:00 PM",
               "venue": "Girija Theatre"
+            },
+            {
+              "gross": 5400,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "4878",
+              "tickets_sold": 36,
+              "time": "05:30 PM",
+              "venue": "Fairyland Cinemas"
             },
             {
               "gross": 3900,
@@ -338,24 +432,6 @@
               "showid": "4877",
               "tickets_sold": 2,
               "time": "02:00 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 5400,
-              "movie": "Jailer 2",
-              "screen": "SCREEN 1",
-              "showid": "4878",
-              "tickets_sold": 36,
-              "time": "05:30 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 6900,
-              "movie": "Jailer 2",
-              "screen": "SCREEN 1",
-              "showid": "4879",
-              "tickets_sold": 46,
-              "time": "09:00 PM",
               "venue": "Fairyland Cinemas"
             }
           ],
@@ -628,123 +704,222 @@
       "tickets_sold": 654
     },
     "Jailer 2": {
-      "gross": 64950,
+      "gross": 147900,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 9150,
+              "gross": 14400,
               "movie": "Jailer 2",
               "screen": null,
               "showid": "20120",
-              "tickets_sold": 61,
+              "tickets_sold": 96,
               "time": "10:30 AM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 8700,
+              "gross": 13800,
               "movie": "Jailer 2",
               "screen": null,
               "showid": "20123",
-              "tickets_sold": 58,
+              "tickets_sold": 92,
               "time": "08:45 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 7650,
+              "gross": 13500,
               "movie": "JAILER 2",
               "screen": "Aiswarya",
               "showid": "9583",
-              "tickets_sold": 51,
+              "tickets_sold": 90,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 7500,
+              "gross": 13950,
               "movie": "Jailer 2",
               "screen": null,
               "showid": "20122",
-              "tickets_sold": 50,
+              "tickets_sold": 93,
               "time": "05:30 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 7350,
+              "gross": 14250,
               "movie": "Jailer 2",
               "screen": null,
               "showid": "20121",
-              "tickets_sold": 49,
+              "tickets_sold": 95,
               "time": "02:00 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 4350,
+              "gross": 7200,
               "movie": "JAILER 2",
               "screen": "Aiswarya",
               "showid": "9584",
-              "tickets_sold": 29,
+              "tickets_sold": 48,
               "time": "02:15 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 4050,
+              "gross": 10200,
               "movie": "JAILER 2",
               "screen": "Aiswarya",
               "showid": "9585",
-              "tickets_sold": 27,
+              "tickets_sold": 68,
               "time": "05:30 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 3900,
+              "gross": 7050,
               "movie": "JAILER 2",
               "screen": "Dolby Atmos",
               "showid": "6061",
-              "tickets_sold": 26,
+              "tickets_sold": 47,
               "time": "10:00 PM",
               "venue": "Girija Theatre"
             },
             {
-              "gross": 3600,
+              "gross": 6150,
               "movie": "JAILER 2",
               "screen": "Dolby Atmos",
               "showid": "6060",
-              "tickets_sold": 24,
+              "tickets_sold": 41,
               "time": "06:30 PM",
               "venue": "Girija Theatre"
             },
             {
-              "gross": 3450,
+              "gross": 6450,
               "movie": "JAILER 2",
               "screen": "Aiswarya",
               "showid": "9586",
-              "tickets_sold": 23,
+              "tickets_sold": 43,
               "time": "09:00 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 2700,
+              "gross": 6600,
               "movie": "JAILER 2",
               "screen": "Dolby Atmos",
               "showid": "6059",
-              "tickets_sold": 18,
+              "tickets_sold": 44,
               "time": "03:00 PM",
               "venue": "Girija Theatre"
             },
             {
-              "gross": 2550,
+              "gross": 3750,
               "movie": "JAILER 2",
               "screen": "Dolby Atmos",
               "showid": "6058",
-              "tickets_sold": 17,
+              "tickets_sold": 25,
               "time": "11:30 AM",
               "venue": "Girija Theatre"
+            },
+            {
+              "gross": 1500,
+              "movie": "Jailer 2",
+              "screen": null,
+              "showid": "20178",
+              "tickets_sold": 10,
+              "time": "10:00 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 450,
+              "movie": "Jailer 2",
+              "screen": null,
+              "showid": "20179",
+              "tickets_sold": 3,
+              "time": "01:15 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 750,
+              "movie": "Jailer 2",
+              "screen": null,
+              "showid": "20180",
+              "tickets_sold": 5,
+              "time": "04:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 1050,
+              "movie": "Jailer 2",
+              "screen": null,
+              "showid": "20181",
+              "tickets_sold": 7,
+              "time": "08:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 3450,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "4876",
+              "tickets_sold": 23,
+              "time": "10:30 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 2100,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "4877",
+              "tickets_sold": 14,
+              "time": "02:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 9900,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "4878",
+              "tickets_sold": 66,
+              "time": "05:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 9900,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "4879",
+              "tickets_sold": 66,
+              "time": "09:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 750,
+              "movie": "JAILER 2",
+              "screen": "Athulya",
+              "showid": "9692",
+              "tickets_sold": 5,
+              "time": "10:45 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 450,
+              "movie": "JAILER 2",
+              "screen": "Athulya",
+              "showid": "9693",
+              "tickets_sold": 3,
+              "time": "02:00 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "JAILER 2",
+              "screen": "Screen-3",
+              "showid": "9682",
+              "tickets_sold": 2,
+              "time": "07:00 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 64950,
-          "shows": 12,
-          "tickets_sold": 433
+          "gross": 147900,
+          "shows": 23,
+          "tickets_sold": 986
         },
         "without_gross": {
           "breakdown": [
@@ -756,120 +931,300 @@
               "tickets_sold": 0,
               "time": "11:55 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Jailer 2",
+              "screen": null,
+              "showid": "20182",
+              "tickets_sold": 0,
+              "time": "11:15 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "JAILER 2",
+              "screen": "Screen-1",
+              "showid": "9719",
+              "tickets_sold": 0,
+              "time": "01:45 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "JAILER 2",
+              "screen": "Athulya",
+              "showid": "9694",
+              "tickets_sold": 0,
+              "time": "05:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "JAILER 2",
+              "screen": "Screen-1",
+              "showid": "9670",
+              "tickets_sold": 0,
+              "time": "06:45 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "JAILER 2",
+              "screen": "Screen-2",
+              "showid": "9676",
+              "tickets_sold": 0,
+              "time": "07:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "JAILER 2",
+              "screen": "Athulya",
+              "showid": "9695",
+              "tickets_sold": 0,
+              "time": "08:45 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "JAILER 2",
+              "screen": "Screen-1",
+              "showid": "9671",
+              "tickets_sold": 0,
+              "time": "10:00 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "JAILER 2",
+              "screen": "Screen-3",
+              "showid": "9683",
+              "tickets_sold": 0,
+              "time": "10:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "JAILER 2",
+              "screen": "Screen-2",
+              "showid": "9677",
+              "tickets_sold": 0,
+              "time": "10:30 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 1,
+          "shows": 10,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 9150,
+          "gross": 14400,
           "movie": "Jailer 2",
           "screen": null,
           "showid": "20120",
-          "tickets_sold": 61,
+          "tickets_sold": 96,
           "time": "10:30 AM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 8700,
-          "movie": "Jailer 2",
-          "screen": null,
-          "showid": "20123",
-          "tickets_sold": 58,
-          "time": "08:45 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 7650,
-          "movie": "JAILER 2",
-          "screen": "Aiswarya",
-          "showid": "9583",
-          "tickets_sold": 51,
-          "time": "11:00 AM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 7500,
-          "movie": "Jailer 2",
-          "screen": null,
-          "showid": "20122",
-          "tickets_sold": 50,
-          "time": "05:30 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 7350,
+          "gross": 14250,
           "movie": "Jailer 2",
           "screen": null,
           "showid": "20121",
-          "tickets_sold": 49,
+          "tickets_sold": 95,
           "time": "02:00 PM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 4350,
+          "gross": 13950,
+          "movie": "Jailer 2",
+          "screen": null,
+          "showid": "20122",
+          "tickets_sold": 93,
+          "time": "05:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 13800,
+          "movie": "Jailer 2",
+          "screen": null,
+          "showid": "20123",
+          "tickets_sold": 92,
+          "time": "08:45 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 13500,
           "movie": "JAILER 2",
           "screen": "Aiswarya",
-          "showid": "9584",
-          "tickets_sold": 29,
-          "time": "02:15 PM",
+          "showid": "9583",
+          "tickets_sold": 90,
+          "time": "11:00 AM",
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 4050,
+          "gross": 10200,
           "movie": "JAILER 2",
           "screen": "Aiswarya",
           "showid": "9585",
-          "tickets_sold": 27,
+          "tickets_sold": 68,
           "time": "05:30 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 3900,
+          "gross": 9900,
+          "movie": "Jailer 2",
+          "screen": "SCREEN 1",
+          "showid": "4878",
+          "tickets_sold": 66,
+          "time": "05:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 9900,
+          "movie": "Jailer 2",
+          "screen": "SCREEN 1",
+          "showid": "4879",
+          "tickets_sold": 66,
+          "time": "09:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 7200,
+          "movie": "JAILER 2",
+          "screen": "Aiswarya",
+          "showid": "9584",
+          "tickets_sold": 48,
+          "time": "02:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 7050,
           "movie": "JAILER 2",
           "screen": "Dolby Atmos",
           "showid": "6061",
-          "tickets_sold": 26,
+          "tickets_sold": 47,
           "time": "10:00 PM",
           "venue": "Girija Theatre"
         },
         {
-          "gross": 3600,
-          "movie": "JAILER 2",
-          "screen": "Dolby Atmos",
-          "showid": "6060",
-          "tickets_sold": 24,
-          "time": "06:30 PM",
-          "venue": "Girija Theatre"
-        },
-        {
-          "gross": 3450,
-          "movie": "JAILER 2",
-          "screen": "Aiswarya",
-          "showid": "9586",
-          "tickets_sold": 23,
-          "time": "09:00 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 2700,
+          "gross": 6600,
           "movie": "JAILER 2",
           "screen": "Dolby Atmos",
           "showid": "6059",
-          "tickets_sold": 18,
+          "tickets_sold": 44,
           "time": "03:00 PM",
           "venue": "Girija Theatre"
         },
         {
-          "gross": 2550,
+          "gross": 6450,
+          "movie": "JAILER 2",
+          "screen": "Aiswarya",
+          "showid": "9586",
+          "tickets_sold": 43,
+          "time": "09:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 6150,
+          "movie": "JAILER 2",
+          "screen": "Dolby Atmos",
+          "showid": "6060",
+          "tickets_sold": 41,
+          "time": "06:30 PM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 3750,
           "movie": "JAILER 2",
           "screen": "Dolby Atmos",
           "showid": "6058",
-          "tickets_sold": 17,
+          "tickets_sold": 25,
           "time": "11:30 AM",
           "venue": "Girija Theatre"
+        },
+        {
+          "gross": 3450,
+          "movie": "Jailer 2",
+          "screen": "SCREEN 1",
+          "showid": "4876",
+          "tickets_sold": 23,
+          "time": "10:30 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 2100,
+          "movie": "Jailer 2",
+          "screen": "SCREEN 1",
+          "showid": "4877",
+          "tickets_sold": 14,
+          "time": "02:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 1500,
+          "movie": "Jailer 2",
+          "screen": null,
+          "showid": "20178",
+          "tickets_sold": 10,
+          "time": "10:00 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 1050,
+          "movie": "Jailer 2",
+          "screen": null,
+          "showid": "20181",
+          "tickets_sold": 7,
+          "time": "08:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 750,
+          "movie": "Jailer 2",
+          "screen": null,
+          "showid": "20180",
+          "tickets_sold": 5,
+          "time": "04:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 750,
+          "movie": "JAILER 2",
+          "screen": "Athulya",
+          "showid": "9692",
+          "tickets_sold": 5,
+          "time": "10:45 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 450,
+          "movie": "Jailer 2",
+          "screen": null,
+          "showid": "20179",
+          "tickets_sold": 3,
+          "time": "01:15 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 450,
+          "movie": "JAILER 2",
+          "screen": "Athulya",
+          "showid": "9693",
+          "tickets_sold": 3,
+          "time": "02:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "JAILER 2",
+          "screen": "Screen-3",
+          "showid": "9682",
+          "tickets_sold": 2,
+          "time": "07:00 PM",
+          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 0,
@@ -879,25 +1234,201 @@
           "tickets_sold": 0,
           "time": "11:55 PM",
           "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Jailer 2",
+          "screen": null,
+          "showid": "20182",
+          "tickets_sold": 0,
+          "time": "11:15 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "JAILER 2",
+          "screen": "Screen-1",
+          "showid": "9719",
+          "tickets_sold": 0,
+          "time": "01:45 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "JAILER 2",
+          "screen": "Athulya",
+          "showid": "9694",
+          "tickets_sold": 0,
+          "time": "05:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "JAILER 2",
+          "screen": "Screen-1",
+          "showid": "9670",
+          "tickets_sold": 0,
+          "time": "06:45 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "JAILER 2",
+          "screen": "Screen-2",
+          "showid": "9676",
+          "tickets_sold": 0,
+          "time": "07:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "JAILER 2",
+          "screen": "Athulya",
+          "showid": "9695",
+          "tickets_sold": 0,
+          "time": "08:45 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "JAILER 2",
+          "screen": "Screen-1",
+          "showid": "9671",
+          "tickets_sold": 0,
+          "time": "10:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "JAILER 2",
+          "screen": "Screen-3",
+          "showid": "9683",
+          "tickets_sold": 0,
+          "time": "10:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "JAILER 2",
+          "screen": "Screen-2",
+          "showid": "9677",
+          "tickets_sold": 0,
+          "time": "10:30 PM",
+          "venue": "Aiswarya Cinemas"
         }
       ],
-      "shows": 13,
-      "tickets_sold": 433
+      "shows": 33,
+      "tickets_sold": 986
+    },
+    "Jailer 2 - Tamil": {
+      "gross": 8550,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [
+            {
+              "gross": 1950,
+              "movie": "Jailer 2 - Tamil",
+              "screen": "Cinema-2",
+              "showid": "23288",
+              "tickets_sold": 13,
+              "time": "11:30 AM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 1800,
+              "movie": "Jailer 2 - Tamil",
+              "screen": "Cinema-2",
+              "showid": "23277",
+              "tickets_sold": 12,
+              "time": "02:45 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 1800,
+              "movie": "Jailer 2 - Tamil",
+              "screen": "Cinema-1",
+              "showid": "23266",
+              "tickets_sold": 12,
+              "time": "06:15 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 3000,
+              "movie": "Jailer 2 - Tamil",
+              "screen": "Cinema-1",
+              "showid": "23267",
+              "tickets_sold": 20,
+              "time": "09:45 PM",
+              "venue": "Davis Theatre"
+            }
+          ],
+          "gross": 8550,
+          "shows": 4,
+          "tickets_sold": 57
+        },
+        "without_gross": {
+          "breakdown": [],
+          "shows": 0,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 3000,
+          "movie": "Jailer 2 - Tamil",
+          "screen": "Cinema-1",
+          "showid": "23267",
+          "tickets_sold": 20,
+          "time": "09:45 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 1950,
+          "movie": "Jailer 2 - Tamil",
+          "screen": "Cinema-2",
+          "showid": "23288",
+          "tickets_sold": 13,
+          "time": "11:30 AM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 1800,
+          "movie": "Jailer 2 - Tamil",
+          "screen": "Cinema-2",
+          "showid": "23277",
+          "tickets_sold": 12,
+          "time": "02:45 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 1800,
+          "movie": "Jailer 2 - Tamil",
+          "screen": "Cinema-1",
+          "showid": "23266",
+          "tickets_sold": 12,
+          "time": "06:15 PM",
+          "venue": "Davis Theatre"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 57
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "Jailer 2 - Tamil"
+          "Baththa"
         ],
-        "canonical": "Jailer 2 - Tamil"
+        "canonical": "Baththa"
       },
       {
         "aliases": [
-          "Avaraachan and Sons"
+          "JAILER 2",
+          "Jailer 2"
         ],
-        "canonical": "Avaraachan and Sons"
+        "canonical": "Jailer 2"
       },
       {
         "aliases": [
@@ -907,16 +1438,15 @@
       },
       {
         "aliases": [
-          "JAILER 2",
-          "Jailer 2"
+          "Jailer 2 - Tamil"
         ],
-        "canonical": "JAILER 2"
+        "canonical": "Jailer 2 - Tamil"
       },
       {
         "aliases": [
-          "Baththa"
+          "Unknown"
         ],
-        "canonical": "Baththa"
+        "canonical": "Unknown"
       }
     ]
   }
