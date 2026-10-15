@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "last_updated": "2026-10-15T20:49:01.295560+05:30",
+  "last_updated": "2026-10-16T00:51:39.164908+05:30",
   "movies": {
     "JAILER 2": {
       "gross": 0,
@@ -97,14 +97,24 @@
       "tickets_sold": 0
     },
     "Jailer 2": {
-      "gross": 0,
+      "gross": 750,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 750,
+              "movie": "Jailer 2",
+              "screen": null,
+              "showid": "20196",
+              "tickets_sold": 5,
+              "time": "02:00 PM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "gross": 750,
+          "shows": 1,
+          "tickets_sold": 5
         },
         "without_gross": {
           "breakdown": [
@@ -115,15 +125,6 @@
               "showid": "20195",
               "tickets_sold": 0,
               "time": "10:30 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Jailer 2",
-              "screen": null,
-              "showid": "20196",
-              "tickets_sold": 0,
-              "time": "02:00 PM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -145,11 +146,20 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 4,
+          "shows": 3,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 750,
+          "movie": "Jailer 2",
+          "screen": null,
+          "showid": "20196",
+          "tickets_sold": 5,
+          "time": "02:00 PM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Jailer 2",
@@ -157,15 +167,6 @@
           "showid": "20195",
           "tickets_sold": 0,
           "time": "10:30 AM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Jailer 2",
-          "screen": null,
-          "showid": "20196",
-          "tickets_sold": 0,
-          "time": "02:00 PM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -188,7 +189,7 @@
         }
       ],
       "shows": 4,
-      "tickets_sold": 0
+      "tickets_sold": 5
     },
     "Jailer 2 - Tamil": {
       "gross": 7350,
@@ -289,15 +290,21 @@
     "merged_movies": [
       {
         "aliases": [
-          "Unknown"
+          "Avaraachan and Sons"
         ],
-        "canonical": "Unknown"
+        "canonical": "Avaraachan and Sons"
       },
       {
         "aliases": [
-          "Jailer 2 - Tamil"
+          "Avaraachan"
         ],
-        "canonical": "Jailer 2 - Tamil"
+        "canonical": "Avaraachan"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -310,13 +317,13 @@
           "JAILER 2",
           "Jailer 2"
         ],
-        "canonical": "JAILER 2"
+        "canonical": "Jailer 2"
       },
       {
         "aliases": [
-          "Avaraachan"
+          "Jailer 2 - Tamil"
         ],
-        "canonical": "Avaraachan"
+        "canonical": "Jailer 2 - Tamil"
       }
     ]
   }
