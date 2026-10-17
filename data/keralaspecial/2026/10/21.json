@@ -1,16 +1,26 @@
 {
   "date": "2026-10-21",
-  "last_updated": "2026-10-17T04:08:24.325352+05:30",
+  "last_updated": "2026-10-17T06:38:57.721893+05:30",
   "movies": {
     "JAILER 2": {
-      "gross": 0,
+      "gross": 750,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 750,
+              "movie": "Jailer 2",
+              "screen": null,
+              "showid": "20196",
+              "tickets_sold": 5,
+              "time": "02:00 PM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "gross": 750,
+          "shows": 1,
+          "tickets_sold": 5
         },
         "without_gross": {
           "breakdown": [
@@ -21,15 +31,6 @@
               "showid": "20195",
               "tickets_sold": 0,
               "time": "10:30 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Jailer 2",
-              "screen": null,
-              "showid": "20196",
-              "tickets_sold": 0,
-              "time": "02:00 PM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -49,13 +50,58 @@
               "tickets_sold": 0,
               "time": "08:45 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "JAILER 2",
+              "screen": "Dolby Atmos",
+              "showid": "6070",
+              "tickets_sold": 0,
+              "time": "11:30 AM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "JAILER 2",
+              "screen": "Dolby Atmos",
+              "showid": "6071",
+              "tickets_sold": 0,
+              "time": "03:00 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "JAILER 2",
+              "screen": "Dolby Atmos",
+              "showid": "6072",
+              "tickets_sold": 0,
+              "time": "06:30 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "JAILER 2",
+              "screen": "Dolby Atmos",
+              "showid": "6073",
+              "tickets_sold": 0,
+              "time": "10:00 PM",
+              "venue": "Girija Theatre"
             }
           ],
-          "shows": 4,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 750,
+          "movie": "Jailer 2",
+          "screen": null,
+          "showid": "20196",
+          "tickets_sold": 5,
+          "time": "02:00 PM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Jailer 2",
@@ -63,15 +109,6 @@
           "showid": "20195",
           "tickets_sold": 0,
           "time": "10:30 AM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Jailer 2",
-          "screen": null,
-          "showid": "20196",
-          "tickets_sold": 0,
-          "time": "02:00 PM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -91,10 +128,46 @@
           "tickets_sold": 0,
           "time": "08:45 PM",
           "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "JAILER 2",
+          "screen": "Dolby Atmos",
+          "showid": "6070",
+          "tickets_sold": 0,
+          "time": "11:30 AM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "JAILER 2",
+          "screen": "Dolby Atmos",
+          "showid": "6071",
+          "tickets_sold": 0,
+          "time": "03:00 PM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "JAILER 2",
+          "screen": "Dolby Atmos",
+          "showid": "6072",
+          "tickets_sold": 0,
+          "time": "06:30 PM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "JAILER 2",
+          "screen": "Dolby Atmos",
+          "showid": "6073",
+          "tickets_sold": 0,
+          "time": "10:00 PM",
+          "venue": "Girija Theatre"
         }
       ],
-      "shows": 4,
-      "tickets_sold": 0
+      "shows": 8,
+      "tickets_sold": 5
     },
     "Jailer 2": {
       "gross": 750,
@@ -362,15 +435,21 @@
     "merged_movies": [
       {
         "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
           "Avaraachan and Sons"
         ],
         "canonical": "Avaraachan and Sons"
+      },
+      {
+        "aliases": [
+          "Avaraachan"
+        ],
+        "canonical": "Avaraachan"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -383,25 +462,19 @@
           "JAILER 2",
           "Jailer 2"
         ],
-        "canonical": "Jailer 2"
-      },
-      {
-        "aliases": [
-          "Jailer 2 - Tamil"
-        ],
-        "canonical": "Jailer 2 - Tamil"
-      },
-      {
-        "aliases": [
-          "Avaraachan"
-        ],
-        "canonical": "Avaraachan"
+        "canonical": "JAILER 2"
       },
       {
         "aliases": [
           "Baththa"
         ],
         "canonical": "Baththa"
+      },
+      {
+        "aliases": [
+          "Jailer 2 - Tamil"
+        ],
+        "canonical": "Jailer 2 - Tamil"
       }
     ]
   }
