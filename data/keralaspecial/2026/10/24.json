@@ -1,8 +1,103 @@
 {
   "date": "2026-10-24",
-  "last_updated": "2026-10-19T22:38:35.653115+05:30",
+  "last_updated": "2026-10-20T03:13:50.524382+05:30",
   "movies": {
     "JAILER 2": {
+      "gross": 7200,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [
+            {
+              "gross": 3600,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "4942",
+              "tickets_sold": 24,
+              "time": "05:45 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 3600,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "4943",
+              "tickets_sold": 24,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "gross": 7200,
+          "shows": 2,
+          "tickets_sold": 48
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "4940",
+              "tickets_sold": 0,
+              "time": "10:30 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "4941",
+              "tickets_sold": 0,
+              "time": "02:00 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "shows": 2,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 3600,
+          "movie": "Jailer 2",
+          "screen": "SCREEN 1",
+          "showid": "4942",
+          "tickets_sold": 24,
+          "time": "05:45 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 3600,
+          "movie": "Jailer 2",
+          "screen": "SCREEN 1",
+          "showid": "4943",
+          "tickets_sold": 24,
+          "time": "09:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Jailer 2",
+          "screen": "SCREEN 1",
+          "showid": "4940",
+          "tickets_sold": 0,
+          "time": "10:30 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Jailer 2",
+          "screen": "SCREEN 1",
+          "showid": "4941",
+          "tickets_sold": 0,
+          "time": "02:00 PM",
+          "venue": "Fairyland Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 48
+    },
+    "Jailer 2": {
       "gross": 7200,
       "occupancy": null,
       "seats_type": {
@@ -197,12 +292,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "Avaraachan"
-        ],
-        "canonical": "Avaraachan"
-      },
-      {
-        "aliases": [
           "Titans"
         ],
         "canonical": "Titans"
@@ -215,22 +304,34 @@
       },
       {
         "aliases": [
-          "JAILER 2",
-          "Jailer 2"
+          "Avaraachan"
         ],
-        "canonical": "JAILER 2"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
+        "canonical": "Avaraachan"
       },
       {
         "aliases": [
           "Udumbanchola Vision"
         ],
         "canonical": "Udumbanchola Vision"
+      },
+      {
+        "aliases": [
+          "JAILER 2",
+          "Jailer 2"
+        ],
+        "canonical": "Jailer 2"
+      },
+      {
+        "aliases": [
+          "Baththa"
+        ],
+        "canonical": "Baththa"
+      },
+      {
+        "aliases": [
+          "Avaraachan and Sons"
+        ],
+        "canonical": "Avaraachan and Sons"
       }
     ]
   }
