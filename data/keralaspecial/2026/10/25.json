@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "last_updated": "2026-10-22T21:07:35.850122+05:30",
+  "last_updated": "2026-10-23T01:18:30.471644+05:30",
   "movies": {
     "Clayface": {
       "gross": 0,
@@ -31,9 +31,18 @@
               "tickets_sold": 0,
               "time": "02:30 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Clayface",
+              "screen": "SCREEN 4",
+              "showid": "4980",
+              "tickets_sold": 0,
+              "time": "06:15 PM",
+              "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 2,
+          "shows": 3,
           "tickets_sold": 0
         }
       },
@@ -55,9 +64,18 @@
           "tickets_sold": 0,
           "time": "02:30 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Clayface",
+          "screen": "SCREEN 4",
+          "showid": "4980",
+          "tickets_sold": 0,
+          "time": "06:15 PM",
+          "venue": "Fairyland Cinemas"
         }
       ],
-      "shows": 2,
+      "shows": 3,
       "tickets_sold": 0
     },
     "Haiku": {
@@ -152,6 +170,15 @@
               "venue": "Aiswarya Cinemas"
             },
             {
+              "gross": 1500,
+              "movie": "JAILER 2",
+              "screen": "Aiswarya",
+              "showid": "9785",
+              "tickets_sold": 10,
+              "time": "02:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
               "gross": 1350,
               "movie": "JAILER 2",
               "screen": "Dolby Atmos",
@@ -170,13 +197,13 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 1500,
+              "gross": 900,
               "movie": "JAILER 2",
-              "screen": "Aiswarya",
-              "showid": "9785",
-              "tickets_sold": 10,
-              "time": "02:15 PM",
-              "venue": "Aiswarya Cinemas"
+              "screen": "Dolby Atmos",
+              "showid": "6087",
+              "tickets_sold": 6,
+              "time": "03:00 PM",
+              "venue": "Girija Theatre"
             },
             {
               "gross": 750,
@@ -186,15 +213,6 @@
               "tickets_sold": 5,
               "time": "02:00 PM",
               "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 900,
-              "movie": "JAILER 2",
-              "screen": "Dolby Atmos",
-              "showid": "6087",
-              "tickets_sold": 6,
-              "time": "03:00 PM",
-              "venue": "Girija Theatre"
             }
           ],
           "gross": 15900,
@@ -394,7 +412,7 @@
       "tickets_sold": 106
     },
     "Jailer 2": {
-      "gross": 14400,
+      "gross": 16500,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -436,11 +454,11 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 1050,
+              "gross": 2100,
               "movie": "JAILER 2",
               "screen": "Aiswarya",
               "showid": "9785",
-              "tickets_sold": 7,
+              "tickets_sold": 14,
               "time": "02:15 PM",
               "venue": "Aiswarya Cinemas"
             },
@@ -454,27 +472,27 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 750,
+              "gross": 1350,
               "movie": "JAILER 2",
               "screen": "Dolby Atmos",
               "showid": "6086",
-              "tickets_sold": 5,
+              "tickets_sold": 9,
               "time": "11:30 AM",
               "venue": "Girija Theatre"
             },
             {
-              "gross": 450,
+              "gross": 900,
               "movie": "JAILER 2",
               "screen": "Dolby Atmos",
               "showid": "6087",
-              "tickets_sold": 3,
+              "tickets_sold": 6,
               "time": "03:00 PM",
               "venue": "Girija Theatre"
             }
           ],
-          "gross": 14400,
+          "gross": 16500,
           "shows": 8,
-          "tickets_sold": 96
+          "tickets_sold": 110
         },
         "without_gross": {
           "breakdown": [
@@ -566,6 +584,15 @@
           "venue": "Aiswarya Cinemas"
         },
         {
+          "gross": 2100,
+          "movie": "JAILER 2",
+          "screen": "Aiswarya",
+          "showid": "9785",
+          "tickets_sold": 14,
+          "time": "02:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
           "gross": 1350,
           "movie": "JAILER 2",
           "screen": "Dolby Atmos",
@@ -575,13 +602,22 @@
           "venue": "Girija Theatre"
         },
         {
-          "gross": 1050,
+          "gross": 1350,
           "movie": "JAILER 2",
-          "screen": "Aiswarya",
-          "showid": "9785",
-          "tickets_sold": 7,
-          "time": "02:15 PM",
-          "venue": "Aiswarya Cinemas"
+          "screen": "Dolby Atmos",
+          "showid": "6086",
+          "tickets_sold": 9,
+          "time": "11:30 AM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 900,
+          "movie": "JAILER 2",
+          "screen": "Dolby Atmos",
+          "showid": "6087",
+          "tickets_sold": 6,
+          "time": "03:00 PM",
+          "venue": "Girija Theatre"
         },
         {
           "gross": 750,
@@ -591,24 +627,6 @@
           "tickets_sold": 5,
           "time": "02:00 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 750,
-          "movie": "JAILER 2",
-          "screen": "Dolby Atmos",
-          "showid": "6086",
-          "tickets_sold": 5,
-          "time": "11:30 AM",
-          "venue": "Girija Theatre"
-        },
-        {
-          "gross": 450,
-          "movie": "JAILER 2",
-          "screen": "Dolby Atmos",
-          "showid": "6087",
-          "tickets_sold": 3,
-          "time": "03:00 PM",
-          "venue": "Girija Theatre"
         },
         {
           "gross": 0,
@@ -666,7 +684,7 @@
         }
       ],
       "shows": 14,
-      "tickets_sold": 96
+      "tickets_sold": 110
     },
     "Orijinal": {
       "gross": 0,
@@ -1024,28 +1042,10 @@
     "merged_movies": [
       {
         "aliases": [
-          "Udumbanchola Vision"
+          "Udumbanchola Vision",
+          "Udumbanchola Vision "
         ],
         "canonical": "Udumbanchola Vision"
-      },
-      {
-        "aliases": [
-          "JAILER 2",
-          "Jailer 2"
-        ],
-        "canonical": "JAILER 2"
-      },
-      {
-        "aliases": [
-          "Haiku"
-        ],
-        "canonical": "Haiku"
-      },
-      {
-        "aliases": [
-          "Orijinal"
-        ],
-        "canonical": "Orijinal"
       },
       {
         "aliases": [
@@ -1055,15 +1055,46 @@
       },
       {
         "aliases": [
+          "Titans (Malayalam)"
+        ],
+        "canonical": "Titans (Malayalam)"
+      },
+      {
+        "aliases": [
+          "Orijinal"
+        ],
+        "canonical": "Orijinal"
+      },
+      {
+        "aliases": [
+          "JAILER 2",
+          "Jailer 2"
+        ],
+        "canonical": "Jailer 2"
+      },
+      {
+        "aliases": [
           "Titans"
         ],
         "canonical": "Titans"
       },
       {
         "aliases": [
-          "Titans (Malayalam)"
+          "Haiku"
         ],
-        "canonical": "Titans (Malayalam)"
+        "canonical": "Haiku"
+      },
+      {
+        "aliases": [
+          "Orijinal (Malayalam)"
+        ],
+        "canonical": "Orijinal (Malayalam)"
+      },
+      {
+        "aliases": [
+          "Jailer 2 - Tamil"
+        ],
+        "canonical": "Jailer 2 - Tamil"
       }
     ]
   }
