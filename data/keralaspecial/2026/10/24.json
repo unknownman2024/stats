@@ -1,7 +1,123 @@
 {
   "date": "2026-10-24",
-  "last_updated": "2026-10-22T10:47:27.916816+05:30",
+  "last_updated": "2026-10-22T16:04:32.280138+05:30",
   "movies": {
+    "Clayface": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Clayface",
+              "screen": "SCREEN 4",
+              "showid": "4974",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Clayface",
+              "screen": "SCREEN 4",
+              "showid": "4975",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "shows": 2,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Clayface",
+          "screen": "SCREEN 4",
+          "showid": "4974",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Clayface",
+          "screen": "SCREEN 4",
+          "showid": "4975",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Fairyland Cinemas"
+        }
+      ],
+      "shows": 2,
+      "tickets_sold": 0
+    },
+    "Haiku": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Haiku",
+              "screen": "Screen-1",
+              "showid": "9822",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Haiku",
+              "screen": "Screen-1",
+              "showid": "9823",
+              "tickets_sold": 0,
+              "time": "02:00 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "shows": 2,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Haiku",
+          "screen": "Screen-1",
+          "showid": "9822",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Haiku",
+          "screen": "Screen-1",
+          "showid": "9823",
+          "tickets_sold": 0,
+          "time": "02:00 PM",
+          "venue": "Aiswarya Cinemas"
+        }
+      ],
+      "shows": 2,
+      "tickets_sold": 0
+    },
     "JAILER 2": {
       "gross": 15900,
       "occupancy": null,
@@ -27,21 +143,21 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 1800,
-              "movie": "JAILER 2",
-              "screen": "Dolby Atmos",
-              "showid": "6084",
-              "tickets_sold": 12,
-              "time": "06:30 PM",
-              "venue": "Girija Theatre"
-            },
-            {
               "gross": 2400,
               "movie": "JAILER 2",
               "screen": "Dolby Atmos",
               "showid": "6085",
               "tickets_sold": 16,
               "time": "10:00 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 1800,
+              "movie": "JAILER 2",
+              "screen": "Dolby Atmos",
+              "showid": "6084",
+              "tickets_sold": 12,
+              "time": "06:30 PM",
               "venue": "Girija Theatre"
             },
             {
@@ -242,26 +358,26 @@
       "tickets_sold": 106
     },
     "Jailer 2": {
-      "gross": 10350,
+      "gross": 18450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 4200,
+              "gross": 4950,
               "movie": "Jailer 2",
               "screen": "SCREEN 1",
               "showid": "4943",
-              "tickets_sold": 28,
+              "tickets_sold": 33,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 3600,
+              "gross": 3900,
               "movie": "Jailer 2",
               "screen": "SCREEN 1",
               "showid": "4942",
-              "tickets_sold": 24,
+              "tickets_sold": 26,
               "time": "05:45 PM",
               "venue": "Fairyland Cinemas"
             },
@@ -275,11 +391,11 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 750,
+              "gross": 1800,
               "movie": "JAILER 2",
               "screen": "Aiswarya",
               "showid": "9783",
-              "tickets_sold": 5,
+              "tickets_sold": 12,
               "time": "09:00 PM",
               "venue": "Aiswarya Cinemas"
             },
@@ -302,18 +418,36 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 150,
+              "gross": 2400,
               "movie": "JAILER 2",
               "screen": "Dolby Atmos",
               "showid": "6085",
-              "tickets_sold": 1,
+              "tickets_sold": 16,
               "time": "10:00 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 1950,
+              "movie": "JAILER 2",
+              "screen": "Aiswarya",
+              "showid": "9782",
+              "tickets_sold": 13,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 1800,
+              "movie": "JAILER 2",
+              "screen": "Dolby Atmos",
+              "showid": "6084",
+              "tickets_sold": 12,
+              "time": "06:30 PM",
               "venue": "Girija Theatre"
             }
           ],
-          "gross": 10350,
-          "shows": 7,
-          "tickets_sold": 69
+          "gross": 18450,
+          "shows": 9,
+          "tickets_sold": 123
         },
         "without_gross": {
           "breakdown": [
@@ -338,15 +472,6 @@
             {
               "gross": 0,
               "movie": "JAILER 2",
-              "screen": "Aiswarya",
-              "showid": "9782",
-              "tickets_sold": 0,
-              "time": "05:30 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "JAILER 2",
               "screen": "Dolby Atmos",
               "showid": "6083",
               "tickets_sold": 0,
@@ -356,11 +481,20 @@
             {
               "gross": 0,
               "movie": "JAILER 2",
-              "screen": "Dolby Atmos",
-              "showid": "6084",
+              "screen": "Screen-1",
+              "showid": "9824",
               "tickets_sold": 0,
-              "time": "06:30 PM",
-              "venue": "Girija Theatre"
+              "time": "06:45 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "JAILER 2",
+              "screen": "Screen-1",
+              "showid": "9825",
+              "tickets_sold": 0,
+              "time": "10:00 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
           "shows": 5,
@@ -369,22 +503,58 @@
       },
       "show_breakdown": [
         {
-          "gross": 4200,
+          "gross": 4950,
           "movie": "Jailer 2",
           "screen": "SCREEN 1",
           "showid": "4943",
-          "tickets_sold": 28,
+          "tickets_sold": 33,
           "time": "09:30 PM",
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 3600,
+          "gross": 3900,
           "movie": "Jailer 2",
           "screen": "SCREEN 1",
           "showid": "4942",
-          "tickets_sold": 24,
+          "tickets_sold": 26,
           "time": "05:45 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 2400,
+          "movie": "JAILER 2",
+          "screen": "Dolby Atmos",
+          "showid": "6085",
+          "tickets_sold": 16,
+          "time": "10:00 PM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 1950,
+          "movie": "JAILER 2",
+          "screen": "Aiswarya",
+          "showid": "9782",
+          "tickets_sold": 13,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 1800,
+          "movie": "JAILER 2",
+          "screen": "Aiswarya",
+          "showid": "9783",
+          "tickets_sold": 12,
+          "time": "09:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 1800,
+          "movie": "JAILER 2",
+          "screen": "Dolby Atmos",
+          "showid": "6084",
+          "tickets_sold": 12,
+          "time": "06:30 PM",
+          "venue": "Girija Theatre"
         },
         {
           "gross": 750,
@@ -393,15 +563,6 @@
           "showid": "9780",
           "tickets_sold": 5,
           "time": "11:00 AM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 750,
-          "movie": "JAILER 2",
-          "screen": "Aiswarya",
-          "showid": "9783",
-          "tickets_sold": 5,
-          "time": "09:00 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -421,15 +582,6 @@
           "tickets_sold": 2,
           "time": "02:00 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 150,
-          "movie": "JAILER 2",
-          "screen": "Dolby Atmos",
-          "showid": "6085",
-          "tickets_sold": 1,
-          "time": "10:00 PM",
-          "venue": "Girija Theatre"
         },
         {
           "gross": 0,
@@ -452,15 +604,6 @@
         {
           "gross": 0,
           "movie": "JAILER 2",
-          "screen": "Aiswarya",
-          "showid": "9782",
-          "tickets_sold": 0,
-          "time": "05:30 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "JAILER 2",
           "screen": "Dolby Atmos",
           "showid": "6083",
           "tickets_sold": 0,
@@ -470,15 +613,190 @@
         {
           "gross": 0,
           "movie": "JAILER 2",
-          "screen": "Dolby Atmos",
-          "showid": "6084",
+          "screen": "Screen-1",
+          "showid": "9824",
           "tickets_sold": 0,
-          "time": "06:30 PM",
-          "venue": "Girija Theatre"
+          "time": "06:45 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "JAILER 2",
+          "screen": "Screen-1",
+          "showid": "9825",
+          "tickets_sold": 0,
+          "time": "10:00 PM",
+          "venue": "Aiswarya Cinemas"
         }
       ],
-      "shows": 12,
-      "tickets_sold": 69
+      "shows": 14,
+      "tickets_sold": 123
+    },
+    "Orijinal": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Orijinal",
+              "screen": "SCREEN 2",
+              "showid": "4964",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Orijinal",
+              "screen": "SCREEN 2",
+              "showid": "4965",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Orijinal",
+              "screen": "SCREEN 2",
+              "showid": "4966",
+              "tickets_sold": 0,
+              "time": "06:15 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Orijinal",
+              "screen": "SCREEN 2",
+              "showid": "4967",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Orijinal",
+              "screen": "Screen-3",
+              "showid": "9870",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Orijinal",
+              "screen": "Screen-3",
+              "showid": "9871",
+              "tickets_sold": 0,
+              "time": "01:45 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Orijinal",
+              "screen": "Screen-3",
+              "showid": "9872",
+              "tickets_sold": 0,
+              "time": "07:40 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Orijinal",
+              "screen": "Screen-3",
+              "showid": "9873",
+              "tickets_sold": 0,
+              "time": "10:15 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "shows": 8,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Orijinal",
+          "screen": "SCREEN 2",
+          "showid": "4964",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Orijinal",
+          "screen": "SCREEN 2",
+          "showid": "4965",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Orijinal",
+          "screen": "SCREEN 2",
+          "showid": "4966",
+          "tickets_sold": 0,
+          "time": "06:15 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Orijinal",
+          "screen": "SCREEN 2",
+          "showid": "4967",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Orijinal",
+          "screen": "Screen-3",
+          "showid": "9870",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Orijinal",
+          "screen": "Screen-3",
+          "showid": "9871",
+          "tickets_sold": 0,
+          "time": "01:45 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Orijinal",
+          "screen": "Screen-3",
+          "showid": "9872",
+          "tickets_sold": 0,
+          "time": "07:40 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Orijinal",
+          "screen": "Screen-3",
+          "showid": "9873",
+          "tickets_sold": 0,
+          "time": "10:15 PM",
+          "venue": "Aiswarya Cinemas"
+        }
+      ],
+      "shows": 8,
+      "tickets_sold": 0
     },
     "Titans": {
       "gross": 7800,
@@ -528,9 +846,54 @@
               "tickets_sold": 0,
               "time": "02:30 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Titans",
+              "screen": "Screen-2",
+              "showid": "9808",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Titans",
+              "screen": "Screen-2",
+              "showid": "9809",
+              "tickets_sold": 0,
+              "time": "01:45 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Titans",
+              "screen": "Screen-2",
+              "showid": "9810",
+              "tickets_sold": 0,
+              "time": "04:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Titans",
+              "screen": "Screen-2",
+              "showid": "9811",
+              "tickets_sold": 0,
+              "time": "07:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Titans",
+              "screen": "Screen-2",
+              "showid": "9812",
+              "tickets_sold": 0,
+              "time": "10:00 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 2,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
@@ -570,9 +933,54 @@
           "tickets_sold": 0,
           "time": "02:30 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Titans",
+          "screen": "Screen-2",
+          "showid": "9808",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Titans",
+          "screen": "Screen-2",
+          "showid": "9809",
+          "tickets_sold": 0,
+          "time": "01:45 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Titans",
+          "screen": "Screen-2",
+          "showid": "9810",
+          "tickets_sold": 0,
+          "time": "04:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Titans",
+          "screen": "Screen-2",
+          "showid": "9811",
+          "tickets_sold": 0,
+          "time": "07:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Titans",
+          "screen": "Screen-2",
+          "showid": "9812",
+          "tickets_sold": 0,
+          "time": "10:00 PM",
+          "venue": "Aiswarya Cinemas"
         }
       ],
-      "shows": 4,
+      "shows": 9,
       "tickets_sold": 52
     }
   },
@@ -580,34 +988,22 @@
     "merged_movies": [
       {
         "aliases": [
-          "Baththa"
+          "Haiku"
         ],
-        "canonical": "Baththa"
-      },
-      {
-        "aliases": [
-          "Jailer 2 - Tamil"
-        ],
-        "canonical": "Jailer 2 - Tamil"
-      },
-      {
-        "aliases": [
-          "Titans"
-        ],
-        "canonical": "Titans"
-      },
-      {
-        "aliases": [
-          "Titans (Malayalam)"
-        ],
-        "canonical": "Titans (Malayalam)"
+        "canonical": "Haiku"
       },
       {
         "aliases": [
           "JAILER 2",
           "Jailer 2"
         ],
-        "canonical": "JAILER 2"
+        "canonical": "Jailer 2"
+      },
+      {
+        "aliases": [
+          "Clayface"
+        ],
+        "canonical": "Clayface"
       },
       {
         "aliases": [
@@ -617,15 +1013,33 @@
       },
       {
         "aliases": [
+          "Titans"
+        ],
+        "canonical": "Titans"
+      },
+      {
+        "aliases": [
+          "Jailer 2 - Tamil"
+        ],
+        "canonical": "Jailer 2 - Tamil"
+      },
+      {
+        "aliases": [
+          "Orijinal"
+        ],
+        "canonical": "Orijinal"
+      },
+      {
+        "aliases": [
           "Udumbanchola Vision"
         ],
         "canonical": "Udumbanchola Vision"
       },
       {
         "aliases": [
-          "Avaraachan"
+          "Titans (Malayalam)"
         ],
-        "canonical": "Avaraachan"
+        "canonical": "Titans (Malayalam)"
       }
     ]
   }
