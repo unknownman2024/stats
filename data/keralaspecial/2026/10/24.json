@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "last_updated": "2026-10-23T07:21:40.138971+05:30",
+  "last_updated": "2026-10-23T12:36:44.787508+05:30",
   "movies": {
     "Clayface": {
       "gross": 0,
@@ -412,17 +412,17 @@
       "tickets_sold": 170
     },
     "Jailer 2": {
-      "gross": 28200,
+      "gross": 32100,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 4950,
+              "gross": 5550,
               "movie": "Jailer 2",
               "screen": "SCREEN 1",
               "showid": "4943",
-              "tickets_sold": 33,
+              "tickets_sold": 37,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
             },
@@ -436,11 +436,11 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 3900,
+              "gross": 5700,
               "movie": "JAILER 2",
               "screen": "Aiswarya",
               "showid": "9783",
-              "tickets_sold": 26,
+              "tickets_sold": 38,
               "time": "09:00 PM",
               "venue": "Aiswarya Cinemas"
             },
@@ -472,6 +472,15 @@
               "venue": "Aiswarya Cinemas"
             },
             {
+              "gross": 1650,
+              "movie": "JAILER 2",
+              "screen": "Screen-1",
+              "showid": "9824",
+              "tickets_sold": 11,
+              "time": "06:45 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
               "gross": 1350,
               "movie": "JAILER 2",
               "screen": "Aiswarya",
@@ -490,30 +499,12 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 1350,
+              "gross": 2850,
               "movie": "JAILER 2",
               "screen": "Aiswarya",
               "showid": "9781",
-              "tickets_sold": 9,
+              "tickets_sold": 19,
               "time": "02:15 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 600,
-              "movie": "JAILER 2",
-              "screen": "Dolby Atmos",
-              "showid": "6082",
-              "tickets_sold": 4,
-              "time": "11:30 AM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 1650,
-              "movie": "JAILER 2",
-              "screen": "Screen-1",
-              "showid": "9824",
-              "tickets_sold": 11,
-              "time": "06:45 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -524,11 +515,20 @@
               "tickets_sold": 5,
               "time": "03:00 PM",
               "venue": "Girija Theatre"
+            },
+            {
+              "gross": 600,
+              "movie": "JAILER 2",
+              "screen": "Dolby Atmos",
+              "showid": "6082",
+              "tickets_sold": 4,
+              "time": "11:30 AM",
+              "venue": "Girija Theatre"
             }
           ],
-          "gross": 28200,
+          "gross": 32100,
           "shows": 12,
-          "tickets_sold": 188
+          "tickets_sold": 214
         },
         "without_gross": {
           "breakdown": [
@@ -557,11 +557,20 @@
       },
       "show_breakdown": [
         {
-          "gross": 4950,
+          "gross": 5700,
+          "movie": "JAILER 2",
+          "screen": "Aiswarya",
+          "showid": "9783",
+          "tickets_sold": 38,
+          "time": "09:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 5550,
           "movie": "Jailer 2",
           "screen": "SCREEN 1",
           "showid": "4943",
-          "tickets_sold": 33,
+          "tickets_sold": 37,
           "time": "09:30 PM",
           "venue": "Fairyland Cinemas"
         },
@@ -575,15 +584,6 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 3900,
-          "movie": "JAILER 2",
-          "screen": "Aiswarya",
-          "showid": "9783",
-          "tickets_sold": 26,
-          "time": "09:00 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
           "gross": 3150,
           "movie": "JAILER 2",
           "screen": "Dolby Atmos",
@@ -591,6 +591,15 @@
           "tickets_sold": 21,
           "time": "10:00 PM",
           "venue": "Girija Theatre"
+        },
+        {
+          "gross": 2850,
+          "movie": "JAILER 2",
+          "screen": "Aiswarya",
+          "showid": "9781",
+          "tickets_sold": 19,
+          "time": "02:15 PM",
+          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 2400,
@@ -638,15 +647,6 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 1350,
-          "movie": "JAILER 2",
-          "screen": "Aiswarya",
-          "showid": "9781",
-          "tickets_sold": 9,
-          "time": "02:15 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
           "gross": 750,
           "movie": "JAILER 2",
           "screen": "Dolby Atmos",
@@ -684,7 +684,7 @@
         }
       ],
       "shows": 14,
-      "tickets_sold": 188
+      "tickets_sold": 214
     },
     "Orijinal": {
       "gross": 0,
@@ -1042,24 +1042,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "Titans (Malayalam)"
-        ],
-        "canonical": "Titans (Malayalam)"
-      },
-      {
-        "aliases": [
-          "Titans"
-        ],
-        "canonical": "Titans"
-      },
-      {
-        "aliases": [
-          "Orijinal"
-        ],
-        "canonical": "Orijinal"
-      },
-      {
-        "aliases": [
           "Udumbanchola Vision",
           "Udumbanchola Vision "
         ],
@@ -1073,13 +1055,6 @@
       },
       {
         "aliases": [
-          "JAILER 2",
-          "Jailer 2"
-        ],
-        "canonical": "Jailer 2"
-      },
-      {
-        "aliases": [
           "Clayface"
         ],
         "canonical": "Clayface"
@@ -1089,6 +1064,31 @@
           "Jailer 2 - Tamil"
         ],
         "canonical": "Jailer 2 - Tamil"
+      },
+      {
+        "aliases": [
+          "Titans (Malayalam)"
+        ],
+        "canonical": "Titans (Malayalam)"
+      },
+      {
+        "aliases": [
+          "Orijinal"
+        ],
+        "canonical": "Orijinal"
+      },
+      {
+        "aliases": [
+          "Titans"
+        ],
+        "canonical": "Titans"
+      },
+      {
+        "aliases": [
+          "JAILER 2",
+          "Jailer 2"
+        ],
+        "canonical": "Jailer 2"
       },
       {
         "aliases": [
