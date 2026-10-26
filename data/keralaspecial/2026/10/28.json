@@ -1,9 +1,9 @@
 {
   "date": "2026-10-28",
-  "last_updated": "2026-10-26T19:28:39.597066+05:30",
+  "last_updated": "2026-10-27T01:21:05.039887+05:30",
   "movies": {
     "JAILER 2": {
-      "gross": 750,
+      "gross": 1050,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -16,11 +16,20 @@
               "tickets_sold": 5,
               "time": "11:00 AM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "JAILER 2",
+              "screen": "Aiswarya",
+              "showid": "9902",
+              "tickets_sold": 2,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 750,
-          "shows": 1,
-          "tickets_sold": 5
+          "gross": 1050,
+          "shows": 2,
+          "tickets_sold": 7
         },
         "without_gross": {
           "breakdown": [
@@ -82,15 +91,6 @@
               "gross": 0,
               "movie": "JAILER 2",
               "screen": "Aiswarya",
-              "showid": "9902",
-              "tickets_sold": 0,
-              "time": "05:30 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "JAILER 2",
-              "screen": "Aiswarya",
               "showid": "9903",
               "tickets_sold": 0,
               "time": "08:45 PM",
@@ -122,9 +122,27 @@
               "tickets_sold": 0,
               "time": "09:30 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "JAILER 2",
+              "screen": "Screen-1",
+              "showid": "9936",
+              "tickets_sold": 0,
+              "time": "07:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "JAILER 2",
+              "screen": "Screen-3",
+              "showid": "9938",
+              "tickets_sold": 0,
+              "time": "10:00 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 11,
+          "shows": 12,
           "tickets_sold": 0
         }
       },
@@ -137,6 +155,15 @@
           "tickets_sold": 5,
           "time": "11:00 AM",
           "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "JAILER 2",
+          "screen": "Aiswarya",
+          "showid": "9902",
+          "tickets_sold": 2,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 0,
@@ -196,15 +223,6 @@
           "gross": 0,
           "movie": "JAILER 2",
           "screen": "Aiswarya",
-          "showid": "9902",
-          "tickets_sold": 0,
-          "time": "05:30 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "JAILER 2",
-          "screen": "Aiswarya",
           "showid": "9903",
           "tickets_sold": 0,
           "time": "08:45 PM",
@@ -236,10 +254,28 @@
           "tickets_sold": 0,
           "time": "09:30 PM",
           "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "JAILER 2",
+          "screen": "Screen-1",
+          "showid": "9936",
+          "tickets_sold": 0,
+          "time": "07:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "JAILER 2",
+          "screen": "Screen-3",
+          "showid": "9938",
+          "tickets_sold": 0,
+          "time": "10:00 PM",
+          "venue": "Aiswarya Cinemas"
         }
       ],
-      "shows": 12,
-      "tickets_sold": 5
+      "shows": 14,
+      "tickets_sold": 7
     },
     "Jailer 2": {
       "gross": 0,
@@ -654,39 +690,9 @@
     "merged_movies": [
       {
         "aliases": [
-          "Orijinal (Malayalam)"
-        ],
-        "canonical": "Orijinal (Malayalam)"
-      },
-      {
-        "aliases": [
           "Titans"
         ],
         "canonical": "Titans"
-      },
-      {
-        "aliases": [
-          "Udumbanchola Vision"
-        ],
-        "canonical": "Udumbanchola Vision"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Orijinal"
-        ],
-        "canonical": "Orijinal"
-      },
-      {
-        "aliases": [
-          "Titans (Malayalam)"
-        ],
-        "canonical": "Titans (Malayalam)"
       },
       {
         "aliases": [
@@ -696,10 +702,40 @@
       },
       {
         "aliases": [
+          "Udumbanchola Vision"
+        ],
+        "canonical": "Udumbanchola Vision"
+      },
+      {
+        "aliases": [
           "JAILER 2",
           "Jailer 2"
         ],
         "canonical": "JAILER 2"
+      },
+      {
+        "aliases": [
+          "Clayface"
+        ],
+        "canonical": "Clayface"
+      },
+      {
+        "aliases": [
+          "Titans (Malayalam)"
+        ],
+        "canonical": "Titans (Malayalam)"
+      },
+      {
+        "aliases": [
+          "Orijinal (Malayalam)"
+        ],
+        "canonical": "Orijinal (Malayalam)"
+      },
+      {
+        "aliases": [
+          "Orijinal"
+        ],
+        "canonical": "Orijinal"
       }
     ]
   }
