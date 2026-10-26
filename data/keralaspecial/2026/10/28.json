@@ -1,16 +1,26 @@
 {
   "date": "2026-10-28",
-  "last_updated": "2026-10-26T12:23:29.745905+05:30",
+  "last_updated": "2026-10-26T19:28:39.597066+05:30",
   "movies": {
     "JAILER 2": {
-      "gross": 0,
+      "gross": 750,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 750,
+              "movie": "Jailer 2",
+              "screen": null,
+              "showid": "20299",
+              "tickets_sold": 5,
+              "time": "11:00 AM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "gross": 750,
+          "shows": 1,
+          "tickets_sold": 5
         },
         "without_gross": {
           "breakdown": [
@@ -90,15 +100,6 @@
               "gross": 0,
               "movie": "Jailer 2",
               "screen": null,
-              "showid": "20299",
-              "tickets_sold": 0,
-              "time": "11:00 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Jailer 2",
-              "screen": null,
               "showid": "20300",
               "tickets_sold": 0,
               "time": "02:30 PM",
@@ -123,11 +124,20 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 12,
+          "shows": 11,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 750,
+          "movie": "Jailer 2",
+          "screen": null,
+          "showid": "20299",
+          "tickets_sold": 5,
+          "time": "11:00 AM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Jailer 2",
@@ -204,15 +214,6 @@
           "gross": 0,
           "movie": "Jailer 2",
           "screen": null,
-          "showid": "20299",
-          "tickets_sold": 0,
-          "time": "11:00 AM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Jailer 2",
-          "screen": null,
           "showid": "20300",
           "tickets_sold": 0,
           "time": "02:30 PM",
@@ -238,7 +239,7 @@
         }
       ],
       "shows": 12,
-      "tickets_sold": 0
+      "tickets_sold": 5
     },
     "Jailer 2": {
       "gross": 0,
@@ -478,6 +479,100 @@
       "shows": 12,
       "tickets_sold": 0
     },
+    "Orijinal": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Orijinal",
+              "screen": "SCREEN 2",
+              "showid": "5005",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Orijinal",
+              "screen": "SCREEN 2",
+              "showid": "5006",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Orijinal",
+              "screen": "SCREEN 2",
+              "showid": "5007",
+              "tickets_sold": 0,
+              "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Orijinal",
+              "screen": "SCREEN 2",
+              "showid": "5008",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "shows": 4,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Orijinal",
+          "screen": "SCREEN 2",
+          "showid": "5005",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Orijinal",
+          "screen": "SCREEN 2",
+          "showid": "5006",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Orijinal",
+          "screen": "SCREEN 2",
+          "showid": "5007",
+          "tickets_sold": 0,
+          "time": "06:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Orijinal",
+          "screen": "SCREEN 2",
+          "showid": "5008",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Fairyland Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 0
+    },
     "Titans": {
       "gross": 0,
       "occupancy": null,
@@ -559,16 +654,9 @@
     "merged_movies": [
       {
         "aliases": [
-          "JAILER 2",
-          "Jailer 2"
+          "Orijinal (Malayalam)"
         ],
-        "canonical": "JAILER 2"
-      },
-      {
-        "aliases": [
-          "Jailer 2 - Tamil"
-        ],
-        "canonical": "Jailer 2 - Tamil"
+        "canonical": "Orijinal (Malayalam)"
       },
       {
         "aliases": [
@@ -578,15 +666,15 @@
       },
       {
         "aliases": [
-          "Titans (Malayalam)"
-        ],
-        "canonical": "Titans (Malayalam)"
-      },
-      {
-        "aliases": [
           "Udumbanchola Vision"
         ],
         "canonical": "Udumbanchola Vision"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -596,9 +684,22 @@
       },
       {
         "aliases": [
-          "Orijinal (Malayalam)"
+          "Titans (Malayalam)"
         ],
-        "canonical": "Orijinal (Malayalam)"
+        "canonical": "Titans (Malayalam)"
+      },
+      {
+        "aliases": [
+          "Jailer 2 - Tamil"
+        ],
+        "canonical": "Jailer 2 - Tamil"
+      },
+      {
+        "aliases": [
+          "JAILER 2",
+          "Jailer 2"
+        ],
+        "canonical": "JAILER 2"
       }
     ]
   }
