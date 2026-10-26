@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "last_updated": "2026-10-26T06:32:03.115149+05:30",
+  "last_updated": "2026-10-26T12:23:29.744522+05:30",
   "movies": {
     "JAILER 2": {
       "gross": 7500,
@@ -623,34 +623,86 @@
       ],
       "shows": 16,
       "tickets_sold": 50
+    },
+    "Titans": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Titans",
+              "screen": "Screen-2",
+              "showid": "9925",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Titans",
+              "screen": "Screen-2",
+              "showid": "9926",
+              "tickets_sold": 0,
+              "time": "02:00 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Titans",
+              "screen": "Screen-2",
+              "showid": "9927",
+              "tickets_sold": 0,
+              "time": "07:00 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "shows": 3,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Titans",
+          "screen": "Screen-2",
+          "showid": "9925",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Titans",
+          "screen": "Screen-2",
+          "showid": "9926",
+          "tickets_sold": 0,
+          "time": "02:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Titans",
+          "screen": "Screen-2",
+          "showid": "9927",
+          "tickets_sold": 0,
+          "time": "07:00 PM",
+          "venue": "Aiswarya Cinemas"
+        }
+      ],
+      "shows": 3,
+      "tickets_sold": 0
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "Clayface"
-        ],
-        "canonical": "Clayface"
-      },
-      {
-        "aliases": [
-          "Udumbanchola Vision"
-        ],
-        "canonical": "Udumbanchola Vision"
-      },
-      {
-        "aliases": [
-          "Titans"
-        ],
-        "canonical": "Titans"
-      },
-      {
-        "aliases": [
-          "Jailer 2 - Tamil"
-        ],
-        "canonical": "Jailer 2 - Tamil"
-      },
       {
         "aliases": [
           "JAILER 2",
@@ -660,21 +712,39 @@
       },
       {
         "aliases": [
+          "Jailer 2 - Tamil"
+        ],
+        "canonical": "Jailer 2 - Tamil"
+      },
+      {
+        "aliases": [
+          "Titans"
+        ],
+        "canonical": "Titans"
+      },
+      {
+        "aliases": [
           "Titans (Malayalam)"
         ],
         "canonical": "Titans (Malayalam)"
       },
       {
         "aliases": [
-          "Orijinal (Malayalam)"
+          "Udumbanchola Vision"
         ],
-        "canonical": "Orijinal (Malayalam)"
+        "canonical": "Udumbanchola Vision"
       },
       {
         "aliases": [
           "Orijinal"
         ],
         "canonical": "Orijinal"
+      },
+      {
+        "aliases": [
+          "Orijinal (Malayalam)"
+        ],
+        "canonical": "Orijinal (Malayalam)"
       }
     ]
   }
