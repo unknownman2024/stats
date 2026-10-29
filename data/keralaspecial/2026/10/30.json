@@ -1,16 +1,26 @@
 {
   "date": "2026-10-30",
-  "last_updated": "2026-10-29T20:59:48.153382+05:30",
+  "last_updated": "2026-10-30T02:00:44.406375+05:30",
   "movies": {
     "418": {
-      "gross": 0,
+      "gross": 300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 300,
+              "movie": "418",
+              "screen": "SARITHA",
+              "showid": "21327",
+              "tickets_sold": 2,
+              "time": "02:30 PM",
+              "venue": "SFC"
+            }
+          ],
+          "gross": 300,
+          "shows": 1,
+          "tickets_sold": 2
         },
         "without_gross": {
           "breakdown": [
@@ -76,13 +86,49 @@
               "tickets_sold": 0,
               "time": "09:15 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "418",
+              "screen": "SARITHA",
+              "showid": "21329",
+              "tickets_sold": 0,
+              "time": "08:30 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 0,
+              "movie": "418",
+              "screen": "SCREEN 2",
+              "showid": "7538",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Issacs"
+            },
+            {
+              "gross": 0,
+              "movie": "418",
+              "screen": "SCREEN 2",
+              "showid": "7539",
+              "tickets_sold": 0,
+              "time": "07:15 PM",
+              "venue": "Issacs"
             }
           ],
-          "shows": 7,
+          "shows": 10,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 300,
+          "movie": "418",
+          "screen": "SARITHA",
+          "showid": "21327",
+          "tickets_sold": 2,
+          "time": "02:30 PM",
+          "venue": "SFC"
+        },
         {
           "gross": 0,
           "movie": "418",
@@ -145,10 +191,37 @@
           "tickets_sold": 0,
           "time": "09:15 PM",
           "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "418",
+          "screen": "SARITHA",
+          "showid": "21329",
+          "tickets_sold": 0,
+          "time": "08:30 PM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 0,
+          "movie": "418",
+          "screen": "SCREEN 2",
+          "showid": "7538",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Issacs"
+        },
+        {
+          "gross": 0,
+          "movie": "418",
+          "screen": "SCREEN 2",
+          "showid": "7539",
+          "tickets_sold": 0,
+          "time": "07:15 PM",
+          "venue": "Issacs"
         }
       ],
-      "shows": 7,
-      "tickets_sold": 0
+      "shows": 11,
+      "tickets_sold": 2
     },
     "418 - The Nightmare Begins": {
       "gross": 450,
@@ -246,38 +319,11 @@
       "tickets_sold": 3
     },
     "JAILER 2": {
-      "gross": 2550,
+      "gross": 17850,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
-            {
-              "gross": 450,
-              "movie": "JAILER 2",
-              "screen": "Aiswarya",
-              "showid": "9952",
-              "tickets_sold": 3,
-              "time": "02:15 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 300,
-              "movie": "JAILER 2",
-              "screen": "Aiswarya",
-              "showid": "9951",
-              "tickets_sold": 2,
-              "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 150,
-              "movie": "JAILER 2",
-              "screen": "Dolby Atmos",
-              "showid": "6107",
-              "tickets_sold": 1,
-              "time": "03:00 PM",
-              "venue": "Girija Theatre"
-            },
             {
               "gross": 600,
               "movie": "JAILER 2",
@@ -290,11 +336,29 @@
             {
               "gross": 450,
               "movie": "JAILER 2",
+              "screen": "Aiswarya",
+              "showid": "9952",
+              "tickets_sold": 3,
+              "time": "02:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 450,
+              "movie": "JAILER 2",
               "screen": "Dolby Atmos",
               "showid": "6109",
               "tickets_sold": 3,
               "time": "09:30 PM",
               "venue": "Girija Theatre"
+            },
+            {
+              "gross": 300,
+              "movie": "JAILER 2",
+              "screen": "Aiswarya",
+              "showid": "9951",
+              "tickets_sold": 2,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
             },
             {
               "gross": 300,
@@ -306,18 +370,117 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 300,
+              "gross": 750,
               "movie": "Jailer 2",
               "screen": null,
               "showid": "20340",
-              "tickets_sold": 2,
+              "tickets_sold": 5,
               "time": "09:30 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 150,
+              "movie": "JAILER 2",
+              "screen": "Dolby Atmos",
+              "showid": "6107",
+              "tickets_sold": 1,
+              "time": "03:00 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 600,
+              "movie": "Jailer 2",
+              "screen": "SAVITHA",
+              "showid": "21322",
+              "tickets_sold": 4,
+              "time": "11:15 AM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 750,
+              "movie": "Jailer 2",
+              "screen": "SAVITHA",
+              "showid": "21324",
+              "tickets_sold": 5,
+              "time": "05:45 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 1350,
+              "movie": "Jailer 2",
+              "screen": "SAVITHA",
+              "showid": "21325",
+              "tickets_sold": 9,
+              "time": "09:00 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 300,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "11019",
+              "tickets_sold": 2,
+              "time": "06:15 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 750,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "9779",
+              "tickets_sold": 5,
+              "time": "11:30 AM",
+              "venue": "Jose"
+            },
+            {
+              "gross": 600,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "9780",
+              "tickets_sold": 4,
+              "time": "02:30 PM",
+              "venue": "Jose"
+            },
+            {
+              "gross": 300,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "9782",
+              "tickets_sold": 2,
+              "time": "09:00 PM",
+              "venue": "Jose"
+            },
+            {
+              "gross": 1200,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 2",
+              "showid": "9527",
+              "tickets_sold": 8,
+              "time": "01:30 PM",
+              "venue": "Sandhya"
+            },
+            {
+              "gross": 300,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 2",
+              "showid": "9528",
+              "tickets_sold": 2,
+              "time": "04:30 PM",
+              "venue": "Sandhya"
+            },
+            {
+              "gross": 8700,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "9529",
+              "tickets_sold": 58,
+              "time": "07:00 PM",
+              "venue": "Sandhya"
             }
           ],
-          "gross": 2550,
-          "shows": 7,
-          "tickets_sold": 17
+          "gross": 17850,
+          "shows": 17,
+          "tickets_sold": 119
         },
         "without_gross": {
           "breakdown": [
@@ -401,13 +564,121 @@
               "tickets_sold": 0,
               "time": "02:30 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Jailer 2",
+              "screen": "SAVITHA",
+              "showid": "21323",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 0,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "11016",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 0,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "11020",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 0,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "7536",
+              "tickets_sold": 0,
+              "time": "02:15 PM",
+              "venue": "Issacs"
+            },
+            {
+              "gross": 0,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "7537",
+              "tickets_sold": 0,
+              "time": "07:00 PM",
+              "venue": "Issacs"
+            },
+            {
+              "gross": 0,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "9781",
+              "tickets_sold": 0,
+              "time": "06:00 PM",
+              "venue": "Jose"
             }
           ],
-          "shows": 9,
+          "shows": 15,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 8700,
+          "movie": "Jailer 2",
+          "screen": "SCREEN 1",
+          "showid": "9529",
+          "tickets_sold": 58,
+          "time": "07:00 PM",
+          "venue": "Sandhya"
+        },
+        {
+          "gross": 1350,
+          "movie": "Jailer 2",
+          "screen": "SAVITHA",
+          "showid": "21325",
+          "tickets_sold": 9,
+          "time": "09:00 PM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 1200,
+          "movie": "Jailer 2",
+          "screen": "SCREEN 2",
+          "showid": "9527",
+          "tickets_sold": 8,
+          "time": "01:30 PM",
+          "venue": "Sandhya"
+        },
+        {
+          "gross": 750,
+          "movie": "Jailer 2",
+          "screen": null,
+          "showid": "20340",
+          "tickets_sold": 5,
+          "time": "09:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 750,
+          "movie": "Jailer 2",
+          "screen": "SAVITHA",
+          "showid": "21324",
+          "tickets_sold": 5,
+          "time": "05:45 PM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 750,
+          "movie": "Jailer 2",
+          "screen": "SCREEN 1",
+          "showid": "9779",
+          "tickets_sold": 5,
+          "time": "11:30 AM",
+          "venue": "Jose"
+        },
         {
           "gross": 600,
           "movie": "JAILER 2",
@@ -416,6 +687,24 @@
           "tickets_sold": 4,
           "time": "06:30 PM",
           "venue": "Girija Theatre"
+        },
+        {
+          "gross": 600,
+          "movie": "Jailer 2",
+          "screen": "SAVITHA",
+          "showid": "21322",
+          "tickets_sold": 4,
+          "time": "11:15 AM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 600,
+          "movie": "Jailer 2",
+          "screen": "SCREEN 1",
+          "showid": "9780",
+          "tickets_sold": 4,
+          "time": "02:30 PM",
+          "venue": "Jose"
         },
         {
           "gross": 450,
@@ -456,11 +745,29 @@
         {
           "gross": 300,
           "movie": "Jailer 2",
-          "screen": null,
-          "showid": "20340",
+          "screen": "SCREEN 1",
+          "showid": "11019",
           "tickets_sold": 2,
-          "time": "09:30 PM",
-          "venue": "Puthet Cinemas"
+          "time": "06:15 PM",
+          "venue": "Harihar"
+        },
+        {
+          "gross": 300,
+          "movie": "Jailer 2",
+          "screen": "SCREEN 1",
+          "showid": "9782",
+          "tickets_sold": 2,
+          "time": "09:00 PM",
+          "venue": "Jose"
+        },
+        {
+          "gross": 300,
+          "movie": "Jailer 2",
+          "screen": "SCREEN 2",
+          "showid": "9528",
+          "tickets_sold": 2,
+          "time": "04:30 PM",
+          "venue": "Sandhya"
         },
         {
           "gross": 150,
@@ -551,10 +858,64 @@
           "tickets_sold": 0,
           "time": "02:30 PM",
           "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Jailer 2",
+          "screen": "SAVITHA",
+          "showid": "21323",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 0,
+          "movie": "Jailer 2",
+          "screen": "SCREEN 1",
+          "showid": "11016",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Harihar"
+        },
+        {
+          "gross": 0,
+          "movie": "Jailer 2",
+          "screen": "SCREEN 1",
+          "showid": "11020",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Harihar"
+        },
+        {
+          "gross": 0,
+          "movie": "Jailer 2",
+          "screen": "SCREEN 1",
+          "showid": "7536",
+          "tickets_sold": 0,
+          "time": "02:15 PM",
+          "venue": "Issacs"
+        },
+        {
+          "gross": 0,
+          "movie": "Jailer 2",
+          "screen": "SCREEN 1",
+          "showid": "7537",
+          "tickets_sold": 0,
+          "time": "07:00 PM",
+          "venue": "Issacs"
+        },
+        {
+          "gross": 0,
+          "movie": "Jailer 2",
+          "screen": "SCREEN 1",
+          "showid": "9781",
+          "tickets_sold": 0,
+          "time": "06:00 PM",
+          "venue": "Jose"
         }
       ],
-      "shows": 16,
-      "tickets_sold": 17
+      "shows": 32,
+      "tickets_sold": 119
     },
     "Jailer 2": {
       "gross": 0,
@@ -794,6 +1155,83 @@
       "shows": 12,
       "tickets_sold": 0
     },
+    "Jailer 2 - Tamil": {
+      "gross": 300,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [
+            {
+              "gross": 300,
+              "movie": "Jailer 2 - Tamil",
+              "screen": "Cinema-3",
+              "showid": "23398",
+              "tickets_sold": 2,
+              "time": "09:30 PM",
+              "venue": "Davis Theatre"
+            }
+          ],
+          "gross": 300,
+          "shows": 1,
+          "tickets_sold": 2
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Jailer 2 - Tamil",
+              "screen": "Cinema-3",
+              "showid": "23396",
+              "tickets_sold": 0,
+              "time": "03:00 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Jailer 2 - Tamil",
+              "screen": "Cinema-3",
+              "showid": "23397",
+              "tickets_sold": 0,
+              "time": "06:15 PM",
+              "venue": "Davis Theatre"
+            }
+          ],
+          "shows": 2,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 300,
+          "movie": "Jailer 2 - Tamil",
+          "screen": "Cinema-3",
+          "showid": "23398",
+          "tickets_sold": 2,
+          "time": "09:30 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Jailer 2 - Tamil",
+          "screen": "Cinema-3",
+          "showid": "23396",
+          "tickets_sold": 0,
+          "time": "03:00 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Jailer 2 - Tamil",
+          "screen": "Cinema-3",
+          "showid": "23397",
+          "tickets_sold": 0,
+          "time": "06:15 PM",
+          "venue": "Davis Theatre"
+        }
+      ],
+      "shows": 3,
+      "tickets_sold": 2
+    },
     "Samarasa": {
       "gross": 0,
       "occupancy": null,
@@ -890,9 +1328,27 @@
               "tickets_sold": 0,
               "time": "09:00 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Spring",
+              "screen": "SARITHA",
+              "showid": "21326",
+              "tickets_sold": 0,
+              "time": "11:30 AM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 0,
+              "movie": "Spring",
+              "screen": "SARITHA",
+              "showid": "21328",
+              "tickets_sold": 0,
+              "time": "05:30 PM",
+              "venue": "SFC"
             }
           ],
-          "shows": 3,
+          "shows": 5,
           "tickets_sold": 0
         }
       },
@@ -923,20 +1379,48 @@
           "tickets_sold": 0,
           "time": "09:00 PM",
           "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Spring",
+          "screen": "SARITHA",
+          "showid": "21326",
+          "tickets_sold": 0,
+          "time": "11:30 AM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 0,
+          "movie": "Spring",
+          "screen": "SARITHA",
+          "showid": "21328",
+          "tickets_sold": 0,
+          "time": "05:30 PM",
+          "venue": "SFC"
         }
       ],
-      "shows": 3,
+      "shows": 5,
       "tickets_sold": 0
     },
     "Titans": {
-      "gross": 0,
+      "gross": 1050,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 1050,
+              "movie": "Titans",
+              "screen": "SAMUDRA",
+              "showid": "21331",
+              "tickets_sold": 7,
+              "time": "08:30 PM",
+              "venue": "SFC"
+            }
+          ],
+          "gross": 1050,
+          "shows": 1,
+          "tickets_sold": 7
         },
         "without_gross": {
           "breakdown": [
@@ -948,13 +1432,49 @@
               "tickets_sold": 0,
               "time": "06:30 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Titans",
+              "screen": "SAMUDRA",
+              "showid": "21330",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 0,
+              "movie": "Titans",
+              "screen": "SCREEN 3",
+              "showid": "11017",
+              "tickets_sold": 0,
+              "time": "06:30 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 0,
+              "movie": "Titans",
+              "screen": "SCREEN 3",
+              "showid": "11018",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Harihar"
             }
           ],
-          "shows": 1,
+          "shows": 4,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1050,
+          "movie": "Titans",
+          "screen": "SAMUDRA",
+          "showid": "21331",
+          "tickets_sold": 7,
+          "time": "08:30 PM",
+          "venue": "SFC"
+        },
         {
           "gross": 0,
           "movie": "Titans",
@@ -963,66 +1483,86 @@
           "tickets_sold": 0,
           "time": "06:30 PM",
           "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Titans",
+          "screen": "SAMUDRA",
+          "showid": "21330",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 0,
+          "movie": "Titans",
+          "screen": "SCREEN 3",
+          "showid": "11017",
+          "tickets_sold": 0,
+          "time": "06:30 PM",
+          "venue": "Harihar"
+        },
+        {
+          "gross": 0,
+          "movie": "Titans",
+          "screen": "SCREEN 3",
+          "showid": "11018",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Harihar"
         }
       ],
-      "shows": 1,
-      "tickets_sold": 0
+      "shows": 5,
+      "tickets_sold": 7
     },
     "Udhayamkaathu": {
-      "gross": 0,
+      "gross": 900,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
-        },
-        "without_gross": {
           "breakdown": [
             {
-              "gross": 0,
+              "gross": 900,
               "movie": "Udhayamkaathu",
               "screen": null,
               "showid": "20348",
-              "tickets_sold": 0,
+              "tickets_sold": 6,
               "time": "03:00 PM",
               "venue": "Puthet Cinemas"
             }
           ],
+          "gross": 900,
           "shows": 1,
+          "tickets_sold": 6
+        },
+        "without_gross": {
+          "breakdown": [],
+          "shows": 0,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 0,
+          "gross": 900,
           "movie": "Udhayamkaathu",
           "screen": null,
           "showid": "20348",
-          "tickets_sold": 0,
+          "tickets_sold": 6,
           "time": "03:00 PM",
           "venue": "Puthet Cinemas"
         }
       ],
       "shows": 1,
-      "tickets_sold": 0
+      "tickets_sold": 6
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "JAILER 2",
-          "Jailer 2"
+          "Spring"
         ],
-        "canonical": "JAILER 2"
-      },
-      {
-        "aliases": [
-          "Jailer 2 - Tamil"
-        ],
-        "canonical": "Jailer 2 - Tamil"
+        "canonical": "Spring"
       },
       {
         "aliases": [
@@ -1032,9 +1572,22 @@
       },
       {
         "aliases": [
-          "Udhayamkaathu"
+          "418 - The Nightmare Begins"
         ],
-        "canonical": "Udhayamkaathu"
+        "canonical": "418 - The Nightmare Begins"
+      },
+      {
+        "aliases": [
+          "Jailer 2 - Tamil"
+        ],
+        "canonical": "Jailer 2 - Tamil"
+      },
+      {
+        "aliases": [
+          "JAILER 2",
+          "Jailer 2"
+        ],
+        "canonical": "JAILER 2"
       },
       {
         "aliases": [
@@ -1044,27 +1597,15 @@
       },
       {
         "aliases": [
-          "Spring"
-        ],
-        "canonical": "Spring"
-      },
-      {
-        "aliases": [
-          "Titans (Malayalam)"
-        ],
-        "canonical": "Titans (Malayalam)"
-      },
-      {
-        "aliases": [
           "Titans"
         ],
         "canonical": "Titans"
       },
       {
         "aliases": [
-          "418 - The Nightmare Begins"
+          "Udhayamkaathu"
         ],
-        "canonical": "418 - The Nightmare Begins"
+        "canonical": "Udhayamkaathu"
       }
     ]
   }

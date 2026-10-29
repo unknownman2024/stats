@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "last_updated": "2026-10-29T20:59:48.154506+05:30",
+  "last_updated": "2026-10-30T02:00:44.408413+05:30",
   "movies": {
     "418": {
       "gross": 0,
@@ -191,24 +191,24 @@
       "tickets_sold": 0
     },
     "JAILER 2": {
-      "gross": 450,
+      "gross": 750,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 450,
+              "gross": 750,
               "movie": "JAILER 2",
               "screen": "Dolby Atmos",
               "showid": "6112",
-              "tickets_sold": 3,
+              "tickets_sold": 5,
               "time": "06:30 PM",
               "venue": "Girija Theatre"
             }
           ],
-          "gross": 450,
+          "gross": 750,
           "shows": 1,
-          "tickets_sold": 3
+          "tickets_sold": 5
         },
         "without_gross": {
           "breakdown": [
@@ -354,11 +354,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 450,
+          "gross": 750,
           "movie": "JAILER 2",
           "screen": "Dolby Atmos",
           "showid": "6112",
-          "tickets_sold": 3,
+          "tickets_sold": 5,
           "time": "06:30 PM",
           "venue": "Girija Theatre"
         },
@@ -499,7 +499,7 @@
         }
       ],
       "shows": 16,
-      "tickets_sold": 3
+      "tickets_sold": 5
     },
     "Jailer 2": {
       "gross": 0,
@@ -667,6 +667,82 @@
       "shows": 8,
       "tickets_sold": 0
     },
+    "Jailer 2 - Tamil": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Jailer 2 - Tamil",
+              "screen": "Cinema-3",
+              "showid": "23399",
+              "tickets_sold": 0,
+              "time": "03:00 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Jailer 2 - Tamil",
+              "screen": "Cinema-3",
+              "showid": "23400",
+              "tickets_sold": 0,
+              "time": "06:15 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Jailer 2 - Tamil",
+              "screen": "Cinema-3",
+              "showid": "23401",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Davis Theatre"
+            }
+          ],
+          "shows": 3,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Jailer 2 - Tamil",
+          "screen": "Cinema-3",
+          "showid": "23399",
+          "tickets_sold": 0,
+          "time": "03:00 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Jailer 2 - Tamil",
+          "screen": "Cinema-3",
+          "showid": "23400",
+          "tickets_sold": 0,
+          "time": "06:15 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Jailer 2 - Tamil",
+          "screen": "Cinema-3",
+          "showid": "23401",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Davis Theatre"
+        }
+      ],
+      "shows": 3,
+      "tickets_sold": 0
+    },
     "Samarasa": {
       "gross": 0,
       "occupancy": null,
@@ -730,16 +806,9 @@
     "merged_movies": [
       {
         "aliases": [
-          "JAILER 2",
-          "Jailer 2"
+          "Spring"
         ],
-        "canonical": "JAILER 2"
-      },
-      {
-        "aliases": [
-          "Jailer 2 - Tamil"
-        ],
-        "canonical": "Jailer 2 - Tamil"
+        "canonical": "Spring"
       },
       {
         "aliases": [
@@ -749,9 +818,22 @@
       },
       {
         "aliases": [
-          "Udhayamkaathu"
+          "418 - The Nightmare Begins"
         ],
-        "canonical": "Udhayamkaathu"
+        "canonical": "418 - The Nightmare Begins"
+      },
+      {
+        "aliases": [
+          "Jailer 2 - Tamil"
+        ],
+        "canonical": "Jailer 2 - Tamil"
+      },
+      {
+        "aliases": [
+          "JAILER 2",
+          "Jailer 2"
+        ],
+        "canonical": "JAILER 2"
       },
       {
         "aliases": [
@@ -761,27 +843,15 @@
       },
       {
         "aliases": [
-          "Spring"
-        ],
-        "canonical": "Spring"
-      },
-      {
-        "aliases": [
-          "Titans (Malayalam)"
-        ],
-        "canonical": "Titans (Malayalam)"
-      },
-      {
-        "aliases": [
           "Titans"
         ],
         "canonical": "Titans"
       },
       {
         "aliases": [
-          "418 - The Nightmare Begins"
+          "Udhayamkaathu"
         ],
-        "canonical": "418 - The Nightmare Begins"
+        "canonical": "Udhayamkaathu"
       }
     ]
   }
