@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "last_updated": "2026-10-31T20:39:28.147943+05:30",
+  "last_updated": "2026-11-01T01:00:46.419125+05:30",
   "movies": {
     "418": {
       "gross": 0,
@@ -285,14 +285,24 @@
       "tickets_sold": 0
     },
     "Samarasa": {
-      "gross": 0,
+      "gross": 1200,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 1200,
+              "movie": "Samarasa",
+              "screen": "SCREEN 2",
+              "showid": "5046",
+              "tickets_sold": 8,
+              "time": "06:15 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "gross": 1200,
+          "shows": 1,
+          "tickets_sold": 8
         },
         "without_gross": {
           "breakdown": [
@@ -304,22 +314,22 @@
               "tickets_sold": 0,
               "time": "02:30 PM",
               "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Samarasa",
-              "screen": "SCREEN 2",
-              "showid": "5046",
-              "tickets_sold": 0,
-              "time": "06:15 PM",
-              "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 2,
+          "shows": 1,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1200,
+          "movie": "Samarasa",
+          "screen": "SCREEN 2",
+          "showid": "5046",
+          "tickets_sold": 8,
+          "time": "06:15 PM",
+          "venue": "Fairyland Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Samarasa",
@@ -328,30 +338,14 @@
           "tickets_sold": 0,
           "time": "02:30 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Samarasa",
-          "screen": "SCREEN 2",
-          "showid": "5046",
-          "tickets_sold": 0,
-          "time": "06:15 PM",
-          "venue": "Fairyland Cinemas"
         }
       ],
       "shows": 2,
-      "tickets_sold": 0
+      "tickets_sold": 8
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "JAILER 2",
-          "Jailer 2"
-        ],
-        "canonical": "JAILER 2"
-      },
       {
         "aliases": [
           "418 - The Nightmare Begins"
@@ -372,9 +366,10 @@
       },
       {
         "aliases": [
-          "418"
+          "JAILER 2",
+          "Jailer 2"
         ],
-        "canonical": "418"
+        "canonical": "JAILER 2"
       },
       {
         "aliases": [
@@ -387,6 +382,12 @@
           "Samarasa"
         ],
         "canonical": "Samarasa"
+      },
+      {
+        "aliases": [
+          "418"
+        ],
+        "canonical": "418"
       },
       {
         "aliases": [
