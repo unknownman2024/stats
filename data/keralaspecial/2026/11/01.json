@@ -1,6 +1,6 @@
 {
   "date": "2026-11-01",
-  "last_updated": "2026-10-31T04:19:47.359414+05:30",
+  "last_updated": "2026-10-31T07:35:37.491320+05:30",
   "movies": {
     "418": {
       "gross": 0,
@@ -263,7 +263,7 @@
       "tickets_sold": 0
     },
     "JAILER 2": {
-      "gross": 9750,
+      "gross": 10650,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -330,23 +330,32 @@
               "tickets_sold": 1,
               "time": "11:00 AM",
               "venue": "Puthet Cinemas"
-            }
-          ],
-          "gross": 9750,
-          "shows": 7,
-          "tickets_sold": 65
-        },
-        "without_gross": {
-          "breakdown": [
+            },
             {
-              "gross": 0,
+              "gross": 450,
               "movie": "JAILER 2",
               "screen": "Aiswarya",
               "showid": "9959",
-              "tickets_sold": 0,
+              "tickets_sold": 3,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
             },
+            {
+              "gross": 450,
+              "movie": "JAILER 2",
+              "screen": "Dolby Atmos",
+              "showid": "6119",
+              "tickets_sold": 3,
+              "time": "03:00 PM",
+              "venue": "Girija Theatre"
+            }
+          ],
+          "gross": 10650,
+          "shows": 9,
+          "tickets_sold": 71
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "JAILER 2",
@@ -372,15 +381,6 @@
               "showid": "6118",
               "tickets_sold": 0,
               "time": "12:00 PM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 0,
-              "movie": "JAILER 2",
-              "screen": "Dolby Atmos",
-              "showid": "6119",
-              "tickets_sold": 0,
-              "time": "03:00 PM",
               "venue": "Girija Theatre"
             },
             {
@@ -420,7 +420,7 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 9,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
@@ -451,6 +451,24 @@
           "tickets_sold": 3,
           "time": "02:15 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 450,
+          "movie": "JAILER 2",
+          "screen": "Aiswarya",
+          "showid": "9959",
+          "tickets_sold": 3,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 450,
+          "movie": "JAILER 2",
+          "screen": "Dolby Atmos",
+          "showid": "6119",
+          "tickets_sold": 3,
+          "time": "03:00 PM",
+          "venue": "Girija Theatre"
         },
         {
           "gross": 300,
@@ -492,15 +510,6 @@
           "gross": 0,
           "movie": "JAILER 2",
           "screen": "Aiswarya",
-          "showid": "9959",
-          "tickets_sold": 0,
-          "time": "11:00 AM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "JAILER 2",
-          "screen": "Aiswarya",
           "showid": "9960",
           "tickets_sold": 0,
           "time": "02:15 PM",
@@ -522,15 +531,6 @@
           "showid": "6118",
           "tickets_sold": 0,
           "time": "12:00 PM",
-          "venue": "Girija Theatre"
-        },
-        {
-          "gross": 0,
-          "movie": "JAILER 2",
-          "screen": "Dolby Atmos",
-          "showid": "6119",
-          "tickets_sold": 0,
-          "time": "03:00 PM",
           "venue": "Girija Theatre"
         },
         {
@@ -571,7 +571,7 @@
         }
       ],
       "shows": 16,
-      "tickets_sold": 65
+      "tickets_sold": 71
     },
     "Jailer 2": {
       "gross": 10650,
@@ -1023,21 +1023,10 @@
     "merged_movies": [
       {
         "aliases": [
-          "Udhayamkaathu"
+          "JAILER 2",
+          "Jailer 2"
         ],
-        "canonical": "Udhayamkaathu"
-      },
-      {
-        "aliases": [
-          "Spring"
-        ],
-        "canonical": "Spring"
-      },
-      {
-        "aliases": [
-          "Jailer 2 - Tamil"
-        ],
-        "canonical": "Jailer 2 - Tamil"
+        "canonical": "JAILER 2"
       },
       {
         "aliases": [
@@ -1047,16 +1036,15 @@
       },
       {
         "aliases": [
-          "Samarasa"
+          "Spring"
         ],
-        "canonical": "Samarasa"
+        "canonical": "Spring"
       },
       {
         "aliases": [
-          "JAILER 2",
-          "Jailer 2"
+          "Samarasa"
         ],
-        "canonical": "Jailer 2"
+        "canonical": "Samarasa"
       },
       {
         "aliases": [
@@ -1066,9 +1054,21 @@
       },
       {
         "aliases": [
+          "Jailer 2 - Tamil"
+        ],
+        "canonical": "Jailer 2 - Tamil"
+      },
+      {
+        "aliases": [
           "418"
         ],
         "canonical": "418"
+      },
+      {
+        "aliases": [
+          "Udhayamkaathu"
+        ],
+        "canonical": "Udhayamkaathu"
       }
     ]
   }
