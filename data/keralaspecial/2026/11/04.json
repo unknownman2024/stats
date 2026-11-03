@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "last_updated": "2026-11-03T09:10:55.859158+05:30",
+  "last_updated": "2026-11-03T17:12:05.632523+05:30",
   "movies": {
     "418": {
       "gross": 0,
@@ -49,9 +49,18 @@
               "tickets_sold": 0,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "418",
+              "screen": null,
+              "showid": "20393",
+              "tickets_sold": 0,
+              "time": "02:45 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 4,
+          "shows": 5,
           "tickets_sold": 0
         }
       },
@@ -91,9 +100,18 @@
           "tickets_sold": 0,
           "time": "09:30 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "418",
+          "screen": null,
+          "showid": "20393",
+          "tickets_sold": 0,
+          "time": "02:45 PM",
+          "venue": "Puthet Cinemas"
         }
       ],
-      "shows": 4,
+      "shows": 5,
       "tickets_sold": 0
     },
     "JAILER 2": {
@@ -263,14 +281,24 @@
       "tickets_sold": 0
     },
     "Jailer 2": {
-      "gross": 0,
+      "gross": 300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 300,
+              "movie": "Jailer 2",
+              "screen": null,
+              "showid": "20395",
+              "tickets_sold": 2,
+              "time": "11:00 AM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "gross": 300,
+          "shows": 1,
+          "tickets_sold": 2
         },
         "without_gross": {
           "breakdown": [
@@ -345,13 +373,49 @@
               "tickets_sold": 0,
               "time": "08:45 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Jailer 2",
+              "screen": null,
+              "showid": "20396",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Jailer 2",
+              "screen": null,
+              "showid": "20397",
+              "tickets_sold": 0,
+              "time": "06:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Jailer 2",
+              "screen": null,
+              "showid": "20398",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 11,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 300,
+          "movie": "Jailer 2",
+          "screen": null,
+          "showid": "20395",
+          "tickets_sold": 2,
+          "time": "11:00 AM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Jailer 2",
@@ -423,9 +487,76 @@
           "tickets_sold": 0,
           "time": "08:45 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Jailer 2",
+          "screen": null,
+          "showid": "20396",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Jailer 2",
+          "screen": null,
+          "showid": "20397",
+          "tickets_sold": 0,
+          "time": "06:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Jailer 2",
+          "screen": null,
+          "showid": "20398",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Puthet Cinemas"
         }
       ],
-      "shows": 8,
+      "shows": 12,
+      "tickets_sold": 2
+    },
+    "Titans": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Titans",
+              "screen": null,
+              "showid": "20394",
+              "tickets_sold": 0,
+              "time": "06:30 PM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "shows": 1,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Titans",
+          "screen": null,
+          "showid": "20394",
+          "tickets_sold": 0,
+          "time": "06:30 PM",
+          "venue": "Puthet Cinemas"
+        }
+      ],
+      "shows": 1,
       "tickets_sold": 0
     }
   },
@@ -433,9 +564,22 @@
     "merged_movies": [
       {
         "aliases": [
-          "Ramayana (Hindi)"
+          "JAILER 2",
+          "Jailer 2"
         ],
-        "canonical": "Ramayana (Hindi)"
+        "canonical": "Jailer 2"
+      },
+      {
+        "aliases": [
+          "Titans"
+        ],
+        "canonical": "Titans"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -445,34 +589,33 @@
       },
       {
         "aliases": [
-          "418"
-        ],
-        "canonical": "418"
-      },
-      {
-        "aliases": [
-          "JAILER 2",
-          "Jailer 2"
-        ],
-        "canonical": "JAILER 2"
-      },
-      {
-        "aliases": [
-          "418 - The Nightmare Begins"
-        ],
-        "canonical": "418 - The Nightmare Begins"
-      },
-      {
-        "aliases": [
           "Jailer 2 - Tamil"
         ],
         "canonical": "Jailer 2 - Tamil"
       },
       {
         "aliases": [
-          "Titans"
+          "Samarasa"
         ],
-        "canonical": "Titans"
+        "canonical": "Samarasa"
+      },
+      {
+        "aliases": [
+          "418"
+        ],
+        "canonical": "418"
+      },
+      {
+        "aliases": [
+          "Ramayana (Hindi)"
+        ],
+        "canonical": "Ramayana (Hindi)"
+      },
+      {
+        "aliases": [
+          "418 - The Nightmare Begins"
+        ],
+        "canonical": "418 - The Nightmare Begins"
       }
     ]
   }
