@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "last_updated": "2026-11-04T00:43:26.898740+05:30",
+  "last_updated": "2026-11-04T05:41:23.426382+05:30",
   "movies": {
     "DISCO": {
       "gross": 0,
@@ -97,24 +97,24 @@
       "tickets_sold": 0
     },
     "Scene": {
-      "gross": 900,
+      "gross": 1200,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 900,
+              "gross": 1200,
               "movie": "Scene",
               "screen": "Aiswarya",
               "showid": "10016",
-              "tickets_sold": 6,
+              "tickets_sold": 8,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 900,
+          "gross": 1200,
           "shows": 1,
-          "tickets_sold": 6
+          "tickets_sold": 8
         },
         "without_gross": {
           "breakdown": [
@@ -152,11 +152,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 900,
+          "gross": 1200,
           "movie": "Scene",
           "screen": "Aiswarya",
           "showid": "10016",
-          "tickets_sold": 6,
+          "tickets_sold": 8,
           "time": "11:00 AM",
           "venue": "Aiswarya Cinemas"
         },
@@ -189,16 +189,23 @@
         }
       ],
       "shows": 4,
-      "tickets_sold": 6
+      "tickets_sold": 8
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "Unknown"
+          "Samarasa"
         ],
-        "canonical": "Unknown"
+        "canonical": "Samarasa"
+      },
+      {
+        "aliases": [
+          "DISCO",
+          "Disco"
+        ],
+        "canonical": "DISCO"
       },
       {
         "aliases": [
@@ -208,15 +215,34 @@
       },
       {
         "aliases": [
-          "SCENE (Tamil)"
+          "Ramayana (Malayalam)"
         ],
-        "canonical": "SCENE (Tamil)"
+        "canonical": "Ramayana (Malayalam)"
+      },
+      {
+        "aliases": [
+          "JAILER 2",
+          "Jailer 2"
+        ],
+        "canonical": "Jailer 2"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       },
       {
         "aliases": [
           "Titans"
         ],
         "canonical": "Titans"
+      },
+      {
+        "aliases": [
+          "SCENE (Tamil)"
+        ],
+        "canonical": "SCENE (Tamil)"
       },
       {
         "aliases": [
@@ -232,47 +258,21 @@
       },
       {
         "aliases": [
-          "DISCO",
-          "Disco"
-        ],
-        "canonical": "DISCO"
-      },
-      {
-        "aliases": [
-          "Samarasa"
-        ],
-        "canonical": "Samarasa"
-      },
-      {
-        "aliases": [
-          "Ramayana (Hindi)"
-        ],
-        "canonical": "Ramayana (Hindi)"
-      },
-      {
-        "aliases": [
-          "JAILER 2",
-          "Jailer 2"
-        ],
-        "canonical": "JAILER 2"
-      },
-      {
-        "aliases": [
           "418 - The Nightmare Begins"
         ],
         "canonical": "418 - The Nightmare Begins"
       },
       {
         "aliases": [
-          "Ramayana (Malayalam)"
-        ],
-        "canonical": "Ramayana (Malayalam)"
-      },
-      {
-        "aliases": [
           "Scene"
         ],
         "canonical": "Scene"
+      },
+      {
+        "aliases": [
+          "Ramayana (Hindi)"
+        ],
+        "canonical": "Ramayana (Hindi)"
       }
     ]
   }
