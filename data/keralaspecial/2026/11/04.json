@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "last_updated": "2026-11-04T12:28:03.970071+05:30",
+  "last_updated": "2026-11-04T20:46:10.640779+05:30",
   "movies": {
     "418": {
       "gross": 0,
@@ -260,6 +260,15 @@
               "venue": "Puthet Cinemas"
             },
             {
+              "gross": 1650,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "9801",
+              "tickets_sold": 11,
+              "time": "06:00 PM",
+              "venue": "Jose"
+            },
+            {
               "gross": 1500,
               "movie": "Jailer 2",
               "screen": "SAVITHA",
@@ -285,69 +294,6 @@
               "tickets_sold": 6,
               "time": "09:30 PM",
               "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 600,
-              "movie": "Jailer 2",
-              "screen": "SAVITHA",
-              "showid": "21375",
-              "tickets_sold": 4,
-              "time": "11:15 AM",
-              "venue": "SFC"
-            },
-            {
-              "gross": 450,
-              "movie": "Jailer 2",
-              "screen": "SCREEN 2",
-              "showid": "9549",
-              "tickets_sold": 3,
-              "time": "04:30 PM",
-              "venue": "Sandhya"
-            },
-            {
-              "gross": 300,
-              "movie": "Jailer 2",
-              "screen": "SAVITHA",
-              "showid": "21377",
-              "tickets_sold": 2,
-              "time": "05:45 PM",
-              "venue": "SFC"
-            },
-            {
-              "gross": 1650,
-              "movie": "Jailer 2",
-              "screen": "SCREEN 1",
-              "showid": "9801",
-              "tickets_sold": 11,
-              "time": "06:00 PM",
-              "venue": "Jose"
-            },
-            {
-              "gross": 600,
-              "movie": "Jailer 2",
-              "screen": "SCREEN 2",
-              "showid": "9548",
-              "tickets_sold": 4,
-              "time": "01:30 PM",
-              "venue": "Sandhya"
-            },
-            {
-              "gross": 300,
-              "movie": "Jailer 2",
-              "screen": "SCREEN 1",
-              "showid": "5064",
-              "tickets_sold": 2,
-              "time": "02:15 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 600,
-              "movie": "Jailer 2",
-              "screen": "SCREEN 1",
-              "showid": "5065",
-              "tickets_sold": 4,
-              "time": "06:00 PM",
-              "venue": "Fairyland Cinemas"
             },
             {
               "gross": 750,
@@ -379,20 +325,38 @@
             {
               "gross": 600,
               "movie": "Jailer 2",
+              "screen": "SAVITHA",
+              "showid": "21375",
+              "tickets_sold": 4,
+              "time": "11:15 AM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 600,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 2",
+              "showid": "9548",
+              "tickets_sold": 4,
+              "time": "01:30 PM",
+              "venue": "Sandhya"
+            },
+            {
+              "gross": 600,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "5065",
+              "tickets_sold": 4,
+              "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 600,
+              "movie": "Jailer 2",
               "screen": "SCREEN 3",
               "showid": "11041",
               "tickets_sold": 4,
               "time": "06:30 PM",
               "venue": "Harihar"
-            },
-            {
-              "gross": 150,
-              "movie": "Jailer 2",
-              "screen": "SCREEN 1",
-              "showid": "9800",
-              "tickets_sold": 1,
-              "time": "02:30 PM",
-              "venue": "Jose"
             },
             {
               "gross": 600,
@@ -402,6 +366,42 @@
               "tickets_sold": 4,
               "time": "07:30 PM",
               "venue": "Sandhya"
+            },
+            {
+              "gross": 450,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 2",
+              "showid": "9549",
+              "tickets_sold": 3,
+              "time": "04:30 PM",
+              "venue": "Sandhya"
+            },
+            {
+              "gross": 300,
+              "movie": "Jailer 2",
+              "screen": "SAVITHA",
+              "showid": "21377",
+              "tickets_sold": 2,
+              "time": "05:45 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 300,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "5064",
+              "tickets_sold": 2,
+              "time": "02:15 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 150,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "9800",
+              "tickets_sold": 1,
+              "time": "02:30 PM",
+              "venue": "Jose"
             }
           ],
           "gross": 13500,
@@ -736,7 +736,7 @@
       "tickets_sold": 90
     },
     "Jailer 2": {
-      "gross": 5550,
+      "gross": 11250,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -812,11 +812,29 @@
               "tickets_sold": 2,
               "time": "01:30 PM",
               "venue": "Sandhya"
+            },
+            {
+              "gross": 1950,
+              "movie": "Jailer 2",
+              "screen": "SCREEN 1",
+              "showid": "5066",
+              "tickets_sold": 13,
+              "time": "09:15 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 3750,
+              "movie": "Jailer 2",
+              "screen": null,
+              "showid": "20398",
+              "tickets_sold": 25,
+              "time": "09:30 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 5550,
-          "shows": 8,
-          "tickets_sold": 37
+          "gross": 11250,
+          "shows": 10,
+          "tickets_sold": 75
         },
         "without_gross": {
           "breakdown": [
@@ -845,15 +863,6 @@
               "showid": "5065",
               "tickets_sold": 0,
               "time": "06:00 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Jailer 2",
-              "screen": "SCREEN 1",
-              "showid": "5066",
-              "tickets_sold": 0,
-              "time": "09:15 PM",
               "venue": "Fairyland Cinemas"
             },
             {
@@ -899,15 +908,6 @@
               "showid": "20397",
               "tickets_sold": 0,
               "time": "06:00 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Jailer 2",
-              "screen": null,
-              "showid": "20398",
-              "tickets_sold": 0,
-              "time": "09:30 PM",
               "venue": "Puthet Cinemas"
             },
             {
@@ -983,11 +983,29 @@
               "venue": "Sandhya"
             }
           ],
-          "shows": 18,
+          "shows": 16,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 3750,
+          "movie": "Jailer 2",
+          "screen": null,
+          "showid": "20398",
+          "tickets_sold": 25,
+          "time": "09:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 1950,
+          "movie": "Jailer 2",
+          "screen": "SCREEN 1",
+          "showid": "5066",
+          "tickets_sold": 13,
+          "time": "09:15 PM",
+          "venue": "Fairyland Cinemas"
+        },
         {
           "gross": 1800,
           "movie": "Jailer 2",
@@ -1089,15 +1107,6 @@
         },
         {
           "gross": 0,
-          "movie": "Jailer 2",
-          "screen": "SCREEN 1",
-          "showid": "5066",
-          "tickets_sold": 0,
-          "time": "09:15 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
           "movie": "JAILER 2",
           "screen": "Aiswarya",
           "showid": "9980",
@@ -1139,15 +1148,6 @@
           "showid": "20397",
           "tickets_sold": 0,
           "time": "06:00 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Jailer 2",
-          "screen": null,
-          "showid": "20398",
-          "tickets_sold": 0,
-          "time": "09:30 PM",
           "venue": "Puthet Cinemas"
         },
         {
@@ -1224,7 +1224,7 @@
         }
       ],
       "shows": 26,
-      "tickets_sold": 37
+      "tickets_sold": 75
     },
     "Samarasa": {
       "gross": 0,
@@ -1388,21 +1388,58 @@
     "merged_movies": [
       {
         "aliases": [
-          "Samarasa"
+          "JAILER 2",
+          "Jailer 2"
         ],
-        "canonical": "Samarasa"
+        "canonical": "Jailer 2"
       },
       {
         "aliases": [
-          "418"
+          "Ramayana (Hindi)"
         ],
-        "canonical": "418"
+        "canonical": "Ramayana (Hindi)"
       },
       {
         "aliases": [
-          "Titans"
+          "DISCO (Malayalam)"
         ],
-        "canonical": "Titans"
+        "canonical": "DISCO (Malayalam)"
+      },
+      {
+        "aliases": [
+          "Scene"
+        ],
+        "canonical": "Scene"
+      },
+      {
+        "aliases": [
+          "Ramayana"
+        ],
+        "canonical": "Ramayana"
+      },
+      {
+        "aliases": [
+          "Namit Malhotras Ramayana"
+        ],
+        "canonical": "Namit Malhotras Ramayana"
+      },
+      {
+        "aliases": [
+          "Mookuthi Amman 2"
+        ],
+        "canonical": "Mookuthi Amman 2"
+      },
+      {
+        "aliases": [
+          "Ramayana (Malayalam)"
+        ],
+        "canonical": "Ramayana (Malayalam)"
+      },
+      {
+        "aliases": [
+          "Mookuthi Amman 2 - World Of Mahasakthi"
+        ],
+        "canonical": "Mookuthi Amman 2 - World Of Mahasakthi"
       },
       {
         "aliases": [
@@ -1413,64 +1450,9 @@
       },
       {
         "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "DISCO (Malayalam)"
-        ],
-        "canonical": "DISCO (Malayalam)"
-      },
-      {
-        "aliases": [
           "SCENE (Tamil)"
         ],
         "canonical": "SCENE (Tamil)"
-      },
-      {
-        "aliases": [
-          "Ramayana (Malayalam)"
-        ],
-        "canonical": "Ramayana (Malayalam)"
-      },
-      {
-        "aliases": [
-          "JAILER 2",
-          "Jailer 2"
-        ],
-        "canonical": "JAILER 2"
-      },
-      {
-        "aliases": [
-          "418 - The Nightmare Begins"
-        ],
-        "canonical": "418 - The Nightmare Begins"
-      },
-      {
-        "aliases": [
-          "Ramayana"
-        ],
-        "canonical": "Ramayana"
-      },
-      {
-        "aliases": [
-          "Scene"
-        ],
-        "canonical": "Scene"
-      },
-      {
-        "aliases": [
-          "Namit Malhotras Ramayana"
-        ],
-        "canonical": "Namit Malhotras Ramayana"
-      },
-      {
-        "aliases": [
-          "Ramayana (Hindi)"
-        ],
-        "canonical": "Ramayana (Hindi)"
       }
     ]
   }

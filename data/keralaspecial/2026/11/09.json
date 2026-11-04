@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "last_updated": "2026-11-04T12:28:03.975592+05:30",
+  "last_updated": "2026-11-04T20:46:10.646368+05:30",
   "movies": {
     "DISCO": {
       "gross": 0,
@@ -97,14 +97,24 @@
       "tickets_sold": 0
     },
     "Scene": {
-      "gross": 0,
+      "gross": 450,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 450,
+              "movie": "Scene",
+              "screen": "Aiswarya",
+              "showid": "10025",
+              "tickets_sold": 3,
+              "time": "02:15 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 450,
+          "shows": 1,
+          "tickets_sold": 3
         },
         "without_gross": {
           "breakdown": [
@@ -115,15 +125,6 @@
               "showid": "10024",
               "tickets_sold": 0,
               "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Scene",
-              "screen": "Aiswarya",
-              "showid": "10025",
-              "tickets_sold": 0,
-              "time": "02:15 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -181,11 +182,20 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 450,
+          "movie": "Scene",
+          "screen": "Aiswarya",
+          "showid": "10025",
+          "tickets_sold": 3,
+          "time": "02:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Scene",
@@ -193,15 +203,6 @@
           "showid": "10024",
           "tickets_sold": 0,
           "time": "11:00 AM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Scene",
-          "screen": "Aiswarya",
-          "showid": "10025",
-          "tickets_sold": 0,
-          "time": "02:15 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -260,28 +261,65 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 0
+      "tickets_sold": 3
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "Samarasa"
+          "JAILER 2",
+          "Jailer 2"
         ],
-        "canonical": "Samarasa"
+        "canonical": "Jailer 2"
       },
       {
         "aliases": [
-          "418"
+          "Ramayana (Hindi)"
         ],
-        "canonical": "418"
+        "canonical": "Ramayana (Hindi)"
       },
       {
         "aliases": [
-          "Titans"
+          "DISCO (Malayalam)"
         ],
-        "canonical": "Titans"
+        "canonical": "DISCO (Malayalam)"
+      },
+      {
+        "aliases": [
+          "Scene"
+        ],
+        "canonical": "Scene"
+      },
+      {
+        "aliases": [
+          "Ramayana"
+        ],
+        "canonical": "Ramayana"
+      },
+      {
+        "aliases": [
+          "Namit Malhotras Ramayana"
+        ],
+        "canonical": "Namit Malhotras Ramayana"
+      },
+      {
+        "aliases": [
+          "Mookuthi Amman 2"
+        ],
+        "canonical": "Mookuthi Amman 2"
+      },
+      {
+        "aliases": [
+          "Ramayana (Malayalam)"
+        ],
+        "canonical": "Ramayana (Malayalam)"
+      },
+      {
+        "aliases": [
+          "Mookuthi Amman 2 - World Of Mahasakthi"
+        ],
+        "canonical": "Mookuthi Amman 2 - World Of Mahasakthi"
       },
       {
         "aliases": [
@@ -292,64 +330,9 @@
       },
       {
         "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "DISCO (Malayalam)"
-        ],
-        "canonical": "DISCO (Malayalam)"
-      },
-      {
-        "aliases": [
           "SCENE (Tamil)"
         ],
         "canonical": "SCENE (Tamil)"
-      },
-      {
-        "aliases": [
-          "Ramayana (Malayalam)"
-        ],
-        "canonical": "Ramayana (Malayalam)"
-      },
-      {
-        "aliases": [
-          "JAILER 2",
-          "Jailer 2"
-        ],
-        "canonical": "JAILER 2"
-      },
-      {
-        "aliases": [
-          "418 - The Nightmare Begins"
-        ],
-        "canonical": "418 - The Nightmare Begins"
-      },
-      {
-        "aliases": [
-          "Ramayana"
-        ],
-        "canonical": "Ramayana"
-      },
-      {
-        "aliases": [
-          "Scene"
-        ],
-        "canonical": "Scene"
-      },
-      {
-        "aliases": [
-          "Namit Malhotras Ramayana"
-        ],
-        "canonical": "Namit Malhotras Ramayana"
-      },
-      {
-        "aliases": [
-          "Ramayana (Hindi)"
-        ],
-        "canonical": "Ramayana (Hindi)"
       }
     ]
   }
