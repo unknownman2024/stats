@@ -1,19 +1,37 @@
 {
   "date": "2026-11-06",
-  "last_updated": "2026-11-04T20:46:10.638482+05:30",
+  "last_updated": "2026-11-05T02:58:27.038965+05:30",
   "movies": {
     "DISCO": {
-      "gross": 16200,
+      "gross": 16950,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 2100,
+              "gross": 6000,
+              "movie": "Disco",
+              "screen": "SCREEN 3",
+              "showid": "5113",
+              "tickets_sold": 40,
+              "time": "09:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 3900,
+              "movie": "Disco",
+              "screen": "SCREEN 3",
+              "showid": "5112",
+              "tickets_sold": 26,
+              "time": "05:45 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 2250,
               "movie": "Disco",
               "screen": null,
               "showid": "20408",
-              "tickets_sold": 14,
+              "tickets_sold": 15,
               "time": "08:00 PM",
               "venue": "Puthet Cinemas"
             },
@@ -27,6 +45,15 @@
               "venue": "Aiswarya Cinemas"
             },
             {
+              "gross": 900,
+              "movie": "DISCO",
+              "screen": "Dolby Atmos",
+              "showid": "6125",
+              "tickets_sold": 6,
+              "time": "09:00 PM",
+              "venue": "Girija Theatre"
+            },
+            {
               "gross": 750,
               "movie": "Disco",
               "screen": "Athulya",
@@ -36,11 +63,11 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 450,
+              "gross": 750,
               "movie": "DISCO",
               "screen": "Dolby Atmos",
               "showid": "6124",
-              "tickets_sold": 3,
+              "tickets_sold": 5,
               "time": "06:00 PM",
               "venue": "Girija Theatre"
             },
@@ -63,36 +90,18 @@
               "venue": "Girija Theatre"
             },
             {
-              "gross": 900,
-              "movie": "DISCO",
-              "screen": "Dolby Atmos",
-              "showid": "6125",
-              "tickets_sold": 6,
-              "time": "09:00 PM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 3900,
+              "gross": 150,
               "movie": "Disco",
               "screen": "SCREEN 3",
-              "showid": "5112",
-              "tickets_sold": 26,
-              "time": "05:45 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 5850,
-              "movie": "Disco",
-              "screen": "SCREEN 3",
-              "showid": "5113",
-              "tickets_sold": 39,
-              "time": "09:00 PM",
+              "showid": "5110",
+              "tickets_sold": 1,
+              "time": "11:00 AM",
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 16200,
-          "shows": 9,
-          "tickets_sold": 108
+          "gross": 16950,
+          "shows": 10,
+          "tickets_sold": 113
         },
         "without_gross": {
           "breakdown": [
@@ -145,32 +154,23 @@
               "gross": 0,
               "movie": "Disco",
               "screen": "SCREEN 3",
-              "showid": "5110",
-              "tickets_sold": 0,
-              "time": "11:00 AM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Disco",
-              "screen": "SCREEN 3",
               "showid": "5111",
               "tickets_sold": 0,
               "time": "02:15 PM",
               "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 7,
+          "shows": 6,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 5850,
+          "gross": 6000,
           "movie": "Disco",
           "screen": "SCREEN 3",
           "showid": "5113",
-          "tickets_sold": 39,
+          "tickets_sold": 40,
           "time": "09:00 PM",
           "venue": "Fairyland Cinemas"
         },
@@ -184,11 +184,11 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 2100,
+          "gross": 2250,
           "movie": "Disco",
           "screen": null,
           "showid": "20408",
-          "tickets_sold": 14,
+          "tickets_sold": 15,
           "time": "08:00 PM",
           "venue": "Puthet Cinemas"
         },
@@ -220,11 +220,11 @@
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 450,
+          "gross": 750,
           "movie": "DISCO",
           "screen": "Dolby Atmos",
           "showid": "6124",
-          "tickets_sold": 3,
+          "tickets_sold": 5,
           "time": "06:00 PM",
           "venue": "Girija Theatre"
         },
@@ -245,6 +245,15 @@
           "tickets_sold": 2,
           "time": "03:00 PM",
           "venue": "Girija Theatre"
+        },
+        {
+          "gross": 150,
+          "movie": "Disco",
+          "screen": "SCREEN 3",
+          "showid": "5110",
+          "tickets_sold": 1,
+          "time": "11:00 AM",
+          "venue": "Fairyland Cinemas"
         },
         {
           "gross": 0,
@@ -295,15 +304,6 @@
           "gross": 0,
           "movie": "Disco",
           "screen": "SCREEN 3",
-          "showid": "5110",
-          "tickets_sold": 0,
-          "time": "11:00 AM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Disco",
-          "screen": "SCREEN 3",
           "showid": "5111",
           "tickets_sold": 0,
           "time": "02:15 PM",
@@ -311,7 +311,7 @@
         }
       ],
       "shows": 16,
-      "tickets_sold": 108
+      "tickets_sold": 113
     },
     "DISCO (Malayalam)": {
       "gross": 0,
@@ -614,7 +614,7 @@
       "tickets_sold": 0
     },
     "Ramayana (Malayalam)": {
-      "gross": 3000,
+      "gross": 3150,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -629,18 +629,18 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 300,
+              "gross": 450,
               "movie": "Ramayana (Malayalam)",
               "screen": null,
               "showid": "20410",
-              "tickets_sold": 2,
+              "tickets_sold": 3,
               "time": "10:30 AM",
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 3000,
+          "gross": 3150,
           "shows": 2,
-          "tickets_sold": 20
+          "tickets_sold": 21
         },
         "without_gross": {
           "breakdown": [
@@ -669,11 +669,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 300,
+          "gross": 450,
           "movie": "Ramayana (Malayalam)",
           "screen": null,
           "showid": "20410",
-          "tickets_sold": 2,
+          "tickets_sold": 3,
           "time": "10:30 AM",
           "venue": "Puthet Cinemas"
         },
@@ -688,20 +688,20 @@
         }
       ],
       "shows": 3,
-      "tickets_sold": 20
+      "tickets_sold": 21
     },
     "SCENE (Tamil)": {
-      "gross": 10200,
+      "gross": 11550,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 4050,
+              "gross": 5400,
               "movie": "SCENE (Tamil)",
               "screen": "Cinema-1",
               "showid": "23411",
-              "tickets_sold": 27,
+              "tickets_sold": 36,
               "time": "09:30 PM",
               "venue": "Davis Theatre"
             },
@@ -733,9 +733,9 @@
               "venue": "Davis Theatre"
             }
           ],
-          "gross": 10200,
+          "gross": 11550,
           "shows": 4,
-          "tickets_sold": 68
+          "tickets_sold": 77
         },
         "without_gross": {
           "breakdown": [],
@@ -745,11 +745,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 4050,
+          "gross": 5400,
           "movie": "SCENE (Tamil)",
           "screen": "Cinema-1",
           "showid": "23411",
-          "tickets_sold": 27,
+          "tickets_sold": 36,
           "time": "09:30 PM",
           "venue": "Davis Theatre"
         },
@@ -782,10 +782,10 @@
         }
       ],
       "shows": 4,
-      "tickets_sold": 68
+      "tickets_sold": 77
     },
     "Scene": {
-      "gross": 262950,
+      "gross": 280650,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -800,31 +800,49 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 27000,
+              "gross": 27150,
               "movie": "Scene",
               "screen": null,
               "showid": "20403",
-              "tickets_sold": 180,
+              "tickets_sold": 181,
               "time": "09:00 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 20850,
+              "gross": 25800,
+              "movie": "Scene",
+              "screen": null,
+              "showid": "20409",
+              "tickets_sold": 172,
+              "time": "06:05 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 26550,
+              "movie": "Scene",
+              "screen": "Aiswarya",
+              "showid": "9999",
+              "tickets_sold": 177,
+              "time": "08:45 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 21900,
               "movie": "Scene",
               "screen": null,
               "showid": "20402",
-              "tickets_sold": 139,
+              "tickets_sold": 146,
               "time": "06:00 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 21750,
+              "gross": 23250,
               "movie": "Scene",
-              "screen": "Aiswarya",
-              "showid": "9999",
-              "tickets_sold": 145,
-              "time": "08:45 PM",
-              "venue": "Aiswarya Cinemas"
+              "screen": "SCREEN 1",
+              "showid": "5101",
+              "tickets_sold": 155,
+              "time": "09:00 PM",
+              "venue": "Fairyland Cinemas"
             },
             {
               "gross": 19350,
@@ -836,74 +854,65 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 20550,
-              "movie": "Scene",
-              "screen": "SCREEN 1",
-              "showid": "5101",
-              "tickets_sold": 137,
-              "time": "09:00 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 18000,
+              "gross": 18600,
               "movie": "Scene",
               "screen": "SCREEN 1",
               "showid": "5100",
-              "tickets_sold": 120,
+              "tickets_sold": 124,
               "time": "05:45 PM",
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 15300,
+              "gross": 16650,
               "movie": "Scene",
               "screen": "SCREEN 1",
               "showid": "5097",
-              "tickets_sold": 102,
+              "tickets_sold": 111,
               "time": "06:00 AM",
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 13500,
+              "gross": 15000,
               "movie": "Scene",
               "screen": null,
               "showid": "20401",
-              "tickets_sold": 90,
+              "tickets_sold": 100,
               "time": "03:00 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 13350,
+              "gross": 15750,
               "movie": "Scene",
               "screen": null,
               "showid": "20400",
-              "tickets_sold": 89,
+              "tickets_sold": 105,
               "time": "12:00 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 9750,
+              "gross": 10350,
               "movie": "Scene",
               "screen": "Aiswarya",
               "showid": "9996",
-              "tickets_sold": 65,
+              "tickets_sold": 69,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 9450,
+              "gross": 10800,
               "movie": "Scene",
               "screen": null,
               "showid": "20404",
-              "tickets_sold": 63,
+              "tickets_sold": 72,
               "time": "11:55 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 4800,
+              "gross": 5700,
               "movie": "Scene",
               "screen": "SCREEN 1",
               "showid": "5099",
-              "tickets_sold": 32,
+              "tickets_sold": 38,
               "time": "02:15 PM",
               "venue": "Fairyland Cinemas"
             },
@@ -917,11 +926,11 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 3150,
+              "gross": 3300,
               "movie": "Scene",
               "screen": "SCREEN 1",
               "showid": "5098",
-              "tickets_sold": 21,
+              "tickets_sold": 22,
               "time": "11:00 AM",
               "venue": "Fairyland Cinemas"
             },
@@ -933,20 +942,11 @@
               "tickets_sold": 4,
               "time": "02:15 PM",
               "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 25650,
-              "movie": "Scene",
-              "screen": null,
-              "showid": "20409",
-              "tickets_sold": 171,
-              "time": "06:05 AM",
-              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 262950,
+          "gross": 280650,
           "shows": 17,
-          "tickets_sold": 1753
+          "tickets_sold": 1871
         },
         "without_gross": {
           "breakdown": [],
@@ -965,49 +965,49 @@
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 27000,
+          "gross": 27150,
           "movie": "Scene",
           "screen": null,
           "showid": "20403",
-          "tickets_sold": 180,
+          "tickets_sold": 181,
           "time": "09:00 PM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 25650,
-          "movie": "Scene",
-          "screen": null,
-          "showid": "20409",
-          "tickets_sold": 171,
-          "time": "06:05 AM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 21750,
+          "gross": 26550,
           "movie": "Scene",
           "screen": "Aiswarya",
           "showid": "9999",
-          "tickets_sold": 145,
+          "tickets_sold": 177,
           "time": "08:45 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 20850,
+          "gross": 25800,
           "movie": "Scene",
           "screen": null,
-          "showid": "20402",
-          "tickets_sold": 139,
-          "time": "06:00 PM",
+          "showid": "20409",
+          "tickets_sold": 172,
+          "time": "06:05 AM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 20550,
+          "gross": 23250,
           "movie": "Scene",
           "screen": "SCREEN 1",
           "showid": "5101",
-          "tickets_sold": 137,
+          "tickets_sold": 155,
           "time": "09:00 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 21900,
+          "movie": "Scene",
+          "screen": null,
+          "showid": "20402",
+          "tickets_sold": 146,
+          "time": "06:00 PM",
+          "venue": "Puthet Cinemas"
         },
         {
           "gross": 19350,
@@ -1019,65 +1019,65 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 18000,
+          "gross": 18600,
           "movie": "Scene",
           "screen": "SCREEN 1",
           "showid": "5100",
-          "tickets_sold": 120,
+          "tickets_sold": 124,
           "time": "05:45 PM",
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 15300,
+          "gross": 16650,
           "movie": "Scene",
           "screen": "SCREEN 1",
           "showid": "5097",
-          "tickets_sold": 102,
+          "tickets_sold": 111,
           "time": "06:00 AM",
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 13500,
-          "movie": "Scene",
-          "screen": null,
-          "showid": "20401",
-          "tickets_sold": 90,
-          "time": "03:00 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 13350,
+          "gross": 15750,
           "movie": "Scene",
           "screen": null,
           "showid": "20400",
-          "tickets_sold": 89,
+          "tickets_sold": 105,
           "time": "12:00 PM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 9750,
+          "gross": 15000,
           "movie": "Scene",
-          "screen": "Aiswarya",
-          "showid": "9996",
-          "tickets_sold": 65,
-          "time": "11:00 AM",
-          "venue": "Aiswarya Cinemas"
+          "screen": null,
+          "showid": "20401",
+          "tickets_sold": 100,
+          "time": "03:00 PM",
+          "venue": "Puthet Cinemas"
         },
         {
-          "gross": 9450,
+          "gross": 10800,
           "movie": "Scene",
           "screen": null,
           "showid": "20404",
-          "tickets_sold": 63,
+          "tickets_sold": 72,
           "time": "11:55 PM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 4800,
+          "gross": 10350,
+          "movie": "Scene",
+          "screen": "Aiswarya",
+          "showid": "9996",
+          "tickets_sold": 69,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 5700,
           "movie": "Scene",
           "screen": "SCREEN 1",
           "showid": "5099",
-          "tickets_sold": 32,
+          "tickets_sold": 38,
           "time": "02:15 PM",
           "venue": "Fairyland Cinemas"
         },
@@ -1091,11 +1091,11 @@
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 3150,
+          "gross": 3300,
           "movie": "Scene",
           "screen": "SCREEN 1",
           "showid": "5098",
-          "tickets_sold": 21,
+          "tickets_sold": 22,
           "time": "11:00 AM",
           "venue": "Fairyland Cinemas"
         },
@@ -1110,59 +1110,16 @@
         }
       ],
       "shows": 17,
-      "tickets_sold": 1753
+      "tickets_sold": 1871
     }
   },
   "verification": {
     "merged_movies": [
       {
         "aliases": [
-          "JAILER 2",
-          "Jailer 2"
-        ],
-        "canonical": "Jailer 2"
-      },
-      {
-        "aliases": [
-          "Ramayana (Hindi)"
-        ],
-        "canonical": "Ramayana (Hindi)"
-      },
-      {
-        "aliases": [
           "DISCO (Malayalam)"
         ],
         "canonical": "DISCO (Malayalam)"
-      },
-      {
-        "aliases": [
-          "Scene"
-        ],
-        "canonical": "Scene"
-      },
-      {
-        "aliases": [
-          "Ramayana"
-        ],
-        "canonical": "Ramayana"
-      },
-      {
-        "aliases": [
-          "Namit Malhotras Ramayana"
-        ],
-        "canonical": "Namit Malhotras Ramayana"
-      },
-      {
-        "aliases": [
-          "Mookuthi Amman 2"
-        ],
-        "canonical": "Mookuthi Amman 2"
-      },
-      {
-        "aliases": [
-          "Ramayana (Malayalam)"
-        ],
-        "canonical": "Ramayana (Malayalam)"
       },
       {
         "aliases": [
@@ -1172,10 +1129,78 @@
       },
       {
         "aliases": [
+          "Namit Malhotra's Ramayana",
+          "Namit Malhotras Ramayana"
+        ],
+        "canonical": "Namit Malhotras Ramayana"
+      },
+      {
+        "aliases": [
           "DISCO",
           "Disco"
         ],
         "canonical": "DISCO"
+      },
+      {
+        "aliases": [
+          "Titans"
+        ],
+        "canonical": "Titans"
+      },
+      {
+        "aliases": [
+          "418"
+        ],
+        "canonical": "418"
+      },
+      {
+        "aliases": [
+          "Ramayana (Malayalam)"
+        ],
+        "canonical": "Ramayana (Malayalam)"
+      },
+      {
+        "aliases": [
+          "Ramayana 3D"
+        ],
+        "canonical": "Ramayana 3D"
+      },
+      {
+        "aliases": [
+          "Ramayana: Part 1"
+        ],
+        "canonical": "Ramayana: Part 1"
+      },
+      {
+        "aliases": [
+          "Mookuthi Amman 2"
+        ],
+        "canonical": "Mookuthi Amman 2"
+      },
+      {
+        "aliases": [
+          "Ramayana (Hindi)"
+        ],
+        "canonical": "Ramayana (Hindi)"
+      },
+      {
+        "aliases": [
+          "JAILER 2",
+          "Jailer 2"
+        ],
+        "canonical": "Jailer 2"
+      },
+      {
+        "aliases": [
+          "Ramayana"
+        ],
+        "canonical": "Ramayana"
+      },
+      {
+        "aliases": [
+          "Scene"
+        ],
+        "canonical": "Scene"
       },
       {
         "aliases": [
