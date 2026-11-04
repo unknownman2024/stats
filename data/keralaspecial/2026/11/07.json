@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "last_updated": "2026-11-04T05:41:23.426382+05:30",
+  "last_updated": "2026-11-04T12:28:03.973602+05:30",
   "movies": {
     "DISCO": {
       "gross": 0,
@@ -96,8 +96,85 @@
       "shows": 4,
       "tickets_sold": 0
     },
+    "Ramayana (Malayalam)": {
+      "gross": 1800,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [
+            {
+              "gross": 600,
+              "movie": "Ramayana (Malayalam)",
+              "screen": null,
+              "showid": "20414",
+              "tickets_sold": 4,
+              "time": "02:15 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 1200,
+              "movie": "Ramayana (Malayalam)",
+              "screen": null,
+              "showid": "20415",
+              "tickets_sold": 8,
+              "time": "06:00 PM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "gross": 1800,
+          "shows": 2,
+          "tickets_sold": 12
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Ramayana (Malayalam)",
+              "screen": null,
+              "showid": "20413",
+              "tickets_sold": 0,
+              "time": "10:30 AM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "shows": 1,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 1200,
+          "movie": "Ramayana (Malayalam)",
+          "screen": null,
+          "showid": "20415",
+          "tickets_sold": 8,
+          "time": "06:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 600,
+          "movie": "Ramayana (Malayalam)",
+          "screen": null,
+          "showid": "20414",
+          "tickets_sold": 4,
+          "time": "02:15 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Ramayana (Malayalam)",
+          "screen": null,
+          "showid": "20413",
+          "tickets_sold": 0,
+          "time": "10:30 AM",
+          "venue": "Puthet Cinemas"
+        }
+      ],
+      "shows": 3,
+      "tickets_sold": 12
+    },
     "Scene": {
-      "gross": 1200,
+      "gross": 4200,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -110,11 +187,38 @@
               "tickets_sold": 8,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "Scene",
+              "screen": "Aiswarya",
+              "showid": "10019",
+              "tickets_sold": 2,
+              "time": "08:45 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 900,
+              "movie": "Scene",
+              "screen": null,
+              "showid": "20420",
+              "tickets_sold": 6,
+              "time": "02:30 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 1800,
+              "movie": "Scene",
+              "screen": null,
+              "showid": "20422",
+              "tickets_sold": 12,
+              "time": "09:00 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 1200,
-          "shows": 1,
-          "tickets_sold": 8
+          "gross": 4200,
+          "shows": 4,
+          "tickets_sold": 28
         },
         "without_gross": {
           "breakdown": [
@@ -139,18 +243,45 @@
             {
               "gross": 0,
               "movie": "Scene",
-              "screen": "Aiswarya",
-              "showid": "10019",
+              "screen": null,
+              "showid": "20419",
               "tickets_sold": 0,
-              "time": "08:45 PM",
-              "venue": "Aiswarya Cinemas"
+              "time": "11:00 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Scene",
+              "screen": null,
+              "showid": "20421",
+              "tickets_sold": 0,
+              "time": "06:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Scene",
+              "screen": null,
+              "showid": "20423",
+              "tickets_sold": 0,
+              "time": "11:55 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 3,
+          "shows": 5,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1800,
+          "movie": "Scene",
+          "screen": null,
+          "showid": "20422",
+          "tickets_sold": 12,
+          "time": "09:00 PM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 1200,
           "movie": "Scene",
@@ -158,6 +289,24 @@
           "showid": "10016",
           "tickets_sold": 8,
           "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 900,
+          "movie": "Scene",
+          "screen": null,
+          "showid": "20420",
+          "tickets_sold": 6,
+          "time": "02:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "Scene",
+          "screen": "Aiswarya",
+          "showid": "10019",
+          "tickets_sold": 2,
+          "time": "08:45 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -181,15 +330,33 @@
         {
           "gross": 0,
           "movie": "Scene",
-          "screen": "Aiswarya",
-          "showid": "10019",
+          "screen": null,
+          "showid": "20419",
           "tickets_sold": 0,
-          "time": "08:45 PM",
-          "venue": "Aiswarya Cinemas"
+          "time": "11:00 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Scene",
+          "screen": null,
+          "showid": "20421",
+          "tickets_sold": 0,
+          "time": "06:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Scene",
+          "screen": null,
+          "showid": "20423",
+          "tickets_sold": 0,
+          "time": "11:55 PM",
+          "venue": "Puthet Cinemas"
         }
       ],
-      "shows": 4,
-      "tickets_sold": 8
+      "shows": 9,
+      "tickets_sold": 28
     }
   },
   "verification": {
@@ -202,6 +369,18 @@
       },
       {
         "aliases": [
+          "418"
+        ],
+        "canonical": "418"
+      },
+      {
+        "aliases": [
+          "Titans"
+        ],
+        "canonical": "Titans"
+      },
+      {
+        "aliases": [
           "DISCO",
           "Disco"
         ],
@@ -209,9 +388,21 @@
       },
       {
         "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
           "DISCO (Malayalam)"
         ],
         "canonical": "DISCO (Malayalam)"
+      },
+      {
+        "aliases": [
+          "SCENE (Tamil)"
+        ],
+        "canonical": "SCENE (Tamil)"
       },
       {
         "aliases": [
@@ -224,37 +415,7 @@
           "JAILER 2",
           "Jailer 2"
         ],
-        "canonical": "Jailer 2"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Titans"
-        ],
-        "canonical": "Titans"
-      },
-      {
-        "aliases": [
-          "SCENE (Tamil)"
-        ],
-        "canonical": "SCENE (Tamil)"
-      },
-      {
-        "aliases": [
-          "Namit Malhotras Ramayana"
-        ],
-        "canonical": "Namit Malhotras Ramayana"
-      },
-      {
-        "aliases": [
-          "418"
-        ],
-        "canonical": "418"
+        "canonical": "JAILER 2"
       },
       {
         "aliases": [
@@ -264,9 +425,21 @@
       },
       {
         "aliases": [
+          "Ramayana"
+        ],
+        "canonical": "Ramayana"
+      },
+      {
+        "aliases": [
           "Scene"
         ],
         "canonical": "Scene"
+      },
+      {
+        "aliases": [
+          "Namit Malhotras Ramayana"
+        ],
+        "canonical": "Namit Malhotras Ramayana"
       },
       {
         "aliases": [
