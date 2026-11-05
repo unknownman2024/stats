@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "last_updated": "2026-11-05T07:14:55.983978+05:30",
+  "last_updated": "2026-11-05T14:36:35.831573+05:30",
   "movies": {
     "DISCO": {
       "gross": 0,
@@ -190,8 +190,102 @@
       "shows": 4,
       "tickets_sold": 0
     },
+    "Namit Malhotras Ramayana": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Namit Malhotras Ramayana",
+              "screen": "Screen-2",
+              "showid": "10073",
+              "tickets_sold": 0,
+              "time": "10:45 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Namit Malhotras Ramayana",
+              "screen": "Screen-2",
+              "showid": "10074",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Namit Malhotras Ramayana",
+              "screen": "Screen-2",
+              "showid": "10075",
+              "tickets_sold": 0,
+              "time": "06:00 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Namit Malhotras Ramayana",
+              "screen": "Screen-2",
+              "showid": "10076",
+              "tickets_sold": 0,
+              "time": "09:45 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "shows": 4,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Namit Malhotras Ramayana",
+          "screen": "Screen-2",
+          "showid": "10073",
+          "tickets_sold": 0,
+          "time": "10:45 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Namit Malhotras Ramayana",
+          "screen": "Screen-2",
+          "showid": "10074",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Namit Malhotras Ramayana",
+          "screen": "Screen-2",
+          "showid": "10075",
+          "tickets_sold": 0,
+          "time": "06:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Namit Malhotras Ramayana",
+          "screen": "Screen-2",
+          "showid": "10076",
+          "tickets_sold": 0,
+          "time": "09:45 PM",
+          "venue": "Aiswarya Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 0
+    },
     "Scene": {
-      "gross": 450,
+      "gross": 1200,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -204,23 +298,23 @@
               "tickets_sold": 3,
               "time": "02:15 PM",
               "venue": "Aiswarya Cinemas"
-            }
-          ],
-          "gross": 450,
-          "shows": 1,
-          "tickets_sold": 3
-        },
-        "without_gross": {
-          "breakdown": [
+            },
             {
-              "gross": 0,
+              "gross": 750,
               "movie": "Scene",
               "screen": "Aiswarya",
               "showid": "10024",
-              "tickets_sold": 0,
+              "tickets_sold": 5,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
-            },
+            }
+          ],
+          "gross": 1200,
+          "shows": 2,
+          "tickets_sold": 8
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "Scene",
@@ -276,11 +370,20 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 7,
+          "shows": 6,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 750,
+          "movie": "Scene",
+          "screen": "Aiswarya",
+          "showid": "10024",
+          "tickets_sold": 5,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 450,
           "movie": "Scene",
@@ -288,15 +391,6 @@
           "showid": "10025",
           "tickets_sold": 3,
           "time": "02:15 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Scene",
-          "screen": "Aiswarya",
-          "showid": "10024",
-          "tickets_sold": 0,
-          "time": "11:00 AM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -355,79 +449,11 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 3
+      "tickets_sold": 8
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "JAILER 2",
-          "Jailer 2"
-        ],
-        "canonical": "JAILER 2"
-      },
-      {
-        "aliases": [
-          "Ramayana: Part 1"
-        ],
-        "canonical": "Ramayana: Part 1"
-      },
-      {
-        "aliases": [
-          "Mookuthi Amman 2 - World Of Mahasakthi"
-        ],
-        "canonical": "Mookuthi Amman 2 - World Of Mahasakthi"
-      },
-      {
-        "aliases": [
-          "SCENE (Tamil)"
-        ],
-        "canonical": "SCENE (Tamil)"
-      },
-      {
-        "aliases": [
-          "Ramayana"
-        ],
-        "canonical": "Ramayana"
-      },
-      {
-        "aliases": [
-          "DISCO (Malayalam)"
-        ],
-        "canonical": "DISCO (Malayalam)"
-      },
-      {
-        "aliases": [
-          "Ramayana 3D"
-        ],
-        "canonical": "Ramayana 3D"
-      },
-      {
-        "aliases": [
-          "DISCO",
-          "Disco"
-        ],
-        "canonical": "Disco"
-      },
-      {
-        "aliases": [
-          "Ramayana (Hindi)"
-        ],
-        "canonical": "Ramayana (Hindi)"
-      },
-      {
-        "aliases": [
-          "Mookuthi Amman 2"
-        ],
-        "canonical": "Mookuthi Amman 2"
-      },
-      {
-        "aliases": [
-          "418"
-        ],
-        "canonical": "418"
-      },
       {
         "aliases": [
           "Namit Malhotra's Ramayana",
@@ -437,9 +463,22 @@
       },
       {
         "aliases": [
-          "Scene"
+          "DISCO",
+          "Disco"
         ],
-        "canonical": "Scene"
+        "canonical": "DISCO"
+      },
+      {
+        "aliases": [
+          "Ramayana (Hindi)"
+        ],
+        "canonical": "Ramayana (Hindi)"
+      },
+      {
+        "aliases": [
+          "Ramayana"
+        ],
+        "canonical": "Ramayana"
       },
       {
         "aliases": [
@@ -449,9 +488,70 @@
       },
       {
         "aliases": [
+          "JAILER 2",
+          "Jailer 2"
+        ],
+        "canonical": "JAILER 2"
+      },
+      {
+        "aliases": [
+          "Mookuthi Amman 2 - World Of Mahasakthi"
+        ],
+        "canonical": "Mookuthi Amman 2 - World Of Mahasakthi"
+      },
+      {
+        "aliases": [
+          "Ramayana 3D"
+        ],
+        "canonical": "Ramayana 3D"
+      },
+      {
+        "aliases": [
+          "418"
+        ],
+        "canonical": "418"
+      },
+      {
+        "aliases": [
+          "Ramayana: Part 1"
+        ],
+        "canonical": "Ramayana: Part 1"
+      },
+      {
+        "aliases": [
+          "DISCO (Malayalam)"
+        ],
+        "canonical": "DISCO (Malayalam)"
+      },
+      {
+        "aliases": [
+          "Scene"
+        ],
+        "canonical": "Scene"
+      },
+      {
+        "aliases": [
+          "SCENE (Tamil)"
+        ],
+        "canonical": "SCENE (Tamil)"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
           "Ramayana (Malayalam)"
         ],
         "canonical": "Ramayana (Malayalam)"
+      },
+      {
+        "aliases": [
+          "Mookuthi Amman 2"
+        ],
+        "canonical": "Mookuthi Amman 2"
       }
     ]
   }
