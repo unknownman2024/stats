@@ -1,8 +1,102 @@
 {
   "date": "2026-11-08",
-  "last_updated": "2026-11-05T02:58:27.043603+05:30",
+  "last_updated": "2026-11-05T07:14:55.983297+05:30",
   "movies": {
     "DISCO": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Disco",
+              "screen": "Athulya",
+              "showid": "10032",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Disco",
+              "screen": "Athulya",
+              "showid": "10033",
+              "tickets_sold": 0,
+              "time": "02:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Disco",
+              "screen": "Athulya",
+              "showid": "10034",
+              "tickets_sold": 0,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Disco",
+              "screen": "Athulya",
+              "showid": "10035",
+              "tickets_sold": 0,
+              "time": "08:45 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "shows": 4,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Disco",
+          "screen": "Athulya",
+          "showid": "10032",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Disco",
+          "screen": "Athulya",
+          "showid": "10033",
+          "tickets_sold": 0,
+          "time": "02:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Disco",
+          "screen": "Athulya",
+          "showid": "10034",
+          "tickets_sold": 0,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Disco",
+          "screen": "Athulya",
+          "showid": "10035",
+          "tickets_sold": 0,
+          "time": "08:45 PM",
+          "venue": "Aiswarya Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 0
+    },
+    "Disco": {
       "gross": 0,
       "occupancy": null,
       "seats_type": {
@@ -173,11 +267,20 @@
       "tickets_sold": 11
     },
     "Scene": {
-      "gross": 6000,
+      "gross": 6300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
+            {
+              "gross": 2250,
+              "movie": "Scene",
+              "screen": null,
+              "showid": "20425",
+              "tickets_sold": 15,
+              "time": "02:30 PM",
+              "venue": "Puthet Cinemas"
+            },
             {
               "gross": 1050,
               "movie": "Scene",
@@ -197,20 +300,11 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 2250,
-              "movie": "Scene",
-              "screen": null,
-              "showid": "20425",
-              "tickets_sold": 15,
-              "time": "02:30 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 600,
+              "gross": 900,
               "movie": "Scene",
               "screen": null,
               "showid": "20426",
-              "tickets_sold": 4,
+              "tickets_sold": 6,
               "time": "06:00 PM",
               "venue": "Puthet Cinemas"
             },
@@ -242,9 +336,9 @@
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 6000,
+          "gross": 6300,
           "shows": 7,
-          "tickets_sold": 40
+          "tickets_sold": 42
         },
         "without_gross": {
           "breakdown": [
@@ -300,11 +394,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 600,
+          "gross": 900,
           "movie": "Scene",
           "screen": null,
           "showid": "20426",
-          "tickets_sold": 4,
+          "tickets_sold": 6,
           "time": "06:00 PM",
           "venue": "Puthet Cinemas"
         },
@@ -355,11 +449,42 @@
         }
       ],
       "shows": 9,
-      "tickets_sold": 40
+      "tickets_sold": 42
     }
   },
   "verification": {
     "merged_movies": [
+      {
+        "aliases": [
+          "JAILER 2",
+          "Jailer 2"
+        ],
+        "canonical": "JAILER 2"
+      },
+      {
+        "aliases": [
+          "Ramayana: Part 1"
+        ],
+        "canonical": "Ramayana: Part 1"
+      },
+      {
+        "aliases": [
+          "Mookuthi Amman 2 - World Of Mahasakthi"
+        ],
+        "canonical": "Mookuthi Amman 2 - World Of Mahasakthi"
+      },
+      {
+        "aliases": [
+          "SCENE (Tamil)"
+        ],
+        "canonical": "SCENE (Tamil)"
+      },
+      {
+        "aliases": [
+          "Ramayana"
+        ],
+        "canonical": "Ramayana"
+      },
       {
         "aliases": [
           "DISCO (Malayalam)"
@@ -368,9 +493,34 @@
       },
       {
         "aliases": [
-          "Mookuthi Amman 2 - World Of Mahasakthi"
+          "Ramayana 3D"
         ],
-        "canonical": "Mookuthi Amman 2 - World Of Mahasakthi"
+        "canonical": "Ramayana 3D"
+      },
+      {
+        "aliases": [
+          "DISCO",
+          "Disco"
+        ],
+        "canonical": "Disco"
+      },
+      {
+        "aliases": [
+          "Ramayana (Hindi)"
+        ],
+        "canonical": "Ramayana (Hindi)"
+      },
+      {
+        "aliases": [
+          "Mookuthi Amman 2"
+        ],
+        "canonical": "Mookuthi Amman 2"
+      },
+      {
+        "aliases": [
+          "418"
+        ],
+        "canonical": "418"
       },
       {
         "aliases": [
@@ -381,10 +531,9 @@
       },
       {
         "aliases": [
-          "DISCO",
-          "Disco"
+          "Scene"
         ],
-        "canonical": "DISCO"
+        "canonical": "Scene"
       },
       {
         "aliases": [
@@ -394,64 +543,9 @@
       },
       {
         "aliases": [
-          "418"
-        ],
-        "canonical": "418"
-      },
-      {
-        "aliases": [
           "Ramayana (Malayalam)"
         ],
         "canonical": "Ramayana (Malayalam)"
-      },
-      {
-        "aliases": [
-          "Ramayana 3D"
-        ],
-        "canonical": "Ramayana 3D"
-      },
-      {
-        "aliases": [
-          "Ramayana: Part 1"
-        ],
-        "canonical": "Ramayana: Part 1"
-      },
-      {
-        "aliases": [
-          "Mookuthi Amman 2"
-        ],
-        "canonical": "Mookuthi Amman 2"
-      },
-      {
-        "aliases": [
-          "Ramayana (Hindi)"
-        ],
-        "canonical": "Ramayana (Hindi)"
-      },
-      {
-        "aliases": [
-          "JAILER 2",
-          "Jailer 2"
-        ],
-        "canonical": "Jailer 2"
-      },
-      {
-        "aliases": [
-          "Ramayana"
-        ],
-        "canonical": "Ramayana"
-      },
-      {
-        "aliases": [
-          "Scene"
-        ],
-        "canonical": "Scene"
-      },
-      {
-        "aliases": [
-          "SCENE (Tamil)"
-        ],
-        "canonical": "SCENE (Tamil)"
       }
     ]
   }

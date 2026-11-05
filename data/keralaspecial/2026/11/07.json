@@ -1,8 +1,102 @@
 {
   "date": "2026-11-07",
-  "last_updated": "2026-11-05T02:58:27.042688+05:30",
+  "last_updated": "2026-11-05T07:14:55.982518+05:30",
   "movies": {
     "DISCO": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Disco",
+              "screen": "Athulya",
+              "showid": "10028",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Disco",
+              "screen": "Athulya",
+              "showid": "10029",
+              "tickets_sold": 0,
+              "time": "02:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Disco",
+              "screen": "Athulya",
+              "showid": "10030",
+              "tickets_sold": 0,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Disco",
+              "screen": "Athulya",
+              "showid": "10031",
+              "tickets_sold": 0,
+              "time": "08:45 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "shows": 4,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Disco",
+          "screen": "Athulya",
+          "showid": "10028",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Disco",
+          "screen": "Athulya",
+          "showid": "10029",
+          "tickets_sold": 0,
+          "time": "02:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Disco",
+          "screen": "Athulya",
+          "showid": "10030",
+          "tickets_sold": 0,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Disco",
+          "screen": "Athulya",
+          "showid": "10031",
+          "tickets_sold": 0,
+          "time": "08:45 PM",
+          "venue": "Aiswarya Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 0
+    },
+    "Disco": {
       "gross": 0,
       "occupancy": null,
       "seats_type": {
@@ -206,15 +300,6 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 1950,
-              "movie": "Scene",
-              "screen": "Aiswarya",
-              "showid": "10016",
-              "tickets_sold": 13,
-              "time": "11:00 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
               "gross": 2850,
               "movie": "Scene",
               "screen": null,
@@ -222,6 +307,15 @@
               "tickets_sold": 19,
               "time": "02:30 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 1950,
+              "movie": "Scene",
+              "screen": "Aiswarya",
+              "showid": "10016",
+              "tickets_sold": 13,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
             },
             {
               "gross": 900,
@@ -362,15 +456,71 @@
     "merged_movies": [
       {
         "aliases": [
-          "DISCO (Malayalam)"
+          "JAILER 2",
+          "Jailer 2"
         ],
-        "canonical": "DISCO (Malayalam)"
+        "canonical": "JAILER 2"
+      },
+      {
+        "aliases": [
+          "Ramayana: Part 1"
+        ],
+        "canonical": "Ramayana: Part 1"
       },
       {
         "aliases": [
           "Mookuthi Amman 2 - World Of Mahasakthi"
         ],
         "canonical": "Mookuthi Amman 2 - World Of Mahasakthi"
+      },
+      {
+        "aliases": [
+          "SCENE (Tamil)"
+        ],
+        "canonical": "SCENE (Tamil)"
+      },
+      {
+        "aliases": [
+          "Ramayana"
+        ],
+        "canonical": "Ramayana"
+      },
+      {
+        "aliases": [
+          "DISCO (Malayalam)"
+        ],
+        "canonical": "DISCO (Malayalam)"
+      },
+      {
+        "aliases": [
+          "Ramayana 3D"
+        ],
+        "canonical": "Ramayana 3D"
+      },
+      {
+        "aliases": [
+          "DISCO",
+          "Disco"
+        ],
+        "canonical": "Disco"
+      },
+      {
+        "aliases": [
+          "Ramayana (Hindi)"
+        ],
+        "canonical": "Ramayana (Hindi)"
+      },
+      {
+        "aliases": [
+          "Mookuthi Amman 2"
+        ],
+        "canonical": "Mookuthi Amman 2"
+      },
+      {
+        "aliases": [
+          "418"
+        ],
+        "canonical": "418"
       },
       {
         "aliases": [
@@ -381,10 +531,9 @@
       },
       {
         "aliases": [
-          "DISCO",
-          "Disco"
+          "Scene"
         ],
-        "canonical": "DISCO"
+        "canonical": "Scene"
       },
       {
         "aliases": [
@@ -394,64 +543,9 @@
       },
       {
         "aliases": [
-          "418"
-        ],
-        "canonical": "418"
-      },
-      {
-        "aliases": [
           "Ramayana (Malayalam)"
         ],
         "canonical": "Ramayana (Malayalam)"
-      },
-      {
-        "aliases": [
-          "Ramayana 3D"
-        ],
-        "canonical": "Ramayana 3D"
-      },
-      {
-        "aliases": [
-          "Ramayana: Part 1"
-        ],
-        "canonical": "Ramayana: Part 1"
-      },
-      {
-        "aliases": [
-          "Mookuthi Amman 2"
-        ],
-        "canonical": "Mookuthi Amman 2"
-      },
-      {
-        "aliases": [
-          "Ramayana (Hindi)"
-        ],
-        "canonical": "Ramayana (Hindi)"
-      },
-      {
-        "aliases": [
-          "JAILER 2",
-          "Jailer 2"
-        ],
-        "canonical": "Jailer 2"
-      },
-      {
-        "aliases": [
-          "Ramayana"
-        ],
-        "canonical": "Ramayana"
-      },
-      {
-        "aliases": [
-          "Scene"
-        ],
-        "canonical": "Scene"
-      },
-      {
-        "aliases": [
-          "SCENE (Tamil)"
-        ],
-        "canonical": "SCENE (Tamil)"
       }
     ]
   }
