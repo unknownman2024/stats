@@ -1,6 +1,6 @@
 {
   "date": "2026-11-09",
-  "last_updated": "2026-11-05T23:07:20.315952+05:30",
+  "last_updated": "2026-11-06T09:07:17.473165+05:30",
   "movies": {
     "DISCO": {
       "gross": 0,
@@ -286,17 +286,17 @@
       "tickets_sold": 4
     },
     "Scene": {
-      "gross": 1200,
+      "gross": 1950,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 750,
+              "gross": 1500,
               "movie": "Scene",
               "screen": "Aiswarya",
               "showid": "10024",
-              "tickets_sold": 5,
+              "tickets_sold": 10,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
             },
@@ -310,9 +310,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 1200,
+          "gross": 1950,
           "shows": 2,
-          "tickets_sold": 8
+          "tickets_sold": 13
         },
         "without_gross": {
           "breakdown": [
@@ -377,11 +377,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 750,
+          "gross": 1500,
           "movie": "Scene",
           "screen": "Aiswarya",
           "showid": "10024",
-          "tickets_sold": 5,
+          "tickets_sold": 10,
           "time": "11:00 AM",
           "venue": "Aiswarya Cinemas"
         },
@@ -450,29 +450,11 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 8
+      "tickets_sold": 13
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "DISCO (Malayalam)"
-        ],
-        "canonical": "DISCO (Malayalam)"
-      },
-      {
-        "aliases": [
-          "Mookuthi Amman 2 - World Of Mahasakthi"
-        ],
-        "canonical": "Mookuthi Amman 2 - World Of Mahasakthi"
-      },
-      {
-        "aliases": [
-          "JAILER 2"
-        ],
-        "canonical": "JAILER 2"
-      },
       {
         "aliases": [
           "Ramayana (Hindi)"
@@ -481,15 +463,16 @@
       },
       {
         "aliases": [
-          "Scene"
-        ],
-        "canonical": "Scene"
-      },
-      {
-        "aliases": [
+          "Ramayana ( Malayalam )",
           "Ramayana (Malayalam)"
         ],
         "canonical": "Ramayana (Malayalam)"
+      },
+      {
+        "aliases": [
+          "DISCO (Malayalam)"
+        ],
+        "canonical": "DISCO (Malayalam)"
       },
       {
         "aliases": [
@@ -499,12 +482,13 @@
       },
       {
         "aliases": [
-          "Mookuthi Amman 2"
+          "JAILER 2"
         ],
-        "canonical": "Mookuthi Amman 2"
+        "canonical": "JAILER 2"
       },
       {
         "aliases": [
+          "Namit Malhotra's Ramayana",
           "Namit Malhotras Ramayana"
         ],
         "canonical": "Namit Malhotras Ramayana"
@@ -514,13 +498,43 @@
           "DISCO",
           "Disco"
         ],
-        "canonical": "Disco"
+        "canonical": "DISCO"
+      },
+      {
+        "aliases": [
+          "Mookuthi Amman 2"
+        ],
+        "canonical": "Mookuthi Amman 2"
+      },
+      {
+        "aliases": [
+          "Ramayana: Part 1"
+        ],
+        "canonical": "Ramayana: Part 1"
       },
       {
         "aliases": [
           "SCENE (Tamil)"
         ],
         "canonical": "SCENE (Tamil)"
+      },
+      {
+        "aliases": [
+          "Ramayana 3D"
+        ],
+        "canonical": "Ramayana 3D"
+      },
+      {
+        "aliases": [
+          "Scene"
+        ],
+        "canonical": "Scene"
+      },
+      {
+        "aliases": [
+          "Mookuthi Amman 2 - World Of Mahasakthi"
+        ],
+        "canonical": "Mookuthi Amman 2 - World Of Mahasakthi"
       }
     ]
   }
