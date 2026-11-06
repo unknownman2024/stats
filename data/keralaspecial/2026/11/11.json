@@ -1,7 +1,101 @@
 {
   "date": "2026-11-11",
-  "last_updated": "2026-11-06T17:23:55.047737+05:30",
+  "last_updated": "2026-11-07T00:30:30.345744+05:30",
   "movies": {
+    "DISCO": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Disco",
+              "screen": "SCREEN 2",
+              "showid": "5159",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Disco",
+              "screen": "SCREEN 2",
+              "showid": "5160",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Disco",
+              "screen": "SCREEN 2",
+              "showid": "5161",
+              "tickets_sold": 0,
+              "time": "06:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Disco",
+              "screen": "SCREEN 2",
+              "showid": "5162",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "shows": 4,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Disco",
+          "screen": "SCREEN 2",
+          "showid": "5159",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Disco",
+          "screen": "SCREEN 2",
+          "showid": "5160",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Disco",
+          "screen": "SCREEN 2",
+          "showid": "5161",
+          "tickets_sold": 0,
+          "time": "06:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Disco",
+          "screen": "SCREEN 2",
+          "showid": "5162",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Fairyland Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 0
+    },
     "Disco": {
       "gross": 0,
       "occupancy": null,
@@ -97,14 +191,24 @@
       "tickets_sold": 0
     },
     "Namit Malhotras Ramayana": {
-      "gross": 0,
+      "gross": 1800,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 1800,
+              "movie": "Namit Malhotras Ramayana",
+              "screen": "Screen-2",
+              "showid": "10083",
+              "tickets_sold": 12,
+              "time": "06:00 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 1800,
+          "shows": 1,
+          "tickets_sold": 12
         },
         "without_gross": {
           "breakdown": [
@@ -130,15 +234,6 @@
               "gross": 0,
               "movie": "Namit Malhotras Ramayana",
               "screen": "Screen-2",
-              "showid": "10083",
-              "tickets_sold": 0,
-              "time": "06:00 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Namit Malhotras Ramayana",
-              "screen": "Screen-2",
               "showid": "10084",
               "tickets_sold": 0,
               "time": "09:45 PM",
@@ -154,11 +249,20 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 5,
+          "shows": 4,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1800,
+          "movie": "Namit Malhotras Ramayana",
+          "screen": "Screen-2",
+          "showid": "10083",
+          "tickets_sold": 12,
+          "time": "06:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Namit Malhotras Ramayana",
@@ -181,15 +285,6 @@
           "gross": 0,
           "movie": "Namit Malhotras Ramayana",
           "screen": "Screen-2",
-          "showid": "10083",
-          "tickets_sold": 0,
-          "time": "06:00 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Namit Malhotras Ramayana",
-          "screen": "Screen-2",
           "showid": "10084",
           "tickets_sold": 0,
           "time": "09:45 PM",
@@ -206,7 +301,7 @@
         }
       ],
       "shows": 5,
-      "tickets_sold": 0
+      "tickets_sold": 12
     },
     "Ramayana": {
       "gross": 0,
@@ -401,15 +496,16 @@
     "merged_movies": [
       {
         "aliases": [
-          "Ramayana"
+          "Scene"
         ],
-        "canonical": "Ramayana"
+        "canonical": "Scene"
       },
       {
         "aliases": [
-          "Ramayana (Hindi)"
+          "JAILER 2",
+          "Jailer 2"
         ],
-        "canonical": "Ramayana (Hindi)"
+        "canonical": "JAILER 2"
       },
       {
         "aliases": [
@@ -419,9 +515,28 @@
       },
       {
         "aliases": [
-          "Ramayana 3D"
+          "Unknown"
         ],
-        "canonical": "Ramayana 3D"
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Mookuthi Amman 2"
+        ],
+        "canonical": "Mookuthi Amman 2"
+      },
+      {
+        "aliases": [
+          "Ramayana: Part 1"
+        ],
+        "canonical": "Ramayana: Part 1"
+      },
+      {
+        "aliases": [
+          "DISCO",
+          "Disco"
+        ],
+        "canonical": "DISCO"
       },
       {
         "aliases": [
@@ -431,9 +546,9 @@
       },
       {
         "aliases": [
-          "Mookuthi Amman 2"
+          "Ramayana"
         ],
-        "canonical": "Mookuthi Amman 2"
+        "canonical": "Ramayana"
       },
       {
         "aliases": [
@@ -444,22 +559,9 @@
       },
       {
         "aliases": [
-          "DISCO",
-          "Disco"
+          "Ramayana 3D"
         ],
-        "canonical": "Disco"
-      },
-      {
-        "aliases": [
-          "Scene"
-        ],
-        "canonical": "Scene"
-      },
-      {
-        "aliases": [
-          "JAILER 2"
-        ],
-        "canonical": "JAILER 2"
+        "canonical": "Ramayana 3D"
       },
       {
         "aliases": [
@@ -470,15 +572,15 @@
       },
       {
         "aliases": [
-          "Ramayana: Part 1"
-        ],
-        "canonical": "Ramayana: Part 1"
-      },
-      {
-        "aliases": [
           "SCENE (Tamil)"
         ],
         "canonical": "SCENE (Tamil)"
+      },
+      {
+        "aliases": [
+          "Ramayana (Hindi)"
+        ],
+        "canonical": "Ramayana (Hindi)"
       }
     ]
   }
