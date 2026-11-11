@@ -1,6 +1,6 @@
 {
   "date": "2026-11-12",
-  "last_updated": "2026-11-11T01:28:29.914916+05:30",
+  "last_updated": "2026-11-11T06:03:54.332548+05:30",
   "movies": {
     "DISCO": {
       "gross": 300,
@@ -276,6 +276,24 @@
         "with_gross": {
           "breakdown": [
             {
+              "gross": 10650,
+              "movie": "Ramayana",
+              "screen": "SCREEN 3",
+              "showid": "5197",
+              "tickets_sold": 71,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 5250,
+              "movie": "Ramayana",
+              "screen": "SCREEN 3",
+              "showid": "5196",
+              "tickets_sold": 35,
+              "time": "05:45 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
               "gross": 750,
               "movie": "Ramayana",
               "screen": "SCREEN 3",
@@ -291,24 +309,6 @@
               "showid": "5195",
               "tickets_sold": 3,
               "time": "02:00 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 5250,
-              "movie": "Ramayana",
-              "screen": "SCREEN 3",
-              "showid": "5196",
-              "tickets_sold": 35,
-              "time": "05:45 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 10650,
-              "movie": "Ramayana",
-              "screen": "SCREEN 3",
-              "showid": "5197",
-              "tickets_sold": 71,
-              "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
             }
           ],
@@ -404,11 +404,20 @@
       "tickets_sold": 0
     },
     "Ramayana (Malayalam)": {
-      "gross": 12450,
+      "gross": 12750,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
+            {
+              "gross": 5250,
+              "movie": "Ramayana (Malayalam)",
+              "screen": null,
+              "showid": "20483",
+              "tickets_sold": 35,
+              "time": "09:15 PM",
+              "venue": "Puthet Cinemas"
+            },
             {
               "gross": 3000,
               "movie": "Ramayana 3D (Malayalam)",
@@ -437,15 +446,6 @@
               "venue": "Davis Theatre"
             },
             {
-              "gross": 300,
-              "movie": "Ramayana (Malayalam)",
-              "screen": null,
-              "showid": "20484",
-              "tickets_sold": 2,
-              "time": "10:30 AM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 1200,
               "movie": "Ramayana (Malayalam)",
               "screen": null,
@@ -455,18 +455,18 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 5250,
+              "gross": 600,
               "movie": "Ramayana (Malayalam)",
               "screen": null,
-              "showid": "20483",
-              "tickets_sold": 35,
-              "time": "09:15 PM",
+              "showid": "20484",
+              "tickets_sold": 4,
+              "time": "10:30 AM",
               "venue": "Puthet Cinemas"
             }
           ],
-          "gross": 12450,
+          "gross": 12750,
           "shows": 6,
-          "tickets_sold": 83
+          "tickets_sold": 85
         },
         "without_gross": {
           "breakdown": [
@@ -531,11 +531,11 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 300,
+          "gross": 600,
           "movie": "Ramayana (Malayalam)",
           "screen": null,
           "showid": "20484",
-          "tickets_sold": 2,
+          "tickets_sold": 4,
           "time": "10:30 AM",
           "venue": "Puthet Cinemas"
         },
@@ -550,7 +550,7 @@
         }
       ],
       "shows": 7,
-      "tickets_sold": 83
+      "tickets_sold": 85
     },
     "SCENE (Tamil)": {
       "gross": 0,
@@ -836,12 +836,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "Ramayana: Part 1"
-        ],
-        "canonical": "Ramayana: Part 1"
-      },
-      {
-        "aliases": [
           "Ramayana ( Malayalam )",
           "Ramayana (Malayalam)",
           "Ramayana 3D (Malayalam)"
@@ -850,10 +844,33 @@
       },
       {
         "aliases": [
-          "JAILER 2",
-          "Jailer 2"
+          "Ramayana (Hindi)"
         ],
-        "canonical": "Jailer 2"
+        "canonical": "Ramayana (Hindi)"
+      },
+      {
+        "aliases": [
+          "Ramayana: Part 1"
+        ],
+        "canonical": "Ramayana: Part 1"
+      },
+      {
+        "aliases": [
+          "SCENE (Tamil)"
+        ],
+        "canonical": "SCENE (Tamil)"
+      },
+      {
+        "aliases": [
+          "Disco"
+        ],
+        "canonical": "Disco"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -864,39 +881,9 @@
       },
       {
         "aliases": [
-          "Ramayana 3D"
-        ],
-        "canonical": "Ramayana 3D"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "SCENE (Tamil)"
-        ],
-        "canonical": "SCENE (Tamil)"
-      },
-      {
-        "aliases": [
           "Ramayana"
         ],
         "canonical": "Ramayana"
-      },
-      {
-        "aliases": [
-          "Ramayana (Hindi)"
-        ],
-        "canonical": "Ramayana (Hindi)"
-      },
-      {
-        "aliases": [
-          "Mookuthi Amman 2 - World Of Mahasakthi"
-        ],
-        "canonical": "Mookuthi Amman 2 - World Of Mahasakthi"
       },
       {
         "aliases": [
@@ -906,9 +893,22 @@
       },
       {
         "aliases": [
-          "Disco"
+          "Ramayana 3D"
         ],
-        "canonical": "Disco"
+        "canonical": "Ramayana 3D"
+      },
+      {
+        "aliases": [
+          "JAILER 2",
+          "Jailer 2"
+        ],
+        "canonical": "Jailer 2"
+      },
+      {
+        "aliases": [
+          "Mookuthi Amman 2 - World Of Mahasakthi"
+        ],
+        "canonical": "Mookuthi Amman 2 - World Of Mahasakthi"
       }
     ]
   }

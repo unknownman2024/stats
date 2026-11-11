@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "last_updated": "2026-11-11T01:28:29.916933+05:30",
+  "last_updated": "2026-11-11T06:03:54.337099+05:30",
   "movies": {
     "Namit Malhotras Ramayana": {
       "gross": 3300,
@@ -104,15 +104,6 @@
         "with_gross": {
           "breakdown": [
             {
-              "gross": 600,
-              "movie": "Ramayana",
-              "screen": "SCREEN 3",
-              "showid": "5207",
-              "tickets_sold": 4,
-              "time": "02:00 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
               "gross": 6450,
               "movie": "Ramayana",
               "screen": "SCREEN 3",
@@ -128,6 +119,15 @@
               "showid": "5209",
               "tickets_sold": 26,
               "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 600,
+              "movie": "Ramayana",
+              "screen": "SCREEN 3",
+              "showid": "5207",
+              "tickets_sold": 4,
+              "time": "02:00 PM",
               "venue": "Fairyland Cinemas"
             }
           ],
@@ -199,24 +199,6 @@
         "with_gross": {
           "breakdown": [
             {
-              "gross": 1500,
-              "movie": "Ramayana 3D (Malayalam)",
-              "screen": "Cinema-1",
-              "showid": "23474",
-              "tickets_sold": 10,
-              "time": "11:00 AM",
-              "venue": "Davis Theatre"
-            },
-            {
-              "gross": 1650,
-              "movie": "Ramayana 3D (Malayalam)",
-              "screen": "Cinema-1",
-              "showid": "23475",
-              "tickets_sold": 11,
-              "time": "02:35 PM",
-              "venue": "Davis Theatre"
-            },
-            {
               "gross": 2250,
               "movie": "Ramayana 3D (Malayalam)",
               "screen": "Cinema-1",
@@ -229,9 +211,27 @@
               "gross": 1650,
               "movie": "Ramayana 3D (Malayalam)",
               "screen": "Cinema-1",
+              "showid": "23475",
+              "tickets_sold": 11,
+              "time": "02:35 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 1650,
+              "movie": "Ramayana 3D (Malayalam)",
+              "screen": "Cinema-1",
               "showid": "23477",
               "tickets_sold": 11,
               "time": "10:00 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 1500,
+              "movie": "Ramayana 3D (Malayalam)",
+              "screen": "Cinema-1",
+              "showid": "23474",
+              "tickets_sold": 10,
+              "time": "11:00 AM",
               "venue": "Davis Theatre"
             }
           ],
@@ -293,15 +293,6 @@
         "with_gross": {
           "breakdown": [
             {
-              "gross": 150,
-              "movie": "Scene",
-              "screen": "SCREEN 1",
-              "showid": "5223",
-              "tickets_sold": 1,
-              "time": "02:30 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
               "gross": 3600,
               "movie": "Scene",
               "screen": "SCREEN 1",
@@ -317,6 +308,15 @@
               "showid": "5225",
               "tickets_sold": 24,
               "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 150,
+              "movie": "Scene",
+              "screen": "SCREEN 1",
+              "showid": "5223",
+              "tickets_sold": 1,
+              "time": "02:30 PM",
               "venue": "Fairyland Cinemas"
             }
           ],
@@ -458,12 +458,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "Ramayana: Part 1"
-        ],
-        "canonical": "Ramayana: Part 1"
-      },
-      {
-        "aliases": [
           "Ramayana ( Malayalam )",
           "Ramayana (Malayalam)",
           "Ramayana 3D (Malayalam)"
@@ -472,10 +466,33 @@
       },
       {
         "aliases": [
-          "JAILER 2",
-          "Jailer 2"
+          "Ramayana (Hindi)"
         ],
-        "canonical": "Jailer 2"
+        "canonical": "Ramayana (Hindi)"
+      },
+      {
+        "aliases": [
+          "Ramayana: Part 1"
+        ],
+        "canonical": "Ramayana: Part 1"
+      },
+      {
+        "aliases": [
+          "SCENE (Tamil)"
+        ],
+        "canonical": "SCENE (Tamil)"
+      },
+      {
+        "aliases": [
+          "Disco"
+        ],
+        "canonical": "Disco"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -486,39 +503,9 @@
       },
       {
         "aliases": [
-          "Ramayana 3D"
-        ],
-        "canonical": "Ramayana 3D"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "SCENE (Tamil)"
-        ],
-        "canonical": "SCENE (Tamil)"
-      },
-      {
-        "aliases": [
           "Ramayana"
         ],
         "canonical": "Ramayana"
-      },
-      {
-        "aliases": [
-          "Ramayana (Hindi)"
-        ],
-        "canonical": "Ramayana (Hindi)"
-      },
-      {
-        "aliases": [
-          "Mookuthi Amman 2 - World Of Mahasakthi"
-        ],
-        "canonical": "Mookuthi Amman 2 - World Of Mahasakthi"
       },
       {
         "aliases": [
@@ -528,9 +515,22 @@
       },
       {
         "aliases": [
-          "Disco"
+          "Ramayana 3D"
         ],
-        "canonical": "Disco"
+        "canonical": "Ramayana 3D"
+      },
+      {
+        "aliases": [
+          "JAILER 2",
+          "Jailer 2"
+        ],
+        "canonical": "Jailer 2"
+      },
+      {
+        "aliases": [
+          "Mookuthi Amman 2 - World Of Mahasakthi"
+        ],
+        "canonical": "Mookuthi Amman 2 - World Of Mahasakthi"
       }
     ]
   }
