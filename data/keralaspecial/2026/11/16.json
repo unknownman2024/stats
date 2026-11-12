@@ -1,16 +1,26 @@
 {
   "date": "2026-11-16",
-  "last_updated": "2026-11-12T08:48:23.800352+05:30",
+  "last_updated": "2026-11-12T17:15:43.341727+05:30",
   "movies": {
     "Namit Malhotras Ramayana": {
-      "gross": 0,
+      "gross": 300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 300,
+              "movie": "Namit Malhotras Ramayana",
+              "screen": "Aiswarya",
+              "showid": "10193",
+              "tickets_sold": 2,
+              "time": "02:30 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 300,
+          "shows": 1,
+          "tickets_sold": 2
         },
         "without_gross": {
           "breakdown": [
@@ -21,15 +31,6 @@
               "showid": "10192",
               "tickets_sold": 0,
               "time": "10:45 AM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Namit Malhotras Ramayana",
-              "screen": "Aiswarya",
-              "showid": "10193",
-              "tickets_sold": 0,
-              "time": "02:30 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -51,11 +52,20 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 4,
+          "shows": 3,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 300,
+          "movie": "Namit Malhotras Ramayana",
+          "screen": "Aiswarya",
+          "showid": "10193",
+          "tickets_sold": 2,
+          "time": "02:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Namit Malhotras Ramayana",
@@ -63,15 +73,6 @@
           "showid": "10192",
           "tickets_sold": 0,
           "time": "10:45 AM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Namit Malhotras Ramayana",
-          "screen": "Aiswarya",
-          "showid": "10193",
-          "tickets_sold": 0,
-          "time": "02:30 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
@@ -94,7 +95,7 @@
         }
       ],
       "shows": 4,
-      "tickets_sold": 0
+      "tickets_sold": 2
     },
     "Scene": {
       "gross": 0,
@@ -195,6 +196,39 @@
     "merged_movies": [
       {
         "aliases": [
+          "Scene"
+        ],
+        "canonical": "Scene"
+      },
+      {
+        "aliases": [
+          "Bouma"
+        ],
+        "canonical": "Bouma"
+      },
+      {
+        "aliases": [
+          "Melcow Pondicherry"
+        ],
+        "canonical": "Melcow Pondicherry"
+      },
+      {
+        "aliases": [
+          "Namit Malhotra's Ramayana",
+          "Namit Malhotras Ramayana",
+          "Namit Malhotras Ramayana (Hindi)",
+          "Namit Malhotras Ramayana (Tamil)"
+        ],
+        "canonical": "Namit Malhotras Ramayana"
+      },
+      {
+        "aliases": [
+          "SCENE (Tamil)"
+        ],
+        "canonical": "SCENE (Tamil)"
+      },
+      {
+        "aliases": [
           "Ramayana ( Malayalam )",
           "Ramayana (Malayalam)",
           "Ramayana 3D (Malayalam)"
@@ -215,30 +249,9 @@
       },
       {
         "aliases": [
-          "Ramayana: Part 1"
+          "Ramayana 3D"
         ],
-        "canonical": "Ramayana: Part 1"
-      },
-      {
-        "aliases": [
-          "Bouma"
-        ],
-        "canonical": "Bouma"
-      },
-      {
-        "aliases": [
-          "Namit Malhotra's Ramayana",
-          "Namit Malhotras Ramayana",
-          "Namit Malhotras Ramayana (Hindi)",
-          "Namit Malhotras Ramayana (Tamil)"
-        ],
-        "canonical": "Namit Malhotras Ramayana"
-      },
-      {
-        "aliases": [
-          "SCENE (Tamil)"
-        ],
-        "canonical": "SCENE (Tamil)"
+        "canonical": "Ramayana 3D"
       },
       {
         "aliases": [
@@ -248,21 +261,15 @@
       },
       {
         "aliases": [
-          "Melcow Pondicherry"
+          "Madhumozhi"
         ],
-        "canonical": "Melcow Pondicherry"
+        "canonical": "Madhumozhi"
       },
       {
         "aliases": [
-          "Scene"
+          "Ramayana: Part 1"
         ],
-        "canonical": "Scene"
-      },
-      {
-        "aliases": [
-          "Ramayana 3D"
-        ],
-        "canonical": "Ramayana 3D"
+        "canonical": "Ramayana: Part 1"
       }
     ]
   }
