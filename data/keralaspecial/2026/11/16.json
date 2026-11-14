@@ -1,6 +1,6 @@
 {
   "date": "2026-11-16",
-  "last_updated": "2026-11-14T03:24:55.458911+05:30",
+  "last_updated": "2026-11-14T07:30:31.558376+05:30",
   "movies": {
     "Bouma": {
       "gross": 0,
@@ -209,27 +209,18 @@
       "tickets_sold": 0
     },
     "Namit Malhotras Ramayana": {
-      "gross": 5400,
+      "gross": 6150,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 4650,
+              "gross": 5400,
               "movie": "Namit Malhotras Ramayana",
               "screen": "Aiswarya",
               "showid": "10194",
-              "tickets_sold": 31,
+              "tickets_sold": 36,
               "time": "06:00 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 300,
-              "movie": "Namit Malhotras Ramayana",
-              "screen": "Aiswarya",
-              "showid": "10193",
-              "tickets_sold": 2,
-              "time": "02:30 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -240,11 +231,20 @@
               "tickets_sold": 3,
               "time": "09:45 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "Namit Malhotras Ramayana",
+              "screen": "Aiswarya",
+              "showid": "10193",
+              "tickets_sold": 2,
+              "time": "02:30 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 5400,
+          "gross": 6150,
           "shows": 3,
-          "tickets_sold": 36
+          "tickets_sold": 41
         },
         "without_gross": {
           "breakdown": [
@@ -291,11 +291,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 4650,
+          "gross": 5400,
           "movie": "Namit Malhotras Ramayana",
           "screen": "Aiswarya",
           "showid": "10194",
-          "tickets_sold": 31,
+          "tickets_sold": 36,
           "time": "06:00 PM",
           "venue": "Aiswarya Cinemas"
         },
@@ -355,7 +355,7 @@
         }
       ],
       "shows": 7,
-      "tickets_sold": 36
+      "tickets_sold": 41
     },
     "Ramayana (Malayalam)": {
       "gross": 3450,
@@ -533,62 +533,11 @@
     "merged_movies": [
       {
         "aliases": [
-          "Namit Malhotra's Ramayana",
-          "Namit Malhotras Ramayana",
-          "Namit Malhotras Ramayana (Hindi)",
-          "Namit Malhotras Ramayana (Tamil)"
-        ],
-        "canonical": "Namit Malhotras Ramayana"
-      },
-      {
-        "aliases": [
-          "Melcow Pondicherry"
-        ],
-        "canonical": "Melcow Pondicherry"
-      },
-      {
-        "aliases": [
-          "Bauma"
-        ],
-        "canonical": "Bauma"
-      },
-      {
-        "aliases": [
-          "Ramayana"
-        ],
-        "canonical": "Ramayana"
-      },
-      {
-        "aliases": [
-          "Bouma [Malayalam]"
-        ],
-        "canonical": "Bouma [Malayalam]"
-      },
-      {
-        "aliases": [
-          "Madhumozhi"
-        ],
-        "canonical": "Madhumozhi"
-      },
-      {
-        "aliases": [
-          "SCENE (Tamil)"
-        ],
-        "canonical": "SCENE (Tamil)"
-      },
-      {
-        "aliases": [
           "Ramayana ( Malayalam )",
           "Ramayana (Malayalam)",
           "Ramayana 3D (Malayalam)"
         ],
         "canonical": "Ramayana (Malayalam)"
-      },
-      {
-        "aliases": [
-          "Ramayana 3D"
-        ],
-        "canonical": "Ramayana 3D"
       },
       {
         "aliases": [
@@ -598,9 +547,42 @@
       },
       {
         "aliases": [
-          "Scene"
+          "Namit Malhotra's Ramayana",
+          "Namit Malhotras Ramayana",
+          "Namit Malhotras Ramayana (Hindi)",
+          "Namit Malhotras Ramayana (Tamil)"
         ],
-        "canonical": "Scene"
+        "canonical": "Namit Malhotras Ramayana"
+      },
+      {
+        "aliases": [
+          "Bauma"
+        ],
+        "canonical": "Bauma"
+      },
+      {
+        "aliases": [
+          "Bouma [Malayalam]"
+        ],
+        "canonical": "Bouma [Malayalam]"
+      },
+      {
+        "aliases": [
+          "Ramayana"
+        ],
+        "canonical": "Ramayana"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Madhumozhi"
+        ],
+        "canonical": "Madhumozhi"
       },
       {
         "aliases": [
@@ -610,9 +592,27 @@
       },
       {
         "aliases": [
-          "Unknown"
+          "Scene"
         ],
-        "canonical": "Unknown"
+        "canonical": "Scene"
+      },
+      {
+        "aliases": [
+          "Ramayana 3D"
+        ],
+        "canonical": "Ramayana 3D"
+      },
+      {
+        "aliases": [
+          "SCENE (Tamil)"
+        ],
+        "canonical": "SCENE (Tamil)"
+      },
+      {
+        "aliases": [
+          "Melcow Pondicherry"
+        ],
+        "canonical": "Melcow Pondicherry"
       }
     ]
   }

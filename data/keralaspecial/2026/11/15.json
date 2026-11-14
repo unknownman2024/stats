@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "last_updated": "2026-11-14T03:24:55.457245+05:30",
+  "last_updated": "2026-11-14T07:30:31.557059+05:30",
   "movies": {
     "Bauma": {
       "gross": 0,
@@ -79,7 +79,7 @@
       "tickets_sold": 0
     },
     "Bouma": {
-      "gross": 3300,
+      "gross": 3600,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -110,11 +110,20 @@
               "tickets_sold": 5,
               "time": "02:45 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 300,
+              "movie": "Bouma",
+              "screen": "Screen-3",
+              "showid": "10280",
+              "tickets_sold": 2,
+              "time": "07:15 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 3300,
-          "shows": 3,
-          "tickets_sold": 22
+          "gross": 3600,
+          "shows": 4,
+          "tickets_sold": 24
         },
         "without_gross": {
           "breakdown": [
@@ -153,18 +162,9 @@
               "tickets_sold": 0,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Bouma",
-              "screen": "Screen-3",
-              "showid": "10280",
-              "tickets_sold": 0,
-              "time": "07:15 PM",
-              "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 5,
+          "shows": 4,
           "tickets_sold": 0
         }
       },
@@ -195,6 +195,15 @@
           "tickets_sold": 5,
           "time": "02:45 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "Bouma",
+          "screen": "Screen-3",
+          "showid": "10280",
+          "tickets_sold": 2,
+          "time": "07:15 PM",
+          "venue": "Aiswarya Cinemas"
         },
         {
           "gross": 0,
@@ -231,19 +240,10 @@
           "tickets_sold": 0,
           "time": "09:30 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Bouma",
-          "screen": "Screen-3",
-          "showid": "10280",
-          "tickets_sold": 0,
-          "time": "07:15 PM",
-          "venue": "Aiswarya Cinemas"
         }
       ],
       "shows": 8,
-      "tickets_sold": 22
+      "tickets_sold": 24
     },
     "Madhumozhi": {
       "gross": 0,
@@ -506,17 +506,17 @@
       "tickets_sold": 0
     },
     "Namit Malhotras Ramayana": {
-      "gross": 111000,
+      "gross": 112050,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 38100,
+              "gross": 38700,
               "movie": "Namit Malhotras Ramayana",
               "screen": "Aiswarya",
               "showid": "10190",
-              "tickets_sold": 254,
+              "tickets_sold": 258,
               "time": "06:00 PM",
               "venue": "Aiswarya Cinemas"
             },
@@ -539,21 +539,12 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 9600,
+              "gross": 10050,
               "movie": "Namit Malhotras Ramayana",
               "screen": "Aiswarya",
               "showid": "10191",
-              "tickets_sold": 64,
+              "tickets_sold": 67,
               "time": "09:45 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 3150,
-              "movie": "Namit Malhotras Ramayana (Tamil)",
-              "screen": "Screen-2",
-              "showid": "10239",
-              "tickets_sold": 21,
-              "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
             },
             {
@@ -566,6 +557,15 @@
               "venue": "Aiswarya Cinemas"
             },
             {
+              "gross": 3150,
+              "movie": "Namit Malhotras Ramayana (Tamil)",
+              "screen": "Screen-2",
+              "showid": "10239",
+              "tickets_sold": 21,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
               "gross": 1050,
               "movie": "Namit Malhotras Ramayana (Hindi)",
               "screen": "Screen-2",
@@ -575,9 +575,9 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 111000,
+          "gross": 112050,
           "shows": 7,
-          "tickets_sold": 740
+          "tickets_sold": 747
         },
         "without_gross": {
           "breakdown": [
@@ -606,11 +606,11 @@
       },
       "show_breakdown": [
         {
-          "gross": 38100,
+          "gross": 38700,
           "movie": "Namit Malhotras Ramayana",
           "screen": "Aiswarya",
           "showid": "10190",
-          "tickets_sold": 254,
+          "tickets_sold": 258,
           "time": "06:00 PM",
           "venue": "Aiswarya Cinemas"
         },
@@ -633,11 +633,11 @@
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 9600,
+          "gross": 10050,
           "movie": "Namit Malhotras Ramayana",
           "screen": "Aiswarya",
           "showid": "10191",
-          "tickets_sold": 64,
+          "tickets_sold": 67,
           "time": "09:45 PM",
           "venue": "Aiswarya Cinemas"
         },
@@ -688,10 +688,10 @@
         }
       ],
       "shows": 9,
-      "tickets_sold": 740
+      "tickets_sold": 747
     },
     "Ramayana": {
-      "gross": 102600,
+      "gross": 103200,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -724,11 +724,11 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 18000,
+              "gross": 18150,
               "movie": "Ramayana",
               "screen": "SCREEN 3",
               "showid": "5206",
-              "tickets_sold": 120,
+              "tickets_sold": 121,
               "time": "10:15 AM",
               "venue": "Fairyland Cinemas"
             },
@@ -742,18 +742,18 @@
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 9300,
+              "gross": 9750,
               "movie": "Ramayana",
               "screen": "SCREEN 4",
               "showid": "5250",
-              "tickets_sold": 62,
+              "tickets_sold": 65,
               "time": "02:00 PM",
               "venue": "Fairyland Cinemas"
             }
           ],
-          "gross": 102600,
+          "gross": 103200,
           "shows": 6,
-          "tickets_sold": 684
+          "tickets_sold": 688
         },
         "without_gross": {
           "breakdown": [],
@@ -790,11 +790,11 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 18000,
+          "gross": 18150,
           "movie": "Ramayana",
           "screen": "SCREEN 3",
           "showid": "5206",
-          "tickets_sold": 120,
+          "tickets_sold": 121,
           "time": "10:15 AM",
           "venue": "Fairyland Cinemas"
         },
@@ -808,39 +808,48 @@
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 9300,
+          "gross": 9750,
           "movie": "Ramayana",
           "screen": "SCREEN 4",
           "showid": "5250",
-          "tickets_sold": 62,
+          "tickets_sold": 65,
           "time": "02:00 PM",
           "venue": "Fairyland Cinemas"
         }
       ],
       "shows": 6,
-      "tickets_sold": 684
+      "tickets_sold": 688
     },
     "Ramayana (Malayalam)": {
-      "gross": 126450,
+      "gross": 128100,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 27150,
+              "gross": 27300,
               "movie": "Ramayana (Malayalam)",
               "screen": null,
               "showid": "20523",
-              "tickets_sold": 181,
+              "tickets_sold": 182,
               "time": "06:00 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 20400,
+              "gross": 21750,
+              "movie": "Ramayana (Malayalam)",
+              "screen": null,
+              "showid": "20525",
+              "tickets_sold": 145,
+              "time": "10:00 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 21000,
               "movie": "Ramayana (Malayalam)",
               "screen": null,
               "showid": "20526",
-              "tickets_sold": 136,
+              "tickets_sold": 140,
               "time": "05:45 PM",
               "venue": "Puthet Cinemas"
             },
@@ -854,15 +863,6 @@
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 10200,
-              "movie": "Ramayana 3D (Malayalam)",
-              "screen": "Cinema-1",
-              "showid": "23475",
-              "tickets_sold": 68,
-              "time": "02:35 PM",
-              "venue": "Davis Theatre"
-            },
-            {
               "gross": 11400,
               "movie": "Ramayana 3D (Malayalam)",
               "screen": "Cinema-1",
@@ -872,13 +872,22 @@
               "venue": "Davis Theatre"
             },
             {
-              "gross": 21600,
+              "gross": 11850,
               "movie": "Ramayana (Malayalam)",
               "screen": null,
-              "showid": "20525",
-              "tickets_sold": 144,
-              "time": "10:00 AM",
+              "showid": "20527",
+              "tickets_sold": 79,
+              "time": "09:20 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 10200,
+              "movie": "Ramayana 3D (Malayalam)",
+              "screen": "Cinema-1",
+              "showid": "23475",
+              "tickets_sold": 68,
+              "time": "02:35 PM",
+              "venue": "Davis Theatre"
             },
             {
               "gross": 5400,
@@ -890,15 +899,6 @@
               "venue": "Davis Theatre"
             },
             {
-              "gross": 11100,
-              "movie": "Ramayana (Malayalam)",
-              "screen": null,
-              "showid": "20527",
-              "tickets_sold": 74,
-              "time": "09:20 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
               "gross": 3000,
               "movie": "Ramayana 3D (Malayalam)",
               "screen": "Cinema-1",
@@ -908,9 +908,9 @@
               "venue": "Davis Theatre"
             }
           ],
-          "gross": 126450,
+          "gross": 128100,
           "shows": 9,
-          "tickets_sold": 843
+          "tickets_sold": 854
         },
         "without_gross": {
           "breakdown": [],
@@ -920,29 +920,29 @@
       },
       "show_breakdown": [
         {
-          "gross": 27150,
+          "gross": 27300,
           "movie": "Ramayana (Malayalam)",
           "screen": null,
           "showid": "20523",
-          "tickets_sold": 181,
+          "tickets_sold": 182,
           "time": "06:00 PM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 21600,
+          "gross": 21750,
           "movie": "Ramayana (Malayalam)",
           "screen": null,
           "showid": "20525",
-          "tickets_sold": 144,
+          "tickets_sold": 145,
           "time": "10:00 AM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 20400,
+          "gross": 21000,
           "movie": "Ramayana (Malayalam)",
           "screen": null,
           "showid": "20526",
-          "tickets_sold": 136,
+          "tickets_sold": 140,
           "time": "05:45 PM",
           "venue": "Puthet Cinemas"
         },
@@ -956,6 +956,15 @@
           "venue": "Puthet Cinemas"
         },
         {
+          "gross": 11850,
+          "movie": "Ramayana (Malayalam)",
+          "screen": null,
+          "showid": "20527",
+          "tickets_sold": 79,
+          "time": "09:20 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
           "gross": 11400,
           "movie": "Ramayana 3D (Malayalam)",
           "screen": "Cinema-1",
@@ -963,15 +972,6 @@
           "tickets_sold": 76,
           "time": "06:10 PM",
           "venue": "Davis Theatre"
-        },
-        {
-          "gross": 11100,
-          "movie": "Ramayana (Malayalam)",
-          "screen": null,
-          "showid": "20527",
-          "tickets_sold": 74,
-          "time": "09:20 PM",
-          "venue": "Puthet Cinemas"
         },
         {
           "gross": 10200,
@@ -1002,7 +1002,7 @@
         }
       ],
       "shows": 9,
-      "tickets_sold": 843
+      "tickets_sold": 854
     },
     "SCENE (Tamil)": {
       "gross": 4350,
@@ -1132,15 +1132,6 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 750,
-              "movie": "Scene",
-              "screen": "SCREEN 1",
-              "showid": "5222",
-              "tickets_sold": 5,
-              "time": "11:00 AM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
               "gross": 1650,
               "movie": "Scene",
               "screen": "Athulya",
@@ -1148,6 +1139,15 @@
               "tickets_sold": 11,
               "time": "02:15 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 750,
+              "movie": "Scene",
+              "screen": "SCREEN 1",
+              "showid": "5222",
+              "tickets_sold": 5,
+              "time": "11:00 AM",
+              "venue": "Fairyland Cinemas"
             },
             {
               "gross": 150,
@@ -1288,62 +1288,11 @@
     "merged_movies": [
       {
         "aliases": [
-          "Namit Malhotra's Ramayana",
-          "Namit Malhotras Ramayana",
-          "Namit Malhotras Ramayana (Hindi)",
-          "Namit Malhotras Ramayana (Tamil)"
-        ],
-        "canonical": "Namit Malhotras Ramayana"
-      },
-      {
-        "aliases": [
-          "Melcow Pondicherry"
-        ],
-        "canonical": "Melcow Pondicherry"
-      },
-      {
-        "aliases": [
-          "Bauma"
-        ],
-        "canonical": "Bauma"
-      },
-      {
-        "aliases": [
-          "Ramayana"
-        ],
-        "canonical": "Ramayana"
-      },
-      {
-        "aliases": [
-          "Bouma [Malayalam]"
-        ],
-        "canonical": "Bouma [Malayalam]"
-      },
-      {
-        "aliases": [
-          "Madhumozhi"
-        ],
-        "canonical": "Madhumozhi"
-      },
-      {
-        "aliases": [
-          "SCENE (Tamil)"
-        ],
-        "canonical": "SCENE (Tamil)"
-      },
-      {
-        "aliases": [
           "Ramayana ( Malayalam )",
           "Ramayana (Malayalam)",
           "Ramayana 3D (Malayalam)"
         ],
         "canonical": "Ramayana (Malayalam)"
-      },
-      {
-        "aliases": [
-          "Ramayana 3D"
-        ],
-        "canonical": "Ramayana 3D"
       },
       {
         "aliases": [
@@ -1353,9 +1302,42 @@
       },
       {
         "aliases": [
-          "Scene"
+          "Namit Malhotra's Ramayana",
+          "Namit Malhotras Ramayana",
+          "Namit Malhotras Ramayana (Hindi)",
+          "Namit Malhotras Ramayana (Tamil)"
         ],
-        "canonical": "Scene"
+        "canonical": "Namit Malhotras Ramayana"
+      },
+      {
+        "aliases": [
+          "Bauma"
+        ],
+        "canonical": "Bauma"
+      },
+      {
+        "aliases": [
+          "Bouma [Malayalam]"
+        ],
+        "canonical": "Bouma [Malayalam]"
+      },
+      {
+        "aliases": [
+          "Ramayana"
+        ],
+        "canonical": "Ramayana"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Madhumozhi"
+        ],
+        "canonical": "Madhumozhi"
       },
       {
         "aliases": [
@@ -1365,9 +1347,27 @@
       },
       {
         "aliases": [
-          "Unknown"
+          "Scene"
         ],
-        "canonical": "Unknown"
+        "canonical": "Scene"
+      },
+      {
+        "aliases": [
+          "Ramayana 3D"
+        ],
+        "canonical": "Ramayana 3D"
+      },
+      {
+        "aliases": [
+          "SCENE (Tamil)"
+        ],
+        "canonical": "SCENE (Tamil)"
+      },
+      {
+        "aliases": [
+          "Melcow Pondicherry"
+        ],
+        "canonical": "Melcow Pondicherry"
       }
     ]
   }
