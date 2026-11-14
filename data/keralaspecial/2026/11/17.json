@@ -1,6 +1,6 @@
 {
   "date": "2026-11-17",
-  "last_updated": "2026-11-14T14:23:56.749421+05:30",
+  "last_updated": "2026-11-14T21:08:16.429281+05:30",
   "movies": {
     "Bouma": {
       "gross": 0,
@@ -169,14 +169,24 @@
       "tickets_sold": 0
     },
     "Melcow Pondicherry": {
-      "gross": 0,
+      "gross": 300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 300,
+              "movie": "Melcow Pondicherry",
+              "screen": "Screen-1",
+              "showid": "10289",
+              "tickets_sold": 2,
+              "time": "04:30 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "gross": 300,
+          "shows": 1,
+          "tickets_sold": 2
         },
         "without_gross": {
           "breakdown": [
@@ -202,15 +212,6 @@
               "gross": 0,
               "movie": "Melcow Pondicherry",
               "screen": "Screen-1",
-              "showid": "10289",
-              "tickets_sold": 0,
-              "time": "04:30 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Melcow Pondicherry",
-              "screen": "Screen-1",
               "showid": "10290",
               "tickets_sold": 0,
               "time": "07:00 PM",
@@ -226,11 +227,20 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 5,
+          "shows": 4,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 300,
+          "movie": "Melcow Pondicherry",
+          "screen": "Screen-1",
+          "showid": "10289",
+          "tickets_sold": 2,
+          "time": "04:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Melcow Pondicherry",
@@ -253,15 +263,6 @@
           "gross": 0,
           "movie": "Melcow Pondicherry",
           "screen": "Screen-1",
-          "showid": "10289",
-          "tickets_sold": 0,
-          "time": "04:30 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Melcow Pondicherry",
-          "screen": "Screen-1",
           "showid": "10290",
           "tickets_sold": 0,
           "time": "07:00 PM",
@@ -278,27 +279,27 @@
         }
       ],
       "shows": 5,
-      "tickets_sold": 0
+      "tickets_sold": 2
     },
     "Namit Malhotras Ramayana": {
-      "gross": 3750,
+      "gross": 4500,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 3750,
+              "gross": 4500,
               "movie": "Namit Malhotras Ramayana",
               "screen": "Aiswarya",
               "showid": "10274",
-              "tickets_sold": 25,
+              "tickets_sold": 30,
               "time": "06:00 PM",
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 3750,
+          "gross": 4500,
           "shows": 1,
-          "tickets_sold": 25
+          "tickets_sold": 30
         },
         "without_gross": {
           "breakdown": [
@@ -355,19 +356,46 @@
               "tickets_sold": 0,
               "time": "06:30 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Namit Malhotras Ramayana",
+              "screen": "Screen-2",
+              "showid": "10322",
+              "tickets_sold": 0,
+              "time": "02:45 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Namit Malhotras Ramayana",
+              "screen": "Screen-2",
+              "showid": "10323",
+              "tickets_sold": 0,
+              "time": "06:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Namit Malhotras Ramayana",
+              "screen": "Screen-2",
+              "showid": "10324",
+              "tickets_sold": 0,
+              "time": "10:00 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 6,
+          "shows": 9,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 3750,
+          "gross": 4500,
           "movie": "Namit Malhotras Ramayana",
           "screen": "Aiswarya",
           "showid": "10274",
-          "tickets_sold": 25,
+          "tickets_sold": 30,
           "time": "06:00 PM",
           "venue": "Aiswarya Cinemas"
         },
@@ -424,10 +452,37 @@
           "tickets_sold": 0,
           "time": "06:30 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Namit Malhotras Ramayana",
+          "screen": "Screen-2",
+          "showid": "10322",
+          "tickets_sold": 0,
+          "time": "02:45 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Namit Malhotras Ramayana",
+          "screen": "Screen-2",
+          "showid": "10323",
+          "tickets_sold": 0,
+          "time": "06:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Namit Malhotras Ramayana",
+          "screen": "Screen-2",
+          "showid": "10324",
+          "tickets_sold": 0,
+          "time": "10:00 PM",
+          "venue": "Aiswarya Cinemas"
         }
       ],
-      "shows": 7,
-      "tickets_sold": 25
+      "shows": 10,
+      "tickets_sold": 30
     },
     "Ramayana (Malayalam)": {
       "gross": 0,
@@ -552,9 +607,45 @@
               "tickets_sold": 0,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Scene",
+              "screen": null,
+              "showid": "20551",
+              "tickets_sold": 0,
+              "time": "10:45 AM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Scene",
+              "screen": null,
+              "showid": "20552",
+              "tickets_sold": 0,
+              "time": "01:45 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Scene",
+              "screen": null,
+              "showid": "20553",
+              "tickets_sold": 0,
+              "time": "07:05 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Scene",
+              "screen": null,
+              "showid": "20554",
+              "tickets_sold": 0,
+              "time": "09:50 PM",
+              "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 4,
+          "shows": 8,
           "tickets_sold": 0
         }
       },
@@ -594,14 +685,74 @@
           "tickets_sold": 0,
           "time": "09:30 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Scene",
+          "screen": null,
+          "showid": "20551",
+          "tickets_sold": 0,
+          "time": "10:45 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Scene",
+          "screen": null,
+          "showid": "20552",
+          "tickets_sold": 0,
+          "time": "01:45 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Scene",
+          "screen": null,
+          "showid": "20553",
+          "tickets_sold": 0,
+          "time": "07:05 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Scene",
+          "screen": null,
+          "showid": "20554",
+          "tickets_sold": 0,
+          "time": "09:50 PM",
+          "venue": "Puthet Cinemas"
         }
       ],
-      "shows": 4,
+      "shows": 8,
       "tickets_sold": 0
     }
   },
   "verification": {
     "merged_movies": [
+      {
+        "aliases": [
+          "Ramayana"
+        ],
+        "canonical": "Ramayana"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Bouma [Malayalam]"
+        ],
+        "canonical": "Bouma [Malayalam]"
+      },
+      {
+        "aliases": [
+          "Bouma"
+        ],
+        "canonical": "Bouma"
+      },
       {
         "aliases": [
           "Ramayana ( Malayalam )",
@@ -621,39 +772,15 @@
       },
       {
         "aliases": [
-          "SCENE (Tamil)"
-        ],
-        "canonical": "SCENE (Tamil)"
-      },
-      {
-        "aliases": [
-          "Bouma [Malayalam]"
-        ],
-        "canonical": "Bouma [Malayalam]"
-      },
-      {
-        "aliases": [
-          "Scene"
-        ],
-        "canonical": "Scene"
-      },
-      {
-        "aliases": [
-          "Ramayana"
-        ],
-        "canonical": "Ramayana"
-      },
-      {
-        "aliases": [
-          "Ramayana: Part 1"
-        ],
-        "canonical": "Ramayana: Part 1"
-      },
-      {
-        "aliases": [
           "Ramayana 3D"
         ],
         "canonical": "Ramayana 3D"
+      },
+      {
+        "aliases": [
+          "Bauma"
+        ],
+        "canonical": "Bauma"
       },
       {
         "aliases": [
@@ -663,21 +790,21 @@
       },
       {
         "aliases": [
+          "Scene"
+        ],
+        "canonical": "Scene"
+      },
+      {
+        "aliases": [
+          "SCENE (Tamil)"
+        ],
+        "canonical": "SCENE (Tamil)"
+      },
+      {
+        "aliases": [
           "Madhumozhi"
         ],
         "canonical": "Madhumozhi"
-      },
-      {
-        "aliases": [
-          "Bouma"
-        ],
-        "canonical": "Bouma"
-      },
-      {
-        "aliases": [
-          "Bauma"
-        ],
-        "canonical": "Bauma"
       }
     ]
   }
