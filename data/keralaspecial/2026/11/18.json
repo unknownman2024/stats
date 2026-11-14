@@ -1,6 +1,6 @@
 {
   "date": "2026-11-18",
-  "last_updated": "2026-11-14T21:08:16.430447+05:30",
+  "last_updated": "2026-11-15T01:59:25.316091+05:30",
   "movies": {
     "Bouma": {
       "gross": 0,
@@ -85,9 +85,18 @@
               "tickets_sold": 0,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Bouma",
+              "screen": "Screen-3",
+              "showid": "10330",
+              "tickets_sold": 0,
+              "time": "04:30 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 9,
           "tickets_sold": 0
         }
       },
@@ -163,9 +172,18 @@
           "tickets_sold": 0,
           "time": "09:30 PM",
           "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Bouma",
+          "screen": "Screen-3",
+          "showid": "10330",
+          "tickets_sold": 0,
+          "time": "04:30 PM",
+          "venue": "Aiswarya Cinemas"
         }
       ],
-      "shows": 8,
+      "shows": 9,
       "tickets_sold": 0
     },
     "Melcow Pondicherry": {
@@ -560,14 +578,24 @@
       "tickets_sold": 0
     },
     "Scene": {
-      "gross": 0,
+      "gross": 300,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 300,
+              "movie": "Scene",
+              "screen": null,
+              "showid": "20557",
+              "tickets_sold": 2,
+              "time": "07:05 PM",
+              "venue": "Puthet Cinemas"
+            }
+          ],
+          "gross": 300,
+          "shows": 1,
+          "tickets_sold": 2
         },
         "without_gross": {
           "breakdown": [
@@ -629,26 +657,26 @@
               "gross": 0,
               "movie": "Scene",
               "screen": null,
-              "showid": "20557",
-              "tickets_sold": 0,
-              "time": "07:05 PM",
-              "venue": "Puthet Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Scene",
-              "screen": null,
               "showid": "20558",
               "tickets_sold": 0,
               "time": "09:50 PM",
               "venue": "Puthet Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 7,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 300,
+          "movie": "Scene",
+          "screen": null,
+          "showid": "20557",
+          "tickets_sold": 2,
+          "time": "07:05 PM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Scene",
@@ -707,15 +735,6 @@
           "gross": 0,
           "movie": "Scene",
           "screen": null,
-          "showid": "20557",
-          "tickets_sold": 0,
-          "time": "07:05 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Scene",
-          "screen": null,
           "showid": "20558",
           "tickets_sold": 0,
           "time": "09:50 PM",
@@ -723,43 +742,11 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 0
+      "tickets_sold": 2
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "Ramayana"
-        ],
-        "canonical": "Ramayana"
-      },
-      {
-        "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
-          "Bouma [Malayalam]"
-        ],
-        "canonical": "Bouma [Malayalam]"
-      },
-      {
-        "aliases": [
-          "Bouma"
-        ],
-        "canonical": "Bouma"
-      },
-      {
-        "aliases": [
-          "Ramayana ( Malayalam )",
-          "Ramayana (Malayalam)",
-          "Ramayana 3D (Malayalam)"
-        ],
-        "canonical": "Ramayana (Malayalam)"
-      },
       {
         "aliases": [
           "Namit Malhotra's Ramayana",
@@ -777,15 +764,17 @@
       },
       {
         "aliases": [
-          "Bauma"
+          "Ramayana ( Malayalam )",
+          "Ramayana (Malayalam)",
+          "Ramayana 3D (Malayalam)"
         ],
-        "canonical": "Bauma"
+        "canonical": "Ramayana (Malayalam)"
       },
       {
         "aliases": [
-          "Melcow Pondicherry"
+          "Unknown"
         ],
-        "canonical": "Melcow Pondicherry"
+        "canonical": "Unknown"
       },
       {
         "aliases": [
@@ -795,15 +784,51 @@
       },
       {
         "aliases": [
-          "SCENE (Tamil)"
+          "Ramayana"
         ],
-        "canonical": "SCENE (Tamil)"
+        "canonical": "Ramayana"
+      },
+      {
+        "aliases": [
+          "Bouma"
+        ],
+        "canonical": "Bouma"
       },
       {
         "aliases": [
           "Madhumozhi"
         ],
         "canonical": "Madhumozhi"
+      },
+      {
+        "aliases": [
+          "Ramayana: Part 1"
+        ],
+        "canonical": "Ramayana: Part 1"
+      },
+      {
+        "aliases": [
+          "Bouma [Malayalam]"
+        ],
+        "canonical": "Bouma [Malayalam]"
+      },
+      {
+        "aliases": [
+          "Melcow Pondicherry"
+        ],
+        "canonical": "Melcow Pondicherry"
+      },
+      {
+        "aliases": [
+          "Bauma"
+        ],
+        "canonical": "Bauma"
+      },
+      {
+        "aliases": [
+          "SCENE (Tamil)"
+        ],
+        "canonical": "SCENE (Tamil)"
       }
     ]
   }
