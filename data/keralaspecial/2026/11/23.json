@@ -1,6 +1,6 @@
 {
   "date": "2026-11-23",
-  "last_updated": "2026-11-21T04:29:10.479602+05:30",
+  "last_updated": "2026-11-21T09:23:58.960455+05:30",
   "movies": {
     "AOT": {
       "gross": 0,
@@ -470,14 +470,33 @@
       "tickets_sold": 0
     },
     "Ramayana": {
-      "gross": 0,
+      "gross": 1350,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 300,
+              "movie": "Ramayana",
+              "screen": "SCREEN 3",
+              "showid": "5415",
+              "tickets_sold": 2,
+              "time": "02:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 1050,
+              "movie": "Ramayana",
+              "screen": "SCREEN 3",
+              "showid": "5416",
+              "tickets_sold": 7,
+              "time": "05:45 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "gross": 1350,
+          "shows": 2,
+          "tickets_sold": 9
         },
         "without_gross": {
           "breakdown": [
@@ -530,35 +549,35 @@
               "gross": 0,
               "movie": "Ramayana",
               "screen": "SCREEN 3",
-              "showid": "5415",
-              "tickets_sold": 0,
-              "time": "02:00 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Ramayana",
-              "screen": "SCREEN 3",
-              "showid": "5416",
-              "tickets_sold": 0,
-              "time": "05:45 PM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Ramayana",
-              "screen": "SCREEN 3",
               "showid": "5417",
               "tickets_sold": 0,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 8,
+          "shows": 6,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1050,
+          "movie": "Ramayana",
+          "screen": "SCREEN 3",
+          "showid": "5416",
+          "tickets_sold": 7,
+          "time": "05:45 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 300,
+          "movie": "Ramayana",
+          "screen": "SCREEN 3",
+          "showid": "5415",
+          "tickets_sold": 2,
+          "time": "02:00 PM",
+          "venue": "Fairyland Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Ramayana",
@@ -608,24 +627,6 @@
           "gross": 0,
           "movie": "Ramayana",
           "screen": "SCREEN 3",
-          "showid": "5415",
-          "tickets_sold": 0,
-          "time": "02:00 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Ramayana",
-          "screen": "SCREEN 3",
-          "showid": "5416",
-          "tickets_sold": 0,
-          "time": "05:45 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Ramayana",
-          "screen": "SCREEN 3",
           "showid": "5417",
           "tickets_sold": 0,
           "time": "09:30 PM",
@@ -633,7 +634,7 @@
         }
       ],
       "shows": 8,
-      "tickets_sold": 0
+      "tickets_sold": 9
     },
     "Ramayana (Malayalam)": {
       "gross": 2400,
@@ -698,18 +699,15 @@
     "merged_movies": [
       {
         "aliases": [
-          "Bachelor Party D'eux",
-          "Bachelor Party Deux",
-          "Bachelor Party D\u2019eux"
+          "Ramayana 3D"
         ],
-        "canonical": "Bachelor Party Deux"
+        "canonical": "Ramayana 3D"
       },
       {
         "aliases": [
-          "Namit Malhotra's Ramayana",
-          "Namit Malhotras Ramayana"
+          "Bachelor Party Deux [Malayalam]"
         ],
-        "canonical": "Namit Malhotras Ramayana"
+        "canonical": "Bachelor Party Deux [Malayalam]"
       },
       {
         "aliases": [
@@ -721,33 +719,11 @@
       },
       {
         "aliases": [
-          "Bachelor Party Deux [Malayalam]"
+          "Bachelor Party D'eux",
+          "Bachelor Party Deux",
+          "Bachelor Party D\u2019eux"
         ],
-        "canonical": "Bachelor Party Deux [Malayalam]"
-      },
-      {
-        "aliases": [
-          "Ramayana 3D"
-        ],
-        "canonical": "Ramayana 3D"
-      },
-      {
-        "aliases": [
-          "Scene"
-        ],
-        "canonical": "Scene"
-      },
-      {
-        "aliases": [
-          "Bouma [Malayalam]"
-        ],
-        "canonical": "Bouma [Malayalam]"
-      },
-      {
-        "aliases": [
-          "AOT (Malayalam)"
-        ],
-        "canonical": "AOT (Malayalam)"
+        "canonical": "Bachelor Party Deux"
       },
       {
         "aliases": [
@@ -757,9 +733,16 @@
       },
       {
         "aliases": [
-          "Bouma"
+          "Bouma [Malayalam]"
         ],
-        "canonical": "Bouma"
+        "canonical": "Bouma [Malayalam]"
+      },
+      {
+        "aliases": [
+          "AOT- Aakasamlo Oka Tara",
+          "Aakasamlo Oka Tara"
+        ],
+        "canonical": "Aakasamlo Oka Tara"
       },
       {
         "aliases": [
@@ -769,15 +752,15 @@
       },
       {
         "aliases": [
-          "Unknown"
-        ],
-        "canonical": "Unknown"
-      },
-      {
-        "aliases": [
           "AOT"
         ],
         "canonical": "AOT"
+      },
+      {
+        "aliases": [
+          "AOT (Malayalam)"
+        ],
+        "canonical": "AOT (Malayalam)"
       },
       {
         "aliases": [
@@ -789,10 +772,22 @@
       },
       {
         "aliases": [
-          "AOT- Aakasamlo Oka Tara",
-          "Aakasamlo Oka Tara"
+          "Ramayana"
         ],
-        "canonical": "Aakasamlo Oka Tara"
+        "canonical": "Ramayana"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Namit Malhotra's Ramayana",
+          "Namit Malhotras Ramayana"
+        ],
+        "canonical": "Namit Malhotras Ramayana"
       },
       {
         "aliases": [
@@ -802,9 +797,15 @@
       },
       {
         "aliases": [
-          "Ramayana"
+          "Bouma"
         ],
-        "canonical": "Ramayana"
+        "canonical": "Bouma"
+      },
+      {
+        "aliases": [
+          "Scene"
+        ],
+        "canonical": "Scene"
       }
     ]
   }
