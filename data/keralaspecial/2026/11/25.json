@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "last_updated": "2026-11-21T17:44:56.076326+05:30",
+  "last_updated": "2026-11-22T01:13:54.083663+05:30",
   "movies": {
     "AOT": {
       "gross": 0,
@@ -209,7 +209,7 @@
       "tickets_sold": 0
     },
     "Namit Malhotras Ramayana": {
-      "gross": 300,
+      "gross": 2250,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -222,11 +222,20 @@
               "tickets_sold": 2,
               "time": "10:45 AM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 1950,
+              "movie": "Namit Malhotras Ramayana",
+              "screen": "Aiswarya",
+              "showid": "10369",
+              "tickets_sold": 13,
+              "time": "06:00 PM",
+              "venue": "Aiswarya Cinemas"
             }
           ],
-          "gross": 300,
-          "shows": 1,
-          "tickets_sold": 2
+          "gross": 2250,
+          "shows": 2,
+          "tickets_sold": 15
         },
         "without_gross": {
           "breakdown": [
@@ -243,26 +252,26 @@
               "gross": 0,
               "movie": "Namit Malhotras Ramayana",
               "screen": "Aiswarya",
-              "showid": "10369",
-              "tickets_sold": 0,
-              "time": "06:00 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Namit Malhotras Ramayana",
-              "screen": "Aiswarya",
               "showid": "10370",
               "tickets_sold": 0,
               "time": "09:45 PM",
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 3,
+          "shows": 2,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1950,
+          "movie": "Namit Malhotras Ramayana",
+          "screen": "Aiswarya",
+          "showid": "10369",
+          "tickets_sold": 13,
+          "time": "06:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
         {
           "gross": 300,
           "movie": "Namit Malhotras Ramayana",
@@ -285,15 +294,6 @@
           "gross": 0,
           "movie": "Namit Malhotras Ramayana",
           "screen": "Aiswarya",
-          "showid": "10369",
-          "tickets_sold": 0,
-          "time": "06:00 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Namit Malhotras Ramayana",
-          "screen": "Aiswarya",
           "showid": "10370",
           "tickets_sold": 0,
           "time": "09:45 PM",
@@ -301,7 +301,7 @@
         }
       ],
       "shows": 4,
-      "tickets_sold": 2
+      "tickets_sold": 15
     },
     "OM:Chapter 1": {
       "gross": 0,
@@ -568,21 +568,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "Ramayana ( Malayalam )",
-          "Ramayana (Malayalam)",
-          "Ramayana 3D (Malayalam)"
-        ],
-        "canonical": "Ramayana (Malayalam)"
-      },
-      {
-        "aliases": [
-          "AOT- Aakasamlo Oka Tara",
-          "Aakasamlo Oka Tara"
-        ],
-        "canonical": "Aakasamlo Oka Tara"
-      },
-      {
-        "aliases": [
           "Bachelor Party D'eux",
           "Bachelor Party Deux",
           "Bachelor Party D\u2019eux"
@@ -591,40 +576,33 @@
       },
       {
         "aliases": [
-          "Namit Malhotra's Ramayana",
-          "Namit Malhotras Ramayana"
+          "Ramayana: Part 1"
         ],
-        "canonical": "Namit Malhotras Ramayana"
-      },
-      {
-        "aliases": [
-          "Scene"
-        ],
-        "canonical": "Scene"
-      },
-      {
-        "aliases": [
-          "AOT (Malayalam)"
-        ],
-        "canonical": "AOT (Malayalam)"
-      },
-      {
-        "aliases": [
-          "AOT"
-        ],
-        "canonical": "AOT"
-      },
-      {
-        "aliases": [
-          "Bauma"
-        ],
-        "canonical": "Bauma"
+        "canonical": "Ramayana: Part 1"
       },
       {
         "aliases": [
           "Ramayana 3D"
         ],
         "canonical": "Ramayana 3D"
+      },
+      {
+        "aliases": [
+          "Bouma"
+        ],
+        "canonical": "Bouma"
+      },
+      {
+        "aliases": [
+          "Unknown"
+        ],
+        "canonical": "Unknown"
+      },
+      {
+        "aliases": [
+          "Scene"
+        ],
+        "canonical": "Scene"
       },
       {
         "aliases": [
@@ -642,9 +620,22 @@
       },
       {
         "aliases": [
+          "Namit Malhotra's Ramayana",
+          "Namit Malhotras Ramayana"
+        ],
+        "canonical": "Namit Malhotras Ramayana"
+      },
+      {
+        "aliases": [
           "Ramayana"
         ],
         "canonical": "Ramayana"
+      },
+      {
+        "aliases": [
+          "Aakasamlo Oka Tara"
+        ],
+        "canonical": "Aakasamlo Oka Tara"
       },
       {
         "aliases": [
@@ -654,15 +645,35 @@
       },
       {
         "aliases": [
-          "Ramayana: Part 1"
+          "Ramayana ( Malayalam )",
+          "Ramayana (Malayalam)",
+          "Ramayana 3D (Malayalam)"
         ],
-        "canonical": "Ramayana: Part 1"
+        "canonical": "Ramayana (Malayalam)"
       },
       {
         "aliases": [
-          "Bouma"
+          "AOT (Malayalam)"
         ],
-        "canonical": "Bouma"
+        "canonical": "AOT (Malayalam)"
+      },
+      {
+        "aliases": [
+          "Bouma [Malayalam]"
+        ],
+        "canonical": "Bouma [Malayalam]"
+      },
+      {
+        "aliases": [
+          "Bauma"
+        ],
+        "canonical": "Bauma"
+      },
+      {
+        "aliases": [
+          "AOT"
+        ],
+        "canonical": "AOT"
       }
     ]
   }
