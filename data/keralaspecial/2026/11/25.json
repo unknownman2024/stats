@@ -1,6 +1,6 @@
 {
   "date": "2026-11-25",
-  "last_updated": "2026-11-23T07:51:07.736179+05:30",
+  "last_updated": "2026-11-23T16:40:01.407742+05:30",
   "movies": {
     "AOT": {
       "gross": 0,
@@ -972,14 +972,24 @@
       "tickets_sold": 0
     },
     "Ramayana": {
-      "gross": 0,
+      "gross": 1950,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [],
-          "gross": 0,
-          "shows": 0,
-          "tickets_sold": 0
+          "breakdown": [
+            {
+              "gross": 1950,
+              "movie": "Ramayana",
+              "screen": "SCREEN 3",
+              "showid": "5425",
+              "tickets_sold": 13,
+              "time": "09:30 PM",
+              "venue": "Fairyland Cinemas"
+            }
+          ],
+          "gross": 1950,
+          "shows": 1,
+          "tickets_sold": 13
         },
         "without_gross": {
           "breakdown": [
@@ -1009,22 +1019,22 @@
               "tickets_sold": 0,
               "time": "05:45 PM",
               "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "Ramayana",
-              "screen": "SCREEN 3",
-              "showid": "5425",
-              "tickets_sold": 0,
-              "time": "09:30 PM",
-              "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 4,
+          "shows": 3,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1950,
+          "movie": "Ramayana",
+          "screen": "SCREEN 3",
+          "showid": "5425",
+          "tickets_sold": 13,
+          "time": "09:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
         {
           "gross": 0,
           "movie": "Ramayana",
@@ -1051,18 +1061,67 @@
           "tickets_sold": 0,
           "time": "05:45 PM",
           "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "Ramayana",
-          "screen": "SCREEN 3",
-          "showid": "5425",
-          "tickets_sold": 0,
-          "time": "09:30 PM",
-          "venue": "Fairyland Cinemas"
         }
       ],
       "shows": 4,
+      "tickets_sold": 13
+    },
+    "Ramayana (Malayalam)": {
+      "gross": 0,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Ramayana 3D (Malayalam)",
+              "screen": "Cinema-1",
+              "showid": "23612",
+              "tickets_sold": 0,
+              "time": "06:00 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "Ramayana 3D (Malayalam)",
+              "screen": "Cinema-1",
+              "showid": "23613",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Davis Theatre"
+            }
+          ],
+          "shows": 2,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Ramayana 3D (Malayalam)",
+          "screen": "Cinema-1",
+          "showid": "23612",
+          "tickets_sold": 0,
+          "time": "06:00 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "Ramayana 3D (Malayalam)",
+          "screen": "Cinema-1",
+          "showid": "23613",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Davis Theatre"
+        }
+      ],
+      "shows": 2,
       "tickets_sold": 0
     },
     "Scene": {
@@ -1128,20 +1187,6 @@
     "merged_movies": [
       {
         "aliases": [
-          "O.M Operation Mole",
-          "O.M \u2013 OPERATION MOLE",
-          "O.M: Operation Mole"
-        ],
-        "canonical": "O.M Operation Mole"
-      },
-      {
-        "aliases": [
-          "Ramayana"
-        ],
-        "canonical": "Ramayana"
-      },
-      {
-        "aliases": [
           "Bachelor Party D'eux",
           "Bachelor Party Deux",
           "Bachelor Party D\u2019eux"
@@ -1150,15 +1195,15 @@
       },
       {
         "aliases": [
-          "AOT (Malayalam)"
+          "Ramayana 3D"
         ],
-        "canonical": "AOT (Malayalam)"
+        "canonical": "Ramayana 3D"
       },
       {
         "aliases": [
-          "Bouma"
+          "Scene"
         ],
-        "canonical": "Bouma"
+        "canonical": "Scene"
       },
       {
         "aliases": [
@@ -1170,16 +1215,9 @@
       },
       {
         "aliases": [
-          "Ramayana: Part 1"
+          "AOT"
         ],
-        "canonical": "Ramayana: Part 1"
-      },
-      {
-        "aliases": [
-          "AOT- Aakasamlo Oka Tara",
-          "Aakasamlo Oka Tara"
-        ],
-        "canonical": "Aakasamlo Oka Tara"
+        "canonical": "AOT"
       },
       {
         "aliases": [
@@ -1196,21 +1234,10 @@
       },
       {
         "aliases": [
-          "OM:Chapter 1"
+          "AOT- Aakasamlo Oka Tara",
+          "Aakasamlo Oka Tara"
         ],
-        "canonical": "OM:Chapter 1"
-      },
-      {
-        "aliases": [
-          "Scene"
-        ],
-        "canonical": "Scene"
-      },
-      {
-        "aliases": [
-          "Ramayana 3D"
-        ],
-        "canonical": "Ramayana 3D"
+        "canonical": "Aakasamlo Oka Tara"
       },
       {
         "aliases": [
@@ -1220,9 +1247,41 @@
       },
       {
         "aliases": [
-          "AOT"
+          "Ramayana: Part 1"
         ],
-        "canonical": "AOT"
+        "canonical": "Ramayana: Part 1"
+      },
+      {
+        "aliases": [
+          "Bouma"
+        ],
+        "canonical": "Bouma"
+      },
+      {
+        "aliases": [
+          "AOT (Malayalam)"
+        ],
+        "canonical": "AOT (Malayalam)"
+      },
+      {
+        "aliases": [
+          "Ramayana"
+        ],
+        "canonical": "Ramayana"
+      },
+      {
+        "aliases": [
+          "OM:Chapter 1"
+        ],
+        "canonical": "OM:Chapter 1"
+      },
+      {
+        "aliases": [
+          "O.M Operation Mole",
+          "O.M \u2013 OPERATION MOLE",
+          "O.M: Operation Mole"
+        ],
+        "canonical": "O.M Operation Mole"
       }
     ]
   }
