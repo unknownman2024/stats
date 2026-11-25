@@ -1,9 +1,9 @@
 {
   "date": "2026-11-26",
-  "last_updated": "2026-11-25T17:58:06.207429+05:30",
+  "last_updated": "2026-11-26T03:27:21.921166+05:30",
   "movies": {
     "AOT": {
-      "gross": 750,
+      "gross": 4650,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
@@ -16,32 +16,59 @@
               "tickets_sold": 5,
               "time": "02:30 PM",
               "venue": "Puthet Cinemas"
-            }
-          ],
-          "gross": 750,
-          "shows": 1,
-          "tickets_sold": 5
-        },
-        "without_gross": {
-          "breakdown": [
+            },
             {
-              "gross": 0,
+              "gross": 600,
               "movie": "AOT",
               "screen": null,
               "showid": "20685",
-              "tickets_sold": 0,
+              "tickets_sold": 4,
               "time": "10:45 AM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 0,
+              "gross": 1500,
               "movie": "AOT",
               "screen": null,
               "showid": "20687",
-              "tickets_sold": 0,
+              "tickets_sold": 10,
               "time": "06:30 PM",
               "venue": "Puthet Cinemas"
             },
+            {
+              "gross": 450,
+              "movie": "AOT",
+              "screen": "SCREEN 4",
+              "showid": "5452",
+              "tickets_sold": 3,
+              "time": "02:15 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 750,
+              "movie": "AOT",
+              "screen": "SCREEN 4",
+              "showid": "5454",
+              "tickets_sold": 5,
+              "time": "09:45 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 600,
+              "movie": "AOT",
+              "screen": "SCREEN 2",
+              "showid": "11339",
+              "tickets_sold": 4,
+              "time": "06:10 PM",
+              "venue": "Harihar"
+            }
+          ],
+          "gross": 4650,
+          "shows": 6,
+          "tickets_sold": 31
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "AOT",
@@ -49,15 +76,6 @@
               "showid": "5451",
               "tickets_sold": 0,
               "time": "10:45 AM",
-              "venue": "Fairyland Cinemas"
-            },
-            {
-              "gross": 0,
-              "movie": "AOT",
-              "screen": "SCREEN 4",
-              "showid": "5452",
-              "tickets_sold": 0,
-              "time": "02:15 PM",
               "venue": "Fairyland Cinemas"
             },
             {
@@ -72,18 +90,36 @@
             {
               "gross": 0,
               "movie": "AOT",
-              "screen": "SCREEN 4",
-              "showid": "5454",
+              "screen": "SCREEN 2",
+              "showid": "11337",
               "tickets_sold": 0,
-              "time": "09:45 PM",
-              "venue": "Fairyland Cinemas"
+              "time": "11:15 AM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 0,
+              "movie": "AOT",
+              "screen": "SCREEN 2",
+              "showid": "11340",
+              "tickets_sold": 0,
+              "time": "09:40 PM",
+              "venue": "Harihar"
             }
           ],
-          "shows": 6,
+          "shows": 4,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
+        {
+          "gross": 1500,
+          "movie": "AOT",
+          "screen": null,
+          "showid": "20687",
+          "tickets_sold": 10,
+          "time": "06:30 PM",
+          "venue": "Puthet Cinemas"
+        },
         {
           "gross": 750,
           "movie": "AOT",
@@ -94,22 +130,40 @@
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 0,
+          "gross": 750,
+          "movie": "AOT",
+          "screen": "SCREEN 4",
+          "showid": "5454",
+          "tickets_sold": 5,
+          "time": "09:45 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 600,
           "movie": "AOT",
           "screen": null,
           "showid": "20685",
-          "tickets_sold": 0,
+          "tickets_sold": 4,
           "time": "10:45 AM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 0,
+          "gross": 600,
           "movie": "AOT",
-          "screen": null,
-          "showid": "20687",
-          "tickets_sold": 0,
-          "time": "06:30 PM",
-          "venue": "Puthet Cinemas"
+          "screen": "SCREEN 2",
+          "showid": "11339",
+          "tickets_sold": 4,
+          "time": "06:10 PM",
+          "venue": "Harihar"
+        },
+        {
+          "gross": 450,
+          "movie": "AOT",
+          "screen": "SCREEN 4",
+          "showid": "5452",
+          "tickets_sold": 3,
+          "time": "02:15 PM",
+          "venue": "Fairyland Cinemas"
         },
         {
           "gross": 0,
@@ -124,15 +178,6 @@
           "gross": 0,
           "movie": "AOT",
           "screen": "SCREEN 4",
-          "showid": "5452",
-          "tickets_sold": 0,
-          "time": "02:15 PM",
-          "venue": "Fairyland Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "AOT",
-          "screen": "SCREEN 4",
           "showid": "5453",
           "tickets_sold": 0,
           "time": "06:00 PM",
@@ -141,56 +186,150 @@
         {
           "gross": 0,
           "movie": "AOT",
-          "screen": "SCREEN 4",
-          "showid": "5454",
+          "screen": "SCREEN 2",
+          "showid": "11337",
           "tickets_sold": 0,
-          "time": "09:45 PM",
-          "venue": "Fairyland Cinemas"
+          "time": "11:15 AM",
+          "venue": "Harihar"
+        },
+        {
+          "gross": 0,
+          "movie": "AOT",
+          "screen": "SCREEN 2",
+          "showid": "11340",
+          "tickets_sold": 0,
+          "time": "09:40 PM",
+          "venue": "Harihar"
         }
       ],
-      "shows": 7,
-      "tickets_sold": 5
+      "shows": 10,
+      "tickets_sold": 31
     },
-    "Aakasamlo Oka Tara": {
-      "gross": 600,
+    "AOT (Malayalam)": {
+      "gross": 0,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [
-            {
-              "gross": 600,
-              "movie": "AOT- Aakasamlo Oka Tara",
-              "screen": "Screen-1",
-              "showid": "10533",
-              "tickets_sold": 4,
-              "time": "07:00 PM",
-              "venue": "Aiswarya Cinemas"
-            }
-          ],
-          "gross": 600,
-          "shows": 1,
-          "tickets_sold": 4
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
         },
         "without_gross": {
           "breakdown": [
             {
               "gross": 0,
+              "movie": "AOT (Malayalam)",
+              "screen": "Cinema-3",
+              "showid": "23634",
+              "tickets_sold": 0,
+              "time": "06:25 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "AOT (Malayalam)",
+              "screen": "Cinema-3",
+              "showid": "23635",
+              "tickets_sold": 0,
+              "time": "09:40 PM",
+              "venue": "Davis Theatre"
+            }
+          ],
+          "shows": 2,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "AOT (Malayalam)",
+          "screen": "Cinema-3",
+          "showid": "23634",
+          "tickets_sold": 0,
+          "time": "06:25 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "AOT (Malayalam)",
+          "screen": "Cinema-3",
+          "showid": "23635",
+          "tickets_sold": 0,
+          "time": "09:40 PM",
+          "venue": "Davis Theatre"
+        }
+      ],
+      "shows": 2,
+      "tickets_sold": 0
+    },
+    "Aakasamlo Oka Tara": {
+      "gross": 10650,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [
+            {
+              "gross": 1800,
+              "movie": "AOT- Aakasamlo Oka Tara",
+              "screen": "Screen-1",
+              "showid": "10533",
+              "tickets_sold": 12,
+              "time": "07:00 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 1050,
               "movie": "AOT- Aakasamlo Oka Tara",
               "screen": "Screen-1",
               "showid": "10531",
-              "tickets_sold": 0,
+              "tickets_sold": 7,
               "time": "11:00 AM",
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 0,
+              "gross": 300,
               "movie": "AOT- Aakasamlo Oka Tara",
               "screen": "Screen-1",
               "showid": "10532",
-              "tickets_sold": 0,
+              "tickets_sold": 2,
               "time": "02:15 PM",
               "venue": "Aiswarya Cinemas"
             },
+            {
+              "gross": 1950,
+              "movie": "Aakasamlo Oka Tara",
+              "screen": "SARITHA",
+              "showid": "21747",
+              "tickets_sold": 13,
+              "time": "11:15 AM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 1500,
+              "movie": "Aakasamlo Oka Tara",
+              "screen": "SARITHA",
+              "showid": "21748",
+              "tickets_sold": 10,
+              "time": "02:15 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 4050,
+              "movie": "Aakasamlo Oka Tara",
+              "screen": "SARITHA",
+              "showid": "21751",
+              "tickets_sold": 27,
+              "time": "09:45 PM",
+              "venue": "SFC"
+            }
+          ],
+          "gross": 10650,
+          "shows": 6,
+          "tickets_sold": 71
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "AOT- Aakasamlo Oka Tara",
@@ -201,35 +340,62 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 3,
+          "shows": 1,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 600,
+          "gross": 4050,
+          "movie": "Aakasamlo Oka Tara",
+          "screen": "SARITHA",
+          "showid": "21751",
+          "tickets_sold": 27,
+          "time": "09:45 PM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 1950,
+          "movie": "Aakasamlo Oka Tara",
+          "screen": "SARITHA",
+          "showid": "21747",
+          "tickets_sold": 13,
+          "time": "11:15 AM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 1800,
           "movie": "AOT- Aakasamlo Oka Tara",
           "screen": "Screen-1",
           "showid": "10533",
-          "tickets_sold": 4,
+          "tickets_sold": 12,
           "time": "07:00 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 0,
+          "gross": 1500,
+          "movie": "Aakasamlo Oka Tara",
+          "screen": "SARITHA",
+          "showid": "21748",
+          "tickets_sold": 10,
+          "time": "02:15 PM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 1050,
           "movie": "AOT- Aakasamlo Oka Tara",
           "screen": "Screen-1",
           "showid": "10531",
-          "tickets_sold": 0,
+          "tickets_sold": 7,
           "time": "11:00 AM",
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 0,
+          "gross": 300,
           "movie": "AOT- Aakasamlo Oka Tara",
           "screen": "Screen-1",
           "showid": "10532",
-          "tickets_sold": 0,
+          "tickets_sold": 2,
           "time": "02:15 PM",
           "venue": "Aiswarya Cinemas"
         },
@@ -243,8 +409,8 @@
           "venue": "Aiswarya Cinemas"
         }
       ],
-      "shows": 4,
-      "tickets_sold": 4
+      "shows": 7,
+      "tickets_sold": 71
     },
     "Bachelor Party D'eux": {
       "gross": 0,
@@ -340,73 +506,325 @@
       "shows": 4,
       "tickets_sold": 0
     },
-    "Hail Mary": {
-      "gross": 2250,
+    "Bachelor Party D\u2019eux": {
+      "gross": 0,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
-          "breakdown": [
-            {
-              "gross": 600,
-              "movie": "Hail Mary",
-              "screen": "Screen-3",
-              "showid": "10529",
-              "tickets_sold": 4,
-              "time": "07:00 PM",
-              "venue": "Aiswarya Cinemas"
-            },
-            {
-              "gross": 1200,
-              "movie": "Hail Mary",
-              "screen": "Dolby Atmos",
-              "showid": "6216",
-              "tickets_sold": 8,
-              "time": "06:30 PM",
-              "venue": "Girija Theatre"
-            },
-            {
-              "gross": 450,
-              "movie": "Hail Mary",
-              "screen": "Dolby Atmos",
-              "showid": "6217",
-              "tickets_sold": 3,
-              "time": "09:30 PM",
-              "venue": "Girija Theatre"
-            }
-          ],
-          "gross": 2250,
-          "shows": 3,
-          "tickets_sold": 15
+          "breakdown": [],
+          "gross": 0,
+          "shows": 0,
+          "tickets_sold": 0
         },
         "without_gross": {
           "breakdown": [
             {
               "gross": 0,
+              "movie": "Bachelor Party D\u2019eux",
+              "screen": "Athulya",
+              "showid": "10523",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Bachelor Party D\u2019eux",
+              "screen": "Athulya",
+              "showid": "10524",
+              "tickets_sold": 0,
+              "time": "02:15 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Bachelor Party D\u2019eux",
+              "screen": "Athulya",
+              "showid": "10525",
+              "tickets_sold": 0,
+              "time": "05:30 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "Bachelor Party D\u2019eux",
+              "screen": "Athulya",
+              "showid": "10526",
+              "tickets_sold": 0,
+              "time": "09:00 PM",
+              "venue": "Aiswarya Cinemas"
+            }
+          ],
+          "shows": 4,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 0,
+          "movie": "Bachelor Party D\u2019eux",
+          "screen": "Athulya",
+          "showid": "10523",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Bachelor Party D\u2019eux",
+          "screen": "Athulya",
+          "showid": "10524",
+          "tickets_sold": 0,
+          "time": "02:15 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Bachelor Party D\u2019eux",
+          "screen": "Athulya",
+          "showid": "10525",
+          "tickets_sold": 0,
+          "time": "05:30 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "Bachelor Party D\u2019eux",
+          "screen": "Athulya",
+          "showid": "10526",
+          "tickets_sold": 0,
+          "time": "09:00 PM",
+          "venue": "Aiswarya Cinemas"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 0
+    },
+    "Bouma": {
+      "gross": 300,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [
+            {
+              "gross": 300,
+              "movie": "Bouma",
+              "screen": "SARITHA",
+              "showid": "21750",
+              "tickets_sold": 2,
+              "time": "07:30 PM",
+              "venue": "SFC"
+            }
+          ],
+          "gross": 300,
+          "shows": 1,
+          "tickets_sold": 2
+        },
+        "without_gross": {
+          "breakdown": [
+            {
+              "gross": 0,
+              "movie": "Bouma",
+              "screen": "SARITHA",
+              "showid": "21749",
+              "tickets_sold": 0,
+              "time": "05:15 PM",
+              "venue": "SFC"
+            }
+          ],
+          "shows": 1,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 300,
+          "movie": "Bouma",
+          "screen": "SARITHA",
+          "showid": "21750",
+          "tickets_sold": 2,
+          "time": "07:30 PM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 0,
+          "movie": "Bouma",
+          "screen": "SARITHA",
+          "showid": "21749",
+          "tickets_sold": 0,
+          "time": "05:15 PM",
+          "venue": "SFC"
+        }
+      ],
+      "shows": 2,
+      "tickets_sold": 2
+    },
+    "Hail Mary": {
+      "gross": 13650,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [
+            {
+              "gross": 1650,
+              "movie": "Hail Mary",
+              "screen": "Dolby Atmos",
+              "showid": "6216",
+              "tickets_sold": 11,
+              "time": "06:30 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 1350,
+              "movie": "Hail Mary",
+              "screen": "Screen-3",
+              "showid": "10529",
+              "tickets_sold": 9,
+              "time": "07:00 PM",
+              "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 600,
+              "movie": "Hail Mary",
+              "screen": "Dolby Atmos",
+              "showid": "6217",
+              "tickets_sold": 4,
+              "time": "09:30 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 150,
               "movie": "Hail Mary",
               "screen": null,
               "showid": "20681",
-              "tickets_sold": 0,
+              "tickets_sold": 1,
               "time": "11:00 AM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 0,
+              "gross": 2700,
               "movie": "Hail Mary",
               "screen": null,
               "showid": "20683",
-              "tickets_sold": 0,
+              "tickets_sold": 18,
               "time": "06:15 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 0,
+              "gross": 1200,
               "movie": "Hail Mary",
               "screen": null,
               "showid": "20684",
-              "tickets_sold": 0,
+              "tickets_sold": 8,
               "time": "09:15 PM",
               "venue": "Puthet Cinemas"
             },
+            {
+              "gross": 150,
+              "movie": "Hail Mary",
+              "screen": "Dolby Atmos",
+              "showid": "6215",
+              "tickets_sold": 1,
+              "time": "03:00 PM",
+              "venue": "Girija Theatre"
+            },
+            {
+              "gross": 450,
+              "movie": "Hail Mary",
+              "screen": "SAMUDRA",
+              "showid": "21757",
+              "tickets_sold": 3,
+              "time": "11:30 AM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 150,
+              "movie": "Hail Mary",
+              "screen": "SAMUDRA",
+              "showid": "21758",
+              "tickets_sold": 1,
+              "time": "02:30 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 1050,
+              "movie": "Hail Mary",
+              "screen": "SAMUDRA",
+              "showid": "21759",
+              "tickets_sold": 7,
+              "time": "05:30 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 300,
+              "movie": "Hail Mary",
+              "screen": "SAMUDRA",
+              "showid": "21760",
+              "tickets_sold": 2,
+              "time": "08:30 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 900,
+              "movie": "Hail Mary",
+              "screen": "SCREEN 1",
+              "showid": "11334",
+              "tickets_sold": 6,
+              "time": "11:30 AM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 750,
+              "movie": "Hail Mary",
+              "screen": "SCREEN 2",
+              "showid": "11338",
+              "tickets_sold": 5,
+              "time": "02:45 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 1350,
+              "movie": "Hail Mary",
+              "screen": "SCREEN 1",
+              "showid": "11336",
+              "tickets_sold": 9,
+              "time": "09:45 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 300,
+              "movie": "Hail Mary",
+              "screen": "SCREEN 2",
+              "showid": "7721",
+              "tickets_sold": 2,
+              "time": "11:15 AM",
+              "venue": "Issacs"
+            },
+            {
+              "gross": 300,
+              "movie": "Hail Mary",
+              "screen": "SCREEN 2",
+              "showid": "7722",
+              "tickets_sold": 2,
+              "time": "02:15 PM",
+              "venue": "Issacs"
+            },
+            {
+              "gross": 300,
+              "movie": "Hail Mary",
+              "screen": "SCREEN 2",
+              "showid": "7724",
+              "tickets_sold": 2,
+              "time": "09:45 PM",
+              "venue": "Issacs"
+            }
+          ],
+          "gross": 13650,
+          "shows": 17,
+          "tickets_sold": 91
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "Hail Mary",
@@ -442,75 +860,165 @@
               "tickets_sold": 0,
               "time": "12:00 PM",
               "venue": "Girija Theatre"
-            },
-            {
-              "gross": 0,
-              "movie": "Hail Mary",
-              "screen": "Dolby Atmos",
-              "showid": "6215",
-              "tickets_sold": 0,
-              "time": "03:00 PM",
-              "venue": "Girija Theatre"
             }
           ],
-          "shows": 8,
+          "shows": 4,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 1200,
-          "movie": "Hail Mary",
-          "screen": "Dolby Atmos",
-          "showid": "6216",
-          "tickets_sold": 8,
-          "time": "06:30 PM",
-          "venue": "Girija Theatre"
-        },
-        {
-          "gross": 600,
-          "movie": "Hail Mary",
-          "screen": "Screen-3",
-          "showid": "10529",
-          "tickets_sold": 4,
-          "time": "07:00 PM",
-          "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 450,
-          "movie": "Hail Mary",
-          "screen": "Dolby Atmos",
-          "showid": "6217",
-          "tickets_sold": 3,
-          "time": "09:30 PM",
-          "venue": "Girija Theatre"
-        },
-        {
-          "gross": 0,
-          "movie": "Hail Mary",
-          "screen": null,
-          "showid": "20681",
-          "tickets_sold": 0,
-          "time": "11:00 AM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 0,
+          "gross": 2700,
           "movie": "Hail Mary",
           "screen": null,
           "showid": "20683",
-          "tickets_sold": 0,
+          "tickets_sold": 18,
           "time": "06:15 PM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 0,
+          "gross": 1650,
+          "movie": "Hail Mary",
+          "screen": "Dolby Atmos",
+          "showid": "6216",
+          "tickets_sold": 11,
+          "time": "06:30 PM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 1350,
+          "movie": "Hail Mary",
+          "screen": "Screen-3",
+          "showid": "10529",
+          "tickets_sold": 9,
+          "time": "07:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 1350,
+          "movie": "Hail Mary",
+          "screen": "SCREEN 1",
+          "showid": "11336",
+          "tickets_sold": 9,
+          "time": "09:45 PM",
+          "venue": "Harihar"
+        },
+        {
+          "gross": 1200,
           "movie": "Hail Mary",
           "screen": null,
           "showid": "20684",
-          "tickets_sold": 0,
+          "tickets_sold": 8,
           "time": "09:15 PM",
           "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 1050,
+          "movie": "Hail Mary",
+          "screen": "SAMUDRA",
+          "showid": "21759",
+          "tickets_sold": 7,
+          "time": "05:30 PM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 900,
+          "movie": "Hail Mary",
+          "screen": "SCREEN 1",
+          "showid": "11334",
+          "tickets_sold": 6,
+          "time": "11:30 AM",
+          "venue": "Harihar"
+        },
+        {
+          "gross": 750,
+          "movie": "Hail Mary",
+          "screen": "SCREEN 2",
+          "showid": "11338",
+          "tickets_sold": 5,
+          "time": "02:45 PM",
+          "venue": "Harihar"
+        },
+        {
+          "gross": 600,
+          "movie": "Hail Mary",
+          "screen": "Dolby Atmos",
+          "showid": "6217",
+          "tickets_sold": 4,
+          "time": "09:30 PM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 450,
+          "movie": "Hail Mary",
+          "screen": "SAMUDRA",
+          "showid": "21757",
+          "tickets_sold": 3,
+          "time": "11:30 AM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 300,
+          "movie": "Hail Mary",
+          "screen": "SAMUDRA",
+          "showid": "21760",
+          "tickets_sold": 2,
+          "time": "08:30 PM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 300,
+          "movie": "Hail Mary",
+          "screen": "SCREEN 2",
+          "showid": "7721",
+          "tickets_sold": 2,
+          "time": "11:15 AM",
+          "venue": "Issacs"
+        },
+        {
+          "gross": 300,
+          "movie": "Hail Mary",
+          "screen": "SCREEN 2",
+          "showid": "7722",
+          "tickets_sold": 2,
+          "time": "02:15 PM",
+          "venue": "Issacs"
+        },
+        {
+          "gross": 300,
+          "movie": "Hail Mary",
+          "screen": "SCREEN 2",
+          "showid": "7724",
+          "tickets_sold": 2,
+          "time": "09:45 PM",
+          "venue": "Issacs"
+        },
+        {
+          "gross": 150,
+          "movie": "Hail Mary",
+          "screen": null,
+          "showid": "20681",
+          "tickets_sold": 1,
+          "time": "11:00 AM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 150,
+          "movie": "Hail Mary",
+          "screen": "Dolby Atmos",
+          "showid": "6215",
+          "tickets_sold": 1,
+          "time": "03:00 PM",
+          "venue": "Girija Theatre"
+        },
+        {
+          "gross": 150,
+          "movie": "Hail Mary",
+          "screen": "SAMUDRA",
+          "showid": "21758",
+          "tickets_sold": 1,
+          "time": "02:30 PM",
+          "venue": "SFC"
         },
         {
           "gross": 0,
@@ -547,60 +1055,60 @@
           "tickets_sold": 0,
           "time": "12:00 PM",
           "venue": "Girija Theatre"
-        },
-        {
-          "gross": 0,
-          "movie": "Hail Mary",
-          "screen": "Dolby Atmos",
-          "showid": "6215",
-          "tickets_sold": 0,
-          "time": "03:00 PM",
-          "venue": "Girija Theatre"
         }
       ],
-      "shows": 11,
-      "tickets_sold": 15
+      "shows": 21,
+      "tickets_sold": 91
     },
     "Namit Malhotras Ramayana": {
-      "gross": 1950,
+      "gross": 10350,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 1950,
+              "gross": 3000,
               "movie": "Namit Malhotras Ramayana",
               "screen": "Aiswarya",
               "showid": "10495",
-              "tickets_sold": 13,
+              "tickets_sold": 20,
               "time": "10:45 AM",
               "venue": "Aiswarya Cinemas"
-            }
-          ],
-          "gross": 1950,
-          "shows": 1,
-          "tickets_sold": 13
-        },
-        "without_gross": {
-          "breakdown": [
+            },
             {
-              "gross": 0,
+              "gross": 1950,
               "movie": "Namit Malhotras Ramayana",
               "screen": "Aiswarya",
               "showid": "10496",
-              "tickets_sold": 0,
+              "tickets_sold": 13,
               "time": "02:30 PM",
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 0,
+              "gross": 3600,
               "movie": "Namit Malhotras Ramayana",
               "screen": "Aiswarya",
               "showid": "10497",
-              "tickets_sold": 0,
+              "tickets_sold": 24,
               "time": "06:00 PM",
               "venue": "Aiswarya Cinemas"
             },
+            {
+              "gross": 1800,
+              "movie": "Namit Malhotra's Ramayana",
+              "screen": "SCREEN 1",
+              "showid": "7727",
+              "tickets_sold": 12,
+              "time": "06:00 PM",
+              "venue": "Issacs"
+            }
+          ],
+          "gross": 10350,
+          "shows": 4,
+          "tickets_sold": 69
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "Namit Malhotras Ramayana",
@@ -611,37 +1119,46 @@
               "venue": "Aiswarya Cinemas"
             }
           ],
-          "shows": 3,
+          "shows": 1,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 1950,
+          "gross": 3600,
+          "movie": "Namit Malhotras Ramayana",
+          "screen": "Aiswarya",
+          "showid": "10497",
+          "tickets_sold": 24,
+          "time": "06:00 PM",
+          "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 3000,
           "movie": "Namit Malhotras Ramayana",
           "screen": "Aiswarya",
           "showid": "10495",
-          "tickets_sold": 13,
+          "tickets_sold": 20,
           "time": "10:45 AM",
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 0,
+          "gross": 1950,
           "movie": "Namit Malhotras Ramayana",
           "screen": "Aiswarya",
           "showid": "10496",
-          "tickets_sold": 0,
+          "tickets_sold": 13,
           "time": "02:30 PM",
           "venue": "Aiswarya Cinemas"
         },
         {
-          "gross": 0,
-          "movie": "Namit Malhotras Ramayana",
-          "screen": "Aiswarya",
-          "showid": "10497",
-          "tickets_sold": 0,
+          "gross": 1800,
+          "movie": "Namit Malhotra's Ramayana",
+          "screen": "SCREEN 1",
+          "showid": "7727",
+          "tickets_sold": 12,
           "time": "06:00 PM",
-          "venue": "Aiswarya Cinemas"
+          "venue": "Issacs"
         },
         {
           "gross": 0,
@@ -653,32 +1170,41 @@
           "venue": "Aiswarya Cinemas"
         }
       ],
-      "shows": 4,
-      "tickets_sold": 13
+      "shows": 5,
+      "tickets_sold": 69
     },
     "O.M Operation Mole": {
-      "gross": 3600,
+      "gross": 23550,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 600,
+              "gross": 2850,
+              "movie": "O.M Operation Mole",
+              "screen": null,
+              "showid": "20682",
+              "tickets_sold": 19,
+              "time": "02:45 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 3600,
               "movie": "O.M Operation Mole",
               "screen": null,
               "showid": "20689",
-              "tickets_sold": 4,
+              "tickets_sold": 24,
               "time": "10:30 AM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 2550,
-              "movie": "O.M Operation Mole",
-              "screen": null,
-              "showid": "20682",
-              "tickets_sold": 17,
-              "time": "02:45 PM",
-              "venue": "Puthet Cinemas"
+              "gross": 600,
+              "movie": "O.M \u2013 OPERATION MOLE",
+              "screen": "Screen-2",
+              "showid": "10537",
+              "tickets_sold": 4,
+              "time": "07:00 PM",
+              "venue": "Aiswarya Cinemas"
             },
             {
               "gross": 150,
@@ -690,30 +1216,120 @@
               "venue": "Aiswarya Cinemas"
             },
             {
-              "gross": 300,
-              "movie": "O.M \u2013 OPERATION MOLE",
-              "screen": "Screen-2",
-              "showid": "10537",
-              "tickets_sold": 2,
-              "time": "07:00 PM",
-              "venue": "Aiswarya Cinemas"
-            }
-          ],
-          "gross": 3600,
-          "shows": 4,
-          "tickets_sold": 24
-        },
-        "without_gross": {
-          "breakdown": [
-            {
-              "gross": 0,
+              "gross": 1200,
               "movie": "O.M Operation Mole",
               "screen": null,
               "showid": "20692",
-              "tickets_sold": 0,
+              "tickets_sold": 8,
               "time": "09:45 PM",
               "venue": "Puthet Cinemas"
             },
+            {
+              "gross": 1800,
+              "movie": "O.M Operation Mole",
+              "screen": "SAAGARA",
+              "showid": "21753",
+              "tickets_sold": 12,
+              "time": "11:00 AM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 750,
+              "movie": "O.M Operation Mole",
+              "screen": "SAAGARA",
+              "showid": "21754",
+              "tickets_sold": 5,
+              "time": "02:15 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 300,
+              "movie": "O.M Operation Mole",
+              "screen": "SAAGARA",
+              "showid": "21755",
+              "tickets_sold": 2,
+              "time": "05:30 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 4050,
+              "movie": "O.M Operation Mole",
+              "screen": "SAAGARA",
+              "showid": "21756",
+              "tickets_sold": 27,
+              "time": "08:45 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 450,
+              "movie": "O.M Operation Mole",
+              "screen": "SCREEN 3",
+              "showid": "11342",
+              "tickets_sold": 3,
+              "time": "02:30 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 900,
+              "movie": "O.M Operation Mole",
+              "screen": "SCREEN 3",
+              "showid": "11343",
+              "tickets_sold": 6,
+              "time": "06:00 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 300,
+              "movie": "O.M Operation Mole",
+              "screen": "SCREEN 2",
+              "showid": "7723",
+              "tickets_sold": 2,
+              "time": "06:15 PM",
+              "venue": "Issacs"
+            },
+            {
+              "gross": 1800,
+              "movie": "O.M: Operation Mole",
+              "screen": "SCREEN 2",
+              "showid": "9746",
+              "tickets_sold": 12,
+              "time": "10:30 AM",
+              "venue": "Sandhya"
+            },
+            {
+              "gross": 1200,
+              "movie": "O.M: Operation Mole",
+              "screen": "SCREEN 2",
+              "showid": "9747",
+              "tickets_sold": 8,
+              "time": "02:00 PM",
+              "venue": "Sandhya"
+            },
+            {
+              "gross": 1500,
+              "movie": "O.M: Operation Mole",
+              "screen": "SCREEN 2",
+              "showid": "9748",
+              "tickets_sold": 10,
+              "time": "06:30 PM",
+              "venue": "Sandhya"
+            },
+            {
+              "gross": 2100,
+              "movie": "O.M: Operation Mole",
+              "screen": "SCREEN 2",
+              "showid": "9749",
+              "tickets_sold": 14,
+              "time": "10:30 PM",
+              "venue": "Sandhya"
+            }
+          ],
+          "gross": 23550,
+          "shows": 16,
+          "tickets_sold": 157
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "O.M \u2013 OPERATION MOLE",
@@ -731,39 +1347,210 @@
               "tickets_sold": 0,
               "time": "10:15 PM",
               "venue": "Aiswarya Cinemas"
+            },
+            {
+              "gross": 0,
+              "movie": "O.M Operation Mole",
+              "screen": "Cinema-3",
+              "showid": "23636",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "O.M Operation Mole",
+              "screen": "Cinema-2",
+              "showid": "23632",
+              "tickets_sold": 0,
+              "time": "06:00 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 0,
+              "movie": "O.M Operation Mole",
+              "screen": "SCREEN 3",
+              "showid": "11341",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 0,
+              "movie": "O.M Operation Mole",
+              "screen": "SCREEN 3",
+              "showid": "11344",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Harihar"
+            },
+            {
+              "gross": 0,
+              "movie": "O.M Operation Mole",
+              "screen": "SCREEN 1",
+              "showid": "7725",
+              "tickets_sold": 0,
+              "time": "11:00 AM",
+              "venue": "Issacs"
+            },
+            {
+              "gross": 0,
+              "movie": "O.M Operation Mole",
+              "screen": "SCREEN 1",
+              "showid": "7726",
+              "tickets_sold": 0,
+              "time": "02:30 PM",
+              "venue": "Issacs"
+            },
+            {
+              "gross": 0,
+              "movie": "O.M Operation Mole",
+              "screen": "SCREEN 1",
+              "showid": "7728",
+              "tickets_sold": 0,
+              "time": "09:30 PM",
+              "venue": "Issacs"
             }
           ],
-          "shows": 3,
+          "shows": 9,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 2550,
+          "gross": 4050,
           "movie": "O.M Operation Mole",
-          "screen": null,
-          "showid": "20682",
-          "tickets_sold": 17,
-          "time": "02:45 PM",
-          "venue": "Puthet Cinemas"
+          "screen": "SAAGARA",
+          "showid": "21756",
+          "tickets_sold": 27,
+          "time": "08:45 PM",
+          "venue": "SFC"
         },
         {
-          "gross": 600,
+          "gross": 3600,
           "movie": "O.M Operation Mole",
           "screen": null,
           "showid": "20689",
-          "tickets_sold": 4,
+          "tickets_sold": 24,
           "time": "10:30 AM",
           "venue": "Puthet Cinemas"
         },
         {
-          "gross": 300,
+          "gross": 2850,
+          "movie": "O.M Operation Mole",
+          "screen": null,
+          "showid": "20682",
+          "tickets_sold": 19,
+          "time": "02:45 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 2100,
+          "movie": "O.M: Operation Mole",
+          "screen": "SCREEN 2",
+          "showid": "9749",
+          "tickets_sold": 14,
+          "time": "10:30 PM",
+          "venue": "Sandhya"
+        },
+        {
+          "gross": 1800,
+          "movie": "O.M Operation Mole",
+          "screen": "SAAGARA",
+          "showid": "21753",
+          "tickets_sold": 12,
+          "time": "11:00 AM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 1800,
+          "movie": "O.M: Operation Mole",
+          "screen": "SCREEN 2",
+          "showid": "9746",
+          "tickets_sold": 12,
+          "time": "10:30 AM",
+          "venue": "Sandhya"
+        },
+        {
+          "gross": 1500,
+          "movie": "O.M: Operation Mole",
+          "screen": "SCREEN 2",
+          "showid": "9748",
+          "tickets_sold": 10,
+          "time": "06:30 PM",
+          "venue": "Sandhya"
+        },
+        {
+          "gross": 1200,
+          "movie": "O.M Operation Mole",
+          "screen": null,
+          "showid": "20692",
+          "tickets_sold": 8,
+          "time": "09:45 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 1200,
+          "movie": "O.M: Operation Mole",
+          "screen": "SCREEN 2",
+          "showid": "9747",
+          "tickets_sold": 8,
+          "time": "02:00 PM",
+          "venue": "Sandhya"
+        },
+        {
+          "gross": 900,
+          "movie": "O.M Operation Mole",
+          "screen": "SCREEN 3",
+          "showid": "11343",
+          "tickets_sold": 6,
+          "time": "06:00 PM",
+          "venue": "Harihar"
+        },
+        {
+          "gross": 750,
+          "movie": "O.M Operation Mole",
+          "screen": "SAAGARA",
+          "showid": "21754",
+          "tickets_sold": 5,
+          "time": "02:15 PM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 600,
           "movie": "O.M \u2013 OPERATION MOLE",
           "screen": "Screen-2",
           "showid": "10537",
-          "tickets_sold": 2,
+          "tickets_sold": 4,
           "time": "07:00 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 450,
+          "movie": "O.M Operation Mole",
+          "screen": "SCREEN 3",
+          "showid": "11342",
+          "tickets_sold": 3,
+          "time": "02:30 PM",
+          "venue": "Harihar"
+        },
+        {
+          "gross": 300,
+          "movie": "O.M Operation Mole",
+          "screen": "SAAGARA",
+          "showid": "21755",
+          "tickets_sold": 2,
+          "time": "05:30 PM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 300,
+          "movie": "O.M Operation Mole",
+          "screen": "SCREEN 2",
+          "showid": "7723",
+          "tickets_sold": 2,
+          "time": "06:15 PM",
+          "venue": "Issacs"
         },
         {
           "gross": 150,
@@ -773,15 +1560,6 @@
           "tickets_sold": 1,
           "time": "11:00 AM",
           "venue": "Aiswarya Cinemas"
-        },
-        {
-          "gross": 0,
-          "movie": "O.M Operation Mole",
-          "screen": null,
-          "showid": "20692",
-          "tickets_sold": 0,
-          "time": "09:45 PM",
-          "venue": "Puthet Cinemas"
         },
         {
           "gross": 0,
@@ -800,42 +1578,105 @@
           "tickets_sold": 0,
           "time": "10:15 PM",
           "venue": "Aiswarya Cinemas"
+        },
+        {
+          "gross": 0,
+          "movie": "O.M Operation Mole",
+          "screen": "Cinema-3",
+          "showid": "23636",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "O.M Operation Mole",
+          "screen": "Cinema-2",
+          "showid": "23632",
+          "tickets_sold": 0,
+          "time": "06:00 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 0,
+          "movie": "O.M Operation Mole",
+          "screen": "SCREEN 3",
+          "showid": "11341",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Harihar"
+        },
+        {
+          "gross": 0,
+          "movie": "O.M Operation Mole",
+          "screen": "SCREEN 3",
+          "showid": "11344",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Harihar"
+        },
+        {
+          "gross": 0,
+          "movie": "O.M Operation Mole",
+          "screen": "SCREEN 1",
+          "showid": "7725",
+          "tickets_sold": 0,
+          "time": "11:00 AM",
+          "venue": "Issacs"
+        },
+        {
+          "gross": 0,
+          "movie": "O.M Operation Mole",
+          "screen": "SCREEN 1",
+          "showid": "7726",
+          "tickets_sold": 0,
+          "time": "02:30 PM",
+          "venue": "Issacs"
+        },
+        {
+          "gross": 0,
+          "movie": "O.M Operation Mole",
+          "screen": "SCREEN 1",
+          "showid": "7728",
+          "tickets_sold": 0,
+          "time": "09:30 PM",
+          "venue": "Issacs"
         }
       ],
-      "shows": 7,
-      "tickets_sold": 24
+      "shows": 25,
+      "tickets_sold": 157
     },
     "OM:Chapter 1": {
-      "gross": 450,
+      "gross": 1650,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 450,
+              "gross": 1050,
               "movie": "OM:Chapter 1",
               "screen": "SCREEN 1",
               "showid": "5443",
-              "tickets_sold": 3,
+              "tickets_sold": 7,
               "time": "10:30 AM",
               "venue": "Fairyland Cinemas"
-            }
-          ],
-          "gross": 450,
-          "shows": 1,
-          "tickets_sold": 3
-        },
-        "without_gross": {
-          "breakdown": [
+            },
             {
-              "gross": 0,
+              "gross": 600,
               "movie": "OM:Chapter 1",
               "screen": "SCREEN 1",
               "showid": "5444",
-              "tickets_sold": 0,
+              "tickets_sold": 4,
               "time": "02:00 PM",
               "venue": "Fairyland Cinemas"
-            },
+            }
+          ],
+          "gross": 1650,
+          "shows": 2,
+          "tickets_sold": 11
+        },
+        "without_gross": {
+          "breakdown": [
             {
               "gross": 0,
               "movie": "OM:Chapter 1",
@@ -855,26 +1696,26 @@
               "venue": "Fairyland Cinemas"
             }
           ],
-          "shows": 3,
+          "shows": 2,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 450,
+          "gross": 1050,
           "movie": "OM:Chapter 1",
           "screen": "SCREEN 1",
           "showid": "5443",
-          "tickets_sold": 3,
+          "tickets_sold": 7,
           "time": "10:30 AM",
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 0,
+          "gross": 600,
           "movie": "OM:Chapter 1",
           "screen": "SCREEN 1",
           "showid": "5444",
-          "tickets_sold": 0,
+          "tickets_sold": 4,
           "time": "02:00 PM",
           "venue": "Fairyland Cinemas"
         },
@@ -898,20 +1739,29 @@
         }
       ],
       "shows": 4,
-      "tickets_sold": 3
+      "tickets_sold": 11
     },
     "Ramayana": {
-      "gross": 2100,
+      "gross": 80100,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 300,
+              "gross": 2550,
+              "movie": "Ramayana",
+              "screen": "SCREEN 3",
+              "showid": "5448",
+              "tickets_sold": 17,
+              "time": "02:00 PM",
+              "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 600,
               "movie": "Ramayana",
               "screen": "SCREEN 3",
               "showid": "5447",
-              "tickets_sold": 2,
+              "tickets_sold": 4,
               "time": "10:30 AM",
               "venue": "Fairyland Cinemas"
             },
@@ -919,121 +1769,358 @@
               "gross": 1800,
               "movie": "Ramayana",
               "screen": "SCREEN 3",
-              "showid": "5448",
-              "tickets_sold": 12,
-              "time": "02:00 PM",
-              "venue": "Fairyland Cinemas"
-            }
-          ],
-          "gross": 2100,
-          "shows": 2,
-          "tickets_sold": 14
-        },
-        "without_gross": {
-          "breakdown": [
-            {
-              "gross": 0,
-              "movie": "Ramayana",
-              "screen": "SCREEN 3",
               "showid": "5449",
-              "tickets_sold": 0,
+              "tickets_sold": 12,
               "time": "05:45 PM",
               "venue": "Fairyland Cinemas"
             },
             {
-              "gross": 0,
+              "gross": 750,
               "movie": "Ramayana",
               "screen": "SCREEN 3",
               "showid": "5450",
-              "tickets_sold": 0,
+              "tickets_sold": 5,
               "time": "09:30 PM",
               "venue": "Fairyland Cinemas"
+            },
+            {
+              "gross": 6450,
+              "movie": "Ramayana",
+              "screen": "SCREEN 1",
+              "showid": "9742",
+              "tickets_sold": 43,
+              "time": "10:00 AM",
+              "venue": "Sandhya"
+            },
+            {
+              "gross": 9000,
+              "movie": "Ramayana",
+              "screen": "SCREEN 1",
+              "showid": "9743",
+              "tickets_sold": 60,
+              "time": "02:00 PM",
+              "venue": "Sandhya"
+            },
+            {
+              "gross": 56400,
+              "movie": "Ramayana",
+              "screen": "SCREEN 1",
+              "showid": "9744",
+              "tickets_sold": 376,
+              "time": "06:30 PM",
+              "venue": "Sandhya"
+            },
+            {
+              "gross": 2550,
+              "movie": "Ramayana",
+              "screen": "SCREEN 1",
+              "showid": "9745",
+              "tickets_sold": 17,
+              "time": "10:30 PM",
+              "venue": "Sandhya"
             }
           ],
-          "shows": 2,
+          "gross": 80100,
+          "shows": 8,
+          "tickets_sold": 534
+        },
+        "without_gross": {
+          "breakdown": [],
+          "shows": 0,
           "tickets_sold": 0
         }
       },
       "show_breakdown": [
         {
-          "gross": 1800,
+          "gross": 56400,
+          "movie": "Ramayana",
+          "screen": "SCREEN 1",
+          "showid": "9744",
+          "tickets_sold": 376,
+          "time": "06:30 PM",
+          "venue": "Sandhya"
+        },
+        {
+          "gross": 9000,
+          "movie": "Ramayana",
+          "screen": "SCREEN 1",
+          "showid": "9743",
+          "tickets_sold": 60,
+          "time": "02:00 PM",
+          "venue": "Sandhya"
+        },
+        {
+          "gross": 6450,
+          "movie": "Ramayana",
+          "screen": "SCREEN 1",
+          "showid": "9742",
+          "tickets_sold": 43,
+          "time": "10:00 AM",
+          "venue": "Sandhya"
+        },
+        {
+          "gross": 2550,
           "movie": "Ramayana",
           "screen": "SCREEN 3",
           "showid": "5448",
-          "tickets_sold": 12,
+          "tickets_sold": 17,
           "time": "02:00 PM",
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 300,
+          "gross": 2550,
           "movie": "Ramayana",
-          "screen": "SCREEN 3",
-          "showid": "5447",
-          "tickets_sold": 2,
-          "time": "10:30 AM",
-          "venue": "Fairyland Cinemas"
+          "screen": "SCREEN 1",
+          "showid": "9745",
+          "tickets_sold": 17,
+          "time": "10:30 PM",
+          "venue": "Sandhya"
         },
         {
-          "gross": 0,
+          "gross": 1800,
           "movie": "Ramayana",
           "screen": "SCREEN 3",
           "showid": "5449",
-          "tickets_sold": 0,
+          "tickets_sold": 12,
           "time": "05:45 PM",
           "venue": "Fairyland Cinemas"
         },
         {
-          "gross": 0,
+          "gross": 750,
           "movie": "Ramayana",
           "screen": "SCREEN 3",
           "showid": "5450",
-          "tickets_sold": 0,
+          "tickets_sold": 5,
           "time": "09:30 PM",
+          "venue": "Fairyland Cinemas"
+        },
+        {
+          "gross": 600,
+          "movie": "Ramayana",
+          "screen": "SCREEN 3",
+          "showid": "5447",
+          "tickets_sold": 4,
+          "time": "10:30 AM",
           "venue": "Fairyland Cinemas"
         }
       ],
-      "shows": 4,
-      "tickets_sold": 14
+      "shows": 8,
+      "tickets_sold": 534
     },
     "Ramayana (Malayalam)": {
-      "gross": 750,
+      "gross": 49050,
       "occupancy": null,
       "seats_type": {
         "with_gross": {
           "breakdown": [
             {
-              "gross": 300,
+              "gross": 6900,
+              "movie": "Ramayana (Malayalam)",
+              "screen": null,
+              "showid": "20691",
+              "tickets_sold": 46,
+              "time": "06:00 PM",
+              "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 3000,
               "movie": "Ramayana (Malayalam)",
               "screen": null,
               "showid": "20690",
-              "tickets_sold": 2,
+              "tickets_sold": 20,
               "time": "02:00 PM",
               "venue": "Puthet Cinemas"
             },
             {
-              "gross": 450,
+              "gross": 2400,
               "movie": "Ramayana (Malayalam)",
               "screen": null,
-              "showid": "20691",
-              "tickets_sold": 3,
-              "time": "06:00 PM",
+              "showid": "20688",
+              "tickets_sold": 16,
+              "time": "09:30 PM",
               "venue": "Puthet Cinemas"
+            },
+            {
+              "gross": 3000,
+              "movie": "Ramayana 3D (Malayalam)",
+              "screen": "Cinema-1",
+              "showid": "23630",
+              "tickets_sold": 20,
+              "time": "06:00 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 1650,
+              "movie": "Ramayana 3D (Malayalam)",
+              "screen": "Cinema-1",
+              "showid": "23631",
+              "tickets_sold": 11,
+              "time": "09:30 PM",
+              "venue": "Davis Theatre"
+            },
+            {
+              "gross": 4950,
+              "movie": "Ramayana ( Malayalam )",
+              "screen": "SAVITHA",
+              "showid": "21743",
+              "tickets_sold": 33,
+              "time": "10:30 AM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 6150,
+              "movie": "Ramayana ( Malayalam )",
+              "screen": "SAVITHA",
+              "showid": "21744",
+              "tickets_sold": 41,
+              "time": "02:15 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 14700,
+              "movie": "Ramayana ( Malayalam )",
+              "screen": "SAVITHA",
+              "showid": "21745",
+              "tickets_sold": 98,
+              "time": "06:00 PM",
+              "venue": "SFC"
+            },
+            {
+              "gross": 6300,
+              "movie": "Ramayana ( Malayalam )",
+              "screen": "SAVITHA",
+              "showid": "21746",
+              "tickets_sold": 42,
+              "time": "09:45 PM",
+              "venue": "SFC"
             }
           ],
-          "gross": 750,
-          "shows": 2,
-          "tickets_sold": 5
+          "gross": 49050,
+          "shows": 9,
+          "tickets_sold": 327
+        },
+        "without_gross": {
+          "breakdown": [],
+          "shows": 0,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 14700,
+          "movie": "Ramayana ( Malayalam )",
+          "screen": "SAVITHA",
+          "showid": "21745",
+          "tickets_sold": 98,
+          "time": "06:00 PM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 6900,
+          "movie": "Ramayana (Malayalam)",
+          "screen": null,
+          "showid": "20691",
+          "tickets_sold": 46,
+          "time": "06:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 6300,
+          "movie": "Ramayana ( Malayalam )",
+          "screen": "SAVITHA",
+          "showid": "21746",
+          "tickets_sold": 42,
+          "time": "09:45 PM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 6150,
+          "movie": "Ramayana ( Malayalam )",
+          "screen": "SAVITHA",
+          "showid": "21744",
+          "tickets_sold": 41,
+          "time": "02:15 PM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 4950,
+          "movie": "Ramayana ( Malayalam )",
+          "screen": "SAVITHA",
+          "showid": "21743",
+          "tickets_sold": 33,
+          "time": "10:30 AM",
+          "venue": "SFC"
+        },
+        {
+          "gross": 3000,
+          "movie": "Ramayana (Malayalam)",
+          "screen": null,
+          "showid": "20690",
+          "tickets_sold": 20,
+          "time": "02:00 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 3000,
+          "movie": "Ramayana 3D (Malayalam)",
+          "screen": "Cinema-1",
+          "showid": "23630",
+          "tickets_sold": 20,
+          "time": "06:00 PM",
+          "venue": "Davis Theatre"
+        },
+        {
+          "gross": 2400,
+          "movie": "Ramayana (Malayalam)",
+          "screen": null,
+          "showid": "20688",
+          "tickets_sold": 16,
+          "time": "09:30 PM",
+          "venue": "Puthet Cinemas"
+        },
+        {
+          "gross": 1650,
+          "movie": "Ramayana 3D (Malayalam)",
+          "screen": "Cinema-1",
+          "showid": "23631",
+          "tickets_sold": 11,
+          "time": "09:30 PM",
+          "venue": "Davis Theatre"
+        }
+      ],
+      "shows": 9,
+      "tickets_sold": 327
+    },
+    "Ramayana 3D": {
+      "gross": 450,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [
+            {
+              "gross": 450,
+              "movie": "Ramayana 3D",
+              "screen": "SCREEN 1",
+              "showid": "11332",
+              "tickets_sold": 3,
+              "time": "06:00 PM",
+              "venue": "Harihar"
+            }
+          ],
+          "gross": 450,
+          "shows": 1,
+          "tickets_sold": 3
         },
         "without_gross": {
           "breakdown": [
             {
               "gross": 0,
-              "movie": "Ramayana (Malayalam)",
-              "screen": null,
-              "showid": "20688",
+              "movie": "Ramayana 3D",
+              "screen": "SCREEN 1",
+              "showid": "11335",
               "tickets_sold": 0,
-              "time": "09:30 PM",
-              "venue": "Puthet Cinemas"
+              "time": "02:30 PM",
+              "venue": "Harihar"
             }
           ],
           "shows": 1,
@@ -1043,46 +2130,123 @@
       "show_breakdown": [
         {
           "gross": 450,
-          "movie": "Ramayana (Malayalam)",
-          "screen": null,
-          "showid": "20691",
+          "movie": "Ramayana 3D",
+          "screen": "SCREEN 1",
+          "showid": "11332",
           "tickets_sold": 3,
           "time": "06:00 PM",
-          "venue": "Puthet Cinemas"
-        },
-        {
-          "gross": 300,
-          "movie": "Ramayana (Malayalam)",
-          "screen": null,
-          "showid": "20690",
-          "tickets_sold": 2,
-          "time": "02:00 PM",
-          "venue": "Puthet Cinemas"
+          "venue": "Harihar"
         },
         {
           "gross": 0,
-          "movie": "Ramayana (Malayalam)",
-          "screen": null,
-          "showid": "20688",
+          "movie": "Ramayana 3D",
+          "screen": "SCREEN 1",
+          "showid": "11335",
           "tickets_sold": 0,
-          "time": "09:30 PM",
-          "venue": "Puthet Cinemas"
+          "time": "02:30 PM",
+          "venue": "Harihar"
         }
       ],
-      "shows": 3,
-      "tickets_sold": 5
+      "shows": 2,
+      "tickets_sold": 3
+    },
+    "Ramayana: Part 1": {
+      "gross": 20700,
+      "occupancy": null,
+      "seats_type": {
+        "with_gross": {
+          "breakdown": [
+            {
+              "gross": 900,
+              "movie": "Ramayana: Part 1",
+              "screen": "SCREEN 1",
+              "showid": "9966",
+              "tickets_sold": 6,
+              "time": "10:30 AM",
+              "venue": "Jose"
+            },
+            {
+              "gross": 1350,
+              "movie": "Ramayana: Part 1",
+              "screen": "SCREEN 1",
+              "showid": "9961",
+              "tickets_sold": 9,
+              "time": "02:00 PM",
+              "venue": "Jose"
+            },
+            {
+              "gross": 8850,
+              "movie": "Ramayana: Part 1",
+              "screen": "SCREEN 1",
+              "showid": "9962",
+              "tickets_sold": 59,
+              "time": "05:30 PM",
+              "venue": "Jose"
+            },
+            {
+              "gross": 9600,
+              "movie": "Ramayana: Part 1",
+              "screen": "SCREEN 1",
+              "showid": "9963",
+              "tickets_sold": 64,
+              "time": "09:00 PM",
+              "venue": "Jose"
+            }
+          ],
+          "gross": 20700,
+          "shows": 4,
+          "tickets_sold": 138
+        },
+        "without_gross": {
+          "breakdown": [],
+          "shows": 0,
+          "tickets_sold": 0
+        }
+      },
+      "show_breakdown": [
+        {
+          "gross": 9600,
+          "movie": "Ramayana: Part 1",
+          "screen": "SCREEN 1",
+          "showid": "9963",
+          "tickets_sold": 64,
+          "time": "09:00 PM",
+          "venue": "Jose"
+        },
+        {
+          "gross": 8850,
+          "movie": "Ramayana: Part 1",
+          "screen": "SCREEN 1",
+          "showid": "9962",
+          "tickets_sold": 59,
+          "time": "05:30 PM",
+          "venue": "Jose"
+        },
+        {
+          "gross": 1350,
+          "movie": "Ramayana: Part 1",
+          "screen": "SCREEN 1",
+          "showid": "9961",
+          "tickets_sold": 9,
+          "time": "02:00 PM",
+          "venue": "Jose"
+        },
+        {
+          "gross": 900,
+          "movie": "Ramayana: Part 1",
+          "screen": "SCREEN 1",
+          "showid": "9966",
+          "tickets_sold": 6,
+          "time": "10:30 AM",
+          "venue": "Jose"
+        }
+      ],
+      "shows": 4,
+      "tickets_sold": 138
     }
   },
   "verification": {
     "merged_movies": [
-      {
-        "aliases": [
-          "O.M Operation Mole",
-          "O.M \u2013 OPERATION MOLE",
-          "O.M: Operation Mole"
-        ],
-        "canonical": "O.M Operation Mole"
-      },
       {
         "aliases": [
           "Namit Malhotra's Ramayana",
@@ -1099,42 +2263,9 @@
       },
       {
         "aliases": [
-          "Ramayana ( Malayalam )",
-          "Ramayana (Malayalam)",
-          "Ramayana 3D (Malayalam)"
-        ],
-        "canonical": "Ramayana (Malayalam)"
-      },
-      {
-        "aliases": [
-          "Bachelor Party D'eux",
           "Bachelor Party D\u2019eux"
         ],
-        "canonical": "Bachelor Party D'eux"
-      },
-      {
-        "aliases": [
-          "OM:Chapter 1"
-        ],
-        "canonical": "OM:Chapter 1"
-      },
-      {
-        "aliases": [
-          "Bauma"
-        ],
-        "canonical": "Bauma"
-      },
-      {
-        "aliases": [
-          "Ramayana: Part 1"
-        ],
-        "canonical": "Ramayana: Part 1"
-      },
-      {
-        "aliases": [
-          "AOT (Malayalam)"
-        ],
-        "canonical": "AOT (Malayalam)"
+        "canonical": "Bachelor Party D\u2019eux"
       },
       {
         "aliases": [
@@ -1144,15 +2275,17 @@
       },
       {
         "aliases": [
-          "Bouma"
-        ],
-        "canonical": "Bouma"
-      },
-      {
-        "aliases": [
           "Ramayana"
         ],
         "canonical": "Ramayana"
+      },
+      {
+        "aliases": [
+          "O.M Operation Mole",
+          "O.M \u2013 OPERATION MOLE",
+          "O.M: Operation Mole"
+        ],
+        "canonical": "O.M Operation Mole"
       },
       {
         "aliases": [
@@ -1162,15 +2295,47 @@
       },
       {
         "aliases": [
-          "Ramayana 3D"
+          "AOT (Malayalam)"
         ],
-        "canonical": "Ramayana 3D"
+        "canonical": "AOT (Malayalam)"
+      },
+      {
+        "aliases": [
+          "Ramayana ( Malayalam )",
+          "Ramayana (Malayalam)",
+          "Ramayana 3D (Malayalam)"
+        ],
+        "canonical": "Ramayana (Malayalam)"
       },
       {
         "aliases": [
           "AOT"
         ],
         "canonical": "AOT"
+      },
+      {
+        "aliases": [
+          "Ramayana 3D"
+        ],
+        "canonical": "Ramayana 3D"
+      },
+      {
+        "aliases": [
+          "Ramayana: Part 1"
+        ],
+        "canonical": "Ramayana: Part 1"
+      },
+      {
+        "aliases": [
+          "OM:Chapter 1"
+        ],
+        "canonical": "OM:Chapter 1"
+      },
+      {
+        "aliases": [
+          "Bouma"
+        ],
+        "canonical": "Bouma"
       }
     ]
   }
